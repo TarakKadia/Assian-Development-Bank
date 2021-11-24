@@ -1,0 +1,107 @@
+<footer>
+  <div id="ios-prompt">
+    <div class="prompt-dialogue">
+      <p class="prompt-close">×</p>
+      <p id="ios-incapable">To add the Annual Report to your iPhone/iPad please use the Safari web browser.</p>
+      <p id="ios-capable">To add the Annual Report to your iPhone/iPad press and
+        then <strong>Add to Home Screen</strong>.</p>
+    </div>
+  </div>
+  <div id="body-overlay" [ngClass]="{'display-block': isShowMenu}" (click)="showMenu()"></div>
+  <nav id="real-menu" class="real-menu" [ngClass]="{'show-menu': isShowMenu}">
+    <ul style="cursor: pointer;">
+      <li>
+        <a [routerLink]="['/']">Home</a>
+      </li>
+      <li>
+        <a (click)="goToPresidentsMessage()">President's Message</a>
+      </li>
+      <li>
+        <a (click)="goToBoardOfDirectors()">Board of Directors</a>
+      </li>
+      <li>
+        <a (click)="goToFinancialHighlights()">Financial Highlights</a>
+      </li>
+      <li>
+        <a (click)="goToReport(1)">1. Supporting COVID‑19 Response <br>and Recovery</a>
+      </li>
+      <li>
+        <a (click)="goToReport(2)">2. Regions</a>
+      </li>
+      <li class="submenu">
+        <a (click)="goToReport(10)">Central and West Asia</a>
+      </li>
+      <li class="submenu">
+        <a (click)="goToReport(11)">East Asia</a>
+      </li>
+      <li class="submenu">
+        <a (click)="goToReport(12)">Pacific</a>
+      </li>
+      <li class="submenu">
+        <a (click)="goToReport(13)">South Asia</a>
+      </li>
+      <li class="submenu last">
+        <a (click)="goToReport(14)">Southeast Asia</a>
+      </li>
+      <li>
+        <a (click)="goToReport(3)">3. Partnering With the Private Sector</a>
+      </li>
+      <li>
+        <a (click)="goToReport(4)">4. Organizational Effectiveness</a>
+      </li>
+      <li>
+        <a (click)="goToAppendixes()">Appendixes</a>
+      </li>
+      <li class="findmore">
+        Find more information on adb.org:
+        <ul>
+          <li><a href="https://www.adb.org/sites/default/files/institutional-document/691766/adb-annual-report-2020.pdf"
+              class="sub-nav find-more" target="_blank">Annual Report (PDF)</a>
+          </li>
+          <li><a
+              href="https://www.adb.org/sites/default/files/institutional-document/691766/adb-financial-report-2020.pdf"
+              class="sub-nav find-more" target="_blank">Financial Report (PDF)</a>
+          </li>
+          <li><a href="https://www.adb.org/documents/adb-annual-report-2020/#operational" class="sub-nav find-more"
+              target="_blank">Operational
+              Data</a>
+          </li>
+          <li><a href="https://www.adb.org/documents/adb-annual-report-2020/#organizational" class="sub-nav find-more"
+              target="_blank">Organizational Information</a>
+          </li>
+          <li><a href="https://www.adb.org/publications/series/fact-sheets" class="sub-nav find-more"
+              target="_blank">ADB Member Fact Sheets</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="footergroup">
+    <div id="open-menu" (click)="showMenu()">
+      <span>Menu</span>
+    </div>
+    <div class="copyright">
+      <a [routerLink]="['/']">ADB&nbsp;Annual&nbsp;Report&nbsp;<span>2020</span></a>
+    </div>
+    <div id="social-share" class="share" (click)="openSocialMenu()">
+      <span>Share</span>
+    </div>
+  </div>
+  <div id="social-overlay" [ngClass]="{'display-block': isSocialMenu}" (click)="openSocialMenu()"></div>
+  <div id="social-pop" [ngClass]="{'social-menu': isSocialMenu}">
+    <ul class="social-list">
+      <li class="facebook-share"><a
+          href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital" target="_blank"
+          rel="noopener noreferrer">FACEBOOK</a></li>
+      <li class="twitter-share"><a
+          href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital" target="_blank"
+          rel="noopener noreferrer">TWITTER</a></li>
+      <li class="linkedin-share"><a
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital"
+          target="_blank" rel="noopener noreferrer">LINKEDIN</a></li>
+      <li class="email-share"><a
+          href="mailto:?subject=ADB Annual Report 2020&amp;body=The Asian Development Bank 2020 Annual Report is now available for smart devices and screens at: https://www.adb.org/ar2020/digital."
+          target="_blank" rel="noopener noreferrer">EMAIL</a></li>
+    </ul>
+  </div>
+</footer>

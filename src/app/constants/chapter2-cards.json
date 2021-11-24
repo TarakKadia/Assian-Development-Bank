@@ -1,0 +1,32 @@
+[
+    {
+        "id": 10,
+        "title": "CENTRAL AND WEST ASIA",
+        "content": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
+        "imageUrl": "./assets/images/cwrd_photo1.jpg"
+    },
+    {
+        "id":11,
+        "title": "EAST ASIA",
+        "content": "The People’s Republic of China, Mongolia",
+        "imageUrl": "./assets/images/eard_photo1.jpg"
+    },
+    {
+        "id":12,
+        "title": "PACIFIC",
+        "content": "The Cook Islands, Fiji, Kiribati, the Marshall Islands, the Federated States of Micronesia, Nauru, Niue, Palau, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Tuvalu, Vanuatu",
+        "imageUrl": "./assets/images/pard_photo1.jpg"
+    },
+    {
+        "id":13,
+        "title": "SOUTH ASIA",
+        "content": "Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka",
+        "imageUrl": "./assets/images/sard_photo1.jpg"
+    },
+    {
+        "id": 14,
+        "title": "SOUTHEAST ASIA",
+        "content": "Cambodia, Indonesia, the Lao People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Thailand, Viet Nam",
+        "imageUrl": "./assets/images/serd_photo1.jpg"
+   }
+]

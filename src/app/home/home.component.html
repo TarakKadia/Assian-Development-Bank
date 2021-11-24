@@ -1,0 +1,66 @@
+<div *ngIf="loading" class="loader">
+  <div class="loader__element"></div>
+</div>
+    <div class="homegroup">
+
+      <div class="imagereplace">
+        <h1>
+          Asian Development Bank Annual Report 2020
+        </h1>
+      </div>
+
+      <div class="smallgrid">
+        <div class="greybutton" *ngFor="let data of smallCards">
+          <app-side-menu *ngIf="data.type === 'small-card'" [data]="data.data" (click)="goToSideMenu(data.id)">
+          </app-side-menu>
+        </div>
+
+        <div class="financialgroup">
+          <div *ngFor="let data of counterCardsJsonData">
+            <app-counter-card *ngIf="data.type === 'counter-card'" [duration]="1500" [digit]="data.money"
+              [data]="data.data" [currency]="data.currency" [money]="data.money" [letter]="data.letter" [id]="data.id"
+              (click)="goToFinancialHighlights()"></app-counter-card>
+          </div>
+        </div>
+      </div>
+
+      <div class="maingrid">
+        <div class="chapterbox" *ngFor="let data of chapterCards" (click)="goToReport(data.id)">
+          <div class="chapterimage">
+            <img src="assets/images/{{data.img}}">
+          </div>
+          <div class="chaptertext">
+            <div class="chaptertextgroup">
+
+              <p class="chaptersub">
+                {{data.data}}
+              </p>
+              <p class="chapterblurb">{{data.content}}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="extralinks">          
+          <div class="greybutton" (click)="goToAppendixes()">
+            <p class="chaptersub">
+              Appendixes
+            </p>
+          </div>
+          
+          <div class="downloads">
+            <p class="downloadlabel">Download:
+            </p>
+            <p class="ar">
+              <a href="https://www.adb.org/sites/default/files/institutional-document/691766/adb-annual-report-2020.pdf"
+                target="_blank">Annual Report (PDF)</a>
+            </p>
+            <p class="fr">
+              <a href="https://www.adb.org/sites/default/files/institutional-document/691766/adb-financial-report-2020.pdf"
+                target="_blank">Financial Report (PDF)</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>

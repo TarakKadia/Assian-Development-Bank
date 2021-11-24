@@ -1,0 +1,21 @@
+{
+    "dynamic": {
+        "group": [
+            {
+                "name": "json data",
+                "urls": {
+                    "src/app/constants/" : {
+                        "match": "prefix"
+                    }
+                },
+                "cache": {
+                    "optimizeFor": "performance",
+                    "maxAgeMx": 3600000,
+                    "maxEntries": 50,
+                    "strategy": "lru"
+                }
+            }
+        ]
+    }
+}
+

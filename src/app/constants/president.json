@@ -1,0 +1,84 @@
+[
+    {
+        "heading": "PRESIDENT'S MESSAGE",
+        "data": "",
+        "tag": "",
+        "type": "singleHeading"
+    },
+    {
+        "image": "pres/pres_asakawa.jpg",
+        "data": "I am pleased to present this Annual Report as a comprehensive account of the activities and financial results of the Asian Development Bank (ADB) in 2020—an unprecedented year for the people of Asia and the Pacific, our staff, and the world.",
+        "type": "image"
+    },
+    {
+        "data": "I am pleased to present this Annual Report as a comprehensive account of the activities and financial results of the Asian Development Bank (ADB) in 2020—an unprecedented year for the people of Asia and the Pacific, our staff, and the world.",
+        "type": "paragraph"
+    },
+    {
+        "data": "For over 50 years, ADB has worked hard to help our developing member countries tackle many development challenges. The coronavirus disease (COVID‑19) outbreak has caused a tragic loss of life and exacted a heavy economic toll that has fallen hardest on the poor and other vulnerable groups. The pandemic now threatens to reverse the region’s hard-earned development gains.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB’s assistance is bolstering health systems, protecting vulnerable groups, supporting small businesses, and laying the path for recovery.",
+        "type": "quote"
+    },
+    {
+        "data": "This Annual Report illustrates ADB’s rapid and effective response to these challenges. From the very early stage of the pandemic, ADB provided support to address the health emergency, followed by a comprehensive $20 billion COVID‑19 response package in April. By the end of 2020, quick-disbursing financing under ADB’s new COVID‑19 Pandemic Response Option had provided rapid fiscal support to 26 countries. ADB’s assistance is bolstering health systems, protecting vulnerable groups, supporting small businesses, and laying the path for recovery. We launched a $9 billion Asia Pacific Vaccine Access Facility in December. All these measures are crucial for getting economies through the pandemic and back on their feet.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Given the unparalleled needs, we committed a record $31.6 billion in loans, grants, equity investments, guarantees, and technical assistance in 2020, both to governments and to the private sector—of which $16.1 billion was for COVID‑19 response. Our nonsovereign investments totaled $4.5 billion, including $2.9 billion for COVID‑19 response. Furthermore, we bolstered our total support with record project cofinancing of $16.4 billion, of which $10.8 billion was pandemic related.",
+        "type": "paragraph"
+    },
+    {
+        "image": "pres/pres_photo1.jpg",
+        "tag": "Visiting the front line of the Philippines’ Bayan Bayanihan emergency food program on 6 April 2020, ADB President Masatsugu Asakawa helps deliver urgently needed supplies to the poor in the Pinagsama neighborhood of Metro Manila.",
+        "type": "image"
+    },
+    {
+        "data": "Even during the peak of the pandemic, our operations did not lose focus on the goals of Strategy 2030. For example, we remain on track to achieve our target of promoting gender equality in at least 75% of ADB’s operations. In 2020, we provided $4.3 billion in climate finance and remain unwavering in our commitment to our target of providing $80 billion in cumulative financing by 2030. Private sector operations made up 21% of the number of ADB’s total operations, relative to a target of one third by 2024.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Our knowledge work accelerated in 2020. A new online mapping tool is helping to unblock medical supply chain bottlenecks, while a new policy database, coupled with ongoing COVID‑19 economic analysis, is helping decision-makers develop effective COVID‑19 responses. We hosted a number of valuable online events, drawing active participation from policymakers, academics, and development professionals. We also held our ADB Annual Meeting virtually for the first time, thanks to the flexible support from the Chair of the Board of Governors, the Deputy Prime Minister and Minister of Economy and Finance of the Republic of Korea, and his staff members.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Our 2020 operations, requiring a record-high borrowing program of over $35 billion, including thematic and local currency bonds, were possible with the strong and steady support of our Board. I am equally grateful to our donors, who agreed to a more-than $4 billion replenishment of the Asian Development Fund 13. This replenishment will help our poorest members over 2021–2024 as they emerge from the pandemic and tackle transformational agendas including promoting gender equity, regional public goods, debt sustainability, and quality infrastructure. I similarly appreciate the cooperation of our bilateral and multilateral development partners including international financial institution peers, United Nations agencies, and leading health organizations.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Internally, our previous investments in digital transformation and crisis planning ensured safe and seamless business continuity after most ADB staff shifted to remote working in mid-March. I salute our hardworking ADB employees and our supportive Management who adapted rapidly to the new work normal and toiled long and hard to ensure swift and tailored one ADB operational responses for our developing members. Meanwhile, a new Culture Transformation Initiative launched in November 2020 will help to reshape the values ADB needs to remain effective, innovative, and collaborative in the longer term.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Even during the peak of the pandemic, our operations did not lose focus on the goals of Strategy 2030. For example, we remain on track to achieve our target of promoting gender equality in at least 75% of ADB’s operations. In 2020, we provided $4.3 billion in climate finance and remain unwavering in our commitment to our target of providing $80 billion in cumulative financing by 2030. Private sector operations made up 21% of the number of ADB’s total operations, relative to a target of one third by 2024.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB pivoted swiftly to answer the needs of our developing members in 2020, and we will remain agile and responsive in the years ahead. Together with our members and development partners, we will achieve a strong recovery from COVID‑19 and continue our journey toward a more prosperous, inclusive, resilient, and sustainable Asia and the Pacific.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB pivoted swiftly to answer the needs of our developing members in 2020, and we will remain agile and responsive in the years ahead. Together with our members and development partners, we will achieve a strong recovery from COVID‑19 and continue our journey toward a more prosperous, inclusive, resilient, and sustainable Asia and the Pacific.",
+        "type": "paragraph"
+    },
+    {
+        "signature": "assets/images/pres/president_sig.png",
+        "name": "MASATSUGU ASAKAWA",
+        "para1": "President and Chairperson",
+        "para2": "of the Board of Directors",
+        "type": "signature"
+    },
+    {
+        "title": "MANAGEMENT TEAM",
+        "imageGrid": "assets/images/pres/mgmt_all.jpg",
+        "tagLine": "Left to right: Vice-Presidents Bambang Susantono, Deborah Stokes, Ingrid van Wees, Shixin Chen, Ahmed M. Saeed, Ashok Lavasa; The Secretary Eugenue Zhukov.",
+        "type": "footer"
+    },
+    {
+        "title": "Next",
+        "data":"Board of directors",
+        "type":"button"
+    }
+]

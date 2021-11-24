@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "data": "Total ADB Operations",
+        "currency": "$",
+        "money": 31.6,
+        "letter": "B",
+        "type": "counter-card"
+    },
+    {
+        "id": 2,
+        "data": "Cofinancing, Including Trust Funds",
+        "currency": "$",
+        "money": 16.4,
+        "letter": "B",
+        "type": "counter-card"
+    }
+
+    
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "data": "PRESIDENT’S MESSAGE",
+        "type": "small-card"
+    },
+    {
+        "id": 2,
+        "data": "BOARD OF DIRECTORS",
+        "type": "small-card"
+    },
+    {
+        "id": 3,
+        "data": "FINANCIAL HIGHLIGHTS",
+        "type": "small-card",
+        "url": "financial-highlights"
+    }
+]

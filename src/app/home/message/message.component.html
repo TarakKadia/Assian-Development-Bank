@@ -1,0 +1,32 @@
+<div *ngIf="loading" class="loader">
+  <div class="loader__element"></div>
+</div>
+<div class="content">
+  <div class="content">
+    <div *ngFor="let data of data">
+      <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
+      <div class="president" style="display: flex;">
+        <app-image [image]="data.image" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
+      </div>
+      <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+      <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
+      <app-signature [signature]="data.signature" [name]="data.name" [para1]="data.para1" [para2]="data.para2"
+        *ngIf="data.type=='signature'"></app-signature>
+    </div>
+
+    <div class="management box">
+      <h3>
+        {{title}}
+      </h3>
+      <img src="{{imageGrid}}">
+      <p class="caption">
+        {{tagLine}}
+      </p>
+    </div>
+    
+    <div *ngFor="let data of data">
+        <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title" (click)="goToNextChapter()"></app-button>
+      </div>
+  </div>
+</div>
+<br><br><br><br><br><br><br>

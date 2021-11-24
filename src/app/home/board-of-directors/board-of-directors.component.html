@@ -1,0 +1,42 @@
+<div *ngIf="loading" class="loader">
+  <div class="loader__element"></div>
+</div>
+<div class="content">
+  
+  <div *ngFor="let data of data">
+      <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
+      <h3 class="directors">{{data.subTitle}}</h3>
+
+      <h4>{{data.subTitle}}</h4>
+
+      <div class="boardpics" *ngIf="data.type == 'image'">
+        <img [src]="data.img1">
+        <img [src]="data.img2">
+        <img [src]="data.img3">
+        <img [src]="data.img4">
+        <img [src]="data.img5">
+        <img [src]="data.img6">
+        <img [src]="data.img7">
+        <img [src]="data.img8">
+        <img [src]="data.img9">
+        <img [src]="data.img10">
+        <img [src]="data.img11">
+        <img [src]="data.img12">
+        </div>
+        <p class="caption">{{data.tag}}</p>
+
+        <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+        <div class="box board" *ngIf="data.type=='insideheading'">
+          <h4>{{data.data}}</h4>
+          <p>{{data.para1}}</p>
+        </div>
+
+        <div *ngIf="data.type == 'secondHeading'" style="margin-bottom: -30px;">
+          <h3>{{data.data}}</h3>
+        </div>
+
+        <app-button *ngIf="data.type=='button'" [data]="data.data" [title]="data.title" (click)="goToNextChapter()"></app-button>
+    </div>
+</div>
+
+<br><br><br><br><br><br><br><br><br>

@@ -1,0 +1,344 @@
+[
+    {
+        "data": "REGIONS:SOUTH ASIA",
+        "country": " Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka",
+        "type": "regionHeading"
+    },
+    
+    {
+        "data":"india.jpg",
+        "tag":"Children in India study by the light of off-grid solar power. ADB made further private sector investments in India’s solar power industry, including support to Avaada Energy Private Limited, which provides off-grid  solar facilities, and $65.5 million to the ENGIE group for a new 200-megawatt solar power plant in Gujarat.",
+        "type":"image"
+    },
+    {
+        "heading": "BY THE NUMBERS: South Asia",
+        "symbol":"$",
+
+        "digit1":9.0,
+        "tag1":"COMMITTED",
+        
+        "digit2":4.0,
+        "tag2":"COVID‑19<br>RESPONSE",
+       
+        "digit3":6.8,
+        "tag3":"DISBURSED",
+       
+        "digit4":4.4,
+        "tag4":"COFINANCED",
+
+        "sign":"B",
+        "type":"regionCounter"
+    },
+    {
+        "data":"The economies of South Asia struggled during 2020 as COVID‑19 spread throughout the region, deeply affecting lives and livelihoods. Strict lockdowns disrupted economic activities, supply chains, and external demand. Countries that rely on international tourism, such as <a href='https://www.adb.org/countries/maldives/main' target='_blank'>Maldives</a>, <a href='https://www.adb.org/countries/nepal/main' target='_blank'>Nepal</a>, and <a href='https://www.adb.org/countries/sri-lanka/main' target='_blank'>Sri Lanka</a>, were particularly hard hit by border closures.",
+        "type":"paragraph"
+    },
+    {
+        "data":"Countries in South Asia quickly initiated emergency measures augmenting health-care systems, while providing  immediate relief through social protection systems to help guarantee food, housing, energy, and jobs to affected people, particularly the poor and vulnerable. South Asian countries announced policy packages totaling $428.5 billion or 12.7% of regional gross domestic product.",
+        "type":"paragraph"
+    },
+    {
+        "data":"Including technical assistance, ADB committed a total of $9.0 billion for the South Asia region in 2020, up  by 24% from 2019. Sovereign financing was complemented by $479.4 million support for 11 nonsovereign projects  for companies in the finance, energy, and agriculture sectors, particularly in <a href='https://www.adb.org/countries/india/main' target='_blank'>India</a> and <a href='https://www.adb.org/countries/bangladesh/main' target='_blank'>Bangladesh</a>, and $1.3  billion across three nonsovereign programs. Through its support for the private sector in South Asia, ADB  ensures that projects deliver on development goals while promoting environmental sustainability, social protection, and good governance.",
+        "type":"paragraph"
+    },
+    {
+        "data":"<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%249%20billion%20in%20South%20Asia%2C%20of%20which%20%244%20billion%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $9 billion in South Asia, of which $4 billion supported COVID-19 response.</a>",
+        "type":"twitter"
+    },
+    {
+        "data":"ADB’s COVID‑19 response in South Asia amounted to around 44% of its commitments in the region in 2020.Initially, technical assistance and <a href='https://www.adb.org/what-we-do/funds/asia-pacific-disaster-response-fund-apdrf' target='_blank'>Asia Pacific Disaster Response Fund</a> grants supported emergency procurement of medical supplies and personal protective equipment. ADB’s COVID‑19 Active Response and Expenditure Support (CARES) Program and emergency assistance loans totaling $2.4 billion followed.",
+        "type":"paragraph"
+    },
+
+    {
+        "heading": "In 2020, ADB’s commitments in this region were primarily in the following sectors: ",
+      
+        "digit1":22,
+        "tag1":"ENERGY",
+        
+        "digit2":20,
+        "tag2":"PUBLIC SECTOR MANAGEMENT",
+       
+        "digit3":15,
+        "tag3":"TRANSPORT",
+       
+        "digit4":14,
+        "tag4":"FINANCE",
+
+        "digit5":9,
+        "tag5":"WATER AND OTHER URBAN INFRASTRUCTURE SERVICES",
+
+        "sign":"%",
+        "type":"currencyCounter"
+    },
+    {
+        "data": "STRATEGIC FOCUS",
+        "type": "heading"
+      },
+    {
+        "data":"sard_s2030.png",
+        "type":"image"
+    },
+    {
+        "data":"Addressing Remaining Poverty and<br>Reducing Inequalities",
+        "image":"op1_color.png",
+        "type":"logoHeading"
+    },
+    {
+        "data":"In South Asia, ADB addresses poverty and inequality through operations in agriculture and natural resources,  human development, and strengthening micro, small, and medium-sized enterprises (MSMEs). The bank is also progressively increasing assistance for education and skills development.",
+        "type":"paragraph"
+    },
+    {
+        "data":"In <a href='https://www.adb.org/countries/bhutan/main' target='_blank'>Bhutan</a>, 62% of the population lives in rural areas where agriculture is the primary source of livelihoods.  ADB is therefore supporting a rural finance development project through a $20 million concessional loan and $1  million in technical assistance to enhance access to finance for cottage and small industries, increasing  rural jobs and promoting economic development.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB also committed $30 million for a program to develop financial markets in Bhutan. Using a policy-based loan to support the government’s institutional reforms, the program will assist economic diversification and  improve financial inclusion in the country.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB committed a $1.5 billion CARES Program loan for India to support health initiatives and fund social  protection for more than 800 million people, including families below the poverty line, women, senior  citizens, people with disabilities, and low-wage earners, among others. The bank also supported India in strengthening the resilience of urban primary health systems for essential services as well as pandemic responses.",
+        "type":"paragraph"
+    },
+    {
+        "data":"In Maldives, ADB financed the establishment of COVID‑19 testing facilities in five regional hospitals,  doubled testing capacity to 800 per day, and provided 400 isolation beds. The program also supported  government social protection and economic assistance measures by providing safe accommodation for migrant  workers and survivors of gender-based violence, cash assistance and income support for the poor and vulnerable, and working capital support for affected businesses.",
+        "type":"paragraph"
+    },
+    {
+        "data":"sard_photo2.jpg",
+        "tag":"Sri Lankan health workers carry out COVID‑19 testing in Colombo.",
+        "type":"image"
+    },
+    {
+        "title":"BOOSTING TESTING CAPACITY IN SRI LANKA",
+            "data": "Despite Sri Lanka’s well-established health system, the country was in urgent need of increasing its diagnostic capacity to detect COVID‑19 infections.<br><br>ADB responded without delay by providing the necessary funds to establish a new molecular polymerase chain reaction (PCR) laboratory at the Colombo East Base Hospital.<br><br>An empty site on the hospital premises soon became a hive of activity as teams worked tirelessly to  construct the building and install utility services. This work was complemented by construction of an   improved access road and installation of a dedicated power line to the laboratory.<br><br>On 24 June 2020, Sri Lanka’s Ministry of Health and Indigenous Medical Services officially opened the PCR laboratory. It is equipped with PCR machines, consumables, pharmacological refrigerators and freezers,  generators, reagents, and dedicated utilities, and is staffed with the necessary operational support. The  new laboratory has enhanced the COVID‑19 diagnostic capacity of Sri Lanka by 500 tests per day on a  12-hour  shift and 1,000 tests on a 24-hour shift. It has also improved the quality of care, while ensuring the  safety of laboratory and health staff who handle patients’ samples from the Colombo East Base Hospital and  hospitals in other parts of the country.",
+            "type": "expand"
+         
+    },
+
+    {
+        "data": "Accelerating Progress<br>in Gender Equality",
+        "image": "op2_color.png",
+        "type":"logoHeading"
+      },
+    {
+        "data":"ADB continues to scale up support for gender equality and social inclusion (GESI) in South Asia. ADB promoted gender equality in 95% of its number of committed projects in South Asia during 2018–2020, up from 89% during 2017–2019.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB committed $2.2 million for a regional transaction technical assistance facility to better integrate GESI in project design and implementation in its operations in the region. The facility will also strengthen the gender-equality capacities of executing and implementing agencies.",
+        "type":"paragraph"
+    },
+    {
+        "data":"In Bangladesh, ADB committed $50 million in additional financing to a microenterprise development project that will scale up gender-inclusive finance for microenterprises severely impacted by the COVID‑19  pandemic.  The project will provide loans to an additional 30,000 microenterprises, 70% of which are led by women.",
+        "type":"paragraph"
+    },
+
+        {
+        "data":"ADB also committed technical assistance of $1 million to assess policy and regulatory frameworks to generate climate-related employment in the country’s Chittagong Hill Tracts watershed area. Women will select the  location of water projects, while households headed by women will be targeted for job opportunities in the construction and operation of infrastructure subprojects.",
+        "type":"paragraph"
+    },
+        {
+        "data":"In India, ADB committed a nonsovereign loan of $60 million in Indian rupee equivalent to Aavas Financiers  Limited to improve access to housing finance for lower-income borrowers, including 110,000 women.",
+        "type":"paragraph"
+    },
+    {
+        "data": "Tackling Clmate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
+        "image": "op3_color.png",
+        "type": "logoHeading"
+      },
+      {
+        "title": "BUILDING BACK BETTER IN NEPAL",
+         "data":"When a 7.8 magnitude earthquake hit Nepal in April of 2015, the scale of the destruction was heartbreaking. Among the widespread devastation, which included the loss of nearly 500,000 homes, close to 30,000 classrooms were destroyed or damaged.<br><br>“We were concerned that a generation of students would drop out of school,” said Naresh Giri, a senior  project officer with ADB.<br><br>More than 5 years on, and thanks in part to ADB investment in earthquake assistance and disaster reconstruction, over 60,000 Nepalese students are now learning in modern, earthquake-safe schools and are  better prepared for future disasters.<br><br>By 2020, a total of 162 reconstructed schools, including eight schools funded by the Japan Fund for Poverty  Reduction, had been handed over to their school management committees. All schools have been reconstructed  following strict building standards and specifications, feature the latest educational amenities, and are  well-equipped to assist people with disabilities.<br><br>The reconstruction project was jointly financed by ADB, the Japan Fund for Poverty Reduction, the United States Agency for International Development, and the Government of Nepal.<br><br>To learn more, see the photo essay <a href='https://adb.exposure.co/building-a-safer-future' target='_blank' onclick='linkHandler(event);'>Building a Safer Future</a>.",
+         "type": "expandTwo"
+      },
+    {
+        "data":"Despite the shift in focus brought by COVID‑19, ADB has remained committed to addressing climate change  and disaster resilience in South Asia. Of the total number of projects committed in South Asia in 2020, 58% included climate mitigation or adaptation components (compared to 63% in 2019). Total climate financing  amounted to $1.7 billion, from ADB’s own resources.",
+        "type":"paragraph"
+    },
+        {
+        "data":"In India, ADB continues to make private sector investments in the country’s solar power industry. The bank  committed a long-term loan of $62.41 million to the ENGIE group for construction and operation of a  200-megawatt solar power plant at Raghanesda Solar Park in the western state of Gujarat. The power plant is expected to generate about 440 gigawatt-hours of electricity annually and help avoid nearly 385,000 tons of carbon dioxide emissions a year.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB also provided $7.5 million from its ordinary capital resources and $7.5 million from the Leading Asia’s Private Infrastructure Fund for Avaada Energy Private Limited (AEPL). This follows a $50 million ADB investment in the company in 2019. AEPL is a leading developer of solar energy projects in India through utility scale, rooftop, and off-grid solar facilities.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"In Nepal, ADB is helping modernize the country’s electricity grid to advance sustainable growth. The bank committed $156 million to automate existing grid substations and install new ones, construct new transmission lines, and install smart meters for 350,000 electricity consumers in the Kathmandu Valley. The project will reduce greenhouse gas emissions by an estimated 34,716 tons of carbon dioxide per year by reducing losses and  providing new connections with clean energy sources.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"Through a further $50 million commitment from ADB, Nepal will introduce flood control infrastructure and  flood forecasting systems to protect valuable agricultural land in prioritized river basins in the Terai region.",
+        "type":"paragraph"
+    },
+
+
+      {
+        "data":"In Maldives, a waste-to-energy project will construct a solid waste treatment facility with ADB providing $73 million in loans and grants. The project will build a facility that can process 500 tons of waste every day and recover 8 megawatts of surplus energy.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"",
+        "type":"video"
+    },
+
+      {
+        "tag":"Learn more about this project, including how it will improve the livability of the Greater  Malé area and help build the capacity of Maldives’ Ministry of Environment and Environmental Protection  Agency.",
+        "type":"tag"
+    },
+    {
+        "data": "Making Cities<br>More Livable",
+        "image": "op4_color.png",
+        "type": "logoHeading"
+      },
+    {
+        "data":"ADB operations in South Asia prioritized financing projects to improve water security, urban mobility, and environment and disaster risk management to make cities more livable.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB is supporting a modern rapid transport system in India with a $500 million loan. The project, through ADB’s technical assistance and knowledge advice, will support systematic land-use planning and promote vertical and dense development of urban buildings, along with municipal resource mobilization, to create an efficient and clean urban environment.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"ADB also provided a $100 million loan to India for a smart energy project that will make cities more livable  by converting overhead distribution lines to underground cables.",
+        "type":"paragraph"
+    },
+    {
+        "data":"Through a township development project in Phuentsholing in southern Bhutan, ADB is helping develop 66  hectares of new urban land to enable sustainable expansion of human settlements and commercial activities. The  bank committed $28.5 million of additional financing in 2020 to continue funding flood and erosion protection  and smart urban infrastructure.",
+        "type":"paragraph"
+    },
+      {
+        "data":"ADB’s regional technical support initiative for COVID‑19 prevention and control, which includes  Bangladesh,  Nepal, and Sri Lanka among the pilot countries, underscores the need for an integrated approach to water,  hygiene, and health management. A $2 million grant from the Japan Fund for Poverty Reduction will promote WASH+H awareness (water, sanitation, hygiene, and health) to respond to COVID‑19 and prepare for other sanitation-related public health emergencies.",
+        "type":"paragraph"
+    }, 
+    
+    {
+        "data": "Promoting Rural Development<br>and Food Security",
+        "image": "op5_color.png",
+        "type": "logoHeading"
+      },{
+        "data":"ADB work in South Asia to advance rural prosperity and food security includes improving roads and electricity supply and financing and supporting agriculture enterprise.",
+        "type":"paragraph"
+    },
+
+      {
+        "data":"In Bangladesh, ADB committed $100 million in additional financing to build approximately 930 kilometers of rural roads. The project will improve the efficiency of the transport system and create jobs in target areas.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB committed $300 million financing for a power distribution improvement project in India to promote economic development in rural Uttar Pradesh. By building separate feeders for electricity supply to  agriculture and residential consumers, the project will improve rationing of unmetered power, strengthen financial management of the state power distribution agency, and improve bill collection in rural areas.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"In Sri Lanka, ADB committed $165 million for a line of credit to provide affordable working capital loans to MSMEs affected by COVID‑19. It will also provide long-term financing to around 6,000 MSMEs, including women-led businesses and tea smallholders to support their transformation toward a “new normal.”",
+        "type":"paragraph"
+    },
+    {
+        "data": "Strengthening Governance and<br>Institutional Capacity",
+        "image": "op6_color.png",
+        "type": "logoHeading"
+      },
+    {
+        "data":"Strengthening governance and institutional capacity is a high priority in South Asia. Approximately 73% of sovereign and nonsovereign projects committed for the region in 2020 included support for improved governance and institutional capacity.",
+        "type":"paragraph"
+    },
+    {
+        "data":"In India, a $50 million program to support public financial management reforms in West Bengal will strengthen procedures and operational efficiencies to generate fiscal savings, support informed decision-making, and enhance service delivery.",
+        "type":"paragraph"
+    },
+    {
+        "data":"ADB’s Capacity Development Resource Center also supported India’s Integrated Government Online Training  scheme to provide online COVID‑19 training to civil servants. The center helped develop a series of  critical e-learning modules in multiple Indian languages. The modules, which have attracted almost 2 million  participants, tackle clinical management, intensive care and ventilation management, infection prevention and  control, use of personal protective equipment, quarantine and isolation, and more.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"In Nepal, ADB committed $50 million for improvements to civil aviation. The project will help restructure the  Civil Aviation Authority of Nepal and strengthen its oversight functions, management accountability, and operational efficiency.",
+        "type":"paragraph"
+    },
+    {
+        "data": "Fostering Regional Cooperation<br>and Integration",
+        "image": "op7_color.png",
+        "type": "logoHeading"
+      },
+    {
+        "data":"ADB helped enhance regional connectivity in transport, energy, and trade facilitation in South Asia in 2020.  It also helped strengthen subregional initiatives through the <a href='https://www.sasec.asia/' target='_blank'>South Asia Subregional Economic Cooperation  (SASEC) program</a>, the <a href='https://bimstec.org/' target='_blank'>Bay of Bengal Initiative for  Multi-Sectoral Technical and Economic Cooperation</a>, and the  <a href='https://www.saarc-sec.org/' target='_blank'>South Asian Association for Regional Cooperation</a>.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"ADB continued its support for the SASEC road corridor in Dhaka-Northwest in Bangladesh, committing $406.1  million in loans to strengthen trade. The Government of Bangladesh provided complementary financing of $99.6  million.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"Under a SASEC program supporting intraregional power trade, ADB committed $200 million to Nepal to upgrade substations in Khimti, Barhabise, and Lapsiphedi, which will facilitate cross-border power exchanges between  Nepal and India.",
+        "type":"paragraph"
+    },
+
+     {
+        "data":"ADB also committed a $150 million concessional loan to improve the safety and capacity of Tribhuvan  International Airport and Gautam Buddha Airport in Nepal. The project aims to help revive the country’s  tourism industry and address the long-term economic effects of the COVID‑19 pandemic.",
+        "type":"paragraph"
+    },
+     {
+        "data":"",
+        "type":"paragraph"
+    },
+
+     {
+        "data":"",
+        "type":"paragraph"
+    },
+    {
+        "data":"",
+        "type":"paragraph"
+    },
+    {
+        "title": "Supporting Maldives’ Short- and Long-Term Development",
+        "data": "In October, ADB endorsed a <a href='https://www.adb.org/documents/maldives-country-partnership-strategy-2020-2024' target='_blank'>new 5-year country partnership strategy for Maldives</a>, in line with priorities in the Government of Maldives’ Strategic Action Plan 2019–2023 and with ADB’s Strategy 2030. The strategy aims  to enhance public sector efficiency and diversify the country’s economic base while ensuring environmentalsustainability through investments in cleaner energy. It will also support Maldives in responding to COVID‑19.", 
+         "image": "sard_smallbox.jpg",
+        "type": "shadeKnowledgeTwo"
+      },
+
+    {
+        "data": "KNOWLEDGE HIGHLIGHTS",
+        "type": "heading"
+      },
+    {
+        "data":"During 2020, ADB published a study on India’s Northeast Economic Corridor, providing strategic direction for  the landlocked states of the country’s northeastern region. The study covers issues around transport, urban development, power and trade facilitation infrastructure, regulations and policies, and focus industries to  help address the gap between the region’s significant economic potential and its current underdeveloped status.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"ADB also released a <a href='https://www.adb.org/publications/upcycling-plastic-waste-rural-road-india' target='_blank'>working paper</a> that looked at how India’s Pradhan Mantri Garib Kalyan Yojana road connectivity plan has used upcycled plastic waste in constructing rural roads to address issues of cost and  technological readiness.",
+        "type":"paragraph"
+    },
+    {
+        "data":"A working paper highlighted lessons from Nepal and other countries on managing urban growth through land pooling. This technique enables landowners and government to share the costs and benefits of urban development  and may also attract private capital to invest in the land created. <a href='https://www.adb.org/publications/land-pooling-nepal' target='_blank'>The paper</a> discusses how Nepal  could successfully scale up land pooling to support cost-effective, equitable, and sustainable urban planning and  investments.",
+        "type":"paragraph"
+    },
+    {
+        "data":"Building on its experience in skills demand analysis, ADB published a real-time <a href='https://www.adb.org/publications/covid-19-impact-job-postings-bangladesh-sri-lanka' target='_blank'>assessment</a> of COVID‑19’s  impact on job postings in Bangladesh and Sri Lanka. The study analyzed data from the largest online employment portals in the two countries, where job postings largely declined after the COVID‑19 outbreak. Continuous monitoring of online employment indicators has helped understand the impacts of lockdowns and resumption of economic activities.",
+        "type":"paragraph"
+    },
+
+    {
+        "data":"ADB published a brief on Sri Lanka’s higher education institutions to present issues and challenges of the rapid shift to online learning during the pandemic. Drawing on comprehensive online surveys, <a href='https://www.adb.org/publications/online-learning-sri-lanka-during-covid-19' target='_blank'>the  publication</a> detailed the status of higher education since the university closures and outlined the remarkable transition  to online tertiary education.",
+        "type":"paragraph"
+    },
+    {
+        "data":"In 2020, the SASEC program published an update of its operational plan for 2016–2025. The <a href='https://www.adb.org/documents/sasec-operational-plan-2016-2025-update' target='_blank'>updated  plan</a> identified 111 proposed projects requiring about $58.7 billion in development assistance. These include economic corridors that would advance multimodal connectivity, energy market development, and increased  intraregional and interregional trade.",
+        "type":"paragraph"
+    },
+
+    {
+        "title": "NEXT",
+        "data": "SOUTHEAST ASIA",
+        "type": "button"
+      }
+    ]

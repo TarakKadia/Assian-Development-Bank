@@ -1,0 +1,17 @@
+.show-menu {
+    left: 0px;
+}
+
+.social-menu{
+    width: auto !important;
+    opacity: 1 !important;
+    height: auto !important;
+}
+
+.social-list{
+    padding-left: 0rem !important;
+}
+
+.display-block {
+    display: block !important;
+}

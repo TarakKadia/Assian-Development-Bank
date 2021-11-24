@@ -1,0 +1,34 @@
+
+<h3 style="text-align: center; font-weight: 400;">COVID-19 Response,Sovereign Projects</h3>
+<p style="text-align: center; font-weight: 600;" >($ million)</p>
+<div class="chart">
+    <ejs-accumulationchart id="container" #pie style='display:block;  width: 92%' [legendSettings]="legendSettings" [tooltip]="tooltip"
+         (load)='load($event)'>
+        <e-accumulation-series-collection>
+            <e-accumulation-series name='Project' [dataSource]='data' xName='x' yName='y' [startAngle]="startAngle" [endAngle]="endAngle" innerRadius="40%"
+                radius="70%" [dataLabel]="dataLabel" explode=true explodeOffset='10%' [explodeIndex]='1'>
+            </e-accumulation-series>
+        </e-accumulation-series-collection>
+    </ejs-accumulationchart>
+    <style>
+        .control-section {
+            min-height: 450px;
+        }
+    </style>
+    </div>
+
+<div class="chart">
+    <ejs-accumulationchart id="container2" #pie2 style='display:block;  width: 92%' [legendSettings]="legendSettings" [tooltip]="tooltip"
+       (load)='load($event)'>
+        <e-accumulation-series-collection>
+            <e-accumulation-series name='Project' [dataSource]='data' xName='x' yName='y' [startAngle]="startAngle" [endAngle]="endAngle" innerRadius="40%"
+                radius="70%" [dataLabel]="dataLabel" explode=true explodeOffset='10%' [explodeIndex]='1'>
+            </e-accumulation-series>
+        </e-accumulation-series-collection>
+    </ejs-accumulationchart>
+    <style>
+        .control-section {
+            min-height: 450px;
+        }
+    </style>
+    </div>

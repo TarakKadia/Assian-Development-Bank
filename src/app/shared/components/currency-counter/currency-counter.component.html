@@ -1,0 +1,37 @@
+<div class="numbers">
+  <h3>
+    {{title}}
+  </h3>
+  <div class="numbergroup">
+    <div>
+      <p class="num">{{symbol}}<span class="onlynum" data-inc-decimal="1"
+          id="dynamic-number1">{{digit1}}</span>&nbsp;{{sign}}</p>
+      <p>{{tag1}}
+      </p>
+    </div>
+    <div class="sub">
+      <p class="num">{{symbol}}<span class="onlynum" data-inc-decimal="1"
+          id="dynamic-number2">{{digit2}}</span>&nbsp;{{sign}}</p>
+      <p [innerHTML]="tag2"></p>
+
+    </div>
+    <div>
+      <p class="num">{{symbol}}<span class="onlynum" data-inc-decimal="1"
+          id="dynamic-number3">{{digit3}}</span>&nbsp;{{sign}}</p>
+      <p [innerHTML]="tag3">
+      </p>
+    </div>
+    <div>
+      <p class="num">{{symbol}}<span class="onlynum" data-inc-decimal="1"
+          id="dynamic-number4">{{digit4}}</span>&nbsp;{{sign}}</p>
+      <p [innerHTML]="tag4">
+      </p>
+    </div>
+    <div>
+      <p class="num">{{symbol}}<span class="onlynum" data-inc-decimal="1"
+          id="dynamic-number5">{{digit5}}</span>&nbsp;{{sign}}</p>
+      <p [innerHTML]="tag5">
+      </p>
+    </div>
+  </div>
+</div>

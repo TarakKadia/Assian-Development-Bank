@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "list": "Appendix 1:",
+        "content": "Commitments by Country, 2020",
+        "type": "list",
+        "image": ["assets/images/app/appendix1.png"]
+    }, {
+        "id": 2,
+        "list": "Appendix 2:",
+        "content": "Loans and Grants Committed, 2020",
+        "type": "list",
+        "image": ["assets/images/app/appendix2_1.png","assets/images/app/appendix2_2.png","assets/images/app/appendix2_3.png","assets/images/app/appendix2_4.png","assets/images/app/appendix2_5.png"]
+    }, {
+        "id": 3,
+        "list": "Appendix 3:",
+        "content": "Approvals, 2016–2020",
+        "type": "list",
+        "image": ["assets/images/app/appendix3.png"]
+    }, {
+        "id": 4,
+        "list": "Appendix 4:",
+        "content": "ADB Regional and Nonregional Members",
+        "type": "list",
+        "image": ["assets/images/app/appendix4.png"]
+    }, {
+        "id": 5,
+        "list": "Appendix 5:",
+        "content": "Members, Capital Stock, and Voting Power",
+        "type": "list",
+        "image": ["assets/images/app/appendix5.png"]
+    }, {
+        "id": 6,
+        "list": "Appendix 6:",
+        "content": "Contributions to Asian Development Fund",
+        "type": "list",
+        "image": ["assets/images/app/appendix6.png"]
+    }, {
+        "id": 7,
+        "list": "Appendix 7A:",
+        "content": "2020 Project-Specific Sovereign Cofinancing Commitments",
+        "type": "list",
+        "image": ["assets/images/app/appendix7A.png"]
+    }, {
+        "id": 8,
+        "list": "Appendix 7B:",
+        "content": "Active Trust Funds and Special Funds",
+        "type": "list",
+        "image": ["assets/images/app/appendix7B1.png","assets/images/app/appendix7B2.png"]
+    }, {
+        "id": 9,
+        "list": "Appendix 8A:",
+        "content": "ADB Organizational Structure",
+        "type": "list",
+        "image": ["assets/images/app/appendix8A.png"]
+    }, {
+        "id": 10,
+        "list": "Appendix 8B:",
+        "content": "ADB Sector and Thematic Groups",
+        "type": "list",
+        "image": ["assets/images/app/appendix8B.png"]
+    }, {
+        "id": 11,
+        "list": "Appendix 9:",
+        "content": "ADB Corporate Reports",
+        "type": "list",
+        "image": ["assets/images/app/appendix9.png"]
+    }, {
+        "id": 12,
+        "list": "Appendix 10:",
+        "content": "Operational Data and Organizational Information as of 31 December 2020",
+        "type": "list",
+        "image": ["assets/images/app/appendix10.png"]
+    }
+]

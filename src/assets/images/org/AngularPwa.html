@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost:4200/central-west-asia?id=1 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>AngularPwa</title>
+  <!--<base href="/">--><base href=".">
+  
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/x-icon" href="http://localhost:4200/favicon.ico">
+  <link rel="manifest" href="http://localhost:4200/manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="./AngularPwa_files/styles.css"><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */</style><script charset="utf-8" src="./AngularPwa_files/report-report-module.js"></script><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjZW50cmFsLXdlc3QtYXNpYS5jb21wb25lbnQuY3NzIn0= */</style><style>#toggle[_ngcontent-tns-c16] {
+    display: block;
+    width: 28px;
+    height: 30px;
+    margin: 30px auto 10px;
+  }
+#toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:after, #toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -9px;
+  }
+#toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:after{
+    top: 9px;
+  }
+#toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16] {
+    position: relative;
+    display: block;
+  }
+#toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16], #toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:after, #toggle[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:before {
+    width: 100%;
+    height: 5px;
+    background-color: #888;
+    transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    border-radius: 2px;
+  }
+
+#toggle.on[_ngcontent-tns-c16]   span[_ngcontent-tns-c16] {
+    background-color: transparent;
+  }
+#toggle.on[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:before {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+#toggle.on[_ngcontent-tns-c16]   span[_ngcontent-tns-c16]:after {
+    transform: rotate(-45deg) translate(7px, -8px);
+  }
+#toggle.on[_ngcontent-tns-c16]    + #menu[_ngcontent-tns-c16] {
+    opacity: 1;
+    visibility: visible;
+  }
+
+#menu[_ngcontent-tns-c16] {
+    position: relative;
+    color: #999;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    background: white;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s;
+  }
+#menu[_ngcontent-tns-c16]:after {
+    position: absolute;
+    top: -15px;
+    left: 95px;
+    content: "";
+    display: block;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid white;
+  }
+ul[_ngcontent-tns-c16], li[_ngcontent-tns-c16], li[_ngcontent-tns-c16]   a[_ngcontent-tns-c16] {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+li[_ngcontent-tns-c16]   a[_ngcontent-tns-c16] {
+    padding: 5px;
+    color: #888;
+    text-decoration: none;
+    transition: all .2s;
+  }
+li[_ngcontent-tns-c16]   a[_ngcontent-tns-c16]:hover, li[_ngcontent-tns-c16]   a[_ngcontent-tns-c16]:focus {
+    background: #1ABC9C;
+    color: #fff;
+  }
+
+body[_ngcontent-tns-c16] { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+p[_ngcontent-tns-c16], p[_ngcontent-tns-c16]   a[_ngcontent-tns-c16] { font-size: 12px;text-align: center; color: #888; }
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lbnUtYmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUJBQXFCO0FBQ3JCO0lBQ0ksY0FBYztJQUNkLFdBQVc7SUFDWCxZQUFZO0lBQ1osc0JBQXNCO0VBQ3hCO0FBRUE7O0lBRUUsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixPQUFPO0lBQ1AsU0FBUztFQUNYO0FBQ0E7SUFDRSxRQUFRO0VBQ1Y7QUFDQTtJQUNFLGtCQUFrQjtJQUNsQixjQUFjO0VBQ2hCO0FBRUE7OztJQUdFLFdBQVc7SUFDWCxXQUFXO0lBQ1gsc0JBQXNCO0lBQ3RCLG9CQUFvQjtJQUNwQixtQ0FBMkI7WUFBM0IsMkJBQTJCO0lBQzNCLGtCQUFrQjtFQUNwQjtBQUVBLGtCQUFrQjtBQUNsQjtJQUNFLDZCQUE2QjtFQUMvQjtBQUNBO0lBQ0UsNENBQTRDO0VBQzlDO0FBQ0E7SUFDRSw4Q0FBOEM7RUFDaEQ7QUFDQTtJQUNFLFVBQVU7SUFDVixtQkFBbUI7RUFDckI7QUFFQSxtQkFBbUI7QUFDbkI7SUFDRSxrQkFBa0I7SUFDbEIsV0FBVztJQUNYLFlBQVk7SUFDWixhQUFhO0lBQ2IsWUFBWTtJQUNaLGlKQUFpSjtJQUNqSixrQkFBa0I7SUFDbEIsa0JBQWtCO0lBQ2xCLGlCQUFpQjtJQUNqQixzQ0FBc0M7SUFDdEMsdUJBQXVCO0lBQ3ZCLFVBQVU7SUFDVixrQkFBa0I7SUFDbEIsdUJBQXVCO0VBQ3pCO0FBQ0E7SUFDRSxrQkFBa0I7SUFDbEIsVUFBVTtJQUNWLFVBQVU7SUFDVixXQUFXO0lBQ1gsY0FBYztJQUNkLG1DQUFtQztJQUNuQyxvQ0FBb0M7SUFDcEMsK0JBQStCO0VBQ2pDO0FBQ0E7SUFDRSxnQkFBZ0I7SUFDaEIsY0FBYztJQUNkLFNBQVM7SUFDVCxVQUFVO0VBQ1o7QUFDQTtJQUNFLFlBQVk7SUFDWixXQUFXO0lBQ1gscUJBQXFCO0lBQ3JCLG1CQUFtQjtFQUNyQjtBQUNBOztJQUVFLG1CQUFtQjtJQUNuQixXQUFXO0VBQ2I7QUFHQSxnQkFBZ0I7QUFDaEIsT0FBTyxlQUFlLEVBQUUsZ0JBQWdCLEVBQUUsV0FBVyxFQUFFLGtFQUFrRSxFQUFFO0FBQzNILFNBQVMsZUFBZSxDQUFDLGtCQUFrQixFQUFFLFdBQVcsRUFBRSIsImZpbGUiOiJtZW51LWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogSW1wb3J0YW50IHN0eWxlcyAqL1xuI3RvZ2dsZSB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgd2lkdGg6IDI4cHg7XG4gICAgaGVpZ2h0OiAzMHB4O1xuICAgIG1hcmdpbjogMzBweCBhdXRvIDEwcHg7XG4gIH1cbiAgXG4gICN0b2dnbGUgc3BhbjphZnRlcixcbiAgI3RvZ2dsZSBzcGFuOmJlZm9yZSB7XG4gICAgY29udGVudDogXCJcIjtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgbGVmdDogMDtcbiAgICB0b3A6IC05cHg7XG4gIH1cbiAgI3RvZ2dsZSBzcGFuOmFmdGVye1xuICAgIHRvcDogOXB4O1xuICB9XG4gICN0b2dnbGUgc3BhbiB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGRpc3BsYXk6IGJsb2NrO1xuICB9XG4gIFxuICAjdG9nZ2xlIHNwYW4sXG4gICN0b2dnbGUgc3BhbjphZnRlcixcbiAgI3RvZ2dsZSBzcGFuOmJlZm9yZSB7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiA1cHg7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzg4ODtcbiAgICB0cmFuc2l0aW9uOiBhbGwgMC4zcztcbiAgICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgYm9yZGVyLXJhZGl1czogMnB4O1xuICB9XG4gIFxuICAvKiBvbiBhY3RpdmF0aW9uICovXG4gICN0b2dnbGUub24gc3BhbiB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdHJhbnNwYXJlbnQ7XG4gIH1cbiAgI3RvZ2dsZS5vbiBzcGFuOmJlZm9yZSB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGUoNDVkZWcpIHRyYW5zbGF0ZSg1cHgsIDVweCk7XG4gIH1cbiAgI3RvZ2dsZS5vbiBzcGFuOmFmdGVyIHtcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtNDVkZWcpIHRyYW5zbGF0ZSg3cHgsIC04cHgpO1xuICB9XG4gICN0b2dnbGUub24gKyAjbWVudSB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB2aXNpYmlsaXR5OiB2aXNpYmxlO1xuICB9XG4gIFxuICAvKiBtZW51IGFwcGVhcmFuY2UqL1xuICAjbWVudSB7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgIGNvbG9yOiAjOTk5O1xuICAgIHdpZHRoOiAyMDBweDtcbiAgICBwYWRkaW5nOiAxMHB4O1xuICAgIG1hcmdpbjogYXV0bztcbiAgICBmb250LWZhbWlseTogXCJTZWdvZSBVSVwiLCBDYW5kYXJhLCBcIkJpdHN0cmVhbSBWZXJhIFNhbnNcIiwgXCJEZWphVnUgU2Fuc1wiLCBcIkJpdHN0cmVhbSBWZXJhIFNhbnNcIiwgXCJUcmVidWNoZXQgTVNcIiwgVmVyZGFuYSwgXCJWZXJkYW5hIFJlZlwiLCBzYW5zLXNlcmlmO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgYmFja2dyb3VuZDogd2hpdGU7XG4gICAgYm94LXNoYWRvdzogMCAxcHggOHB4IHJnYmEoMCwwLDAsMC4wNSk7XG4gICAgLyoganVzdCBmb3IgdGhpcyBkZW1vICovXG4gICAgb3BhY2l0eTogMDtcbiAgICB2aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgdHJhbnNpdGlvbjogb3BhY2l0eSAuNHM7XG4gIH1cbiAgI21lbnU6YWZ0ZXIge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IC0xNXB4O1xuICAgIGxlZnQ6IDk1cHg7XG4gICAgY29udGVudDogXCJcIjtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBib3JkZXItbGVmdDogMTVweCBzb2xpZCB0cmFuc3BhcmVudDtcbiAgICBib3JkZXItcmlnaHQ6IDE1cHggc29saWQgdHJhbnNwYXJlbnQ7XG4gICAgYm9yZGVyLWJvdHRvbTogMjBweCBzb2xpZCB3aGl0ZTtcbiAgfVxuICB1bCwgbGksIGxpIGEge1xuICAgIGxpc3Qtc3R5bGU6IG5vbmU7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgbWFyZ2luOiAwO1xuICAgIHBhZGRpbmc6IDA7XG4gIH1cbiAgbGkgYSB7XG4gICAgcGFkZGluZzogNXB4O1xuICAgIGNvbG9yOiAjODg4O1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICB0cmFuc2l0aW9uOiBhbGwgLjJzO1xuICB9XG4gIGxpIGE6aG92ZXIsXG4gIGxpIGE6Zm9jdXMge1xuICAgIGJhY2tncm91bmQ6ICMxQUJDOUM7XG4gICAgY29sb3I6ICNmZmY7XG4gIH1cbiAgXG4gIFxuICAvKiBkZW1vIHN0eWxlcyAqL1xuICBib2R5IHsgbWFyZ2luLXRvcDogM2VtOyBiYWNrZ3JvdW5kOiAjZWVlOyBjb2xvcjogIzU1NTsgZm9udC1mYW1pbHk6IFwiT3BlbiBTYW5zXCIsIFwiU2Vnb2UgVUlcIiwgSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsgfVxuICBwLCBwIGEgeyBmb250LXNpemU6IDEycHg7dGV4dC1hbGlnbjogY2VudGVyOyBjb2xvcjogIzg4ODsgfSJdfQ== */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWdpb24tdGl0bGUuY29tcG9uZW50LmNzcyJ9 */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJpbWFnZS5jb21wb25lbnQuY3NzIn0= */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWdpb24tY291bnRlci5jb21wb25lbnQuY3NzIn0= */</style></head>
+<body>
+  <app-root _nghost-tns-c20="" ng-version="11.2.14"><router-outlet _ngcontent-tns-c20=""></router-outlet><app-central-west-asia _nghost-tns-c43=""><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><app-region-title _ngcontent-tns-c43="" _nghost-tns-c40="" ng-reflect-region-title="REGIONS" ng-reflect-content="Afghanistan, Armenia, Azerbaij" ng-reflect-region=":CENTRAL AND WEST ASIA"><h2 _ngcontent-tns-c40=""><span _ngcontent-tns-c40="" class="pre">REGIONS</span><span _ngcontent-tns-c40="">:CENTRAL AND WEST ASIA</span><br _ngcontent-tns-c40=""><span _ngcontent-tns-c40="" class="countries">Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan</span></h2></app-region-title><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><app-image _ngcontent-tns-c43="" _nghost-tns-c21="" ng-reflect-image="cwrd/cwrd_photo1.jpg" ng-reflect-tag="A child psychologist visits a "><div _ngcontent-tns-c21=""><img _ngcontent-tns-c21="" class="topimg" src="./AngularPwa_files/cwrd_photo1.jpg"><p _ngcontent-tns-c21="" class="caption">A child psychologist visits a family as a part of a mobile team that supports young children with speech development and other difficulties.</p></div></app-image><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><app-region-counter _ngcontent-tns-c43="" _nghost-tns-c41="" ng-reflect-symbol="$" ng-reflect-heading="BY THE NUMBERS: CENTRAL AND WE" ng-reflect-letter="B" ng-reflect-digit1="6.6" ng-reflect-digit2="4" ng-reflect-digit3="5.3" ng-reflect-digit4="3.7" ng-reflect-tag1="COMMITTED" ng-reflect-tag2="COVID‑19 RESPONSE" ng-reflect-tag3="DISBURSED" ng-reflect-tag4="COFINANCED"><div _ngcontent-tns-c41="" class="numbers"><h3 _ngcontent-tns-c41=""> BY THE NUMBERS: CENTRAL AND WEST ASIA </h3><div _ngcontent-tns-c41="" class="numbergroup" style="
+    /* display: inline-flex; */
+    /* float: left; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+"><div _ngcontent-tns-c41="" style="
+    width: 5px;
+    height: 5px;
+"><p _ngcontent-tns-c41="" class="num">$<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">6.6</span>&nbsp;B</p><p _ngcontent-tns-c41="">COMMITTED </p></div><div _ngcontent-tns-c41="" class="sub"><p _ngcontent-tns-c41="" class="num">$<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">4</span>&nbsp;B</p><p _ngcontent-tns-c41="">COVID‑19 RESPONSE<br _ngcontent-tns-c41=""></p></div><div _ngcontent-tns-c41=""><div _ngcontent-tns-c41=""><p _ngcontent-tns-c41="" class="num">$<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">5.3</span>&nbsp;B</p><p _ngcontent-tns-c41="">DISBURSED </p></div><div _ngcontent-tns-c41=""><p _ngcontent-tns-c41="" class="num">$<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">3.7</span>&nbsp;B</p><p _ngcontent-tns-c41="">COFINANCED </p></div></div></div></div></app-region-counter><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><app-region-counter _ngcontent-tns-c43="" _nghost-tns-c41="" ng-reflect-symbol="%" ng-reflect-data="In 2020, ADB’s commitments in " ng-reflect-digit1="34" ng-reflect-digit2="15" ng-reflect-digit3="14" ng-reflect-digit4="11" ng-reflect-tag1="PUBLIC SECTOR MANAGEMENT" ng-reflect-tag2="INDUSTRY AND TRADE" ng-reflect-tag3="FINANCE" ng-reflect-tag4="TRANSPORT"><div _ngcontent-tns-c41="" class="numbers"><h3 _ngcontent-tns-c41="">  </h3><div _ngcontent-tns-c41="" class="numbergroup"><div _ngcontent-tns-c41=""><p _ngcontent-tns-c41="" class="num">%<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">34</span>&nbsp;</p><p _ngcontent-tns-c41="">PUBLIC SECTOR MANAGEMENT </p></div><div _ngcontent-tns-c41="" class="sub"><p _ngcontent-tns-c41="" class="num">%<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">15</span>&nbsp;</p><p _ngcontent-tns-c41="">INDUSTRY AND TRADE<br _ngcontent-tns-c41=""></p></div><div _ngcontent-tns-c41=""><div _ngcontent-tns-c41=""><p _ngcontent-tns-c41="" class="num">%<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">14</span>&nbsp;</p><p _ngcontent-tns-c41="">FINANCE </p></div><div _ngcontent-tns-c41=""><p _ngcontent-tns-c41="" class="num">%<span _ngcontent-tns-c41="" data-inc-decimal="1" class="onlynum">11</span>&nbsp;</p><p _ngcontent-tns-c41="">TRANSPORT </p></div></div></div></div></app-region-counter><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><app-image _ngcontent-tns-c43="" _nghost-tns-c21="" ng-reflect-image="&lt;img class=&#39;s2030img&#39; src=&#39;ima"><div _ngcontent-tns-c21=""><img _ngcontent-tns-c21="" class="topimg" src="./AngularPwa_files/cwrd_s2030.png&#39;_"><p _ngcontent-tns-c21="" class="caption"></p></div></app-image><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><app-image _ngcontent-tns-c43="" _nghost-tns-c21="" ng-reflect-image="images/cwrd/cwrd_photo2.jpg&#39;&gt;"><div _ngcontent-tns-c21=""><img _ngcontent-tns-c21="" class="topimg" src="./AngularPwa_files/cwrd_photo2.jpg&#39;_"><p _ngcontent-tns-c21="" class="caption"></p></div></app-image><!--bindings={
+  "ng-reflect-ng-if": "true"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><div _ngcontent-tns-c43="" class="content" style="padding-bottom: -5em !important;"><div _ngcontent-tns-c43="" class="complexheader"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--><div _ngcontent-tns-c43="" class="numbers"><!--bindings={
+  "ng-reflect-ng-if": "false"
+}--></div></div><!--bindings={
+  "ng-reflect-ng-for-of": "[object Object],[object Object"
+}--><div _ngcontent-tns-c43=""><app-menu-bar _ngcontent-tns-c43="" _nghost-tns-c16=""><footer _ngcontent-tns-c16=""><div _ngcontent-tns-c16="" id="ios-prompt"><div _ngcontent-tns-c16="" class="prompt-dialogue"><p _ngcontent-tns-c16="" class="prompt-close">×</p><p _ngcontent-tns-c16="" id="ios-incapable">To add the Annual Report to your iPhone/iPad please use the Safari web browser.</p><p _ngcontent-tns-c16="" id="ios-capable">To add the Annual Report to your iPhone/iPad press and then <strong _ngcontent-tns-c16="">Add to Home Screen</strong>.</p></div></div><div _ngcontent-tns-c16="" id="body-overlay"></div><nav _ngcontent-tns-c16="" id="real-menu" class="real-menu"><ul _ngcontent-tns-c16=""><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#home">Home</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#president">President's Message</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#board">Board of Directors</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#financial">Financial Highlights</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter1">1. Supporting COVID‑19 Response <br _ngcontent-tns-c16="">and Recovery</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter2">2. Regions</a></li><li _ngcontent-tns-c16="" class="submenu"><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter2centralwest">Central and West Asia</a></li><li _ngcontent-tns-c16="" class="submenu"><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter2east">East Asia</a></li><li _ngcontent-tns-c16="" class="submenu"><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter2pacific">Pacific</a></li><li _ngcontent-tns-c16="" class="submenu"><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter2south">South Asia</a></li><li _ngcontent-tns-c16="" class="submenu last"><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter2southeast">Southeast Asia</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter3">3. Partnering With the Private Sector</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#chapter4">4. Organizational Effectiveness</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="http://localhost:4200/#appendixes">Appendixes</a></li><li _ngcontent-tns-c16="" class="findmore"> Find more information on adb.org: <ul _ngcontent-tns-c16=""><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="https://www.adb.org/sites/default/files/institutional-document/691766/adb-annual-report-2020.pdf" target="_blank" class="sub-nav find-more">Annual Report (PDF)</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="https://www.adb.org/sites/default/files/institutional-document/691766/adb-financial-report-2020.pdf" target="_blank" class="sub-nav find-more">Financial Report (PDF)</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="https://www.adb.org/documents/adb-annual-report-2020/#operational" target="_blank" class="sub-nav find-more">Operational Data</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="https://www.adb.org/documents/adb-annual-report-2020/#organizational" target="_blank" class="sub-nav find-more">Organizational Information</a></li><li _ngcontent-tns-c16=""><a _ngcontent-tns-c16="" href="https://www.adb.org/publications/series/fact-sheets" target="_blank" class="sub-nav find-more">ADB Member Fact Sheets</a></li></ul></li></ul></nav><div _ngcontent-tns-c16="" class="footergroup"><div _ngcontent-tns-c16="" id="open-menu"><span _ngcontent-tns-c16="">Menu</span></div><div _ngcontent-tns-c16="" class="copyright"><a _ngcontent-tns-c16="" href="http://localhost:4200/#home">ADB&nbsp;Annual&nbsp;Report&nbsp;<span _ngcontent-tns-c16="">2020</span></a></div><div _ngcontent-tns-c16="" id="social-share" class="share"><span _ngcontent-tns-c16="">Share</span></div></div><div _ngcontent-tns-c16="" id="social-overlay"></div><div _ngcontent-tns-c16="" id="social-pop"><ul _ngcontent-tns-c16=""><li _ngcontent-tns-c16="" class="facebook-share"><a _ngcontent-tns-c16="" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital" target="_blank" rel="noopener noreferrer">FACEBOOK</a></li><li _ngcontent-tns-c16="" class="twitter-share"><a _ngcontent-tns-c16="" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital" target="_blank" rel="noopener noreferrer">TWITTER</a></li><li _ngcontent-tns-c16="" class="linkedin-share"><a _ngcontent-tns-c16="" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital" target="_blank" rel="noopener noreferrer">LINKEDIN</a></li><li _ngcontent-tns-c16="" class="email-share"><a _ngcontent-tns-c16="" href="mailto:?subject=ADB%20Annual%20Report%202020&amp;body=The%20Asian%20Development%20Bank%202020%20Annual%20Report%20is%20now%20available%20for%20smart%20devices%20and%20screens%20at:%20https://www.adb.org/ar2020/digital." target="_blank" rel="noopener noreferrer">EMAIL</a></li></ul></div></footer></app-menu-bar></div></app-central-west-asia><!--container--></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="./AngularPwa_files/runtime.js" defer=""></script><script src="./AngularPwa_files/polyfills.js" defer=""></script><script src="./AngularPwa_files/scripts.js" defer=""></script><script src="./AngularPwa_files/vendor.js" defer=""></script><script src="./AngularPwa_files/main.js" defer=""></script>
+
+</body></html>
