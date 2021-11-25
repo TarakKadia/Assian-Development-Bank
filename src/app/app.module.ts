@@ -5,27 +5,27 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { HomeComponent } from "./home/home.component";
 import { SharedModule } from './shared/shared.module';
 import { CommonModule } from '@angular/common';
-import { HomeModule } from './home/home.module';
+import { HomeModule } from './modules/home/home.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 import { NgxSpinnerModule } from "ngx-spinner";
+import { ReportModule } from './modules/report/report.module';
+import { HomeComponent } from './modules/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    HomeComponent
     
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
     CommonModule,
     SharedModule,
     HomeModule,
@@ -35,7 +35,7 @@ import { NgxSpinnerModule } from "ngx-spinner";
       // Register the ServiceWorker as soon as the app is stable
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
-    })
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

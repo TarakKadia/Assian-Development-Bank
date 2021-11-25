@@ -28,6 +28,7 @@ import { SingleHeadingComponent } from './components/single-heading/single-headi
 import {RouterModule} from '@angular/router';
 import { ExpandableContentTwoComponent } from './components/expandable-content-two/expandable-content-two.component';
 import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/shade-knowledge-two.component';
+import { CounterCardComponent } from './components/counter-card/counter-card.component';
 
 
 @NgModule({
@@ -57,7 +58,9 @@ import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/sha
     RegionHeadingComponent,
     MenuBarComponent,
     AppendixesListComponent,
-    SingleHeadingComponent  
+    SingleHeadingComponent,
+    CounterCardComponent,
+
   ],
   imports: [
     CommonModule,
@@ -92,6 +95,8 @@ import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/sha
     RegionHeadingComponent,
     MenuBarComponent,
     SingleHeadingComponent,
+    CounterCardComponent,
+
     
 
   ]

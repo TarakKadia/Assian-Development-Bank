@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import chapter2CardJsonData from "../../constants/chapter2-cards.json";
+import chapter2CardJsonData from "../../../constants/chapter2-cards.json";
 import { NgxSpinnerService } from "ngx-spinner";
 
 @Component({

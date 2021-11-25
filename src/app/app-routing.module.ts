@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { HomeModule } from './home/home.module';
-import { ReportModule } from './report/report.module';
+import { HomeComponent } from './modules/home/home.component';
+import { HomeModule } from './modules/home/home.module';
+import { ReportModule } from './modules/report/report.module';
 
 const routes: Routes = [
   {
@@ -10,11 +10,12 @@ const routes: Routes = [
     component:HomeComponent
   },
   
-    { path: '', loadChildren: () => ReportModule },
+    { path: '',
+     loadChildren: () => ReportModule },
   
   {
     path: '',
-    loadChildren: () => HomeModule,
+    component:HomeComponent
   },
   {
     path: "**",

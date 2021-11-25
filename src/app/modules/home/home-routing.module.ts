@@ -13,10 +13,6 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'appendixes-content',
-    component: AppendixesContentComponent
-  },
-  {
     path: 'financial-highlights',
     component: FinancialHighlightsComponent
   },
@@ -27,6 +23,10 @@ const routes: Routes = [
   {
     path: 'board-of-directors',
     component: BoardOfDirectorsComponent
+  },
+  {
+    path: 'appendixes-content',
+    component: AppendixesContentComponent
   }
 ];
 
