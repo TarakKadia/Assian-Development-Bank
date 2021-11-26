@@ -5,8 +5,13 @@ import { RegionComponent } from './region/region.component';
 import { ReportComponent } from './report.component';
 
 const routes: Routes = [
-    { path: 'report', component: ReportComponent },
-    { path: 'region', component: RegionComponent },
+    { 
+        path: 'report',
+        component: ReportComponent 
+    },
+    {
+         path: 'region', 
+         component: RegionComponent },
    
 ];
 

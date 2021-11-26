@@ -39,7 +39,11 @@ export class HomeComponent implements OnInit {
 
   goToReport(id:number){
     // if(this.homeData){}
-    this.router.navigate(['/report'], { queryParams: { id: id } });
+    if (id === 1) {
+        this.router.navigate(['/report'], { queryParams: { id: id } });
+    } else {
+        this.router.navigate(['/region']);
+    }
   }
   
 
