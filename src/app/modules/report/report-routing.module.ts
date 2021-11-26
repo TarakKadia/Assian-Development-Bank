@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { Chapter2Component } from './chapter2/chapter2.component';
+import { RegionComponent } from './region/region.component';
 
 import { ReportComponent } from './report.component';
 
 const routes: Routes = [
     { path: 'report', component: ReportComponent },
-    { path: 'chapter2', component: Chapter2Component },
+    { path: 'region', component: RegionComponent },
    
 ];
 

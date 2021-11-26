@@ -14,6 +14,7 @@ import { environment } from '../environments/environment';
 import { NgxSpinnerModule } from "ngx-spinner";
 import { ReportModule } from './modules/report/report.module';
 import { HomeComponent } from './modules/home/home.component';
+import { CoreModule } from './core/core.module';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { HomeComponent } from './modules/home/home.component';
     CommonModule,
     SharedModule,
     HomeModule,
+    CoreModule,
     NgxSpinnerModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,

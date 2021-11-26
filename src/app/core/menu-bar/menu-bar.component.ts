@@ -68,7 +68,7 @@ export class MenuBarComponent implements OnInit {
       }else if (id == 3) {
         this.router.navigate(['/report'], { queryParams: { id: 3 } });
       }else if (id == 2){
-        this.router.navigate(['/chapter2']);
+        this.router.navigate(['/region']);
         } else if (id==10){
           this.router.navigate(['/report'], { queryParams: { id: 10 } });
         }else if (id==11){

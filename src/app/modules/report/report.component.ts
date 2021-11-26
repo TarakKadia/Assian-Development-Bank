@@ -50,7 +50,7 @@ export class ReportComponent implements OnInit {
                 } else if (params['id'] == 3) {
                     this.data = chapter3CardJsonData;
                 } else if (params['id'] == 2) {
-                    this.router.navigate(['/chapter2']);
+                    this.router.navigate(['/region']);
                 } else if (params['id'] == 10) {
                     this.data = centralWestAsia;
                 } else if (params['id'] == 11) {
@@ -72,13 +72,13 @@ export class ReportComponent implements OnInit {
     goToNextChapter() {
         window.scroll(0, 0);
         if (this.param == 1) {
-            this.router.navigate(['/chapter2']);
+            this.router.navigate(['/region']);
         } else if (this.param == 4) {
             this.router.navigate(['/appendixes-content']);
         } else if (this.param == 3) {
             this.data = chapter4CardJsonData;
         } else if (this.param == 2) {
-            this.router.navigate(['/chapter2']);
+            this.router.navigate(['/region']);
         } else if (this.param == 5) {
             this.router.navigate(['/appendixes-content']);
         } else if (this.param == 10) {

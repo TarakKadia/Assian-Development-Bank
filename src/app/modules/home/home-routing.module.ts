@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
+import { AppendixesContentComponent } from '../appendix/appendixes-content/appendixes-content.component';
 import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directors.component';
 import { FinancialHighlightsComponent } from './financial-highlights/financial-highlights.component';
 import { HomeComponent } from './home.component';
@@ -24,10 +24,7 @@ const routes: Routes = [
     path: 'board-of-directors',
     component: BoardOfDirectorsComponent
   },
-  {
-    path: 'appendixes-content',
-    component: AppendixesContentComponent
-  }
+  
 ];
 
 @NgModule({

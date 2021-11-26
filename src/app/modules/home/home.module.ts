@@ -7,8 +7,8 @@ import { FinancialHighlightsComponent } from './financial-highlights/financial-h
 import { SharedModule } from '../../shared/shared.module';
 import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directors.component';
 import { MessageComponent } from './message/message.component';
-import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
-import { AppendixesComponent } from './appendixes/appendixes.component';
+import { AppendixModule } from '../appendix/appendix.module';
+import { CoreModule } from 'src/app/core/core.module';
 // import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 
 
@@ -20,15 +20,16 @@ import { AppendixesComponent } from './appendixes/appendixes.component';
     FinancialHighlightsComponent,
     BoardOfDirectorsComponent,
     MessageComponent,
-    AppendixesContentComponent,
-    AppendixesComponent
+  
     
   ],
 
   imports: [
     CommonModule,
     HomeRoutingModule,
-    SharedModule
+    SharedModule,
+    AppendixModule,
+    CoreModule
   ],
 
   exports: [
@@ -37,8 +38,6 @@ import { AppendixesComponent } from './appendixes/appendixes.component';
     FinancialHighlightsComponent,
     BoardOfDirectorsComponent,
     MessageComponent,
-    AppendixesContentComponent,
-    AppendixesComponent
-  ]
+]
 })
 export class HomeModule { }
