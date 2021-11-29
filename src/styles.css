@@ -3175,3 +3175,13 @@ strong.lessstrong {
 @keyframes getWidth {
   100% { width: 100%; }
 }
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(15, 14, 14);
+    background: yellow;
+  }
+  
+  ::selection {
+    color: rgb(7, 7, 7);
+    background: yellow;
+  }
