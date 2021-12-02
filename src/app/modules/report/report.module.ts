@@ -6,7 +6,8 @@ import { ReportRoutingModule } from './report-routing.module';
 import { ReportComponent } from './report.component';
 import { RegionComponent } from './region/region.component';
 import { CoreModule } from 'src/app/core/core.module';
-
+import { PopoverModule } from 'ngx-bootstrap/popover';
+import { HammerModule } from '@angular/platform-browser';
 
 
 
@@ -20,7 +21,10 @@ import { CoreModule } from 'src/app/core/core.module';
     ReportRoutingModule,
     SharedModule,
     HomeModule,
-    CoreModule
+    CoreModule,
+    PopoverModule.forRoot(),
+    HammerModule
   ]
+    
 })
 export class ReportModule { }

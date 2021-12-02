@@ -11,6 +11,11 @@ import pacific from "../../constants/pacific.json";
 import southasia from "../../constants/south-asia.json";
 import southeastasia from "../../constants/south-east-asia.json";
 
+import { createPopper } from '@popperjs/core';
+
+
+
+
 
 @Component({
     selector: 'app-report',
@@ -25,14 +30,31 @@ export class ReportComponent implements OnInit {
     data: any;
     loading: any;
     param: any;
-    
+    url: any;    
 
     constructor(
         private router: Router,
         private route: ActivatedRoute
     ) { }
 
+   
     ngOnInit(): void {
+       this.url = this.router.url;
+
+        // const popcorn:any = document.querySelector('#popcorn');
+        // const tooltip:any = document.querySelector('#tooltip');
+        // createPopper(popcorn, tooltip, {
+        //     placement: 'top',
+        //     modifiers: [
+        //       {
+        //         name: 'offset',
+        //         options: {
+        //           offset: [0, 8],
+        //         },
+        //       },
+        //     ],
+        //   });
+
         this.loading = true;
         this.chapter1Data = chapter1JsonData;
         this.button = buttonJsonData;
@@ -43,7 +65,9 @@ export class ReportComponent implements OnInit {
                 this.param = params['id'];
                 if (params['id'] == 1) {
                     this.data = chapter1JsonData;
-                    console.log("this.data", this.data);
+                    this.generateIDs('chap1');
+                    // console.log("this.data", this.data);
+                    
 
                 } else if (params['id'] == 4) {
                     this.data = chapter4CardJsonData;
@@ -67,6 +91,12 @@ export class ReportComponent implements OnInit {
                 }, 1000);
             }
         );
+    }
+
+    generateIDs(uuid: any){
+        this.data.forEach((element: any, key: any) => {
+            element.id = uuid + (key + 1);
+        });
     }
 
     goToNextChapter() {
@@ -99,4 +129,34 @@ export class ReportComponent implements OnInit {
 
         this.param++;
     }
+
+
+    
+    context = {
+        message: ''
+      };
+    
+      isOpen = false;
+    
+    
+      bindSelection(event:any) {
+          console.log('asdasdasdasdasd : ', (<any>window).getSelection().toString());
+          this.context.message = (<any>window).getSelection().toString();
+          if(this.context.message) {
+              this.isOpen = true;
+          }
+      }
+
+      onSwipe(evt: any) {
+          console.log("Heyy");
+          
+        const x = Math.abs(evt.deltaX) > 40 ? (evt.deltaX > 0 ? 'right' : 'left') : '';
+        if (x === 'left') {
+            window.history.back();
+
+        } else {
+            window.history.forward();
+        }
+    }
+
 }

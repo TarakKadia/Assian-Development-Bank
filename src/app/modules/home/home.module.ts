@@ -9,6 +9,7 @@ import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directo
 import { MessageComponent } from './message/message.component';
 import { AppendixModule } from '../appendix/appendix.module';
 import { CoreModule } from 'src/app/core/core.module';
+import { HammerModule } from '@angular/platform-browser';
 // import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 
 
@@ -29,7 +30,8 @@ import { CoreModule } from 'src/app/core/core.module';
     HomeRoutingModule,
     SharedModule,
     AppendixModule,
-    CoreModule
+    CoreModule,
+    HammerModule
   ],
 
   exports: [

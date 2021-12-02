@@ -1,1 +1,1 @@
-<p [innerHTML]="data"></p>
+<p [innerHTML]="data.newData" (mouseup)="GetSelection($event)" *ngIf="isShowData"></p>

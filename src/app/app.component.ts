@@ -13,11 +13,11 @@ export class AppComponent {
   data:any;
 
   constructor(private aRouter: ActivatedRoute, private router: Router){
-    document.onselectionchange = () => {
-        setTimeout(() => {
-            this.setSelectedText();
-        }, 1000);
-    };
+    // document.onselectionchange = () => {
+    //     setTimeout(() => {
+    //         this.setSelectedText();
+    //     }, 1000);
+    // };
   }
   
   ngOnInit(){
@@ -61,4 +61,7 @@ setSelectedText() {
         window.localStorage.setItem('highlitedText', JSON.stringify(highlitedTextArray));
     }
 }
+
+
+
 }

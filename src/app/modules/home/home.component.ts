@@ -72,4 +72,17 @@ export class HomeComponent implements OnInit {
     this.router.navigate(['/appendixes-content']);
   }
 
+  onSwipe(evt: any) {
+      console.log("Tarak bhai greatest");
+      
+    const x = Math.abs(evt.deltaX) > 40 ? (evt.deltaX > 0 ? 'right' : 'left') : '';
+    if (x === 'left') {
+        window.history.back();
+
+    } else {
+        window.history.forward();
+    }
+}
+
+
 }

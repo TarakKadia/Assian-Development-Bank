@@ -1,13 +1,16 @@
-<div *ngIf="loading" class="loader">
+ <div *ngIf="loading" class="loader">
   <div class="loader__element"></div>
 </div>
+
+<ng-template #pop let-message="message">{{ message }}</ng-template>
 <div class="report">
-  <div class="content">
+    
+  <div class="content " triggers=""  [isOpen]="isOpen" [popover]="pop" [popoverContext]="context">
     <div *ngFor="let data of data">
 
       <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
 
-      <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+      <app-paragraph [data]="data" *ngIf="data.type=='paragraph'" [url]="url" ></app-paragraph>
 
       <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
 
@@ -62,3 +65,7 @@
 
   </div>
   <br><br><br><br><br><br><br>
+
+
+ </div> 
+
