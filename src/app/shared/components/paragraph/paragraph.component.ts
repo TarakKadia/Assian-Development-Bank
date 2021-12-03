@@ -1,10 +1,12 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { text } from 'd3-fetch';
 import shareThis from "share-this";
 import * as emailSharer from "share-this/dist/sharers/email";
 import * as facebookSharer from "share-this/dist/sharers/facebook";
 import * as linkedInSharer from "share-this/dist/sharers/linked-in";
 import * as twitterSharer from "share-this/dist/sharers/twitter";
+
+declare var jQuery: any;
 
 @Component({
     selector: 'app-paragraph',
@@ -119,10 +121,10 @@ export class ParagraphComponent implements OnInit {
                 element.highLightedData.forEach(ele => {
                     if (ele.paraId == this.data.id) {
                        if(this.data.data ==  ele.text){
-                            let markedData = '<mark data-toggle="tooltip" data-placement="top" title="Tooltip on top">' + ele.text + '</mark>';
+                            let markedData = "<mark class='mark'>" + ele.text + '</mark>';
                             this.data.newData = markedData;
                         } else  if (this.data.data.indexOf(ele.text) > -1) {
-                            let markedData = '<mark data-toggle="tooltip" data-placement="top" title="Tooltip on top">' + ele.text + '</mark>';
+                            let markedData = "<mark class='mark'>" + ele.text + '</mark>';
                             this.data.newData = this.data.newData.replace(ele.text, markedData);
                             console.log(this.data.newData)
                         } 
@@ -134,6 +136,27 @@ export class ParagraphComponent implements OnInit {
 
         setTimeout(() => {
             this.isShowData = true
+
+            setTimeout(() => {
+                jQuery(".mark").on("mouseover", (event) => {
+
+                    var target = jQuery(event.target);
+                        jQuery('#hover').css('display', 'block');
+                        var relX = event.pageX;
+                        var relY = event.pageY;
+        
+                        console.log('relX', relX, 'relY', relY);
+        
+        
+                        jQuery('#hover').css('top', relY + 'px');
+                        jQuery('#hover').css('left', relX + 'px');
+        
+                });
+
+                jQuery(".mark").on("mouseout", (event) => {
+                    jQuery('#hover').css('display', 'none');
+                });
+            }, 200);
         }, 100);
     }
 }
