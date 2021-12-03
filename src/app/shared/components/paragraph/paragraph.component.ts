@@ -1,4 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { text } from 'd3-fetch';
+import shareThis from "share-this";
+import * as emailSharer from "share-this/dist/sharers/email";
+import * as facebookSharer from "share-this/dist/sharers/facebook";
+import * as linkedInSharer from "share-this/dist/sharers/linked-in";
+import * as twitterSharer from "share-this/dist/sharers/twitter";
 
 @Component({
     selector: 'app-paragraph',
@@ -11,7 +17,13 @@ export class ParagraphComponent implements OnInit {
     @Input() url: any;
     isShowData = false;
     constructor() {
-
+        // const selectionShare = shareThis({
+        //     document: document,
+        //     selector: "body",
+        //     sharers: [emailSharer, facebookSharer, linkedInSharer, twitterSharer]
+        // });
+        
+        // selectionShare.init();
     }
 
     ngOnInit(): void {
@@ -107,10 +119,10 @@ export class ParagraphComponent implements OnInit {
                 element.highLightedData.forEach(ele => {
                     if (ele.paraId == this.data.id) {
                        if(this.data.data ==  ele.text){
-                            let markedData = '<mark>' + ele.text + '</mark>';
+                            let markedData = '<mark data-toggle="tooltip" data-placement="top" title="Tooltip on top">' + ele.text + '</mark>';
                             this.data.newData = markedData;
                         } else  if (this.data.data.indexOf(ele.text) > -1) {
-                            let markedData = '<mark>' + ele.text + '</mark>';
+                            let markedData = '<mark data-toggle="tooltip" data-placement="top" title="Tooltip on top">' + ele.text + '</mark>';
                             this.data.newData = this.data.newData.replace(ele.text, markedData);
                             console.log(this.data.newData)
                         } 
@@ -125,3 +137,4 @@ export class ParagraphComponent implements OnInit {
         }, 100);
     }
 }
+
