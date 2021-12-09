@@ -3430,5 +3430,10 @@ div#hover {
   }
   
   .hover-icon i {
-    font-size: 18px;
+    font-size: 15px;
+  }
+  .hover-icon a {
+    text-decoration: none;
+    cursor:pointer;
+    color: inherit;
   }

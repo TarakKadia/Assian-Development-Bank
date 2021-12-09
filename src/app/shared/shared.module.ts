@@ -28,6 +28,7 @@ import {RouterModule} from '@angular/router';
 import { ExpandableContentTwoComponent } from './components/expandable-content-two/expandable-content-two.component';
 import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/shade-knowledge-two.component';
 import { CounterCardComponent } from './components/counter-card/counter-card.component';
+import { TableAccordionComponent } from './components/table-accordion/table-accordion.component';
 
 
 @NgModule({
@@ -58,6 +59,7 @@ import { CounterCardComponent } from './components/counter-card/counter-card.com
     AppendixesListComponent,
     SingleHeadingComponent,
     CounterCardComponent,
+    TableAccordionComponent
 
   ],
   imports: [
@@ -93,6 +95,7 @@ import { CounterCardComponent } from './components/counter-card/counter-card.com
     RegionHeadingComponent,
     SingleHeadingComponent,
     CounterCardComponent,
+    TableAccordionComponent
 
     
 
