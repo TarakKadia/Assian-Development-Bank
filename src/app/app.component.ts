@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, HostListener } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { GeneralApiService } from './core/general-api.service';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +13,7 @@ export class AppComponent {
 
   data:any;
 
-  constructor(private aRouter: ActivatedRoute, private router: Router){
+  constructor(private aRouter: ActivatedRoute, private router: Router,  private generalApiService: GeneralApiService){
     // document.onselectionchange = () => {
     //     setTimeout(() => {
     //         this.setSelectedText();
@@ -21,6 +22,7 @@ export class AppComponent {
   }
   
   ngOnInit(){
+      this.selectedText();
   }
 
   getSelectionText() {
@@ -59,6 +61,25 @@ setSelectedText() {
         highlitedTextArray.push(tempObj);
         console.log("highlitedTextArray : ", highlitedTextArray);
         window.localStorage.setItem('highlitedText', JSON.stringify(highlitedTextArray));
+    }
+}
+
+selectedText(): void {
+    let cookieData: any = localStorage.getItem('highLightedText');
+    if (cookieData) {
+        cookieData = JSON.parse(cookieData);
+        if (cookieData) {
+            let cookieData2 = cookieData[0].highLightedData;
+            if (cookieData2.length > 0) {
+                cookieData2.forEach((element: any, index: any) => {
+                    if (element.text === this.generalApiService.selectedText) {
+                        cookieData2.splice(index, 1);
+                    }
+                });
+            }
+        }
+        localStorage.setItem('highLightedText', JSON.stringify(cookieData));
+        this.generalApiService.updateHighlight.next(true);
     }
 }
 

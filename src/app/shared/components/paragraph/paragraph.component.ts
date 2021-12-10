@@ -6,6 +6,8 @@ import * as facebookSharer from "share-this/dist/sharers/facebook";
 import * as linkedInSharer from "share-this/dist/sharers/linked-in";
 import * as twitterSharer from "share-this/dist/sharers/twitter";
 
+import { GeneralApiService } from './../../../core/general-api.service';
+
 declare var jQuery: any;
 
 
@@ -19,23 +21,30 @@ export class ParagraphComponent implements OnInit {
     @Input() data: any;
     @Input() url: any;
     isShowData = false;
-    constructor() {
+
+    constructor(private generalApiService: GeneralApiService) {
         // const selectionShare = shareThis({
         //     document: document,
         //     selector: "body",
         //     sharers: [emailSharer, facebookSharer, linkedInSharer, twitterSharer]
         // });
-        
+
         // selectionShare.init();
     }
 
     ngOnInit(): void {
         this.generateHTML();
+
+        this.generalApiService.updateHighlight.subscribe((isHighlight) => {
+            if (isHighlight) {
+                this.generateHTML();
+            }
+        })
     }
     GetSelection(event: MouseEvent): void {
         const currentSelection = window.getSelection() || '';
         const currentSelectedText = currentSelection.toString();
-        if(currentSelectedText != ''){
+        if (currentSelectedText != '') {
             this.markSelectedTextAsHighlighted(currentSelectedText);
         }
     }
@@ -241,23 +250,24 @@ export class ParagraphComponent implements OnInit {
         }
         this.data['newData'] = this.data.data;
 
-    storageArr.forEach(element => {
-        if (element.url == this.url) {
-            element.highLightedData.forEach((ele, key) => {
-                if (ele.paraId == this.data.id) {
-                    if (this.data.data == ele.text) {
-                        let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
-                        this.data.newData = markedData;
-                    } else if (this.data.data.indexOf(ele.text) > -1) {
-                        let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
-                        this.data.newData = this.data.newData.replace(ele.text, markedData);
-                        console.log(this.data.newData)
+        storageArr.forEach(element => {
+            if (element.url == this.url) {
+                element.highLightedData.forEach((ele, key) => {
+                    if (ele.paraId == this.data.id) {
+                        if (this.data.data == ele.text) {
+                            let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
+                            this.data.newData = markedData;
+                        } else if (this.data.data.indexOf(ele.text) > -1) {
+                            let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
+                            this.data.newData = this.data.newData.replace(ele.text, markedData);
+                            console.log(this.data.newData)
+                        }
                     }
-                }
-            });
-        }
+                });
+            }
 
-    });
+        });
+
 
     setTimeout(() => {
         this.isShowData = true
@@ -271,11 +281,11 @@ export class ParagraphComponent implements OnInit {
                     const className = target.attr('class').split(' ');
                     var class_names = '.' + className[0] + '.' + className[1] + '.' + className[2];
 
-                    console.log('className', class_names);
+                    console.log('vlaue', jQuery(class_names).text());
+                    this.generalApiService.selectedText = jQuery(class_names).text();
+
                     var position = jQuery(class_names).offset();
                     var width = jQuery(class_names).width() / 2;
-
-                    console.log('event.pageY', event.pageX, 'position.left', position.left);
 
                     jQuery('#hover').css('top', (position.top - 60) + 'px');
                     jQuery('#hover').css('left', (position.left + width - 60) + 'px');
@@ -289,6 +299,10 @@ export class ParagraphComponent implements OnInit {
             // });
         }, 200);
     }, 100);
+}
+
+getWord(word): void {
+    return word;
 }
 }
 

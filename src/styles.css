@@ -3278,6 +3278,7 @@ strong.lessstrong {
     }
     mark,.mark{
         padding: 0px !important;
+        color: rgb(252, 18, 18);
     }
 
     [data-tooltip] {
@@ -3432,6 +3433,12 @@ div#hover {
   .hover-icon i {
     font-size: 15px;
   }
+  .hover-icon a {
+    text-decoration: none;
+    cursor:pointer;
+    color: inherit;
+  }
+
   .hover-icon a {
     text-decoration: none;
     cursor:pointer;
