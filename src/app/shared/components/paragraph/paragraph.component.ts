@@ -21,6 +21,7 @@ export class ParagraphComponent implements OnInit {
     @Input() data: any;
     @Input() url: any;
     isShowData = false;
+    selectedID: string = '';
 
     constructor(private generalApiService: GeneralApiService) {
         // const selectionShare = shareThis({
@@ -39,83 +40,23 @@ export class ParagraphComponent implements OnInit {
             if (isHighlight) {
                 this.generateHTML();
             }
-        })
+        });
+
+        this.generalApiService.bookmarkPara.subscribe((bookmark) => {
+            if (bookmark) {
+                this.bookMarkText();
+            }
+        });
     }
+
     GetSelection(event: MouseEvent): void {
         const currentSelection = window.getSelection() || '';
         const currentSelectedText = currentSelection.toString();
         if (currentSelectedText != '') {
             this.markSelectedTextAsHighlighted(currentSelectedText);
+            this.selectedID = this.data.id;
         }
     }
-
-    // markSelectedTextAsHighlighted(selectedText: any) {
-    //     let storageArr: any = localStorage.getItem('highLightedText');
-    //     if (storageArr) {
-    //         storageArr = JSON.parse(storageArr)
-    //     } else {
-    //         storageArr = [];
-    //     }
-
-    //     if (storageArr.length > 0) {
-    //         let isChapExist = false;
-    //         storageArr.forEach((element: any) => {
-    //             if (element.url == this.url) {
-    //                 isChapExist = true;
-    //                 if (element.highLightedData.length > 0) {
-    //                     let isNew = true;
-    //                     element.highLightedData.forEach((ele: any) => {
-    //                         if (ele.paraId == this.data.id) {
-    //                             isNew = false
-    //                             if(ele.text != selectedText){
-    //                                 if(this.data.data == selectedText){
-    //                                     element.highLightedData = [];
-    //                                 }
-    //                                 element.highLightedData.push({
-    //                                     paraId: this.data.id,
-    //                                     text: selectedText
-    //                                 })
-    //                             }
-    //                         }
-    //                     });
-    //                     if (isNew) {
-    //                         element.highLightedData.push({
-    //                             paraId: this.data.id,
-    //                             text: selectedText
-    //                         })
-    //                     }
-    //                 }
-    //             }
-    //         });
-    //         if (!isChapExist) {
-    //             let chapData = {
-    //                 url: this.url,
-    //                 highLightedData: []
-    //             }
-
-    //             chapData.highLightedData.push({
-    //                 paraId: this.data.id,
-    //                 text: selectedText
-    //             })
-
-    //             storageArr.push(chapData);
-    //         }
-    //     } else {
-    //         let chapData = {
-    //             url: this.url,
-    //             highLightedData: []
-    //         }
-
-    //         chapData.highLightedData.push({
-    //             paraId: this.data.id,
-    //             text: selectedText
-    //         })
-
-    //         storageArr.push(chapData);
-    //     }
-    //     localStorage.setItem('highLightedText', JSON.stringify(storageArr));
-
-    // }
 
     markSelectedTextAsHighlighted(selectedText: any) {
         let storageArr: any = localStorage.getItem('highLightedText');
@@ -125,42 +66,57 @@ export class ParagraphComponent implements OnInit {
             storageArr = [];
         }
 
-    if (storageArr.length > 0) {
-        let isChapExist = false;
-        storageArr.forEach((element: any) => {
-            if (element.url == this.url) {
-                isChapExist = true;
-                if (element.highLightedData.length > 0) {
-                    let isNew = true;
-                    element.highLightedData.forEach((ele: any) => {
-                        if (ele.paraId == this.data.id) {
-                            isNew = false
-                            if (ele.text != selectedText) {
-                                if (this.data.data == selectedText) {
-                                    element.highLightedData = [];
+        if (storageArr.length > 0) {
+            let isChapExist = false;
+            storageArr.forEach((element: any) => {
+                if (element.url == this.url) {
+                    isChapExist = true;
+                    if (element.highLightedData.length > 0) {
+                        let isNew = true;
+                        element.highLightedData.forEach((ele: any) => {
+                            if (ele.paraId == this.data.id) {
+                                isNew = false
+                                if (ele.text != selectedText) {
+                                    if (this.data.data == selectedText) {
+                                        element.highLightedData = [];
+                                    }
+                                    element.highLightedData.push({
+                                        paraId: this.data.id,
+                                        text: selectedText
+                                    })
                                 }
-                                element.highLightedData.push({
-                                    paraId: this.data.id,
-                                    text: selectedText
-                                })
                             }
+                        });
+                        if (isNew) {
+                            element.highLightedData.push({
+                                paraId: this.data.id,
+                                text: selectedText
+                            })
                         }
-                    });
-                    if (isNew) {
-                        element.highLightedData.push({
-                            paraId: this.data.id,
-                            text: selectedText
-                        })
                     }
                 }
+            });
+            if (!isChapExist) {
+                let chapData = {
+                    url: this.url,
+                    highLightedData: []
+                }
+
+                chapData.highLightedData.push({
+                    paraId: this.data.id,
+                    text: selectedText
+                })
+
+                storageArr.push(chapData);
             }
-        });
-        if (!isChapExist) {
+        } else {
             let chapData = {
                 url: this.url,
                 highLightedData: []
             }
 
+            console.log('this.data : ', this.data);
+            console.log('this.data.id : ', this.data.id);
             chapData.highLightedData.push({
                 paraId: this.data.id,
                 text: selectedText
@@ -168,78 +124,13 @@ export class ParagraphComponent implements OnInit {
 
             storageArr.push(chapData);
         }
-    } else {
-        let chapData = {
-            url: this.url,
-            highLightedData: []
-        }
+        localStorage.setItem('highLightedText', JSON.stringify(storageArr));
 
-        chapData.highLightedData.push({
-            paraId: this.data.id,
-            text: selectedText
-        })
-
-        storageArr.push(chapData);
+        setTimeout(() => {
+            this.generateHTML();
+        }, 100);
     }
-    localStorage.setItem('highLightedText', JSON.stringify(storageArr));
 
-    setTimeout(() => {
-        this.generateHTML();
-    }, 100);
-}
-
-    // generateHTML() {
-    //     let storageArr: any = localStorage.getItem('highLightedText');
-    //     if (storageArr) {
-    //         storageArr = JSON.parse(storageArr)
-    //     } else {
-    //         storageArr = [];
-    //     }
-    //     this.data['newData'] = this.data.data;
-
-    //     storageArr.forEach(element => {
-    //         if (element.url == this.url) {
-    //             element.highLightedData.forEach(ele => {
-    //                 if (ele.paraId == this.data.id) {
-    //                    if(this.data.data ==  ele.text){
-    //                         let markedData = '<mark class="mark">' + ele.text + '</mark>';
-    //                         this.data.newData = markedData;
-    //                     } else  if (this.data.data.indexOf(ele.text) > -1) {
-    //                         let markedData = '<mark class="mark">' + ele.text + '</mark>';
-    //                         this.data.newData = this.data.newData.replace(ele.text, markedData);
-    //                         console.log(this.data.newData)
-    //                     } 
-    //                 }
-    //             });
-    //         }
-
-    //     });
-
-    //     setTimeout(() => {
-    //         this.isShowData = true
-
-    //         setTimeout(() => {
-    //             jQuery(".mark").on("mouseover", (event) => {
-
-    //                 var target = jQuery(event.target);
-    //                     jQuery('#hover').css('display', 'block');
-    //                     var relX = event.pageX;
-    //                     var relY = event.pageY;
-        
-    //                     console.log('relX', relX, 'relY', relY);
-        
-        
-    //                     jQuery('#hover').css('top', relY + 'px');
-    //                     jQuery('#hover').css('left', relX + 'px');
-        
-    //             });
-
-    //             jQuery(".mark").on("mouseout", (event) => {
-    //                 jQuery('#hover').css('display', 'none');
-    //             });
-    //         }, 200);
-    //     }, 100);
-    // }
 
     generateHTML() {
         let storageArr: any = localStorage.getItem('highLightedText');
@@ -260,7 +151,7 @@ export class ParagraphComponent implements OnInit {
                         } else if (this.data.data.indexOf(ele.text) > -1) {
                             let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
                             this.data.newData = this.data.newData.replace(ele.text, markedData);
-                            console.log(this.data.newData)
+                            // console.log(this.data.newData)
                         }
                     }
                 });
@@ -269,40 +160,79 @@ export class ParagraphComponent implements OnInit {
         });
 
 
-    setTimeout(() => {
-        this.isShowData = true
-
         setTimeout(() => {
-            jQuery(".content").on("mouseover", (event) => {
-                var target = jQuery(event.target);
-                if (target.is('#hover') || target.is('.mark')) {
-                    jQuery('#hover').css('display', 'block');
+            this.isShowData = true
 
-                    const className = target.attr('class').split(' ');
-                    var class_names = '.' + className[0] + '.' + className[1] + '.' + className[2];
+            setTimeout(() => {
+                jQuery(".content").on("mouseover", (event) => {
+                    var target = jQuery(event.target);
+                    if (target.is('#hover') || target.is('.mark')) {
+                        jQuery('#hover').css('display', 'block');
 
-                    console.log('vlaue', jQuery(class_names).text());
-                    this.generalApiService.selectedText = jQuery(class_names).text();
+                        const className = target.attr('class').split(' ');
+                        var class_names = '.' + className[0] + '.' + className[1] + '.' + className[2];
 
-                    var position = jQuery(class_names).offset();
-                    var width = jQuery(class_names).width() / 2;
+                        // console.log('vlaue', jQuery(class_names).text());
+                        this.generalApiService.selectedText = jQuery(class_names).text();
 
-                    jQuery('#hover').css('top', (position.top - 60) + 'px');
-                    jQuery('#hover').css('left', (position.left + width - 60) + 'px');
+                        var position = jQuery(class_names).offset();
+                        var width = jQuery(class_names).width() / 2;
+
+                        jQuery('#hover').css('top', (position.top - 60) + 'px');
+                        jQuery('#hover').css('left', (position.left + width - 60) + 'px');
+                    } else {
+                        jQuery('#hover').css('display', 'none');
+                    }
+                });
+
+                // jQuery(".content").on("mouseleave", (event) => {
+                //     jQuery('#hover').css('display', 'none');
+                // });
+            }, 200);
+        }, 100);
+    }
+
+    bookMarkText() {
+        if (this.selectedID && this.selectedID !== '') {
+            const tempBookmark = {
+                url: this.url,
+                paraID: this.selectedID
+            };
+            this.saveBookmark(tempBookmark);
+        }
+    }
+
+    saveBookmark(tempBookmark: any) {
+        console.log('tempBookmark : ', tempBookmark);
+        let bookmarkStorageArr: any = localStorage.getItem('highlitedBookmark');
+        if (bookmarkStorageArr) {
+            bookmarkStorageArr = JSON.parse(bookmarkStorageArr)
+        } else {
+            bookmarkStorageArr = [];
+        }
+
+        if (bookmarkStorageArr.length > 0) {
+            bookmarkStorageArr.forEach((element: any) => {
+                if (element.url == this.url && element.paraID === this.selectedID) {
+                    alert('This paragraph is already bookmarked');
                 } else {
-                    jQuery('#hover').css('display', 'none');
+                    console.log('In Store');
+                    bookmarkStorageArr.push(tempBookmark);
                 }
             });
+        } else {
+            bookmarkStorageArr.push(tempBookmark);
+            this.selectedID = '';
+        }
+        localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
+    }
 
-            // jQuery(".content").on("mouseleave", (event) => {
-            //     jQuery('#hover').css('display', 'none');
-            // });
-        }, 200);
-    }, 100);
-}
+    getWord(word): void {
+        return word;
+    }
 
-getWord(word): void {
-    return word;
-}
+
+
+
 }
 

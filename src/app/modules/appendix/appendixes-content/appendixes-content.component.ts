@@ -44,7 +44,6 @@ export class AppendixesContentComponent implements OnInit {
   }
 
   showImage(img: any) {
-    console.log('image', img)
     this.sourceImages = img;
     this.isShowImage ? this.isShowImage = false : this.isShowImage = true;;
   }

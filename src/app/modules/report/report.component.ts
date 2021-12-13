@@ -139,13 +139,6 @@ export class ReportComponent implements OnInit {
       isOpen = false;
     
     
-      bindSelection(event:any) {
-          console.log('asdasdasdasdasd : ', (<any>window).getSelection().toString());
-          this.context.message = (<any>window).getSelection().toString();
-          if(this.context.message) {
-              this.isOpen = true;
-          }
-      }
 
       onSwipe(evt: any) {
           console.log("Heyy");
