@@ -29,8 +29,36 @@ export class MenuBarComponent implements OnInit {
 
     isShowMenu = false;
     isSocialMenu = false;
+    isBookmarkMenu = false;
+    bookmarks: any = [];
 
-    ngOnInit(): void { }
+    ngOnInit(): void {
+        let bookmarksData: any = localStorage.getItem('highlitedBookmark');
+        if (bookmarksData) {
+            bookmarksData = JSON.parse(bookmarksData);
+            if (bookmarksData.length > 0) {
+                bookmarksData.forEach(element => {
+                    let isAdded = false;
+                    this.bookmarks.forEach(item => {
+                        if (element.chapterId === item.id) {
+                            isAdded = true;
+                            item.text.push(element)
+                        }
+                    });
+
+                    if (!isAdded) {
+                        this.bookmarks.push({ id: element.chapterId, title: element.chapterTitle, text: [element] });
+                    }
+
+                    if (this.bookmarks.length === 0) {
+                        this.bookmarks.push({ id: element.chapterId, title: element.chapterTitle, text: [element] });
+                    }
+                });
+            }
+
+            console.log('this.bookmarks', this.bookmarks);
+        }
+     }
 
 
     showMenu() {
@@ -39,6 +67,10 @@ export class MenuBarComponent implements OnInit {
 
     openSocialMenu() {
         this.isSocialMenu ? this.isSocialMenu = false : this.isSocialMenu = true;
+    }
+
+    openBookmarkMenu() {
+        this.isBookmarkMenu ? this.isBookmarkMenu = false : this.isBookmarkMenu = true;
     }
 
     goToPresidentsMessage() {
@@ -83,6 +115,14 @@ export class MenuBarComponent implements OnInit {
 
         this.showMenu();
     }
+
+    goToBookmark(){
+        document.getElementById("targetGreen").scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+            inline: "nearest"
+          });
+   }
 
     goToAppendixes() {
         this.router.navigate(['/appendixes-content']);

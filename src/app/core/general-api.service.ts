@@ -10,4 +10,8 @@ export class GeneralApiService {
     public bookmarkPara: BehaviorSubject<any> = new BehaviorSubject(false);
 
     public selectedText = '';
+    public chapterDetails = {
+        title: '',
+        id: 0
+    };
 }

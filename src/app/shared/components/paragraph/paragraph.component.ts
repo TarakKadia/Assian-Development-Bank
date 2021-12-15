@@ -196,7 +196,10 @@ export class ParagraphComponent implements OnInit {
         if (this.selectedID && this.selectedID !== '') {
             const tempBookmark = {
                 url: this.url,
-                paraID: this.selectedID
+                paraID: this.selectedID,
+                text: this.generalApiService.selectedText,
+                chapterTitle: this.generalApiService.chapterDetails.title,
+                chapterId: this.generalApiService.chapterDetails.id
             };
             this.saveBookmark(tempBookmark);
         }
@@ -213,6 +216,7 @@ export class ParagraphComponent implements OnInit {
 
         if (bookmarkStorageArr.length > 0) {
             bookmarkStorageArr.forEach((element: any) => {
+                debugger
                 if (element.url == this.url && element.paraID === this.selectedID) {
                     alert('This paragraph is already bookmarked');
                 } else {

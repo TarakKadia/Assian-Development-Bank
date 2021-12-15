@@ -12,6 +12,7 @@ import southasia from "../../constants/south-asia.json";
 import southeastasia from "../../constants/south-east-asia.json";
 
 import { createPopper } from '@popperjs/core';
+import { GeneralApiService } from 'src/app/core/general-api.service';
 
 
 
@@ -34,7 +35,8 @@ export class ReportComponent implements OnInit {
 
     constructor(
         private router: Router,
-        private route: ActivatedRoute
+        private route: ActivatedRoute,
+        private generalApiService: GeneralApiService
     ) { }
 
    
@@ -65,30 +67,41 @@ export class ReportComponent implements OnInit {
                 this.param = params['id'];
                 if (params['id'] == 1) {
                     this.data = chapter1JsonData;
+                    this.generalApiService.chapterDetails.id === 1;
                     this.generateIDs('chap1');
                     // console.log("this.data", this.data);
                     
 
                 } else if (params['id'] == 4) {
+                    this.generalApiService.chapterDetails.id === 4;
                     this.data = chapter4CardJsonData;
                 } else if (params['id'] == 3) {
+                    this.generalApiService.chapterDetails.id === 3;
                     this.data = chapter3CardJsonData;
                 } else if (params['id'] == 2) {
+                    this.generalApiService.chapterDetails.id === 2;
                     this.router.navigate(['/region']);
                 } else if (params['id'] == 10) {
+                    this.generalApiService.chapterDetails.id === 10;
                     this.data = centralWestAsia;
                 } else if (params['id'] == 11) {
+                    this.generalApiService.chapterDetails.id === 11;
                     this.data = eastAsia;
                 } else if (params['id'] == 12) {
+                    this.generalApiService.chapterDetails.id === 12;
                     this.data = pacific;
                 } else if (params['id'] == 13) {
+                    this.generalApiService.chapterDetails.id === 13;
                     this.data = southasia;
                 } else if (params['id'] == 14) {
+                    this.generalApiService.chapterDetails.id === 14;
                     this.data = southeastasia;
                 }
                 setTimeout(() => {
                     this.loading = false;
                 }, 1000);
+
+                this.generalApiService.chapterDetails.title = this.data[0].data;
             }
         );
     }

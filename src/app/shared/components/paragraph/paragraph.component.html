@@ -1,2 +1,2 @@
-<p class="paragraph-hover" [innerHTML]="data.newData" (mouseup)="GetSelection($event)" *ngIf="isShowData"></p>
+<p class="paragraph-hover" [innerHTML]="data.newData" [id]='data.id' (mouseup)="GetSelection($event)" *ngIf="isShowData"></p>
 

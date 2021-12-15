@@ -83,6 +83,12 @@
     <div class="copyright">
       <a [routerLink]="['/']">ADB&nbsp;Annual&nbsp;Report&nbsp;<span>2020</span></a>
     </div>
+    <div id="social-bookmark" class="bookmark" (click)="openBookmarkMenu()">
+        
+        <span>Bookmark
+            <i class="bi bi-star"></i>
+        </span>
+      </div>
     <div id="social-share" class="share" (click)="openSocialMenu()">
       <span>Share</span>
     </div>
@@ -103,5 +109,15 @@
           href="mailto:?subject=ADB Annual Report 2020&amp;body=The Asian Development Bank 2020 Annual Report is now available for smart devices and screens at: https://www.adb.org/ar2020/digital."
           target="_blank" rel="noopener noreferrer">EMAIL</a></li>
     </ul>
+  </div>
+
+  <div id="social-overlay" [ngClass]="{'display-block': isBookmarkMenu}" (click)="openBookmarkMenu()"></div>
+  <div id="social-pop1" [ngClass]="{'social-menu': isBookmarkMenu}">
+      <div style="color: #fff;" *ngFor="let bookmark of bookmarks">
+        {{bookmark.title}}
+        <div  id="targetGreen" class="social-list" *ngFor="let item of bookmark.text" (click)="goToBookmark()">
+            <div  style="color: #fff;"> {{item.text}}</div>
+        </div>
+      </div>
   </div>
 </footer>
