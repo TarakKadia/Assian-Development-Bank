@@ -1,5 +1,5 @@
 <ng-container>
-    <h2>Appendix 2:Loan and Grants Committed,2020 Regular Ordinary Capital and Concessional Resources Commitments($million)</h2>
+        <h2>{{heading}}</h2>
 </ng-container>
 
 <table class="fold-table">
@@ -13,10 +13,10 @@
         </ng-container>
         <tbody>
             <ng-container *ngIf="item.type === 'expansion-panel'">
-                <tr class="view" (click)="openAccordin($event)">
+                <tr class="view open" (click)="openAccordin($event)">
                     <td class="w-14" *ngFor="let subT of item.subTitle">{{subT.title}}</td>
                 </tr>
-                <tr class="fold">
+                <tr class="fold open">
                     <td colspan="7">
                         <ng-container *ngTemplateOutlet="commonSubTable; context: {item: item}">
                         </ng-container>

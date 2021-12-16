@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import financialHighlightsJsonData from "src/app/constants/financial-highlights.json";
 import counterCardsJsonData from "src/app/constants/counterCards.json";
 
+import financialHighlight from "../../../constants/financial-highlight.json";
+import { GeneralApiService } from 'src/app/core/general-api.service';
+
+
 @Component({
   selector: 'app-financial-highlights',
   templateUrl: './financial-highlights.component.html',
@@ -23,7 +27,7 @@ export class FinancialHighlightsComponent implements OnInit {
       this.loading = false;
   }, 1000);
     this.homeData = counterCardsJsonData;
-    this.value = financialHighlightsJsonData; 
+    this.value = financialHighlight; 
 
     // console.log("this.homeData >>> ",counterCardsJsonData,"\nfinancialHighlights >>> ",financialHighlightsJsonData,"\nvalue >>> ",this.value)
 
