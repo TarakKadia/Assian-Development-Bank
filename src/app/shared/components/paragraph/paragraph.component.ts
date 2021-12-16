@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { text } from 'd3-fetch';
 import shareThis from "share-this";
 import * as emailSharer from "share-this/dist/sharers/email";
