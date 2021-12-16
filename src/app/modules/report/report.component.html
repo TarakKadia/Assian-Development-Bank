@@ -62,7 +62,7 @@
       
       <app-button *ngIf="data.type=='button'"  [data]="data.data"  [title]="data.title" (click)="goToNextChapter()"></app-button>
 
-
+<app-accordin-table *ngIf="data.type=='accordian-table'" [tableJson]="data.data" ></app-accordin-table>
     </div>
 
     

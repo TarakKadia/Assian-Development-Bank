@@ -11,7 +11,7 @@ import pacific from "../../constants/pacific.json";
 import southasia from "../../constants/south-asia.json";
 import southeastasia from "../../constants/south-east-asia.json";
 
-import { createPopper } from '@popperjs/core';
+import financialHighlight from "../../constants/financial-highlight.json";
 import { GeneralApiService } from 'src/app/core/general-api.service';
 
 
@@ -42,21 +42,6 @@ export class ReportComponent implements OnInit {
    
     ngOnInit(): void {
        this.url = this.router.url;
-
-        // const popcorn:any = document.querySelector('#popcorn');
-        // const tooltip:any = document.querySelector('#tooltip');
-        // createPopper(popcorn, tooltip, {
-        //     placement: 'top',
-        //     modifiers: [
-        //       {
-        //         name: 'offset',
-        //         options: {
-        //           offset: [0, 8],
-        //         },
-        //       },
-        //     ],
-        //   });
-
         this.loading = true;
         this.chapter1Data = chapter1JsonData;
         this.button = buttonJsonData;
@@ -96,6 +81,10 @@ export class ReportComponent implements OnInit {
                 } else if (params['id'] == 14) {
                     this.generalApiService.chapterDetails.id === 14;
                     this.data = southeastasia;
+                }  else if (params['id'] == 15) {
+                    this.generalApiService.chapterDetails.id === 15;
+                    this.data = financialHighlight;
+                    console.log('this.data', this.data);
                 }
                 setTimeout(() => {
                     this.loading = false;

@@ -29,6 +29,7 @@ import { ExpandableContentTwoComponent } from './components/expandable-content-t
 import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/shade-knowledge-two.component';
 import { CounterCardComponent } from './components/counter-card/counter-card.component';
 import { TableAccordionComponent } from './components/table-accordion/table-accordion.component';
+import { AccordinTableComponent } from './components/accordin-table/accordin-table.component';
 
 
 @NgModule({
@@ -59,7 +60,8 @@ import { TableAccordionComponent } from './components/table-accordion/table-acco
     AppendixesListComponent,
     SingleHeadingComponent,
     CounterCardComponent,
-    TableAccordionComponent
+    TableAccordionComponent,
+    AccordinTableComponent
 
   ],
   imports: [
@@ -95,7 +97,8 @@ import { TableAccordionComponent } from './components/table-accordion/table-acco
     RegionHeadingComponent,
     SingleHeadingComponent,
     CounterCardComponent,
-    TableAccordionComponent
+    TableAccordionComponent,
+    AccordinTableComponent
 
     
 
