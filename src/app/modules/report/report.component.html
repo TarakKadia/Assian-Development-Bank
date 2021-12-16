@@ -30,7 +30,7 @@
       <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
 
       <app-counter [data]="data.data" [class]="data.class" [sign]="data.sign" [title]="data.title" [digit]="data.digit"
-        [gender]="data.gender" *ngIf="data.type=='counter'"></app-counter>
+        [gender]="data.gender" [id]="data.id" *ngIf="data.type=='counter'"></app-counter>
 
       <app-currency-counter [sign]="data.sign" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
         [tag4]="data.tag4" [tag5]="data.tag5" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"

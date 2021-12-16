@@ -2,6 +2,11 @@
     left: 0px;
 }
 
+.show-bookmark-menu {
+    left: auto;
+    right: 0px;
+}
+
 .social-menu{
     width: auto !important;
     opacity: 1 !important;
@@ -15,3 +20,9 @@
 .display-block {
     display: block !important;
 }
+
+/* overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;  */

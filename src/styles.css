@@ -3414,7 +3414,7 @@ strong.lessstrong {
 
 body { margin: 60px 130px; } /* Demo purposes - ignore this margin */
 
-div#hover {
+div#hover, div#hover-box {
     position: absolute;
     max-width: 150px;
     width: 100%;
@@ -3427,7 +3427,7 @@ div#hover {
     display: none;
   }
   
-  div#hover::after {
+  div#hover::after, div#hover-box::after {
     content: '';
     position: absolute;
     top: 100%;
@@ -3469,3 +3469,52 @@ div#hover {
     cursor:pointer;
     color: inherit;
   }
+
+  .progress1.diversification.div.highlighted  {
+    box-shadow: 5px 10px red;
+  }
+div#hover {
+  position: absolute;
+  max-width: 150px;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  border: 0;
+  border-radius: 7px;
+  color: #fff;
+  display: none;
+}
+
+div#hover::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid rgba(0, 0, 0, 0.7);
+  margin: 0 auto;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.hover-icon-list {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.hover-icon {
+  display: inline-block;
+  margin: 0px 6px;
+}
+
+.hover-icon i {
+  font-size: 18px;
+}
+

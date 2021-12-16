@@ -1,3 +1,4 @@
+import { GeneralApiService } from 'src/app/core/general-api.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
@@ -24,7 +25,8 @@ export class MenuBarComponent implements OnInit {
 
     constructor(
         private router: Router,
-        private route: ActivatedRoute
+        private route: ActivatedRoute,
+        private generalApiService: GeneralApiService
     ) { }
 
     isShowMenu = false;
@@ -33,10 +35,20 @@ export class MenuBarComponent implements OnInit {
     bookmarks: any = [];
 
     ngOnInit(): void {
+        this.getBookmarks();
+        this.generalApiService.isBookmarkAdded.subscribe((isAdded) => {
+            if (isAdded) {
+                this.getBookmarks();
+            }
+        })
+     }
+
+     getBookmarks() {
         let bookmarksData: any = localStorage.getItem('highlitedBookmark');
         if (bookmarksData) {
             bookmarksData = JSON.parse(bookmarksData);
             if (bookmarksData.length > 0) {
+                this.bookmarks = [];
                 bookmarksData.forEach(element => {
                     let isAdded = false;
                     this.bookmarks.forEach(item => {
@@ -56,7 +68,7 @@ export class MenuBarComponent implements OnInit {
                 });
             }
 
-            console.log('this.bookmarks', this.bookmarks);
+            // console.log('this.bookmarks', this.bookmarks);
         }
      }
 
@@ -126,6 +138,11 @@ export class MenuBarComponent implements OnInit {
 
     goToAppendixes() {
         this.router.navigate(['/appendixes-content']);
+    }
+
+    goToBookmarkPage(url: any) {
+        this.openBookmarkMenu();
+        this.router.navigate([url.url], { queryParams: { id: url.chapterId, parId: url.paraID } });
     }
 
 }
