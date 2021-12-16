@@ -3414,7 +3414,7 @@ strong.lessstrong {
 
 body { margin: 60px 130px; } /* Demo purposes - ignore this margin */
 
-div#hover {
+div#hover, div#hover-box {
     position: absolute;
     max-width: 150px;
     width: 100%;
@@ -3427,7 +3427,7 @@ div#hover {
     display: none;
   }
   
-  div#hover::after {
+  div#hover::after, div#hover-box::after {
     content: '';
     position: absolute;
     top: 100%;
@@ -3468,4 +3468,8 @@ div#hover {
     text-decoration: none;
     cursor:pointer;
     color: inherit;
+  }
+
+  .progress1.diversification.div.highlighted  {
+    box-shadow: 5px 10px red;
   }

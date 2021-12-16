@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
@@ -14,7 +14,7 @@ import southeastasia from "../../constants/south-east-asia.json";
 import { createPopper } from '@popperjs/core';
 import { GeneralApiService } from 'src/app/core/general-api.service';
 
-
+declare var jQuery: any;
 
 
 
@@ -23,7 +23,7 @@ import { GeneralApiService } from 'src/app/core/general-api.service';
     templateUrl: './report.component.html',
     styleUrls: ['./report.component.css']
 })
-export class ReportComponent implements OnInit {
+export class ReportComponent implements OnInit, AfterViewInit {
 
     chapter1Data: any;
     button: any;
@@ -31,7 +31,7 @@ export class ReportComponent implements OnInit {
     data: any;
     loading: any;
     param: any;
-    url: any;    
+    url: any;
 
     constructor(
         private router: Router,
@@ -67,41 +67,68 @@ export class ReportComponent implements OnInit {
                 this.param = params['id'];
                 if (params['id'] == 1) {
                     this.data = chapter1JsonData;
-                    this.generalApiService.chapterDetails.id === 1;
+                    this.generalApiService.chapterDetails.id = 1;
                     this.generateIDs('chap1');
-                    // console.log("this.data", this.data);
+
+                    console.log("this.data", this.data);
                     
 
                 } else if (params['id'] == 4) {
-                    this.generalApiService.chapterDetails.id === 4;
+                    this.generalApiService.chapterDetails.id = 4;
                     this.data = chapter4CardJsonData;
                 } else if (params['id'] == 3) {
-                    this.generalApiService.chapterDetails.id === 3;
+                    this.generalApiService.chapterDetails.id = 3;
                     this.data = chapter3CardJsonData;
                 } else if (params['id'] == 2) {
-                    this.generalApiService.chapterDetails.id === 2;
+                    this.generalApiService.chapterDetails.id = 2;
                     this.router.navigate(['/region']);
                 } else if (params['id'] == 10) {
-                    this.generalApiService.chapterDetails.id === 10;
+                    this.generalApiService.chapterDetails.id = 10;
                     this.data = centralWestAsia;
                 } else if (params['id'] == 11) {
-                    this.generalApiService.chapterDetails.id === 11;
+                    this.generalApiService.chapterDetails.id = 11;
                     this.data = eastAsia;
                 } else if (params['id'] == 12) {
-                    this.generalApiService.chapterDetails.id === 12;
+                    this.generalApiService.chapterDetails.id = 12;
                     this.data = pacific;
                 } else if (params['id'] == 13) {
-                    this.generalApiService.chapterDetails.id === 13;
+                    this.generalApiService.chapterDetails.id = 13;
                     this.data = southasia;
                 } else if (params['id'] == 14) {
-                    this.generalApiService.chapterDetails.id === 14;
+                    this.generalApiService.chapterDetails.id = 14;
                     this.data = southeastasia;
                 }
                 setTimeout(() => {
                     this.loading = false;
                 }, 1000);
 
+
+                if (params['parId']) {
+                    console.log("params['parId']", jQuery('#' + (params['parId'] || 0)));
+                    setTimeout(() => {
+                        jQuery('html, body').animate({
+                            scrollTop: jQuery('#' + (params['parId'] || 0))?.offset()?.top
+                        }, 1000);
+                    }, 100);
+                }
+
                 this.generalApiService.chapterDetails.title = this.data[0].data;
+            }
+        );
+    }
+
+    ngAfterViewInit(): void {
+        this.route.queryParams
+            .subscribe(params => {
+                if (params['parId']) {
+                    console.log("params['parId']", jQuery('#' + (params['parId'] || 0)));
+                    setTimeout(() => {
+                        jQuery('html, body').animate({
+                            scrollTop: jQuery('#' + (params['parId'] || 0)).offset()?.top
+                        }, 1000);
+                        this.generalApiService.updateHighlight.next(true);
+                    }, 1000);
+                }
             }
         );
     }
@@ -154,7 +181,6 @@ export class ReportComponent implements OnInit {
     
 
       onSwipe(evt: any) {
-          console.log("Heyy");
           
         const x = Math.abs(evt.deltaX) > 40 ? (evt.deltaX > 0 ? 'right' : 'left') : '';
         if (x === 'left') {

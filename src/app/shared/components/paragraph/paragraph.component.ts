@@ -142,7 +142,7 @@ export class ParagraphComponent implements OnInit {
         this.data['newData'] = this.data.data;
 
         storageArr.forEach(element => {
-            if (element.url == this.url) {
+            if (this.url.indexOf(element.url) > -1) {
                 element.highLightedData.forEach((ele, key) => {
                     if (ele.paraId == this.data.id) {
                         if (this.data.data == ele.text) {
@@ -156,7 +156,6 @@ export class ParagraphComponent implements OnInit {
                     }
                 });
             }
-
         });
 
 
@@ -195,9 +194,9 @@ export class ParagraphComponent implements OnInit {
     bookMarkText() {
         if (this.selectedID && this.selectedID !== '') {
             const tempBookmark = {
-                url: this.url,
+                url: this.url.split('?')[0],
                 paraID: this.selectedID,
-                text: this.generalApiService.selectedText,
+                text: this.generalApiService.selectedText.substring(0, 10),
                 chapterTitle: this.generalApiService.chapterDetails.title,
                 chapterId: this.generalApiService.chapterDetails.id
             };
@@ -206,7 +205,6 @@ export class ParagraphComponent implements OnInit {
     }
 
     saveBookmark(tempBookmark: any) {
-        console.log('tempBookmark : ', tempBookmark);
         let bookmarkStorageArr: any = localStorage.getItem('highlitedBookmark');
         if (bookmarkStorageArr) {
             bookmarkStorageArr = JSON.parse(bookmarkStorageArr)
@@ -215,20 +213,24 @@ export class ParagraphComponent implements OnInit {
         }
 
         if (bookmarkStorageArr.length > 0) {
+            let isAdded = true;
             bookmarkStorageArr.forEach((element: any) => {
-                debugger
                 if (element.url == this.url && element.paraID === this.selectedID) {
                     alert('This paragraph is already bookmarked');
                 } else {
-                    console.log('In Store');
-                    bookmarkStorageArr.push(tempBookmark);
+                    isAdded = false;
                 }
             });
+
+            if (!isAdded) {
+                bookmarkStorageArr.push(tempBookmark);
+            }
         } else {
             bookmarkStorageArr.push(tempBookmark);
             this.selectedID = '';
         }
         localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
+        this.generalApiService.isBookmarkAdded.next(true);
     }
 
     getWord(word): void {
