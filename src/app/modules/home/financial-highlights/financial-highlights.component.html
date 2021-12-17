@@ -25,6 +25,8 @@
         <img [src]="item.image" style="width: 100%;" [ngClass]="{width50: item.isSmall}">  -->
         <br><br>
         <app-accordin-table *ngIf="item.type=='accordian-table'" [heading]="item.heading" [tableJson]="item.data" ></app-accordin-table>
+        <app-horizontal-graph-chart [data]="item.data" *ngIf="item.type=='horizontalChart'"></app-horizontal-graph-chart>
+        <app-pie-chart [data]="item.data" *ngIf="item.type=='pieChart'"></app-pie-chart>
     </div>
     
   <a href="#chapter1" class="next">

@@ -30,6 +30,9 @@ import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/sha
 import { CounterCardComponent } from './components/counter-card/counter-card.component';
 import { TableAccordionComponent } from './components/table-accordion/table-accordion.component';
 import { AccordinTableComponent } from './components/accordin-table/accordin-table.component';
+import { PieChartComponent } from './components/pie-chart/pie-chart.component';
+import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { NgChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -61,7 +64,9 @@ import { AccordinTableComponent } from './components/accordin-table/accordin-tab
     SingleHeadingComponent,
     CounterCardComponent,
     TableAccordionComponent,
-    AccordinTableComponent
+    AccordinTableComponent,
+    PieChartComponent,
+    LineChartComponent
 
   ],
   imports: [
@@ -70,7 +75,9 @@ import { AccordinTableComponent } from './components/accordin-table/accordin-tab
     ChartAllModule,
     AccumulationChartAllModule,
     RangeNavigatorAllModule,
-    RouterModule
+    RouterModule,
+    NgChartsModule
+    
   ],
   exports:[    
     ImageComponent,
@@ -98,7 +105,9 @@ import { AccordinTableComponent } from './components/accordin-table/accordin-tab
     SingleHeadingComponent,
     CounterCardComponent,
     TableAccordionComponent,
-    AccordinTableComponent
+    AccordinTableComponent,
+    PieChartComponent,
+    LineChartComponent
 
     
 
