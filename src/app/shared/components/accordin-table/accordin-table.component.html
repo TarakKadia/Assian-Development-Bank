@@ -1,0 +1,41 @@
+<ng-container>
+        <h2>{{heading}}</h2>
+</ng-container>
+
+<table class="fold-table">
+    <ng-container *ngFor="let item of tableJsonData">
+        <ng-container *ngIf="item.type === 'main-title'">
+            <thead *ngFor="let titles of item.data; let i = index">
+                <tr [style.background-color]="i === 1 ? '#E8BEAC' : null">
+                    <th *ngFor="let titleItem of titles" class="w-14">{{titleItem.title}}</th>
+                </tr>
+            </thead>
+        </ng-container>
+        <tbody>
+            <ng-container *ngIf="item.type === 'expansion-panel'">
+                <tr class="view open" (click)="openAccordin($event)">
+                    <td class="w-14" *ngFor="let subT of item.subTitle">{{subT.title}}</td>
+                </tr>
+                <tr class="fold open">
+                    <td colspan="7">
+                        <ng-container *ngTemplateOutlet="commonSubTable; context: {item: item}">
+                        </ng-container>
+                    </td>
+                </tr>
+            </ng-container>
+        </tbody>
+    </ng-container>
+</table>
+
+
+<ng-template #commonSubTable let-item=item>
+    <div class="fold-content" *ngFor="let trData of item.subData; let trIndex = index">
+        <table class="fold-table">
+            <tbody>
+                <tr [style.background-color]="subTableIndex === 0 ? '#E8BEAC' : null" *ngFor="let tableContent of trData; let subTableIndex = index">
+                    <td *ngFor="let key of tableContent | keyvalue">{{key.value}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</ng-template>

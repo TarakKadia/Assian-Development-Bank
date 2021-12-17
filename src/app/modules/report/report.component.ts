@@ -11,7 +11,7 @@ import pacific from "../../constants/pacific.json";
 import southasia from "../../constants/south-asia.json";
 import southeastasia from "../../constants/south-east-asia.json";
 
-import { createPopper } from '@popperjs/core';
+import financialHighlight from "../../constants/financial-highlight.json";
 import { GeneralApiService } from 'src/app/core/general-api.service';
 
 declare var jQuery: any;
@@ -46,7 +46,6 @@ export class ReportComponent implements OnInit, AfterViewInit {
     ngOnInit(): void {
         this.url = this.router.url;
         this.generalApiService.url = this.url;
-
         this.loading = true;
         this.chapter1Data = chapter1JsonData;
         this.button = buttonJsonData;
@@ -140,6 +139,10 @@ export class ReportComponent implements OnInit, AfterViewInit {
                 } else if (params['id'] == 14) {
                     this.generalApiService.chapterDetails.id = 14;
                     this.data = southeastasia;
+                }  else if (params['id'] == 15) {
+                    this.generalApiService.chapterDetails.id === 15;
+                    this.data = financialHighlight;
+                    console.log('this.data', this.data);
                 }
                 setTimeout(() => {
                     this.loading = false;
