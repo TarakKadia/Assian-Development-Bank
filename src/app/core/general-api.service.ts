@@ -11,12 +11,15 @@ export class GeneralApiService {
     public isBookmarkAdded: BehaviorSubject<any> = new BehaviorSubject(false);
 
     public selectedText = '';
+    public selectedId = '';
     public selectedBox = {
         id: '',
-        text: ''
+        text: '',
+        data: ''
     };
     public chapterDetails = {
         title: '',
         id: 0
     };
+    public url = '';
 }

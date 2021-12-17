@@ -32,8 +32,15 @@
         </a>
       </div>
 
+      <div class="hover-icon">
+        <a href="javascript: void(0)" (click)="sendEmail()">
+          <i class="fa fa-envelope"></i>
+        </a>
+        <!-- <a href="mailto:{{mailString}}" target="_blank" style="display: none;" #mailButton></a> -->
+      </div>
+
       <div class="hover-icon" >
-                <i class="fa fa-star" (click)="selectedBookmarkText()" aria-hidden="true"></i>
+          <i class="fa fa-star" (click)="selectedBookmarkText()" aria-hidden="true"></i>
       </div>
 
     </div>
@@ -41,7 +48,7 @@
 
     <div id="hover-box">
       <div class="hover-icon-list">
-          <div class="hover-icon" (click)="saveBoxHighlight()">
+          <div class="hover-icon" (click)="saveBoxHighlight(false)">
               <a href="javascript: void(0)">
                   <i class="fas fa-highlighter"></i>
               </a>
@@ -56,13 +63,21 @@
             <i class="fab fa-instagram"></i>
           </a>
         </div>
-  
-        <div class="hover-icon" >
-              <i class="fa fa-star" (click)="selectedBookmarkText()" aria-hidden="true"></i>
+
+        <div class="hover-icon">
+          <a href="javascript: void(0)" (click)="sendEmailBox()">
+            <i class="fa fa-envelope"></i>
+          </a>
         </div>
-  
+        
+        <div class="hover-icon" >
+          <i class="fa fa-star" (click)="bookMarkText()" aria-hidden="true"></i>
+        </div>
+        
       </div>
-  </div>
+    </div>
+    <a href="mailto:{{mailStringPara}}" style="display: none;" #mailButtonPara></a>
+    <a href="mailto:{{mailStringBox}}" style="display: none;" #mailButtonBox></a>
     
 
    

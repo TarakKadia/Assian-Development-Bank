@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { text } from 'd3-fetch';
 import shareThis from "share-this";
 import * as emailSharer from "share-this/dist/sharers/email";
@@ -23,7 +24,10 @@ export class ParagraphComponent implements OnInit {
     isShowData = false;
     selectedID: string = '';
 
-    constructor(private generalApiService: GeneralApiService) {
+    constructor(
+        private generalApiService: GeneralApiService,
+        private route: ActivatedRoute
+    ) {
         // const selectionShare = shareThis({
         //     document: document,
         //     selector: "body",
@@ -34,8 +38,8 @@ export class ParagraphComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        this.generateHTML();
 
+        this.generateHTML();
         this.generalApiService.updateHighlight.subscribe((isHighlight) => {
             if (isHighlight) {
                 this.generateHTML();
@@ -114,9 +118,6 @@ export class ParagraphComponent implements OnInit {
                 url: this.url,
                 highLightedData: []
             }
-
-            console.log('this.data : ', this.data);
-            console.log('this.data.id : ', this.data.id);
             chapData.highLightedData.push({
                 paraId: this.data.id,
                 text: selectedText
@@ -130,7 +131,6 @@ export class ParagraphComponent implements OnInit {
             this.generateHTML();
         }, 100);
     }
-
 
     generateHTML() {
         let storageArr: any = localStorage.getItem('highLightedText');
@@ -158,7 +158,6 @@ export class ParagraphComponent implements OnInit {
             }
         });
 
-
         setTimeout(() => {
             this.isShowData = true
 
@@ -173,6 +172,8 @@ export class ParagraphComponent implements OnInit {
 
                         // console.log('vlaue', jQuery(class_names).text());
                         this.generalApiService.selectedText = jQuery(class_names).text();
+                        const id = jQuery(class_names).parent().attr('id');
+                        this.generalApiService.selectedId = id;
 
                         var position = jQuery(class_names).offset();
                         var width = jQuery(class_names).width() / 2;
@@ -198,7 +199,8 @@ export class ParagraphComponent implements OnInit {
                 paraID: this.selectedID,
                 text: this.generalApiService.selectedText.substring(0, 10),
                 chapterTitle: this.generalApiService.chapterDetails.title,
-                chapterId: this.generalApiService.chapterDetails.id
+                chapterId: this.generalApiService.chapterDetails.id,
+                type: 'paragraph'
             };
             this.saveBookmark(tempBookmark);
         }
@@ -236,9 +238,6 @@ export class ParagraphComponent implements OnInit {
     getWord(word): void {
         return word;
     }
-
-
-
 
 }
 
