@@ -2,6 +2,8 @@ import { GeneralApiService } from 'src/app/core/general-api.service';
 import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
+declare var jQuery: any;
+
 @Component({
   selector: 'app-counter',
   templateUrl: './counter.component.html',
@@ -23,11 +25,18 @@ export class CounterComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     // this.animateValue("count1", 0, this.digit, 2000);
     this.numberCounter();
+
+    this.generalApiService.updateHighlight.subscribe((isAdded) => {
+      if (isAdded) {
+        this.setBookmarkedHighLight();
+      }
+    })
   }
   
   ngAfterViewInit(): void {
     setTimeout(() => {
-      jQuery(".box-hover").on("mouseover", (event) => {
+      
+      jQuery(".content").on("mouseover", (event) => {
         var target = jQuery(event.target);
         if (target.is('.box-hover')) {
           jQuery('#hover-box').css('display', 'block');
@@ -41,6 +50,9 @@ export class CounterComponent implements OnInit, AfterViewInit {
           this.generalApiService.selectedBox.text = value;
           this.generalApiService.selectedBox.id = id;
 
+          let data = jQuery(class_names).find('p.box-data').text();
+          this.generalApiService.selectedBox.data = data;
+
           var position = jQuery(class_names).offset();
           var width = jQuery(class_names).width() / 2;
   
@@ -50,6 +62,7 @@ export class CounterComponent implements OnInit, AfterViewInit {
           jQuery('#hover-box').css('display', 'none');
         }
       });
+      this.setBookmarkedHighLight();
     }, 2000);
       
   }
@@ -79,6 +92,22 @@ export class CounterComponent implements OnInit, AfterViewInit {
         $('#count').text(now.toFixed(1));
       }
     });
+  }
+
+  setBookmarkedHighLight() {
+    let highLightedBookmarkData: any = localStorage.getItem('highLightedBox');
+    if (highLightedBookmarkData) {
+      highLightedBookmarkData = JSON.parse(highLightedBookmarkData);
+      if (highLightedBookmarkData.length > 0) {
+        highLightedBookmarkData.forEach(element => {
+          if (element.highLightedData.paraId === this.id) {
+            jQuery('#' + this.id).addClass('highlightBox');
+          }
+        });
+      } else {
+        jQuery('#' + this.id).removeClass('highlightBox');
+      }
+    } 
   }
 
 }

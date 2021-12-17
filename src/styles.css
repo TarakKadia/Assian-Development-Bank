@@ -3470,12 +3470,12 @@ div#hover, div#hover-box {
     color: inherit;
   }
 
-  .progress1.diversification.div.highlighted  {
+  .progress1.diversification.div.highlightBox  {
     box-shadow: 5px 10px red;
   }
 div#hover {
   position: absolute;
-  max-width: 150px;
+  max-width: 230px;
   width: 100%;
   height: 50px;
   background-color: rgba(0,0,0,0.7);

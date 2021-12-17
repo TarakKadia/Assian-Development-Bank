@@ -32,6 +32,9 @@ export class ReportComponent implements OnInit, AfterViewInit {
     loading: any;
     param: any;
     url: any;
+    fromMail = false;
+    mailParaId = '';
+    mailData = '';
 
     constructor(
         private router: Router,
@@ -39,31 +42,71 @@ export class ReportComponent implements OnInit, AfterViewInit {
         private generalApiService: GeneralApiService
     ) { }
 
-   
-    ngOnInit(): void {
-       this.url = this.router.url;
 
-        // const popcorn:any = document.querySelector('#popcorn');
-        // const tooltip:any = document.querySelector('#tooltip');
-        // createPopper(popcorn, tooltip, {
-        //     placement: 'top',
-        //     modifiers: [
-        //       {
-        //         name: 'offset',
-        //         options: {
-        //           offset: [0, 8],
-        //         },
-        //       },
-        //     ],
-        //   });
+    ngOnInit(): void {
+        this.url = this.router.url;
+        this.generalApiService.url = this.url;
 
         this.loading = true;
         this.chapter1Data = chapter1JsonData;
         this.button = buttonJsonData;
 
-         this.route.queryParams
+        this.route.queryParams
             .subscribe(params => {
-                console.log(params['id']);
+
+                if (params['fm']) {
+                    this.fromMail = true;
+                    if (params['t'] === 'para') {
+                        let highlightedData: any = {
+                            highLightedData: [{
+                                paraId: params['pid'],
+                                text: decodeURIComponent(params['d'])
+                            }],
+                            url: this.router.url
+                        }
+    
+                        let getHighLightedData: any = localStorage.getItem('highLightedText');
+                        if (getHighLightedData) {
+                            getHighLightedData = JSON.parse(getHighLightedData);
+                            if (getHighLightedData.length > 0) {
+                                getHighLightedData.push(highlightedData);
+                            } else {
+                                getHighLightedData.push(highlightedData);
+                            }
+    
+                            localStorage.setItem('highLightedText', JSON.stringify(getHighLightedData));
+                        } else {
+                            localStorage.setItem('highLightedText', JSON.stringify([highlightedData]));
+                        }
+                    }
+
+                    if (params['t'] === 'box') {
+                        let highlightedData: any = {
+                            highLightedData: {
+                                paraId: params['pid'],
+                                text: decodeURIComponent(params['d'])
+                            },
+                            url: this.router.url
+                        }
+    
+                        let getHighLightedData: any = localStorage.getItem('highLightedBox');
+                        if (getHighLightedData) {
+                            getHighLightedData = JSON.parse(getHighLightedData);
+                            if (getHighLightedData.length > 0) {
+                                getHighLightedData.push(highlightedData);
+                            } else {
+                                getHighLightedData.push(highlightedData);
+                            }
+    
+                            localStorage.setItem('highLightedBox', JSON.stringify(getHighLightedData));
+                        } else {
+                            localStorage.setItem('highLightedBox', JSON.stringify([highlightedData]));
+                        }
+                    }
+
+                }
+
+
                 this.param = params['id'];
                 if (params['id'] == 1) {
                     this.data = chapter1JsonData;
@@ -71,7 +114,7 @@ export class ReportComponent implements OnInit, AfterViewInit {
                     this.generateIDs('chap1');
 
                     console.log("this.data", this.data);
-                    
+
 
                 } else if (params['id'] == 4) {
                     this.generalApiService.chapterDetails.id = 4;
@@ -102,38 +145,27 @@ export class ReportComponent implements OnInit, AfterViewInit {
                     this.loading = false;
                 }, 1000);
 
-
-                if (params['parId']) {
-                    console.log("params['parId']", jQuery('#' + (params['parId'] || 0)));
-                    setTimeout(() => {
-                        jQuery('html, body').animate({
-                            scrollTop: jQuery('#' + (params['parId'] || 0))?.offset()?.top
-                        }, 1000);
-                    }, 100);
-                }
-
                 this.generalApiService.chapterDetails.title = this.data[0].data;
             }
-        );
+            );
     }
 
     ngAfterViewInit(): void {
         this.route.queryParams
             .subscribe(params => {
-                if (params['parId']) {
-                    console.log("params['parId']", jQuery('#' + (params['parId'] || 0)));
+                if (params['parId'] || params['pid']) {
                     setTimeout(() => {
                         jQuery('html, body').animate({
-                            scrollTop: jQuery('#' + (params['parId'] || 0)).offset()?.top
-                        }, 1000);
+                            scrollTop: jQuery('#' + (params['parId'] || params['pid'] || 0)).offset()?.top
+                        }, 10);
                         this.generalApiService.updateHighlight.next(true);
-                    }, 1000);
+                    }, 500);
                 }
             }
-        );
+            );
     }
 
-    generateIDs(uuid: any){
+    generateIDs(uuid: any) {
         this.data.forEach((element: any, key: any) => {
             element.id = uuid + (key + 1);
         });
@@ -170,18 +202,14 @@ export class ReportComponent implements OnInit, AfterViewInit {
         this.param++;
     }
 
-
-    
     context = {
         message: ''
-      };
-    
-      isOpen = false;
-    
-    
+    };
 
-      onSwipe(evt: any) {
-          
+    isOpen = false;
+
+    onSwipe(evt: any) {
+
         const x = Math.abs(evt.deltaX) > 40 ? (evt.deltaX > 0 ? 'right' : 'left') : '';
         if (x === 'left') {
             window.history.back();
