@@ -32,7 +32,9 @@ import { TableAccordionComponent } from './components/table-accordion/table-acco
 import { AccordinTableComponent } from './components/accordin-table/accordin-table.component';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
+import { StackedHorizontalChartComponent } from './components/stackes-horizontal-chart/stacked-horizontal-chart.component';
 import { NgChartsModule } from 'ng2-charts';
+
 
 
 @NgModule({
@@ -66,7 +68,8 @@ import { NgChartsModule } from 'ng2-charts';
     TableAccordionComponent,
     AccordinTableComponent,
     PieChartComponent,
-    LineChartComponent
+    LineChartComponent,
+    StackedHorizontalChartComponent
 
   ],
   imports: [
@@ -107,7 +110,8 @@ import { NgChartsModule } from 'ng2-charts';
     TableAccordionComponent,
     AccordinTableComponent,
     PieChartComponent,
-    LineChartComponent
+    LineChartComponent,
+    StackedHorizontalChartComponent
 
     
 

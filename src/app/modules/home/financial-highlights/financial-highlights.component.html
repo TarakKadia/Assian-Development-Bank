@@ -11,22 +11,22 @@
     <h3>
       {{subTitle}}
     </h3>
-    <!-- <div class="numbersgroup">
+    <div class="numbersgroup">
       <div *ngFor="let data of homeData" class="contentCard">
         <app-counter-card  *ngIf="data.type == 'counter-card'" style="width: 100px;" [duration]="1500" [digit]="data.money" [data]="data.data"
           [currency]="data.currency" [money]="data.money" [letter]="data.letter" [id]="data.id"></app-counter-card>
           <app-charts [data]="data.data" *ngIf="data.type=='chart'"></app-charts>
       </div>
-    </div> -->
+    </div>
   </div>
 
     <div *ngFor="let item of value" class="fix" >
-        <!-- <br><br><br><br><br><br><br>
-        <img [src]="item.image" style="width: 100%;" [ngClass]="{width50: item.isSmall}">  -->
+     
         <br><br>
-        <app-accordin-table *ngIf="item.type=='accordian-table'" [heading]="item.heading" [tableJson]="item.data" ></app-accordin-table>
-        <app-horizontal-graph-chart [data]="item.data" *ngIf="item.type=='horizontalChart'"></app-horizontal-graph-chart>
+        <app-accordin-table *ngIf="item.type=='accordian-table'" [note]="item.note" [heading]="item.heading" [subHeading]="item.subHeading" [tableJson]="item.data" ></app-accordin-table>
+        <app-stacked-horizontal-chart [data]="item.data" *ngIf="item.type=='stackedHorizontalChart'" [heading]="item.heading"></app-stacked-horizontal-chart>
         <app-pie-chart [data]="item.data" *ngIf="item.type=='pieChart'"></app-pie-chart>
+        <app-line-chart  [data]="item.data" [heading]="item.heading" *ngIf="item.type=='lineChart'" ></app-line-chart>
     </div>
     
   <a href="#chapter1" class="next">

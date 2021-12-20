@@ -10,13 +10,16 @@ export class PieChartComponent implements OnInit {
 
     @Input() data: any
     chart: any;
-    // public pieChartLabels = ['Profit Q1', 'Profit Q2', 'Profit Q3', 'Profit Q4'];
-    // public pieChartData = [83, 91, 107, 73];
     public pieChartType = 'pie';
 
     constructor() { }
 
     ngOnInit(): void {
+        console.log("pieChartttsss",this.data);
+        this.chart = new Chart('canvas', {
+            type: 'doughnut',
+            data: this.data
+        });
     }
 
 }

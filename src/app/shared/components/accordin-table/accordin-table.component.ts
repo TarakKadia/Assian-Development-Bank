@@ -10,6 +10,8 @@ export class AccordinTableComponent implements OnInit {
 
     @Input() tableJson:any;
     @Input() heading:any;
+    @Input() subHeading:any;
+    @Input() note:any;
 
     tableJsonData: Array<any> = [];
     titles: Array<any> = [];

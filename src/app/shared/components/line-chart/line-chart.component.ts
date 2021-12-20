@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { of } from 'rxjs';
-import { multi } from './data';
 
 @Component({
   selector: 'app-line-chart',
@@ -9,7 +8,11 @@ import { multi } from './data';
 })
 export class LineChartComponent implements OnInit {
 
+    @Input() data:any;
+    @Input() heading:any;
     ngOnInit(): void {
+        console.log("deeppatelgreatestcoder",this.data);
+        
     }
 
     multis: any = of([]);
@@ -24,15 +27,15 @@ export class LineChartComponent implements OnInit {
     showYAxisLabel: boolean = true;
     showXAxisLabel: boolean = true;
     xAxisLabel: string = 'Year';
-    yAxisLabel: string = 'Population';
+    yAxisLabel: string = '';
     timeline: boolean = true;
 
     colorScheme = {
-        domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
+        domain: ['#ea522c']
     };
 
     constructor() {
-        this.multis = of(multi);
+        this.multis = this.data;
     }
 
 
