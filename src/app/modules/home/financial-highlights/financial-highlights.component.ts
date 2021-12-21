@@ -31,26 +31,26 @@ export class FinancialHighlightsComponent implements OnInit {
 
     // console.log("this.homeData >>> ",counterCardsJsonData,"\nfinancialHighlights >>> ",financialHighlightsJsonData,"\nvalue >>> ",this.value)
 
-    // this.getTitle();
-    // this.getSubTitle();
+    this.getTitle();
+    this.getSubTitle();
   }
 
-//   getTitle(){
-//     this.value.map(el => {
-//       if(el.type === 'title'){
-//         this.title = el.title ;
-//         console.log("this.title >>>>> ",this.title);
-//       }     
-//     });
-//   }
+  getTitle(){
+    this.value.map(el => {
+      if(el.type === 'title'){
+        this.title = el.title ;
+        console.log("this.title >>>>> ",this.title);
+      }     
+    });
+  }
 
-//   getSubTitle(){
-//     this.value.map(el => {
-//       if(el.type === 'title'){
-//         this.subTitle = el.subTitle ;
-//         // console.log("this.title >>>>> ",this.subTitle);
-//       }     
-//     });
-//   }
+  getSubTitle(){
+    this.value.map(el => {
+      if(el.type === 'title'){
+        this.subTitle = el.subTitle ;
+        // console.log("this.title >>>>> ",this.subTitle);
+      }     
+    });
+  }
 }
 

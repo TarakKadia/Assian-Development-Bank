@@ -3522,3 +3522,9 @@ div#hover::after {
   font-size: 18px;
 }
 
+.pie{
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+}
+

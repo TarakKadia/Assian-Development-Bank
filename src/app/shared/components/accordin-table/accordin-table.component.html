@@ -1,12 +1,15 @@
+<div class="accordinTable">
 <ng-container>
-        <h2>{{heading}}</h2>
+         <h2>{{heading}}</h2>
+         <p style="font-size: 20px; font-weight: bold;">{{subHeading}}</p>
+         <hr style="color: rgb(255, 123, 0); height: 2px; margin-top: -15px;">
 </ng-container>
 
 <table class="fold-table">
     <ng-container *ngFor="let item of tableJsonData">
         <ng-container *ngIf="item.type === 'main-title'">
             <thead *ngFor="let titles of item.data; let i = index">
-                <tr [style.background-color]="i === 1 ? '#E8BEAC' : null">
+                <tr [style.background-color]="i === 1 ? '#f9c8ae' : null">
                     <th *ngFor="let titleItem of titles" class="w-14">{{titleItem.title}}</th>
                 </tr>
             </thead>
@@ -32,10 +35,12 @@
     <div class="fold-content" *ngFor="let trData of item.subData; let trIndex = index">
         <table class="fold-table">
             <tbody>
-                <tr [style.background-color]="subTableIndex === 0 ? '#E8BEAC' : null" *ngFor="let tableContent of trData; let subTableIndex = index">
+                <tr [style.background-color]="subTableIndex === 0 ? '#f9c8ae' : null" *ngFor="let tableContent of trData; let subTableIndex = index">
                     <td *ngFor="let key of tableContent | keyvalue">{{key.value}}</td>
                 </tr>
             </tbody>
         </table>
     </div>
 </ng-template>
+<ng-container>{{note}}</ng-container>
+</div>
