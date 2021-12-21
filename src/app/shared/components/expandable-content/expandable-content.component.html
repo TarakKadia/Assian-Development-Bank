@@ -1,13 +1,13 @@
-<div (click)="readMore()" class="shade story covid " [ngClass]="{minimized: !isExpand}" >
+<div (click)="readMore()" class="shade story covid expanded-box-hover box-hover" [id]="id" [ngClass]="{minimized: !isExpand}" >
     <h3>
-{{title}} 
+        {{title}}
     </h3>
 
+    <p *ngIf="!isExpand" class="clickhere">
+        read more
+    </p>
 
-    <p  *ngIf="!isExpand" class="clickhere" >
-    read more
-    </p>
     <img class="cover" src="assets/images/{{image}}" *ngIf="image">
-    <p  [ngClass]="{'displayBlock': isExpand}" [innerHTML]="data">
-    </p>
-    </div>
+
+    <p class="expanded-data" [ngClass]="{'displayBlock': isExpand}" [innerHTML]="data"></p>
+</div>

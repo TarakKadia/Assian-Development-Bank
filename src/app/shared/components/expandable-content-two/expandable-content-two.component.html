@@ -1,14 +1,16 @@
-<div  (click)="readMore()" class="box story " [ngClass]="{minimized: !isExpand}" >
+<div (click)="readMore()" class="box story expanded-box-hover-two" [id]="id" [ngClass]="{minimized: !isExpand}">
     <h3>
-    {{title}}
+        {{title}}
     </h3>
+
     <p *ngIf="!isExpand" class="clickhere">
-    Read more
+        Read more
     </p>
+
     <img src="assets/images/{{image}}" *ngIf="image">
-    <p  [ngClass]="{'displayBlock': isExpand}" [innerHTML]="data">
-    </p>
-    </div>
+
+    <p [ngClass]="{'displayBlock': isExpand}" [innerHTML]="data"></p>
+</div>
 
 
 

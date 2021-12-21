@@ -16,8 +16,6 @@ import { GeneralApiService } from 'src/app/core/general-api.service';
 
 declare var jQuery: any;
 
-
-
 @Component({
     selector: 'app-report',
     templateUrl: './report.component.html',
@@ -111,38 +109,42 @@ export class ReportComponent implements OnInit, AfterViewInit {
                     this.data = chapter1JsonData;
                     this.generalApiService.chapterDetails.id = 1;
                     this.generateIDs('chap1');
-
-                    console.log("this.data", this.data);
-
-
                 } else if (params['id'] == 4) {
                     this.generalApiService.chapterDetails.id = 4;
                     this.data = chapter4CardJsonData;
+                    this.generateIDs('chap4');
                 } else if (params['id'] == 3) {
                     this.generalApiService.chapterDetails.id = 3;
                     this.data = chapter3CardJsonData;
+                    this.generateIDs('chap3');
                 } else if (params['id'] == 2) {
                     this.generalApiService.chapterDetails.id = 2;
+                    this.generateIDs('chap2');
                     this.router.navigate(['/region']);
                 } else if (params['id'] == 10) {
                     this.generalApiService.chapterDetails.id = 10;
                     this.data = centralWestAsia;
+                    this.generateIDs('chap10');
                 } else if (params['id'] == 11) {
                     this.generalApiService.chapterDetails.id = 11;
                     this.data = eastAsia;
+                    this.generateIDs('chap11');
                 } else if (params['id'] == 12) {
                     this.generalApiService.chapterDetails.id = 12;
                     this.data = pacific;
+                    this.generateIDs('chap12');
                 } else if (params['id'] == 13) {
                     this.generalApiService.chapterDetails.id = 13;
                     this.data = southasia;
+                    this.generateIDs('chap13');
                 } else if (params['id'] == 14) {
                     this.generalApiService.chapterDetails.id = 14;
                     this.data = southeastasia;
+                    this.generateIDs('chap14');
                 }  else if (params['id'] == 15) {
                     this.generalApiService.chapterDetails.id === 15;
                     this.data = financialHighlight;
-                    console.log('this.data', this.data);
+                    this.generateIDs('chap15');
                 }
                 setTimeout(() => {
                     this.loading = false;
@@ -164,8 +166,7 @@ export class ReportComponent implements OnInit, AfterViewInit {
                         this.generalApiService.updateHighlight.next(true);
                     }, 500);
                 }
-            }
-            );
+            });
     }
 
     generateIDs(uuid: any) {
