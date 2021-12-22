@@ -60,19 +60,49 @@ export class AppComponent {
 
     selectedText(): void {
         let cookieData: any = localStorage.getItem('highLightedText');
+        let isRemove = false;
         if (cookieData) {
             cookieData = JSON.parse(cookieData);
             if (cookieData) {
-                let cookieData2 = cookieData[0].highLightedData;
-                if (cookieData2.length > 0) {
-                    cookieData2.forEach((element: any, index: any) => {
-                        if (element.text === this.generalApiService.selectedText) {
-                            cookieData2.splice(index, 1);
+                // let cookieData2 = cookieData[0].highLightedData;
+
+                if (cookieData.length > 0) {
+                    cookieData.forEach((cookie: any, index1: any) => {
+                        if (cookie.highLightedData.length > 0) {
+                            cookie.highLightedData.forEach((element: any, index2: any) => {
+                                if (element.text === this.generalApiService.selectedText) {
+                                    if (cookie.highLightedData.length === 1) {
+                                        isRemove = true;
+                                    } else {
+                                        cookie.highLightedData.splice(index2, 1);
+                                    }
+                                }
+                            });
+                            if (isRemove) {
+                                cookieData.splice(index1, 1);
+                                isRemove = false;
+                            }
                         }
                     });
                 }
+
+                // if (cookieData2.length > 0) {
+                //     cookieData2.forEach((element: any, index: any) => {
+                //         if (element.text === this.generalApiService.selectedText) {
+                //             if (cookieData2.length === 1) {
+                //                 isRemove = true;
+                //             } else {
+                //                 cookieData2.splice(index, 1);
+                //             }
+                //         }
+                //     });
+                // }
             }
-            localStorage.setItem('highLightedText', JSON.stringify(cookieData));
+            // if (isRemove) {
+            //     localStorage.removeItem('highLightedText');
+            // } else {
+                localStorage.setItem('highLightedText', JSON.stringify(cookieData));
+            // }
             this.generalApiService.updateHighlight.next(true);
         }
     }
@@ -112,7 +142,8 @@ export class AppComponent {
     }
 
     selectedBookmarkText(): void {
-        this.generalApiService.bookmarkPara.next(true);
+        // this.generalApiService.bookmarkPara.next(true);
+        this.bookMarkTextPara();
     }
 
     saveBoxHighlight(fromBookmark: boolean): void {
@@ -229,6 +260,50 @@ export class AppComponent {
             console.log('this.mailButton.nativeElement', this.mailButtonBox.nativeElement);
             this.mailButtonBox.nativeElement.click();
         }, 100);
+    }
+
+    bookMarkTextPara() {
+        if (this.generalApiService.selectedId && this.generalApiService.selectedId !== '') {
+            const tempBookmark = {
+                url: this.generalApiService.url.split('?')[0],
+                paraID: this.generalApiService.selectedId,
+                text: this.generalApiService.selectedText.substring(0, 10),
+                chapterTitle: this.generalApiService.chapterDetails.title,
+                chapterId: this.generalApiService.chapterDetails.id,
+                type: 'paragraph'
+            };
+            this.saveBookmarkPara(tempBookmark);
+        }
+    }
+
+    saveBookmarkPara(tempBookmark: any) {
+        let bookmarkStorageArr: any = localStorage.getItem('highlitedBookmark');
+        if (bookmarkStorageArr) {
+            bookmarkStorageArr = JSON.parse(bookmarkStorageArr)
+        } else {
+            bookmarkStorageArr = [];
+        }
+
+        if (bookmarkStorageArr.length > 0) {
+            let isAdded = true;
+            bookmarkStorageArr.forEach((element: any) => {
+                if (element.url == this.generalApiService.url && element.paraID === this.generalApiService.selectedId) {
+                    alert('This paragraph is already bookmarked');
+                } else {
+                    isAdded = false;
+                }
+            });
+
+            if (!isAdded) {
+                bookmarkStorageArr.push(tempBookmark);
+            }
+        } else {
+            bookmarkStorageArr.push(tempBookmark);
+            // this.selectedID = '';
+        }
+        localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
+        console.log('bookmarkStorageArr', bookmarkStorageArr);
+        this.generalApiService.isBookmarkAdded.next(true);
     }
 
 }

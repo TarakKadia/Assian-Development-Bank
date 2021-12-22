@@ -1,75 +1,65 @@
- <div *ngIf="loading" class="loader">
-  <div class="loader__element"></div>
+<div *ngIf="loading" class="loader">
+    <div class="loader__element"></div>
 </div>
 
 <ng-template #pop let-message="message">{{ message }}</ng-template>
 <div class="report">
-    
-  <div class="content" triggers=""  [isOpen]="isOpen" [popover]="pop" [popoverContext]="context">
-    <div *ngFor="let data of data">
+    <div class="content" triggers=""  [isOpen]="isOpen" [popover]="pop" [popoverContext]="context">
+        <div *ngFor="let data of data">
+            <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
 
-      <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
+            <app-paragraph [data]="data" *ngIf="data.type=='paragraph'" [url]="url" ></app-paragraph>
 
-      <app-paragraph [data]="data" *ngIf="data.type=='paragraph'" [url]="url" ></app-paragraph>
+            <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
 
-      <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
+            <app-chapter-title [data]="data.data" [tag]="data.tag" [heading]="data.heading" [chapterTitle]="data.data"
+            *ngIf="data.type=='chaptertitle'"></app-chapter-title>
 
-      <app-chapter-title [data]="data.data" [tag]="data.tag" [heading]="data.heading" [chapterTitle]="data.data"
-        *ngIf="data.type=='chaptertitle'"></app-chapter-title>
+            <app-expandable-content [data]="data.data" [title]="data.title" [image]="data.image" [id]="data.id" *ngIf="data.type=='expand'">
+            </app-expandable-content>
 
-      <app-expandable-content [data]="data.data" [title]="data.title" [image]="data.image" *ngIf="data.type=='expand'">
-      </app-expandable-content>
+            <app-expandable-content-two [title]="data.title" [data]="data.data" [image]='data.image' [id]="data.id" *ngIf="data.type== 'expandTwo'"></app-expandable-content-two>
 
-      <app-expandable-content-two [title]="data.title" [data]="data.data" [image]='data.image'
-        *ngIf="data.type== 'expandTwo'"></app-expandable-content-two>
+            <app-twitter [data]="data.data" [id]="data.id" *ngIf="data.type=='twitter'"></app-twitter>
 
-      <app-twitter [data]="data.data" *ngIf="data.type=='twitter'"></app-twitter>
+            <app-logo-heading [data]="data.data" [image]="data.image" *ngIf="data.type=='logoHeading'"></app-logo-heading>
 
-      <app-logo-heading [data]="data.data" [image]="data.image" *ngIf="data.type=='logoHeading'"></app-logo-heading>
+            <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
 
-      <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
+            <app-counter [data]="data.data" [class]="data.class" [sign]="data.sign" [title]="data.title" [digit]="data.digit"
+            [gender]="data.gender" [id]="data.id" *ngIf="data.type=='counter'"></app-counter>
 
-      <app-counter [data]="data.data" [class]="data.class" [sign]="data.sign" [title]="data.title" [digit]="data.digit"
-        [gender]="data.gender" [id]="data.id" *ngIf="data.type=='counter'"></app-counter>
+            <app-currency-counter [sign]="data.sign" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
+            [tag4]="data.tag4" [tag5]="data.tag5" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"
+            [digit3]="data.digit3" [digit4]="data.digit4" [digit5]="data.digit5" [title]="data.title"
+            *ngIf="data.type== 'currencyCounter' || data.id == 2"> </app-currency-counter>
 
-      <app-currency-counter [sign]="data.sign" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
-        [tag4]="data.tag4" [tag5]="data.tag5" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"
-        [digit3]="data.digit3" [digit4]="data.digit4" [digit5]="data.digit5" [title]="data.title"
-        *ngIf="data.type== 'currencyCounter' || data.id == 2"> </app-currency-counter>
+            <app-region-counter [sign]="data.sign" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
+            [tag4]="data.tag4" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"
+            [digit3]="data.digit3" [digit4]="data.digit4" [title]="data.title" [id]="data.id"
+            *ngIf="data.type== 'regionCounter'"></app-region-counter>
 
-        <app-region-counter [sign]="data.sign" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
-        [tag4]="data.tag4" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"
-        [digit3]="data.digit3" [digit4]="data.digit4" [title]="data.title" [id]="data.id"
-        *ngIf="data.type== 'regionCounter'"></app-region-counter>
+            <app-charts [data]="data.data" *ngIf="data.type=='chart'"></app-charts>
 
-      <app-charts [data]="data.data" *ngIf="data.type=='chart'"></app-charts>
+            <app-horizontal-graph-chart [data]="data.data" *ngIf="data.type=='horizontalChart'"></app-horizontal-graph-chart>
 
-      <app-horizontal-graph-chart [data]="data.data" *ngIf="data.type=='horizontalChart'"></app-horizontal-graph-chart>
-
-      <app-shade-knowledge [image]="data.image" [para1]="data.para1" [para2]="data.para2" [para3]="data.para3"
-        [para4]="data.para4" [para5]="data.para5" [para6]="data.para6" [para7]="data.para7" [para9]="data.para9"
-        [para10]="data.para10" [quote]="data.quote" [para11]="data.para11" [para12]="data.para12" [para13]="data.para13"
-        [title]="data.title" *ngIf="data.type=='shadeKnowledge'"></app-shade-knowledge>
+            <app-shade-knowledge [image]="data.image" [para1]="data.para1" [para2]="data.para2" [para3]="data.para3"
+            [para4]="data.para4" [para5]="data.para5" [para6]="data.para6" [para7]="data.para7" [para9]="data.para9"
+            [para10]="data.para10" [quote]="data.quote" [para11]="data.para11" [para12]="data.para12" [para13]="data.para13"
+            [title]="data.title" *ngIf="data.type=='shadeKnowledge'"></app-shade-knowledge>
 
 
-      <app-shade-knowledge-two [title]="data.title" [data]="data.data" [image]="data.image"
-        *ngIf="data.type=='shadeKnowledgeTwo'"></app-shade-knowledge-two>
+            <app-shade-knowledge-two [title]="data.title" [data]="data.data" [image]="data.image"
+            *ngIf="data.type=='shadeKnowledgeTwo'"></app-shade-knowledge-two>
 
-      <app-region-heading [country]="data.country" [data]="data.data" *ngIf="data.type=='regionHeading'">
-      </app-region-heading>
-      
-      <app-video [data]="data.data" *ngIf="data.type=='video'" ></app-video>
-      
-      <app-button *ngIf="data.type=='button'"  [data]="data.data"  [title]="data.title" (click)="goToNextChapter()"></app-button>
+            <app-region-heading [country]="data.country" [data]="data.data" *ngIf="data.type=='regionHeading'">
+            </app-region-heading>
 
+            <app-video [data]="data.data" *ngIf="data.type=='video'" ></app-video>
 
+            <app-button *ngIf="data.type=='button'"  [data]="data.data"  [title]="data.title" (click)="goToNextChapter()"></app-button>
+        </div>
     </div>
-
-    
-
-  </div>
-  <br><br><br><br><br><br><br>
-
-
- </div> 
+    <br><br><br><br><br><br><br>
+</div> 
 

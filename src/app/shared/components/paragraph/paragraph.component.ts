@@ -48,7 +48,7 @@ export class ParagraphComponent implements OnInit {
 
         this.generalApiService.bookmarkPara.subscribe((bookmark) => {
             if (bookmark) {
-                this.bookMarkText();
+                // this.bookMarkText();
             }
         });
     }
@@ -232,6 +232,7 @@ export class ParagraphComponent implements OnInit {
             this.selectedID = '';
         }
         localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
+        console.log('bookmarkStorageArr', bookmarkStorageArr);
         this.generalApiService.isBookmarkAdded.next(true);
     }
 

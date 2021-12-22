@@ -3473,6 +3473,10 @@ div#hover, div#hover-box {
   .progress1.diversification.div.highlightBox  {
     box-shadow: 5px 10px red;
   }
+
+  .shade.story.covid.box-hover.highlightBox  {
+    box-shadow: 5px 10px red;
+  }
 div#hover {
   position: absolute;
   max-width: 230px;

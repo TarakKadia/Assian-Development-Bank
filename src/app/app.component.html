@@ -1,86 +1,85 @@
 
 
-    <router-outlet></router-outlet>
+<router-outlet></router-outlet>
 
-    <app-menu-bar></app-menu-bar>
+<app-menu-bar></app-menu-bar>
 
-    <div id="hover">
+<div id="hover">
     <div class="hover-icon-list">
         <div class="hover-icon" (click)="selectedText()">
             <a href="javascript: void(0)">
                 <i class="fas fa-highlighter"></i>
             </a>
-          </div>
-      <div class="hover-icon">
-        <a href="https://www.google.com/search?q=facebook" target="_blank">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-      </div>
-      <div class="hover-icon">
-        <a href="https://www.google.com/search?q=instagram" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-      </div>
-      <div class="hover-icon">
-        <a href="https://www.google.com/search?q=twitter" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </div>
-      <div class="hover-icon">
-        <a href="https://www.google.com/search?q=linkedin" target="_blank">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-
-      <div class="hover-icon">
-        <a href="javascript: void(0)" (click)="sendEmail()">
-          <i class="fa fa-envelope"></i>
-        </a>
-        <!-- <a href="mailto:{{mailString}}" target="_blank" style="display: none;" #mailButton></a> -->
-      </div>
-
-      <div class="hover-icon" >
-          <i class="fa fa-star" (click)="selectedBookmarkText()" aria-hidden="true"></i>
-      </div>
-
-    </div>
-    </div>
-
-    <div id="hover-box">
-      <div class="hover-icon-list">
-          <div class="hover-icon" (click)="saveBoxHighlight(false)">
-              <a href="javascript: void(0)">
-                  <i class="fas fa-highlighter"></i>
-              </a>
-            </div>
-        <div class="hover-icon">
-          <a href="https://www.google.com/search?q=facebook" target="_blank">
-            <i class="fab fa-facebook-square"></i>
-          </a>
-        </div>
-        <div class="hover-icon">
-          <a href="https://www.google.com/search?q=instagram" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
         </div>
 
         <div class="hover-icon">
-          <a href="javascript: void(0)" (click)="sendEmailBox()">
-            <i class="fa fa-envelope"></i>
-          </a>
+            <a href="https://www.google.com/search?q=facebook" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
         </div>
-        
+
+        <div class="hover-icon">
+            <a href="https://www.google.com/search?q=instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon">
+            <a href="https://www.google.com/search?q=twitter" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon">
+            <a href="https://www.google.com/search?q=linkedin" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon">
+            <a href="javascript: void(0)" (click)="sendEmail()">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </div>
+
         <div class="hover-icon" >
-          <i class="fa fa-star" (click)="bookMarkText()" aria-hidden="true"></i>
+            <i class="fa fa-star" (click)="selectedBookmarkText()" aria-hidden="true"></i>
         </div>
-        
-      </div>
     </div>
-    <a href="mailto:{{mailStringPara}}" style="display: none;" #mailButtonPara></a>
-    <a href="mailto:{{mailStringBox}}" style="display: none;" #mailButtonBox></a>
+</div>
+
+<div id="hover-box">
+    <div class="hover-icon-list">
+        <div class="hover-icon" (click)="saveBoxHighlight(false)">
+            <a href="javascript: void(0)">
+                <i class="fas fa-highlighter"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon">
+            <a href="https://www.google.com/search?q=facebook" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon">
+            <a href="https://www.google.com/search?q=instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon">
+            <a href="javascript: void(0)" (click)="sendEmailBox()">
+                <i class="fa fa-envelope"></i>
+            </a>
+        </div>
+
+        <div class="hover-icon" >
+            <i class="fa fa-star" (click)="bookMarkText()" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+
+<a href="mailto:{{mailStringPara}}" style="display: none;" #mailButtonPara></a>
+<a href="mailto:{{mailStringBox}}" style="display: none;" #mailButtonBox></a>
     
-
-   
-              
-
-
