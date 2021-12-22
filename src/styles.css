@@ -3519,8 +3519,40 @@ div#hover::after {
 }
 
 .pie{
-    width: 50%;
+    width: 70%;
     text-align: center;
     margin: 0px auto;
 }
-
+table.accordianTable thead tr th { border-bottom: none !important; padding: 0 10px; }
+	table.accordianTable thead tr th.lastThClass { background-color: #fdebe1; }
+	table.accordianTable thead tr.title-row th { background-color: #fbd9c6; }
+	table.accordianTable tbody tr.fold > td { padding: 0; }
+	table.accordianTable tbody tr td { padding: 0 10px; }
+	table.accordianTable tbody tr td.colorGrey { background-color: #dcddde !important; }
+	table.accordianTable tbody tr td.lightOrange-bg { background-color: #fce1d2 !important; }
+	table.accordianTable tbody tr td .fold-content { padding: 0 0 0 30px; }
+	table.accordianTable tbody tr td .fold-content table tbody tr td { text-align: right; }
+	table.accordianTable tbody tr td .fold-content table tbody tr td:first-child { padding-left: 25px; text-align: left; }
+	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-normal td,
+	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold td { font-weight: bold; }
+	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-normal td:first-child, 
+	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold td:first-child { padding-left: 10px; }
+	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-normal td:first-child { font-weight: normal; }
+	table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls { background-color: #fef5f0; }
+	table.accordianTable tbody tr td .fold-content table tbody tr td:last-child { border-left: 1px solid #f9cbbe; }
+	table.accordianTable tbody tr td .fold-content table tbody tr.subTotal td { background-color: #fce1d2; font-weight: bold; }
+	table.accordianTable tbody tr td .fold-content table tbody tr.subTotal td:first-child { padding-left: 10px; }
+	
+	.investment-chart { max-width: 290px; margin: 0 auto; padding: 20px 12px; background: #e7e7e8; box-sizing: border-box; }
+	.investment-chart h2 { margin: 0 0 5px 0; font-size: 22px; line-height: 24px; color: #ea522c; }
+	.investment-chart p { margin: 0; }
+	.investment-chart .year-section { margin-top: 30px; }
+	.investment-chart .year-section .year-row { display: flex; border-bottom: 10px solid #ea522c; justify-content: space-between; font-size: 18px; padding-bottom: 4px; margin-bottom: 10px; line-height: 22px; }
+	.investment-chart .year-section .year-row.one { width: 125px; }
+	.investment-chart .year-section .year-row.two { width: 110px; }
+	.investment-chart .year-section .year-row.three { width: 140px; }
+	.investment-chart .year-section .year-row.four { width: 160px; }
+	.investment-chart .year-section .year-row.total { width: 100%; border: none; padding: 10px; }
+	.investment-chart .year-section .year-row .year { font-weight: normal; }
+	.investment-chart .year-section .year-row .amount { font-weight: bold; }
+	.investment-chart .year-section .total { background: #ea522c; box-sizing: border-box; color: #fff; margin-top: 25px; }

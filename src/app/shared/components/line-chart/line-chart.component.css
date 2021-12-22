@@ -1,0 +1,10 @@
+.lineChartGrey{
+    background-color: #e7e7e8;
+    width: 550px;
+    height: 410px;
+    padding: 20px;
+}
+::ng-deep .ngx-charts-outer {
+    margin: 0px !important;
+    padding-top: 67px !important;
+}

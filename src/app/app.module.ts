@@ -17,6 +17,7 @@ import { HomeComponent } from './modules/home/home.component';
 import { CoreModule } from './core/core.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,

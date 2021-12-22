@@ -20,15 +20,18 @@
     </div>
   </div>
 
-    <div *ngFor="let item of value" class="fix" >
+    <div *ngFor="let item of value; let i =index" class="fix" >
      
         <br><br>
         <app-accordin-table *ngIf="item.type=='accordian-table'" [note]="item.note" [heading]="item.heading" [subHeading]="item.subHeading" [tableJson]="item.data" ></app-accordin-table>
+        <app-investment-chart  [data]="item.data" *ngIf="item.type=='investmentChart'" ></app-investment-chart>
         <app-stacked-horizontal-chart [data]="item.data" *ngIf="item.type=='stackedHorizontalChart'" [heading]="item.heading"></app-stacked-horizontal-chart>
-        <app-pie-chart [data]="item.data" *ngIf="item.type=='pieChart'"></app-pie-chart>
+        <app-pie-chart [data]="item.data" [id]="item.id" *ngIf="item.type=='pieChart'"></app-pie-chart>
         <app-line-chart  [data]="item.data" [heading]="item.heading" *ngIf="item.type=='lineChart'" ></app-line-chart>
     </div>
+
     
+
   <a href="#chapter1" class="next">
     Next: Chapter 1 <span>&nbsp;›</span>
   </a>

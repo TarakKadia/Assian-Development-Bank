@@ -1,9 +1,9 @@
 
 <div class="stackedHorizontalChart">
 <ng-container >
-    <h2 style="color: rgb(255, 136, 0);" >{{heading}}</h2>
+    <h2 style="color: #ea522c" >{{heading}}</h2>
 </ng-container>
-<ngx-charts-bar-horizontal-2d
+<!-- <ngx-charts-bar-horizontal-2d
   [view]="view"
   [results]="multi"
   [gradient]="gradient"
@@ -14,5 +14,18 @@
   [xAxisLabel]="xAxisLabel"
   [yAxisLabel]="yAxisLabel"
   >
-</ngx-charts-bar-horizontal-2d>
+</ngx-charts-bar-horizontal-2d> -->
+
+
+<div style="display: block;">
+    <canvas #myCanvas baseChart 
+      [datasets]="barChartData"
+      [labels]="barChartLabels"
+      [options]="barChartOptions"
+      [plugins]="barChartPlugins"
+      [legend]="barChartLegend"
+      [chartType]="barChartType">
+    </canvas>
+  </div>
+  
 </div>

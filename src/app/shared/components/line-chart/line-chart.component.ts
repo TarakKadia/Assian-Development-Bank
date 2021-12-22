@@ -11,29 +11,27 @@ export class LineChartComponent implements OnInit {
     @Input() data:any;
     @Input() heading:any;
     ngOnInit(): void {
-        console.log("deeppatelgreatestcoder",this.data);
         
     }
 
     multis: any = of([]);
-    view: [number, number] = [500, 300];
+    view: [number, number] = [400 ,300];
 
 
-    legend: boolean = true;
+    legend: boolean = false;
     showLabels: boolean = true;
     animations: boolean = true;
     xAxis: boolean = true;
     yAxis: boolean = true;
     showYAxisLabel: boolean = true;
     showXAxisLabel: boolean = true;
-    xAxisLabel: string = 'Year';
+    xAxisLabel: string = '';
     yAxisLabel: string = '';
     timeline: boolean = true;
 
-    colorScheme = {
-        domain: ['#ea522c']
-    };
-
+    public colorScheme = {
+        domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
+      };
     constructor() {
         this.multis = this.data;
     }
