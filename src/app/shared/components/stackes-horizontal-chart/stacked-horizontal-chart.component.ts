@@ -1,7 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 import { ChartOptions, ChartType, ChartDataSets, Chart } from 'chart.js';
-import { Label, BaseChartDirective } from 'ng2-charts';
+import {  BaseChartDirective } from 'ng2-charts';
+import { Label, Color } from 'ng2-charts';
+
 
 
 import * as chart from 'chart.js';
@@ -26,15 +28,19 @@ export class StackedHorizontalChartComponent implements OnInit {
             }]
         }
     };
-    public barChartLabels: any[] = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
+    public barChartLabels: any[] = ['Public Sector Management', 'Finance', 'Energy', 'Health', 'Transport', 'Industry and Trade', 'Water And Other Urban','Agriculture ,Natural Resource','Education','Information And Communication Technology'];
     public barChartType: ChartType = 'horizontalBar';
     public barChartLegend = true;
     public barChartPlugins = [];
     public barChartData: ChartDataSets[] = [
-        { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
-        { data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B ' },
+        { data: [65, 59, 80, 81, 56, 55, 40,60,50,0], label: '2020' },
+        { data: [28, 48, 40, 19, 86, 27, 90,20,30,30], label: '2019' },
 
     ];
+    public barChartColors: Color[] = [
+        { backgroundColor: '#ea522c'},
+        { backgroundColor: '#bcbdc0' },
+      ]
 
 
 

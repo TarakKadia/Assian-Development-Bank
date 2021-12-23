@@ -1,31 +1,19 @@
-
 <div class="stackedHorizontalChart">
-<ng-container >
-    <h2 style="color: #ea522c" >{{heading}}</h2>
-</ng-container>
-<!-- <ngx-charts-bar-horizontal-2d
-  [view]="view"
-  [results]="multi"
-  [gradient]="gradient"
-  [xAxis]="showXAxis"
-  [yAxis]="showYAxis"
-  [showXAxisLabel]="showXAxisLabel"
-  [showYAxisLabel]="showYAxisLabel"
-  [xAxisLabel]="xAxisLabel"
-  [yAxisLabel]="yAxisLabel"
-  >
-</ngx-charts-bar-horizontal-2d> -->
-
-
-<div style="display: block;">
-    <canvas #myCanvas baseChart 
-      [datasets]="barChartData"
-      [labels]="barChartLabels"
-      [options]="barChartOptions"
-      [plugins]="barChartPlugins"
-      [legend]="barChartLegend"
-      [chartType]="barChartType">
-    </canvas>
-  </div>
-  
+    <ng-container>
+        <h2 style="color: #ea522c">{{heading}}</h2>
+    </ng-container>
+    <div style="display: block;">
+        <canvas #myCanvas
+        baseChart
+        width="6500"
+        height="3000"
+        [colors]="barChartColors"
+        [datasets]="barChartData"
+        [labels]="barChartLabels" 
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [legend]="barChartLegend"
+        [chartType]="barChartType">
+        </canvas>
+    </div>
 </div>
