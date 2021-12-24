@@ -35,6 +35,7 @@ import { LineChartComponent } from './components/line-chart/line-chart.component
 import { StackedHorizontalChartComponent } from './components/stackes-horizontal-chart/stacked-horizontal-chart.component';
 import { ChartsModule } from 'ng2-charts';
 import { InvestmentChartComponent } from './components/investment-chart/investment-chart.component';
+import { StrategicFocusPieChartComponent } from './components/strategic-focus-pie-chart/strategic-focus-pie-chart.component';
 
 
 
@@ -71,7 +72,8 @@ import { InvestmentChartComponent } from './components/investment-chart/investme
     PieChartComponent,
     LineChartComponent,
     StackedHorizontalChartComponent,
-    InvestmentChartComponent
+    InvestmentChartComponent,
+    StrategicFocusPieChartComponent
 
   ],
   imports: [
@@ -114,7 +116,8 @@ import { InvestmentChartComponent } from './components/investment-chart/investme
     PieChartComponent,
     LineChartComponent,
     StackedHorizontalChartComponent,
-    InvestmentChartComponent
+    InvestmentChartComponent,
+    StrategicFocusPieChartComponent
 
     
 

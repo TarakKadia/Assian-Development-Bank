@@ -1,0 +1,24 @@
+.chart-border {
+    border: 2px solid #e8532a; padding: 25px 20px; margin: 30px 0;
+}
+
+.chart-title {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0px 20px;
+}
+
+.chart-title h2 {
+    font-size: 18px;
+}
+
+.chart-bottom-text {
+    text-align: center;
+}
+
+.chart-bottom-text p {
+    font-size: 12px;
+    line-height: 0.8rem;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
