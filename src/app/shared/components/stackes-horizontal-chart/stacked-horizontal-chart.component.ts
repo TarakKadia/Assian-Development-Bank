@@ -1,7 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
 import { ChartOptions, ChartType, ChartDataSets, Chart } from 'chart.js';
-import {  BaseChartDirective } from 'ng2-charts';
 import { Label, Color } from 'ng2-charts';
 
 
@@ -42,33 +40,9 @@ export class StackedHorizontalChartComponent implements OnInit {
         { backgroundColor: '#bcbdc0' },
       ]
 
-
-
-    // multi: any[] = [];
-    // view: [number, number] = [700, 400];
-
-    // showXAxis: boolean = true;
-    // showYAxis: boolean = true;
-    // gradient: boolean = false;
-    // showLegend: boolean = true;
-    // legendPosition: string = 'below';
-    // showXAxisLabel: boolean = true;
-    // yAxisLabel: string = '';
-    // showYAxisLabel: boolean = true;
-    // xAxisLabel = '';
-    // scheme= true;
-
-    // colorScheme:string[] = ['#ea522c', '#ea522c', '#ea522c'];
-    // schemeType: string = 'linear';
-
     constructor() {
     }
-
-
-
-
     ngOnInit(): void {
-        // this.multi=this.data
     }
 
 }
