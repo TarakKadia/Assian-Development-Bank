@@ -4,7 +4,7 @@ import { AppendixesContentComponent } from '../appendix/appendixes-content/appen
 import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directors.component';
 import { FinancialHighlightsComponent } from './financial-highlights/financial-highlights.component';
 import { HomeComponent } from './home.component';
-import { MessageComponent } from './message/message.component';
+import { PresidentsMessageComponent } from './presidents-message/presidents-message.component';
 
 
 const routes: Routes = [
@@ -18,7 +18,7 @@ const routes: Routes = [
   },
   {
     path: 'presidents-message',
-    component: MessageComponent
+    component: PresidentsMessageComponent
   },
   {
     path: 'board-of-directors',

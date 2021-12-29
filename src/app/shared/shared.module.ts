@@ -28,7 +28,6 @@ import {RouterModule} from '@angular/router';
 import { ExpandableContentTwoComponent } from './components/expandable-content-two/expandable-content-two.component';
 import { ShadeKnowledgeTwoComponent } from './components/shade-knowledge-two/shade-knowledge-two.component';
 import { CounterCardComponent } from './components/counter-card/counter-card.component';
-import { TableAccordionComponent } from './components/table-accordion/table-accordion.component';
 import { AccordinTableComponent } from './components/accordin-table/accordin-table.component';
 import { PieChartComponent } from './components/pie-chart/pie-chart.component';
 import { LineChartComponent } from './components/line-chart/line-chart.component';
@@ -36,6 +35,7 @@ import { StackedHorizontalChartComponent } from './components/stackes-horizontal
 import { ChartsModule } from 'ng2-charts';
 import { InvestmentChartComponent } from './components/investment-chart/investment-chart.component';
 import { StrategicFocusPieChartComponent } from './components/strategic-focus-pie-chart/strategic-focus-pie-chart.component';
+import { ManagementImageGridComponent } from './components/management-image-grid/management-image-grid.component';
 
 
 
@@ -67,13 +67,13 @@ import { StrategicFocusPieChartComponent } from './components/strategic-focus-pi
     AppendixesListComponent,
     SingleHeadingComponent,
     CounterCardComponent,
-    TableAccordionComponent,
     AccordinTableComponent,
     PieChartComponent,
     LineChartComponent,
     StackedHorizontalChartComponent,
     InvestmentChartComponent,
-    StrategicFocusPieChartComponent
+    StrategicFocusPieChartComponent,
+    ManagementImageGridComponent,
 
   ],
   imports: [
@@ -111,13 +111,13 @@ import { StrategicFocusPieChartComponent } from './components/strategic-focus-pi
     RegionHeadingComponent,
     SingleHeadingComponent,
     CounterCardComponent,
-    TableAccordionComponent,
     AccordinTableComponent,
     PieChartComponent,
     LineChartComponent,
     StackedHorizontalChartComponent,
     InvestmentChartComponent,
-    StrategicFocusPieChartComponent
+    StrategicFocusPieChartComponent,
+    ManagementImageGridComponent
 
     
 

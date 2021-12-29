@@ -86,14 +86,17 @@ export class MenuBarComponent implements OnInit {
     }
 
     goToPresidentsMessage() {
+        this.showMenu();
         this.router.navigate(['/presidents-message']);
     }
 
     goToBoardOfDirectors() {
+        this.showMenu();
         this.router.navigate(['/board-of-directors']);
     }
 
     goToFinancialHighlights() {
+        this.showMenu();
         this.router.navigate(['/financial-highlights']);
     }
 
@@ -137,6 +140,7 @@ export class MenuBarComponent implements OnInit {
    }
 
     goToAppendixes() {
+        this.showMenu();
         this.router.navigate(['/appendixes-content']);
     }
 

@@ -570,13 +570,19 @@ body.menu-open .real-menu {
 }
 .bookmark {
     padding: 0.5rem;
+    background-image: url("assets/images/ui/starr.png");
+    background-size:22px ;
     background-repeat: no-repeat;
     background-position: right center;
     cursor: pointer;
     margin-right: -22rem;
-    padding-right: 40px;
+    padding-right: 24px;
+    padding-top: 10px;
     font-size: 1.2rem;
     line-height: 2.5rem;
+  }
+  .bookmark span {
+    font-weight: normal;
   }
 
 .share span {
@@ -3535,7 +3541,7 @@ table.accordianTable thead tr th { border-bottom: none !important; padding: 0 10
 	table.accordianTable tbody tr td.colorGrey { background-color: #dcddde !important; }
 	table.accordianTable tbody tr td.lightOrange-bg { background-color: #fce1d2 !important; }
 	table.accordianTable tbody tr td .fold-content { padding: 0 0 0 30px; }
-	table.accordianTable tbody tr td .fold-content table tbody tr td { text-align: right; }
+	table.accordianTable tbody tr td .fold-content table tbody tr td { text-align: left; }
 	table.accordianTable tbody tr td .fold-content table tbody tr td:first-child { padding-left: 25px; text-align: left; }
 	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-normal td,
 	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold td { font-weight: bold; }

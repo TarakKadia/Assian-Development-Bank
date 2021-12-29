@@ -10,7 +10,7 @@ import boardOfDirectorsJsonData from 'src/app/constants/board-of-directors.json'
 export class BoardOfDirectorsComponent implements OnInit {
 
   data :Array<any> = [];
-loading:any;
+  loading:any;
   constructor(
     private router:Router
   ) { }
