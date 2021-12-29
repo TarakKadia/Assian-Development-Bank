@@ -30,7 +30,7 @@
                           },
                           {
                             "colspan":2,
-                            "title": "COVID-19 Response"
+                            "title": "2020"
                           }
                     ],
                     [
@@ -188,7 +188,7 @@
                         },
                         {
                             
-                            "value0": "Regular Ordinary Capital",
+                            "value0": "Regular Ordinary Capital and Concessional ResourcesS",
                             "value1": "13244",
                             "value2": "19687",
                             "value3": "21576",
@@ -199,7 +199,7 @@
                         },
                         {
                             
-                            "value0": "Trade Finance,Supply Change Finance",
+                            "value0": "Trade Finance,Supply Chain Finance and Microfinance Programs",
                             "value1": "1496",
                             "value2": "1897",
                             "value3": "2696",
@@ -230,7 +230,7 @@
                         },
                         {
                             
-                            "value0": "Regular Ordinary Capital ",
+                            "value0": "Regular Ordinary Capital and Concessional Resources with Trade Finance ,Supply Chain Finance and Microfinance Program",
                             "value1": "14740",
                             "value2": "21585",
                             "value3": "24271",
@@ -310,7 +310,8 @@
                             "value3": "18446",
                             "value4": "18643",
                             "value5": "26826",
-                            "value6": "13152"
+                            "value6": "13152",
+                            "class": "title-row-bold"
                         },
                         {
                             "value0": "Loans",
@@ -348,7 +349,8 @@
                             "value3": "3136",
                             "value4": "3000",
                             "value5": "1406",
-                            "value6": "442"
+                            "value6": "442",
+                            "class": "title-row-bold"
                         },
                         {
                             "value0": "Loans",
@@ -380,13 +382,14 @@
                         },
                         {
                             
-                            "value0": "Trade Finance,Supply Change Finance",
+                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs",
                             "value1": "1496",
                             "value2": "1897",
                             "value3": "2696",
                             "value4": "2137",
                             "value5": "3069",
-                            "value6": "2419"
+                            "value6": "2419",
+                            "class": "title-row-bold"
                         },
                         {
                             
@@ -416,7 +419,8 @@
                             "value3": "23779",
                             "value4": "31300",
                             "value5": "16013",
-                            "value6": "16000"
+                            "value6": "16000",
+                            "class": "title-row-bold"
                         }
                         
                     ]
@@ -526,7 +530,8 @@
                             "value3": "241",
                             "value4": "237",
                             "value5": "294",
-                            "value6": "134"
+                            "value6": "134",
+                            "class": "title-row-bold"
                         }
                        
                     ]
@@ -655,6 +660,8 @@
               {
                   "data": [4, 1, 44, 25, 25, 2],
                   "backgroundColor": ["#e89b92", "#fc4634", "#ffb03d","#ff793a","#ec7269","#e89b92"]
+                 
+
               }
           ]
       },
@@ -1260,7 +1267,8 @@
                             "value2": "83926",
                             "value3": "92843",
                             "value4": "96592",
-                            "value5": "111805"
+                            "value5": "111805",
+                            "class": "title-row-bold"
                         }
                         
                     ]
@@ -1484,7 +1492,8 @@
                           "value2": "11443",
                           "value3": "14186",
                           "value4": "16470",
-                          "value5": "12058"
+                          "value5": "12058",
+                          "class": "title-row-bold"
                       }
                        
                     ]
@@ -1498,6 +1507,7 @@
                         {
                             "title": ""
                           },
+                          
                           {
                             "title": ""
                           },
@@ -1519,25 +1529,32 @@
                     ],
                     [
                         {
-                            "title": "C.Net Resource Transfer to Developing"
+                            "title": "C.Net Resource Transfer to Developing",
+                            "class": "lightOrange-bg"
                         },
                         {
-                            "title": ""
+                            "title": "",
+                            "class": "lightOrange-bg"
                         },
                         {
-                            "title": "5397"
+                            "title": "5397",
+                            "class": "lightOrange-bg"
                         },
                         {
-                            "title": "3608"
+                            "title": "3608",
+                            "class": "lightOrange-bg"
                         },
                         {
-                            "title": "4622"
+                            "title": "4622",
+                            "class": "lightOrange-bg"
                         },
                         {
-                            "title": "5670"
+                            "title": "5670",
+                            "class": "lightOrange-bg"
                         },
                         {
-                            "title": "12058"
+                            "title": "12058",
+                            "class": "lightOrange-bg"
                         }
                     ]
                 ]
@@ -1672,7 +1689,8 @@
                             "value2": "3127",
                             "value3": "3374",
                             "value4": "3548",
-                            "value5": "3646"
+                            "value5": "3646",
+                            "class": "title-row-bold"
                         },
                         {
                             "value0": "International Staff and Board staff",
@@ -1710,12 +1728,13 @@
                         },
                         {
                             
-                            "value0": "International Staff and Board staff",
+                            "value0": "International Staff and Board staff Board",
                             "value1": "1103",
                             "value2": "1136",
                             "value3": "1242",
                             "value4": "1287",
-                            "value5": "1317"
+                            "value5": "1317",
+                            "class": "title-row-bold"
                         },
                         {
                             
@@ -1737,12 +1756,13 @@
                         },
                         {
                             
-                            "value0": "International Staff and Noard Staff(number)",
+                            "value0": "International Staff and Noard Staff(Gender)",
                             "value1": "1103",
                             "value2": "1136",
                             "value3": "1242",
                             "value4": "1287",
-                            "value5": "1317"
+                            "value5": "1317",
+                            "class": "title-row-bold"
                         },
                         {
                             
@@ -1771,7 +1791,9 @@
                 "type": "expansion-panel",
                 "subTitle": [
                     {
-                        "title": "B.International Adminsitrative Bugdet"
+                        "title": "B.International Adminsitrative Bugdet($000)"
+                      }, {
+                        "title": ""
                       },
                       {
                         "title": "1326565"
@@ -1789,7 +1811,7 @@
                         "title": "565"
                       },
                       {
-                        "title": "6556"
+                        "title": ""
                       }
                 ]
                
@@ -2078,8 +2100,13 @@
             {
                 "type": "expansion-panel",
                 "subTitle": [
+                    
+                      
                     {
                         "title": "Annual Borrowings"
+                      },
+                      {
+                        "title": ""
                       },
                       {
                         "title": "20602"
@@ -2095,9 +2122,6 @@
                       },
                       {
                         "title": "35765"
-                      },
-                      {
-                        "title": ""
                       }
                 ],
                 "subData": [
@@ -2124,7 +2148,8 @@
                             "value2": "56",
                             "value3": "54",
                             "value4": "62",
-                            "value5": "69"
+                            "value5": "69",
+                            "class":"title-row-bold"
                         }
                         
 
@@ -2221,7 +2246,8 @@
                             "value2": "584",
                             "value3": "482",
                             "value4": "368",
-                            "value5": "352"
+                            "value5": "352",
+                            "class":"title-row-bold"
                         }
 
 

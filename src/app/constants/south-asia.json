@@ -75,10 +75,144 @@
         "data": "STRATEGIC FOCUS",
         "type": "heading"
       },
-    {
-        "data":"sard_s2030.png",
-        "type":"image"
-    },
+      {
+        "data":{
+            
+            "data":[
+                {
+                "id":1,
+                "image":"op1_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#111111",
+                "datasets": [
+                    {
+                        "label": "1",
+                        "centerText":"",
+                        "data": [40,45,15],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            },
+            {
+                "id":2,
+                "image":"op2_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#222222",
+                "datasets": [
+                    {
+                        "label": "2",
+                        "centerText":"90%",
+                        "data": [55, 45,5],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            },
+            {
+                "id":3,
+                "image":"op3_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#333333",
+                "isSmall": true,
+                "datasets": [
+                    {
+                        "label": "3",
+                        "centerText":"",
+                        "data": [10, 40,50],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            },
+            {
+                "id":4,
+                "image":"op4_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#444444",
+                "isSmall": true,
+                "datasets": [
+                    {
+                        "label": "4",
+                        "centerText":"",
+                        "data": [5, 15,80],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            },
+            {
+                "id":5,
+                "image":"op5_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#555555",
+                "isSmall": true,
+                "datasets": [
+                    {
+                        "label": "5",
+                        "centerText":"",
+                        "data": [8, 22,70],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            },
+            {
+                "id":6,
+                "image":"op6_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#111111",
+                "datasets": [
+                    {
+                        "label": "6",
+                        "centerText":"",
+                        "data": [30, 45,25],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            },
+            {
+                "id":7,
+                "image":"op1_color.png",
+                "labels": ["", "Regional"],
+                "centerColor": "#f2ae29",
+                "datasets": [
+                    {
+                        "label": "7",
+                        "centerText":"",
+                        "data": [25, 15,60],
+                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                        "fill": true
+                    }
+                    
+                ]    
+            }
+        ]
+            
+        },
+        "type": "strategicFocusPieChart"
+      },
     {
         "data":"Addressing Remaining Poverty and<br>Reducing Inequalities",
         "image":"op1_color.png",
