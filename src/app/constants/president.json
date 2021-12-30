@@ -74,7 +74,7 @@
         "title": "MANAGEMENT TEAM",
         "imageGrid": "assets/images/pres/mgmt_all.jpg",
         "tagLine": "Left to right: Vice-Presidents Bambang Susantono, Deborah Stokes, Ingrid van Wees, Shixin Chen, Ahmed M. Saeed, Ashok Lavasa; The Secretary Eugenue Zhukov.",
-        "type": "footer"
+        "type": "managementImageGrid"
     },
     {
         "title": "Next",

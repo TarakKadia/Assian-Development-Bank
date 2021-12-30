@@ -139,24 +139,27 @@ export class ParagraphComponent implements OnInit {
         } else {
             storageArr = [];
         }
-        this.data['newData'] = this.data.data;
+        if(typeof(this.data) == "object"){
 
-        storageArr.forEach(element => {
-            if (this.url.indexOf(element.url) > -1) {
-                element.highLightedData.forEach((ele, key) => {
-                    if (ele.paraId == this.data.id) {
-                        if (this.data.data == ele.text) {
-                            let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
-                            this.data.newData = markedData;
-                        } else if (this.data.data.indexOf(ele.text) > -1) {
-                            let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
-                            this.data.newData = this.data.newData.replace(ele.text, markedData);
-                            // console.log(this.data.newData)
+            this.data['newData'] = this.data.data;
+            storageArr.forEach(element => {
+                if (this.url.indexOf(element.url) > -1) {
+                    element.highLightedData.forEach((ele, key) => {
+                        if (ele.paraId == this.data.id) {
+                            if (this.data.data == ele.text) {
+                                let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
+                                this.data.newData = markedData;
+                            } else if (this.data.data.indexOf(ele.text) > -1) {
+                                let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
+                                this.data.newData = this.data.newData.replace(ele.text, markedData);
+                                // console.log(this.data.newData)
+                            }
                         }
-                    }
-                });
-            }
-        });
+                    });
+                }
+            });
+        }
+
 
         setTimeout(() => {
             this.isShowData = true

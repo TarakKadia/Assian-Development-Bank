@@ -139,21 +139,33 @@
   {
     "data": "<b>ADB supported developing member countries with rapid countercyclical fiscal support.</b>A key component of ADB’s pandemic response package was quick-disbursing countercyclical funding under the CPRO. With some DMCs experiencing reductions in annual tax revenue of up to 25%, the CPRO financing helped governments quickly contain the disease, strengthen health systems, assist distressed businesses, support key sectors of the economy, and expand social protection to millions of people affected by the crisis. Under this option, ADB provided $10.2 billion in financing to the governments of 26 countries in 2020.",
     "type": "paragraph"
-  }, {
-    "data": [{
-        "x": "COVID-19 Pandemic Response Option",
-        "y": 2961,
-        "text": "2,961"
-      },
-      {
-        "x": "Other COVID-19 Operations",
-        "y": 10191,
-        "text": "10,191"
-      }
-
-    ],
-    "type": "chart"
-  }, {
+  }, 
+  {
+    "type":"pieChart",
+  "data": {
+      "labels": ["COVID-19 Pandemic Response Option", "Other COVID-19 Operations"],
+      "datasets": [
+          {
+              "data": [4, 1],
+              "backgroundColor": ["#d94e2f", "#eb9f7d"]
+          }
+      ]
+  },
+  "id": 1
+},
+{
+    "type":"pieChart",
+  "data": {
+      "datasets": [
+          {
+              "data": [4, 1],
+              "backgroundColor": ["#d94e2f", "#eb9f7d"]
+          }
+      ]
+  },
+  "id": 2
+},
+ {
     "data": "<b>ADB provided grants and technical assistance for immediate needs.</b> The bank committed technical assistance grants for emergency response and capacity development to help DMCs purchase equipment and enhance the capabilities of first responders.",
     "type": "paragraph"
   }, {

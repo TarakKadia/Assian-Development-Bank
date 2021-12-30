@@ -1,5 +1,6 @@
 import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, Input, OnInit } from '@angular/core';
 import { Chart, ChartType, } from 'chart.js';
+import * as $ from 'jquery';
 
 declare var jQuery: any;
 
@@ -13,17 +14,36 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
     @Input() data: any;
     @Input() image: any;
     @Input() id: any;
+    inView = false;
+
     chart: any;
     constructor() { }
 
-    ngOnInit(): void {
-        this.chart = new Chart('canvas' + this.id, {});
+    ngOnInit(): void {       
+
+        this.chart = new Chart('canvas' + this.id, {}); 
     }
 
     ngAfterViewInit() {
         this.renderChart();
+        
     }
-   
+    getPosition(event){
+        let offsetLeft = 0;
+        let offsetTop = 0;
+    
+        let el = event.srcElement;
+    console.log("elelelelel",el);
+    
+        while(el){
+            offsetLeft += el.offsetLeft;
+            offsetTop += el.offsetTop;
+            el = el.parentElement;
+        }
+        console.log("offsetTop:offsetTop , offsetLeft:offsetLeft",offsetTop , offsetLeft);
+        return { offsetTop:offsetTop , offsetLeft:offsetLeft }
+        
+    }
 
     renderChart() {
         const chartOptions = {
@@ -34,9 +54,9 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
                 
                     plugins: {
                         deferred: {           // enabled by default
-                            xOffset: 50,     // defer until 150px of the canvas width are inside the viewport
-                            yOffset: '50%',   // defer until 50% of the canvas height are inside the viewport
-                            delay: 500        // delay of 500 ms after the canvas is considered inside the viewport
+                            xOffset: 14394,     // defer until 150px of the canvas width are inside the viewport
+                            yOffset: 4855,   // defer until 50% of the canvas height are inside the viewport
+                            delay: 1000        // delay of 500 ms after the canvas is considered inside the viewport
                         }
                     },
                 

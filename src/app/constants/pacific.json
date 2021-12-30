@@ -102,7 +102,7 @@
                     {
                         "label": "1",
                         "centerText":"",
-                        "data": [40,45,15],
+                        "data": [60,40],
                         "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
                         "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
                         "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
@@ -120,7 +120,7 @@
                     {
                         "label": "2",
                         "centerText":"90%",
-                        "data": [55, 45,5],
+                        "data": [15, 35,50],
                         "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
                         "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
                         "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
@@ -195,7 +195,7 @@
                     {
                         "label": "6",
                         "centerText":"",
-                        "data": [30, 45,25],
+                        "data": [25, 0,0],
                         "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
                         "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
                         "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
@@ -213,7 +213,7 @@
                     {
                         "label": "7",
                         "centerText":"",
-                        "data": [25, 15,60],
+                        "data": [25, 0,60],
                         "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
                         "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
                         "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],

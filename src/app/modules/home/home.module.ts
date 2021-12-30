@@ -6,10 +6,10 @@ import { HomeRoutingModule } from './home-routing.module';
 import { FinancialHighlightsComponent } from './financial-highlights/financial-highlights.component';
 import { SharedModule } from '../../shared/shared.module';
 import { BoardOfDirectorsComponent } from './board-of-directors/board-of-directors.component';
-import { MessageComponent } from './message/message.component';
 import { AppendixModule } from '../appendix/appendix.module';
 import { CoreModule } from 'src/app/core/core.module';
 import { HammerModule } from '@angular/platform-browser';
+import { PresidentsMessageComponent } from './presidents-message/presidents-message.component';
 // import { AppendixesContentComponent } from './appendixes-content/appendixes-content.component';
 
 
@@ -20,7 +20,7 @@ import { HammerModule } from '@angular/platform-browser';
     SideMenuComponent,
     FinancialHighlightsComponent,
     BoardOfDirectorsComponent,
-    MessageComponent,
+    PresidentsMessageComponent,
   
     
   ],
@@ -39,7 +39,7 @@ import { HammerModule } from '@angular/platform-browser';
     SideMenuComponent,
     FinancialHighlightsComponent,
     BoardOfDirectorsComponent,
-    MessageComponent,
+    PresidentsMessageComponent
 ]
 })
 export class HomeModule { }

@@ -16,6 +16,12 @@ export class PieChartComponent implements OnInit, AfterViewInit {
     constructor() { }
 
     ngOnInit(): void {
+
+
+        this.chart = new Chart('canvas' + this.id, {});
+
+
+        
         Chart.pluginService.register({
             beforeDraw: function (chart: any) {
                 var width = chart.canvas.width,

@@ -24,7 +24,7 @@ export class HorizontalGraphChartComponent implements OnInit {
     xAxisLabel: string = 'Population';
 
     colorScheme = {
-        domain: ['#A8A8A8', '#ff6600', '#AAAAAA']
+        domain: ['#d94e2f', '#b4b5b4', ]
     };
 
     constructor() {
