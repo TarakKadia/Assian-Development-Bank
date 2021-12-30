@@ -36,6 +36,7 @@ import { ChartsModule } from 'ng2-charts';
 import { InvestmentChartComponent } from './components/investment-chart/investment-chart.component';
 import { StrategicFocusPieChartComponent } from './components/strategic-focus-pie-chart/strategic-focus-pie-chart.component';
 import { ManagementImageGridComponent } from './components/management-image-grid/management-image-grid.component';
+import { ProgressBarChartComponent } from './components/progress-bar-chart/progress-bar-chart.component';
 
 
 
@@ -74,6 +75,7 @@ import { ManagementImageGridComponent } from './components/management-image-grid
     InvestmentChartComponent,
     StrategicFocusPieChartComponent,
     ManagementImageGridComponent,
+    ProgressBarChartComponent,
 
   ],
   imports: [
@@ -117,7 +119,8 @@ import { ManagementImageGridComponent } from './components/management-image-grid
     StackedHorizontalChartComponent,
     InvestmentChartComponent,
     StrategicFocusPieChartComponent,
-    ManagementImageGridComponent
+    ManagementImageGridComponent,
+    ProgressBarChartComponent
 
     
 

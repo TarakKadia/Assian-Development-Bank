@@ -20,20 +20,21 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
     constructor() { }
 
     ngOnInit(): void {       
-
         this.chart = new Chart('canvas' + this.id, {}); 
     }
 
     ngAfterViewInit() {
         this.renderChart();
-        
+
+        console.log(jQuery('#canvas' + this.id).offset());
     }
+
     getPosition(event){
         let offsetLeft = 0;
         let offsetTop = 0;
     
         let el = event.srcElement;
-    console.log("elelelelel",el);
+        console.log("elelelelel",el);
     
         while(el){
             offsetLeft += el.offsetLeft;
@@ -54,8 +55,8 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
                 
                     plugins: {
                         deferred: {           // enabled by default
-                            xOffset: 14394,     // defer until 150px of the canvas width are inside the viewport
-                            yOffset: 4855,   // defer until 50% of the canvas height are inside the viewport
+                            xOffset: 1334.984375,     // defer until 150px of the canvas width are inside the viewport
+                            yOffset: 970.75,   // defer until 50% of the canvas height are inside the viewport
                             delay: 1000        // delay of 500 ms after the canvas is considered inside the viewport
                         }
                     },

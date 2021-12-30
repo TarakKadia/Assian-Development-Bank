@@ -1,0 +1,40 @@
+.chartP {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    position: relative;
+    border-style: solid;
+    border-color: orange;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  
+  }
+  
+  .vl {
+    border-left: 6px solid rgb(255, 152, 67);
+  
+    position: absolute;
+    top: 0;
+  }
+  
+  .verticalLine {
+    position: relative;
+    left: 101px;
+    height: 1150px;
+    top: 26px;
+    height: 350px;
+    border-left: 3px solid #000000;
+  
+  }
+  
+  .pie {
+    position: relative;
+    bottom: 58px;
+    width: 14.28%;
+  }
+  
+  .img {
+    width: 75px;
+    height: 75px;
+  }

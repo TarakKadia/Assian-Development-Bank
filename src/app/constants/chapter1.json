@@ -205,8 +205,8 @@
     "data": "The effects of the COVID‑19 pandemic were intensified by the ongoing core development challenges that ADB has been helping DMCs to address through the seven operational priorities of its long-term strategy, Strategy 2030. The challenges include deficiencies in health, education, and social protection systems. The pandemic has also highlighted the importance of continuing to tackle underlying development issues to support an inclusive and sustainable recovery.",
     "type": "paragraph"
   }, {
-    "data": "covid_chart3.png",
-    "type": "image"
+    
+    "type": "progressBarChart"
   }, {
     "data": "Addressing Remaining Poverty and<br>Reducing Inequalities",
     "image": "op1_color.png",
