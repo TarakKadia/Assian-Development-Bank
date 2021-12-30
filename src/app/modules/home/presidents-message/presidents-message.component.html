@@ -8,7 +8,7 @@
         <div class="president" style="display: flex;">
           <app-image [image]="data.image" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
         </div>
-        <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+        <app-paragraph [data]="data" [url]="url" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
         <app-signature [signature]="data.signature" [name]="data.name" [para1]="data.para1" [para2]="data.para2"
           *ngIf="data.type=='signature'"></app-signature>
