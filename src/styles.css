@@ -3414,7 +3414,7 @@ strong.lessstrong {
 
 body { margin: 60px 130px; } /* Demo purposes - ignore this margin */
 
-div#hover, div#hover-box {
+div#hover, div#hover-box, div#hover-expanded, div#hover-twitter, div#hover-counter, div#hover-image, div#hover-expanded-two {
     position: absolute;
     max-width: 150px;
     width: 100%;
@@ -3427,7 +3427,7 @@ div#hover, div#hover-box {
     display: none;
   }
   
-  div#hover::after, div#hover-box::after {
+  div#hover::after, div#hover-box::after, div#hover-expanded::after, div#hover-twitter::after, div#hover-counter::after, div#hover-image::after, div#hover-expanded-two::after {
     content: '';
     position: absolute;
     top: 100%;

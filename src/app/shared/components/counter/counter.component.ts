@@ -35,11 +35,10 @@ export class CounterComponent implements OnInit, AfterViewInit {
 
     ngAfterViewInit(): void {
         setTimeout(() => {
-
-            jQuery(".counter-box-hover").on("mouseover", (event) => {
+            jQuery(".content").on("mouseover", (event) => {
                 var target = jQuery(event.target);
                 if (target.is('.box-hover')) {
-                    jQuery('#hover-box').css('display', 'block');
+                    jQuery('#hover-counter').css('display', 'block');
 
                     const className = target.attr('class').split(' ');
                     const id = target.attr('id');
@@ -57,22 +56,14 @@ export class CounterComponent implements OnInit, AfterViewInit {
                     var position = jQuery(class_names).offset();
                     var width = jQuery(class_names).width() / 2;
 
-                    jQuery('#hover-box').css('top', (position.top - 60) + 'px');
-                    jQuery('#hover-box').css('left', (position.left + width - 60) + 'px');
+                    jQuery('#hover-counter').css('top', (position.top - 60) + 'px');
+                    jQuery('#hover-counter').css('left', (position.left + width - 60) + 'px');
                 } else {
-                    jQuery('#hover-box').css('display', 'none');
+                    jQuery('#hover-counter').css('display', 'none');
                 }
             });
-
-            // jQuery(".counter-box-hover").on("mouseleave", (event) => {
-            //     var target = jQuery(event.target);
-            //     if (!target.is('#hover-box')) {
-            //         jQuery('#hover-box').css('display', 'none');
-            //     }
-            // });
             this.setBookmarkedHighLight();
         }, 2000);
-
     }
     // animateValue(id, start, end, duration) {
     //   if (start === end) return;

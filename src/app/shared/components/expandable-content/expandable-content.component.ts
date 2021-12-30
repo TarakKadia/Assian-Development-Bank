@@ -23,10 +23,10 @@ export class ExpandableContentComponent implements OnInit {
     ngAfterViewInit(): void {
         setTimeout(() => {
 
-            jQuery(".expanded-box-hover").on("mouseover", (event) => {
+            jQuery(".content").on("mouseover", (event) => {
                 var target = jQuery(event.target);
                 if (target.is('.expanded-box-hover')) {
-                    jQuery('#hover-box').css('display', 'block');
+                    jQuery('#hover-expanded').css('display', 'block');
 
                     const className = target.attr('class').split(' ');
                     const id = target.attr('id');
@@ -44,10 +44,10 @@ export class ExpandableContentComponent implements OnInit {
                     var position = jQuery(class_names).offset();
                     var width = jQuery(class_names).width() / 2;
 
-                    jQuery('#hover-box').css('top', (position.top - 60) + 'px');
-                    jQuery('#hover-box').css('left', (position.left + width - 60) + 'px');
+                    jQuery('#hover-expanded').css('top', (position.top - 60) + 'px');
+                    jQuery('#hover-expanded').css('left', (position.left + width - 60) + 'px');
                 } else {
-                    jQuery('#hover-box').css('display', 'none');
+                    jQuery('#hover-expanded').css('display', 'none');
                 }
             });
 

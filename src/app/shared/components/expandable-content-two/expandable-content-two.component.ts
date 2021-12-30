@@ -27,11 +27,10 @@ export class ExpandableContentTwoComponent implements OnInit {
 
     ngAfterViewInit(): void {
         setTimeout(() => {
-
-            jQuery(".expanded-box-hover-two").on("mouseover", (event) => {
+            jQuery(".content").on("mouseover", (event) => {
                 var target = jQuery(event.target);
                 if (target.is('.expanded-box-hover-two') || target.is('h3')) {
-                    jQuery('#hover-box').css('display', 'block');
+                    jQuery('#hover-expanded-two').css('display', 'block');
 
                     const className = target.attr('class').split(' ');
                     let id = ''; 
@@ -54,13 +53,12 @@ export class ExpandableContentTwoComponent implements OnInit {
                     var position = jQuery(class_names).offset();
                     var width = jQuery(class_names).width() / 2;
 
-                    jQuery('#hover-box').css('top', (position.top - 60) + 'px');
-                    jQuery('#hover-box').css('left', (position.left + width - 60) + 'px');
+                    jQuery('#hover-expanded-two').css('top', (position.top - 60) + 'px');
+                    jQuery('#hover-expanded-two').css('left', (position.left + width - 60) + 'px');
                 } else {
-                    jQuery('#hover-box').css('display', 'none');
+                    jQuery('#hover-expanded-two').css('display', 'none');
                 }
             });
-            // this.setBookmarkedHighLight();
         }, 2000);
     }
 }

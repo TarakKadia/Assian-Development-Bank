@@ -20,10 +20,10 @@ export class TwitterComponent implements OnInit {
 
     ngAfterViewInit(): void {
         setTimeout(() => {
-            jQuery(".tweet-hover").on("mouseover", (event) => {
+            jQuery(".content").on("mouseover", (event) => {
                 var target = jQuery(event.target);
                 if (target.is('.tweet-hover')) {
-                    jQuery('#hover-box').css('display', 'block');
+                    jQuery('#hover-twitter').css('display', 'block');
 
                     const className = jQuery('.tweet').attr('class').split(' ');
 
@@ -52,10 +52,10 @@ export class TwitterComponent implements OnInit {
                     var position = jQuery(class_names).offset();
                     var width = jQuery(class_names).width() / 2;
 
-                    jQuery('#hover-box').css('top', (position.top - 60) + 'px');
-                    jQuery('#hover-box').css('left', (position.left + width - 60) + 'px');
+                    jQuery('#hover-twitter').css('top', (position.top - 60) + 'px');
+                    jQuery('#hover-twitter').css('left', (position.left + width - 60) + 'px');
                 } else {
-                    jQuery('#hover-box').css('display', 'none');
+                    jQuery('#hover-twitter').css('display', 'none');
                 }
             });
             // this.setBookmarkedHighLight();
