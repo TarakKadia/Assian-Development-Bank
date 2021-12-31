@@ -9,3 +9,10 @@ canvas.width{
     margin: 0px auto;
 } */
 
+.animated {
+    visibility: visible !important;
+}
+.hide-on-init {
+    visibility: hidden;
+}
+

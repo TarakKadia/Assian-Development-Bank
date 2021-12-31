@@ -1,26 +1,45 @@
-import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, Input, OnInit } from '@angular/core';
+import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ElementRef, HostListener, Input, OnInit } from '@angular/core';
 import { Chart, ChartType, } from 'chart.js';
+import { trigger, state, style, animate, transition } from '@angular/animations';
 import * as $ from 'jquery';
 
 declare var jQuery: any;
 
+// const style1 = style({
+//     opacity: 1,
+//     transform: "translateX(0)"
+//   })
+
+//   const style2 = style({
+//     opacity: 0,
+//     transform: "translateX(-100%)"
+//   })
 @Component({
     selector: 'app-strategic-focus-pie-chart',
     templateUrl: './strategic-focus-pie-chart.component.html',
-    styleUrls: ['./strategic-focus-pie-chart.component.css']
+    styleUrls: ['./strategic-focus-pie-chart.component.css'],
+    // animations: [
+    //     trigger('foobar', [
+    //       state('show', style1),
+    //       state('hide', style2),
+    //       transition('show => hide', animate('700ms ease-out')),
+    //       transition('hide => show', animate('700ms ease-in'))
+    //     ])
+    //   ]
 })
 export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
 
     @Input() data: any;
     @Input() image: any;
     @Input() id: any;
+    state: any;
     inView = false;
 
     chart: any;
-    constructor() { }
+    constructor(public el: ElementRef) { }
 
-    ngOnInit(): void {       
-        this.chart = new Chart('canvas' + this.id, {}); 
+    ngOnInit(): void {
+        this.chart = new Chart('canvas' + this.id, {});
     }
 
     ngAfterViewInit() {
@@ -29,22 +48,46 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
         console.log(jQuery('#canvas' + this.id).offset());
     }
 
-    getPosition(event){
-        let offsetLeft = 0;
-        let offsetTop = 0;
-    
-        let el = event.srcElement;
-        console.log("elelelelel",el);
-    
-        while(el){
-            offsetLeft += el.offsetLeft;
-            offsetTop += el.offsetTop;
-            el = el.parentElement;
-        }
-        console.log("offsetTop:offsetTop , offsetLeft:offsetLeft",offsetTop , offsetLeft);
-        return { offsetTop:offsetTop , offsetLeft:offsetLeft }
-        
-    }
+    // @HostListener('window:scroll', ['$event'])
+    // checkScroll() {
+    //   const componentPosition = this.el.nativeElement.offsetTop
+    //   const scrollPosition = window.pageYOffset
+    //   if (scrollPosition >= componentPosition - 250) {
+    //     const chartOptions = {
+    //         type: 'doughnut',
+    //         data: this.data,
+
+    //         options: {
+    //             aspectRatio: 1,
+    //             responsive: true,
+
+
+
+    //             animation: {
+    //                 duration: 2000
+    //             },
+    //             legend: {
+    //                 display: false,
+
+
+    //             },
+
+
+    //             tooltips: {
+    //                 enabled: false,
+    //             },
+
+    //         },
+
+    //     };
+    //     this.state =  new Chart('canvas' + this.id, chartOptions); 
+    //   } else {
+    //     this.state = 'show'
+    //   }
+
+    // }
+
+
 
     renderChart() {
         const chartOptions = {
@@ -52,31 +95,14 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
             data: this.data,
 
             options: {
-                
-                    plugins: {
-                        deferred: {           // enabled by default
-                            xOffset: 1334.984375,     // defer until 150px of the canvas width are inside the viewport
-                            yOffset: 970.75,   // defer until 50% of the canvas height are inside the viewport
-                            delay: 1000        // delay of 500 ms after the canvas is considered inside the viewport
-                        }
-                    },
-                
-
                 aspectRatio: 1,
                 responsive: true,
-
-
-                
                 animation: {
                     duration: 2000
                 },
                 legend: {
                     display: false,
-
-
                 },
-
-
                 tooltips: {
                     enabled: false,
                 },

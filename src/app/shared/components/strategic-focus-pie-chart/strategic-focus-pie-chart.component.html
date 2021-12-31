@@ -1,4 +1,4 @@
-<div class="chartP" style="width: 14.28%; display: inline-block;" (click)="getPosition($event)">
+<div class="chartP" style="width: 14.28%; display: inline-block;">
     <div class="pie" style="width: auto;" [hidden]="!chart">
         <img class="logoImage" src= "assets/images/{{image}}" style="width: 60%; margin-bottom: 6px;">
         <canvas [ngClass]="{width: !data.isSmall}" [id]="'canvas' + id" ></canvas>    

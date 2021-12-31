@@ -37,7 +37,7 @@ import { InvestmentChartComponent } from './components/investment-chart/investme
 import { StrategicFocusPieChartComponent } from './components/strategic-focus-pie-chart/strategic-focus-pie-chart.component';
 import { ManagementImageGridComponent } from './components/management-image-grid/management-image-grid.component';
 import { ProgressBarChartComponent } from './components/progress-bar-chart/progress-bar-chart.component';
-
+import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 
 
 @NgModule({
@@ -85,7 +85,8 @@ import { ProgressBarChartComponent } from './components/progress-bar-chart/progr
     AccumulationChartAllModule,
     RangeNavigatorAllModule,
     RouterModule,
-    ChartsModule
+    ChartsModule,
+    AnimateOnScrollModule.forRoot()
 
   ],
   exports:[    
