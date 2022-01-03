@@ -26,3 +26,8 @@ text-overflow: ellipsis;
 display: -webkit-box;
 -webkit-line-clamp: 1;
 -webkit-box-orient: vertical;  */
+.bookmarkClass{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+}

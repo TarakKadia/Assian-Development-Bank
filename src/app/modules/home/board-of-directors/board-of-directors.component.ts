@@ -11,11 +11,13 @@ export class BoardOfDirectorsComponent implements OnInit {
 
   data :Array<any> = [];
   loading:any;
+  url:any;
   constructor(
     private router:Router
   ) { }
 
   ngOnInit(): void {
+    this.url = this.router.url;
     this.loading=true;
     setTimeout(() => {
       this.loading = false;

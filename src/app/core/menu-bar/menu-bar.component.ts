@@ -33,6 +33,7 @@ export class MenuBarComponent implements OnInit {
     isSocialMenu = false;
     isBookmarkMenu = false;
     bookmarks: any = [];
+    highlitedBookmark:any;
 
     ngOnInit(): void {
         this.getBookmarks();
@@ -149,4 +150,32 @@ export class MenuBarComponent implements OnInit {
         this.router.navigate([url.url], { queryParams: { id: url.chapterId, parId: url.paraID } });
     }
 
+
+    removeBookmark(){
+        let bookmarkStorageArr: any = localStorage.getItem('highlitedBookmark');
+        if (bookmarkStorageArr) {
+            bookmarkStorageArr = JSON.parse(bookmarkStorageArr)
+        } else {
+            bookmarkStorageArr = [];
+        }
+
+        if (bookmarkStorageArr.length > 0) {
+            let isAdded = true;
+            bookmarkStorageArr.forEach((element: any, index: any) => {
+                let tmpUrl = this.generalApiService.url.split('?').length > 1 ? this.generalApiService.url.split('?')[0] : this.generalApiService.url;
+                if (element.url == tmpUrl && element.paraID === this.generalApiService.selectedId) {
+                    bookmarkStorageArr.splice(index, 1);
+                    return;
+
+                } else {
+                    isAdded = false;
+                }
+            });
+        }
+        localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
+        this.generalApiService.isBookmarkAdded.next(true);
+        
+    }
+    
 }
+

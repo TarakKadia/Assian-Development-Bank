@@ -107,6 +107,7 @@ export class AppComponent {
         }
     }
 
+
     getBookmarkText() {
         let bookmarkText = "";
         let bookmarkFunction = window.getSelection();
@@ -286,9 +287,12 @@ export class AppComponent {
 
         if (bookmarkStorageArr.length > 0) {
             let isAdded = true;
-            bookmarkStorageArr.forEach((element: any) => {
-                if (element.url == this.generalApiService.url && element.paraID === this.generalApiService.selectedId) {
+            bookmarkStorageArr.forEach((element: any, index: any) => {
+                let tmpUrl = this.generalApiService.url.split('?').length > 1 ? this.generalApiService.url.split('?')[0] : this.generalApiService.url;
+                if (element.url == tmpUrl && element.paraID === this.generalApiService.selectedId) {
                     alert('This paragraph is already bookmarked');
+                    return;
+
                 } else {
                     isAdded = false;
                 }
@@ -305,5 +309,7 @@ export class AppComponent {
         console.log('bookmarkStorageArr', bookmarkStorageArr);
         this.generalApiService.isBookmarkAdded.next(true);
     }
+
+   
 
 }

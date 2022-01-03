@@ -24,7 +24,7 @@
         </div>
         <p class="caption">{{data.tag}}</p>
 
-        <app-paragraph [data]="data.data" *ngIf="data.type=='paragraph'"></app-paragraph>
+        <app-paragraph [data]="data" [url]="url" *ngIf="data.type=='paragraph'"></app-paragraph>
         <div class="box board" *ngIf="data.type=='insideheading'">
           <h4>{{data.data}}</h4>
           <p>{{data.para1}}</p>
