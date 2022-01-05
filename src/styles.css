@@ -881,6 +881,7 @@ p.byline strong {}
 
 .box.board {
   background-color: #e4e4e4;
+  margin-top: 2rem;
 }
 
 .box.management {
@@ -3566,3 +3567,11 @@ table.accordianTable thead tr th { border-bottom: none !important; padding: 0 10
 	.investment-chart .year-section .year-row .year { font-weight: normal; }
 	.investment-chart .year-section .year-row .amount { font-weight: bold; }
 	.investment-chart .year-section .total { background: #ea522c; box-sizing: border-box; color: #fff; margin-top: 25px; }
+
+
+    h4 {
+        font-size: 1.4rem;
+        font-weight: normal;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }

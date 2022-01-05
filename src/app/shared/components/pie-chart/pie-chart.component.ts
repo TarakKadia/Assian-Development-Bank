@@ -22,34 +22,34 @@ export class PieChartComponent implements OnInit, AfterViewInit {
 
 
         
-        Chart.pluginService.register({
-            beforeDraw: function (chart: any) {
-                var width = chart.canvas.width,
-                    height = chart.canvas.height,
-                    ctx: any = chart.ctx
-                    weight: 10
+        // Chart.pluginService.register({
+        //     beforeDraw: function (chart: any) {
+        //         var width = chart.canvas.width,
+        //             height = chart.canvas.height,
+        //             ctx: any = chart.ctx
+        //             weight: 10
 
-                ctx.restore();
-                var fontSize = (height / 350).toFixed(2);
-                ctx.font = fontSize + "em sans-serif";
-                ctx.textBaseline = "middle";
-                var text = 'Total Commitments'
-                var text1 = 'By Region',
+        //         ctx.restore();
+        //         var fontSize = (height / 350).toFixed(2);
+        //         ctx.font = fontSize + "em sans-serif";
+        //         ctx.textBaseline = "middle";
+        //         var text = 'Total Commitments'
+        //         var text1 = 'By Region',
 
-                    textX = Math.round((width - ctx.measureText(text).width) / 2),
-                    textY = height / 2;
+        //             textX = Math.round((width - ctx.measureText(text).width) / 2),
+        //             textY = height / 2;
 
-                    textX = Math.round((width - ctx.measureText(text1).width) / 2),
-                    textY = height / 2;
+        //             textX = Math.round((width - ctx.measureText(text1).width) / 2),
+        //             textY = height / 2;
 
 
-                ctx.fillText(text, textX-20, textY+20);
-                ctx.fillText(text1, textX, textY+30);
-                ctx.save();
+        //         ctx.fillText(text, textX-20, textY+20);
+        //         ctx.fillText(text1, textX, textY+30);
+        //         ctx.save();
 
-            }
+        //     }
 
-        });
+        // });
     }
     
 

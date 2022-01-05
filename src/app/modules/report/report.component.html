@@ -38,10 +38,10 @@
             [tag4]="data.tag4" [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"
             [digit3]="data.digit3" [digit4]="data.digit4" [title]="data.title" [id]="data.id"
             *ngIf="data.type== 'regionCounter'"></app-region-counter>
-
+            
             <app-pie-chart [data]="data.data" [id]="data.id" *ngIf="data.type=='pieChart'"></app-pie-chart>
 
-            <app-horizontal-graph-chart [data]="data.data" *ngIf="data.type=='horizontalChart'"></app-horizontal-graph-chart>
+            <!-- <app-horizontal-graph-chart [data]="data.data" *ngIf="data.type=='horizontalChart'"></app-horizontal-graph-chart> -->
 
             <!-- <app-progress-bar-chart  *ngIf="data.type=='progressBarChart'" ></app-progress-bar-chart> -->
 
