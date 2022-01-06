@@ -28,5 +28,11 @@
         "title": "SOUTHEAST ASIA",
         "content": "Cambodia, Indonesia, the Lao People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Thailand, Viet Nam",
         "imageUrl": "./assets/images/serd_photo1.jpg"
-   }
+   },  
+   {
+    "id": 14,
+    "title": "Partnering with the Private Sector",
+    "content": "",
+    "imageUrl": "./assets/images/serd_photo1.jpg"
+}
 ]

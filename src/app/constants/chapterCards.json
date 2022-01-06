@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Chapter1",
-        "data": "SUPPORTING COVID‑19 RESPONSE AND RECOVERY",
+        "data": "Toward a Green and Inclusive Recovery",
         "content": "",
         "img": "home_chapter1.jpg",
         "type": "card"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Chapter2",
-        "data": "REGIONS",
+        "data": "Operations",
         "content": "ADB's operational highlights from Central and West Asia, East Asia, the Pacific, South Asia, and Southeast Asia",
         "img": "home_chapter2.jpg",
         "type": "card"
@@ -18,17 +18,9 @@
     {
         "id": 3,
         "name": "Chapter3",
-        "data": "PARTNERING WITH THE PRIVATE SECTOR",
+        "data": "Organizational Effectiveness",
         "content": "Private Sector Operations and the Promotion of Public-Private Partnerships",
         "img": "home_chapter3.jpg",
-        "type": "card"
-    },
-    {
-        "id": 4,
-        "name": "Chapter4",
-        "data": "ORGANIZATIONAL EFFECTIVENESS",
-        "content": "Delivering Through a Stronger, Better, and Faster ADB",
-        "img": "home_chapter4.jpg",
         "type": "card"
     }
 ]

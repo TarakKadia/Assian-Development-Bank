@@ -1814,7 +1814,7 @@ img.fix {
 .maingrid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   /*min-width:1000px;*/
   /*max-width: 1400px;*/
 
@@ -1831,7 +1831,7 @@ img.fix {
   width: 47%;
 
   cursor: pointer;
-  flex: 1 1 47%;
+  /* flex: 1 1 47%; */
 
   justify-content: flex-start;
   transition: margin 1.0 ease-in;
