@@ -38,11 +38,11 @@ import { StrategicFocusPieChartComponent } from './components/strategic-focus-pi
 import { ManagementImageGridComponent } from './components/management-image-grid/management-image-grid.component';
 import { ProgressBarChartComponent } from './components/progress-bar-chart/progress-bar-chart.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
+import { CustomDecimalPipe } from './pipes/custom-decimal.pipe';
 
 
 @NgModule({
   declarations: [
-    
     ImageComponent,
     ParagraphComponent,
     SimpleHeadingComponent,
@@ -76,7 +76,7 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     StrategicFocusPieChartComponent,
     ManagementImageGridComponent,
     ProgressBarChartComponent,
-
+    CustomDecimalPipe
   ],
   imports: [
     CommonModule,
@@ -87,7 +87,6 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     RouterModule,
     ChartsModule,
     AnimateOnScrollModule.forRoot()
-
   ],
   exports:[    
     ImageComponent,
@@ -121,10 +120,8 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
     InvestmentChartComponent,
     StrategicFocusPieChartComponent,
     ManagementImageGridComponent,
-    ProgressBarChartComponent
-
-    
-
+    ProgressBarChartComponent,
+    CustomDecimalPipe
   ]
 })
 export class SharedModule { }

@@ -1,7 +1,7 @@
 <div class="accordinTable">
 <ng-container>
          <h2>{{heading}}</h2>
-         <p style="font-size: 20px; font-weight:800;">{{subHeading}}</p>
+         <p style="font-size: 20px; font-weight:800;" [innerHTML]="subHeading"></p>
          <hr style="color: rgb(255, 123, 0); height: 2px; margin-top: -15px;">
 </ng-container>
 
@@ -12,8 +12,9 @@
                 <tr [ngClass]="{'title-row': i  === 2}">
                     <ng-container *ngFor="let titleItem of titles; let i = index">
                         <th  class="w-14 font-bold" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
-                        [ngClass]="{'lastThClass': ((titles.length - 1) ==  i), 'width-40': i === 0, 'width-10': i > 0}" [ngStyle]="{'text-align': titleItem.colspan > 0 ? 'center' : 'left'}">
-                            {{titleItem.title}} 
+                        [ngClass]="{'lastThClass': ((titles.length - 1) ==  i), 'width-40': i === 0, 'width-10': i > 0}" [ngStyle]="{'text-align': titleItem.colspan > 0 ? 'center' : 'left'}"
+                        [innerHTML]="titleItem.title"  >
+                           
                         </th>
                     </ng-container>
                 </tr>
@@ -22,7 +23,9 @@
         <tbody>
             <ng-container *ngIf="item.type === 'expansion-panel'">
                     <tr class="view open" (click)="openAccordin($event)">
-                        <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold'}}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}">{{subT.title}}</td>
+                        <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold'}}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title"  >
+
+                        </td>
                     </tr>
                     <tr class="fold open">
                         <td colspan="7">
@@ -43,7 +46,7 @@
                 <tr *ngFor="let tableContent of trData; let subTableIndex = index" class="{{tableContent.class}}">
                     <ng-container *ngFor="let item of tableContent | keyvalue; let i = index">
                         <td 
-                        [ngClass]="{'totalCls': (i > 4), 'width-40': i === 0, 'width-10': i > 0}" *ngIf="item.key != 'class'">{{item.value}}</td>
+                        [ngClass]="{'totalCls': (i > 4), 'width-40': i === 0, 'width-10': i > 0}" *ngIf="item.key != 'class'" [innerHTML]="item.value | customDecimal: item.value > 100"></td>
                     </ng-container>
                     
                 </tr>
@@ -51,5 +54,5 @@
         </table>
     </div>
 </ng-template>
-<div style="font-size: small; font-weight: 5px;" *ngFor="let note of note">{{note}}</div>
+<div class="noteText" *ngFor="let note of note" [innerHTML]="note"></div>
 </div>

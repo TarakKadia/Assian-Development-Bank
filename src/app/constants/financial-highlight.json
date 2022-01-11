@@ -6,8 +6,8 @@
     {
         "type": "accordian-table",
         "heading":"OPERATIONAL HIGHLIGHT",
-        "subHeading":"ADB Commitments,2016-2020($million)",
-        "note":["-= nil, 0 = less than $500,000. Notes: (i) Beginning 2020, in reporting commitments from its internal resources ADB will include nonsovereig revolving programs (the Trade Finance Program, Supply Chain Finance Program, and Microfinance Program). Inclusion of ADB's exposure (or committed redeployed capital) under nonsovereign revolving programs fully reflects the total financing committed, while at the same time, ADB reports on cofinancing mobilized by these revolving programs. Commitments under nonsovereign revolving programs will distinguish long-term and short-term financing. (ii) Numbers may not sum precisely because of rounding.","a. Commitment is the financing approved by the ADB Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADE for which the signed amount is not readily available, the approved amount is used. The 2016-2019 figures for ADB-financed commitments from nonsovereign revolving programs and cofinancing generated from Transaction Advisory Services are included as adjustments to complement the change in coverage of 2020.","b. The Trade Finance Program represents 92% of this figure and supported 7,178 transactions in the reporting period, with an average maturity of 159 days.","c. Special funds other than Asian Development Fund such as the Asia Pacific Disaster Response Fund and the Climate Change Fund.","d. The 2018 adjusted figure includes $264 million under sovereign cofinancing for two projects reported in 2020.","e.The 2019 adjusted figures include $532 million under sovereign cofinancing commitments for five projects.","f.'Others' includes cofinancing for sovereign operations from other sources such as concessionaires, foundations, government entities, commercial banks, and sovereign wealth funds.","g. Nonsovereign cofinancing includes commercial cofinancing such as B loans and parallel loans, among others. B loans are cofinancing arrangements involving the coordinated process of pooling funds from various sources for a single borrower or grant recipient, and/or distributing related risks among such other financiers. The 2019 adjusted figure excludes $65 million in nonsovereign cofinancing due to change in signing date from 2019 to 2020."],
+        "subHeading":"ADB Commitments,<sup>a </sup>2016-2020($million)",
+        "note":["-= nil, 0 = less than $500,000. Notes: (i) Beginning 2020, in reporting commitments from its internal resources ADB will include nonsovereig revolving programs (the Trade Finance Program, Supply Chain Finance Program, and Microfinance Program). Inclusion of ADB's exposure (or committed redeployed capital) under nonsovereign revolving programs fully reflects the total financing committed, while at the same time, ADB reports on cofinancing mobilized by these revolving programs. Commitments under nonsovereign revolving programs will distinguish long-term and short-term financing. (ii) Numbers may not sum precisely because of rounding.","<sup class='noteSup'>a</sup>Commitment is the financing approved by the ADB Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADE for which the signed amount is not readily available, the approved amount is used. The 2016-2019 figures for ADB-financed commitments from nonsovereign revolving programs and cofinancing generated from Transaction Advisory Services are included as adjustments to complement the change in coverage of 2020.","<sup class='noteSup' >b</sup> The Trade Finance Program represents 92% of this figure and supported 7,178 transactions in the reporting period, with an average maturity of 159 days.","<sup class='noteSup'>c</sup> Special funds other than Asian Development Fund such as the Asia Pacific Disaster Response Fund and the Climate Change Fund.","<sup class='noteSup' >d</sup> The 2018 adjusted figure includes $264 million under sovereign cofinancing for two projects reported in 2020.","<sup class='noteSup' >e</sup> The 2019 adjusted figures include $532 million under sovereign cofinancing commitments for five projects.","<sup class='noteSup'>f</sup> 'Others' includes cofinancing for sovereign operations from other sources such as concessionaires, foundations, government entities, commercial banks, and sovereign wealth funds.","<sup class='noteSup' >g</sup>   Nonsovereign cofinancing includes commercial cofinancing such as B loans and parallel loans, among others. B loans are cofinancing arrangements involving the coordinated process of pooling funds from various sources for a single borrower or grant recipient, and/or distributing related risks among such other financiers. The 2019 adjusted figure excludes $65 million in nonsovereign cofinancing due to change in signing date from 2019 to 2020."],
         "data": [
             {
                 "type": "main-title",
@@ -199,7 +199,7 @@
                         },
                         {
                             
-                            "value0": "Trade Finance,Supply Chain Finance and Microfinance Programs",
+                            "value0": "Trade Finance,Supply Chain Finance and Microfinance Programs <sup>b</sup>",
                             "value1": "1496",
                             "value2": "1897",
                             "value3": "2696",
@@ -241,7 +241,7 @@
                         },
                         {
                             
-                            "value0": "Special  Funds",
+                            "value0": "Special  Funds<sup>c</sup>",
                             "value1": "9",
                             "value2": "2",
                             "value3": "6",
@@ -382,7 +382,7 @@
                         },
                         {
                             
-                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs",
+                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
                             "value1": "1496",
                             "value2": "1897",
                             "value3": "2696",
@@ -428,61 +428,10 @@
                 ]
             },
             {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ],
-                    [
-                        {
-                            "title": "B.Technical Assistance"
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": "21317"
-                        },
-                        {
-                            "title": "4325"
-                        },
-                        {
-                            "title": "1000"
-                        },
-                        {
-                            "title": "26777"
-                        },
-                        {
-                            "title": "13395"
-                        }
-                    ]
-                ]
-            },
-            {
                 "type": "expansion-panel",
                 "subTitle": [
                     {
-                        "title": "Sovereign"
+                        "title": "B.Technical Assistance"
                       },
                       {
                         "title": ""
@@ -539,65 +488,10 @@
                 ]
             },
             {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ],
-                    [
-                        
-
-                        
-
-                          {
-                            "title": "TOTAL ADB OPERATIONS(A + B)"
-                        }, 
-                        {
-                            "title": "14930"
-                        },
-                        {
-                            "title": "21788"
-                        },
-                        {
-                            "title": "24518"
-                        },
-                        {
-                            "title": "24017"
-                        },
-                        {
-                            "title": "31594"
-                        },
-                        {
-                            "title": "14147"
-                        }
-                    ]
-                ]
-            },
-            {
                 "type": "expansion-panel",
                 "subTitle": [
                     {
-                        "title": "ADB Operation"
+                        "title": "TOTAL ADB OPERATIONS(A + B)"
                       },
                       {
                         "title": ""
@@ -617,11 +511,11 @@
                       {
                         "title": ""
                       }
-                ],
+                ],  
                 "subData": [
                     [
                         {
-                            "value0": "ADB Operations without Trade Finance",
+                            "value0": "ADB Operations without Trade Finance,Supply Chain Finance and Microfinance Programs",
                             "value1": "13434",
                             "value2": "19890",
                             "value3": "21823",
@@ -633,6 +527,166 @@
                     ]
                    
                 ]
+            },
+            {
+                "type": "expansion-panel",
+                "subTitle": [
+                    {
+                        "title": "C. Cofinancing Including Trust Funds"
+                      },
+                      {
+                        "title": ""
+                      },
+                      {
+                        "title": ""
+                      },
+                      {
+                        "title": ""
+                      },
+                      {
+                        "title": ""
+                      },
+                      {
+                        "title": ""
+                      },
+                      {
+                        "title": ""
+                      }
+                ],  
+                "subData": [
+                    [
+                        {
+                            "value0": "Sovergian<sup>d,e</sup> ",
+                            "value1": "6369",
+                            "value2": "5976",
+                            "value3": "6753",
+                            "value4": "5418",
+                            "value5": "11123",
+                            "value6": "8817",
+                            "class": "title-row-bold"
+                        },
+                        {
+                            "value0": "Trust Funds Administered by ADB",
+                            "value1": "399",
+                            "value2": "86",
+                            "value3": "216",
+                            "value4": "181",
+                            "value5": "288",
+                            "value6": "18"
+                        },
+                        {
+                            "value0": "Bilateral",
+                            "value1": "2577",
+                            "value2": "3460",
+                            "value3": "2113",
+                            "value4": "3706",
+                            "value5": "4553",
+                            "value6": "3319"
+                        },
+                        {
+                            
+                            "value0": "Multilateral",
+                            "value1": "3310",
+                            "value2": "2120",
+                            "value3": "3304",
+                            "value4": "1308",
+                            "value5": "6281",
+                            "value6": "4850"
+                        },
+                        {
+                            
+                            "value0": "Others<sup>f</sup>",
+                            "value1": "83",
+                            "value2": "310",
+                            "value3": "1120",
+                            "value4": "149",
+                            "value5": "0",
+                            "value6": "0",
+                            "class": "title-row-bold"
+                        },
+                        {
+                            "value0": "Nonsovereign",
+                            "value1": "3702",
+                            "value2": "2882",
+                            "value3": "3161",
+                            "value4": "3218",
+                            "value5": "1937",
+                            "value6": "2496",
+                            "class": "title-row-bold"
+                        },
+                        {
+                            
+                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs",
+                            "value1": "1952",
+                            "value2": "3039",
+                            "value3": "3992",
+                            "value4": "3693",
+                            "value5": "3272",
+                            "value6": "2469",
+                            "class": "title-row-bold"
+                        },
+                        {
+                            
+                            "value0": "Long Term(maturity of 365 days or more)",
+                            "value1": "125",
+                            "value2": "136",
+                            "value3": "134",
+                            "value4": "128",
+                            "value5": "171",
+                            "value6": "157"
+                        }   ,
+                        {
+                            
+                           "value0": "Short Term (maturity of less than 365 days)",
+                            "value1": "1812",
+                            "value2": "2903",
+                            "value3": "3857",
+                            "value4": "3564",
+                            "value5": "3101",
+                            "value6": "2339"
+                        },
+                        {
+                            
+                            "value0": "Transation Advisory Service",
+                            "value1": "-",
+                            "value2": "-",
+                            "value3": "405",
+                            "value4": "113",
+                            "value5": "76",
+                            "value6": "-",
+                            "class": "title-row-bold"
+                        }
+                        
+                    ]
+                   
+                ]
+            },
+            {
+                "type": "expansion-panel",
+                "subTitle": [
+                    {
+                        "title": "TOTAL COFINANCING"
+                      },
+                      {
+                        "title": "12022"
+                      },
+                      {
+                        "title": "11896"
+                      },
+                      {
+                        "title": "14310"
+                      },
+                      {
+                        "title": "12442"
+                      },
+                      {
+                        "title": "16408"
+                      },
+                      {
+                        "title": "10841"
+                      }
+                ]
+               
             }
             
             

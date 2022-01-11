@@ -8,7 +8,7 @@ declare var $: any;
 })
 export class AccordinTableComponent implements OnInit {
 
-    @Input() tableJson:any;
+    @Input() tableJson:Array<any>;
     @Input() heading:any;
     @Input() subHeading:any;
     @Input() note:any;

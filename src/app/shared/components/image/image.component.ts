@@ -22,35 +22,35 @@ export class ImageComponent implements OnInit, AfterViewInit {
     }
 
     ngAfterViewInit(): void {
-        setTimeout(() => {
-            jQuery(".content").on("mouseover", (event) => {
-                var target = jQuery(event.target);
-                if (target.is('img.topimg')) {
-                    jQuery('#hover-image').css('display', 'block');
+        // setTimeout(() => {
+        //     jQuery(".content").on("mouseover", (event) => {
+        //         var target = jQuery(event.target);
+        //         if (target.is('img.topimg')) {
+        //             jQuery('#hover-image').css('display', 'block');
 
-                    const className = target.parent().attr('class').split(' ');
-                    const id = target.parent().attr('id');
-                    var class_names = '#' + id + '.' + className[0];
+        //             const className = target.parent().attr('class').split(' ');
+        //             const id = target.parent().attr('id');
+        //             var class_names = '#' + id + '.' + className[0];
 
-                    // let value = jQuery(class_names).find('h3').text();
-                    // this.generalApiService.selectedBox.text = value;
-                    // this.generalApiService.selectedBox.id = id;
+        //             // let value = jQuery(class_names).find('h3').text();
+        //             // this.generalApiService.selectedBox.text = value;
+        //             // this.generalApiService.selectedBox.id = id;
 
-                    // let data = jQuery(class_names).find('p.box-data').text();
-                    // if (data) {
-                    //     this.generalApiService.selectedBox.data = data;
-                    // }
+        //             // let data = jQuery(class_names).find('p.box-data').text();
+        //             // if (data) {
+        //             //     this.generalApiService.selectedBox.data = data;
+        //             // }
 
-                    var position = jQuery(class_names).offset();
-                    var width = jQuery(class_names).width() / 2;
+        //             var position = jQuery(class_names).offset();
+        //             var width = jQuery(class_names).width() / 2;
 
-                    jQuery('#hover-image').css('top', (position.top - 60) + 'px');
-                    jQuery('#hover-image').css('left', (position.left + width - 60) + 'px');
-                } else {
-                    jQuery('#hover-image').css('display', 'none');
-                }
-            });
-        }, 2000);
+        //             jQuery('#hover-image').css('top', (position.top - 60) + 'px');
+        //             jQuery('#hover-image').css('left', (position.left + width - 60) + 'px');
+        //         } else {
+        //             jQuery('#hover-image').css('display', 'none');
+        //         }
+        //     });
+        // }, 2000);
     }
 
 }

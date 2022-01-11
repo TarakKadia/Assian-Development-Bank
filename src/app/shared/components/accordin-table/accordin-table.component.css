@@ -102,3 +102,9 @@
 .width-10 {
     width: 10%;
 }
+.noteText{
+    font-size: small; 
+    font-weight: 5px;
+   position: relative;
+   padding-left: 15px;
+}
