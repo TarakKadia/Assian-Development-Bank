@@ -3549,6 +3549,7 @@ div#hover::after {
     margin: 0px auto;
 }
 table.accordianTable thead tr th { border-bottom: none !important; padding: 0 10px; }
+table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !important; }
 	table.accordianTable thead tr th.lastThClass { background-color: #fdebe1; }
 	table.accordianTable thead tr.title-row th { background-color: #fbd9c6; }
 	table.accordianTable tbody tr.fold > td { padding: 0; }
