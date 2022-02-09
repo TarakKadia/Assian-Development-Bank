@@ -268,7 +268,7 @@ export class AppComponent {
             const tempBookmark = {
                 url: this.generalApiService.url.split('?')[0],
                 paraID: this.generalApiService.selectedId,
-                text: this.generalApiService.selectedText.substring(0, 10),
+                text: this.generalApiService.selectedText.substring(0, 200),
                 chapterTitle: this.generalApiService.chapterDetails.title,
                 chapterId: this.generalApiService.chapterDetails.id,
                 type: 'paragraph'

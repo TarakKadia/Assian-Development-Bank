@@ -84,8 +84,8 @@
 
 
 .accordinTable{
-    width: 125%;
-    margin-left: -100px;
+    width: 100%;
+    /* margin-left: -100px; */
 }
  
 .font-bold{
@@ -130,3 +130,13 @@ p {
     -moz-font-feature-settings: 'lnum';
     font-variant-numeric: lining-nums;
 }
+@media only screen and (max-width: 1000px) {
+    .accordinTable {
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -14px;
+    }
+    
+    
+  }

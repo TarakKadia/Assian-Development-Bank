@@ -12,6 +12,7 @@ import eastAsia from "src/app/constants/east-asia.json";
 import pacific from "src/app/constants/pacific.json";
 import southasia from "src/app/constants/south-asia.json";
 import southeastasia from "src/app/constants/south-east-asia.json";
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 
 @Component({
@@ -151,19 +152,24 @@ export class MenuBarComponent implements OnInit {
     }
 
 
-    removeBookmark(){
+    removeBookmark(data:any){
         let bookmarkStorageArr: any = localStorage.getItem('highlitedBookmark');
         if (bookmarkStorageArr) {
             bookmarkStorageArr = JSON.parse(bookmarkStorageArr)
         } else {
             bookmarkStorageArr = [];
         }
-
         if (bookmarkStorageArr.length > 0) {
             let isAdded = true;
             bookmarkStorageArr.forEach((element: any, index: any) => {
+                console.log("this.generalApiService.selectedId",this.generalApiService.selectedId);
                 let tmpUrl = this.generalApiService.url.split('?').length > 1 ? this.generalApiService.url.split('?')[0] : this.generalApiService.url;
-                if (element.url == tmpUrl && element.paraID === this.generalApiService.selectedId) {
+                
+                
+                console.log("paraIDparaIDparaID",data.paraID);
+                if (element.url == tmpUrl && element.paraID === data.paraID) {
+                    
+                
                     bookmarkStorageArr.splice(index, 1);
                     return;
 
