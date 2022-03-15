@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+p {
+  font-family: Lato;
+}
+.container{
+  width: 97%;
+  padding-left: 30px;
+}
+.upperLine{
+  width: 97%;
+  border-top: 2px solid #017cb2;
+
+}
+
+.heading {
+  color: #609ab7;
+  font-size: 25px;
+  border-bottom: 1px solid;
+  padding-top: 30px;
+}
+.class {
+  padding-top: 50px;
+}
+
+.headingDollar {
+  padding-top: 8px;
+  color: #609ab7;
+  font-size: 20px;
+}
+
+.headingText {
+  color: #609ab7;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.headingTextOne {
+  color: #609ab7;
+  font-size: 25px;
+}
+.para {
+  border-top: 1px solid;
+  padding-top: 5px;
+  color: #609ab7;
+  font-size: 21px;
+  font-weight: bolder;
+}
+.pie {
+  display: flex;
+  flex-direction: inherit;
+}
+
+.pieClass {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+/* basic positioning */
+.legend {
+  padding-inline-start:1px;
+  list-style: none;
+  padding-top: 10px;
+}
+.legend li {
+padding-bottom: 5px;
+  border-bottom: 1px solid #8cd8f7;
+}
+.legend span {
+  border: 1px solid #ccc;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+}
+/* your colors */
+.legend .legendOne {
+  background-color: #f46e1a;
+  margin-right: 10px;
+}
+.legend .legendTwo {
+  margin-right: 10px;
+  background-color: #abacae;
+}
+
+
+.pieClassOne {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0 100px;
+}

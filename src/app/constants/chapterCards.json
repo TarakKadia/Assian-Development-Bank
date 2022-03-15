@@ -4,23 +4,23 @@
         "name": "Chapter1",
         "data": "Toward a Green and Inclusive Recovery",
         "content": "",
-        "img": "home_chapter1.jpg",
+        "img": "home_chapter1.png",
         "type": "card"
     },
     {
         "id": 2,
         "name": "Chapter2",
         "data": "Operations",
-        "content": "ADB's operational highlights from Central and West Asia, East Asia, the Pacific, South Asia, and Southeast Asia",
-        "img": "home_chapter2.jpg",
+        "content": "",
+        "img": "home_chapter2.png",
         "type": "card"
     },
     {
         "id": 3,
         "name": "Chapter3",
         "data": "Organizational Effectiveness",
-        "content": "Private Sector Operations and the Promotion of Public-Private Partnerships",
-        "img": "home_chapter3.jpg",
+        "content": "",
+        "img": "home_chapter3.png",
         "type": "card"
     }
 ]

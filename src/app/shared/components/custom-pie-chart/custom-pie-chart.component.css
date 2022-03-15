@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-family: Lato;
+}
+
+h5 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #017cb2;
+  letter-spacing: 0.1px;
+}
+
+h6 {
+  font-size: 0.8rem;
+  color: #017cb2;
+}
+
+.upperLine {
+  width: 100%;
+  border-top: 2px solid #017cb2;
+}
+
+.heading {
+  color: #609ab7;
+  font-size: 25px;
+  border-bottom: 1px solid;
+  padding-top: 30px;
+}
+
+.headingDollar {
+  padding-top: 8px;
+  color: #609ab7;
+  font-size: 20px;
+}
+
+/* basic positioning */
+.legend {
+  padding-inline-start: 1px;
+  list-style: none;
+  padding-top: 10px;
+}
+.legend li {
+  padding-bottom: 5px;
+  display: flex;
+  /* border-bottom: 1px solid #8cd8f7; */
+}
+.legend span {
+  border: 1px solid #ccc;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 1px;
+}
+/* your colors */
+.legend .legendOne {
+  background-color: #f46e1a;
+  margin-right: 10px;
+}
+.legend .legendTwo {
+  margin-right: 10px;
+  background-color: #abacae;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+}
+/* Charts */
+
+.chart {
+  width: 40%;
+}
+
+.legendHeading {
+  border-left: 1px solid #6dcef7;
+  border-top: 1px solid #6dcef7;
+  border-bottom: 1px solid #6dcef7;
+}
+
+.legendHeading .line {
+  padding: 10px 0 0 20px;
+}
+
+/* Legends Heading */
+/* .legendHeading{
+  display: flex;
+  width: 40%;
+}  */
+
+.title {
+}
+.number {
+  color: #007db7;
+  padding: 0px 20px 0px 0px;
+  border-bottom: 1px solid #6dcef7;
+}
+/* Values */
+.value1,
+.value2,
+.value3 {
+  display: flex;
+  padding-left: 100px;
+}
+
+/* TRIAL AND ERRORS */
+
+hr {
+  margin: 10px 0;
+  border-top: 1px solid #6dcef7;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+li + li {
+  padding-left: 1rem;
+}
+
+.conf {
+  margin-top: 30px;
+}
+.conf-number {
+  color: #007db7;
+  position: relative;
+}
+.conf-number:after {
+  content: '';
+  position: absolute;
+  right: -25px;
+  top: -11px;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #39b2eb;
+  z-index: -1;
+}
+.conf h5 {
+  margin: 8px 0 0 0;
+  border-bottom: 1px solid #6dcef7;
+  padding: 0 0 3px 0;
+}
+.conf .legend.value1 {
+  flex-direction: column;
+  padding: 0 70px 0 0;
+}
+.conf .legend.value1 li {
+  padding: 0;
+}

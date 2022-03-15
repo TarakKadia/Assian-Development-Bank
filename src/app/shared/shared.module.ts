@@ -39,6 +39,8 @@ import { ManagementImageGridComponent } from './components/management-image-grid
 import { ProgressBarChartComponent } from './components/progress-bar-chart/progress-bar-chart.component';
 import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { CustomDecimalPipe } from './pipes/custom-decimal.pipe';
+import { CustomPieChartComponent } from './components/custom-pie-chart/custom-pie-chart.component';
+import { CustomDonoughtChartComponent } from './components/custom-donought-chart/custom-donought-chart.component';
 
 
 @NgModule({
@@ -76,7 +78,9 @@ import { CustomDecimalPipe } from './pipes/custom-decimal.pipe';
     StrategicFocusPieChartComponent,
     ManagementImageGridComponent,
     ProgressBarChartComponent,
-    CustomDecimalPipe
+    CustomDecimalPipe,
+    CustomPieChartComponent,
+    CustomDonoughtChartComponent
   ],
   imports: [
     CommonModule,
@@ -121,7 +125,9 @@ import { CustomDecimalPipe } from './pipes/custom-decimal.pipe';
     StrategicFocusPieChartComponent,
     ManagementImageGridComponent,
     ProgressBarChartComponent,
-    CustomDecimalPipe
+    CustomDecimalPipe,
+    CustomPieChartComponent,
+    CustomDonoughtChartComponent
   ]
 })
 export class SharedModule { }

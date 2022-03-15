@@ -40,6 +40,8 @@
             *ngIf="data.type== 'regionCounter'"></app-region-counter>
             
             <app-pie-chart [data]="data.data" [id]="data.id" *ngIf="data.type=='pieChart'"></app-pie-chart>
+            <app-custom-pie-chart *ngIf="data.type=='customPieChart'"></app-custom-pie-chart>
+            <app-custom-donought-chart *ngIf="data.type=='customdonoughtChart'"></app-custom-donought-chart>
 
             <!-- <app-horizontal-graph-chart [data]="data.data" *ngIf="data.type=='horizontalChart'"></app-horizontal-graph-chart> -->
 
@@ -51,7 +53,7 @@
             [title]="data.title" *ngIf="data.type=='shadeKnowledge'"></app-shade-knowledge>
 
 
-            <app-shade-knowledge-two [title]="data.title" [data]="data.data" [image]="data.image"
+            <app-shade-knowledge-two [title]="data.title" [data]="data.data" [image]="data.image" [tag]="data.tag"
             *ngIf="data.type=='shadeKnowledgeTwo'"></app-shade-knowledge-two>
 
             <app-region-heading [country]="data.country" [data]="data.data" *ngIf="data.type=='regionHeading'">

@@ -343,10 +343,10 @@ p {
 
 p.caption {
   font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 300;
-  line-height: 1rem;
-  margin: 0.5rem 0 3rem 0;
+  font-size: 0.9rem !important;
+  font-weight: 300 !important;
+  line-height: 1rem !important;
+  margin: 0.5rem 0 3rem 0 !important;
 }
 
 p.subhead {
@@ -1294,7 +1294,8 @@ div.complexheader.regions h2 {
   
   width: 80%;
   margin: 4rem auto 4rem auto;
-  border: 1px solid #d95c3b;
+  border: 1px solid #e6f7fe;
+  background-color: #e6f7fe;
   padding: 1rem 1.5rem 1rem 1.5rem;
   margin-top: -0.6rem;
 }
@@ -1307,16 +1308,17 @@ div.complexheader.regions h2 {
 
 .progress1.diversification p.num {
   margin-top: 2rem;
-  color: #d95c3b;
+  color: #0779b6;
 }
 
 .progress1.diversification h3 {
   margin-top: -4rem !important;
-  color: #d95c3b;
+  color: #0779b6;
+  background-color: #e6f7fe;
   border: none;
   margin-left: 1rem;
   margin-bottom: -0.6rem;
-  background-color: #fff;
+  
   padding: 0.5rem;
 }
 
@@ -1331,6 +1333,7 @@ div.complexheader.regions h2 {
 }
 
 .progress1 h4 {
+    color: #0779b6;
   font-size: 1.2rem;
   font-weight: normal;
   margin-top: 0.5rem;
@@ -1407,18 +1410,20 @@ div.complexheader.regions h2 {
 /******* margin items ***********/
 
 .margin {
-  border: 0.1rem solid #ea522c;
-
+  border: 0.1rem solid #035f96;
+color: white;
   padding: 1rem;
   text-align: center;
   width: 50%;
   margin: 0 auto 0 auto;
-  background-color: #eee;
+  background-color: #035f96;
 }
 
 .margin img {
-  width: 50%;
-  margin-bottom: 1rem;
+    width: 100%;
+    /* margin-bottom: 1rem; */
+    position: relative;
+    left: 50px;
 }
 
 .margin h3 {
@@ -1837,15 +1842,14 @@ img.fix {
 .maingrid .chapterbox {
 
 
-  display: flex;
-  border: 1px solid #ea522c;
+  /* display: flex; */
+  position: relative;
+  /* border: 1px solid #ea522c; */
   margin: 0% 1% 2% 1%;
-
-  width: 47%;
-
+  width: 30%;
+  
   cursor: pointer;
   /* flex: 1 1 47%; */
-
   justify-content: flex-start;
   transition: margin 1.0 ease-in;
 
@@ -1863,15 +1867,19 @@ img.fix {
 
 
 .chapterimage {
-  flex: 1 0 50%;
+    position: relative;
+   
+  /* flex: 1 0 50%; */
   /* display:flex;*/
 }
 
 .chapterimage img {
+    height: 500px;
 
+/* height: 70%; */
 
-  height: 100%;
-  display: block;
+  /* height: 100%;
+  display: block; */
 }
 
 .chaptertextgroup {
@@ -1914,11 +1922,14 @@ img.fix {
 
 .chaptertext p.chaptersub {
   text-transform: uppercase;
-  background-image: url("assets/images/ui/littleline.png");
-  background-repeat: no-repeat;
-  background-position: left bottom;
-  padding-bottom: 22px;
+  color: white;
+  position: absolute;
+  bottom: 75px;
+  left: 10px;
+  
 }
+
+
 
 .chaptertext p.chapterblurb {
   padding-top: 13px;
@@ -2110,11 +2121,12 @@ img.fix {
 
 .smallgrid .greybutton {
 
-  background-color: #989898;
+  background-color: #cbd851;
+  border-bottom-right-radius: 150px 230px;
   /*flex: 0 0 0%;*/
   margin-bottom: 0.5rem;
   cursor: pointer;
-  border-left: 10px solid #ea522c;
+  /* border-left: 10px solid #ea522c; */
 }
 
 
@@ -2168,7 +2180,7 @@ img.fix {
 
 .financialgroup div {
   flex: 1 1 0px;
-  border: 0.1rem solid #ea522c;
+  border: 0.1rem solid #c6dfec;
   padding: 1rem 0 0 1rem;
   /* margin-left:1rem; */
   /* border-left: 0.2rem solid #f57f29;*/
@@ -2234,13 +2246,13 @@ img.fix {
 
 .extralinks .greybutton {
 
-  background-color: #989898;
+  background-color: #cbd851;
   flex: 0 0 23%;
 
   margin: 0 1% 0.5rem 1%;
   cursor: pointer;
 
-  border-left: 10px solid #ea522c;
+  /* border-left: 10px solid #ea522c; */
 
 }
 
@@ -2371,7 +2383,7 @@ img.fix {
 
 .extralinks .downloads p a {
 
-  color: #ea522c;
+  color: #3d8dbd;
   text-decoration: none;
 
 }

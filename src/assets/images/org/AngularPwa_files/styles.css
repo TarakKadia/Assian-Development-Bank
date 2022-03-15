@@ -2748,8 +2748,10 @@ img.fix {
     display:block;
 }
 .chaptertextgroup {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
     height: 100%;
-   
     margin-left: 0.5rem;
     padding-left: 0.5rem;
     margin-right:0.5rem;
@@ -2782,9 +2784,9 @@ flex:0 1 50%;
 }
 .chaptertext p.chaptersub {
     text-transform: uppercase;
-    background-image: url('littleline.png');
-    background-repeat: no-repeat;
-    background-position: left bottom;
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
     padding-bottom: 22px;
 }
 .chaptertext p.chapterblurb {
