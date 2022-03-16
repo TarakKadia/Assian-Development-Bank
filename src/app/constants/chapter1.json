@@ -1,9 +1,7 @@
-[{
-    "heading": "Chapter 1",
-    "data": "Toward a Green and Inclusive Recovery",
-    "type": "chaptertitle"
-  }, {
+[ {
     "data": "home_chapter1.png",
+    "heading": "Chapter 1",
+    "text":"Toward a Green and Inclusive Recovery",
     "tag": " Staff doing maintenance work at a solar farm in Lombok, Indonesia.",
     "type": "image"
   }, {
@@ -215,13 +213,6 @@
     "type": "counter"
   },
   {
-    "title": "Accelerating Vaccine Rollouts",
-    "data": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.<br><br>The bank backed this pledge to protect ecosystems and biodiversity with transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.<br><br>ADB launched the $665 million ASEAN Green Recovery Platform, which aims to accelerate pandemic recovery and mobilize an additional $7 billion for low‑carbon and climate-resilient infrastructure projects in Southeast Asia.<br><br>Jointly with Indonesia and Philippines, ADB announced the Energy Transition Mechanism. Established to accelerate Southeast Asia’s transition to clean energy, the mechanism will leverage private and public investments to finance the early retirement of coal-power assets. The Government of Japan has committed a grant of $25 million as the first seed financing.<br><br>To help its DMCs scale up climate adaptation, ADB announced the Community Resilience Partnership Program to support community-level investments in climate change adaptation and resilience, focusing especially on women and poor households. The Government of the United Kingdom is providing £45 million (around $61 million) and the Nordic Development Fund is contributing €6 million (around $7 million) for the facility.<br><br>ADB rounded out its COP26 engagement by launching the Climate Action Catalyst Fund to advance carbon mitigation in Asia and the Pacific, along with the Urban Resilience Trust Fund, financed with £70 million (around $100 million) from the Government of the United Kingdom, to combat climate change through resilience planning and innovative urban projects.",
-    "image":"eard_knowledge1.jpg",
-    "tag":"Nurses in the Philippines prepare COVID-19 vaccination doses.",
-    "type": "shadeKnowledgeTwo"
-  },
-  {
     "title": "ADB SHOWCASES ITS CLIMATE COMMITMENT AT COP26",
     "para1": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.",
     "para2": "The bank backed this pledge to protect ecosystems and biodiversity with a series of announcements on transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.",
@@ -271,13 +262,193 @@
     "type": "logoHeading"
   },
   {
-      "data":"Around 80% of the 711 million extremely poor people living in the Asia and Pacific region reside in rural communities. About three quarters of these are smallholder farmers with limited access to basic services and infrastructure, leaving them extremely vulnerable to the impacts of climate change and shocks such as natural disasters or global health crises. During the COVID-19 pandemic, farmers and agricultural enterprises have seen international markets shrink at the same time as the rural poor have found it more difficult to purchase nutritious food.",
+      "data":"Asia and the Pacific is home to more than 700 million extremely poor people and around 80% reside in rural communities. About three quarters of these are smallholder farmers with limited access to basic services and infrastructure, leaving them extremely vulnerable to the impacts of climate change and shocks such as natural disasters or global health crises. During the COVID-19 pandemic, farmers and agricultural enterprises have seen international markets shrink at the same time as the rural poor have found it more difficult to purchase nutritious food.",
       "type":"paragraph"
   },
   {
-      "data":"To support vulnerable rural communities and push further toward green and inclusive pandemic recovery, ADB supported a range of agriculture, natural resources, and rural development initiatives in 2021. These included loans to agribusinesses in the region to cover shortfalls in operational finance caused by the pandemic.associated with corruption. In 2021, the bank improved the implementation of its Governance and Anticorruption Action Plan through more robust governance risk assessments, leading to more advanced and secure country systems for public financial management and procurement.",
+      "data":"To support vulnerable rural communities and a green and inclusive recovery for the rural economies of Asia and the Pacific, ADB supported a range of agriculture, natural resources, and rural development initiatives in 2021. These included loans to agribusinesses in the region to cover shortfalls in operational finance caused by the pandemic. In Azerbaijan, ADB bolstered the government’s COVID-19 response by providing budget support to lessen the impact of high fuel prices on agricultural producers. In Papua New Guinea, the bank provided additional financing to extend upgrades to a major highway that is vital lifeline for many remote communities",
       "type":"paragraph"
   },
+  
+ 
+  {
+    "data": "electricity.png",
+    "tag": "ADB is supporting Pacific island countries to improve the governance of public utilities such as electricity.",
+    "type": "image"
+   
+  },
+  {
+    "data":"ADB’s 2021 knowledge work on agriculture and rural development included events on mapping rice plots and crop yields amid lockdowns in Cambodia, on policy responses to ensure food security in the wake of the COVID-19 pandemic, and on promoting better nutrition post-pandemic. The bank also launched a regional technical assistance program to assess the impacts of the pandemic on food and nutrition security and rural livelihoods across Asia and the Pacific, and help DMCs mobilize investments for a greener and resilient recovery of agri-food value chains and rural economies.",
+    "type":"paragraph"
+},
+{
+    "data": "STRATEGIC FOCUS",
+    "type": "heading"
+  },
+  {
+    "data":{
+        
+        "data":[
+            {
+            "id":1,
+            "image":"op1_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#111111",
+            "datasets": [
+                {
+                    "label": "1",
+                    "centerText":"",
+                    "data": [40,45,15],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        },
+        {
+            "id":2,
+            "image":"op2_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#222222",
+            "datasets": [
+                {
+                    "label": "2",
+                    "centerText":"90%",
+                    "data": [55, 45,5],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        },
+        {
+            "id":3,
+            "image":"op3_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#333333",
+            "isSmall": true,
+            "datasets": [
+                {
+                    "label": "3",
+                    "centerText":"",
+                    "data": [10, 40,50],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        },
+        {
+            "id":4,
+            "image":"op4_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#444444",
+            "isSmall": true,
+            "datasets": [
+                {
+                    "label": "4",
+                    "centerText":"",
+                    "data": [5, 15,80],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        },
+        {
+            "id":5,
+            "image":"op5_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#555555",
+            "isSmall": true,
+            "datasets": [
+                {
+                    "label": "5",
+                    "centerText":"",
+                    "data": [8, 22,70],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        },
+        {
+            "id":6,
+            "image":"op6_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#111111",
+            "datasets": [
+                {
+                    "label": "6",
+                    "centerText":"",
+                    "data": [30, 45,25],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        },
+        {
+            "id":7,
+            "image":"op1_color.png",
+            "labels": ["", "Regional"],
+            "centerColor": "#f2ae29",
+            "datasets": [
+                {
+                    "label": "7",
+                    "centerText":"",
+                    "data": [25, 15,60],
+                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
+                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
+                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
+                    "fill": true
+                }
+                
+            ]    
+        }
+    ]
+        
+    },
+    "type": "strategicFocusPieChart"
+  },
+  {
+    "data": "Strengthening Governance and<br>Institutional Capacity",
+    "image": "op6_color.png",
+    "type": "logoHeading"
+  },
+  {
+      "data":"The demands the COVID-19 pandemic has placed on public finances and administrative services underscore the importance of strong governance and institutional capacity in DMCs. The pandemic has highlighted the need to design and manage cost-effective public infrastructure, reform state‑owned enterprises, and improve the capacity of taxation systems to raise revenue.",
+      "type":"paragraph"
+  },
+  {
+    "data":"ADB supported DMCs on these issues through several knowledge products, including a special report on Supporting Quality Infrastructure in Developing Member Countries, and the publication The Bankable SOE: Commercial Financing for State- Owned Enterprises.",
+    "type":"paragraph"
+},
+{
+    "data":"In the Pacific, a regional technical assistance package is working to strengthen the governance and institutional capacity of public utilities, supporting a stronger and more sustainable recovery from the COVID-19 pandemic. It will also assess the potential to apply similar approaches to address capacity gaps in other public entities.",
+    "type":"paragraph"
+},
+{
+    "data":"To help DMCs raise tax revenue more effectively and equitably, ADB launched the Asia Pacific Tax Hub at its 2021 ADB Annual Meeting. The hub will help strengthen domestic resource mobilization and international tax cooperation. By the end of 2021, hub representatives had undertaken bilateral consultations with 41 DMCs, ADB nonborrowing members, and development partners, as well as conducting a survey covering 39 DMCs. This information is helping create tailored improvements to resource mobilization, which will support DMCs in achieving the Sustainable Development Goals and other priorities for green and inclusive recovery.",
+    "type":"paragraph"
+},
+{
+    "data":"Expanding on this work, an ADB project in Solomon Islands will build the debt management capacity of the country’s internal revenue institution, moving into a more efficient and transparent tax framework.",
+    "type":"paragraph"
+},
+
   {
     "data": "Fostering Regional Cooperation<br>and Integration",
     "image": "op7_color.png",
@@ -307,6 +478,25 @@
     "data":"To underpin its future RCI efforts, ADB strengthened knowledge partnerships with United Nations agencies, the World Customs Organization, the World Trade Organization, and other international organizations.",
     "type":"paragraph"
 },
+{
+    "title": "Pursuing Better Outcomes for ADB’s Most Vulnerable Members",
+    "para1": "ADB classifies 11 of its DMCs as being in fragile and conflict-affected situations (FCAS), while 16 are small island developing states (SIDS). These DMCs require specialized attention to ensure development financing and knowledge services are appropriately designed and distributed.",
+    "para2": "Differentiated approaches—based on understanding the causes and drivers of fragility and conflict in each specific FCAS and/or SIDS context—are crucial to more productive ADB engagement and, ultimately, better outcomes for such DMCs.",
+    "para3": "In 2021, ADB adopted the Fragile and Conflict-Affected Situations and Small Island Developing States Approach (FSA). The approach provides ADB staff and consultants with guidance and tools to address the transient challenges of FCAS and the more permanent vulnerabilities of SIDS. For instance, under the FSA, the bank has introduced fragility and resilience assessments and knowledge analytics to help country teams better tailor responses to the particular needs of FCAS and/or SIDS.",
+    "para4": "In 2021, ADB drafted a fragility and resilience assessment for Timor-Leste. Among the report’s many findings was that extreme weather brought by climate change posed an increasing threat to roads, bridges, ports, and airports. Therefore, the assessment recommended ADB focus more on disaster risk reduction in Timor-Leste and shift the emphasis of its country portfolio away from the construction of infrastructure and towards operation and maintenance.",
+    "image": "",
+    "para5": "",
+    "para6": "",
+    "para7": "",
+    "para8": "",
+    "para9": "",
+    "para10": "",
+    "quote": "",
+    "para11": "",
+    "para12": "",
+    "para13": "",
+    "type": "shadeKnowledge"
+  }, 
 {
     "title": "NEXT",
     "data": "Chapter 2",
