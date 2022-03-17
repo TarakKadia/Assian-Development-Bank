@@ -62,7 +62,7 @@
             <app-video [data]="data.data" *ngIf="data.type=='video'" ></app-video>
 
             <app-button *ngIf="data.type=='button'"  [data]="data.data"  [title]="data.title" (click)="goToNextChapter()"></app-button>
-            <ng-container *ngIf="data.type=='strategicFocusPieChart'">
+            <!-- <ng-container *ngIf="data.type=='strategicFocusPieChart'">
                 <div class="chart-border">
                     <div class="chart-title">
                         <h2>Percentage of ADB's Committed Operations in Central and West Asia Supporting Each Strategy 2030 Priority </h2>
@@ -73,7 +73,7 @@
                         <p>Note: Excludes technical assistance grants and revolving progrtams. Shares sum to more than 100%. Reflacting the more integrated approach to development challenges outlined in Strategy 2030, most new ADB operations address multiple operational priorities.</p>
                     </div>
                 </div>
-            </ng-container>
+            </ng-container> -->
         </div>
     </div>
     <br><br><br><br><br><br><br>
