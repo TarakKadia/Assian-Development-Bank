@@ -10,9 +10,10 @@ export class CustomDonoughtChartComponent implements OnInit {
 
     chart: any;
     ctx3: any;
-  
-    ngOnInit() {
+  ngOnInit() {
+    Chart.defaults.global.plugins['labels'] = false
       this.chart = new Chart('canvas', {
+          
         type: 'doughnut',
         data: {
           labels: ['Data1', 'Data2'],
@@ -31,6 +32,7 @@ export class CustomDonoughtChartComponent implements OnInit {
         },
         options: {
           cutoutPercentage: 60,
+          
   
         //   pieceLabel: {
         //     mode: 'value',
@@ -70,16 +72,20 @@ export class CustomDonoughtChartComponent implements OnInit {
           ],
         },
         options: {
-          cutoutPercentage: 60,
-  
-          legend: {
-            display: false,
-          },
-          tooltips: {
-            enabled: false,
-          },
+            cutoutPercentage: 60,
+            
+            legend: {
+                display: false,
+            },
+            tooltips: {
+                enabled: false,
+            },
         },
-      });
+        
+    });
+    
     }
+
+    
 
 }

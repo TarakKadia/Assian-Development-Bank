@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ChartType, ChartOptions } from 'chart.js';
+import { Chart,ChartType, ChartOptions } from 'chart.js';
 import { SingleDataSet, Label } from 'ng2-charts';
 // import * as pluginLabels from 'chartjs-plugin-labels';
 import { Color } from 'ng2-charts/lib/color';
@@ -15,15 +15,16 @@ export type CustomColor = Color & {
   styleUrls: ['./custom-pie-chart.component.css']
 })
 export class CustomPieChartComponent implements OnInit {
-
+    
     pieChartOptions: ChartOptions;
     pieChartLabels: Label[];
     pieChartData: SingleDataSet;
     pieChartType: ChartType;
     pieChartLegend: boolean;
     pieChartPlugins = [];
-  
+    
     ngOnInit() {
+
       this.pieChartOptions = this.createOptions();
       this.pieChartLabels = [['January'], ['February', 'March']];
       this.pieChartData = [[26826,13151], [26826,13151]];
@@ -60,24 +61,26 @@ export class CustomPieChartComponent implements OnInit {
   
     private createOptions(): ChartOptions {
       return {
-        responsive: true,
-            maintainAspectRatio: true,
-            tooltips: {enabled: false},
-            hover: {mode: null},
-            plugins: {
-                labels: {
+          
+          
+          responsive: true,
+          maintainAspectRatio: true,
+          tooltips: {enabled: false},
+          hover: {mode: null},
+          plugins: {
+              labels: {
                   render: function (args) {
-                    return '$' + args.value;
-                  },
-                  fontColor:function (args) {
-                    return args.value === 1 ? '#007db7' : '#FFF';
-                  },
-                  
-                  fontSize:20,
-                  precision: 0,
-                  
-                  
-                  
+                      return '$' + args.value;
+                    },
+                    fontColor:function (args) {
+                        return args.value === 1 ? '#007db7' : '#FFF';
+                    },
+                    
+                    fontSize:20,
+                    precision: 0,
+                    
+                    
+                    
                 }
             },
       };

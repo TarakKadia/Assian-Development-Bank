@@ -16,3 +16,13 @@ canvas.width{
     visibility: hidden;
 }
 
+.strategicHeading{
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.strategicTag{
+font-size: 10px;
+line-height: 1.5;
+font-weight: bold;
+}
