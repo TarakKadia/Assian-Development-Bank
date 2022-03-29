@@ -19,10 +19,12 @@ canvas.width{
 .strategicHeading{
     font-size: 15px;
     font-weight: bold;
-
+color:#007fb3;
 }
 .strategicTag{
 font-size: 10px;
 line-height: 1.5;
 font-weight: bold;
+color:#007fb3;
+
 }
