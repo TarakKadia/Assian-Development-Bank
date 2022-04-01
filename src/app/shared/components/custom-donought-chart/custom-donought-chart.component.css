@@ -57,7 +57,7 @@ p {
 .pieClass {
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  margin: -50px 0px 0px 65px;
 }
 
 /* basic positioning */
@@ -91,5 +91,9 @@ padding-bottom: 5px;
 .pieClassOne {
   display: flex;
   flex-direction: column;
-  padding: 10px 0 0 100px;
+
+  padding-left: 63px;
+  margin: -50px 0px 0px 65px;
+
+
 }

@@ -18,7 +18,7 @@
             <app-expandable-content [data]="data.data" [title]="data.title" [image]="data.image" [id]="data.id" *ngIf="data.type=='expand'">
             </app-expandable-content>
 
-            <app-expandable-content-two [title]="data.title" [data]="data.data" [image]='data.image' [id]="data.id" *ngIf="data.type== 'expandTwo'"></app-expandable-content-two>
+            <app-expandable-content-two [title]="data.title" [data]="data.data" [image]='data.image' [id]="data.id" [tag]="data.tag" *ngIf="data.type== 'expandTwo'"></app-expandable-content-two>
 
             <app-twitter [data]="data.data" [id]="data.id" *ngIf="data.type=='twitter'"></app-twitter>
 

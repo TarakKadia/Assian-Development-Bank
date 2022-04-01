@@ -7,7 +7,8 @@
         Read more
     </p>
 
-    <img src="assets/images/{{image}}" *ngIf="image">
+    <img  class="expandTwoImage" src="assets/images/{{image}}" *ngIf="image">
+    <p class="caption">{{tag}}</p>
 
     <p [ngClass]="{'displayBlock': isExpand}" [innerHTML]="data"></p>
 </div>

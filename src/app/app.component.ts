@@ -131,6 +131,7 @@ export class AppComponent {
             data: [this.getBookmarkText()]
         };
 
+
         let highlightBookmarkText: Array<any> = JSON.parse(window.localStorage.getItem('highlitedBookmark') || '[]');
         let selectedDataItem = highlightBookmarkText.filter((el: any) => el.id === id && el.url === currentURL);
         if (selectedDataItem.length) {

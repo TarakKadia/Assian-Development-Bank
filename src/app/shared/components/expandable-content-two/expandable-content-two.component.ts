@@ -12,6 +12,7 @@ export class ExpandableContentTwoComponent implements OnInit {
     @Input() data: any;
     @Input() image: any;
     @Input() id: any;
+    @Input() tag:any;
     
     isExpand: boolean = false;
     

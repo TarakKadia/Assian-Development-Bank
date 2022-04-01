@@ -26,8 +26,8 @@ export class CustomPieChartComponent implements OnInit {
     ngOnInit() {
 
       this.pieChartOptions = this.createOptions();
-      this.pieChartLabels = [['January'], ['February', 'March']];
-      this.pieChartData = [[26826,13151], [26826,13151]];
+      this.pieChartLabels = [[''], ['2021 Covid-19 Operation', '2021 NON-Covid-19 Operation']];
+      this.pieChartData = [[71,35], [26826,13151]];
       this.pieChartType = 'pie';
       this.pieChartLegend = false;
     //   this.pieChartPlugins = [pluginLabels];
@@ -67,15 +67,18 @@ export class CustomPieChartComponent implements OnInit {
           maintainAspectRatio: true,
           tooltips: {enabled: false},
           hover: {mode: null},
-          plugins: {
+          plugins: { 
               labels: {
                   render: function (args) {
-                      return '$' + args.value;
+                      if(args.value == 35 || args.value == 71){
+                          return ''
+                      }else{
+                          return '$' + args.value;
+                      }
                     },
                     fontColor:function (args) {
-                        return args.value === 1 ? '#007db7' : '#FFF';
+                         return args.value === 35 ? '#a7a6a6' : '#FFF'  &&  args.value === 71 ? '#f46e1a' : '#FFF';
                     },
-                    
                     fontSize:20,
                     precision: 0,
                     

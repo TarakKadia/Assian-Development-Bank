@@ -80,12 +80,13 @@
     "type":"customPieChart"
   },
 
+  
   {
     "title": "Accelerating Vaccine Rollouts",
-    "data": "The $9 billion APVAX facility is the centerpiece of ADB’s support to ensure adequate coverage of safe and effective COVID-19 vaccines to protect the people of Asia and the Pacific.<br><br>To accelerate vaccine rollouts in 2021, ADB updated the APVAX regulatory framework as well as the bank’s financing approach to unlock additional vaccine supplies and to ensure adequate financing for procurement.<br><br>By the end of year, the bank had committed $4.1 billion in loan and grant financing under APVAX, mobilized an additional $1.4 billion in cofinancing, and delivered an initial 227 million doses of vaccines in 15 countries.<br><br>ADB complemented APVAX financing with $14.6 million in COVID-19-related technical assistance. This includes, among other activities, research on supply chains and logistics, capacity building for policymakers, vaccine training for health workers, and private sector engagement. In 2021, the bank also implemented initiatives to resolve regulatory and trade-related barriers to vaccine supply.<br><br>In response to DMC demand, ADB generated knowledge solutions addressing the impacts of COVID-19 on tourism, helped develop vaccine prioritization and deployment plans, and gave recommendations on countering vaccine hesitancy and improving medical waste management. In addition, the bank hosted seven knowledge events throughout 2021 to help DMCs share critical guidance on COVID-19 responses on topics such as vaccine safety and digital transformation for health systems.<br><br>ADB also worked closely with DMCs to strengthen gender considerations in APVAX rollouts. In the Pacific, for example, the bank contributed to the development of a database to track immunization side effects by sex. This will help improve safety surveillance and inform campaigns with gender-specific messaging.",
+    "data":"The $9 billion APVAX facility is the centerpiece of ADB’s support to ensure adequate coverage of safe and effective COVID-19 vaccines to protect the people of Asia and the Pacific.<br><br>To accelerate vaccine rollouts in 2021, ADB updated the APVAX regulatory framework as well as the bank’s financing approach to unlock additional vaccine supplies and to ensure adequate financing for procurement.<br><br>By the end of year, the bank had committed $4.1 billion in loan and grant financing under APVAX, mobilized an additional $1.4 billion in cofinancing, and delivered an initial 227 million doses of vaccines in 15 countries.<br><br>ADB complemented APVAX financing with $14.6 million in COVID-19-related technical assistance. This includes, among other activities, research on supply chains and logistics, capacity building for policymakers, vaccine training for health workers, and private sector engagement. In 2021, the bank also implemented initiatives to resolve regulatory and trade-related barriers to vaccine supply.<br><br>In response to DMC demand, ADB generated knowledge solutions addressing the impacts of COVID-19 on tourism, helped develop vaccine prioritization and deployment plans, and gave recommendations on countering vaccine hesitancy and improving medical waste management. In addition, the bank hosted seven knowledge events throughout 2021 to help DMCs share critical guidance on COVID-19 responses on topics such as vaccine safety and digital transformation for health systems.<br><br>ADB also worked closely with DMCs to strengthen gender considerations in APVAX rollouts. In the Pacific, for example, the bank contributed to the development of a database to track immunization side effects by sex. This will help improve safety surveillance and inform campaigns with gender-specific messaging.",
     "image":"eard_knowledge1.jpg",
     "tag":"Nurses in the Philippines prepare COVID-19 vaccination doses.",
-    "type": "shadeKnowledgeTwo"
+    "type": "expandTwo"
   },
 
   {
@@ -212,25 +213,15 @@
     "content": "During 2018-2020, 89% of ADB committed operations promoted gender equality, up from 80% in 2017-2019, and still well on track to achieve the target of 75% in 2030.",
     "type": "counter"
   },
+  
+
   {
-    "title": "ADB SHOWCASES ITS CLIMATE COMMITMENT AT COP26",
-    "para1": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.",
-    "para2": "The bank backed this pledge to protect ecosystems and biodiversity with a series of announcements on transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.",
-    "para3": "ADB launched the $665 million ASEAN Green Recovery Platform, which aims to accelerate pandemic recovery and mobilize an additional $7 billion for lowcarbon and climate-resilient infrastructure projects in Southeast Asia.",
-    "para4": "A first for Asia and the Pacific, ADB outlined its Energy Transition Mechanism for Indonesia and the Philippines. Established to hasten Southeast Asia’s transition to clean energy, the mechanism will leverage private and public investments to finance the early retirement of coal-power assets. The Government of Japan has committed a grant of $25 million as the first seed financing.",
-    "image": "",
-    "para5": "To help its DMCs scale up climate adaptation, ADB announced the Community Resilience Partnership Program to support community-level investments that plan for the impacts of climate change, especially by engaging women and poor households. The Government of the United Kingdom is providing £45 million (around $61 million) and the Nordic Development Fund is contributing €6 million (around $7 million) for the facility.",
-    "para6": "ADB rounded out its COP26 engagement by launching the Climate Action Catalyst Fund to advance carbon mitigation in Asia and the Pacific, along with the Urban Resilience Trust Fund, financed with £70 million (around $100 million) from the Government of the United Kingdom, to combat climate change through resilience planning and innovative urban projects.",
-    "para7": "",
-    "para8": "",
-    "para9": "",
-    "para10": "",
-    "quote": "",
-    "para11": "",
-    "para12": "",
-    "para13": "",
-    "type": "shadeKnowledge"
-  }, 
+    "title":"ADB SHOWCASES ITS CLIMATE COMMITMENT AT COP26",
+        "data": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.<br><br>The bank backed this pledge to protect ecosystems and biodiversity with a series of announcements on transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.<br><br>ADB launched the $665 million ASEAN Green Recovery Platform, which aims to accelerate pandemic recovery and mobilize an additional $7 billion for lowcarbon and climate-resilient infrastructure projects in Southeast Asia.<br><br>A first for Asia and the Pacific, ADB outlined its Energy Transition Mechanism for Indonesia and the Philippines. Established to hasten Southeast Asia’s transition to clean energy, the mechanism will leverage private and public investments to finance the early retirement of coal-power assets. The Government of Japan has committed a grant of $25 million as the first seed financing.<br><br>To help its DMCs scale up climate adaptation, ADB announced the Community Resilience Partnership Program to support community-level investments that plan for the impacts of climate change, especially by engaging women and poor households. The Government of the United Kingdom is providing £45 million (around $61 million) and the Nordic Development Fund is contributing €6 million (around $7 million) for the facility.<br><br> ADB rounded out its COP26 engagement by launching the Climate Action Catalyst Fund to advance carbon mitigation in Asia and the Pacific, along with the Urban Resilience Trust Fund, financed with £70 million (around $100 million) from the Government of the United Kingdom, to combat climate change through resilience planning and innovative urban projects.",
+        "type": "expand"
+     
+},
+
   {
       "data":"To help all DMCs ensure socially inclusive development over the longer term, ADB developed guidelines for gender-inclusive policies, programs, and projects in transport, water supply, and energy.",
       "type":"paragraph"
@@ -488,25 +479,12 @@
     "data":"To underpin its future RCI efforts, ADB strengthened knowledge partnerships with United Nations agencies, the World Customs Organization, the World Trade Organization, and other international organizations.",
     "type":"paragraph"
 },
-{
-    "title": "Pursuing Better Outcomes for ADB’s Most Vulnerable Members",
-    "para1": "ADB classifies 11 of its DMCs as being in fragile and conflict-affected situations (FCAS), while 16 are small island developing states (SIDS). These DMCs require specialized attention to ensure development financing and knowledge services are appropriately designed and distributed.",
-    "para2": "Differentiated approaches—based on understanding the causes and drivers of fragility and conflict in each specific FCAS and/or SIDS context—are crucial to more productive ADB engagement and, ultimately, better outcomes for such DMCs.",
-    "para3": "In 2021, ADB adopted the Fragile and Conflict-Affected Situations and Small Island Developing States Approach (FSA). The approach provides ADB staff and consultants with guidance and tools to address the transient challenges of FCAS and the more permanent vulnerabilities of SIDS. For instance, under the FSA, the bank has introduced fragility and resilience assessments and knowledge analytics to help country teams better tailor responses to the particular needs of FCAS and/or SIDS.",
-    "para4": "In 2021, ADB drafted a fragility and resilience assessment for Timor-Leste. Among the report’s many findings was that extreme weather brought by climate change posed an increasing threat to roads, bridges, ports, and airports. Therefore, the assessment recommended ADB focus more on disaster risk reduction in Timor-Leste and shift the emphasis of its country portfolio away from the construction of infrastructure and towards operation and maintenance.",
-    "image": "",
-    "para5": "",
-    "para6": "",
-    "para7": "",
-    "para8": "",
-    "para9": "",
-    "para10": "",
-    "quote": "",
-    "para11": "",
-    "para12": "",
-    "para13": "",
-    "type": "shadeKnowledge"
-  }, 
+  {
+    "title":"Pursuing Better Outcomes for ADB’s Most Vulnerable Members",
+        "data": "ADB classifies 11 of its DMCs as being in fragile and conflict-affected situations (FCAS), while 16 are small island developing states (SIDS). These DMCs require specialized attention to ensure development financing and knowledge services are appropriately designed and distributed.<br><br>Differentiated approaches—based on understanding the causes and drivers of fragility and conflict in each specific FCAS and/or SIDS context—are crucial to more productive ADB engagement and, ultimately, better outcomes for such DMCs.<br><br>In 2021, ADB adopted the Fragile and Conflict-Affected Situations and Small Island Developing States Approach (FSA). The approach provides ADB staff and consultants with guidance and tools to address the transient challenges of FCAS and the more permanent vulnerabilities of SIDS. For instance, under the FSA, the bank has introduced fragility and resilience assessments and knowledge analytics to help country teams better tailor responses to the particular needs of FCAS and/or SIDS.<br><br>In 2021, ADB drafted a fragility and resilience assessment for Timor-Leste. Among the report’s many findings was that extreme weather brought by climate change posed an increasing threat to roads, bridges, ports, and airports. Therefore, the assessment recommended ADB focus more on disaster risk reduction in Timor-Leste and shift the emphasis of its country portfolio away from the construction of infrastructure and towards operation and maintenance.",
+        "type": "expand"
+     
+},
 {
     "title": "NEXT",
     "data": "Chapter 2",

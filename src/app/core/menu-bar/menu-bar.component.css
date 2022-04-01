@@ -27,6 +27,7 @@ display: -webkit-box;
 -webkit-line-clamp: 1;
 -webkit-box-orient: vertical;  */
 .bookmarkClass{
+    text-transform: capitalize;
     /* display: flex;
     flex-direction: row;
     justify-content: space-between; */
