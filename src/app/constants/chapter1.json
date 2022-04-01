@@ -176,10 +176,13 @@
     "tag": "A Nepalese woman and her dumplings, destined for sale at a local restaurant. ADB is supporting small businesses in Asia and the Pacific to overcome challenges brought about by the pandemic.",
     "type": "image"
   },
+
   {
-      "data":"Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
-      "type":"heading"
+    "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+    "image": "op4_color.png",
+    "type": "logoHeading"
   },
+  
   {
       "data":"The Asia and Pacific region is facing the triple challenge of climate change, nature loss, and pollution and waste.",
       "type":"paragraph"

@@ -67,6 +67,9 @@ h6 {
   margin-right: 10px;
   background-color: #abacae;
 }
+.value1 li {
+    width: 50% !important;
+}
 
 .main {
   display: flex;
