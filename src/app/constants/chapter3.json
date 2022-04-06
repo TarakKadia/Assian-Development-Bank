@@ -1,14 +1,11 @@
-[{
-    "heading": "CHAPTER 3",
-    "data": "Organizational Effectiveness",
-    "tag": "",
-    "type": "chaptertitle"
-  },
-
+[
   {
     "data": "private_photo1.jpg",
-    "tag": "A doctor administers a vaccine to a child during a vaccination drive in Mandaluyong City, Philippines. ADB has created an interactive mapping tool for the supply chains of vital pandemic-fighting products.",
+    "heading": "CHAPTER 3",
+    "text":"Organizational Effectiveness",
+    "tag": "ADB staff monitoring building facilities at headquarters in Manila, Philippines.",
     "type": "image"
+
   },
   {
     "heading": "BY THE NUMBERS:PRIVATE SECTOR OPERATIONS",
@@ -29,50 +26,88 @@
     "type": "regionCounter"
   },
   {
-    "data": "In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services. These investments covered 11 developing member countries (DMCs) and included 5 regional projects. The number of private sector projects in 2020 matched that of 2019 despite the pandemic, and the bank remains strongly committed to increasing the share of private sector operations to one third by 2024.",
+    "data": "As ADB continues to successfully navigate organizational challenges brought on by the COVID-19 pandemic, measures introduced during the past 2 years to address these challenges have made the bank a stronger and more effective organization. ADB remains a resilient and buoyant organization dedicated to meeting the needs of its developing member countries (DMCs).",
     "type": "paragraph"
   },
   {
-    "data": "<b><a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20private%20sector%20investments%20for%2038%20projects%20in%20critical%20sectors%20such%20as%20health%2C%20agriculture%2C%20energy%2C%20finance%2C%20water%2C%20and%20other%20urban%20infrastructure%20and%20services.' 'title'='Tweet this' target='_blank'>In 2020, ADB committed private sector investments for 38 projects in critical sectors such as health, agriculture, energy, finance, water, and other urban infrastructure and services.</a> </b>",
-    "type": "twitter"
-  },
-  {
-
-    "data": "Following the onset of the COVID‑19 pandemic, ADB swiftly refocused its private sector resources to address the health and economic impacts in its DMCs. With $442 million supporting new COVID‑19 related projects and $2.4 billion in revolving program commitments in trade finance, supply chain finance, and microfinance, 64% of private sector project and program commitments in 2020 directly or indirectly responded to COVID‑19. (Chapter 2 provides examples of country-specific private sector operations.)",
+    "data": "Previous investments to enhance the bank’s digital capabilities and establish detailed business continuity protocols enabled ADB to provide prompt and flexible support to its DMCs throughout 2021. In the face of ongoing pandemic challenges, ADB also continued to effectively manage operational risks around due diligence, integrity, and safeguards, while making progress on institutional reforms, digital transformation, and other organizational improvements.",
     "type": "paragraph"
   },
-
   {
-    "title": "MAPPING SUPPLY CHAINS OF LIFE-SAVING PRODUCTS",
-    "data": " In the early stages of the pandemic, as health systems, governments, and international organizations sought to secure stocks of crucial goods like portable ventilators, a key obstacle was a lack of information on who made what in the supply chains.<br> <br> <br> To help fill this gap, ADB drew on its knowledge and networks in trade and supply chain finance to develop an interactive <a href='https://www.adb.org/multimedia/scf/#/target='_blank' onclick='linkHandler(event);'>mapping tool</a> for thesupply chains of vital pandemic-fighting products.<br><br><br>The tool allows governments, banks, investors, health-care professionals, and companies to trace every  component in such products, down to the metal and rubber in each part. They can then intervene to clear supply blockages, such as by funding a company struggling to meet demand.<br><br><br>Within months, around 10,000 visits had been made to the free mapping tool website. There, users can search—by product or by location—a database of 25,000 companies involved in supply chains around the world.Companies have used the tool to track down machines used in the production of personal protective equipment,for example, and banks have identified clients producing pandemic-related goods to explore opportunities toassist them.<br><br><br>As the demand for more information has expanded, so has the database. From the initial seven products mapped, the tool now covers about 33 different categories, including vaccines and the equipment that keeps them cold in transit.",
-    "type": "expand"
-  },
 
-  {
-    "data": "",
-    "type": "video"
+    "data": "Importantly in a time of crisis, the bank provided ongoing support to keep staff safe, motivated, and productive as the vast majority continued working remotely in the Philippines, field offices, or in their home countries around the world.",
+    "type": "paragraph"
   },
   {
-    "data": "APPROACHES TO DEVELOPING THE PRIVATE SECTOR",
+    "data": "IMPROVING OUR SERVICE TO ADB MEMBERS",
     "type": "heading"
   },
 
   {
-    "data": "In January 2020, the ADB Board of Directors endorsed the <a href='https://www.adb.org/documents/operational-plan-private-sector-operations-2019-2024' target='_blank'>operational plan for the bank’s private sector operations</a>. This plan sharpens ADB’s focus on complex, innovative, smaller, and riskier projects in challenging markets and sectors. It also enhances efforts to address climate change and support women. ADB’s private sector operations will support the priorities of the bank’s Strategy 2030, with investments in core areas such as clean energy, environmental infrastructure, agribusiness, quality education and health services, and a vibrant finance sector.",
+    "data": "<b>Reshaping ADB as a Responsive, Long-Term Partner for Asia and the Pacific</b>",
     "type": "paragraph"
   },
   {
-    "data": "ADB will expand the sector and geographic reach of its private sector operations, move closer to clients and partners, use more integrated and innovative approaches to tailor this support, and catalyze and mobilize financing.",
+    "data": "ADB has recently embarked on a suite of interlinked institutional reforms that together aim to reshape the bank to be a more agile organization with the right skills, resources, and culture to meet the changing needs of its DMCs. These reforms will better enable the bank to combine finance, knowledge, and partnerships to maximize development impacts for DMCs, as guided by Strategy 2030.",
     "type": "paragraph"
   },
   {
-    "title": "DIVERSIFICATION",
-    "digit": 58,
-    "sign": "%",
-    "data": "In 2020, ADB committed 58% of its 38 nonsovereign operations in new sectors or frontier markets.",
-    "type": "counter"
+      "data":"In 2021, ADB began implementing recommendations from the 2020 review of operations in its resident missions in DMCs. The bank reshaped terms of reference for its country teams to include more knowledge and private sector expertise, and strengthened the process for developing country partnership strategies. It also prepared a plan to enhance information technology in its field offices. ADB country directors discussed the resident mission review as a key topic during their annual forum in September and shared their ideas on how its implementation could be further improved.",
+      "type":"paragraph"
+  },
+ {
+    "data":"ADB also launched a job architecture review to simplify job gradings and completed a review of its technical assistance program, which supports DMCs through project preparation and advisory services as well as knowledge services. The technical assistance review focused on issues such as allocation of resources, cost recovery, and the quality and relevance of knowledge solutions.",
+    "type":"paragraph"
+ },
+ {
+    "data":"As a result of the review, ADB developed a principle-based framework for technical assistance allocation and cost recovery. One outcome of this will be an increase in technical assistance resources for DMCs that most need support, including those in fragile and conflict-affected situations and small island developing states. ADB introduced more flexibility into technical assistance modalities to enable quicker and more effective responses to client needs. The bank also introduced measures to more closely link knowledge-focused technical assistance with the preparation and design of loan and grant projects.",
+    "type":"paragraph"
+ },
+ {
+    "data":"Stemming from the technical assistance review, ADB developed a workforce rebalancing framework in 2021. Under the framework, ADB will reallocate a portion of technical assistance funding to increase ADB staffing by around 200 positions, with most of these positions to be outposted to resident missions. This will bolster ADB’s in-house expertise and enable the bank to work more closely with its DMC clients, enhancing the quality of the bank’s policy dialogue support, operations, and knowledge solutions services.",
+    "type":"paragraph"
+ },
+ {
+    "data":"Crosscutting the above initiatives, ADB started an organizational review in 2021 to determine how the bank can improve its effectiveness and better empower staff to deliver Strategy 2030 objectives. The review is considering how ADB can build on its strong client relationships and regional and country knowledge, while making the shifts needed to deliver in key areas. These include increasing focus on private sector development; providing innovative, knowledge-driven development solutions; creating pathways for ADB to achieve its aspiration to be Asia and the Pacific’s climate bank; and finding new ways of working to deliver value and impact to clients.",
+    "type":"paragraph"
+ },
+ {
+    "title": "Building an Even More Responsive ADB Culture",
+    "data":"Client centric. Trustworthy. Transformational. These are the values that will guide ADB in fostering a thriving and supportive workplace where staff can grow, learn, and excel while delivering tangible results for the bank’s developing member countries.<br>ADB President Asakawa led the process to identify these core ADB values in 2021. This included staff input through a survey on values, focus group discussions, and consultations with employee resource groups.<br>The values were announced in 2021 as a key milestone in the Culture Transformation Initiative, which was launched in November 2020. The initiative has since sparked conversations among staff about the bank’s culture and how the values show up in the way the ADB community works together and creates results.<br>Through a series of workshops on workplace culture, considering attributes from both within and beyond the organization, staff committed to one to three actions to enable cultural change within their team. Each team also suggested one action outside their control that would make the greatest impact if implemented. These suggestions were shared with ADB Management, and departments are currently working on implementing them.<br>The rollout of changes will be accelerated in 2022, as the bank continues to align key processes and procedures with the ADB values.",
+    "image":"chapter3-expand.jpg",
+    "tag":"ADB staff largely collaborated online throughout 2021.",
+    "type": "expandTwo"
   },
 
+
+ {
+    "data":"",
+    "type":"paragraph"
+ },
+ {
+    "data":"",
+    "type":"paragraph"
+ },
+ {
+    "data":"",
+    "type":"paragraph"
+ },
+ {
+    "data":"",
+    "type":"paragraph"
+ },
+ {
+    "data":"",
+    "type":"paragraph"
+ },
+ {
+    "data":"",
+    "type":"paragraph"
+ },
+ {
+    "data":"",
+    "type":"paragraph"
+ },
 
   {
     "data": "EXTENDING SECTOR AND GEOGRAPHIC REACH",
