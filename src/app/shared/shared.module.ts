@@ -43,6 +43,8 @@ import { CustomPieChartComponent } from './components/custom-pie-chart/custom-pi
 import { CustomDonoughtChartComponent } from './components/custom-donought-chart/custom-donought-chart.component';
 
 
+
+
 @NgModule({
   declarations: [
     ImageComponent,

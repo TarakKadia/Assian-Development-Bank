@@ -3,7 +3,7 @@
         "id": 1,
         "data": "Total ADB Operations",
         "currency": "$",
-        "money": 31.6,
+        "money": 22.8,
         "letter": "B",
         "type": "counter-card"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "data": "Cofinancing, Including Trust Funds",
         "currency": "$",
-        "money": 16.4,
+        "money": 12.9,
         "letter": "B",
         "type": "counter-card"
     }

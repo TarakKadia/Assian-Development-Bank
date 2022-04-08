@@ -188,7 +188,7 @@ div#viewport {
 }
 
 .contentCard {
-  border: 1px solid #ea522c;
+  border: 1px solid #3d8dbd;
   padding: 1rem;
   flex: 0 1 0%;
   min-width: 40%;
@@ -785,7 +785,7 @@ h2 span {
 
 div.simpleheader h2 {
   color: #fff;
-  background-color: #d95c3b;
+  background-color: #cbd851;
   padding: 0.8rem 4rem 0.8rem 4rem;
   margin: 2rem 0 3rem -4rem;
   display: table;

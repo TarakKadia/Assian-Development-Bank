@@ -17,9 +17,6 @@
                             "title": ""
                           },
                           {
-                            "title": "2016"
-                          },
-                          {
                             "title": "2017"
                           },
                           {
@@ -31,6 +28,10 @@
                           {
                             "colspan":2,
                             "title": "2020"
+                          },
+                          {
+                            "colspan":2,
+                            "title": "2021"
                           }
                     ],
                     [
@@ -47,7 +48,11 @@
                             "title": "Total"
                           },
                           {
-                            "title": "Total"
+                            "title": "Total",
+                            "class": "lightOrange-bg"
+                          },
+                          {
+                            "title": "COVID-19 Response"
                           },
                           {
                             "title": "Total",
@@ -60,6 +65,9 @@
                     [
                         {
                             "title": "A.Loan,Grants,and other"
+                        },
+                        {
+                            "title": ""
                         },
                         {
                             "title": ""
@@ -114,162 +122,182 @@
                       {
                         "title": "",
                         "class": "lightOrange-bg"
+                      },
+                      {
+                        "title": "",
+                        "class": "lightOrange-bg"
                       }
                 ],
                 "subData": [
                     [
                         {
                             "value0": "Regular Ordinary Capital Resource",
-                            "value1": "10957",
-                            "value2": "17230",
-                            "value3": "16286",
-                            "value4": "17155",
-                            "value5": "22723",
-                            "value6": "11677",
+                            "value1": "17230",
+                            "value2": "16286",
+                            "value3": "17155",
+                            "value4": "22723",
+                            "value5": "11677",
+                            "value6": "16459",
+                            "value7": "8307",
                             "class": "title-row-normal"
                         },
                         {
                             "value0": "Loan",
-                            "value1": "10639",
-                            "value2": "16445",
-                            "value3": "16012",
-                            "value4": "16824",
-                            "value5": "22468",
-                            "value6": "11677"
+                            "value1": "16445",
+                            "value2": "16012",
+                            "value3": "16824",
+                            "value4": "22468",
+                            "value5": "11677",
+                            "value6": "16195",
+                            "value7":"8307"
                         },
                         {
                             "value0": "Equity Investment",
-                            "value1": "96",
-                            "value2": "287",
-                            "value3": "274",
-                            "value4": "155",
-                            "value5": "255",
-                            "value6": "-"
+                            "value1": "287",
+                            "value2": "274",
+                            "value3": "155",
+                            "value4": "255",
+                           "value5": "-",
+                            "value6": "265",
+                            "value7": "-"
+
                         },
                         {
                             
                             "value0": "Guarantees",
-                            "value1": "168",
-                            "value2": "498",
-                            "value3": "-",
-                            "value4": "155",
-                            "value5": "255",
-                            "value6": "-"
+                            "value1": "498",
+                            "value2": "-",
+                            "value3": "175",
+                            "value4": "-",
+                            "value5": "-",
+                            "value6": "-",
+                            "value7":"-"
                         },
                         {
                             
                             "value0": "Consessional Resources",
-                            "value1": "2287",
-                            "value2": "2457",
-                            "value3": "5290",
-                            "value4": "4488",
-                            "value5": "5449",
-                            "value6": "18",
+                            "value1": "2457",
+                            "value2": "5290",
+                            "value3": "4488",
+                            "value4": "5449",
+                            "value5": "1861",
+                            "value6": "2993",
+                            "value7":"2124",
                             "class": "title-row-normal"
                         },
                         {
                             
-                            "value0": "Consessional Ordinary Capital",
-                            "value1": "1805",
-                            "value2": "2267",
-                            "value3": "3872",
-                            "value4": "3644",
-                            "value5": "4432",
-                            "value6": "1466"
+                            "value0": "Consessional Ordinary Capital Resources Loans",
+                            "value1": "2267",
+                            "value2": "3872",
+                            "value3": "3644",
+                            "value4": "4432",
+                            "value5": "1466",
+                            "value6": "2648",
+                            "value7":"1998"
                         },
                         {
                             
                             "value0": "Assian Development Fund Grants",
-                            "value1": "481",
-                            "value2": "191",
-                            "value3": "1418",
-                            "value4": "844",
-                            "value5": "1017",
-                            "value6": "395"
+                            "value1": "191",
+                            "value2": "1418",
+                            "value3": "844",
+                            "value4": "1017",
+                            "value5": "395",
+                            "value6": "344",
+                            "value7":"126"
                         },
                         {
                             
                             "value0": "Regular Ordinary Capital and Concessional ResourcesS",
-                            "value1": "13244",
-                            "value2": "19687",
-                            "value3": "21576",
-                            "value4": "21643",
-                            "value5": "28172",
-                            "value6": "13538",
+                            "value1": "19687",
+                            "value2": "21576",
+                            "value3": "21643",
+                            "value4": "28172",
+                            "value5": "13538",
+                            "value6": "19452",
+                            "value7":"10430",
                             "class": "title-row-bold"
                         },
                         {
                             
-                            "value0": "Trade Finance,Supply Chain Finance and Microfinance Programs <sup>b</sup>",
-                            "value1": "1496",
-                            "value2": "1897",
-                            "value3": "2696",
-                            "value4": "2137",
-                            "value5": "3069",
-                            "value6": "2419",
+                            "value0": "Trade and Supply Chain Finance Program and Microfinance Program<sup>b</sup>",
+                            "value1": "1897",
+                            "value2": "2696",
+                            "value3": "2136<sup>c<sup>",
+                            "value4": "3069",
+                            "value5": "2419",
+                            "value6": "3072",
+                            "value7": "3047",
                             "class": "title-row-bold"
                         },
                         {
                             
                             "value0": "Long Term(maturity of 365 days or more)",
-                            "value1": "62",
-                            "value2": "98",
-                            "value3": "61",
-                            "value4": "102",
-                            "value5": "151",
-                            "value6": "125"
-                        }   ,
+                            "value1": "98",
+                            "value2": "61",
+                            "value3": "102",
+                            "value4": "151",
+                            "value5": "125",
+                            "value6": "221",
+                            "value7":"221"
+                        },
                         {
                             
                            "value0": "Short Term(maturity of less than 365 days)",
-                            "value1": "1434",
-                            "value2": "1800",
-                            "value3": "2634",
-                            "value4": "2034",
-                            "value5": "2918",
-                            "value6": "2294"
+                            "value1": "1800",
+                            "value2": "2634",
+                            "value3": "2034",
+                            "value4": "2918",
+                            "value5": "2294",
+                            "value6": "2851",
+                            "value7":"2826"
                         },
                         {
                             
                             "value0": "Regular Ordinary Capital and Concessional Resources with Trade Finance ,Supply Chain Finance and Microfinance Program",
-                            "value1": "14740",
-                            "value2": "21585",
-                            "value3": "24271",
-                            "value4": "23779",
-                            "value5": "31241",
-                            "value6": "15957",
+                            "value1": "21585",
+                            "value2": "24271",
+                            "value3": "23779",
+                            "value4": "31288",
+                            "value5": "15957",
+                            "value6": "22524",
+                            "value7":"13478",
                             "class": "title-row-bold"
                         },
                         {
                             
                             "value0": "Special  Funds<sup>c</sup>",
-                            "value1": "9",
-                            "value2": "2",
-                            "value3": "6",
-                            "value4": "-",
-                            "value5": "60",
-                            "value6": "55",
+                            "value1": "2",
+                            "value2": "6",
+                            "value3": "-",
+                            "value4": "60",
+                            "value5": "55",
+                            "value6": "5",
+                            "value7":"3",
                             "class": "title-row-bold"
                         },
                         {
                             
                             "value0": "Grants",
-                            "value1": "9",
-                            "value2": "2",
-                            "value3": "6",
-                            "value4": "-",
-                            "value5": "60",
-                            "value6": "55"
+                            "value1": "2",
+                            "value2": "6",
+                            "value3": "-",
+                            "value4": "60",
+                            "value5": "55",
+                            "value6": "5",
+                            "value7":"7"
                         },
                         {
                             
                             "value0": "Subtotal(A)",
-                            "value1": "14749",
-                            "value2": "21587",
-                            "value3": "24277",
-                            "value4": "23779",
-                            "value5": "31300",
-                            "value6": "16013",
+                            "value1": "21587",
+                            "value2": "24277",
+                            "value3": "23779",
+                            "value4": "31300",
+                            "value5": "16013",
+                            "value6": "22529",
+                            "value7":"13481",
                             "class":"subTotal"
                         }
                         
@@ -300,127 +328,142 @@
                       },
                       {
                         "title": ""
+                      },
+                      {
+                        "title": ""
                       }
                 ],
                 "subData": [
                     [
                         {
                             "value0": "Sovergian ",
-                            "value1": "11502",
-                            "value2": "17403",
-                            "value3": "18446",
-                            "value4": "18643",
-                            "value5": "26826",
-                            "value6": "13152",
+                            "value1": "17403",
+                            "value2": "18446",
+                            "value3": "18643",
+                            "value4": "26826",
+                            "value5": "13152",
+                            "value6": "18272",
+                            "value7":"10176",
                             "class": "title-row-bold"
                         },
                         {
                             "value0": "Loans",
-                            "value1": "11012",
-                            "value2": "16712",
-                            "value3": "17022",
-                            "value4": "17799",
-                            "value5": "25749",
-                            "value6": "12701"
+                            "value1": "16712",
+                            "value2": "17022",
+                            "value3": "17799",
+                            "value4": "25749",
+                            "value5": "12701",
+                            "value6": "17922",
+                            "value7":"10047"
                         },
                         {
                             "value0": "Gurantees",
-                            "value1": "-",
-                            "value2": "498",
+                            "value1": "498",
+                            "value2": "-",
                             "value3": "-",
                             "value4": "-",
                             "value5": "-",
-                            "value6": "-"
+                            "value6": "-",
+                            "value7":"-"
                         },
                         {
                             
                             "value0": "Grants",
-                            "value1": "491",
-                            "value2": "193",
-                            "value3": "1423",
-                            "value4": "844",
-                            "value5": "1077",
-                            "value6": "450"
+                            "value1": "193",
+                            "value2": "1423",
+                            "value3": "844",
+                            "value4": "1077",
+                            "value5": "450",
+                            "value6": "349",
+                            "value7":"129"
                         },
                         {
                             
                             "value0": "Nonsovereign",
-                            "value1": "1750",
-                            "value2": "2287",
-                            "value3": "3136",
-                            "value4": "3000",
-                            "value5": "1406",
-                            "value6": "442",
+                            "value1": "2287",
+                            "value2": "3136",
+                            "value3": "3000",
+                            "value4": "1406",
+                            "value5": "442",
+                            "value6": "1186",
+                            "value7":"257",
                             "class": "title-row-bold"
                         },
                         {
                             "value0": "Loans",
-                            "value1": "1486",
-                            "value2": "2000",
-                            "value3": "2862",
-                            "value4": "2670",
-                            "value5": "1151",
-                            "value6": "442"
+                            "value1": "2000",
+                            "value2": "2862",
+                            "value3": "2670",
+                            "value4": "1151",
+                            "value5": "442",
+                            "value6": "921",
+                            "value7":"257"
                         },
                         {
-                            "value0": "Gurantees",
-                            "value1": "96",
-                            "value2": "287",
-                            "value3": "274",
-                            "value4": "155",
-                            "value5": "255",
-                            "value6": "-"
+                            "value0": "Equity Investments",
+                            "value1": "287",
+                            "value2": "274",
+                            "value3": "155",
+                            "value4": "255",
+                            "value5": "-",
+                            "value6": "265",
+                            "value7":"-"
                         },
                         {
                             
-                            "value0": "Grants",
-                            "value1": "168",
+                            "value0": "Guarantees",
+                            "value1": "-",
                             "value2": "-",
-                            "value3": "-",
-                            "value4": "175",
+                            "value3": "175",
+                            "value4": "-",
                             "value5": "-",
-                            "value6": "-"
+                            "value6": "-",
+                            "value7":"-"
                         },
                         {
                             
                             "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
-                            "value1": "1496",
-                            "value2": "1897",
-                            "value3": "2696",
-                            "value4": "2137",
-                            "value5": "3069",
-                            "value6": "2419",
+                            "value1": "1897",
+                            "value2": "2696",
+                            "value3": "2136",
+                            "value4": "3056",
+                            "value5": "2419",
+                            "value6": "3072",
+                            "value7":"3047",
                             "class": "title-row-bold"
                         },
                         {
                             
-                            "value0": "Long Term",
-                            "value1": "62",
-                            "value2": "98",
-                            "value3": "61",
-                            "value4": "102",
-                            "value5": "151",
-                            "value6": "125"
+                            "value0": "Long term (maturity of 365 days or more)",
+                            "value1": "98",
+                            "value2": "61",
+                            "value3": "102",
+                            "value4": "151",
+                            "value5": "125",
+                            "value6": "221",
+                            "value7":"221"
                         }   ,
                         {
                             
-                           "value0": "Short Term",
-                            "value1": "1434",
-                            "value2": "1800",
-                            "value3": "2634",
-                            "value4": "2034",
-                            "value5": "2918",
-                            "value6": "2294"
+                           "value0": "Short term (maturity of less than 365 days)",
+                            "value1": "1800",
+                            "value2": "2634",
+                            "value3": "2034",
+                            "value4": "2904",
+                            "value5": "2294",
+                            "value6": "2851",
+                            "value7":"2826"
                         },
                         {
                             
                             "value0": "Subtotal(A)",
-                            "value1": "14749",
-                            "value2": "21587",
-                            "value3": "23779",
-                            "value4": "31300",
-                            "value5": "16013",
-                            "value6": "16000",
+                            "value1": "21587",
+                            "value3": "24277",
+                            "value4": "23779",
+                            "value2": "31287",
+                            "value5": "16146",
+                            "value6": "22759",
+                            "value7":"13511",
                             "class": "title-row-bold"
                         }
                         
@@ -451,36 +494,42 @@
                       },
                       {
                         "title": ""
+                      },
+                      {
+                        "title": ""
                       }
                 ],
                 "subData": [
                     [
                         {
                             "value0": "Sovereigon",
-                            "value1": "170",
-                            "value2": "192",
-                            "value3": "227",
-                            "value4": "221",
-                            "value5": "282",
-                            "value6": "128"
+                            "value1": "192",
+                            "value2": "227",
+                            "value3": "221",
+                            "value4": "282",
+                            "value5": "128",
+                            "value6": "209",
+                            "value7":"23"
                         },
                         {
                             "value0": "Nonsoveregion",
-                            "value1": "11",
-                            "value2": "9",
-                            "value3": "14",
-                            "value4": "17",
-                            "value5": "12",
-                            "value6": "6"
+                            "value1": "9",
+                            "value2": "14",
+                            "value3": "17",
+                            "value4": "12",
+                            "value5": "6",
+                            "value6": "21",
+                            "value7":"7"
                         },
                         {
                             "value0": "Subtotal(B)",
-                            "value1": "181",
-                            "value2": "201",
-                            "value3": "241",
-                            "value4": "237",
-                            "value5": "294",
-                            "value6": "134",
+                            "value1": "201",
+                            "value2": "241",
+                            "value3": "237",
+                            "value4": "294",
+                            "value5": "134",
+                            "value6": "230",
+                            "value7":"30",
                             "class": "title-row-bold"
                         }
                        
@@ -511,18 +560,22 @@
                       },
                       {
                         "title": ""
+                      },
+                      {
+                        "title": ""
                       }
                 ],  
                 "subData": [
                     [
                         {
-                            "value0": "ADB Operations without Trade Finance,Supply Chain Finance and Microfinance Programs",
-                            "value1": "13434",
-                            "value2": "19890",
-                            "value3": "21823",
-                            "value4": "21880",
-                            "value5": "28525",
-                            "value6": "13727"
+                            "value0": "ADB Operations without Trade and Supply Chain Finance Program <sup>b</sup> and Microfinance Program",
+                            "value1": "19890",
+                            "value2": "21823",
+                            "value3": "21880",
+                            "value4": "28525",
+                            "value5": "13727",
+                            "value6": "19687",
+                            "value7":"10463"
                         }
                        
                     ]
@@ -552,109 +605,122 @@
                       },
                       {
                         "title": ""
+                      },
+                      {
+                        "title": ""
                       }
                 ],  
                 "subData": [
                     [
                         {
-                            "value0": "Sovergian<sup>d,e</sup> ",
-                            "value1": "6369",
-                            "value2": "5976",
-                            "value3": "6753",
-                            "value4": "5418",
-                            "value5": "11123",
-                            "value6": "8817",
+                            "value0": "Sovergian",
+                            "value1": "5976",
+                            "value2": "6753",
+                            "value3": "5424",
+                            "value4": "11123",
+                            "value5": "8187",
+                            "value6": "4967",
+                            "value7":"2907",
                             "class": "title-row-bold"
                         },
                         {
                             "value0": "Trust Funds Administered by ADB",
-                            "value1": "399",
-                            "value2": "86",
-                            "value3": "216",
-                            "value4": "181",
-                            "value5": "288",
-                            "value6": "18"
+                            "value1": "86",
+                            "value2": "216",
+                            "value3": "181",
+                            "value4": "288",
+                            "value5": "18",
+                            "value6": "116",
+                            "value7":"46"
                         },
                         {
                             "value0": "Bilateral",
-                            "value1": "2577",
-                            "value2": "3460",
-                            "value3": "2113",
-                            "value4": "3706",
-                            "value5": "4553",
-                            "value6": "3319"
+                            "value1": "3460",
+                            "value2": "2113",
+                            "value3": "3714",
+                            "value4": "4554",
+                            "value5": "3319",
+                            "value6": "2051",
+                            "value7":"1360"
                         },
                         {
                             
                             "value0": "Multilateral",
-                            "value1": "3310",
-                            "value2": "2120",
-                            "value3": "3304",
-                            "value4": "1308",
-                            "value5": "6281",
-                            "value6": "4850"
+                            "value1": "2120",
+                            "value2": "3304",
+                            "value3": "1380",
+                            "value4": "6281",
+                            "value5": "4850",
+                            "value6": "2680",
+                            "value7":"1501"
                         },
                         {
                             
-                            "value0": "Others<sup>f</sup>",
-                            "value1": "83",
-                            "value2": "310",
-                            "value3": "1120",
-                            "value4": "149",
+                            "value0": "Others<sup>g</sup>",
+                            "value1": "310",
+                            "value2": "1120",
+                            "value3": "149",
+                            "value4": "0",
                             "value5": "0",
-                            "value6": "0",
+                            "value6": "120",
+                            "value7":"-",
                             "class": "title-row-bold"
                         },
                         {
-                            "value0": "Nonsovereign",
-                            "value1": "3702",
-                            "value2": "2882",
-                            "value3": "3161",
-                            "value4": "3218",
-                            "value5": "1937",
-                            "value6": "2496",
+                            "value0": "Nonsovereign<sup>h</sup>",
+                            "value1": "2882",
+                            "value2": "3161",
+                            "value3": "3283",
+                            "value4": "1937",
+                            "value5": "158",
+                            "value6": "1753",
+                            "value7":"209",
                             "class": "title-row-bold"
                         },
                         {
                             
-                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs",
-                            "value1": "1952",
-                            "value2": "3039",
-                            "value3": "3992",
-                            "value4": "3693",
-                            "value5": "3272",
-                            "value6": "2469",
+                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
+                            "value1": "3039",
+                            "value2": "3992",
+                            "value3": "3693",
+                            "value4": "3272",
+                            "value5": "2496",
+                            "value6": "5790",
+                            "value7":"5765",
                             "class": "title-row-bold"
                         },
                         {
                             
                             "value0": "Long Term(maturity of 365 days or more)",
-                            "value1": "125",
-                            "value2": "136",
-                            "value3": "134",
-                            "value4": "128",
-                            "value5": "171",
-                            "value6": "157"
+                            "value1": "136",
+                            "value2": "134",
+                            "value3": "128",
+                            "value4": "171",
+                            "value5": "157",
+                            "value6": "218",
+                            "value7":"218"
                         }   ,
                         {
                             
                            "value0": "Short Term (maturity of less than 365 days)",
-                            "value1": "1812",
-                            "value2": "2903",
-                            "value3": "3857",
-                            "value4": "3564",
-                            "value5": "3101",
-                            "value6": "2339"
+                            "value1": "2903",
+                            "value2": "3857",
+                            "value3": "3565",
+                            "value4": "3101",
+                            "value5": "2339",
+                            "value6": "5572",
+                            "value7":"5547"
                         },
                         {
                             
                             "value0": "Transation Advisory Service",
                             "value1": "-",
-                            "value2": "-",
-                            "value3": "405",
-                            "value4": "113",
-                            "value5": "76",
-                            "value6": "-",
+                            "value2": "405",
+                            "value3": "113",
+                            "value4": "76",
+                            "value5": "-",
+                            "value6": "423",
+                            "value7":"-",
                             "class": "title-row-bold"
                         }
                         
@@ -669,22 +735,25 @@
                         "title": "TOTAL COFINANCING"
                       },
                       {
-                        "title": "12022"
-                      },
-                      {
                         "title": "11896"
                       },
                       {
                         "title": "14310"
                       },
                       {
-                        "title": "12442"
+                        "title": "12512"
                       },
                       {
-                        "title": "16408"
+                        "title": "16409"
                       },
                       {
                         "title": "10841"
+                      },
+                      {
+                        "title": "12933"
+                      },
+                      {
+                        "title": "8881"
                       }
                 ]
                
