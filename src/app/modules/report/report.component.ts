@@ -4,7 +4,6 @@ import buttonJsonData from "src/app/constants/button.json";
 import chapter1JsonData from "src/app/constants/chapter1.json";
 import chapter2CardJsonData from "../../constants/chapter2-cards.json"
 import chapter3CardJsonData from "../../constants/chapter3.json"
-import chapter4CardJsonData from "../../constants/chapter4.json";
 import centralWestAsia from "../../constants/central-west-asia.json";
 import eastAsia from "../../constants/east-asia.json";
 import pacific from "../../constants/pacific.json";
@@ -109,10 +108,6 @@ export class ReportComponent implements OnInit, AfterViewInit {
                     this.data = chapter1JsonData;
                     this.generalApiService.chapterDetails.id = 1;
                     this.generateIDs('chap1');
-                } else if (params['id'] == 4) {
-                    this.generalApiService.chapterDetails.id = 4;
-                    this.data = chapter4CardJsonData;
-                    this.generateIDs('chap4');
                 } else if (params['id'] == 3) {
                     this.generalApiService.chapterDetails.id = 3;
                     this.data = chapter3CardJsonData;
@@ -181,9 +176,7 @@ export class ReportComponent implements OnInit, AfterViewInit {
             this.router.navigate(['/region']);
         } else if (this.param == 4) {
             this.router.navigate(['/appendixes-content']);
-        } else if (this.param == 3) {
-            this.data = chapter4CardJsonData;
-        } else if (this.param == 2) {
+        }   else if (this.param == 2) {
             this.router.navigate(['/region']);
         } else if (this.param == 5) {
             this.router.navigate(['/appendixes-content']);
@@ -197,8 +190,6 @@ export class ReportComponent implements OnInit, AfterViewInit {
             this.data = southeastasia;
         } else if (this.param == 14) {
             this.data = chapter3CardJsonData;
-        } else if (this.param == 15) {
-            this.data = chapter4CardJsonData;
         } else if (this.param == 16) {
             this.router.navigate(['/appendixes-content']);
         }
