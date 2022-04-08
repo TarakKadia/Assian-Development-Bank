@@ -3642,3 +3642,10 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !imp
     .expandTwoImage{
         padding: 12px;
     }
+
+    .titleTag{
+        color: white;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    font-weight: 400;
+}

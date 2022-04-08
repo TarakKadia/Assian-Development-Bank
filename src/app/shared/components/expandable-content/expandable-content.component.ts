@@ -14,6 +14,7 @@ export class ExpandableContentComponent implements OnInit {
     @Input() title: any;
     @Input() image: any;
     @Input() id: any;
+    @Input() tag: any;
     isExpand: boolean = false;
 
     ngOnInit(): void {

@@ -14,6 +14,7 @@ export class ImageComponent implements OnInit, AfterViewInit {
     @Input() id: any;
     @Input() heading:any;
     @Input() text:any;
+    @Input() titleTag:any;
 
     constructor(
         public generalApiService: GeneralApiService
