@@ -1,478 +1,524 @@
 [
     {
-        "data": "REGIONS:SOUTH ASIA",
-        "country": " Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka",
-        "type": "regionHeading"
-    },
-    
-    {
-        "data":"india.jpg",
-        "tag":"Children in India study by the light of off-grid solar power. ADB made further private sector investments in India’s solar power industry, including support to Avaada Energy Private Limited, which provides off-grid  solar facilities, and $65.5 million to the ENGIE group for a new 200-megawatt solar power plant in Gujarat.",
-        "type":"image"
+        "data": "chapter3-img4-1.png",
+        "heading": "CHAPTER 2: OPERATIONS",
+        "text": "SOUTH ASIA",
+        "titleTag": "Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka",
+        "tag": "Women lining up to be vaccinated against COVID-19 in Dhaka, Bangladesh.",
+        "type": "image"
     },
     {
-        "heading": "BY THE NUMBERS: South Asia",
-        "symbol":"$",
-
-        "digit1":9.0,
-        "tag1":"COMMITTED",
-        
-        "digit2":4.0,
-        "tag2":"COVID‑19<br>RESPONSE",
-       
-        "digit3":6.8,
-        "tag3":"DISBURSED",
-       
-        "digit4":4.4,
-        "tag4":"COFINANCED",
-
-        "sign":"B",
-        "type":"regionCounter"
+        "title": "BY THE NUMBERS",
+        "symbol": "$",
+        "digit1": 2.0,
+        "tag1": "COMMITTED",
+        "digit2": 478,
+        "tag2": "COVID‑19 RESPONSE",
+        "digit3": 1.7,
+        "tag3": "DISBURSED",
+        "digit4": 426,
+        "tag4": "COFINANCED",
+        "sign": "B",
+        "type": "regionCounter"
     },
     {
-        "data":"The economies of South Asia struggled during 2020 as COVID‑19 spread throughout the region, deeply affecting lives and livelihoods. Strict lockdowns disrupted economic activities, supply chains, and external demand. Countries that rely on international tourism, such as <a href='https://www.adb.org/countries/maldives/main' target='_blank'>Maldives</a>, <a href='https://www.adb.org/countries/nepal/main' target='_blank'>Nepal</a>, and <a href='https://www.adb.org/countries/sri-lanka/main' target='_blank'>Sri Lanka</a>, were particularly hard hit by border closures.",
-        "type":"paragraph"
+        "data": "South Asia saw economic growth rebound strongly in 2021, thanks largely to the easing of COVID-19 restrictions in some parts of the region, stronger commodity prices, and increased foreign trade.",
+        "type": "paragraph"
     },
     {
-        "data":"Countries in South Asia quickly initiated emergency measures augmenting health-care systems, while providing  immediate relief through social protection systems to help guarantee food, housing, energy, and jobs to affected people, particularly the poor and vulnerable. South Asian countries announced policy packages totaling $428.5 billion or 12.7% of regional gross domestic product.",
-        "type":"paragraph"
+        "data": "Recovery from the pandemic was, however, marred by recurring viral outbreaks. The region accounted for the bulk of COVID-19 cases in Asia and the Pacific, with new daily infections topping 403,000 in early May. Approximately 40% of the population had been fully vaccinated by the end of the year.",
+        "type": "paragraph"
     },
     {
-        "data":"Including technical assistance, ADB committed a total of $9.0 billion for the South Asia region in 2020, up  by 24% from 2019. Sovereign financing was complemented by $479.4 million support for 11 nonsovereign projects  for companies in the finance, energy, and agriculture sectors, particularly in <a href='https://www.adb.org/countries/india/main' target='_blank'>India</a> and <a href='https://www.adb.org/countries/bangladesh/main' target='_blank'>Bangladesh</a>, and $1.3  billion across three nonsovereign programs. Through its support for the private sector in South Asia, ADB  ensures that projects deliver on development goals while promoting environmental sustainability, social protection, and good governance.",
-        "type":"paragraph"
+        "data": "Governments in the region focused their COVID-19 response measures in 2021 on bolstering health systems and social protection. Bangladesh, for instance, moved to make its social resilience program more responsive, while Nepal strengthened community engagement to raise awareness on the benefits of vaccination.",
+        "type": "paragraph"
     },
     {
-        "data":"<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%249%20billion%20in%20South%20Asia%2C%20of%20which%20%244%20billion%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $9 billion in South Asia, of which $4 billion supported COVID-19 response.</a>",
-        "type":"twitter"
+        "data": "ADB continued to respond quickly and flexibly to help its developing member countries (DMCs) in South Asia address the COVID-19 crisis, committing $5.4 billion in financing for pandemic response during 2021. This support included $2.8 billion in loans under the Asia Pacific Vaccine Access Facility (APVAX) to help the region procure and deliver over 800 million vaccine doses for more than 415 million people in Bangladesh, India, Nepal, and Sri Lanka.",
+        "type": "paragraph"
     },
     {
-        "data":"ADB’s COVID‑19 response in South Asia amounted to around 44% of its commitments in the region in 2020.Initially, technical assistance and <a href='https://www.adb.org/what-we-do/funds/asia-pacific-disaster-response-fund-apdrf' target='_blank'>Asia Pacific Disaster Response Fund</a> grants supported emergency procurement of medical supplies and personal protective equipment. ADB’s COVID‑19 Active Response and Expenditure Support (CARES) Program and emergency assistance loans totaling $2.4 billion followed.",
-        "type":"paragraph"
+        "data": "ADB also provided loans, grants, and technical assistance to make social protection systems more inclusive, especially for women and the elderly; enable businesses to stay open and retain and create jobs; and improve and expand health-care services.",
+        "type": "paragraph"
     },
-
     {
-        "heading": "In 2020, ADB’s commitments in this region were primarily in the following sectors: ",
-      
-        "digit1":22,
-        "tag1":"ENERGY",
-        
-        "digit2":20,
-        "tag2":"PUBLIC SECTOR MANAGEMENT",
-       
-        "digit3":15,
-        "tag3":"TRANSPORT",
-       
-        "digit4":14,
-        "tag4":"FINANCE",
-
-        "digit5":9,
-        "tag5":"WATER AND OTHER URBAN INFRASTRUCTURE SERVICES",
-
-        "sign":"%",
-        "type":"currencyCounter"
+        "data": "Meanwhile, ADB continued operations to help its DMCs in South Asia achieve their longer-term development objectives while contributing to a green and inclusive recovery from the pandemic. For example, the bank helped governments strengthen their public financial management systems, and supported tax reforms to boost domestic resource mobilization.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In total, ADB committed $8.8 billion for South Asia in 2021, including nearly $300 million for nonsovereign projects supporting companies mainly in the energy, finance, and transport sectors.",
+        "type": "paragraph"
     },
     {
         "data": "STRATEGIC FOCUS",
         "type": "heading"
-      },
-      {
-        "data":{
-            
-            "data":[
+    },
+    {
+        "data": "Addressing Remaining Poverty and Reducing Inequalities",
+        "image": "op1_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "In 2021, ADB aimed to address the short-term ramifications of the COVID-19 pandemic on the poor and vulnerable of South Asia and help build foundations for an economic recovery that leaves no one in the region behind.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The bank made important investments to reduce the impacts of the pandemic on the disadvantaged, most notably via APVAX, which is helping ensure more equitable access to vaccines. Under this facility, ADB provided Bangladesh with a $940 million loan to procure 115 million COVID-19 vaccine doses; Nepal $165 million for around 16 million doses; Sri Lanka $150 million for 12 million doses; and India $1.5 billion—the largest loan under APVAX—for 667 million doses.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Maldives, ADB provided technical assistance to strengthen the country’s health system, with a focus on COVID-19 pandemic response and vaccination plans. Similarly, ADB is administering a grant of $5 million from the Japan Fund for Prosperous and Resilient Asia and the Pacific to help local governments in Nepal respond better to the pandemic. The grant is funding community initiatives in water supply, sanitation, and hygiene, along with health initiatives to prevent COVID-19 transmission in regional centers and small towns. Linked to ongoing ADB-financed projects, it supports the construction of 20 multipurpose community shelters equipped with health-care amenities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To reduce inequality over the longer term, ADB provided $300 million to extend comprehensive primary health-care services in 13 Indian states, benefiting an estimated 256 million urban dwellers, including 51 million people who live in urban slums.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The bank also committed $150 million to provide housing for the urban poor in the state of Tamil Nadu, and relocate 6,000 poor households from areas vulnerable to natural hazards to safer locations. Under the project, ADB is supporting the Government of India to engage with the private sector to mobilize additional financing for the construction of affordable housing.",
+        "type": "paragraph"
+    },
+    {
+        "id": 2,
+        "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
+        "digit1": 34,
+        "tag1": "PUBLIC SECTOR MANAGEMENT",
+        "digit2": 15,
+        "tag2": "INDUSTRY AND TRADE",
+        "digit3": 14,
+        "tag3": "FINANCE",
+        "digit4": 11,
+        "tag4": "TRANSPORT",
+        "digit5": 10,
+        "tag5": "HEALTH",
+        "sign": "%",
+        "type": "currencyCounter"
+    },
+    {
+        "data": "STRATEGIC FOCUS",
+        "type": "heading"
+    },
+    {
+        "data": {
+            "data": [
                 {
-                "id":1,
-                "image":"op1_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#111111",
-                "datasets": [
-                    {
-                        "label": "1",
-                        "centerText":"",
-                        "data": [35,55,10],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":2,
-                "image":"op2_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#222222",
-                "datasets": [
-                    {
-                        "label": "2",
-                        "centerText":"90%",
-                        "data": [30, 70,0],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":3,
-                "image":"op3_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#333333",
-                "isSmall": true,
-                "datasets": [
-                    {
-                        "label": "3",
-                        "centerText":"",
-                        "data": [5, 65,30],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":4,
-                "image":"op4_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#444444",
-                "isSmall": true,
-                "datasets": [
-                    {
-                        "label": "4",
-                        "centerText":"",
-                        "data": [5, 20,75],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":5,
-                "image":"op5_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#555555",
-                "isSmall": true,
-                "datasets": [
-                    {
-                        "label": "5",
-                        "centerText":"",
-                        "data": [20, 60,20],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":6,
-                "image":"op6_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#111111",
-                "datasets": [
-                    {
-                        "label": "6",
-                        "centerText":"",
-                        "data": [30, 45,25],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":7,
-                "image":"op1_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#f2ae29",
-                "datasets": [
-                    {
-                        "label": "7",
-                        "centerText":"",
-                        "data": [10, 10,80],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            }
-        ]
-            
+                    "id": 1,
+                    "image": "op1_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#111111",
+                    "datasets": [
+                        {
+                            "label": "1",
+                            "centerText": "",
+                            "data": [
+                                40,
+                                45,
+                                15
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "image": "op2_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#222222",
+                    "datasets": [
+                        {
+                            "label": "2",
+                            "centerText": "90%",
+                            "data": [
+                                55,
+                                45,
+                                5
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "image": "op3_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#333333",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "3",
+                            "centerText": "",
+                            "data": [
+                                10,
+                                40,
+                                50
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "image": "op4_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#444444",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "4",
+                            "centerText": "",
+                            "data": [
+                                5,
+                                15,
+                                80
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "image": "op5_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#555555",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "5",
+                            "centerText": "",
+                            "data": [
+                                8,
+                                22,
+                                70
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "image": "op6_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#111111",
+                    "datasets": [
+                        {
+                            "label": "6",
+                            "centerText": "",
+                            "data": [
+                                30,
+                                45,
+                                25
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "image": "op1_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#f2ae29",
+                    "datasets": [
+                        {
+                            "label": "7",
+                            "centerText": "",
+                            "data": [
+                                25,
+                                15,
+                                60
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                }
+            ]
         },
         "type": "strategicFocusPieChart"
-      },
-    {
-        "data":"Addressing Remaining Poverty and<br>Reducing Inequalities",
-        "image":"op1_color.png",
-        "type":"logoHeading"
     },
     {
-        "data":"In South Asia, ADB addresses poverty and inequality through operations in agriculture and natural resources,  human development, and strengthening micro, small, and medium-sized enterprises (MSMEs). The bank is also progressively increasing assistance for education and skills development.",
-        "type":"paragraph"
-    },
-    {
-        "data":"In <a href='https://www.adb.org/countries/bhutan/main' target='_blank'>Bhutan</a>, 62% of the population lives in rural areas where agriculture is the primary source of livelihoods.  ADB is therefore supporting a rural finance development project through a $20 million concessional loan and $1  million in technical assistance to enhance access to finance for cottage and small industries, increasing  rural jobs and promoting economic development.",
-        "type":"paragraph"
-    },
-    {
-        "data":"ADB also committed $30 million for a program to develop financial markets in Bhutan. Using a policy-based loan to support the government’s institutional reforms, the program will assist economic diversification and  improve financial inclusion in the country.",
-        "type":"paragraph"
-    },
-    {
-        "data":"ADB committed a $1.5 billion CARES Program loan for India to support health initiatives and fund social  protection for more than 800 million people, including families below the poverty line, women, senior  citizens, people with disabilities, and low-wage earners, among others. The bank also supported India in strengthening the resilience of urban primary health systems for essential services as well as pandemic responses.",
-        "type":"paragraph"
-    },
-    {
-        "data":"In Maldives, ADB financed the establishment of COVID‑19 testing facilities in five regional hospitals,  doubled testing capacity to 800 per day, and provided 400 isolation beds. The program also supported  government social protection and economic assistance measures by providing safe accommodation for migrant  workers and survivors of gender-based violence, cash assistance and income support for the poor and vulnerable, and working capital support for affected businesses.",
-        "type":"paragraph"
-    },
-    {
-        "data":"sard_photo2.jpg",
-        "tag":"Sri Lankan health workers carry out COVID‑19 testing in Colombo.",
-        "type":"image"
-    },
-    {
-        "title":"BOOSTING TESTING CAPACITY IN SRI LANKA",
-            "data": "Despite Sri Lanka’s well-established health system, the country was in urgent need of increasing its diagnostic capacity to detect COVID‑19 infections.<br><br>ADB responded without delay by providing the necessary funds to establish a new molecular polymerase chain reaction (PCR) laboratory at the Colombo East Base Hospital.<br><br>An empty site on the hospital premises soon became a hive of activity as teams worked tirelessly to  construct the building and install utility services. This work was complemented by construction of an   improved access road and installation of a dedicated power line to the laboratory.<br><br>On 24 June 2020, Sri Lanka’s Ministry of Health and Indigenous Medical Services officially opened the PCR laboratory. It is equipped with PCR machines, consumables, pharmacological refrigerators and freezers,  generators, reagents, and dedicated utilities, and is staffed with the necessary operational support. The  new laboratory has enhanced the COVID‑19 diagnostic capacity of Sri Lanka by 500 tests per day on a  12-hour  shift and 1,000 tests on a 24-hour shift. It has also improved the quality of care, while ensuring the  safety of laboratory and health staff who handle patients’ samples from the Colombo East Base Hospital and  hospitals in other parts of the country.",
-            "type": "expand"
-         
-    },
-
-    {
-        "data": "Accelerating Progress<br>in Gender Equality",
+        "data": "Accelerating Progress in Gender Equality",
         "image": "op2_color.png",
-        "type":"logoHeading"
-      },
-    {
-        "data":"ADB continues to scale up support for gender equality and social inclusion (GESI) in South Asia. ADB promoted gender equality in 95% of its number of committed projects in South Asia during 2018–2020, up from 89% during 2017–2019.",
-        "type":"paragraph"
+        "type": "logoHeading"
     },
     {
-        "data":"ADB committed $2.2 million for a regional transaction technical assistance facility to better integrate GESI in project design and implementation in its operations in the region. The facility will also strengthen the gender-equality capacities of executing and implementing agencies.",
-        "type":"paragraph"
+        "data": "ADB ensured gender equality elements featured strongly across its operations in South Asia in 2021. The bank’s gender initiatives in Bangladesh and Sri Lanka demonstrate how these operations contribute to social protection, universal health care, inclusive economic growth, and other development outcomes.",
+        "type": "paragraph"
     },
     {
-        "data":"In Bangladesh, ADB committed $50 million in additional financing to a microenterprise development project that will scale up gender-inclusive finance for microenterprises severely impacted by the COVID‑19  pandemic.  The project will provide loans to an additional 30,000 microenterprises, 70% of which are led by women.",
-        "type":"paragraph"
-    },
-
-        {
-        "data":"ADB also committed technical assistance of $1 million to assess policy and regulatory frameworks to generate climate-related employment in the country’s Chittagong Hill Tracts watershed area. Women will select the  location of water projects, while households headed by women will be targeted for job opportunities in the construction and operation of infrastructure subprojects.",
-        "type":"paragraph"
-    },
-        {
-        "data":"In India, ADB committed a nonsovereign loan of $60 million in Indian rupee equivalent to Aavas Financiers  Limited to improve access to housing finance for lower-income borrowers, including 110,000 women.",
-        "type":"paragraph"
+        "data": "In Bangladesh, ADB committed a $250 million loan that, along with $351 million in cofinancing, will support reforms to improve social protection for vulnerable women. The program will expand coverage of both the old-age allowance for women over 62 and the allowance for widowed, deserted, and destitute women in 150 upazilas (subdistricts). Selection of almost 1 million beneficiaries was completed in 2021, with 90% of those women receiving two cash transfer installments.",
+        "type": "paragraph"
     },
     {
-        "data": "Tackling Clmate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
+        "data": "ADB also committed a $150 million loan to rejuvenate the country’s micro, small, and medium-sized enterprises (MSMEs) operated by youth, rural entrepreneurs, and returning migrant workers, particularly women. The loan to Bangladesh Bank, the nation’s central bank, will be on-lent to participating financial institutions to support MSMEs. More than 6,000 women-led or owned microenterprises will benefit from better access to financing. The project will also provide business incubation services for women.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Also in Bangladesh, ADB provided technical assistance to improve road safety and maintenance along one of the country’s major highways. The project includes support to build the capacity of the Roads and Highways Department to integrate gender equality and social inclusion (GESI) features into the country’s road operations. It will develop a strategy and guidelines for GESI and identify how bus stations along National Highway No. 2 can be upgraded to provide better facilities for women, the elderly, and children.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Sri Lanka, ADB provided a $110 million loan to bolster primary health-care services for four underserved provinces. The loan will finance gender-responsive facilities in hospitals and enhance health services tailored for women, men, and children. It includes a pilot program to engage with over 1,000 men and boys on reproductive health and with more than 3,000 women and girls to promote maternal and child health and nutrition. It also aims to aid government efforts to integrate gender issues into health sector policies.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
         "image": "op3_color.png",
         "type": "logoHeading"
-      },
-      {
-        "title": "BUILDING BACK BETTER IN NEPAL",
-         "data":"When a 7.8 magnitude earthquake hit Nepal in April of 2015, the scale of the destruction was heartbreaking. Among the widespread devastation, which included the loss of nearly 500,000 homes, close to 30,000 classrooms were destroyed or damaged.<br><br>“We were concerned that a generation of students would drop out of school,” said Naresh Giri, a senior  project officer with ADB.<br><br>More than 5 years on, and thanks in part to ADB investment in earthquake assistance and disaster reconstruction, over 60,000 Nepalese students are now learning in modern, earthquake-safe schools and are  better prepared for future disasters.<br><br>By 2020, a total of 162 reconstructed schools, including eight schools funded by the Japan Fund for Poverty  Reduction, had been handed over to their school management committees. All schools have been reconstructed  following strict building standards and specifications, feature the latest educational amenities, and are  well-equipped to assist people with disabilities.<br><br>The reconstruction project was jointly financed by ADB, the Japan Fund for Poverty Reduction, the United States Agency for International Development, and the Government of Nepal.<br><br>To learn more, see the photo essay <a href='https://adb.exposure.co/building-a-safer-future' target='_blank' onclick='linkHandler(event);'>Building a Safer Future</a>.",
-         "type": "expandTwo"
-      },
-    {
-        "data":"Despite the shift in focus brought by COVID‑19, ADB has remained committed to addressing climate change  and disaster resilience in South Asia. Of the total number of projects committed in South Asia in 2020, 58% included climate mitigation or adaptation components (compared to 63% in 2019). Total climate financing  amounted to $1.7 billion, from ADB’s own resources.",
-        "type":"paragraph"
-    },
-        {
-        "data":"In India, ADB continues to make private sector investments in the country’s solar power industry. The bank  committed a long-term loan of $62.41 million to the ENGIE group for construction and operation of a  200-megawatt solar power plant at Raghanesda Solar Park in the western state of Gujarat. The power plant is expected to generate about 440 gigawatt-hours of electricity annually and help avoid nearly 385,000 tons of carbon dioxide emissions a year.",
-        "type":"paragraph"
     },
     {
-        "data":"ADB also provided $7.5 million from its ordinary capital resources and $7.5 million from the Leading Asia’s Private Infrastructure Fund for Avaada Energy Private Limited (AEPL). This follows a $50 million ADB investment in the company in 2019. AEPL is a leading developer of solar energy projects in India through utility scale, rooftop, and off-grid solar facilities.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"In Nepal, ADB is helping modernize the country’s electricity grid to advance sustainable growth. The bank committed $156 million to automate existing grid substations and install new ones, construct new transmission lines, and install smart meters for 350,000 electricity consumers in the Kathmandu Valley. The project will reduce greenhouse gas emissions by an estimated 34,716 tons of carbon dioxide per year by reducing losses and  providing new connections with clean energy sources.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"Through a further $50 million commitment from ADB, Nepal will introduce flood control infrastructure and  flood forecasting systems to protect valuable agricultural land in prioritized river basins in the Terai region.",
-        "type":"paragraph"
-    },
-
-
-      {
-        "data":"In Maldives, a waste-to-energy project will construct a solid waste treatment facility with ADB providing $73 million in loans and grants. The project will build a facility that can process 500 tons of waste every day and recover 8 megawatts of surplus energy.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"",
-        "type":"video"
-    },
-
-      {
-        "tag":"Learn more about this project, including how it will improve the livability of the Greater  Malé area and help build the capacity of Maldives’ Ministry of Environment and Environmental Protection  Agency.",
-        "type":"tag"
+        "data": "ADB continued to support climate change mitigation and adaptation and disaster resilience across South Asia. This included investments for climate-resilient infrastructure and clean energy, as well as support to plan and finance disaster preparedness.",
+        "type": "paragraph"
     },
     {
-        "data": "Making Cities<br>More Livable",
+        "data": "In India, ADB committed $251 million to reduce the exposure of 1.9 million people in the Chennai-Kosasthalaiyar River basin to seasonal flooding, which has in recent years destroyed property and livelihoods. By financing disaster-resilient infrastructure in the river basin, ADB is helping communities cope with intensifying rainfall, a rise in sea level, and storm surges caused by cyclones.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB also provided technical assistance to build climate resilience along the coastlines of Bangladesh, India, Maldives, and Sri Lanka. The assistance will help the countries prepare strategic plans and identify financing opportunities to reduce vulnerability to natural hazards and restore ecosystems that are exposed to them.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To support India’s transition to clean energy, ADB made a pioneering arrangement that extends back-to-back sovereign and nonsovereign loans for a single project, totaling $190 million, to the Government of India, the State Government of Karnataka, and the Bangalore Electricity Supply Company Ltd (BESCOM). Under the arrangement, BESCOM will upgrade its power distribution system to improve the efficiency and safety of services for over 11.8 million consumers in urban Bengaluru. The investment is expected to avoid over 113,000 tons of carbon dioxide emissions each year.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Making Cities More Livable",
         "image": "op4_color.png",
         "type": "logoHeading"
-      },
-    {
-        "data":"ADB operations in South Asia prioritized financing projects to improve water security, urban mobility, and environment and disaster risk management to make cities more livable.",
-        "type":"paragraph"
     },
     {
-        "data":"ADB is supporting a modern rapid transport system in India with a $500 million loan. The project, through ADB’s technical assistance and knowledge advice, will support systematic land-use planning and promote vertical and dense development of urban buildings, along with municipal resource mobilization, to create an efficient and clean urban environment.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"ADB also provided a $100 million loan to India for a smart energy project that will make cities more livable  by converting overhead distribution lines to underground cables.",
-        "type":"paragraph"
+        "data": "South Asia is home to some of the most underprivileged urban centers in Asia and the Pacific. In 2021, ADB made investments to improve the quality of life in South Asian cities by financing better urban policy development and planning, improved public transport, and a greater supply of affordable housing.",
+        "type": "paragraph"
     },
     {
-        "data":"Through a township development project in Phuentsholing in southern Bhutan, ADB is helping develop 66  hectares of new urban land to enable sustainable expansion of human settlements and commercial activities. The  bank committed $28.5 million of additional financing in 2020 to continue funding flood and erosion protection  and smart urban infrastructure.",
-        "type":"paragraph"
+        "data": "In India, the bank committed a $350 million loan that supports national policies to deliver services to the country’s 460 million urban dwellers. Through central government grants, subject to performance improvements in various sectors, the program will help establish policies and guidelines for water supply and sanitation, rental housing policies and programs for migrant workers and the poor, and guidelines for disbursement of financing.",
+        "type": "paragraph"
     },
-      {
-        "data":"ADB’s regional technical support initiative for COVID‑19 prevention and control, which includes  Bangladesh,  Nepal, and Sri Lanka among the pilot countries, underscores the need for an integrated approach to water,  hygiene, and health management. A $2 million grant from the Japan Fund for Poverty Reduction will promote WASH+H awareness (water, sanitation, hygiene, and health) to respond to COVID‑19 and prepare for other sanitation-related public health emergencies.",
-        "type":"paragraph"
-    }, 
-    
     {
-        "data": "Promoting Rural Development<br>and Food Security",
+        "data": "ADB also signed a $500 million loan with the Government of India to expand the metro rail network in Bengaluru. Supplemented by $330 million in cofinancing, the project will build two new metro corridors totaling 56 kilometers (km), mostly elevated, with 30 new stations. It will provide safe, affordable, and green travel for Bengaluru’s projected urban population of 16.2 million by 2030, helping decongest traffic and provide easier travel to the airport. The new lines will cater to all commuters and meet the special needs of the elderly, women, children, and persons with disabilities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Bhutan, where there is a dire housing shortfall and nearly 64% of urban households rent, ADB committed $30 million to help build affordable housing and community amenities in six cities. The financing covers the construction of 1,000 disaster-resilient and energy-efficient rental units for low-income households, 3 integrated community service centers, and 2 transfer stations for recyclable waste. The project will also help develop the institutional capacity, policies, and regulatory framework of Bhutan’s housing sector.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To improve transport connectivity from hinterlands in Andhra Pradesh to the port of Vishakhapatnam on India’s east coast, ADB committed a nonsovereign loan of $51.1 million in Indian rupee equivalent to DBL Anandapuram Anakapalli Highways Private Ltd. The project will convert a section of national highway from two lanes to six lanes, decongesting a key traffic choke point and resulting in faster freight movements and reduced logistics costs. It is ADB’s first private sector road project in South Asia and will create nearly 1,100 jobs during the construction phase.",
+        "type": "paragraph"
+    },
+    {
+        "title": "Agriculture Investments to Spur Pandemic Recovery in India",
+        "image":"chapter2-img3-2.png",
+        "tag": "Maharashtra is one of India’s biggest chili-producing states. ADB support to agribusinesses in the state will bolster a green and inclusive recovery.",
+        "data": "In 2021, ADB made two complementary investments to help boost the rural economy and accelerate pandemic recovery in India’s Maharashtra state. The bank signed a $100 million loan to improve agribusiness and postharvest handling capacities, boost farm incomes, and reduce food losses across the state. The loan will help upgrade or construct facilities to provide about 200,000 individual farmers and farmer organizations with clean, accessible, and sustainable crop storage and processing. It will also allow better access to finance, provide training on horticulture value chains and postharvest management, and complement ADB’s private sector pipeline projects for developing high-efficiency crop nutrition and soil improvement. To enhance the benefits of the agribusiness loan, ADB also committed $300 million in additional financing to build 1,100 kilometers of all-weather roads and 230 bridges in 34 rural districts of Maharashtra. These roads will improve crop transportation and market connectivity for farmers and agricultural enterprises, while also giving small villages better access to schools and health facilities. The project is expected to generate about 3.1 million person-days of employment for local communities, of which at least 25% will be for women.",
+        "type": "expand"
+    },
+    {
+        "data": "Promoting Rural Development and Food Security",
         "image": "op5_color.png",
         "type": "logoHeading"
-      },{
-        "data":"ADB work in South Asia to advance rural prosperity and food security includes improving roads and electricity supply and financing and supporting agriculture enterprise.",
-        "type":"paragraph"
-    },
-
-      {
-        "data":"In Bangladesh, ADB committed $100 million in additional financing to build approximately 930 kilometers of rural roads. The project will improve the efficiency of the transport system and create jobs in target areas.",
-        "type":"paragraph"
     },
     {
-        "data":"ADB committed $300 million financing for a power distribution improvement project in India to promote economic development in rural Uttar Pradesh. By building separate feeders for electricity supply to  agriculture and residential consumers, the project will improve rationing of unmetered power, strengthen financial management of the state power distribution agency, and improve bill collection in rural areas.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"In Sri Lanka, ADB committed $165 million for a line of credit to provide affordable working capital loans to MSMEs affected by COVID‑19. It will also provide long-term financing to around 6,000 MSMEs, including women-led businesses and tea smallholders to support their transformation toward a “new normal.”",
-        "type":"paragraph"
+        "data": "Rural development remains critical in South Asia to eliminate poverty and ensure water and food security.",
+        "type": "paragraph"
     },
     {
-        "data": "Strengthening Governance and<br>Institutional Capacity",
+        "data": "In Nepal, ADB provided technical assistance to prepare a project that will help meet domestic demand for fruit and nuts while enhancing the livelihoods of farmers in five provinces. The assistance is assessing ways to improve disease-free nursery management and Nepal’s associated certification system as well as digitize the payment system for agricultural subsidies and other financial support. It is also exploring carbon capture of fruit and nut orchard farming and improvements to the climate resilience of orchard management.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Sri Lanka, ADB committed $200 million as the third tranche of an integrated road program to improve and maintain about 3,400 km of rural access roads and 340 km of national roads. The program is strengthening connectivity between rural communities and socioeconomic centers for 9.8 million people in the Northern, Eastern, Western, and Uva provinces.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Strengthening Governance and Institutional Capacity",
         "image": "op6_color.png",
         "type": "logoHeading"
-      },
-    {
-        "data":"Strengthening governance and institutional capacity is a high priority in South Asia. Approximately 73% of sovereign and nonsovereign projects committed for the region in 2020 included support for improved governance and institutional capacity.",
-        "type":"paragraph"
     },
     {
-        "data":"In India, a $50 million program to support public financial management reforms in West Bengal will strengthen procedures and operational efficiencies to generate fiscal savings, support informed decision-making, and enhance service delivery.",
-        "type":"paragraph"
+        "data": "To generate rapid and sustainable economic recovery from the COVID-19 pandemic, DMCs in South Asia are seeking to improve public financial management, build their capacity to deliver better infrastructure, and enhance financial markets.",
+        "type": "paragraph"
     },
     {
-        "data":"ADB’s Capacity Development Resource Center also supported India’s Integrated Government Online Training  scheme to provide online COVID‑19 training to civil servants. The center helped develop a series of  critical e-learning modules in multiple Indian languages. The modules, which have attracted almost 2 million  participants, tackle clinical management, intensive care and ventilation management, infection prevention and  control, use of personal protective equipment, quarantine and isolation, and more.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"In Nepal, ADB committed $50 million for improvements to civil aviation. The project will help restructure the  Civil Aviation Authority of Nepal and strengthen its oversight functions, management accountability, and operational efficiency.",
-        "type":"paragraph"
+        "data": "As part of its response, ADB committed a $250 million policy- based loan to the Government of Bangladesh that, along with $425 million in cofinancing, will support reforms to improve public financial management. Including measures to enhance the country’s tax system, these reforms will bolster fiscal space for the government to increase investments in education, health, social protection, and infrastructure.",
+        "type": "paragraph"
     },
     {
-        "data": "Fostering Regional Cooperation<br>and Integration",
+        "data": "ADB also continued to assist Bangladesh with public–private partnerships (PPPs). It helped mobilize $384 million of commercial investment for a bypass road project in Dhaka, the first of its kind under the country’s PPP Law. The bank gave financial advice as well as project preparation and monitoring support to the country’s Public Private Partnership Authority and its Roads and Highways Department for a 25-year agreement to design, build, finance, operate, and maintain the 48 km road project. By enabling heavy goods traffic to bypass Dhaka, the project will not only improve urban air quality and the metropolitan environment but also help facilitate trade and business opportunities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB provided technical assistance to strengthen public sector capacity for developing sustainable infrastructure across South Asia, including through state-owned enterprises. Bangladesh, Maldives, and Nepal are participating in the program, which aims to strengthen infrastructure governance, including alignment with quality infrastructure investment principles.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To develop financial markets in Bhutan, ADB committed $30 million as part of a longer-term program. The 2021 financing will help enhance the country’s nonbank financial system by making government bonds available on the Royal Stock Exchange of Bhutan. It will also prepare rules for corporate governance and social responsibility as well as strengthen markets and institutions by implementing international financial reporting standards, revising rules on anti-money laundering, and aligning with banking regulations as specified under the Basel III accord.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Maldives, an ADB technical assistance project will enhance debt sustainability through capacity building and the preparation of a comprehensive debt management strategy.",
+        "type": "paragraph"
+    },
+    {
+        "title": "Advancing Sustainable Energy in Maldives",
+        "image": "chapter2-img4-2.png",
+        "tag": "Clean energy infrastructure supported by ADB is helping Maldives reduce pollution and energy costs.",
+        "data": "As an atoll nation in the middle of the Indian Ocean with 188 inhabited islands, Maldives faces extraordinary challenges in delivering reliable, affordable, and sustainable energy to its people. In 2012, with each island electrified by its own diesel-powered grid system, this small tourism-based economy spent over $470 million on oil imports, a large share of it being fuel for electricity generation. In response, ADB announced a flagship project in 2014 to prepare outer islands in Maldives for sustainable energy development. The cofinanced project has since been introducing renewable hybrid power generation, with energy management systems and grid upgrades, to meet the energy needs of more than 160 outer islands, making it a unique initiative for the small island developing state. By June 2021, hybrid solar–battery–diesel systems had been installed on 70 islands, increasing renewable energy generation in Maldives from 0.1 megawatts in 2008 to more than 22 megawatts to date. This has reduced the country’s carbon dioxide emissions from the energy sector by at least 40,000 tons. These achievements saw the project acknowledged in the renewable energy and energy efficiency category at the 2021 Greening the Islands Awards. It also has popular support among communities in the outer islands. The hybrid systems decrease the running time of diesel-powered engines, reducing air pollution and noise levels and improving the quality of life for island residents.",
+        "type": "expand"
+    },
+    {
+        "data": "Fostering Regional Cooperation and Integration",
         "image": "op7_color.png",
         "type": "logoHeading"
-      },
-    {
-        "data":"ADB helped enhance regional connectivity in transport, energy, and trade facilitation in South Asia in 2020.  It also helped strengthen subregional initiatives through the <a href='https://www.sasec.asia/' target='_blank'>South Asia Subregional Economic Cooperation  (SASEC) program</a>, the <a href='https://bimstec.org/' target='_blank'>Bay of Bengal Initiative for  Multi-Sectoral Technical and Economic Cooperation</a>, and the  <a href='https://www.saarc-sec.org/' target='_blank'>South Asian Association for Regional Cooperation</a>.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"ADB continued its support for the SASEC road corridor in Dhaka-Northwest in Bangladesh, committing $406.1  million in loans to strengthen trade. The Government of Bangladesh provided complementary financing of $99.6  million.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"Under a SASEC program supporting intraregional power trade, ADB committed $200 million to Nepal to upgrade substations in Khimti, Barhabise, and Lapsiphedi, which will facilitate cross-border power exchanges between  Nepal and India.",
-        "type":"paragraph"
-    },
-
-     {
-        "data":"ADB also committed a $150 million concessional loan to improve the safety and capacity of Tribhuvan  International Airport and Gautam Buddha Airport in Nepal. The project aims to help revive the country’s  tourism industry and address the long-term economic effects of the COVID‑19 pandemic.",
-        "type":"paragraph"
-    },
-     {
-        "data":"",
-        "type":"paragraph"
-    },
-
-     {
-        "data":"",
-        "type":"paragraph"
     },
     {
-        "data":"",
-        "type":"paragraph"
+        "data": "ADB’s 2021 commitments to promote cooperation and integration across South Asia included key investments to facilitate trade by promoting transport connectivity across the region.",
+        "type": "paragraph"
     },
     {
-        "title": "Supporting Maldives’ Short- and Long-Term Development",
-        "data": "In October, ADB endorsed a <a href='https://www.adb.org/documents/maldives-country-partnership-strategy-2020-2024' target='_blank'>new 5-year country partnership strategy for Maldives</a>, in line with priorities in the Government of Maldives’ Strategic Action Plan 2019–2023 and with ADB’s Strategy 2030. The strategy aims  to enhance public sector efficiency and diversify the country’s economic base while ensuring environmentalsustainability through investments in cleaner energy. It will also support Maldives in responding to COVID‑19.", 
-         "image": "sard_smallbox.jpg",
-        "type": "shadeKnowledgeTwo"
-      },
-
+        "data": "The bank committed $400 million toward the South Asia Subregional Economic Cooperation Dhaka–Sylhet Corridor Road as part of a $1.8 billion financing package over 10 years. The project road connects Bangladesh to the border with northeastern India and further to Bhutan, facilitating regional trade from Dhaka–Sylhet and beyond to Tamabil–Dawki– Shillong–Guwahati. The investment will enhance regional connectivity by providing faster and safer transport of trade and industrial output, offering employment opportunities to several thousand people each year.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Tamil Nadu, India, ADB committed $484 million to improve roads and facilitate industrial development along the Chennai- Kanyakumari Industrial Corridor. The investment will help upgrade and maintain about 590 km of state highways that link to the corridor, which, as part of India’s East Coast Economic Corridor, connects it to production networks in South Asia, Southeast Asia, and East Asia. Better connecting industrial hubs with the hinterland and ports will help Indian manufacturers participate in global production networks and value chains.",
+        "type": "paragraph"
+    },
     {
         "data": "KNOWLEDGE HIGHLIGHTS",
         "type": "heading"
-      },
-    {
-        "data":"During 2020, ADB published a study on India’s Northeast Economic Corridor, providing strategic direction for  the landlocked states of the country’s northeastern region. The study covers issues around transport, urban development, power and trade facilitation infrastructure, regulations and policies, and focus industries to  help address the gap between the region’s significant economic potential and its current underdeveloped status.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"ADB also released a <a href='https://www.adb.org/publications/upcycling-plastic-waste-rural-road-india' target='_blank'>working paper</a> that looked at how India’s Pradhan Mantri Garib Kalyan Yojana road connectivity plan has used upcycled plastic waste in constructing rural roads to address issues of cost and  technological readiness.",
-        "type":"paragraph"
     },
     {
-        "data":"A working paper highlighted lessons from Nepal and other countries on managing urban growth through land pooling. This technique enables landowners and government to share the costs and benefits of urban development  and may also attract private capital to invest in the land created. <a href='https://www.adb.org/publications/land-pooling-nepal' target='_blank'>The paper</a> discusses how Nepal  could successfully scale up land pooling to support cost-effective, equitable, and sustainable urban planning and  investments.",
-        "type":"paragraph"
+        "data": "Maritime linkages are vital contributors to development in South Asia, where most DMCs conduct a major part of their international trade through ports. To help foster greater regional trade, ADB published <a href='https://www.adb.org/publications/reforming-port-processes-india'>Reforming Port Processes in India for Logistics Efficiency</a>, a brief focusing on India’s Jawaharlal Nehru and Vishakhapatnam ports. Using findings from the brief, the Port Administrations and Logistics Division in the Government of India’s Ministry of Commerce identified strategic reforms and potential solutions to improve the country’s port systems.",
+        "type": "paragraph"
     },
     {
-        "data":"Building on its experience in skills demand analysis, ADB published a real-time <a href='https://www.adb.org/publications/covid-19-impact-job-postings-bangladesh-sri-lanka' target='_blank'>assessment</a> of COVID‑19’s  impact on job postings in Bangladesh and Sri Lanka. The study analyzed data from the largest online employment portals in the two countries, where job postings largely declined after the COVID‑19 outbreak. Continuous monitoring of online employment indicators has helped understand the impacts of lockdowns and resumption of economic activities.",
-        "type":"paragraph"
-    },
-
-    {
-        "data":"ADB published a brief on Sri Lanka’s higher education institutions to present issues and challenges of the rapid shift to online learning during the pandemic. Drawing on comprehensive online surveys, <a href='https://www.adb.org/publications/online-learning-sri-lanka-during-covid-19' target='_blank'>the  publication</a> detailed the status of higher education since the university closures and outlined the remarkable transition  to online tertiary education.",
-        "type":"paragraph"
+        "data": "A new master plan to enhance transport connectivity across the Bay of Bengal was endorsed in 2021 by the seven member countries of the Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation. ADB provided technical assistance to develop the plan, which identifies both hard and soft infrastructure needs and includes recommendations for transport access agreements and the harmonization of rules, regulations, and policies.",
+        "type": "paragraph"
     },
     {
-        "data":"In 2020, the SASEC program published an update of its operational plan for 2016–2025. The <a href='https://www.adb.org/documents/sasec-operational-plan-2016-2025-update' target='_blank'>updated  plan</a> identified 111 proposed projects requiring about $58.7 billion in development assistance. These include economic corridors that would advance multimodal connectivity, energy market development, and increased  intraregional and interregional trade.",
-        "type":"paragraph"
+        "data": "In partnership with the Government of Assam in India, ADB developed a growth strategy to transform the state into a $75 billion economy by 2025, while achieving key Sustainable Development Goals. The strategy will help the government develop transport connectivity and trade opportunities with the Association of Southeast Asian Nations as well as Bangladesh, Bhutan, and Nepal.",
+        "type": "paragraph"
     },
-
+    
+    {
+        "title": "GREEN GROWTH, GREATER COMPETITIVENESS FOR BANGLADESH",
+        "data": "In 2021, ADB endorsed a new <a href='https://www.adb.org/documents/bangladesh-country-partnership-strategy-2021-2025'>country partnership strategy</a> for Bangladesh covering 2021–2025. Based on rigorous private sector, climate change, and poverty assessments, the strategy’s core objectives include boosting Bangladesh’s economic competitiveness, promoting green growth, and strengthening social protection. It supports recovery from the COVID-19 pandemic and will help Bangladesh become an upper middle-income country by 2031.",
+        "type": "expand"
+    },
     {
         "title": "NEXT",
         "data": "SOUTHEAST ASIA",
         "type": "button"
-      }
-    ]
+    }
+]

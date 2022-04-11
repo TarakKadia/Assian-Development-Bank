@@ -1,467 +1,532 @@
 [
-  {
-      "data": "REGIONS:PACIFIC",
-      "country": " The Cook Islands, Fiji, Kiribati, the Marshall Islands, the Federated States of  Micronesia, Nauru, Niue, Palau, Papua New Guinea, Samoa, Solomon Islands, Timor-Leste, Tonga, Tuvalu, Vanuatu",
-      "type": "regionHeading"
-  },
-
-  {
-      "data":"pard_photo1 (2).jpg",
-      "type":"image"
-  },
-  {
-    "title": "BY THE NUMBERS: PACIFIC",
-    "symbol": "$",
-
-    "digit1": 1.2,
-    "tag1": "COMMITTED",
-
-    "digit2": 671,
-    "tag2": "COVID‑19<br>RESPONSE",
-
-    "digit3": 1.2,
-    "tag3": "DISBURSED",
-
-    "digit4": 225,
-    "tag4": "COFINANCED",
-
-    "sign": "B",
-    "type": "regionCounter"
-  },
-
-  {
-      "data":"The COVID‑19 pandemic represents the most severe economic shock ever faced by the Pacific. While most of ADB’s developing member countries (DMCs) in the region remained “COVID free” in 2020 through quick and decisive border closures, the socioeconomic impacts of the pandemic have been profound. Travel restrictions are estimated to have caused the Pacific economies to contract around 6% collectively in 2020. With virtually no  visitor arrivals since April 2020, the heavily tourism-based economies of the Cook Islands, <a href='https://www.adb.org/countries/fiji/main' target='_blank'>Fiji</a>, Palau, and  <a href='https://www.adb.org/countries/vanuatu/main' target='_blank'>Vanuatu</a> were hit particularly hard.   Impacts on the smaller island and atoll economies, such as <a href='https://www.adb.org/countries/kiribati/main' target='_blank'>Kiribati</a> and  <a href='https://www.adb.org/countries/tuvalu/main' target='_blank'>Tuvalu</a>, were felt mostly through  delays in infrastructure construction and disruptions to fishery activities,  including the transshipment of tuna caught by foreign fishing vessels. For the Pacific’s larger resource-based economies—<a href='https://www.adb.org/countries/papua-new-guinea/main' target='_blank'>Papua New Guinea</a> (PNG) and <a href='https://www.adb.org/countries/solomon-islands/main' target='_blank'>Solomon Islands</a>—the  effects of COVID‑19 restrictions were experienced mostly in trade, with subdued agriculture and mineral exports.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"Pacific governments responded with expenditure packages totaling $2.6 billion (or 7.5% of regional gross domestic product), which included targeted support for impacted business and those who had lost jobs, and for strengthening health systems in readiness for COVID‑19. ADB committed a total of $1.2 billion for 34 sovereign projects and 39 technical assistance projects in the Pacific in 2020, up by 150% from 2019. Of the overall commitment for the Pacific, 58% of financing supported pandemic response—primarily through use of the COVID‑19 Pandemic Response Option, amounting to $378 million for eight DMCs.",
-      "type":"paragraph"
-  },
-
-
-  {
-      "data":"<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%241.2%20billion%20in%20the%20Pacific%2C%20of%20which%20%24671%20million%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $1.2 billion in the Pacific, of which $671 million supported COVID-19 response.</a>",
-      "type":"twitter"
-  },
-
-
-  {
-      "data":"Strong development partner coordination on COVID‑19 response has ensured clear alignment with government priorities and avoided duplication. Immediate priorities across the Pacific were for medical supplies and equipment (including personal protective equipment, test kits, and ventilators) as well as for cash support to allow government expenditure in areas such as managing border closures and quarantine facilities.",
-      "type":"paragraph"
-  },
-
-
-
-  {
-      "data":"In 2020, ADB quickly disbursed preexisting contingent disaster financing for the <a href='https://www.adb.org/countries/cook-islands/main' target='_blank'>Cook Islands</a>, the <a href='https://www.adb.org/countries/micronesia/main' target='_blank'>Federated States of Micronesia</a> (FSM), the <a href='https://www.adb.org/countries/marshall-islands/main' target='_blank'>Marshall Islands</a>, <a href='https://www.adb.org/countries/palau/main' target='_blank'>Palau</a>, <a href='https://www.adb.org/countries/samoa/main' target='_blank'>Samoa</a>, Solomon Islands, and <a href='https://www.adb.org/countries/tonga/main' target='_blank'>Tonga</a> to support early  COVID‑19 response measures. The bank also provided $27.3 million in technical assistance and $18.5  million in  grants from the <a href='https://www.adb.org/what-we-do/funds/asia-pacific-disaster-response-fund-apdrf' target='_blank'>Asia Pacific Disaster Response Fund</a> to the 14 Pacific DMCs for pandemic response and recovery.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"ADB supported Pacific governments in delivering COVID‑19 response measures such as payments to retain employees in impacted businesses, payments to the unemployed, and initiatives to promote agriculture and ensure that vulnerable households have access to food. Other COVID‑19-related assistance included technical assistance to strengthen social protection; establishment of a COVID‑19 gender working group in Fiji; and projects promoting access to clean water and sanitation, and improved hygiene practices.",
-      "type":"paragraph"
-  },
-  {
-    "title": "IN 2020, ADB’S COMMITMENTS IN THIS REGION WERE PRIMARILY IN THE FOLLOWING SECTORS:",
-    
-    "digit1": 55,
-    "tag1": "COMMITTED",
-
-    "digit2": 19,
-    "tag2": "COVID‑19<br>RESPONSE",
-
-    "digit3": 9,
-    "tag3": "DISBURSED",
-
-    "digit4": 8,
-    "tag4": "COFINANCED",
-
-    "digit5": 5,
-    "tag5": "TRANSPORT",
-
-
-    "sign": "%",
-    "type": "currencyCounter"
-  },
     {
-      "data": "STRATEGIC FOCUS",
-      "type": "heading"
+        "data": "chapter2-img3-1.png",
+        "heading": "CHAPTER 2: OPERATIONS",
+        "text": "PACIFIC",
+        "titleTag": "Cook Islands, Fiji, Kiribati, the Marshall Islands, the Federated States of Micronesia, Nauru, Niue, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu, Vanuatu.",
+        "tag": "A woman holding her child sells fresh fruit at the Port Vila Market on Efate island in Vanuatu.",
+        "type": "image"
     },
-
     {
-        "data":{
-            
-            "data":[
+        "title": "BY THE NUMBERS",
+        "symbol": "$",
+        "digit1": 2.0,
+        "tag1": "COMMITTED",
+        "digit2": 478,
+        "tag2": "COVID‑19 RESPONSE",
+        "digit3": 1.7,
+        "tag3": "DISBURSED",
+        "digit4": 426,
+        "tag4": "COFINANCED",
+        "sign": "B",
+        "type": "regionCounter"
+    },
+    {
+        "data": "The COVID-19 pandemic continued to impose considerable impacts on ADB’s developing member countries (DMCs) in the Pacific during 2021.",
+        "type": "paragraph"
+    },
+    {
+        "data": "While many Pacific DMCs avoided large COVID-19 outbreaks, some were not so fortunate. Fiji battled a severe wave of the Delta variant, which overwhelmed the country’s two major hospitals and required the dispatch of emergency medical teams from Australia and New Zealand. Papua New Guinea (PNG) also endured outbreaks, the severity of which likely remains vastly understated due to limited testing and contact tracing. National vaccination rates in the region varied from just over 2% in PNG to more than 90% in Palau.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The ongoing crisis has exacerbated the fragility and challenges many Pacific economies already face as small island developing states. COVID-19 containment measures continued to throttle tourism and limit broader business activity, causing the regional economy to contract in 2021, the second consecutive year of decline. Prior to the pandemic, tourism contributed more than 20% of gross domestic product in six of the region’s DMCs, and economies such as the Cook Islands, Fiji, and Palau have been hit hard by international border closures and travel restrictions.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The economic struggles have led to declines in household consumption and rising rates of extreme poverty in the Pacific. There have also been disproportionate social impacts on women and girls, including higher rates of gender-based violence and more unpaid household and care work.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Responding to the pandemic during 2021, governments of Pacific DMCs focused mostly on measures to deliver direct income and lending support to vulnerable groups along with upgrades to health systems.",
+        "type": "paragraph"
+    },
+    {
+        "data": "During the year, ADB committed a total of $852.7 million in financing for the region in 2021. Of these commitments, $317.2 million supported COVID-19 response.",
+        "type": "paragraph"
+    },
+    {
+        "data": "This included pandemic-related assistance to enhance social protection for the poor and vulnerable, and through the Asia Pacific Vaccine Access Facility (APVAX), support to strengthen COVID-19 vaccination rollouts and community awareness campaigns.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB also provided financing of $255.5 million for the Cook Islands, Palau, PNG, and Tonga to shore up government budgets under increased strain from the pandemic’s impacts. These policy-based loans will help strengthen public financial management and other growth-enhancing reforms.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Meanwhile, other ADB commitments in 2021 are contributing to a green and inclusive recovery for the region’s 14 DMCs. These include new financing for transport, energy, and other vital infrastructure.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In November 2021, ADB completed its first country classification of Niue, which became the bank’s 68th member in March 2019. Niue is classified as group B country and now has access to concessional financing in accordance with ADB policies and procedures.",
+        "type": "paragraph"
+    },
+    {
+        "data": "STRATEGIC FOCUS",
+        "type": "heading"
+    },
+    {
+        "data": "Addressing Remaining Poverty and Reducing Inequalities",
+        "image": "op1_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "In 2021, ADB financed projects to improve living conditions for people on small and remote Pacific islands. These investments are designed to promote inclusive economic growth out of the COVID-19 pandemic, provide access to basic services for underserved areas, and foster social cohesion.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB provided $3.7 million in grants for a social protection project to mitigate the impact of COVID-19 on poor and vulnerable people in Palau—including the elderly, persons with disabilities, small agricultural producers, and women and girls. The financing will address immediate physical, mental, social, and environmental needs in a country that has suffered extensive job losses, especially in the tourism sector.",
+        "type": "paragraph"
+    },
+    {
+        "data": "An ADB regional technical assistance project is supporting the recovery of micro, small, and medium-sized enterprises (MSMEs) in the Cook Islands, Fiji, Samoa, Solomon Islands, Tonga, and Vanuatu. The assistance focuses on businesses heavily affected by the COVID-19 pandemic. Through local business advisors and MSME agencies, the project aims to improve access to business development services and finance for over 200 MSMEs, contributing to broader employment and economic growth prospects.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Tuvalu, ADB provided a $20 million grant to enhance access to essential services and accelerate economic opportunities for the outer-island community of Nui. The ADB financing will help build a workboat harbor to offer safer access to interisland transport, including for pregnant women, the elderly, young children, and persons with disabilities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB technical assistance to Kiribati is financing analysis and assessments that will help the government develop a project to improve hospital infrastructure and health worker training, particularly in South Tarawa.",
+        "type": "paragraph"
+    },
+    {
+        "id": 2,
+        "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
+        "digit1": 34,
+        "tag1": "PUBLIC SECTOR MANAGEMENT",
+        "digit2": 15,
+        "tag2": "INDUSTRY AND TRADE",
+        "digit3": 14,
+        "tag3": "FINANCE",
+        "digit4": 11,
+        "tag4": "TRANSPORT",
+        "digit5": 10,
+        "tag5": "HEALTH",
+        "sign": "%",
+        "type": "currencyCounter"
+    },
+    {
+        "data": "STRATEGIC FOCUS",
+        "type": "heading"
+    },
+    {
+        "data": {
+            "data": [
                 {
-                "id":1,
-                "image":"op1_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#111111",
-                "datasets": [
-                    {
-                        "label": "1",
-                        "centerText":"",
-                        "data": [60,40],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":2,
-                "image":"op2_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#222222",
-                "datasets": [
-                    {
-                        "label": "2",
-                        "centerText":"90%",
-                        "data": [15, 35,50],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":3,
-                "image":"op3_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#333333",
-                "isSmall": true,
-                "datasets": [
-                    {
-                        "label": "3",
-                        "centerText":"",
-                        "data": [10, 40,50],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":4,
-                "image":"op4_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#444444",
-                "isSmall": true,
-                "datasets": [
-                    {
-                        "label": "4",
-                        "centerText":"",
-                        "data": [5, 15,80],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":5,
-                "image":"op5_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#555555",
-                "isSmall": true,
-                "datasets": [
-                    {
-                        "label": "5",
-                        "centerText":"",
-                        "data": [8, 22,70],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":6,
-                "image":"op6_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#111111",
-                "datasets": [
-                    {
-                        "label": "6",
-                        "centerText":"",
-                        "data": [25, 0,0],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            },
-            {
-                "id":7,
-                "image":"op1_color.png",
-                "labels": ["", "Regional"],
-                "centerColor": "#f2ae29",
-                "datasets": [
-                    {
-                        "label": "7",
-                        "centerText":"",
-                        "data": [25, 0,60],
-                        "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                        "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                        "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                        "fill": true
-                    }
-                    
-                ]    
-            }
-        ]
-            
+                    "id": 1,
+                    "image": "op1_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#111111",
+                    "datasets": [
+                        {
+                            "label": "1",
+                            "centerText": "",
+                            "data": [
+                                40,
+                                45,
+                                15
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "image": "op2_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#222222",
+                    "datasets": [
+                        {
+                            "label": "2",
+                            "centerText": "90%",
+                            "data": [
+                                55,
+                                45,
+                                5
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "image": "op3_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#333333",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "3",
+                            "centerText": "",
+                            "data": [
+                                10,
+                                40,
+                                50
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "image": "op4_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#444444",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "4",
+                            "centerText": "",
+                            "data": [
+                                5,
+                                15,
+                                80
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "image": "op5_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#555555",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "5",
+                            "centerText": "",
+                            "data": [
+                                8,
+                                22,
+                                70
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "image": "op6_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#111111",
+                    "datasets": [
+                        {
+                            "label": "6",
+                            "centerText": "",
+                            "data": [
+                                30,
+                                45,
+                                25
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "image": "op1_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#f2ae29",
+                    "datasets": [
+                        {
+                            "label": "7",
+                            "centerText": "",
+                            "data": [
+                                25,
+                                15,
+                                60
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                }
+            ]
         },
         "type": "strategicFocusPieChart"
-      },
-  {
-      "data":"Addressing Remaining Poverty and<br>Reducing Inequalities",
-      "image":"op1_color.png",
-      "type":"logoHeading"
-  },
-
-  {
-      "data":"ADB pays specific attention to addressing poverty and promoting equitable and inclusive growth in the Pacific. About one in four Pacific islanders lives below national poverty lines, with inequality particularly evident in remote rural communities where there is limited access to social services and job opportunities.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"ADB financing for support programs to counter the pandemic focused on poor and vulnerable households. These programs address COVID‑19 impacts that could otherwise have long-term effects on the lives of poor and disadvantaged groups, including higher health risks and malnutrition, widened learning gaps among schoolchildren, loss of income, and increased indebtedness.",
-      "type":"paragraph"
-  },
-
-
-  {
-      "data":"ADB also committed a regional technical assistance project to strengthen social protection in the Pacific. This project not only responds to COVID‑19 impacts, but will explore longer-term sustainable approaches to reducing poverty and inequality and achieving higher levels of economic and social well-being. It is designed to expand social protection systems, focusing on social insurance, social assistance, and active labor market programs. Through the project, ADB will also give priority assistance to Pacific DMCs in responding to climate- and disaster-related shocks.",
-      "type":"paragraph"
-  },
-  {
-      "data": "Accelerating Progress<br>in Gender Equality",
-      "image": "op2_color.png",
-      "type":"logoHeading"
     },
-
-  {
-      "data":"While significant progress has been made, gender inequality continues to be a pervasive issue in the Pacific. ADB promoted gender equality in 89% of its number of committed projects in the Pacific during 2018–2020, up from 77% during 2017–2019. In 2020 alone, 96% of ADB’s projects in the Pacific included strong gender mainstreaming activities. This reflects ADB’s continuous efforts to prioritize gender considerations in its project and program designs, including pandemic-response measures, and across all sectors.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%2096%25%20of%20ADB%27s%20projects%20in%20the%20Pacific%20included%20strong%20gender%20mainstreaming%20activities.' title='Tweet this' target='_blank'>In 2020, 96% of ADB’s projects in the Pacific included strong gender mainstreaming activities.</a>",
-      "type":"twitter"
-  },
-
-  {
-      "data":"ADB committed a $9.6 million grant to Vanuatu to improve urban resilience in Greater Port Vila, setting up multipurpose emergency shelters to meet the needs of women and girls. Innovative design of the shelters will encourage their use outside of emergency situations for inclusive economic activities, community meetings, and gender-sensitive post-disaster response. The project incorporates measures to ensure the meaningful participation of women in leadership and decision-making and addresses gender-based violence with public awareness campaigns and improved referral pathways.",
-      "type":"paragraph"
-  },
-  {   
-      "title":"EXPANDING MICROFINANCE IN PAPUA NEW GUINEA",
-      "image":"pard_box.jpg",
-       "data":"Over a decade ago, ADB and the Government of Papua New Guinea (PNG) identified the need to develop the country’s microfinance sector. The initiative was seen as a way to generate economic growth led by the private sector and to encourage women to participate in financial and business activities.<br><br>More than 10 years on, the now-completed microfinance expansion project—conducted at an estimated cost of $27.1 million and cofinanced by the governments of PNG and Australia—has delivered extraordinary results.<br><br>Through the project, over 217,000 people (47% women) were trained in financial literacy. An additional 17,500 (58% women) were trained in business development skills—equating to more than 10,000 women in PNG who are now better equipped to start and expand their own micro and small enterprises.<br><br>Over the course of the project, partner financial institutions recorded an additional 330,000 deposit accounts and many of these were opened by women who previously lacked financial independence.<br><br>The project also included a financing facility to foster bank lending to micro and small enterprises. Under this facility, more than 2,000 loans were made totaling around $10 million and 65% of these loans went to women clients.",
-      "type": "expandTwo"
-
-  },
-  {
-      "data": "Tackling Clmate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
-      "image": "op3_color.png",
-      "type": "logoHeading"
-    },
-
-  {
-      "data":"Vulnerability to the effects of climate change, environmental degradation, and natural hazards are major drivers of fragility in the Pacific. Despite the shift in focus brought by COVID‑19, ADB has remained committed to addressing climate change and disaster resilience in the region. Of the total number of projects committed in the Pacific in 2020, 38% included climate mitigation or adaptation components. This was a smaller percentage than 2019’s 56% because of the large quantity of financing to tackle direct COVID‑19 impacts. In dollar terms, however, climate financing for the region increased to $53 million from ADB’s own resources, above the targeted $49 million.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"Under the Pacific Renewable Energy Investment Facility, ADB is installing climate-resilient solar photovoltaic and battery energy storage systems in Kiribati. It is also building the government’s capacity to expand access to clean energy, improve the quality and reliability of service, reduce greenhouse gas emissions and reliance on fossil fuels, reduce the cost of power generation, and improve the capacity of energy sector stakeholders.",
-      "type":"paragraph"
-  },
-  {
-      "data":"",
-      "type":"video"
-  },
-
-  {
-      "data":"A knowledge and support technical assistance initiative is helping ADB to scale up its investment in climate change adaptation in all 14 Pacific DMCs. The project will increase access to geospatial climate and disaster risk information and will support assessments to model future climate change impacts and geophysical risks. This will inform strategic decision-making for long-term adaptation and resilience. The regional project will also help strengthen the knowledge, skills, and practices of government agencies that have responsibility for climate change and disaster risk management through knowledge sharing and policy dialogues. lt will support project development to ensure climate change adaptation opportunities are exploited.",
-      "type":"paragraph"
-  },  {
-      "data":"In 2020, ADB disbursed $3 million in grants from ongoing contingent disaster financing to help fund Tuvalu’s priority recovery activities following the onslaught of Tropical Cyclone Tino in January of that year. The bank also responded to the widespread destruction in the region brought by Tropical Cyclone Harold in April. ADB provided grants totaling $1.6 million to Fiji, Tonga, and Vanuatu to relieve strain on government resources and provide immediate humanitarian aid such as medical kits, food, transitional shelter, personal hygiene kits, and site-clearing activities.",
-      "type":"paragraph"
-  },
-  {
-      "data":"Under Phase 3 of the Pacific Disaster Resilience Program, ADB is providing $74 million in contingent disaster financing to the Cook Islands, the FSM, Kiribati, the Marshall Islands, Palau, Samoa, Solomon Islands, Tonga, Tuvalu, and Vanuatu. Aside from disasters triggered by natural hazards, Phase 3 has been expanded to encompass health-related emergencies, so that the program can now provide a timely and predictable source of rapidly disbursed financing to distressed governments in the wake of events such as earthquakes, cyclones, or viral outbreaks.",
-      "type":"paragraph"
-  },
-  {
-      "data":"In Samoa, ADB committed $40 million in grant assistance to upgrade 20 kilometers of roadway that provides access to eight villages and the capital, Apia. The project includes climate resilience features such as drainage designed for increased rainfall intensity and resilient surfacing. This cross-island road will serve as an alternate route for evacuation of communities and provision of emergency assistance.",
-      "type":"paragraph"
-  },
-  {
-      "data":"In Palau, ADB prepared a $3 million financial intermediation grant to expand access to affordable clean-energy financing for low-income earners and women borrowers. The grant will help Palau’s Ministry of Finance create the Disaster Resilient Clean Energy Financing Facility, and the funds will be on-lent by the National Development Bank of Palau.",
-      "type":"paragraph"
-  },
-  {
-      "data":"As part of its healthy oceans initiative, ADB committed $6.5 million in 2020 for the Marshall Islands to improve the coverage and sustainability of integrated solid waste management service delivery in Ebeye. The project is expected to deliver significant positive environmental outcomes, including improvements in nearby marine waters, reduced stormwater runoff, and reduced landfill waste.",
-      "type":"paragraph"
-  },
-  {
-      "data": "Making Cities<br>More Livable",
-      "image": "op4_color.png",
-      "type": "logoHeading"
-    },
-  {
-      "data":"Urban areas in the Pacific are experiencing rapid and often poorly planned growth as a result of internal migration and natural population increases.",
-      "type":"paragraph"
-  },
-
     {
-      "data":"In Kiribati, the Marshall Islands, the FSM, and Tuvalu, ADB provided assistance totaling $44.3 million to develop an integrated approach to the provision of water, sanitation, solid waste disposal, and other urban infrastructure. A focus of these projects is to ensure inclusive and equitable access to such services for poor and vulnerable urban communities.",
-      "type":"paragraph"
-  },
-    {
-      "data":"ADB is also helping these governments plan, design, and construct more resilient urban infrastructure projects. These initiatives will continue to strengthen institutional capacities to better plan, regulate, and manage urban assets and services.",
-      "type":"paragraph"
-  },
-  {
-      "data": "Promoting Rural Development<br>and Food Security",
-      "image": "op5_color.png",
-      "type": "logoHeading"
+        "data": "Accelerating Progress in Gender Equality",
+        "image": "op2_color.png",
+        "type": "logoHeading"
     },
-
     {
-      "data":"Living standards in rural areas and outer-island communities in the Pacific are significantly lower than the national averages. In 2020, ADB financed projects to help develop rural communities and food security, mainly through initiatives in the transport sector.",
-      "type":"paragraph"
-  },
-
-
-  {
-      "data":"In PNG, ADB committed a $31 million loan that will finance preparatory and due-diligence activities for subsequent projects to improve roads, bridges, and (potentially) ports across the country, with a focus on the country’s northern corridor and highlands region. These projects will improve accessibility within the provinces, strengthening transport and trade in agricultural and mineral products, while also increasing delivery of social services, including education and health, to rural communities.",
-      "type":"paragraph"
-  },
-
-
-
-
-  {
-      "data":"In Samoa, ADB and its partner bank helped farmers export their produce with trade finance for nine transactions. This enabled them to export coconuts, cocoa beans, and taro to New Zealand, Hawaii, Australia, and Japan. ADB also established a trade finance banking partnership in PNG.",
-      "type":"paragraph"
-  },
-  {
-      "data": "Strengthening Governance and<br>Institutional Capacity",
-      "image": "op6_color.png",
-      "type": "logoHeading"
+        "data": "ADB continued to promote gender equality in the Pacific during 2021 through investments in areas including health, social protection, and infrastructure.",
+        "type": "paragraph"
     },
-
-  {
-      "data":"ADB prioritizes institutional development and capacity building as a critical part of its support to DMCs in the Pacific. All ADB projects committed for the region in 2020 included support for improved governance and institutional capacity.",
-      "type":"paragraph"
-  },
-
-
-  {
-      "data":"With large financing gaps due to revenue shortfalls and additional spending to respond to the economic and social impacts of COVID‑19, public debt in the Pacific is projected to rise sharply in the near term. ADB is working with Pacific DMCs to improve debt management and support domestic resource mobilization.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"Through $378 million disbursed to eight Pacific governments, ADB is shoring up critical public expenditure on strengthening health systems, providing social assistance to compensate unemployed workers for economic losses, and delivering economic relief for affected businesses. To complement assistance to PNG, ADB committed $150 million for a health sector development program that enables the government to protect core funding for essential health and other basic services, while adequately resourcing immediate COVID‑19 responses.",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"",
-      "type":"paragraph"
-  },
-
-
-
-   {
-      "data":"In PNG, ADB committed a program loan of $100 million to improve the performance and financial sustainability of the country’s state-owned enterprises and help them deliver better services. For Fiji, the bank committed a program loan of $200 million to support government efforts to strengthen public financial management and improve the business environment. ",
-      "type":"paragraph"
-  },
-
-
-   {
-      "data":"ADB also supported the strengthening of macroeconomic resilience in Tonga by addressing structural fiscal deficiencies and public financial management risks. This grant is also improving Tonga’s public sector and national human resource management to limit the immediate labor market impacts of COVID‑19 and encourage long-term growth",
-      "type":"paragraph"
-  },
-
-  {
-      "data":"For <a href='https://www.adb.org/countries/nauru/main'target='_blank'>Nauru</a>, ADB provided a $5 million program grant as part of ongoing assistance to strengthen the government’s public investment management and fiscal sustainability, which are critical for effective service  delivery and inclusive growth.",
-      "type":"paragraph"
-  },
-
-   {
-      "data":"pard_photo2.jpg",
-      "tag": "Residents of Fiji queue at an ATM. The socioeconomic impacts of the pandemic for ADB’s developing member countries in the Pacific have been profound.",
-      "type":"image"
-  },
- {
-  "data": "Fostering Regional Cooperation<br>and Integration",
-  "image": "op7_color.png",
-  "type": "logoHeading"
-},
-
- {
-  "data":"Regional cooperation is essential to addressing many of the challenges faced by Pacific island countries: remoteness, small economic capacity, and vulnerability to natural hazards and climate change. To foster this cooperation, ADB engages with several intergovernmental regional platforms, including the <a href='https://www.forumsec.org/' target='_blank'>Pacific Islands  Forum</a>, the <a href='https://www.sprep.org/' target='_blank'>Secretariat of the Pacific Regional Environment Programme</a>, and the <a href='https://www.spc.int/' target='_blank'>Pacific Community</a>’s Atoll Adaptation Dialogue.",
-  "type":"paragraph"
-},
-
-{
-  "data":"Jointly with relevant United Nations agencies, ADB organized virtual roundtable meetings with Pacific governments and discussed how to safely restart international travel and tourism for economic recovery. Based on these discussions, ADB started technical assistance to help governments and industries prepare for the reopening of borders.",
-  "type":"paragraph"
-},
-{
-  "data":"Many of ADB’s technical assistance programs providing support to the Pacific in 2020 were regional in coverage and promoted knowledge sharing among Pacific DMCs. The <a href='https://www.theprif.org/' target='_blank'>Pacific Region Infrastructure Facility</a> produced a regional assessment of the aviation sector, recommending a range of efficiency gains. The Pacific Economic Management Program organized a webinar on prospects for COVID‑19 vaccine delivery in the Pacific and  how regional cooperation channels can be leveraged to strengthen vaccine access and surveillance systems. The <a href='https://www.adbpsdi.org/' target='_blank'>Pacific Private Sector Development Initiative</a> undertook regional benchmarking studies analyzing foreign direct investment, women in business leadership, and tourism, to inform future work programs and regional  policymaking. Each of these initiatives addresses shared challenges and identifies solutions anchored on regional cooperation and its benefits.",
-  "type":"paragraph"
-},
-
- {
-     "data":"During 2020, ADB also prepared a $65 million facility to provide liquidity support for Fiji Airways, which provides crucial transport links in the South Pacific. The airline plays an important role in freight, health, education, and communication services as well as tourism, which accounts for about a third of Fiji’s GDP. ADB’s financing will help fund Fiji Airways through the COVID‑19 crisis.",
-     "type":"paragraph"
- },
-{    
-  "title":"Boosting Support for Sustainable Recovery in Papua New Guinea",
-     "data":"ADB endorsed a new 2021–2025 <a href='https://www.adb.org/documents/papua-new-guinea-country-partnership-strategy-2021-2025' target='_blank'>country partnership strategy for PNG</a>, a country economically battered by the  COVID‑19 pandemic. Operations in PNG will be significantly scaled up, with an additional $1 billion in support earmarked for 2021–2023. ADB will underpin recovery efforts by investing in transport and energy infrastructure and improving public sector management, technical education, social protection, and private sector participation.",
-     "image":"pard_smallbox.jpg",
-     "type":"shadeKnowledgeTwo"
- },  
-
- {
-  "data": "KNOWLEDGE HIGHLIGHTS",
-  "type": "heading"
-},
-  {
-  "data":"In 2020, ADB launched the Pacific Utilities CEOs Talk, a new policy forum where CEOs of government utilities in the region share insights on corporate reforms, sustainability, and the changing role of the state in managing public utilities. ADB convened the inaugural meeting in June to discuss strategies, experiences, and lessons learned in addressing COVID‑19 and recovery responses to the pandemic. In November, the second forum was held to gain a better understanding of the challenges of unlocking private finance for renewable energy investment in the region, overcoming risks, and exploring possible options that could guide the delivery of support from the international development community. ",
-  "type":"paragraph"
-},
-{
-  "data":"ADB’s <em><a href='https://www.adb.org/publications/series/pacific-economic-monitor' target='_blank'>Pacific  Economic Monitor</a></em> assessed ongoing impacts of the COVID‑19 pandemic on Pacific economies and presented policy options to support a quick recovery.",
-  "type":"paragraph"
-},
-{
-  "data":"In November, ADB published <em><a href='https://www.adb.org/publications/smart-ports-pacific' target='_blank'>Smart Ports in the Pacific</a></em> to foster dialogue among governments and development  partners on how to leverage advanced technology in maritime ports to support trade, build climate resilience,  and drive more sustainable and inclusive economic growth across the region. It explores options to enable  Pacific ports to adopt smart port concepts incrementally, through adaptation of international best practices to the Pacific context of relatively small trade volumes, geographic isolation, and vulnerability to extreme weather events. See <a href='https://www.adb.org/news/features/how-smart-ports-can-be-game-changer-pacific' target='_blank'>How “Smart Ports” can be a gamer-changer in the Pacific</a> to learn more about the study’s  findings and how ADB is helping to apply them.",
-  "type":"paragraph"
-},
-
-
-{
-  "title": "NEXT",
-  "data": "SOUTH ASIA",
-  "type": "button"
-}
+    {
+        "data": "ADB worked closely with DMCs to integrate and strengthen gender designs in APVAX projects. In Samoa, Tonga, Tuvalu, and Vanuatu, for example, ADB provided an $18.9 million grant for an ongoing project that focuses on expanding immunization programs. This additional financing will establish a database for collecting reports on immunization side effects by sex. It will help improve safety surveillance and information campaigns with gender-specific messaging, vaccine delivery, and relevant referral pathways and services.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In the Cook Islands, ADB provided a $75.5 million policy-based loan to restore fiscally sustainable growth led by the private sector. This includes a $40 million precautionary financing option that will allow the government to access critical funds if economic and fiscal conditions deteriorate. The loan supports women’s economic empowerment and increased protection for vulnerable women and children. Through the investment, ADB is helping the Cook Islands continue support payments for families with children, vulnerable women, and caregivers.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB is also administering a $2 million grant from the Japan Fund for Prosperous and Resilient Asia and the Pacific to reinvigorate tourism in the Cook Islands by expanding the Rarotonga Airport terminal for COVID-19 screening and physical distancing. The project design includes reserved seats and a waiting area for pregnant women and access lanes for persons with disabilities, the elderly, and the infirm. It will also upgrade a medium-sized health facility, providing consultation rooms dedicated to services for women’s mental health and gender-based violence counseling.",
+        "type": "paragraph"
+    },
+    {
+        "data": "When committing $43.9 million for land and maritime transport infrastructure in Solomon Islands, ADB included measures that support safe travel for women and other vulnerable groups. These measures include the posting of information on gender-based violence and associated services in bus shelters and community areas. In addition, the project will deliver training on gender-based violence—including prevention of sexual exploitation, abuse, and harassment— among project contractors and in the nine target communities, while also encouraging the employment of women in technical and leadership positions.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+        "image": "op3_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "Addressing climate-related disaster risks is a priority in the Pacific, given the region’s high exposure to extreme weather events and natural hazards and its vulnerability to the effects of climate change.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In 2021, ADB committed $4 million in additional financing to support the Federated States of Micronesia (FSM) in managing disaster risks in the energy sector. The 2021 investment supports the development and implementation of an action plan for disaster risk reduction, geographic mapping of the country’s energy assets, analysis of asset condition and vulnerability, and electricity network planning and operations. The project will contribute to early disaster response and continued operation of the FSM’s power utility during emergencies and other critical periods.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Fiji, ADB disbursed a $1 million grant from the Asia Pacific Disaster Response Fund to help meet humanitarian needs in the wake of category 5 Tropical Cyclone Yasa. The grant funded immediate and life-sustaining relief for the estimated 93,000 people (around 10% of Fiji’s population) directly affected by the cyclone. This included provision of medical kits, food, bottled drinking water, water purification and sanitation systems, temporary shelter, and personal hygiene kits.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Supporting longer-term action, ADB’s Law and Policy Reform Program helped enact Fiji’s Climate Change Act, providing for a comprehensive legal framework to respond to climate change in line with the Paris Agreement.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB is also investing to accelerate the supply of clean energy across the Pacific. In Palau, the bank provided advisory services that led to the successful commercial closure of a public–private partnership (PPP) with an independent solar power producer. The project, Palau’s first utility-scale solar farm and one of the largest solar PPPs in the Pacific, will supply up to 20% of Palau’s energy needs (with scope to increase to 45% with future expansion) and save an estimated 15,310 tons of greenhouse gas emissions every year.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Making Cities More Livable",
+        "image": "op4_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "In 2021, ADB invested to improve living conditions in the Pacific’s urban areas through projects to upgrade a range of essential services.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Nauru, a country that still does not have piped water, ADB provided a $5 million grant to prepare a project that will improve the quality and safety of urban services for about 2,150 households. The proposed $20 million project will finance improvements to water supply and sanitation, more effective solid waste management, and better capacity for urban planning.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Solomon Islands, ADB is administering a $4.6 million grant from the Global Environment Facility to expand an ongoing project that is improving urban water supply and sanitation in the Greater Honiara Area and five other towns. The additional financing will help protect the water sources serving the Greater Honiara Area from the impacts of climate change. It will also contribute to the construction costs of the Kongulai water treatment plant and finance further expansion of the Honiara water supply network and pipe replacement program.",
+        "type": "paragraph"
+    },
+    {
+        "title": "Extra Support to Revive Palau’s Economy",
+        "image":"chapter2-img3-2.png",
+        "tag": "An aerial view of Koror, the commercial center of Palau.",
+        "data": "As a small island developing state, Palau has a fragile economy highly dependent on tourism. With international borders closed, the country has been severely impacted during the COVID-19 pandemic. In 2021, building on budget support provided in 2020 for health expenditure and livelihood support, ADB committed a further $25 million in policy-based loans to Palau. This funding helped bridge substantial financing gaps arising from the pandemic’s impacts on tourism, secure funding for the continuation of the government’s Coronavirus Relief One-Stop Shop, and support the implementation of critical public sector management reforms aimed at shifting economic recovery to a more sustainable fiscal path. Through the loans, ADB is also supporting the progression of two landmark pieces of legislation central to Palau’s reform agenda: the Fiscal Responsibility Act and the Comprehensive Tax Reform Package. Both will shape sustainable fiscal policy in the country in coming years. ADB also provided parallel technical assistance toward complementary reform actions. These include the development of a national infrastructure investment plan; an actuarial evaluation of the social security pension fund that will inform a succeeding reform bill; and measures to support further private sector development, with steps toward policy frameworks governing international arbitration, public–private partnerships, and a modernized registry of corporations.",
+        "type": "expand"
+    },
+    {
+        "data": "Promoting Rural Development and Food Security",
+        "image": "op5_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "In a region dominated by widely dispersed communities living on small and remote islands, rural development and food security hinges on transport and market connectivity.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Vanuatu, ADB provided a $5 million grant to prepare a project that will construct about 10 rural wharves and jetties to connect remote residents to commercial centers and enhance trade opportunities for micro and small enterprises. The project will also provide storage facilities for improving the delivery of agriculture and fisheries products to local markets and population centers.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB is also investing to bolster access to markets and reduce travel times for farmers and rural communities in PNG’s most populous and resource-abundant region. The country’s national Highlands Highway is the lifeline for the rural hinterland, connecting 1,800 kilometers of regional and feeder roads and serving many remote communities. In 2021, ADB provided a $325 million loan as part of an ongoing investment program to support the Government of PNG’s priority for safe and efficient transport along the highway. The loan will help upgrade 71 bridges, including the addition of walkways separated by rails or barriers to provide safer pedestrian access for senior citizens, persons with disabilities, and children. The project will also build at least 20 enclosed water access and hygiene stations, making it safer and more dignified for women to wash while traveling.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Strengthening Governance and Institutional Capacity",
+        "image": "op6_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "In the Pacific, good governance and strong institutions are essential for DMCs to seize economic opportunities, improve the reach and quality of public services, and effectively respond to crises.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Samoa, ADB provided a $5 million grant to prepare a land transport project. The financing will assist the government to conduct a feasibility study, prepare quality infrastructure designs for civil works, and carry out due diligence. It will also build the capacity of the executing and implementing agencies in designing, implementing, monitoring, and evaluating land transport projects.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Similarly, ADB and the Government of the FSM signed a $5 million grant to expedite a series of priority road and bridge projects in all four FSM states. The support will enhance the government’s capacity to utilize advanced road construction technologies and undertake feasibility studies and due diligence on institutional, financial, procurement, and safeguards aspectsof subprojects.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In PNG, ADB committed a $150 million loan for a program to help improve the operational performance, financial sustainability, governance, and transparency of state-owned enterprises in order to strengthen service delivery.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The bank also committed $2 million in additional financing for ongoing improvements to public financial administration in the Marshall Islands. The 2021 investment will finance the project’s Reform Coordination Unit—a team of local and international experts providing long-term support to the Ministry of Finance— to expand reform areas and implement improvements in the management of state-owned enterprises.",
+        "type": "paragraph"
+    },
+    {
+        "title": "Safe Water Improves Health Outcomes on Ebeye",
+        "image": "chapter2-img3-3.png",
+        "tag": "Through ADB support, residents of Ebeye in the Marshall Islands now have access to cleaner water, reducing incidence of waterborne disease.",
+        "data": "Until recently, waterborne diseases were an ever-present threat on the island of Ebeye in the Marshall Islands. With about 15,000 people settled on just 32 hectares of land, Ebeye is tested by a population density that is higher than that of Hong Kong, China. It also has no freshwater streams and minimal groundwater reserves. The high incidence of waterborne disease was attributed partly to an inefficient water supply and sanitation system, which was only able to service households with up to 1 hour of safe drinking water per week. “Waterborne diseases were among the most frequent cases we saw at the hospital,” says Dr. Joaquin Nasa Jr., chief of staff at Ebeye Hospital. In 2015, ADB provided a $5 million grant and administered a $4 million grant from the Government of Australia to boost access to safe water and improve sanitation on the island. As a result, a state-of-the-art water treatment and sewage plant now provides up to 430,000 gallons of clean drinking water to the people of Ebeye every day. ADB is continuing its support for the project through $3 million in additional financing for the operation and maintenance of the plant. This will help ensure the sustainability of water supply and expand sanitation services, which will help contain the transmission of COVID-19. The Government of the Marshall Islands has contributed $10.4 million in counterpart funds for this project.",
+        "type": "expand"
+    },
+    {
+        "data": "Fostering Regional Cooperation and Integration",
+        "image": "op7_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "With 14 geographically remote DMCs, the Pacific presents unique challenges in regional cooperation and integration (RCI). In 2021, ADB promoted RCI for improved transport and trade, low-carbon solutions in the energy sector, and the delivery of quality telecommunications and internet services.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB committed a $45 million grant to rehabilitate and upgrade the Queen Salote Wharf in the Tongan capital of Nuku’alofa. The financing will allow the deployment of larger vessels in the port, bringing greater cargo volumes to the region, lowering shipping costs, and creating financial efficiencies in the importing and exporting of goods. The project will play a vital role in encouraging regional trade for neighboring states on connected shipping routes, such as the Cook Islands and Samoa, and between Tonga and its main trading partners Australia, New Zealand, and the United States.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To strengthen energy reforms in the Pacific, ADB provided regional technical assistance to the Office of Pacific Energy Regulators Alliance to promote regulatory reforms to support new technologies for decarbonizing Pacific economies. It will also focus on realizing opportunities to attract private investment in the energy sector, including through public– private partnerships.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB also made a $25 million equity investment in a new mobile telecommunications provider in PNG. Set up by a Fijian-based industry operator and with institutional investor support from Samoa, the deal highlights regional connectivity and cross- border cooperation between Pacific enterprises. Vodafone PNG, established by Amalgamated Telecom Holdings Ltd (Fiji), will deliver affordable, high-quality mobile, broadband, and internet services, with PNG’s mobile penetration rate expected to rise from around 32% to 65% by 2024. This expanded access to mobile and internet services will improve connectivity for traders, manufacturers, and business owners operating in regional markets.",
+        "type": "paragraph"
+    },
+    {
+        "data": "KNOWLEDGE HIGHLIGHTS",
+        "type": "heading"
+    },
+    {
+        "data": "In 2021, ADB and the Government of Tonga released a groundbreaking report analyzing climate and disaster risks in the Pacific island nation. The report assessed 28,000 buildings, 1,200 kilometers of roads, 26,000 power assets, and 500 water assets across the main island, Tongatapu, and modeled the impact of natural hazards with and without climate change. The results showed that under a 1-meter sea-level rise scenario, 25% of buildings, 11% of roads, 16% of water assets, and 29% of power infrastructure would be permanently lost. The report was adopted by the cabinet of Tonga on 27 August 2021, and similar assessments are being planned for other population centers in the Pacific.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The ADB-supported Pacific Region Infrastructure Facility (PRIF) held its inaugural conference in October 2021, bringing together a wide range of Pacific stakeholders to discuss the region’s infrastructure needs. PRIF also provided support to the Cook Islands, Palau, Solomon Islands, and Tonga to develop priority national infrastructure plans that will help support economic recovery from the COVID-19 pandemic.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB’s Pacific Private Sector Development Initiative released the report Leadership Matters: Benchmarking Women in Business Leadership in the Pacific. The report found that the proportion of women in business leadership roles in Pacific DMCs is well above global averages and it also identified opportunities to further enhance gender equality.",
+        "type": "paragraph"
+    },
+    
+    {
+        "title": "NEW APPROACH FOR SMALL PACIFIC DMCS",
+        "data": "In 2021, ADB endorsed the <a href='https://www.adb.org/documents/pacific-approach-2021-2025'>Pacific Approach 2021–2025</a>, a 5-year strategy for 12 small Pacific island countries. The strategy has three objectives: building resilience to shocks, delivering sustainable services, and supporting inclusive growth. To build resilience to shocks, ADB will focus on strengthening public financial management and health systems, as well as supporting disaster risk reduction, and economic recovery. To deliver sustainable services, ADB will continue to finance core energy, transport, and urban infrastructure, while supporting utilities to manage assets more sustainably. To support inclusive growth, ADB will scale up its nonsovereign operations in the region, strengthen enabling business environments, increase access to finance for MSMEs, and help develop social protection systems for the most vulnerable.",
+        "type": "expand"
+    },
+    {
+        "title": "NEXT",
+        "data": "SOUTH ASIA",
+        "type": "button"
+    }
 ]
