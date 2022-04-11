@@ -1,83 +1,105 @@
-[{
-    "data": "SOUTHEAST ASIA",
-    "country": "Cambodia, Indonesia, the Lao People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Thailand, Viet Nam ",
-    "type": "regionHeading"
-  },
+[
   {
-    "data": "serd_photo1.jpg",
-    "tag": "A woman makes a bank withdrawal during the COVID‑19 pandemic in Cambodia. ADB provided technical assistance to help the government develop and implement a “one-stop shop” social service delivery system.",
+    "data": "chapter2-img5-1.png",
+    "heading": "CHAPTER 2: OPERATIONS",
+    "text": "SOUTHEAST ASIA",
+    "titleTag": "Cambodia, Indonesia, the Lao People’s Democratic Republic, Malaysia, Myanmar, the Philippines, Thailand, Timor-Leste, Viet Nam",
+    "tag": "Vendors and customers at an early morning fruit and vegetable market in Phnom Penh, Cambodia.",
     "type": "image"
   },
-
   {
-    "title": "BY THE NUMBERS: SOUTHEAST ASIA",
+    "title": "BY THE NUMBERS",
     "symbol": "$",
-
-    "digit1": 11.6,
+    "digit1": 2.0,
     "tag1": "COMMITTED",
-
-    "digit2": 7.0,
-    "tag2": "COVID‑19<br>RESPONSE",
-
-    "digit3": 8.3,
+    "digit2": 478,
+    "tag2": "COVID‑19 RESPONSE",
+    "digit3": 1.7,
     "tag3": "DISBURSED",
-
-    "digit4": 6.9,
+    "digit4": 426,
     "tag4": "COFINANCED",
-
     "sign": "B",
     "type": "regionCounter"
   },
-
   {
-    "data": "The COVID‑19 pandemic hurt most of the economies of Southeast Asia in 2020 as economic activities wound down given closed borders and restrictions on internal mobility. Some countries succeeded in preventing the transmission of COVID‑19 and economic activities gradually resumed, while others grappled with controlling the spread of the disease. Governments in Southeast Asia rolled out economic packages totaling $412.3 billion (13.2% of gross domestic product) to support businesses and vulnerable sections of the population.",
+    "data": "The pandemic continued to have severe impacts on employment and poverty across Southeast Asia and, in response, governments prioritized expenditure on health, social assistance to the poor, and financial measures to support businesses and save jobs. ",
     "type": "paragraph"
   },
   {
-    "data": "The economies of <a href='https://www.adb.org/publications/malaysia-fact-sheet' target='_blank'>Malaysia</a>, the <a  href='https://www.adb.org/countries/philippines/main' target='_blank'>Philippines</a>, <a  href='https://www.adb.org/countries/thailand/main' target='_blank'>Thailand</a>, and <a  href='https://www.adb.org/countries/timor-leste/main' target='_blank'>Timor-Leste</a> were hit particularly hard in 2020. Those of <a  href='https://www.adb.org/countries/cambodia/main' target='_blank'>Cambodia</a>, <a  href='https://www.adb.org/countries/indonesia/main' target='_blank'>Indonesia</a>, and the <a  href='https://www.adb.org/countries/lao-pdr/main' target='_blank'>Lao People’s Democratic Republic</a> (Lao PDR) contracted by somewhat less, while the <a  href='https://www.adb.org/countries/myanmar/main' target='_blank'>Myanmar</a> and <a  href='https://www.adb.org/countries/viet-nam/main' target='_blank'>Viet Nam</a> economies eked out some gains.",
+    "data": "In 2021, ADB began shifting its focus to help its developing member countries (DMCs) in the region start moving toward inclusive and sustainable recovery—as compared with 2020’s need for quick-disbursing budgetary support to strengthen immediate government responses to COVID-19.",
     "type": "paragraph"
   },
   {
-    "data": "Including technical assistance, ADB committed a total of $11.6 billion for sovereign and nonsovereign projects in Southeast Asia in 2020, up 62% from 2019. Of the sovereign projects for Southeast Asia, 60% of financing supported pandemic response—primarily through use of the COVID‑19 Pandemic Response Option, amounting to $5.0 billion for five developing member countries (DMCs).",
+    "data": "ADB committed a total of $5.6 billion for its operations in Southeast Asia in 2021, of which $3.9 billion was for pandemic response. This included $650 million in loans through the Asia Pacific Vaccine Access Facility (APVAX) to procure and distribute over 85 million doses of COVID-19 vaccines in the Philippines. ",
     "type": "paragraph"
   },
   {
-    "data": "<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%2411.6%20billion%20in%20Southeast%20Asia%2C%20of%20which%20%247%20billion%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $11.6 billion in Southeast Asia, of which $7 billion supported COVID-19 response.</a>",
-    "type": "twitter"
-  },
-  {
-    "data": "ADB focused pandemic assistance on supporting health-care systems to help save lives, providing relief for the poorest and most vulnerable suffering dire economic hardship, and addressing the devastating impacts of COVID‑19 on businesses and economies. To provide governments with guidance on their economic stimulus policies and programs, ADB prepared COVID‑19 response assessments for individual DMCs, with a focus on measures to support post-pandemic recovery.",
+    "data": "ADB’s other commitments during the year included investments to bolster health systems, boost the productivity of workers and tackle youth unemployment, improve climate change mitigation and adaptation, and enhance the region’s infrastructure. These commitments included $1 billion in nonsovereign operations, which focused on engaging the private sector in developing clean energy infrastructure and providing small businesses with better access to finance.",
     "type": "paragraph"
   },
   {
-    "data": "ADB’s support for pandemic response in the social sector included rapid reprogramming of funds under a <a href='https://greatermekong.org/' target='_blank'>Greater Mekong Subregion</a> (GMS) health security project in February 2020 to help provide essential medical equipment.",
+    "data": "Two significant initiatives were launched in 2021 to mobilize financing for clean energy and ocean health investments in Southeast Asia. ADB announced the Energy Transition Mechanism (ETM) at the United Nations Climate Change Conference in Glasgow (COP26). The ETM aims to finance the early retirement of coal-power assets and will be piloted in Southeast Asia. The bank also launched the Blue Southeast Asia Finance Hub to promote ocean health by developing projects to foster ecosystem and natural resource management, reduce plastic pollution, and promote sustainable coastal development. ",
     "type": "paragraph"
   },
   {
-    "data": "The bank also committed $1.2 billion in sovereign and $94 million in nonsovereign operations to developenergy infrastructure that will help provide Southeast Asia with environmentally sustainable, equitable, and reliable access to electricity.",
+    "data": "In addition, ADB is partnering with Temasek, HSBC, and Clifford Capital Holdings in establishing the Asset Regeneration (REGEN) Platform to bolster green infrastructure in Southeast Asia. REGEN will initially focus on Indonesia and Viet Nam and mobilize private sector capital for renewable energy, water and waste, and sustainable transport projects—sectors that struggle to­ attract commercial financing. ",
     "type": "paragraph"
   },
-
   {
-    "title": "IN 2020, ADB’S COMMITMENTS IN THIS REGION WERE PRIMARILY IN THE FOLLOWING SECTORS:",
-    "symbol": "$",
-    "digit1": 41,
-    "tag1": "COMMITTED",
-
-    "digit2": 16,
-    "tag2": "COVID‑19<br>RESPONSE",
-
+    "data": "Effective 1 February 2021, ADB placed a temporary hold on sovereign project disbursements and new contracts in Myanmar. The bank continues to monitor the situation in the country.",
+    "type": "paragraph"
+  },
+  {
+    "data": "STRATEGIC FOCUS",
+    "type": "heading"
+  },
+  {
+    "data": "Addressing Remaining Poverty and Reducing Inequalities",
+    "image": "op1_color.png",
+    "type": "logoHeading"
+  },
+  {
+    "data": "As the COVID-19 pandemic continued to impact Southeast Asia in 2021, ADB made strategic investments to reinforce national health systems, services, and programs to provide greater protection for vulnerable populations in times of crisis.",
+    "type": "paragraph"
+  },
+  {
+    "data": "To ensure COVID-19 medical services reach more poor and remote communities in Cambodia, ADB committed $25 million for a project to strengthen the country’s health system. The funding will enhance laboratory services and infection prevention control at 81 provincial and district referral hospitals.",
+    "type": "paragraph"
+  },
+  {
+    "data": "Under the same project, ADB is administering a $5 million grant from the Japan Fund for Prosperous and Resilient Asia and the Pacific (JFPR) to improve emergency care at 14 provincial hospitals. The grant will fund new equipment and train health staff on identifying and supporting people affected by gender‑based violence and mental health issues.",
+    "type": "paragraph"
+  },
+  {
+    "data": "In the Philippines, ADB provided a $600 million loan to support reforms in the government’s universal health-care program. The program will help provide continued access to crucial health services for around 109 million Filipinos, including at least 36.9 million homeless people, senior citizens, and other vulnerable groups. It will strengthen and expand government services, including health insurance, telemedicine, hospital care, and health diagnostics. ",
+    "type": "paragraph"
+  },
+  {
+    "data": "Southeast Asia’s long-term recovery from the impacts of the COVID-19 pandemic also hinges on eliminating poverty and hardship through better outcomes in education and skills development.",
+    "type": "paragraph"
+  },
+  {
+    "data": "To promote greater access and opportunity in Indonesia’s education system, ADB provided $79.5 million to construct high-quality academic facilities and innovation centers at two public universities in the provinces of East Java and Lampung—both of which have high poverty rates. The project will give students from poor backgrounds access to quality education through lower tuition fees, expanded scholarship programs for the financially disadvantaged, enrollment targets for students from low-income households, and free tuition for orphaned students.",
+    "type": "paragraph"
+  },
+  {
+    "data": "Also in Indonesia, ADB committed $500 million for a policy- based lending program to help implement the Sustainable Development Goals, with a focus on developing human capital and boosting productivity. The program’s various reform measures will strengthen education and skills development to reduce youth unemployment, expand national health insurance to cover an additional 17 million people, support better coverage and targeting of social protection programs, and provide income support to cover 12.4 million unemployed workers. The program is also expected to create around 340,000 jobs.",
+    "type": "paragraph"
+  },
+  {
+    "id": 2,
+    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
+    "digit1": 34,
+    "tag1": "PUBLIC SECTOR MANAGEMENT",
+    "digit2": 15,
+    "tag2": "INDUSTRY AND TRADE",
     "digit3": 14,
-    "tag3": "DISBURSED",
-
+    "tag3": "FINANCE",
     "digit4": 11,
-    "tag4": "COFINANCED",
-
-    "digit5": 5,
-    "tag5": "TRANSPORT",
-
-
-    "tag": "B",
+    "tag4": "TRANSPORT",
+    "digit5": 10,
+    "tag5": "HEALTH",
+    "sign": "%",
     "type": "currencyCounter"
   },
   {
@@ -85,371 +107,423 @@
     "type": "heading"
   },
   {
-    "data":{
-        
-        "data":[
+    "data": {
+      "data": [
+        {
+          "id": 1,
+          "image": "op1_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#111111",
+          "datasets": [
             {
-            "id":1,
-            "image":"op1_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#111111",
-            "datasets": [
-                {
-                    "label": "1",
-                    "centerText":"",
-                    "data": [40,45,15],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+              "label": "1",
+              "centerText": "",
+              "data": [
+                40,
+                45,
+                15
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":2,
-            "image":"op2_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#222222",
-            "datasets": [
-                {
-                    "label": "2",
-                    "centerText":"90%",
-                    "data": [55, 45,5],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 2,
+          "image": "op2_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#222222",
+          "datasets": [
+            {
+              "label": "2",
+              "centerText": "90%",
+              "data": [
+                55,
+                45,
+                5
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":3,
-            "image":"op3_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#333333",
-            "isSmall": true,
-            "datasets": [
-                {
-                    "label": "3",
-                    "centerText":"",
-                    "data": [10, 40,50],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 3,
+          "image": "op3_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#333333",
+          "isSmall": true,
+          "datasets": [
+            {
+              "label": "3",
+              "centerText": "",
+              "data": [
+                10,
+                40,
+                50
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":4,
-            "image":"op4_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#444444",
-            "isSmall": true,
-            "datasets": [
-                {
-                    "label": "4",
-                    "centerText":"",
-                    "data": [5, 15,80],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 4,
+          "image": "op4_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#444444",
+          "isSmall": true,
+          "datasets": [
+            {
+              "label": "4",
+              "centerText": "",
+              "data": [
+                5,
+                15,
+                80
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":5,
-            "image":"op5_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#555555",
-            "isSmall": true,
-            "datasets": [
-                {
-                    "label": "5",
-                    "centerText":"",
-                    "data": [8, 22,70],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 5,
+          "image": "op5_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#555555",
+          "isSmall": true,
+          "datasets": [
+            {
+              "label": "5",
+              "centerText": "",
+              "data": [
+                8,
+                22,
+                70
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":6,
-            "image":"op6_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#111111",
-            "datasets": [
-                {
-                    "label": "6",
-                    "centerText":"",
-                    "data": [30, 45,25],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 6,
+          "image": "op6_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#111111",
+          "datasets": [
+            {
+              "label": "6",
+              "centerText": "",
+              "data": [
+                30,
+                45,
+                25
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":7,
-            "image":"op1_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#f2ae29",
-            "datasets": [
-                {
-                    "label": "7",
-                    "centerText":"",
-                    "data": [25, 15,60],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 7,
+          "image": "op1_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#f2ae29",
+          "datasets": [
+            {
+              "label": "7",
+              "centerText": "",
+              "data": [
+                25,
+                15,
+                60
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         }
-    ]
-        
+      ]
     },
     "type": "strategicFocusPieChart"
   },
   {
-    "data": "Addressing Remaining Poverty and<br>Reducing Inequalities",
-    "image": "op1_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "ADB is helping its DMCs in Southeast Asia to weather COVID‑19 impacts that threaten to wipe out gains achieved  in reducing poverty and tackling inequality. Until it is brought under control, the pandemic is likely to worsen the region’s existing inequalities, given its disproportionate impact on poor communities and other  vulnerable groups.",
-    "type": "paragraph"
-  },
-  {
-    "data": "serd_photo2.jpg",
-    "tag": "A worker disinfects bus seats in Metro Manila, Philippines. Travel restrictions during quarantine left many people lacking income, and ADB helped provide emergency assistance.",
-    "type": "image"
-  },
-  {
-    "title": "PROTECTING THE POOR IN THE PHILIPPINES",
-    "data": "When the COVID‑19 community quarantine began in the Philippines, many people were left unable to work and without the means to buy food and other basic necessities.<br><br>ADB contributed $5 million toward the <em>Bayan Bayanihan</em>, a food program based on the traditional Filipino  principle of community spirit. As part of this collaborative program, ADB partnered with a range of  Philippine government agencies and with the private sector.<br><br>The program supported the provision of emergency supplies to some of the poorest and most vulnerable  communities in Metro Manila and the broader Luzon area: some 174,000 households received assistance and about 870,000 people benefited.<br><br>To expedite aid delivery during a period of restricted travel, ADB directly purchased goods rather than  using cash transfer methods. The bank worked closely with its government agency partners to identify target  beneficiaries and manage distribution chains.<br><br>The program had a strong focus on the poor and marginalized, including people with disabilities and the elderly, as well as daily wage earners in the informal labor market.<br><br>Aleli Mantequilla, a 39-year-old whose young son lives with a disability, said the food packs allowed them  to stay at home in Caloocan City at a time when it was a serious health risk to be out shopping.",
-    "type": "expand"
-  },
-  {
-    "data": "In the Philippines, ADB committed $1.5 billion toward government COVID‑19 response programs, including  those  increasing funding for social protection, providing assistance to small businesses, and expanding health measures to stop the spread of the pandemic. ADB also provided $125 million to build two new laboratories and  provide new laboratory equipment to 12 hospitals, boosting the country’s COVID‑19 testing capacity by at least  11,000 per day. This support enabled the provision of personal protective equipment to medical frontliners,  ventilators to nearly 100 hospitals, and other equipment to improve the diagnosis of COVID‑19 cases. The bank  committed $500 million to fund part of the conditional cash transfers under the Government of the Philippines’  <em>Pantawid Pamilyang Pilipino Program</em> (4Ps). The program aims to reach at least 4.25 million poor households to  improve the health and education of children.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Indonesia and Thailand, ADB committed $1.5 billion to help expand social assistance programs, boost resources for COVID‑19 prevention and control, and safeguard workers and productive sectors from the  economic  downturn. Cambodia and Myanmar each received commitments of $250 million.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB also provided $3 million in grants from the <a href='https://www.adb.org/what-we-do/funds/asia-pacific-disaster-response-fund-apdrf' target='_blank'>Asia Pacific Disaster Response Fund</a> to both Indonesia and the  Philippines to support each country’s preparedness plans for COVID‑19. This support was used to procure  emergency medical supplies and equipment to improve COVID‑19 testing capacity, provide personal  protective  equipment for health workers, and supply ventilators to improve treatment capacity.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB committed $29.4 million to strengthen subnational fiscal planning, public financial management, and public administration in Cambodia. The programmatic approach will improve the quality and coverage of subnational service delivery and help minimize disparities.",
-    "type": "paragraph"
-  },
-
-  {
-    "data": "In Indonesia, ADB provided $500 million to support the government’s ongoing efforts to enhance financial inclusion. Using innovative technology, the project will directly increase access to finance for micro, small, and medium-sized enterprises and communities not usually served by traditional banks.",
-    "type": "paragraph"
-  },
-  {
-    "data": "serd_rooves_.jpg",
-    "type": "image"
-  },
-  {
-    "data": "Accelerating Progress<br>in Gender Equality",
+    "data": "Accelerating Progress in Gender Equality",
     "image": "op2_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "ADB promoted gender equality in 89% of its number of committed projects in Southeast Asia during 2018–2020, up  from 80% during 2017–2019. This reflects ADB’s focus on supporting projects designed to improve women’s access to finance and social assistance in Southeast Asia.",
+    "data": "ADB continued to promote gender equality throughout its operations in Southeast Asia, including targeted support to enhance financial access for women-led businesses.",
     "type": "paragraph"
   },
   {
-    "data": "In Viet Nam, ADB committed a $5 million grant from the Women Entrepreneurs Finance Initiative to provide COVID‑19 relief for businesses run by women, incentivizing banks to restructure existing loans and extend new ones to at least 500 women-led small and medium-sized enterprises.",
+    "data": "In Viet Nam, small and medium-sized enterprises (SMEs) make up around 98% of all businesses, but SMEs owned or led by women find it more difficult to obtain bank financing than those run by men.",
     "type": "paragraph"
   },
   {
-    "data": "Tackling Climate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
+    "data": "In 2021, ADB made two significant nonsovereign loans to expand access to finance for Viet Nam’s women entrepreneurs and business operators. The bank extended a $100 million loan to the Vietnam International Commercial Joint Stock Bank (VIB) and $25 million in financing to Tien Phong Commercial Joint Stock Bank (TPBank). Both institutions will, in turn, provide critically needed financing to SMEs owned and led by women. The investment in VIB includes technical assistance to develop information systems appropriate to women and train bank loan officers on better serving female customers, while the financing for TPBank is expected to increase the bank’s number of women borrowers by over 23% by 2025.",
+    "type": "paragraph"
+  },
+  {
+    "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
     "image": "op3_color.png",
     "type": "logoHeading"
   },
-
   {
-    "data": "Despite the shift in focus brought by COVID‑19, ADB has remained committed to addressing climate change  and disaster resilience in Southeast Asia. Of the total number of projects committed in this region in 2020, 54%  included climate mitigation or adaptation components (compared to 51% in 2019). Total climate financing  amounted to $940 million, from ADB’s own resources.",
+    "data": "During 2021, ADB provided extensive support to the private sector to scale up clean energy infrastructure in the region. ",
     "type": "paragraph"
   },
   {
-    "data": "In Indonesia, ADB committed $300 million for a project that will help expand the country’s geothermal power generation capacity, contributing to the sustainability of the electricity system. The project is expected to avoid emissions of at least 705,699 metric tons of carbon dioxide equivalent per year and create 1,221 new  jobs.",
+    "data": "In Cambodia, the bank provided a $4.7 million nonsovereign loan to Prime Road Alternative Company Ltd. to develop and operate a 60-megawatt solar power plant in Kampong Chhnang Province. The project is expected to reduce greenhouse gas emissions by nearly 111,000 tons a year.",
     "type": "paragraph"
   },
   {
-    "data": "In Cambodia, the bank provided about $128 million to help strengthen the national electricity utility’s  transmission infrastructure through the construction of 4 transmission lines and 10 substations. A $6.7  million cofinancing grant from the Asia Clean Energy Fund will pilot the first utility-scale battery energy  storage system in the country. The project is forecast to create 1,300 direct jobs.",
-    "type": "paragraph"
+    "data": "In Thailand, ADB extended an $11.2 million-equivalent nonsovereign loan to GreenYellow Solar 1 Co. Ltd, which helped mobilize commercial financing from responsAbility Investments AG. The project will build 92 solar systems, most of them rooftop-mounted, on the premises of Thailand’s large commercial and industrial power users, avoiding around 30,800 tons of carbon dioxide equivalent emissions each year. The project also models a new financing structure for rooftop solar projects, which can be scaled up and replicated within Thailand and for other DMCs. "
   },
-
-
   {
-    "data": "In Thailand, ADB committed a B1.5 billion ($50.4 million) loan to Energy Absolute Public Company Limited to  support two of Energy Absolute’s operating solar and wind projects as well as its efforts to establish a comprehensive electric vehicle charging network in the country. This green loan is the first certified climate  loan in Thailand and one of the first in Asia. It will underpin Thailand’s renewable energy sector and the  transition to an electric vehicle industry. The investment complements a $37.8 million long-term financing  package for TTC Energy Development Investment Joint Stock Company to develop and operate a 50-megawatt-hour solar power plant in Tay Ninh province, and the bank’s $7.3 million commitment to Lomligor Company Limited for a 10-megawatt wind power plant in southern Thailand. As part of ADB’s blended finance offering to Lomligor, the bank administered a $4.8 million concessional loan provided by the Clean Technology Fund. The project supports the scaling up and replication of battery storage projects in Southeast Asia.",
+    "data": "Among further renewable energy investments in 2021, ADB committed a $35 million nonsovereign loan—as part of abroader $173 million project—supporting three companies to construct and operate wind farms in Viet Nam’s Quang Tri Province. The wind farms will boost the country’s wind power capacity by nearly 30% and will reduce carbon dioxide emissions by over 162,000 tons annually.",
     "type": "paragraph"
   },
   {
-    "data": "To promote disaster resilience in Indonesia and the Philippines, ADB provided each country with $500 million in contingent finance under policy-based lending. This supported each government’s response to COVID‑19, as  well as reforms in policy and institutional arrangements for disaster risk management and health-related  emergencies, including social protection. The project will benefit over 9 million people in the Philippines. At least 20 Philippine cities will be provided with insurance policies for earthquake and/or typhoon coverage, with payouts providing near-immediate financial resources for early recovery costs.",
+    "data": "ADB also provided a $24.5 million nonsovereign loan to a subsidiary of B.Grimm Power Public Company Limited to construct and operate a 240-megawatt solar power plant in Viet Nam’s Tay Ninh Province. One of the largest solar power projects in Southeast Asia, the plant will deliver around 337 gigawatt- hours of electricity and avoid nearly 130,000 tons of carbon dioxide equivalent emissions each year. "
+  },
+  {
+    "data": "To support immediate relief efforts in the aftermath of Tropical Cyclone Seroja in Timor-Leste, ADB provided a $1 million grant from the Asia Pacific Disaster Response Fund. The grant bolstered government efforts to restore essential services, conduct damage assessments, coordinate crisis response and disaster recovery, provide conditional cash transfers to Dili residents, and rehabilitate basic community infrastructure.",
     "type": "paragraph"
   },
   {
-    "data": "Making Cities<br>More Livable",
+    "data": "Making Cities More Livable",
     "image": "op4_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "ADB is financing projects addressing water security, urban mobility, and reforms in local governance to make Southeast Asia’s cities more livable.",
+    "data": "In 2021, ADB continued to tackle urban challenges across Southeast Asia, including investments to improve solid waste management, expand safe water supply and sanitation, and decongest road network choke points.",
     "type": "paragraph"
   },
   {
-    "data": "In Myanmar, the bank committed a $180 million loan for a project to transfer 818 million liters of water per day to Yangon City, directly benefiting about 800,000 people. The investment will help the city’s bulk water system respond to demand in times of natural water scarcity and meet residents’ needs during public health emergencies.",
+    "data": "In Cambodia, the bank committed $180 million so that around 140,000 residents living in Bavet, Kampot, and Poipet can benefit from better wastewater and solid waste management services. The project will also help reduce flooding in the cities by upgrading urban stormwater and drainage systems. The project includes a grant of $2 million from the JFPR to develop municipal government capacity in urban and infrastructure planning.",
     "type": "paragraph"
   },
-
   {
-    "para1": "In Viet Nam, ADB provided an $8 million nonsovereign loan to Binh Duong Water Environment Joint StockCompany. Slated to expand the Tan Hiep Water Treatment Plant, the financing will increase production capacity, install additional water intake pumps, and build raw water transmission pipes from the Dong Nai River intake facility.<br><br>The upgrade will help meet the rising water demand among residential and industrial customers in four key urban areas where industrial zones provide jobs for nearly 1.3 million locals and more than 500,000 foreigners. The financing will deliver sustainable and efficient water supplies in the fast-growing Binh Duong province.<br><br>A collaborative One ADB approach enabled the client to transition smoothly from sovereign financing to stand-alone private sector financing: as part of a water sector investment program, the company had previously borrowed a sovereign-guaranteed loan of $39.9 million to upgrade its  water supply system. Both the project itself and its processing approach could be replicated elsewhere in Viet Nam and other DMCs, and ADB is in discussion with counterparts in Indonesia and the Philippines.",
-    "type": "shadeKnowledge"
+    "data": "ADB also committed $47 million to provide safe, reliable, and affordable water supply and sanitation to about 62,000 people in three cities of Timor-Leste. The project will finance the construction of 14 water reservoirs and 7 treatment plants. It will also help rehabilitate and expand 130 kilometers of the water distribution network, install water meters for 10,000 households, and construct 12 public toilet blocks and 3 septage treatment facilities.",
+    "type": "paragraph"
   },
-
   {
-    "data": "Promoting Rural Development<br>and Food Security",
+    "data": "n the Philippines, traffic demand of 12.8 million trips per day often overwhelms the capacity of Metro Manila’s road network, causing long travel delays for commuters and logistical difficulties for businesses. In response, and as part of wider government efforts to address traffic congestion in the city, ADB provided a $175.1 million loan to support the construction of three road bridges crossing the Marikina River.",
+    "type": "paragraph"
+  },
+  {
+    "title": "Sustainable Recovery through Green Financing",
+    "image": "chapter2-img3-2.png",
+    "tag": "ADB is creating partnerships to prepare and finance green infrastructure projects in Asia and the Pacific.",
+    "data": "During 2021, ADB took an important step forward in the pursuit of green and inclusive recovery from the pandemic for Southeast Asia. The bank secured four partners who have pledged a total of $665 million to the new Green Recovery Platform of the ASEAN Catalytic Green Finance Facility (ACGF), co-owned by members of the Association of Southeast Asian Nations (ASEAN) and ADB. This support includes $300 million from the Green Climate Fund and equivalents of $155 million from Italy’s state lender Cassa Depositi e Prestiti, $151 million from the Government of the United Kingdom, and $59 million from the European Union. These contributions will help ASEAN developing member countries catalyze public and private resources to prepare and finance green infrastructure projects. The new partnerships will help provide technical assistance for financial structuring, project development, and sustainability bond development, and extend loans to reduce risk in investments from public and private financiers. ADB cofinancing will be mandatory for all projects supported through the platform. These new partnerships complement about $1.4 billion in cofinancing already pledged to the ACGF by ADB, Agence Française de Développement, the European Investment Bank, German state-owned development bank KfW, and the Government of the Republic of Korea, bringing indicative support to over $2 billion. In its first 3 years, the ACGF has approved five projects that are expected to reduce carbon dioxide emissions by 291,000 tons every year.",
+    "type": "expand"
+  },
+  {
+    "data": "Promoting Rural Development and Food Security",
     "image": "op5_color.png",
     "type": "logoHeading"
   },
-
-
   {
-    "data": "Across Southeast Asia, ADB is investing in agriculture value chain infrastructure, improving agricultural productivity, and enhancing livelihoods in rural and remote communities.",
+    "data": "Rural and remote communities across Southeast Asia have often found themselves cut off from medical and other critical services during the COVID-19 pandemic. ADB is addressing this issue, and supporting longer-term recovery in the region, by investing in improvements to road connectivity and access to markets for millions of rural residents.",
     "type": "paragraph"
   },
   {
-    "title": "DIGITAL TECHNOLOGY BOOSTS IRRIGATION",
-    "image": "serd/serd_box.jpg",
-    "tag": "Farmers from a water users’ group hold a meeting in Yogyakarta, Indonesia. ADB is supporting the use of advanced technology to rehabilitate irrigation networks across the country.",
-    "data": "In a country with around 270 million people spread over more than 17,500 islands, achieving food security and reducing rural poverty can be an ongoing challenge.<br><br>It is why ADB is supporting a Government of Indonesia program to rehabilitate about 500,000 hectares of  irrigation networks across 74 districts—with advanced technology being applied to get the job done. Part of a broader government initiative to provide economic opportunities to rural communities, the program requires  that all irrigation assets and their operational condition be inventoried to accurately assess maintenance  requirements and prioritize budget allocations.<br><br>To achieve this massive undertaking, the project has used digital technology to streamline field surveys by  combining the use of an android application with a geospatial online database. The system also includes an  irrigation asset management platform to cover performance measurements, damage assessments, prioritization of work handling, and cost estimation for maintenance and rehabilitation.<br><br>The use of these high-tech measures has already paid dividends. In 2020, the program surpassed the  milestone of 2.5 million hectares of irrigation systems inventoried.",
-    "type": "expandTwo"
-  },
-
-  {
-    "data": "In Cambodia, the bank committed $70 million, with $33 million cofinancing from the Japan Fund for Poverty Reduction and the High-Level Technology Fund, to support a project that will improve productivity and strengthen food safety and quality across various value chains. This will directly benefit about 230  agricultural cooperatives and 50 agribusinesses. The project will also improve 110 kilometers of rural roads connecting farms to markets.",
+    "data": "In Cambodia, the bank committed $82.1 million to make 48 kilometers of national and provincial roads less susceptible to damage caused by climate change, natural hazards, and vehicle overload. This investment will better connect about 2.5 million people in the provinces of Prey Veng and Kandal to markets and income-earning opportunities. The project, which is along the Greater Mekong Subregion (GMS) Southern Economic Corridor, will also expand access to education, health, and other public services for remote communities.",
     "type": "paragraph"
   },
   {
-    "data": "In Thailand, ADB committed $2 million for technical assistance to help address income disparities and the  adverse impacts of climate change on highland agriculture and its associated communities. The project will support local governments in demonstrating to at least 300 highland farmers climate-resilient practices and   technologies that can improve agricultural productivity, value addition, and food traceability.",
+    "data": "ADB is also advancing rural development in Viet Nam, especially in areas with large ethnic minority communities. The bank provided $58 million in loans to improve the climate resilience of transport and water supply infrastructure in the south– central provinces of Binh Dinh and Quang Nam, with a focus on remote upland districts. The ethnic minority communities in these districts are often isolated by flooded roads in the rainy season, while less than 60% of households within the project area have access to reliable and safe water supply. ADB’s support will upgrade rural roads and water reservoirs and construct domestic water storages, benefiting about 243,000 people.",
     "type": "paragraph"
   },
   {
-    "data": "In Timor-Leste, ADB administered a $3 million grant as the bank’s first sovereign operation in the country’s  agriculture sector. The project supports the overall development of the coffee industry and provides indirect benefits to all growers and sellers, who comprise 20% of households in the country. The project supports the  first phase of Timor-Leste’s National Coffee Sector Development Plan, 2019–2030, which targets a doubling of  coffee production by 2030 and a 270% increase in export income. ADB also committed a $1 million grant, implemented with United Nations Development Programme support, to ensure food and nutrition security for the  country’s most vulnerable households. Farm-to-table food assistance targeted local farmers who had not been  able to sell their products due to COVID‑19, benefiting about 25,000 people. Sourcing the food locally  also helped support small enterprises.",
+    "data": "As part of the project, ADB will administer a $2 million grant from the High-Level Technology Fund to supply and install weather data systems for more accurate climate risk management. The bank also provided technical assistance to identify livelihood opportunities that may benefit ethnic minorities in Viet Nam’s mountainous areas.",
     "type": "paragraph"
   },
   {
-    "data": "<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%20Timor-Leste%2C%20ADB%20and%20the%20UNDP%20helped%20provide%20farm-to-table%20food%20assistance%20using%20produce%20farmers%20were%20unable%20to%20sell%20due%20to%20COVID-19.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In Timor-Leste, ADB and the UNDP helped provide farm-to-table food assistance using produce farmers were unable to sell due to COVID-19.</a>",
-    "type": "twitter"
-  },
-  {
-    "data": "To further advance food security in Indonesia, ADB signed a $15 million nonsovereign loan with PT Cisarua  Mountain Dairy (Cimory). The loan assisted Cimory in its daily operations during the COVID‑19 pandemic,  supporting the livelihoods of about 3,300 smallholder dairy farmers, 2,200 employees, and over 1,500 direct sales agents—mostly women.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Strengthening Governance and<br>Institutional Capacity",
+    "data": "Strengthening Governance and Institutional Capacity",
     "image": "op6_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "ADB prioritizes institutional development and capacity building as a critical part of its support to DMCs in  Southeast Asia. Approximately 63% of the number of projects committed for the region in 2020 included support for improved governance and institutional capacity. ADB continues to design and finance programs to help DMCs  build institutional capabilities, provide basic services, and optimize financial resources.",
+    "data": "ADB’s support for strengthening governance and institutional capacity in Southeast Asia is highlighted by three significant 2021 investments. ",
     "type": "paragraph"
   },
   {
-    "data": "In Cambodia, ADB committed $29.4 million for a public service and financial management development program to improve basic service delivery in water, sanitation, education, and other areas. The program will support  reforms to strengthen subnational fiscal planning and public administration.",
-    "type": "paragraph"
-  }, {
-    "data": "ADB provided $26.5 million for a local governance reform project in the Philippines that will establish unified real property valuation services and digitize the property valuation database and information systems at the Bureau of Local Government Finance. This will boost real property tax collection by an estimated 25% from 2023 onward. The project will help improve local governments’ ability to deliver services and finance  infrastructure by making revenue collection more efficient.",
+    "data": "In Cambodia, the bank committed a $40 million policy‑based loan to expand access to credit for micro, small, and medium‑sized enterprises and support reforms to boost financial stability and upgrade finance sector infrastructure. Through the program, ADB is also supporting upgrades to outdated payment systems. ",
     "type": "paragraph"
   },
   {
-    "data": "Also in the Philippines, ADB committed $400 million in policy-based lending for a capital market-generated infrastructure financing program. This will enlarge the government debt market, allowing the government to fund its priority programs—including its COVID‑19 response package—while boosting the availability of  long-term financing for infrastructure.",
+    "data": "ADB provided $600 million in results-based lending to Indonesia’s State Electricity Corporation (Perusahaan Listrik Negara [PLN]) to rehabilitate, strengthen, and expand the power grid in five provinces of Java. This investment will strengthen PLN’s institutional capacity through improvements to operational systems and processes. ",
     "type": "paragraph"
   },
   {
-    "data": "Fostering Regional Cooperation<br>and Integration",
+    "data": "The bank also committed $400 million in policy-based lending for the Philippines for improving local government capacity to provide high-quality public services. The program will help strengthen the service delivery frameworks of local governments, modernize their public financial management, and improve their financing and investment frameworks. These measures will help ensure local governments have the capacity and adequate resources to respond quickly to the basic needs of local communities at critical times.",
+    "type": "paragraph"
+  },
+  {
+    "title": "Supporting Youth in the Philippines",
+    "image": "chapter2-img5-2.png",
+    "tag": "The ADB-supported JobStart Philippines program is boosting job prospects for the country’s youth.",
+    "data": "For many young Filipinos, unemployed rates have remained stubbornly high for years. The number of youths not undertaking education or training was a long-held concern for authorities. In 2017, ADB began an investment program to help the Government of the Philippines enhance the employability of youth and shorten the time young Filipinos spend finding work after leaving school. Through the program, approximately 20,000 at-risk youth have been trained by JobStart Philippines, with a 67% placement rate. The ADB financing has helped expand public employment services, create youth training programs in digital format, roll out training scholarships for the newly unemployed, and reduce financial burdens on first-time jobseekers. “I can say that I can now find a job with the help of this training,” says Mea Pagayon, a JobStart participant in 2021. “I hope they will be able to help more young people like me, those who have less opportunity.” The ADB loans, made in 2017 and 2019, have also provided support to the government’s program for the employment of students, which has delivered first jobs for more than 393,500 young Filipinos (over half of them women). With school closures associated with the COVID-19 pandemic threatening to jeopardize the gains made in recent years, ADB committed an additional $400 million to the investment program in 2021. This third loan specifies measures to counter the effects of the pandemic on the broader labor market both now and for longer-term recovery.",
+    "type": "expand"
+  },
+  {
+    "data": "Fostering Regional Cooperation and Integration",
     "image": "op7_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "In Southeast Asia, ADB is helping develop economic corridors, reduce trade and travel barriers, and enhance  regional cooperation.",
+    "data": "ADB is working to intensify integration between countries in Southeast Asia to help accelerate the region’s green and inclusive recovery from the COVID-19 pandemic. ",
     "type": "paragraph"
   },
   {
-    "data": "ADB provided $1.5 million in technical assistance for the GMS to support early implementation of the  subregion’s cross-border transport and trade facilitation agreement. This will eliminate the need for repeat offloading and reloading at international borders and alleviate border congestion. It will bring the GMS a step closer to a free market for transport services, with lower prices for the subregion’s 300 million  consumers.",
+    "data": "In 2021, the bank committed $500 million in policy-based lending to foster a more competitive business environment and increase foreign direct investment in Indonesia. Under the program, ADB is contributing to reforms that will expand regional trade by reducing restrictions on investments, which will lead to lower international logistic costs; increased exports; and expansion of output from micro, small, and medium-sized enterprises. The program is expected to generate 1.7 million new jobs and benefit 27.6 million women-owned businesses. ",
     "type": "paragraph"
   },
   {
-    "data": "ADB also committed additional financing for a GMS health security project in the Lao PDR ($20 million) and  Myanmar ($30 million) to support, among other things, each country’s preparedness and response plan for COVID‑19. The financing supported the immediate procurement and distribution of essential medical  supplies and equipment, the scaling up of laboratory testing and case management, and the strengthening of the health system for coping with similar infectious disease outbreaks.",
+    "data": "In Timor-Leste, ADB provided a $135 million loan to expand the country’s international gateway airport by extending the runway, constructing a new air traffic control tower, and reconfiguring other airport facilities. Through safer and more efficient travel and transport, the project will enhance connectivity and economic ties with neighboring countries, improve trade and investment opportunities, and streamline labor movement across the region. ",
     "type": "paragraph"
   },
   {
-    "data": "In 2020, ADB approved a <a href='https://www.adb.org/documents/indonesia-country-partnership-strategy-2020-2024' target='_blank'>new country partnership strategy for Indonesia</a>, covering 2020–2024. The strategy is geared toward helping Indonesia emerge stronger from the COVID‑19 pandemic by accelerating economic  recovery and strengthening climate resilience. It has a specific focus on strengthening health-care systems, expanding social protection, advancing quality education, developing workforce skills, and supporting environmental sustainability and green recovery.",
-    "type": ""
+    "data": "Regionally, ADB provided technical assistance to promote the competitive, efficient, and seamless movement of goods in Southeast Asia. The project will build the capacity of customs administrators in Cambodia and the Lao People’s Democratic Republic to implement select provisions of the World Trade Organization Trade Facilitation Agreement. It will also help the two DMCs strengthen their engagement with the private sector. ",
+    "type": "paragraph"
   },
   {
-    "title": "Helping Indonesia Emerge Stronger",
-    "data": "In 2020, ADB approved a <a href='https://www.adb.org/documents/indonesia-country-partnership-strategy-2020-2024' target='_blank'>new country partnership strategy for Indonesia</a>, covering 2020–2024. The strategy is geared toward helping Indonesia emerge stronger from the COVID‑19 pandemic by accelerating economic  recovery and strengthening climate resilience. It has a specific focus on strengthening health-care systems,  expanding social protection, advancing quality education, developing workforce skills, and supporting  environmental sustainability and green recovery.",
-    "image": "serd_smallbox.jpg",
-    "type": "shadeKnowledgeTwo"
-  },
-
-
-  {
-    "data": "KNOWLEDGE HIGHLIGHTS ",
+    "data": "KNOWLEDGE HIGHLIGHTS",
     "type": "heading"
   },
   {
-    "data": "Many of ADB’s knowledge initiatives in Southeast Asia took a long view beyond the pandemic.",
-    "type": "paragraph"
-  },
-
-  {
-    "data": "",
-    "type": "video"
-  },
-  {
-    "data": "",
-    "type": ""
-  },
-  {
-    "data": "In the Philippines, ADB examined the technical and vocational education and training (TVET) system in the  context of Industry 4.0—the digitization of manufacturing—and the changing demand for labor. <a href='https://www.adb.org/publications/tvet-philippines-age-industry' target='_blank'>The study</a>  provided recommendations on how to enhance the TVET system and expand the national authority’s ability to adapt to anticipated changes. The recommendations included enhancing TVET institutional arrangements and  implementation, improving communication and coordination across government agencies, and intensifying the push for greater industry involvement.",
+    "data": "ADB’s knowledge work for Southeast Asia in 2021 was highlighted by several initiatives for the GMS. Established in 1992 through ADB support, the GMS comprises Cambodia, the People’s Republic of China (specifically Yunnan Province and Guangxi Zhuang Autonomous Region), the Lao People’s Democratic Republic, Myanmar, Thailand, and Viet Nam. ",
     "type": "paragraph"
   },
   {
-    "data": "In Indonesia, ADB explored policy options to advance the country’s technological transformation and unlock its economic growth potential, particularly in key policy areas such as employment, competitiveness, equity,  and sustainability. <a href='https://www.adb.org/publications/innovate-indonesia' target='_blank'>An ADB study</a> recommended policy actions including the promotion of infrastructure and institutions that support innovation, awareness of the business value of new technologies, technology transfer and technical support for firms, low-cost plug-and-play technology, and a tech-savvy workforce.",
+    "data": "The bank conducted a detailed analysis of key challenges and opportunities for the GMS to realize its development goals through to 2030. This included proposals to achieve growth through enhanced integration into the global economy, bolstering cities as engines of growth, and improving the quality of road infrastructure and connectivity to enhance trade. ",
     "type": "paragraph"
   },
   {
-    "data": "ADB helped operationalize the <a href='https://www.adb.org/what-we-do/funds/asean-catalytic-green-finance-facility/overview' target='_blank'>Association of Southeast Asian Nations (ASEAN) Catalytic Green Finance Facility</a>  under the ASEAN Infrastructure Fund. The facility takes a “one-stop shop” approach of integrating climate solutions and innovative financing approaches into project design, and benefits from cooperation with various cofinancing and development partners. A major part of its work is providing technical assistance support to  better structure green projects across the region and develop pipelines of bankable green projects.",
+    "data": "In September, the Seventh GMS Summit of Leaders endorsed and adopted the <a href='https://www.adb.org/documents/gms-economic-cooperation-program-strategic-framework-2030'>GMS Economic Cooperation Program Strategic Framework 2030</a>, which ADB helped formulate. The framework identifies innovative approaches to boost digitalization, enhance transport connectivity between members, expand policy dialogue, and foster greater collaboration with the private sector. Delegates at the Summit also adopted the <a href='https://www.adb.org/documents/gms-covid-19-response-recovery-plan-2021-2023'>GMS COVID-19 Response and Recovery Plan 2021–2023</a> to guide cooperation on efforts to contain the pandemic and promote economic recovery. ",
     "type": "paragraph"
   },
   {
-    "data": "In October, ADB launched the <a href='https://seads.adb.org/seads-2020' target='_blank'>Southeast Asia  Development Symposium</a> to help crystallize thinking on critical issues and support countries in making the transition to prosperous, knowledge-based, and sustainable economies. The inaugural symposium featured government and private sector leaders discussing how digital technology can help offset COVID‑19 impacts and be an integral part of longer-term economic recovery.",
+    "data": "To ensure the development effectiveness of the GMS Program, ADB’s department responsible for independent evaluations undertook a thematic assessment of the program and concluded that it remains relevant and responsive to the development needs of its members and continues to deliver effective programs to promote regional cooperation and integration.",
     "type": "paragraph"
   },
   {
-    "title": "Next",
-    "data": "Chapter 3",
+    "title": "SECURITY, PROSPERITY, AND SUSTAINABILITY FOR THAILAND",
+    "data": "In 2021, ADB endorsed a new <a href='https://www.adb.org/documents/thailand-country-partnership-strategy-2021-2025'>country partnership strategy</a> for Thailand covering 2021–2025. The strategy recognizes Thailand’s growing resources and capacity to identify and resolve its own development challenges and will ensure ADB’s assistance is complementary. Under the strategy, ADB will deliver a joint sovereign and nonsovereign program of knowledge and financing solutions to support the country’s development objectives of security, prosperity, and sustainability. The areas of focus include addressing remaining pockets of inequality, expanding Thailand’s engagement in regional cooperation and growth, and overcoming constraints to private sector growth.",
+    "type": "expand"
+  },
+  {
+    "title": "NEXT",
+    "data": "PARTNERING WITH THE PRIVATE SECTOR",
     "type": "button"
   }
 ]

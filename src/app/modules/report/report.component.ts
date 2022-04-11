@@ -9,6 +9,8 @@ import eastAsia from "../../constants/east-asia.json";
 import pacific from "../../constants/pacific.json";
 import southasia from "../../constants/south-asia.json";
 import southeastasia from "../../constants/south-east-asia.json";
+import privatesector from "../../constants/private-sector.json";
+
 
 import financialHighlight from "../../constants/financial-highlight.json";
 import { GeneralApiService } from 'src/app/core/general-api.service';
@@ -140,6 +142,10 @@ export class ReportComponent implements OnInit, AfterViewInit {
                     this.generalApiService.chapterDetails.id === 15;
                     this.data = financialHighlight;
                     this.generateIDs('chap15');
+                } else if (params['id'] == 16) {
+                    this.generalApiService.chapterDetails.id === 16;
+                    this.data = privatesector;
+                    this.generateIDs('chap16');
                 }
                 setTimeout(() => {
                     this.loading = false;

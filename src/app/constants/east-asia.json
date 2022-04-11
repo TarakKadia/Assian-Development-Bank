@@ -1,426 +1,518 @@
-[{
-    "data": "EAST ASIA",
-    "country": "The People’s Republic of China, Mongolia",
-    "type": "regionHeading"
-  },
+[
   {
-    "data": "eard_photo1 (1).jpg",
-    "tag": "This ADB-supported waste-to-energy plant in Suzhou in the PRC has helped create better living conditions in the city. In 2020, the bank committed $206.6 million to support waste-to-energy and other environmental initiatives in Hebei province.",
+    "data": "chapter3-img1.png",
+    "heading": "CHAPTER 2: OPERATIONS",
+    "text": "EAST ASIA",
+    "titleTag": "The People’s Republic of China, Mongolia",
+    "tag": "A couple enjoy a walk in Beijing’s Yuyuantan Park in the People’s Republic of China.",
     "type": "image"
   },
   {
-    "title": "BY THE NUMBERS: EAST ASIA",
+    "title": "BY THE NUMBERS",
     "symbol": "$",
-    
-    "digit1": 2.9,
+    "digit1": 2.0,
     "tag1": "COMMITTED",
-
-    "digit2": 385,
-    "tag2": "COVID‑19<br>RESPONSE",
-
-    "digit3": 1.9,
+    "digit2": 478,
+    "tag2": "COVID‑19 RESPONSE",
+    "digit3": 1.7,
     "tag3": "DISBURSED",
-
-    "digit4": 1.1,
+    "digit4": 426,
     "tag4": "COFINANCED",
-
-    "sign": "M",
+    "sign": "B",
     "type": "regionCounter"
   },
-
   {
-    "data": "East Asia was the first region hit by the COVID‑19 pandemic. While containment measures were quickly deployed to safeguard lives, massive economic shocks were soon felt and supply chains, trade, and tourism were disrupted. Aggressive economic measures, such as expedited construction works, income guarantees, and cash transfers, managed to cushion some of the impacts, but economic prospects remained fluid throughout 2020. Policy measures announced in the region during 2020 totaled $2.7 trillion or 16.4% of regional gross domestic product. The economy of <a href='https://www.adb.org/countries/mongolia/main' target='_blank'>Mongolia</a>, a country heavily dependent on external demand, continued to contract, while the economy of the <a href='https://www.adb.org/countries/prc/main' target='_blank'>People’s Republic of China</a> (PRC) bounced back and registered growth of 2.3%.",
+    "data": "East Asia’s economic growth recorded a sharp upturn in 2021, supported by the global recovery and efficient national vaccination programs. In the People’s Republic of China (PRC), the economy continued to recover, driven by the strong performance of industrial production, while household consumption recovered gradually. In Mongolia, growth was supported by a substantial rebound in mining and services, although contractions occurred in construction, agriculture, and general consumption.",
     "type": "paragraph"
   },
   {
-    "data": "In 2020, ADB committed $371.3 million for sovereign operations in Mongolia, of which over 40% was for COVID‑19 support, and $34.9 million for nonsovereign operations. In the PRC, ADB committed $2 billion under sovereign operations and $450.2 million under nonsovereign operations (excluding B loans). Including technical assistance and special grants, ADB committed a total of $2.9 billion for sovereign and nonsovereign operations in the East Asia region, up by 9% from 2019.",
+    "data": "The PRC’s labor market improved, reflecting strong industrial production and exports. At the same time, the number of rural labor migrants working in urban areas nearly recovered to its pre-pandemic level.",
     "type": "paragraph"
   },
   {
-    "data": "<b><a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%202020%2C%20ADB%20committed%20%242.9%20billion%20in%20East%20Asia%2C%20of%20which%20%24385%20million%20supported%20COVID-19%20response.&amp;hashtags=COVID19' title='Tweet this' target='_blank'>In 2020, ADB committed $2.9 billion in East Asia, of which $385 million supported COVID-19 response.</a></b>",
-    "type": "twitter"
-  },
-
-
-  {
-    "data": "ADB’s response to the COVID‑19 crisis in East Asia focused on immediate economic recovery and social protection for poor and vulnerable groups, while also addressing longer-term issues such as weak health systems. For Mongolia, ADB committed a $100 million countercyclical support loan for the COVID‑19 Rapid Response Program. For the PRC, where the private sector is more developed, ADB channeled $38.5 million through nonsovereign operations to ensure continued supply of essential medicines and natural gas in the city of Wuhan and other areas of Hubei province. The bank also provided support to the Government of the PRC to enhance preparedness for future pandemics by strengthening the country’s long-term health security.",
+    "data": "In Mongolia, economic contractions in sectors such as agriculture and construction led to unemployment and underemployment. Job losses were higher among youths, persons with disabilities, and adults aged 30–39. Some rural populations struggled with remote education due to a lack of digital access, while women were burdened by increased unpaid care work and excessive working hours, especially in the health sector.",
     "type": "paragraph"
   },
   {
-    "data": "As the global recovery from the pandemic gathers pace, the economies of East Asia need to gradually return their attention to long-standing development challenges. The PRC’s path to a fully modernized economy requires new drivers of growth while addressing an aging population, income inequality, and the rural–urban divide. Measures to contain and reduce severe environmental degradation and pollution must be considered along with economic growth in reaching policy decisions, and additional initiatives are needed to protect the environment. The same scenario applies in Mongolia, where large-scale mining developments have led to competition for land and scarce water supplies. Mongolia’s quest for a more broad-based economy could help ensure sustainable inclusive growth and reduce macroeconomic instability.",
+    "data": "The governments of the PRC and Mongolia introduced policy measures for COVID-19 response with a focus on health and income support as well as long-term lending, liquidity, and credit creation. Both the PRC and Mongolia made impressive progress in rolling out their vaccination programs in 2021. In the PRC, 2.84 billion doses of COVID-19 vaccine were administered in 2021, resulting in 1.21 billion residents fully vaccinated.",
     "type": "paragraph"
   },
   {
-    "title": "IN 2020, ADB’S COMMITMENTS IN THIS REGION WERE PRIMARILY IN THE FOLLOWING SECTORS",
-    "symbol": "",
-    "digit1": 17,
-    "tag1": "ENERGY",
-
-    "digit2": 14,
-    "tag2": "AGRICULTURE,<br>NATURAL RESOURCES,<br>AND RURAL DEVELOPMENT",
-
+    "data": "In 2021, ADB committed $1.8 billion in support to the PRC, including $188.3 million for nonsovereign operations. In Mongolia, ADB committed $217.1 million, of which $11.4 million was for nonsovereign operations. The bank’s support to East Asia included $478 million for COVID-19 response. This included financing to procure vaccines for Mongolia under the Asia Pacific Vaccine Access Facility, as well as investments to strengthen health‑care systems, bolster social welfare, and shore up small businesses struggling under the impacts of the pandemic.",
+    "type": "paragraph"
+  },
+  {
+    "data": "ADB’s other commitments for East Asia during 2021 supported a green and inclusive recovery from the pandemic. In the PRC, this included innovative investments for ecological restoration, disaster risk management, environmentally sustainable rural development, urban air quality improvement, and early childcare support. In Mongolia, ADB operations included support for social protection, health security, and community livelihoods.",
+    "type": "paragraph"
+  },
+  {
+    "data": "STRATEGIC FOCUS",
+    "type": "heading"
+  },
+  {
+    "data": "Addressing Remaining Poverty and Reducing Inequalities",
+    "image": "op1_color.png",
+    "type": "logoHeading"
+  },
+  {
+    "data": "The COVID-19 pandemic has underscored the need in East Asia to strengthen social protection programs that help address poverty, support longer-term recovery, and increase resilience to future shocks.",
+    "type": "paragraph"
+  },
+  {
+    "data": "In 2021, ADB committed a $73 million loan to mitigate the socioeconomic impacts of the pandemic on poor and vulnerable groups in Mongolia. Reinforcing a social protection investment made in 2020, the loan topped up monthly cash grants to 1.2 million poor children for an additional 6 months. It also helped strengthen the government’s social welfare program by updating its household database for improved targeting of poverty reduction programs.",
+    "type": "paragraph"
+  },
+  {
+    "data": "ADB is helping the PRC’s small and medium-sized enterprises (SMEs) recover from the pandemic by shoring up revenues for businesses left financially vulnerable, especially those in rural areas. The bank provided a nonsovereign loan of $40 million in yuan equivalent to Zhujiang Financial Leasing Company Limited.",
+    "type": "paragraph"
+  },
+  {
+    "data": "The loan—ADB’s first currency parallel loan in the PRC— will assist Zhujiang in boosting the ability of underserved SMEs to meet costs and expand their businesses.",
+    "type": "paragraph"
+  },
+  {
+    "data": "ADB also signed a $140.8 million loan to improve health-care access for the elderly in the Xiangyang municipality of the PRC’s Hubei Province. The project will establish a scheme for better elderly care services, enhance the design of elderly care facilities, and build at least six such facilities with gender- inclusive features such as separate rooms for men and women. As part of the project, ADB is providing support to develop a public–private partnership to build and operate a care facility that will accommodate 400 elderly patients.",
+    "type": "paragraph"
+  },
+  {
+    "id": 2,
+    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
+    "digit1": 34,
+    "tag1": "PUBLIC SECTOR MANAGEMENT",
+    "digit2": 15,
+    "tag2": "INDUSTRY AND TRADE",
     "digit3": 14,
     "tag3": "FINANCE",
-
-    "digit4": 13,
-    "tag4": "WATER AND<br>OTHER URBAN<br>INFRASTRUCTURE<br> AND SERVICES",
-
-    "digit5": 13,
-    "tag5": "TRANSPORT",
-
+    "digit4": 11,
+    "tag4": "TRANSPORT",
+    "digit5": 10,
+    "tag5": "HEALTH",
     "sign": "%",
     "type": "currencyCounter"
   },
   {
     "data": "STRATEGIC FOCUS",
     "type": "heading"
-  }, 
+  },
   {
-    "data":{
-        
-        "data":[
+    "data": {
+      "data": [
+        {
+          "id": 1,
+          "image": "op1_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#111111",
+          "datasets": [
             {
-            "id":1,
-            "image":"op1_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#111111",
-            "datasets": [
-                {
-                    "label": "1",
-                    "centerText":"",
-                    "data": [20,60,20],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+              "label": "1",
+              "centerText": "",
+              "data": [
+                40,
+                45,
+                15
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":2,
-            "image":"op2_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#222222",
-            "datasets": [
-                {
-                    "label": "2",
-                    "centerText":"90%",
-                    "data": [55, 45,5],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 2,
+          "image": "op2_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#222222",
+          "datasets": [
+            {
+              "label": "2",
+              "centerText": "90%",
+              "data": [
+                55,
+                45,
+                5
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":3,
-            "image":"op3_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#333333",
-            "isSmall": true,
-            "datasets": [
-                {
-                    "label": "3",
-                    "centerText":"",
-                    "data": [30, 70,0],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 3,
+          "image": "op3_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#333333",
+          "isSmall": true,
+          "datasets": [
+            {
+              "label": "3",
+              "centerText": "",
+              "data": [
+                10,
+                40,
+                50
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":4,
-            "image":"op4_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#444444",
-            "isSmall": true,
-            "datasets": [
-                {
-                    "label": "4",
-                    "centerText":"",
-                    "data": [5, 80,5],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 4,
+          "image": "op4_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#444444",
+          "isSmall": true,
+          "datasets": [
+            {
+              "label": "4",
+              "centerText": "",
+              "data": [
+                5,
+                15,
+                80
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":5,
-            "image":"op5_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#555555",
-            "isSmall": true,
-            "datasets": [
-                {
-                    "label": "5",
-                    "centerText":"",
-                    "data": [8, 22,70],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 5,
+          "image": "op5_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#555555",
+          "isSmall": true,
+          "datasets": [
+            {
+              "label": "5",
+              "centerText": "",
+              "data": [
+                8,
+                22,
+                70
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":6,
-            "image":"op6_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#111111",
-            "datasets": [
-                {
-                    "label": "6",
-                    "centerText":"",
-                    "data": [30, 25,75],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 6,
+          "image": "op6_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#111111",
+          "datasets": [
+            {
+              "label": "6",
+              "centerText": "",
+              "data": [
+                30,
+                45,
+                25
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         },
         {
-            "id":7,
-            "image":"op1_color.png",
-            "labels": ["", "Regional"],
-            "centerColor": "#f2ae29",
-            "datasets": [
-                {
-                    "label": "7",
-                    "centerText":"",
-                    "data": [25, 15,60],
-                    "backgroundColor": ["#d94e2f", "#b4b5b4","#FFFFFF"],
-                    "hoverBackgroundColor": ["#d94e2f", "#FFFFFF"],
-                    "hoverBorderColor": ["rgba(255, 0, 0, 0.1)", "#FFFFFF"],
-                    "fill": true
-                }
-                
-            ]    
+          "id": 7,
+          "image": "op1_color.png",
+          "labels": [
+            "",
+            "Regional"
+          ],
+          "centerColor": "#f2ae29",
+          "datasets": [
+            {
+              "label": "7",
+              "centerText": "",
+              "data": [
+                25,
+                15,
+                60
+              ],
+              "backgroundColor": [
+                "#d94e2f",
+                "#b4b5b4",
+                "#FFFFFF"
+              ],
+              "hoverBackgroundColor": [
+                "#d94e2f",
+                "#FFFFFF"
+              ],
+              "hoverBorderColor": [
+                "rgba(255, 0, 0, 0.1)",
+                "#FFFFFF"
+              ],
+              "fill": true
+            }
+          ]
         }
-    ]
-        
+      ]
     },
     "type": "strategicFocusPieChart"
   },
-  
-  
   {
-    "data": "Addressing Remaining Poverty and<br>Reducing Inequalities",
-    "image":"op1_color.png",
+    "data": "Accelerating Progress in Gender Equality",
+    "image": "op2_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "In line with ADB’s country partnership strategy for the PRC, 2016–2020, ADB continued to support the PRC’s education sector to help promote inclusive economic growth. In November 2020, the bank committed a $100 million loan to improve access to quality early childhood education in Shangrao municipality, a poor area of Jiangxi province. Using results-based lending, the program will make education more affordable for more than 3 million disadvantaged children; establish standard competency frameworks for teachers, principals, and childcare staff; and develop models and mechanisms for improving the quality of early childhood education.",
-    "type": "paragraph" 
-  },
-  {
-    "data":"Recognizing that the Yangtze River Basin still faces significant development and economic challenges, ADB committed a $100 million loan to Yunnan province in the PRC to enhance water resources and wastewater management. The project will improve the living standards of 127,015 residents (47% women) and 25,403 low-income people living around the project area by reducing solid waste and water pollution in the Sayu River Basin. The project will create about 2,200 jobs.",
-    "type":"paragraph"
-  },
-{
-  "data":"eard_river.png",
-  "tag":"Find out more about ADB’s $2 billion of investment in the Yangtze River Economic Belt during 2018-2020 to support integrated economic and environmental development and <a href='https://www.adb.org/results/enabling-nature-positive-growth-peoples-republic-chinas-yangtze-river-economic-belt' target='_blank'>enable nature-positive growth.</a>",
-  "type":"image"
-},
-  {
-    "data": "In Mongolia, the bank committed $29.9 million as additional financing for an existing health project to upgrade key hospital facilities in Ulaanbaatar and other regions of the country. To help Mongolia’s poor and vulnerable cope with the impacts of the COVID‑19 pandemic, ADB committed a $26.4 million emergency assistance loan to expand food stamps and cash grants.",
+    "data": "ADB continued to invest in measures to improve gender equality in East Asia in 2021, with a focus on enhancing the role of women in education, addressing gender-based violence, and increasing access to essential services.",
     "type": "paragraph"
   },
   {
-    "data":"ADB is also improving access to, and the quality of, mainstream education for children with disabilities in Mongolia. Through a $2 million grant from the Japan Fund for Poverty Reduction (JFPR), the bank is supporting an inclusive education project to improve accessibility in schools and kindergartens by building ramps, modifying toilets, and installing railings and braille signage. The project will also provide specialized devices to students to promote alternative communication methods, while training teachers in inclusive culture, policies, and practices.",
-    "type":"paragraph"
-  },
-  
-  {
-    "data": "Accelerating Progress<br>in Gender Equality",
-    "image": "op2_color.png",
-    "type":"logoHeading"
-  },
-
-  {
-    "data": "Promoting gender equality is a key focus of ADB’s work in East Asia. ADB promoted gender equality in 90% of its number of committed projects in the region during 2018–2020, up from 80% during 2017–2019.",
+    "data": "In the PRC, ADB committed $146.1 million for a results- based lending program on preschool education, which aims to increase women’s participation in teaching and leadership roles in the sector. The program will recruit 5,400 new teaching staff (at least 95% women) and improve the leadership capacities of 452 highly qualified teachers (at least 99% women). The program will give women access to better jobs, higher status, and increased eligibility for promotion.",
     "type": "paragraph"
   },
   {
-    "data": "In August, ADB committed a $212.4 million loan for a technical and vocational education and training project in the Chongqing municipality of the PRC. Designed to provide industry-relevant and innovation-oriented skills, the project will enhance the employment prospects of women, and help them to participate in economic activities outside the home. The project will develop higher education institutions where female teachers and students will benefit from advanced learning facilities and new training opportunities, including for innovation and entrepreneurship. It will create direct employment for an estimated 151,522 people (42% women).",
+    "data": "ADB administered a $1 million grant from the Japan Fund for Prosperous and Resilient Asia and the Pacific to provide additional financing for a project addressing domestic violence in Mongolia. The extra funding will expand immediate response and income assistance to survivors of gender-based violence, while enhancing the capacity of key officials and staff responsible for protection and rehabilitation services. It will also help upgrade domestic violence hotline operations as well as legal and psychosocial counseling for rural and remote communities and persons with disabilities.",
     "type": "paragraph"
   },
   {
-    "data": "In support of a broader strategy to reduce the burden of unpaid domestic work by women, ADB is incorporating gender perspectives into its infrastructure investments. For example, under ongoing work to reduce air pollution in the PRC, the bank committed a $294.6 million results-based lending program to help residential and commercial customers in Henan province switch fuel use from coal to gas. Women are expected to benefit from time savings from the gas distribution pipelines and gas stoves that will be installed once the project is completed. The program pays particular attention to changing the traditional behaviors of women in townships and villages where they largely still use coal or firewood: it incorporates clean fuel awareness campaigns to communicate the benefits of gas for cooking and heating.",
+    "data": "Gender considerations were an important aspect of a nonsovereign loan of $50.2 million in yuan equivalent ADB provided to Henan Tian Lun Gas Group Ltd in the PRC to ensure uninterrupted supplies of natural gas to customers. Under the loan agreement, at least 8,700 single-mother households in Henan Province will receive continuous supplies of natural gas on favorable payment terms until the end of 2022. Free supplies of childcare and children’s nutrition products will also be made available to these households.",
     "type": "paragraph"
   },
   {
-    "title": "TACKLING DOMESTIC VIOLENCE IN MONGOLIA",
-    "data": "In Mongolia, as in many other countries, the COVID‑19 crisis has caused a spike in domestic violence. Police and other support services report that phone calls to helplines increased by up to 30% during the first quarter of 2020, with women making up 93% of victims.<br><br> Lockdowns made it hard for domestic-abuse victims to venture out for advice and counseling. Overloaded helplines, some unable to accommodate multiple calls, meant many people struggled to reach the right support services.<br><br>A $400,000 ADB technical assistance grant is strengthening Mongolia’s national domestic violence response system by building chatbots into the websites of the National Center Against Violence and the National Legal Institute, making services available both day and, importantly, at night when women need help most. The funding is also being used for a multimedia communication campaign to boost abuse prevention and increase access to legal and psychosocial counseling.<br><br>To guide decision-making, ADB is also helping the Government of Mongolia build a central database—including privacy protocols to protect identities—so all calls are documented, whether they come via the 107 domestic violence hotline, 102 police hotline, legal call center, nongovernment help websites, or chatbots. To help keep services operational during the pandemic, ADB is financing the procurement of personal protective equipment, first aid kits, and disinfection materials for police units, women’s shelters, and one-stop service centers across the country. Mobile ultrasound equipment is reducing the need for victims to go to medical centers during lockdowns.",
-    "type": "expand"
-  },
-  {
-    "data": "Tackling Clmate Change, Building<br>Climate and Disaster Resilience, and<br>Enhancing Environmental Sustainability",
+    "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
     "image": "op3_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "Reducing pollution, restoring ecological protection, and encouraging sustainable livelihoods were ADB’s environmental priorities in East Asia during 2020. ADB has remained committed to addressing climate change and disaster resilience in the PRC and Mongolia. Of the total number of projects committed in the region in 2020, 70% included climate mitigation or adaptation components (compared to 74% in 2019). Total climate financing amounted to $924 million, from ADB’s own resources.",
+    "data": "In 2021, ADB continued to invest in nature-based solutions and innovative financing mechanisms to reduce ecological pressures and address climate change challenges in East Asia.",
     "type": "paragraph"
   },
   {
-    "data": "As part of the Yangtze River Economic Belt Framework, ADB and the PRC signed investment projects that will enhance environmental sustainability and climate resilience, while improving living standards for people along the Yangtze River Basin. For instance, ADB committed $101.4 million to help revive the Xin’an River, an independent river system in the Yangtze River Economic Belt Framework. As well as building river embankments to mitigate flooding, the project will upgrade sewage and stormwater management facilities in the municipality of Huangshan and four adjacent county areas, providing 95% of the urban population with access to wastewater treatment services.",
+    "data": "IThe bank committed $154 million for a project in the PRC’s Yangtze River Economic Belt that will improve the natural environment and living conditions for more than 523,000 people in the rural Pingjiang county of Hunan Province. Through the investment, ADB is helping restore wetland areas and establish a county-wide early warning system to reduce flood vulnerability for local communities. The project will also build climate adaptation considerations into rural–urban planning.",
     "type": "paragraph"
   },
   {
-    "data": "As part of its private sector operations, ADB committed a CNY488 million nonsovereign loan to Citic Financial Leasing Co. Ltd to fund long-tenor leases of clean energy projects—a good financing solution for solar power equipment with a long operating life. The deal marks ADB’s first nonsovereign loan to support clean energy development in the PRC through leasing. It builds on the bank’s success in using leasing to support green transport in the country.",
+    "data": "ADB signed a similar project worth $197.9 million to promote ecological protection and environmental improvement in the Xichuan county of Henan Province. The county is part of the Han River watershed in the Yangtze River basin, which has been designated a national key ecological function zone by the government. To develop disaster response capacity, the ADB financing will help install real-time water quality, water level, and sediment sampling stations that support early warnings for floods. The project will reduce the risk of destruction caused by floods for around 75,000 people.",
     "type": "paragraph"
-  },{
-    "data":"<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=In%20Mongolia%2C%20a%20%24100%20million%20ADB%20loan%20will%20help%20reduce%20pollution%20with%20advanced%20battery%20energy%20storage%20-%20the%20first%20such%20system%20in%20Mongolia%20and%20among%20the%20largest%20globally.'title='Tweet this' target='_blank'>In Mongolia, a $100 million ADB loan will help reduce pollution with advanced battery energy storage—the first such system in Mongolia and among the largest globally.</a>",
-    "type":"twitter"
-  },{
-    "data":"In Mongolia, ADB committed a $100 million loan to help reduce air and other environmental pollution. The project will install 125 megawatts of advanced battery energy storage—the first such system in Mongolia and among the largest battery storage systems globally. Resilient to Mongolia’s cold climate and equipped to be charged entirely by renewable electricity, the system is expected to supply 44 gigawatt-hours of clean power annually, avoiding 842,039 tons of carbon dioxide emissions each year from 2025.",
-    "type":"paragraph"
   },
   {
-    "data":"",
-    "type":"video"
+    "data": "TAs part of a multiyear lending program for reducing air pollution in the greater Beijing–Tianjin–Hebei region, the bank committed $151.5 million to boost financing for investments in renewable energy, clean transport, industrial energy efficiency, and cooling system retrofits. The 2021 financing will be used to introduce a scheme to improve the creditworthiness of domestic developers to issue clean-air bonds. It will also introduce an online lending platform to enhance access to finance for micro, small, and medium-sized enterprises and energy service corporations. The ongoing project is expected to reduce carbon dioxide equivalent emissions, including hydrofluorocarbons, by at least 800,000 tons annually by 2027.",
+    "type": "paragraph"
   },
   {
-    "data": "Making Cities<br>More Livable",
+    "data": "Making Cities More Livable",
     "image": "op4_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "During 2020, ADB responded to the challenges of rapid urbanization in East Asia by helping to improve inefficient public transport systems, ensure access to clean water supply, and prevent flooding in urban areas by introducing integrated solutions that can be replicated in the region.",
+    "data": "ADB is providing integrated solutions to help build East Asian cities that are livable, inclusive for all residents, environmentally sustainable, and resilient to climate change.",
     "type": "paragraph"
   },
   {
-    "data": "In the PRC, the bank signed a $200 million sector development program (investment and policy loan) to help transform Xiangtan from a carbon-intensive, heavily polluting city to a low-carbon, resilient, smart, and livable city. The project will install medians and peak-hour bus priority lanes on more than 60 kilometers of urban roads, make bus stops safer, and provide digital bus information and improved walking and cycling facilities for seamless access. The program will benefit 100,000 residents (50% female and 2,000 low-income residents) and encourage behavior changes toward a lower-carbon lifestyle.",
+    "data": "In the PRC, the bank committed a $200 million loan in Shaanxi Province to develop urban infrastructure that reduces traffic congestion, enhances the efficiency of logistics and supply chain systems, and improves safety in transport movement. With an additional $200 million in cofinancing, the project will introduce integrated information and communication technology to enhance the government’s capacity to monitor real-time traffic, optimize route planning, and enable sharing of operational data between logistics providers. By developing low-carbon logistics facilities and transport systems in three strategic locations, the project will improve urban air quality and reduce pollution by avoiding 69,000 tons of carbon dioxide in net carbon footprint each year.",
     "type": "paragraph"
   },
   {
-    "title":"BUS NETWORK RELIEVES PRESSURE ON GROWING CITY",
-    "data":"A new bus rapid transit system is reducing traffic, pollution, and road accidents in Yichang, People’s Republic of China. With Yichang facing rapid urbanization, ADB contributed a loan of $150 million to help introduce a bus rapid transit (BRT) system and road network improvement. Nineteen bus lines have been in operation since 2016.<br><br>Since the project’s completion, use of buses in Yichang has increased 149% with a passenger survey revealing that 38% of BRT users had made the switch from private vehicles and taxis.<br><br>These changes in travel behavior, along with dedicated bicycle and pedestrian lanes and more training for bus drivers, have contributed to a substantial drop in traffic accidents and fatalities. Deaths from road accidents in the city have fallen by 85% over the past decade.<br><br>Reduced traffic has also shortened journey times. Zhou QinHua takes her young daughter to school by bus. “Now we save 10 minutes each way,” she says. The BRT has contributed to emissions reductions that in 2019 totaled 42,480 tons of CO2 equivalent.",
-    "image":"eard_box.jpg",
-    "type":"expandTwo"
+    "title": "Priority Vaccine Delivery in Mongolia",
+    "tag": "ADB is playing an important role in Mongolia’s successful COVID-19 vaccination rollout.",
+    "data": "In the early months of 2021, COVID-19 was beginning to take a mounting toll in Mongolia. With a sharp increase in cases, the government enacted a fourth strict lockdown and turned its attention to intensifying its vaccination efforts. ADB played a significant role, disbursing a $40 million loan (including $21 million in cofinancing) to the country under the Asia Pacific Vaccine Access Facility (APVAX). During 2021, the financing helped secure more than 1.2 million COVID-19 vaccine doses, boosting government efforts to immunize priority groups representing at least 30% of the total population. These included individuals at high risk of death and about 200,000 frontline health-care workers (80% of whom are women). In addition, persons with disabilities, those who suffer from chronic diseases, emergency service workers, and vulnerable groups requiring social assistance benefited from wider vaccine availability. By the end of the year, 90.9% of this target population had been fully vaccinated and Mongolia’s COVID-19 case–fatality ratio remained among the lowest in Asia. To complement the APVAX support, a $5 million grant from the Japan Fund for Prosperous and Resilient Asia and the Pacific will help Mongolia respond to further outbreaks of COVID-19. It will provide resources and training for frontline health-care workers on COVID-19 testing and the administration of vaccines to target populations. Successful implementation of its COVID-19 vaccination rollout, including through ADB support, has assisted Mongolia in kick-starting its economy toward post‑pandemic recovery.",
+    "type": "expand"
   },
   {
-    "data": "As part of its private sector operations, ADB signed an $80 million loan with the Bank of Communications Financial Leasing Co. Ltd. to fund the lease of new-energy buses in the PRC. These buses, powered by batteries and fuel cells with zero direct emissions, will help promote sustainable public transport and reduce pollution and traffic congestion.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB also committed a loan facility of $105.5 million in yuan equivalent to Shenzhen Water (Group) Co., Ltd. and Shenzhen Water and Environment Investment Group Co., Ltd. to promote climate and disaster-resilient smart urban water infrastructure. This supports the development of urban water infrastructure systems that replicate natural processes to soak up heavy rainfall and flooding and release stored water for reuse. It applies innovative smart solutions throughout the water value chain to reduce power consumption and water losses, improve operational efficiency, and enhance water quality. It will help deliver water sustainability and security, and transfer water management know-how from Shenzhen to third- and fourth-tier cities.",
-    "type": "paragraph"
-  },{
-    "data":"<a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.adb.org%2Far2020%2Fdigital&amp;via=ADB_HQ&amp;text=ADB%20is%20working%20with%20water%20companies%20in%20Shenzhen%20in%20the%20PRC%20to%20help%20promote%20resilient%20and%20smart%20urban%20water%20systems%20that%20replicate%20natural%20processes.' title='Tweet this' target='_blank'>ADB is working with water companies in Shenzhen in the PRC to help promote resilient and smart urban water systems that replicate natural processes.</a>",
-    "type":"twitter"
-  },
-  {
-    "data": "In Mongolia, ADB committed $44.7 million for the third tranche of an investment program to improve urban services and ger area development in Ulaanbaatar. The investment, which is expected to benefit around 840,000 people, will help construct roads, flood protection channels, electricity cables, and water and sewerage pipelines. It will also improve schools, health-care centers, public spaces, and housing conditions.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB committed to administer a project, financed by a $2 million grant from the JFPR, to pilot improved solid waste management and recycling in four secondary cities of Mongolia. The project will construct and install new landfills, build solid waste transfer stations and weighbridges, and remodel cargo containers into waste recycling shops.",
-    
-    "type": "paragraph"
-
-  },
-
-  {
-    "data": "Promoting Rural Development<br>and Food Security",
+    "data": "Promoting Rural Development and Food Security",
     "image": "op5_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "Agriculture has become a priority for growth in Mongolia, and ADB is helping accelerate economic diversification in the sector and create jobs. The bank committed a $40 million loan, cofinanced by the JFPR, to install efficient and climate-resilient irrigation systems that will improve vegetable production across about 7,000 hectares of land. A total of 3,458 households involved in vegetable farming are expected to benefit from this investment.",
+    "data": "Across the PRC and Mongolia, many farmers and rural communities continue to be inhibited by outdated production methods and limited access to finance to develop modern farming enterprises. In 2021, ADB acted to address these issues through both sovereign and nonsovereign investments.",
     "type": "paragraph"
   },
-  
   {
-    "data": "To reinforce the vital wheat supply chain in Mongolia, ADB signed a nonsovereign loan of $15 million with Ulaanbaatar Flour Limited Liability Company and Tavan Bogd Foods Limited Liability Company to provide liquidity support for the two companies. The ADB financing helped sustain the livelihoods of thousands of Mongolian wheat farmers, farming and wheat-processing workers, and staff in retail outlets.",
+    "data": "The bank committed a $200.5 million loan to improve agricultural incomes and enhance food security in the PRC’s Xiangxi prefecture, Hunan Province. The project aims to develop agricultural and forestry products with the use of organic or low-chemical fertilizers and pesticides, and construct research and development facilities, seedling breeding areas, and integrated water and fertilizer management systems. It will also help implement an e-commerce platform with a product traceability system to assist farmers in selling their products to urban consumers. The project is expected to directly benefit 422,000 residents of Xiangxi, including 109,000 poor or low‑income people.",
     "type": "paragraph"
-  },{
-    "data":"In the PRC, ADB and Alibaba are preparing a joint study on the digitalization of food supply chains and waste management. A webinar on digitalization to strengthen food supply chains and reduce plastic and food waste gathered leading experts who shared international experiences and discussed the importance of public–private partnerships and digital technologies in rural vitalization and food systems.",
-    "type":"paragraph"
   },
   {
-    "data": "Strengthening Governance and<br>Institutional Capacity",
+    "data": "The COVID-19 pandemic has exacerbated long-term challenges that many farmers and micro entrepreneurs, including women, face in sourcing loans for their businesses. ADB provided a nonsovereign loan of $40 million in yuan equivalent to CD Finance Management Co. Ltd., the PRC’s largest microfinance institution, to expand access to finance in rural counties.",
+    "type": "paragraph"
+  },
+  {
+    "data": "CD Finance Management Co. Ltd. will use the proceeds to provide microloans of up to CNY200,000 as long-term, stable funding to farmers and former migrant workers, helping them start and maintain agricultural and other rural businesses.",
+    "type": "paragraph"
+  },
+  {
+    "data": "Strengthening Governance and Institutional Capacity",
     "image": "op6_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "Good governance and strong institutions are key to ensuring financial stability and responding swiftly to socioeconomic shocks. ADB prioritizes institutional development and capacity building as a critical part of its support to the PRC and Mongolia. Approximately 67% of sovereign and nonsovereign projects committed in East Asia in 2020 included support for improved governance and institutional capacity.",
+    "data": "ADB continued to prioritize institutional development and capacity building as an important focus of its support to East Asia.",
     "type": "paragraph"
   },
   {
-    "data": "In the PRC, ADB committed a $206.6 million loan for green finance in Hebei province, one of the country’s most polluted industrial regions. The loan will be provided to the Bank of Xingtai, a regional city commercial bank, to finance investments in areas such as biomass power generation, biofuel production, waste-to-energy initiatives, plastic replacement (e.g., biodegradable material production), green buildings, and environment-friendly upgrades to industrial production lines. The project will strengthen institutional capacity in green finance policy and risk management, and will serve as a business model for other cities and rural commercial banks in the PRC.",
+    "data": "In Mongolia, ADB is helping to strengthen the country’s capacity to respond to the COVID-19 pandemic and future health crises. This includes support to expedite medium-term reforms to enhance the country’s health system. In 2021, the bank committed a $100 million loan for the first subprogram of a policy-based loan to improve the crisis preparedness of Mongolia’s health sector and ensure the availability of critical medicines and emergency supplies. The loan will help the Government of Mongolia develop an incident management system that coordinates critical organizations during health emergencies as well as establish a management database across sectors to promote information sharing during disasters.",
     "type": "paragraph"
   },
- 
   {
-    "data": "Fostering Regional Cooperation<br>and Integration",
+    "data": "Under the subprogram, ADB is also supporting improvements to Mongolia’s national pharmaceutical regulation, increasing hospital autonomy and good governance, establishing a single purchaser for health services, and safeguarding the fiscal sustainability of the government over the medium term. These reforms are expected to reduce procurement prices for some medicines in public hospitals by at least 30% and improve the financial management and human resources of hospitals.",
+    "type": "paragraph"
+  },
+  {
+    "title": "Maximizing Food Production in the PRC",
+    "image": "chapter2-img2-2.png",
+    "tag": "Rice transplanting technology is helping farmers boost agricultural productivity in ADB-supported project sites.",
+    "data": "Agriculture systems in the People’s Republic of China (PRC) must help feed the largest population in the world. It is a task fraught with significant challenges such as diminishing agricultural productivity and decreasing land and water resources. Against this backdrop, ADB approved a $200 million loan in 2012 that promoted holistic support to the PRC’s agricultural development in five provinces (Anhui, Heilongjiang, Henan, Jilin, and Yunnan) and one autonomous region (Ningxia Hui Autonomous Region). A 2021 report on the performance of the project identified some impressive achievements. ADB’s support had improved more than 100,000 hectares of land through irrigation and drainage infrastructure as well as water-saving technology and practices. The result has been increased agricultural productivity in the project area, with grain yields increasing by 53%, cash crop yields (excluding vegetables) by 353%, and vegetable yields by 35%. Income for farmers increased on average by more than 150%, contributing to reduced rural poverty. The project had a particularly positive impact on women by lifting their participation and representation in local water and farmer associations, increasing employment opportunities, and improving their knowledge of modern agricultural production and irrigation. The project created 24,263 jobs during implementation and 2,284 employment opportunities during operation of the facilities, with women taking up half of the new jobs created.",
+    "type": "expand"
+  },
+  {
+    "data": "Fostering Regional Cooperation and Integration",
     "image": "op7_color.png",
     "type": "logoHeading"
   },
   {
-    "data": "ADB is supporting the <a href='https://www.carecprogram.org/' target='_blank'>Central Asia Regional Economic Cooperation Program</a> corridor, which connects landlocked countries, including Mongolia, with markets in the rest of the world.",
-    "type": "paragraph"
-  },
-  
-  {
-    "data": "As part of a multitranche financing facility, ADB committed a loan of $201.6 million under the first tranche to provide economic opportunities and improve living conditions for communities along the border between the Inner Mongolia Autonomous Region in the PRC and Mongolia. The project will install a smart port management system in the Erenhot–Zamyn-Uud economic cooperation zone, build a customs supervision center at the Mandula port, and upgrade an international hospital in Erenhot. It is expected to provide employment and income opportunities for 2.95 million people in the Erenhot and Baotou municipalities of Mongolia.",
+    "data": "ADB continues to make strategic investments and develop knowledge solutions to advance cooperation and integration between Mongolia and the PRC and with other ADB members across Asia and the Pacific.",
     "type": "paragraph"
   },
   {
-    "data":"To maximize cross-border synergy, ADB is complementing regional support with another project in Mongolia. In July, ADB committed a $30.4 million loan to develop the Zamyn-Uud border port, between Mongolia and the PRC, as a free zone for economic cooperation. The project will establish a port-of-entry system in the free zone, allowing Mongolia to easily monitor, trace, and manage health-related risks in the movement of goods and people across the border.",
-    "type":"paragraph"
-  },
-  {
-    "data":"KNOWLEDGE HIGHLIGHTS",
-    "type":"heading"  },
-
-    {
-      "data":"ADB knowledge resources continued to contribute to policymaking, innovative project design, and the sharing of experiences between the PRC and Mongolia and with other regions.",
-      "type":"paragraph"
-    },
-    {
-      "data":"Environment and water continue to be important areas covered by ADB’s knowledge products, with publications discussing issues such as <em><a href='https://www.adb.org/publications/private-sector-environmental-protection-prc' target='_blank'>Leveraging Private Sector Participation to Boost Environmental Protection in the People’s Republic of China</a></em>, and <em><a href='https://www.adb.org/publications/mongolia-river-basin-organizations' target='_blamk'>Achieving Sustainable Integrated Water Management in Mongolia</a></em>. Blogs, case studies, and other knowledge products were also published on health, including the impacts of COVID‑19.",
-      "type":"paragraph"
-    },
-    {
-      "title": "Advancing Green Development through Eco-Compensation",
-      "data": "Through a series of landmark <a href='https://www.adb.org/search?keywords=ecocompensation&amp;page=1&amp;facet_query=ola_collection_name%3Apublication%7CPublication%2Binstitutional_document%7CInstitutional%20Document&amp;facet_query=ss_search_api_olasearch_language_name%3AEnglish&amp;facet_query=sm_field_countries%24name%3AChina%2C%20People%27s%20Republic%20of' target='_blank'>publications on eco-compensation</a>, ADB has made a major contribution to an environmental project that will help clean up the Xin’an River in the PRC’s Anhui province. These knowledge products have also showcased value-added ecological mechanisms and green financing practices to other provinces within the PRC as well as ADB developing member countries.",
-      "image":"eard_knowledge.jpg",
-      "type": "shadeKnowledgeTwo"
-    },
-  
-  {
-    "data": "Several knowledge products have also contributed to policymaking in the region. The Government of Mongolia is implementing recommendations of the ADB publication, <em><a href='https://www.adb.org/publications/winning-fight-against-air-pollution-ulaanbaatar' target='_blank'>Winning the Fight Against Air Pollution in Ulaanbaatar</a></em>. <em><a href='https://www.adb.org/publications/climate-finance-shandong-green-development-fund' target='_blank'>An ADB brief shared analysis</a></em> explaining the innovative leveraging mechanism used in the PRC in the Shandong Green Development Fund Project, which aims to catalyze private, institutional, and commercial capital to develop climate-positive infrastructure and business.",
+    "data": "The bank’s efforts in 2021 are illustrated by a loan to assist the PRC’s Guangxi Zhuang Autonomous Region in strengthening cooperation and integration with member countries of the Association of Southeast Asian Nations and the Greater Mekong Subregion Economic Cooperation Program. ADB committed a $140 million loan for the third tranche of a $450 million investment program to develop and share integrated logistics facilities and e-commerce platforms across multiple DMCs. These will help promote the efficient and safe trade of perishable goods, improve food security and safety, and create 2,530 jobs for residents of Guangxi and cross-border workers in Viet Nam. Through the 2021 investment, ADB is also helping establish a vocational training center for SMEs, with funding to provide around 2,650 trainees with skills in international trade, e-commerce, tourism, food security, food safety, and agriculture.",
     "type": "paragraph"
   },
   {
-    "data": "The <a href='https://rksi.adb.org/' target='_blank'>Regional Knowledge Sharing Initiative (RKSI)</a>, coordinated by ADB and the PRC, organized 28 events with 14 partners in 2020, benefiting over 2,400 participants and covering a multitude of topics, albeit with a strong focus on COVID‑19.",
+    "data": "KNOWLEDGE HIGHLIGHTS",
+    "type": "heading"
+  },
+  {
+    "data": "ADB’s operations in the PRC have long focused on providing tailored knowledge solutions to tackle complex development issues. This work has often been of significant benefit to other DMCs throughout Asia and the Pacific as the bank shares relevant lessons and know-how from its operations in the country.",
     "type": "paragraph"
   },
   {
-    "data": "The RKSI and the Center for International Knowledge on Development organized a webinar series to share the PRC’s COVID‑19 lessons and experiences with other ADB developing member countries. This was attended by over 800 participants and livestreamed through a social media channel. In response to demand, the RKSI also produced informative videos on the PRC’s Health Code and quarantine experiences, which have been widely shared.",
+    "data": "Under ADB’s country partnership strategy for the PRC covering 2021–2025, the focus on knowledge has been strengthened further. The strategy includes a detailed knowledge plan that supports green and inclusive development through policy advice and insights on best practices.",
     "type": "paragraph"
   },
-  
+  {
+    "data": "ADB began delivering on the new knowledge plan in 2021. To offer guidance on broad development objectives, the bank shared a policy note with the Government of the PRC detailing observations on the country’s 14th Five-Year Plan, 2021–2025. This included recommendations on areas such as growth and innovation, environment and climate change, and urban–rural inequalities.",
+    "type": "paragraph"
+  },
+  {
+    "data": "ADB also had an influence on PRC policymaking in relation to disaster risk financing. Recommendations from a bank-hosted workshop on innovative financial solutions have led to the Ministry of Emergency Management analyzing policy reforms on disaster risk financing, while the Ministry of Water Resources is considering a pilot program for similar solutions in the Yangtze River Economic Belt.",
+    "type": "paragraph"
+  },
+  {
+    "data": "To benefit the PRC and other DMCs across Asia and the Pacific, the 2021–2025 knowledge plan places even greater emphasis on sharing development experiences. The ADB–PRC Regional Knowledge Sharing Initiative (RKSI) remains the centerpiece of this strategy. In 2021, the RKSI organized or supported 20 knowledge events involving over 2,000 participants from around the region, including forums on social development, poverty reduction, and ecological civilization.",
+    "type": "paragraph"
+  },
+  {
+    "data": "Under more specialized knowledge initiatives, ADB’s support for low-carbon development in Yanji city, Jilin Province was featured in the book <a href='https://www.adb.org/publications/creating-livable-asian-cities'>Creating Livable Asian</a> Cities, which presents DMCs with solutions for smart and inclusive urban planning, sustainable transport and energy, innovative financing, and urban resilience and rejuvenation. ADB also released <a href='https://www.adb.org/publications/greening-development-prc-partnership-adb'>Greening Development in the People’s Republic of China</a>, a publication about its support to the PRC to balance economic and social progress with environmental sustainability. The publication provides other DMCs with insights and lessons on how the PRC is transitioning to a greener development path.",
+    "type": "paragraph"
+  },
+  {
+    "data": "Meanwhile, new ADB technical assistance in 2021 will help capture the PRC’s practices and lessons on issues such as decarbonization and air pollution, then to share this knowledge with other DMCs through online seminars and field trips for visiting government officials.",
+    "type": "paragraph"
+  },
+  {
+    "data": "ADB similarly continues to tailor its knowledge support for Mongolia. Having supported health sector reform through its operations, in 2021 ADB shared its lessons and recommendations from this work through two publications on primary health-care and hospital services.",
+    "type": "paragraph"
+  },
+  {
+    "data": "To promote gender equality, ADB prepared <a href='https://www.adb.org/publications/mongolia-economic-growth-equal-labor-force-participation'>Boosting Mongolia’s Long-Term Economic Growth through More Equal Labor Force Participation between Men and Women</a>, a brief that provided recommendations on revisions to the country’s Labor Code. Suggested reforms included better redress mechanisms for workplace harassment, subsidizing childcare, introducing tax credits that encourage reskilling for mothers wishing to reenter the workforce, and offering more flexible and family-friendly work arrangements. These reforms have gained traction within the Mongolian Parliament after the ADB brief was recognized by the parliamentary working group addressing the Labor Code amendments.",
+    "type": "paragraph"
+  },
+  {
+    "data": "ADB is also enhancing national efforts to combat domestic violence in Mongolia. Under a technical assistance project, multiple mobile applications were launched to facilitate reporting of domestic violence, while case studies and multimedia products were released to raise awareness around this topic.",
+    "type": "paragraph"
+  },
+  {
+    "title": "RESHAPING ECONOMIES FOR QUALITY GROWTH",
+    "data": "ADB approved new country partnership strategies for both Mongolia and the PRC in 2021. In the PRC, the overarching goal of <a href='https://www.adb.org/documents/peoples-republic-china-country-partnership-strategy-2021-2025'>the strategy</a> is to support government efforts toward high‑quality, green development. ADB will prioritize investments and knowledge solutions to address the interrelated priorities of environmentally sustainable development, climate change adaptation and mitigation, and addressing an aging society and health security. For Mongolia, the <a href='https://www.adb.org/documents/mongolia-country-partnership-strategy-2021-2024'>partnership strategy</a> through to 2024 aims to aid economic recovery and help lay foundations for longer-term inclusive and sustainable growth. ADB will focus on equitable social development and economic opportunities, climate-resilient infrastructure, economic competitiveness and diversification, and green development.",
+    "type": "expand"
+  },
   {
     "title": "NEXT",
-      "data": "PACIFIC",
-      "type": "button"
+    "data": "PACIFIC",
+    "type": "button"
   }
-
-
-
-
 ]
