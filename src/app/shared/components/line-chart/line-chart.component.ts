@@ -29,9 +29,13 @@ export class LineChartComponent implements OnInit {
     yAxisLabel: string = '';
     timeline: boolean = true;
 
-    public colorScheme = {
-        domain: ['#5AA454', '#A10A28', '#C7B42C', '#AAAAAA']
-      };
+    public color:Array<any> = [
+        { 
+        backgroundColor: '#0887ca',
+        borderColor: '#0887ca',
+        HoverBackgroundColor: '#0887ca',
+        HoverBorderColor: '#0887ca'
+        }];
     constructor() {
         this.multis = this.data;
     }

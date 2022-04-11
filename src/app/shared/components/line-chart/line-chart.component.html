@@ -2,7 +2,7 @@
 <div class="container lineChartGrey">
 
     <div>
-        <h3 style="color: #ea522c;">{{ heading}}</h3>
+        <h3 style="color: #0887ca;">{{ heading}}</h3>
     </div>
     <ngx-charts-line-chart class="graphGery" *ngIf="data"
       [view]="view"
@@ -16,6 +16,7 @@
       [timeline]="timeline"
       [results]="data"
       [yAxisTicks]= [10,20,30,40,50,60,70]
+      
       >
     </ngx-charts-line-chart>
 </div>

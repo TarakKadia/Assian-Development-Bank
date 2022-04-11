@@ -17,7 +17,7 @@ export class PieChartComponent implements OnInit, AfterViewInit {
 
     ngOnInit(): void {
 
-
+        Chart.defaults.global.plugins['labels'] = false
         this.chart = new Chart('canvas' + this.id, {});
 
 

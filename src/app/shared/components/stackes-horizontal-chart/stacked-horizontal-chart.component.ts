@@ -31,12 +31,12 @@ export class StackedHorizontalChartComponent implements OnInit {
     public barChartLegend = true;
     public barChartPlugins = [];
     public barChartData: ChartDataSets[] = [
-        { data: [65, 59, 80, 81, 56, 55, 40,60,50,0], label: '2020' },
-        { data: [28, 48, 40, 19, 86, 27, 90,20,30,30], label: '2019' },
+        { data: [65, 59, 80, 81, 56, 55, 40,60,50,0], label: '2021' },
+        { data: [28, 48, 40, 19, 86, 27, 90,20,30,30], label: '2020' },
 
     ];
     public barChartColors: Color[] = [
-        { backgroundColor: '#ea522c'},
+        { backgroundColor: '#0887ca'},
         { backgroundColor: '#bcbdc0' },
       ]
 

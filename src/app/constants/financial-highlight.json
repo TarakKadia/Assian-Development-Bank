@@ -764,40 +764,9 @@
     },
 
     {
-        "type":"pieChart",
-      "data": {
-          "labels": ["Pacific", "Regional", "East Asia", "South East Asia", "Central and West Asia", "South Asia"],
-          "datasets": [
-              {
-                  "data": [4, 1, 37, 29, 21, 9],
-                  "backgroundColor": ["#d7de4d", "#298fbd", "#f8ed58", "#45d1f3", "#00b9c6","#96c75f"]
-              }
-          ]
-      },
-      "id": 1
-    },
-    {
-        "type":"pieChart",
-      "data": {
-          "labels": ["Pacific", "Regional", "East Asia", "South East Asia", "Central and West Asia", "South Asia"],
-          "datasets": [
-              {
-                  "data": [4, 1, 44, 25, 25, 2],
-                  "backgroundColor": ["#e89b92", "#fc4634", "#ffb03d","#ff793a","#ec7269","#e89b92"]
-                 
-
-              }
-          ]
-      },
-      "id": 2
-    },
-
-
-
-
-    {
         "type": "accordian-table",
-        "heading":"ADB Commitment by 2016-2020($million)",
+        "heading":"ADB Commitment by 2017-2021($million)",
+        "note":["Note: Numbers may not sum precisely because of rounding."],
         "data": [
             {
                 "type": "main-title",
@@ -854,7 +823,7 @@
                 "type": "expansion-panel",
                 "subTitle": [
                     {
-                        "title": "Item"
+                        "title": "Region"
                       },
                       {
                         "title": "Total"
@@ -927,32 +896,34 @@
                             
                             "value0": "Southeast Asia",
                             "value1": "4668",
-                            "value2": "7141",
+                            "value2": "7143",
                             "value3": "7181",
-                            "value4": "11629",
+                            "value4": "11628",
                             "value5": "7039",
-                            "value6": "",
-                            "value7":""
+                            "value6": "5579",
+                            "value7":"3944"
                         },
                         {
                             
                             "value0": "Regional",
-                            "value1": "154",
-                            "value2": "265",
-                            "value3": "523",
-                            "value4": "294",
-                            "value5": "310",
-                            "value6": "105"
+                            "value1": "265",
+                            "value2": "523",
+                            "value3": "294",
+                            "value4": "310",
+                            "value5": "105",
+                            "value6": "282",
+                            "value7":"85"
                         },
                         {
                             
                             "value0": "Total",
-                            "value1": "14930",
-                            "value2": "21788",
-                            "value3": "24518",
-                            "value4": "24017",
-                            "value5": "31594",
-                            "value6": "16147"
+                            "value1": "21788",
+                            "value2": "24518",
+                            "value3": "24017",
+                            "value4": "31581",
+                            "value5": "16146",
+                            "value6": "22759",
+                            "value7":"13511"
                         }
                     ]
                 ]
@@ -962,12 +933,227 @@
             
         ]
     },
+
     {
-        "type":"investmentChart"
+        "type":"pieChart",
+      "data": {
+          "labels": ["Pacific", "Regional", "East Asia", "South East Asia", "Central and West Asia", "South Asia"],
+          "datasets": [
+              {
+                  "data": [4, 1, 9, 24, 23, 39],
+                  "backgroundColor": ["#d7de4d", "#298fbd", "#f8ed58", "#45d1f3", "#00b9c6","#96c75f"]
+              }
+          ]
+      },
+      "id": 1
     },
-    
-      {
-        "heading":"ADB Commitment by Sector,2020 AND 2019",
+    {
+        "type":"pieChart",
+      "data": {
+          "labels": ["Pacific", "Regional", "East Asia", "South East Asia", "Central and West Asia", "South Asia"],
+          "datasets": [
+              {
+                  "data": [2, 1, 4, 29, 24, 40],
+                  "backgroundColor": ["#e89b92", "#fc4634", "#ffb03d","#ff793a","#ec7269","#e89b92"]
+                 
+
+              }
+          ]
+      },
+      "id": 2
+    },
+    {
+        "type": "accordian-table",
+        "heading":"ADB Commitments by Sector, 2017–2021 ($ million)",
+        "note":["Note: Numbers may not sum precisely because of rounding."],
+        "subHeading":"",
+        "data": [
+            {
+                "type": "main-title",
+                "data": [
+                    [
+                        {
+                            "title": ""
+                          },
+                          {
+                            "title": ""
+                          },
+                          {
+                            "title": ""
+                          },
+                          {
+                            "title": ""
+                          },
+                          {
+                            "title": ""
+                          },
+                          {
+                            "title": ""
+                          }
+                    ],
+                    [
+                        {
+                            "title": ""
+                        },
+                        {
+                            "title": ""
+                        },
+                        {
+                            "title": ""
+                        },
+                        {
+                            "title": ""
+                        },
+                        {
+                            "title": ""
+                        },
+                        {
+                            "title": ""
+                        }
+                    ]
+                    
+                ]
+            },
+            {
+                "type": "expansion-panel",
+                "subTitle": [
+                    {
+                        "title": "Sector"
+                      },
+                      {
+                        "title": "2017"
+                      },
+                      {
+                        "title": "2018"
+                      },
+                      {
+                        "title": "2019"
+                      },
+                      {
+                        "title": "2020"
+                      },
+                      {
+                        "title": "2021"
+                      }
+                ],
+                "subData": [
+                    [
+                        {
+                            "value0": "Agriculture, Natural Resource",
+                            "value1": "1546",
+                            "value2": "2375",
+                            "value3": "2309",
+                            "value4": "1281",
+                            "value5": "1490"
+                        },
+                        {
+                            "value0": "Education",
+                            "value1": "723",
+                            "value2": "1643",
+                            "value3": "1138",
+                            "value4": "1066",
+                            "value5": "975"
+                        },
+                        {
+                            "value0": "Energy",
+                            "value1": "6230",
+                            "value2": "5095",
+                            "value3": "2660",
+                            "value4": "4292",
+                            "value5": "1837"                            
+                        },
+                        {
+                            
+                            "value0": "Finance",
+                            "value1": "3787",
+                            "value2": "3430",
+                            "value3": "3325",
+                            "value4": "4601",
+                            "value5": "4116"                            
+                        },
+                        {
+                            
+                            "value0": "Health",
+                            "value1": "219",
+                            "value2": "524",
+                            "value3": "644",
+                            "value4": "3512",
+                            "value5": "5882"                            
+                        },
+                        {
+                            
+                            "value0": "Industry and Trade",
+                            "value1": "1261",
+                            "value2": "1899",
+                            "value3": "1592",
+                            "value4": "2215",
+                            "value5": "716"                            
+                        },
+                        {
+                            
+                            "value0": "Information and Communication Technology",
+                            "value1": "73",
+                            "value2": "62",
+                            "value3": "579",
+                            "value4": "32",
+                            "value5": "55"                            
+                        },
+                        {
+                            
+                            "value0": "Multiselctor",
+                            "value1": "4",
+                            "value2": "5",
+                            "value3": "3",
+                            "value4": "12",
+                            "value5": "10"                            
+                        },
+                        {
+                            
+                            "value0": "Public Sector Management",
+                            "value1": "1293",
+                            "value2": "2307",
+                            "value3": "2985",
+                            "value4": "9561",
+                            "value5": "2294"                            
+                        },
+                        {
+                            
+                            "value0": "Transport",
+                            "value1": "5085",
+                            "value2": "4957",
+                            "value3": "7536",
+                            "value4": "3147",
+                            "value5": "3396"                            
+                        },
+                        {
+                            
+                            "value0": "Water and Other Urban",
+                            "value1": "1594",
+                            "value2": "2220",
+                            "value3": "1245",
+                            "value4": "1862",
+                            "value5": "1989"                            
+                        },
+                        {
+                            
+                            "value0": "Total",
+                            "value1": "21788",
+                            "value2": "24518",
+                            "value3": "24017",
+                            "value4": "31581",
+                            "value5": "22759"                            
+                        }
+                    ]
+                ]
+
+            }
+           
+            
+        ]
+    },
+
+    {
+        "heading":"ADB COMMITMENTS BY SECTOR, 2021 AND 2020",
           "type":"stackedHorizontalChart",
           "data":{
              "barChartLabels": ["2006", "2007", "2008", "2009", "2010", "2011", "2012"],
@@ -983,200 +1169,13 @@
       },
 
     {
-        "type": "accordian-table",
-        "heading":"ADB Commitment by 2016-2020($million)",
-        "subHeading":"",
-        "data": [
-            {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": "ADB Commitment by 2016-2020()$million"
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ],
-                    [
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": "2016"
-                        },
-                        {
-                            "title": "2017"
-                        },
-                        {
-                            "title": "2018"
-                        },
-                        {
-                            "title": "2019"
-                        },
-                        {
-                            "title": "2020"
-                        }
-                    ]
-                    
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Sector"
-                      },
-                      {
-                        "title": "2016"
-                      },
-                      {
-                        "title": "2017"
-                      },
-                      {
-                        "title": "2018"
-                      },
-                      {
-                        "title": "2019"
-                      },
-                      {
-                        "title": "2020"
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Agriculture, Natural Resource",
-                            "value1": "997",
-                            "value2": "1546",
-                            "value3": "2375",
-                            "value4": "2309",
-                            "value5": "1281"
-                        },
-                        {
-                            "value0": "Education",
-                            "value1": "631",
-                            "value2": "723",
-                            "value3": "1643",
-                            "value4": "1138",
-                            "value5": "1066"
-                        },
-                        {
-                            "value0": "Energy",
-                            "value1": "3010",
-                            "value2": "6230",
-                            "value3": "5095",
-                            "value4": "2660",
-                            "value5": "4292"                            
-                        },
-                        {
-                            
-                            "value0": "Finance",
-                            "value1": "2414",
-                            "value2": "3787",
-                            "value3": "3430",
-                            "value4": "3325",
-                            "value5": "4608"                            
-                        },
-                        {
-                            
-                            "value0": "Health",
-                            "value1": "231",
-                            "value2": "219",
-                            "value3": "524",
-                            "value4": "644",
-                            "value5": "3512"                            
-                        },
-                        {
-                            
-                            "value0": "Industry and Trade",
-                            "value1": "1279",
-                            "value2": "1261",
-                            "value3": "1899",
-                            "value4": "1592",
-                            "value5": "2221"                            
-                        },
-                        {
-                            
-                            "value0": "Information and Communication Technology",
-                            "value1": "26",
-                            "value2": "73",
-                            "value3": "62",
-                            "value4": "579",
-                            "value5": "32"                            
-                        },
-                        {
-                            
-                            "value0": "Multiselctor",
-                            "value1": "3",
-                            "value2": "4",
-                            "value3": "5",
-                            "value4": "3",
-                            "value5": "12"                            
-                        },
-                        {
-                            
-                            "value0": "Public Sector Management",
-                            "value1": "1792",
-                            "value2": "1293",
-                            "value3": "2307",
-                            "value4": "2985",
-                            "value5": "9561"                            
-                        },
-                        {
-                            
-                            "value0": "Transport",
-                            "value1": "2870",
-                            "value2": "5085",
-                            "value3": "4957",
-                            "value4": "7536",
-                            "value5": "3147"                            
-                        },
-                        {
-                            
-                            "value0": "Water and Other Urban",
-                            "value1": "1678",
-                            "value2": "1594",
-                            "value3": "2220",
-                            "value4": "1245",
-                            "value5": "1862"                            
-                        },
-                        {
-                            
-                            "value0": "Total",
-                            "value1": "14960",
-                            "value2": "21788",
-                            "value3": "24518",
-                            "value4": "24017",
-                            "value5": "31594"                            
-                        }
-                    ]
-                ]
-
-            }
-           
-            
-        ]
+        "type":"investmentChart"
     },
-  
-
-
+    
       {
         "type": "accordian-table",
         "heading":"Portfolio,2016-2020 ($ million)",
-     "note":["Note: Numbers may not sum precisely because of rounding","a. 2019 figures differ from those in the 2019 Annual Report due to adjustments after year-end.","b .Sovereign portfolio consists of loans, grants, equity investments, and guarantees committed and not financially closed. Nonsovereign portfolio consists of (1) committed loan, other debt security and equity (carrying or fair value) portfolio, Which includes the outstanding balances plus undisbursed balances; and (ii) the committed guarantee portfolio, which includes the outstanding balances on executed guarantees plus non-executed commitments.","c .Includes Asian Development Fund and Other Special Funds grants.","d. Net Resource Transfer includes loans, other debt securities, equity investments, Asian Development Fund and Other Special Funds grants. Net Resource Transfer to developing member countries refers to the net amount of disbursements in excess of payments of principal, interest, and other charges."],
+     "note":["Note: Numbers may not sum precisely because of rounding.","<sup class='noteSup'>a</sup>The 2020 figures differ from those in the 2020 Annual Report due to adjustments after year-end.","<sup class='noteSup'>b</sup>Sovereign portfolio consists of loans, grants, equity investments, and guarantees committed and not financially closed. Nonsovereign portfolio consists of (i) committed loan, other debt security and equity (carrying or fair value) portfolio, which includes the outstanding balances plus undisbursed balances; and (ii) the committed guarantee portfolio, which includes the outstanding balances on executed guarantees plus non-executed commitments.","<sup class='noteSup'>c</sup>Includes the Asian Development Fund and Other Special Funds grants.","<sup class='noteSup'>d</sup>Net Resources Transfer includes loans, other debt securities, equity investments, the Asian Development Fund, and Other Special Funds grants. Net Resources Transfer to developing member countries refers to the net amount of disbursements in excess of payments of principal, interest, and other charges."],
         "data": [
             { 
                 "type": "main-title",
@@ -1190,9 +1189,6 @@
                         },
                          
                           {
-                            "title": "2016"
-                          },
-                          {
                             "title": "2017"
                           },
                           {
@@ -1203,11 +1199,14 @@
                           },
                           {
                             "title": "2020"
+                          },
+                          {
+                            "title": "2021"
                           }
                     ],
                     [
                         {
-                            "title": "A.Ongoing projects"
+                            "title": "A.Ongoing projects<sup>b</sup>"
                         },
                         {
                             "title": ""
@@ -1268,35 +1267,35 @@
                         },
                         {
                             "value0": "Loans",
-                            "value1": "55164",
-                            "value2": "61442",
-                            "value3": "67731",
-                            "value4": "68289",
-                            "value5": "227"
+                            "value1": "61442",
+                            "value2": "67731",
+                            "value3": "68289",
+                            "value4": "80161",
+                            "value5": "82860"
                         }, {
                             "value0": "Other Debt Securities",
-                            "value1": "151",
-                            "value2": "237",
-                            "value3": "620",
-                            "value4": "929",
-                            "value5": "1034"
+                            "value1": "237",
+                            "value2": "620",
+                            "value3": "929",
+                            "value4": "1034",
+                            "value5": "915"
                         },
                         
                         {
                             
                             "value0": "Guarantees",
-                            "value1": "1483",
-                            "value2": "2114",
-                            "value3": "2049",
-                            "value4": "2202",
-                            "value5": "2703"
+                            "value1": "2114",
+                            "value2": "2049",
+                            "value3": "2202",
+                            "value4": "2703",
+                            "value5": "2795"
                         },{
                             "value0": "Equity Investment",
-                            "value1": "1173",
-                            "value2": "1538",
-                            "value3": "1699",
-                            "value4": "1975",
-                            "value5": "1799"
+                            "value1": "1538",
+                            "value2": "1699",
+                            "value3": "1975",
+                            "value4": "1799",
+                            "value5": "1940"
                         },
                         {
                             
@@ -1310,20 +1309,20 @@
                         {
                             
                             "value0": "Loans",
-                            "value1": "13685",
-                            "value2": "14336",
-                            "value3": "15504",
-                            "value4": "17872",
-                            "value5": "20115"
+                            "value1": "14336",
+                            "value2": "15504",
+                            "value3": "17872",
+                            "value4": "19966",
+                            "value5": "20049"
                         },
                         {
                             
                             "value0": "Grants",
-                            "value1": "4601",
-                            "value2": "4249",
-                            "value3": "5233",
-                            "value4": "5321",
-                            "value5": "5234"
+                            "value1": "4249",
+                            "value2": "5233",
+                            "value3": "5321",
+                            "value4": "5234",
+                            "value5": "5298"
                         },
                         {
                             
@@ -1337,11 +1336,11 @@
                         {
                             
                             "value0": "Grants",
-                            "value1": "20",
-                            "value2": "10",
-                            "value3": "7",
-                            "value4": "4",
-                            "value5": "56"
+                            "value1": "10",
+                            "value2": "7",
+                            "value3": "4",
+                            "value4": "56",
+                            "value5": "42"
                         }
                     ]
                    
@@ -1376,31 +1375,31 @@
                     [
                         {
                             "value0": "Sovergian ",
-                            "value1": "67027",
-                            "value2": "73084",
-                            "value3": "80428",
-                            "value4": "82808",
-                            "value5": "97468"
+                            "value1": "73084",
+                            "value2": "80428",
+                            "value3": "82808",
+                            "value4": "96616",
+                            "value5": "99850"
                         },
                         
                         {
                             
                             "value0": "Nonsovereign",
-                            "value1": "9249",
-                            "value2": "10842",
-                            "value3": "12414",
-                            "value4": "13785",
-                            "value5": "14337"
+                            "value1": "10842",
+                            "value2": "12414",
+                            "value3": "13785",
+                            "value4": "14337",
+                            "value5": "14050"
                         },
                         
                         {
                             
                             "value0": "Total",
-                            "value1": "76276",
-                            "value2": "83926",
-                            "value3": "92843",
-                            "value4": "96592",
-                            "value5": "111805",
+                            "value1": "83926",
+                            "value2": "92843",
+                            "value3": "96592",
+                            "value4": "110953",
+                            "value5": "113900",
                             "class": "title-row-bold"
                         }
                         
@@ -1496,26 +1495,26 @@
                         },
                         {
                             "value0": "Loans",
-                            "value1": "9763",
-                            "value2": "8717",
-                            "value3": "11475",
-                            "value4": "13148",
-                            "value5": "18891"
+                            "value1": "8717",
+                            "value2": "11475",
+                            "value3": "13148",
+                            "value4": "18891",
+                            "value5": "14726"
                         },
                         {
                             "value0": "Equity Investments",
-                            "value1": "79",
-                            "value2": "242",
-                            "value3": "143",
-                            "value4": "135",
-                            "value5": "86"
+                            "value1": "242",
+                            "value2": "143",
+                            "value3": "135",
+                            "value4": "86",
+                            "value5": "41"
                         },{
-                            "value0": "Other Debt Securities",
-                            "value1": "148",
-                            "value2": "75",
-                            "value3": "446",
-                            "value4": "161",
-                            "value5": "349"
+                            "value0": "Debt Securities",
+                            "value1": "75",
+                            "value2": "446",
+                            "value3": "161",
+                            "value4": "349",
+                            "value5": "43"
                         },
                         
                         {
@@ -1528,20 +1527,29 @@
                             "value5": ""
                         },{
                           "value0": "Loans",
-                          "value1": "2027",
-                          "value2": "1926",
-                          "value3": "1645",
-                          "value4": "2513",
-                          "value5": "3382"
+                          "value1": "1926",
+                          "value2": "1645",
+                          "value3": "2513",
+                          "value4": "3382",
+                          "value5": "2918"
                         },                        
                         {
                             
                             "value0": "Grants",
-                            "value1": "9",
+                            "value1": "481",
+                            "value2": "476",
+                            "value3": "511",
+                            "value4": "824",
+                            "value5": "380"
+                        },
+                        {
+                            
+                            "value0": "Other Special Funds",
+                            "value1": "2",
                             "value2": "2",
-                            "value3": "2",
-                            "value4": "3",
-                            "value5": "53"
+                            "value3": "3",
+                            "value4": "53",
+                            "value5": "12"
                         }                       
                     ]
                    
@@ -1604,28 +1612,28 @@
                 "subData": [
                     [
                         {
-                            "value0": "Sovergion",
-                            "value1": "10746",
-                            "value2": "10072",
-                            "value3": "12234",
-                            "value4": "14210",
-                            "value5": "21306"
+                            "value0": "Sovergion<sup>c</sup>",
+                            "value1": "10072",
+                            "value2": "12234",
+                            "value3": "14210",
+                            "value4": "21306",
+                            "value5": "16559"
                         },
                         {
                             "value0": "Non-Sovergion",
-                            "value1": "1743",
-                            "value2": "1371",
-                            "value3": "1953",
-                            "value4": "2260",
-                            "value5": "2279"
+                            "value1": "1371",
+                            "value2": "1953",
+                            "value3": "2260",
+                            "value4": "2279",
+                            "value5": "1661"
                         },
                         {
                           "value0": "Total",
-                          "value1": "12489",
-                          "value2": "11443",
-                          "value3": "14186",
-                          "value4": "16470",
-                          "value5": "12058",
+                          "value1": "11443",
+                          "value2": "14186",
+                          "value3": "16470",
+                          "value4": "23585",
+                          "value5": "18220",
                           "class": "title-row-bold"
                       }
                        
@@ -1662,15 +1670,11 @@
                     ],
                     [
                         {
-                            "title": "C.Net Resource Transfer to Developing",
+                            "title": "C. Net Resources Transfer to Developing Member Countries<sup>d</sup>",
                             "class": "lightOrange-bg"
                         },
                         {
                             "title": "",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "5397",
                             "class": "lightOrange-bg"
                         },
                         {
@@ -1687,6 +1691,10 @@
                         },
                         {
                             "title": "12058",
+                            "class": "lightOrange-bg"
+                        },
+                        {
+                            "title": "7924",
                             "class": "lightOrange-bg"
                         }
                     ]
@@ -1707,24 +1715,24 @@
               "series": [
                   
                 {
-                  "name": "2016",
-                  "value": 50
-                },
-                {
                   "name": "2017",
-                  "value": 45
+                  "value": 49
                 },
                 {
                   "name": "2018",
                   "value": 50
                 },
                 {
-                    "name": "2019",
-                    "value": 50
+                  "name": "2019",
+                  "value": 50
+                },
+                {
+                    "name": "2020",
+                    "value": 39
                   },
                   {
-                    "name": "2020",
-                    "value": 40
+                    "name": "2021",
+                    "value": 38
                   }
               ]
             }
@@ -1734,7 +1742,7 @@
 
     {
         "type": "accordian-table",
-        "note":["a. Staff refers to all international staff, board staff (i.e., Director's Advisors), national staff, and administrative staff. The figures exclude Management, Board of Directors, and Secondees.","b. Includes staff in outposted positions and in ADB's Philippines Country Office."],
+        "note":["a.Staff refers to all international staff, board staff (i.e., Director's Advisors), national staff, and administrative staff. The figures exclude Management, Board of Directors, and Secondees.","b. Includes staff in outposted positions and in ADB's Philippines Country Office."],
         "heading":"Institutional Highlight",
         "data": [
             {
@@ -1748,19 +1756,19 @@
                             "title": ""
                           },
                           {
-                            "title": "2016"
+                            "title": ""
                         },
                         {
-                            "title": "2017"
+                            "title": ""
                         },
                         {
-                            "title": "2018"
+                            "title": ""
                         },
                         {
-                            "title": "2019"
+                            "title": ""
                         },
                         {
-                            "title": "2020"
+                            "title": ""
                         }
                     ],
                     [
@@ -1771,9 +1779,6 @@
                             "title": ""
                         },
                         {
-                            "title": "2016"
-                        },
-                        {
                             "title": "2017"
                         },
                         {
@@ -1784,6 +1789,9 @@
                         },
                         {
                             "title": "2020"
+                        },
+                        {
+                            "title": "2021"
                         }
                     ]
                     
@@ -1817,12 +1825,12 @@
                 "subData": [
                     [
                         {
-                            "value0": "Satff(number)",
+                            "value0": "Satff<sup>a</sup>(number)",
                             "value1": "3085",
                             "value2": "3127",
                             "value3": "3374",
-                            "value4": "3548",
-                            "value5": "3646",
+                            "value4": "3646",
+                            "value5": "3687",
                             "class": "title-row-bold"
                         },
                         {
@@ -1830,16 +1838,16 @@
                             "value1": "1103",
                             "value2": "1316",
                             "value3": "1242",
-                            "value4": "1287",
-                            "value5": "1317"
+                            "value4": "1317",
+                            "value5": "1337"
                         },
                         {
                             "value0": "National and Administrative Staff",
                             "value1": "1982",
                             "value2": "1991",
                             "value3": "2132",
-                            "value4": "2261",
-                            "value5": "2329"
+                            "value4": "2329",
+                            "value5": "2350"
                         },
                         {
                             
@@ -1847,8 +1855,8 @@
                             "value1": "762",
                             "value2": "790",
                             "value3": "876",
-                            "value4": "943",
-                            "value5": "990"
+                            "value4": "990",
+                            "value5": "1030"
                         },
                         {
                             
@@ -1856,27 +1864,27 @@
                             "value1": "1220",
                             "value2": "1201",
                             "value3": "1256",
-                            "value4": "1318",
-                            "value5": "1339"
+                            "value4": "1339",
+                            "value5": "1320"
                         },
                         {
                             
-                            "value0": "International Staff and Board staff Board",
+                            "value0": "International Staff and Board Staff Location <sup>a</sup> (number)",
                             "value1": "1103",
                             "value2": "1136",
                             "value3": "1242",
-                            "value4": "1287",
-                            "value5": "1317",
+                            "value4": "1317",
+                            "value5": "1337",
                             "class": "title-row-bold"
                         },
                         {
                             
-                            "value0": "Resident Mission",
+                            "value0": "Resident Mission<sup>b</sup>",
                             "value1": "160",
                             "value2": "182",
                             "value3": "194",
-                            "value4": "193",
-                            "value5": "198"
+                            "value4": "198",
+                            "value5": "186"
                         },
                         {
                             
@@ -1884,17 +1892,17 @@
                             "value1": "943",
                             "value2": "954",
                             "value3": "1048",
-                            "value4": "1094",
-                            "value5": "1119"
+                            "value4": "1119",
+                            "value5": "1151"
                         },
                         {
                             
-                            "value0": "International Staff and Noard Staff(Gender)",
+                            "value0": "International Staff and Board Staff Gender<sup>a</sup> (number) ",
                             "value1": "1103",
                             "value2": "1136",
                             "value3": "1242",
-                            "value4": "1287",
-                            "value5": "1317",
+                            "value4": "1317",
+                            "value5": "1337",
                             "class": "title-row-bold"
                         },
                         {
@@ -1903,8 +1911,8 @@
                             "value1": "728",
                             "value2": "736",
                             "value3": "791",
-                            "value4": "815",
-                            "value5": "820"
+                            "value4": "820",
+                            "value5": "830"
                         },
                         {
                             
@@ -1912,8 +1920,8 @@
                             "value1": "375",
                             "value2": "400",
                             "value3": "451",
-                            "value4": "472",
-                            "value5": "497"
+                            "value4": "497",
+                            "value5": "507"
                         }
 
                     ]
@@ -1924,28 +1932,26 @@
                 "type": "expansion-panel",
                 "subTitle": [
                     {
-                        "title": "B.International Adminsitrative Bugdet($000)"
+                        "title": "B.International Adminsitrative Bugdet($'000)"
                       }, {
                         "title": ""
                       },
                       {
-                        "title": "1326565"
+                        "title": "646988"
                       },
                       {
-                        "title": "5465"
+                        "title": "672264"
                       },
                       {
-                        "title": "6546546"
+                        "title": "690488"
                       },
                       {
-                        "title": "5454"
+                        "title": "726718"
                       },
                       {
-                        "title": "565"
-                      },
-                      {
-                        "title": ""
+                        "title": "771188"
                       }
+                      
                 ]
                
             }
@@ -1955,8 +1961,8 @@
     },
     {
         "type": "accordian-table",
-        "heading":"ADB Resources and Financial Data",
-        "note":["ADF = Asian Development Fund.","a. Includes accrued interest and commission, unamortized premium, and/or discounts.","b. As of 31 December 2020, authorized and subscribed capital amounted to $153,232 million.","c. Reserves includes ordinary reserve, special reserve, loan loss reserve, surplus, net income after appropriation, nonnegotiable, noninterest-bearing demand obligations and receivables on account of subscribed capital, net notional amounts required to maintain value of currency holdings, cumulative revaluation adjustment and accumulated other comprehensive income or loss. Reserves includes the one-time income from ADF asset transfer on 1 January 2017.","d .The transfer of ADF loans and other assets to ordinary capital resources on 1 January 2017 resulted in the increase in ordinary capital resources reserves and decrease in ADF resources in 2017.","e. 2017 Net Income refers to net income after allocation of one-time income from ADF asset transfer to Ordinary Reserve.","f. Allocable net income is defined as net income after appropriation of guarantee fees to special reserve and certain adjustments set aside in the cumulative revaluation adjustments account. This is the amount that ADB may, subject to approval by the Board of Governors, annually allocate to reserves and surplus, and transfers to Special Funds.","g.  2020 net income allocation is subject to the approval of the Board of Governors at the ADB Annual Meeting in 2021. ","h. Excludes short-term borrowings.","i. Local Currency Funding includes bond, swaps, repo.","j. The capital utilization ratio (CUR) is the ratio of total economic capital used (numerator) to usable equity (denominator). The new Capital Adequacy Framework was applied in the capital utilization ratios of 2019 and 2020.","k.  Includes the total fund balance and nonnegotiable, noninterest-bearing demand obligations on account of contributions.","l. Japan Special Fund resources include Asian Currency Crisis Support Facility uncommitted balance and net accumulated investment income."],
+        "heading":"ADB RESOURCES AND FINANCIAL DATA ($ million)",
+        "note":["( ) = negative value, ADF = Asian Development Fund.<br>","Note: Numbers may not sum precisely because of rounding.<br>","<sup class='noteSup' >a</sup> Includes accrued interest and commission, unamortized premium, and/or discounts.","<sup class='noteSup' >b</sup> As of 31 December 2021, authorized and subscribed capital amounted to $148,903 million.","<sup class='noteSup' >c</sup> Reserves include ordinary reserve, special reserve, loan loss reserve, surplus, net income after appropriation, nonnegotiable, noninterest- bearing demand obligations and receivables on account of subscribed capital, net notional amounts required to maintain the value of currency holdings, cumulative revaluation adjustment, and accumulated other comprehensive income or loss. Reserves include the one-time income from ADF asset transfer on 1 January 2017","<sup class='noteSup' >d</sup> The 2017 Net Income refers to net income after allocation of one-time income from ADF asset transfer to Ordinary Reserve.","<sup class='noteSup' >e</sup> Allocable net income is defined as net income after appropriation of guarantee fees to special reserve and certain adjustments set aside in the cumulative revaluation adjustments account. This is the amount that ADB may, subject to approval by the Board of Governors, annually allocate to reserves and surplus, and transfers to Special Funds.","<sup class='noteSup' >f</sup> The 2021 net income allocation is subject to the approval of the Board of Governors at the ADB Annual Meeting in 2022.","<sup class='noteSup' >g</sup> Excludes short-term borrowings.","<sup class='noteSup' >h</sup> Local Currency Funding includes bond, swaps, and repo.","<sup class='noteSup' >i</sup> The capital utilization ratio is the ratio of total economic capital used (numerator) to equity (denominator). The new capital adequacy framework was applied in the capital utilization ratios from 2019 to 2021.","<sup class='noteSup' >j</sup> Includes the total fund balance and nonnegotiable, noninterest-bearing demand obligations on account of contributions.","<sup class='noteSup' >k</sup> The Japan Special Fund (JSF) resources include the Asian Currency Crisis Support Facility (ACCSF). In 2021, the ACCSF’s account was closed after transferring ACCSF’s residual balance to JSF."],
         "data": [
             {
                 "type": "main-title",
@@ -1969,12 +1975,8 @@
                             "title": ""
                           },
                           {
-                            "title": "2016"
-                        },
-                        {
                             "title": "2017"
-                        },
-                        {
+                        },                        {
                             "title": "2018"
                         },
                         {
@@ -1982,6 +1984,9 @@
                         },
                         {
                             "title": "2020"
+                        },
+                        {
+                            "title": "2021"
                         }
                     ],
                     [
@@ -2014,7 +2019,7 @@
                 "type": "expansion-panel",
                 "subTitle": [
                     {
-                        "title": "Selected Balance Sheet"
+                        "title": "Selected Balance Sheet Data"
                       },
                       {
                         "title": ""
@@ -2039,82 +2044,109 @@
                     [
                         {
                             "value0": "Total Assets",
-                            "value1": "125854",
-                            "value2": "182381",
-                            "value3": "191860",
-                            "value4": "221866",
-                            "value5": "271741"
+                            "value1": "182381",
+                            "value2": "191860",
+                            "value3": "221866",
+                            "value4": "271741",
+                            "value5": "282084"
                         },
                         {
-                            "value0": "Loans Outstanding",
-                            "value1": "57599",
-                            "value2": "101008",
-                            "value3": "106405",
-                            "value4": "114389",
-                            "value5": "129788"
+                            "value0": "of which",
+                            "value1": "",
+                            "value2": "",
+                            "value3": "",
+                            "value4": "",
+                            "value5": ""
                         },
                         {
-                            "value0": "Investments for Purpose",
-                            "value1": "26025",
-                            "value2": "36478",
-                            "value3": "35215",
-                            "value4": "39312",
-                            "value5": "41963"
+                            "value0": "Loans Outstanding - Operations",
+                            "value1": "101008",
+                            "value2": "106405",
+                            "value3": "114389",
+                            "value4": "129788",
+                            "value5": "137163"
+                        },
+                        {
+                            "value0": "Investments for Liquidity Purpose",
+                            "value1": "36478",
+                            "value2": "35215",
+                            "value3": "39312",
+                            "value4": "41963",
+                            "value5": "43287"
                         },
                         {
                             
-                            "value0": "Equity Investment",
-                            "value1": "814",
-                            "value2": "1185",
-                            "value3": "1280",
-                            "value4": "1619",
-                            "value5": "1289"
+                            "value0": "Equity Investments - Operations",
+                            "value1": "1185",
+                            "value2": "1280",
+                            "value3": "1619",
+                            "value4": "1289",
+                            "value5": "1322"
                         },
                         {
                             
-                            "value0": "Derivavties Assets",
-                            "value1": "29143",
-                            "value2": "40761",
-                            "value3": "45500",
-                            "value4": "62619",
-                            "value5": "87778"
+                            "value0": "Derivative Assets",
+                            "value1": "40761",
+                            "value2": "45500",
+                            "value3": "62619",
+                            "value4": "87778",
+                            "value5": "92860"
                         },
                         {
                             
                             "value0": "Total Liabilties",
-                            "value1": "108640",
-                            "value2": "132112",
-                            "value3": "140876",
-                            "value4": "169948",
-                            "value5": "219104"
+                            "value1": "132112",
+                            "value2": "140876",
+                            "value3": "169948",
+                            "value4": "219104",
+                            "value5": "229229"
                         },
                         {
                             
-                            "value0": "Total Equity",
-                            "value1": "17214",
-                            "value2": "50269",
+                            "value0": "of which",
+                            "value1": "",
+                            "value2": "",
+                            "value3": "",
+                            "value4": "",
+                            "value5": ""
+                        },
+                        {
+                            
+                            "value0": "Total Equity<sup>b</sup>",
+                            "value1": "50269",
+                            "value2": "50984",
                             "value3": "51918",
                             "value4": "52637",
-                            "value5": "50265"
+                            "value5": "52855"
                         },
                         {
                             
-                            "value0": "Paid in capital",
-                            "value1": "6399",
-                            "value2": "7002",
-                            "value3": "7029",
-                            "value4": "7175",
-                            "value5": "7566"
+                            "value0": "of which",
+                            "value1": "",
+                            "value2": "",
+                            "value3": "",
+                            "value4": "",
+                            "value5": ""
                         },
                         {
                             
-                            "value0": "Reserves",
-                            "value1": "10815",
-                            "value2": "43267",
-                            "value3": "43955",
-                            "value4": "44743",
-                            "value5": "45071"
+                            "value0": "Paid-in capital",
+                            "value1": "7002",
+                            "value2": "7029",
+                            "value3": "7175",
+                            "value4": "7566",
+                            "value5": "7381"
+                        }, 
+                        {
+                            
+                            "value0": "Reserves<sup>c</sup>",
+                            "value1": "43267",
+                            "value2": "43955",
+                            "value3": "44743",
+                            "value4": "45071",
+                            "value5": "45474"
                         }
+                        
 
                     ]
                 ]
@@ -2149,63 +2181,90 @@
                     [
                         {
                             "value0": "Total Revenue",
-                            "value1": "1532",
-                            "value2": "2625",
-                            "value3": "3741",
-                            "value4": "4265",
-                            "value5": "3072"
+                            "value1": "2625",
+                            "value2": "3741",
+                            "value3": "4265",
+                            "value4": "3072",
+                            "value5": "2399"
                         },
                         {
                             "value0": "Total Expense",
-                            "value1": "(1163)",
-                            "value2": "(1869)",
-                            "value3": "(2883)",
-                            "value4": "(3173)",
-                            "value5": "(2158)"
+                            "value1": "(1869)",
+                            "value2": "(2883)",
+                            "value3": "(3173)",
+                            "value4": "(2158)",
+                            "value5": "(1227)"
                         },
                         {
-                            "value0": "Borrowing and related expenses",
-                            "value1": "(751)",
-                            "value2": "(1247)",
-                            "value3": "(2159)",
-                            "value4": "2530",
-                            "value5": "(1351)"
+                            
+                            "value0": "of which",
+                            "value1": "",
+                            "value2": "",
+                            "value3": "",
+                            "value4": "",
+                            "value5": ""
+                        },
+                        {
+                            "value0": "Borrowing and Related Expenses",
+                            "value1": "(1247)",
+                            "value2": "(2159)",
+                            "value3": "(2530)",
+                            "value4": "(1351)",
+                            "value5": "(460)"
                         },
                         {
                             
                             "value0": "Administrative expense",
-                            "value1": "(390)",
-                            "value2": "(587)",
-                            "value3": "(591)",
-                            "value4": "(598)",
-                            "value5": "(669)"
+                            "value1": "(587)",
+                            "value2": "(591)",
+                            "value3": "(598)",
+                            "value4": "(669)",
+                            "value5": "(819)"
                         },
                         {
                             
-                            "value0": "Net Realized Gains",
-                            "value1": "158",
-                            "value2": "9",
-                            "value3": "22",
-                            "value4": "288",
-                            "value5": "230"
+                            "value0": "Net Realized Gains (Losses)",
+                            "value1": "9",
+                            "value2": "22",
+                            "value3": "28",
+                            "value4": "230",
+                            "value5": "159"
+                        },
+                        {
+                            
+                            "value0": "Net Unrealized Gains (Losses)",
+                            "value1": "9",
+                            "value2": "(130)",
+                            "value3": "434",
+                            "value4": "228",
+                            "value5": "(601)"
                         },
                         {
                             
                             "value0": "Net Income",
-                            "value1": "7",
-                            "value2": "744",
-                            "value3": "750",
-                            "value4": "1554",
-                            "value5": "1372"
+                            "value1": "744<sup>d</sup>",
+                            "value2": "750",
+                            "value3": "1554",
+                            "value4": "1372",
+                            "value5": "730"
                         },
                         {
                             
-                            "value0": "Allocable Net Income",
-                            "value1": "488",
-                            "value2": "690",
-                            "value3": "841",
-                            "value4": "1069",
-                            "value5": "1312"
+                            "value0": "Allocable Net Income<sup>e</sup>",
+                            "value1": "690",
+                            "value2": "841",
+                            "value3": "1069",
+                            "value4": "1312",
+                            "value5": "1161<sup>f</sup>"
+                        },
+                        {
+                            
+                            "value0": "Allocation to Ordinary Reserve",
+                            "value1": "351",
+                            "value2": "499",
+                            "value3": "616",
+                            "value4": "734",
+                            "value5": "778"
                         },
                         {
                             
@@ -2213,17 +2272,17 @@
                             "value1": "259",
                             "value2": "259",
                             "value3": "259",
-                            "value4": "259",
+                            "value4": "292",
                             "value5": "292"
                         },
                         {
                             
                             "value0": "Allocation To Other Special Funds",
-                            "value1": "105",
-                            "value2": "80",
-                            "value3": "83",
-                            "value4": "194",
-                            "value5": "105"
+                            "value1": "80",
+                            "value2": "83",
+                            "value3": "194",
+                            "value4": "105",
+                            "value5": "90"
                         }
 
                     ]
@@ -2236,13 +2295,10 @@
                     
                       
                     {
-                        "title": "Annual Borrowings"
+                        "title": "Annual Borrowings<sup>g</sup>"
                       },
                       {
                         "title": ""
-                      },
-                      {
-                        "title": "20602"
                       },
                       {
                         "title": "28593"
@@ -2255,38 +2311,77 @@
                       },
                       {
                         "title": "35765"
+                      },
+                      {
+                        "title": "35761"
                       }
                 ],
                 "subData": [
                     [
                         {
+                            "value0": "of which",
+                            "value1": "",
+                            "value2": "",
+                            "value3": "",
+                            "value4": "",
+                            "value5": ""
+                        },
+                        {
                             "value0": "Thematic Bonds",
-                            "value1": "1300",
-                            "value2": "1662",
-                            "value3": "1822",
-                            "value4": "2657",
-                            "value5": "1224"
+                            "value1": "1662",
+                            "value2": "1822",
+                            "value3": "2657",
+                            "value4": "1224",
+                            "value5": "5087"
                         },
                         {
-                            "value0": "Local Currency Funding",
-                            "value1": "617",
-                            "value2": "744",
-                            "value3": "535",
-                            "value4": "764",
-                            "value5": "930"
+                            "value0": "Local Currency Funding<sup>h</sup>",
+                            "value1": "744",
+                            "value2": "535",
+                            "value3": "764",
+                            "value4": "930",
+                            "value5": "880"
                         },
                         {
-                            "value0": "Capital Utilization Ratio(%)",
-                            "value1": "NA",
-                            "value2": "56",
-                            "value3": "54",
-                            "value4": "62",
-                            "value5": "69",
+                            "value0": "Capital Utilization Ratio(%)<sup>i</sup>",
+                            "value1": "56.0",
+                            "value2": "54.6",
+                            "value3": "62.1",
+                            "value4": "69.1",
+                            "value5": "74.0",
                             "class":"title-row-bold"
                         }
                         
 
                     ]
+                ]
+               
+            },
+            {
+                "type": "expansion-panel",
+                "subTitle": [
+                    {
+                        "title": "Available Resources of Asian Development Fund Resources<sup>j</sup>"
+                      },
+
+                      {
+                        "title": ""
+                      },
+                      {
+                        "title": "2067"
+                      },
+                      {
+                        "title": "1956"
+                      },
+                      {
+                        "title": "2498"
+                      },
+                      {
+                        "title": "2312"
+                      },
+                      {
+                        "title": "2322"
+                      }
                 ]
                
             },
@@ -2319,67 +2414,67 @@
                     [
                         {
                             "value0": "Technical Assistance Special Fund",
-                            "value1": "41",
-                            "value2": "400",
-                            "value3": "304",
-                            "value4": "196",
-                            "value5": "87"
+                            "value1": "400",
+                            "value2": "304",
+                            "value3": "196",
+                            "value4": "87",
+                            "value5": "464"
                         },
                         {
-                            "value0": "Japan Special Fund",
-                            "value1": "106",
-                            "value2": "107",
-                            "value3": "109",
+                            "value0": "Japan Special Fund<sup>k</sup>",
+                            "value1": "107",
+                            "value2": "109",
+                            "value3": "112",
                             "value4": "112",
                             "value5": "112"
                         },
                         {
                             "value0": "ADB Institue",
-                            "value1": "10",
-                            "value2": "12",
-                            "value3": "16",
-                            "value4": "19",
-                            "value5": "24"
+                            "value1": "12",
+                            "value2": "16",
+                            "value3": "19",
+                            "value4": "24",
+                            "value5": "26"
                         },
                         {
                             "value0": "Regional Cooperation and Integrated Fund",
-                            "value1": "6",
-                            "value2": "14",
-                            "value3": "10",
-                            "value4": "5",
-                            "value5": "25"
+                            "value1": "14",
+                            "value2": "10",
+                            "value3": "5",
+                            "value4": "25",
+                            "value5": "12"
                         },
                         {
                             "value0": "Climate Change Fund",
-                            "value1": "8",
-                            "value2": "20",
-                            "value3": "18",
-                            "value4": "10",
-                            "value5": "27"
+                            "value1": "20",
+                            "value2": "18",
+                            "value3": "10",
+                            "value4": "27",
+                            "value5": "20"
                         },
                         {
-                            "value0": "Asia Pacific Disaster",
-                            "value1": "8",
-                            "value2": "26",
+                            "value0": "Asia Pacific Disaster Response Fund",
+                            "value1": "26",
+                            "value2": "21",
                             "value3": "21",
-                            "value4": "21",
-                            "value5": "47"
+                            "value4": "47",
+                            "value5": "56"
                         },
                         {
-                            "value0": "Financial Sector Partnership",
-                            "value1": "7",
-                            "value2": "5",
-                            "value3": "4",
-                            "value4": "5",
+                            "value0": "Financial Sector Development Partnership",
+                            "value1": "5",
+                            "value2": "4",
+                            "value3": "5",
+                            "value4": "3",
                             "value5": "3"
                         },
                         {
                             "value0": "Total",
-                            "value1": "186",
-                            "value2": "584",
-                            "value3": "482",
-                            "value4": "368",
-                            "value5": "352",
+                            "value1": "584",
+                            "value2": "482",
+                            "value3": "368",
+                            "value4": "325",
+                            "value5": "694",
                             "class":"title-row-bold"
                         }
 
