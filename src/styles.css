@@ -891,7 +891,7 @@ p.byline strong {}
 
 
 .box.board {
-  background-color: #e4e4e4;
+  background-color:#e6f7fe;
   margin-top: 2rem;
 }
 
@@ -2899,14 +2899,13 @@ strong.lessstrong {
   display: flex;
   flex-wrap: wrap;
 
-  width: 100%;
 
 }
 
 .boardpics img {
-  flex: 0 0 content;
-  width: 120px;
-  padding: 0.2rem;
+  flex: 0 0 content; 
+   width: 12px; 
+   padding: 0.2rem;
 }
 
 /********* appendixes ***********/
@@ -3623,9 +3622,6 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !imp
         left: 0px;
         top:8px;
     }
-    .caption{
-        padding-bottom: 20px;
-    }
 
     .smallgrid .greybutton:after {
         content: '';
@@ -3648,4 +3644,10 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !imp
     border-top: solid 1px;
     border-bottom: solid 1px;
     font-weight: 400;
+}
+.managementImageGrid{
+    display: flex;
+    flex-direction: row;
+    width: 12%;
+    gap: 5px;
 }

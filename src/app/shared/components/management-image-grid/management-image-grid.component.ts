@@ -11,6 +11,15 @@ export class ManagementImageGridComponent implements OnInit {
 @Input() title:any;
 @Input() tagLine:any;
 @Input() imageGrid:any;
+@Input() imageGrid1:any;
+@Input() imageGrid2:any;
+@Input() imageGrid3:any;
+@Input() imageGrid4:any;
+@Input() imageGrid5:any;
+@Input() imageGrid6:any;
+@Input() imageGrid7:any;
+
+
   constructor() { }
 
   ngOnInit(): void {

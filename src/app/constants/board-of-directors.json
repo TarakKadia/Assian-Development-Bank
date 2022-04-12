@@ -5,10 +5,6 @@
         "tag": "",
         "type": "singleHeading"
     },
-    {   
-        "subTitle": "ADB BOARD OF DIRECTORS AS OF 31 DECEMBER 2020",
-        "type": "subheading"
-    },
     {
         "title": "Directors"
     },
@@ -24,7 +20,6 @@
         "img9": "assets/images/board/dir9_1.jpg",
         "img10": "assets/images/board/dir10_1.jpg",
         "img11": "assets/images/board/dir11_1.jpg",
-        "img12": "assets/images/board/dir12_1.jpg",
         "type": "image"
     },
     {
@@ -46,6 +41,7 @@
         "img9": "assets/images/board/aed9_1.jpg",
         "img10": "assets/images/board/aed10_1.jpg",
         "img11": "assets/images/board/aed11_1.jpg",
+        "img12":"assets/images/board/aed12_1.jpg",
         "type": "image"
     },
     {
@@ -53,83 +49,87 @@
         "type": "tag"
     },
     {
-        "data": "The Board of Directors is responsible for the direction of the general operations of ADB and ensures shareholder guidance is implemented. The bank’s 68 members are represented on the Board through 12 constituencies, each with a director and an alternate director.",
+        "data": "The Board of Directors is responsible for the direction of the general operations of ADB. The bank’s 68 members are represented on the Board through 12",
         "type": "paragraph"
     },
     {
-        "data": "The Board held a total of 49 formal meetings, 97 informal sessions, and 43 committee meetings during 2020. It approved 154 loans, grants, financing facilities, equity investments, and guarantees—an increase of 33% from 2019 that reflects ADB’s scale-up to support its developing members’ coronavirus disease (COVID‑19) responses. The Board also endorsed new country partnership strategies for Indonesia, Maldives, and Papua New Guinea and a new operational plan for private sector operations.",
+        "data": "The Board held 53 formal meetings, 87 informal sessions, and 43 committee meetings in 2021. It approved 113 loans, grants, financing facilities, equity investments, and guarantees. It also, among other things, approved both a revised disaster and emergency assistance policy and a revised emergency assistance loan policy, as well as the 2022 ADB budget. With ADB headquarters continuing to operate under extended work-from-home arrangements, Board-related meetings were conducted virtually for a second year.",
         "type": "paragraph"
     },
     {
-        "data": "In February, the Board held its second Board Forum, which provided an opportunity to advance the Board’s ongoing program of initiatives to improve its effectiveness.",
-        "type": "paragraph"
-    },
-    {
-        "data": "Due to precautions undertaken in Manila in response to the COVID‑19 pandemic, the Board—along with most ADB staff—has been working remotely since mid-March. Board operations moved seamlessly to an online format, and members continued to carry out their duties from Manila and elsewhere around the world. New Board members were able to begin their terms remotely throughout the year. The Board also approved an online format for the ADB Annual Meeting for the first time.",
-        "type": "paragraph"
-    },
-    {
-        "heading": "MAJOR INITIATIVES",
+        "data": "MAJOR INITIATIVES",
         "type": "heading"
     },
     {
-        "data": "The primary focus of the Board throughout 2020 was guiding ADB’s response to the COVID‑19 pandemic. In January 2020, the Board approved the review of the bank’s Capital Adequacy Framework, which is designed to protect ADB’s risk-bearing capacity without relying on callable capital, and to maintain ADB’s ability to lend even during crises.",
+        "data": "The Board continued to focus on ADB’s response to the coronavirus disease (COVID-19) pandemic in 2021. Through the COVID-19 Vaccines for Recovery Project, under the Asia Pacific Vaccine Access Facility (APVAX), the Board approved 13 projects to procure and deliver safe, high-quality COVID-19 vaccines and reinforce vaccination monitoring systems, vaccine transport, and related medical waste management. It also monitored market developments closely and responded flexibly to changes in context where needed, including through a variation to the APVAX policy that broadened the criteria for vaccine eligibility while maintaining efficacy and safety standards.",
         "type": "paragraph"
     },
     {
-        "data": "In February, the Board approved significant regional technical assistance to address COVID‑19 and to help mitigate health impacts and long-term damage to economies. ADB’s Comprehensive Response to the COVID‑19 Pandemic policy package, approved in April, established a new financing instrument: the COVID‑19 Pandemic Response Option (CPRO). During 2020, the Board approved 26 uses of this financing option. The COVID‑19 regional technical assistance was also expanded in April to support the purchase of medical supplies. To enable the increase in quicker-disbursing support under the CPRO, in June the Board approved a major increase to the borrowing program for 2020.",
+        "heading": "The Board approved the Review of ADB’s Comprehensive Response to the COVID-19 Pandemic Policy, which recommended actions that will enhance the bank’s ability to quickly and effectively provide its developing member countries (DMCs) with tailored solutions during health emergencies. These included extending most special policy variations until the end of 2021 to enable key features of ADB’s response package to be incorporated into the bank’s regular sovereign and nonsovereign instruments in 2022.",
         "type": "paragraph"
     },
     {
-        "data": "At their online retreat in September, the Board and Management discussed ADB’s support for COVID‑19 responses and for upper middle-income countries.",
+        "data": "The Board engaged in organizational reforms designed to strengthen ADB’s ability to meet DMC demand for knowledge solutions, including the Knowledge Management Action Plan 2021–2025 and a review of ADB’s technical assistance operations. In October, the Board approved a strategic framework to rebalance ADB’s workforce over the period 2022–2027, which will increase the number of staff providing support directly to DMCs, instead of through consultants.",
         "type": "paragraph"
     },
     {
-        "data": "The Asia Pacific Vaccine Access Facility, approved in December, will provide additional rapid and equitable support to help developing member countries procure and deliver effective and safe COVID‑19 vaccines. This Facility was supported with a second major increase to the COVID‑19 regional technical assistance in November to help members access vaccines and establish systems to enable equitable and efficient vaccine distribution.",
+        "data": "The Board approved the 2021 Energy Policy to help DMCs accelerate the development of sustainable and resilient power systems that provide reliable and affordable access to energy for all, foster inclusive economic growth and social development, and support the region’s low-carbon transition. The policy responds to current development and climate imperatives while aligning energy sector operations with ADB’s Strategy 2030 and global commitments such as the Sustainable Development Goals and the Paris Agreement.",
         "type": "paragraph"
     },
     {
-        "data": "Further, the Board of Directors approved a new policy framework in November to guide ADB’s collaboration with multilateral development banks on sovereign exposure exchanges to manage risks created by the concentration of loans in a small number of borrowing countries. It also approved a pilot agreement to be implemented under the framework.",
+        "data": "The Board also endorsed new country partnership strategies for Bangladesh, the People’s Republic of China, Mongolia, Pakistan, Tajikistan, and Thailand, as well as a new regional country partnership strategy for 12 small Pacific island countries.",
         "type": "paragraph"
     },
     {
-        "data": "Working Group on Gender Diversity",
-        "para1": "The Board of Directors is committed to improving the gender diversity of the Board. It recognizes that diversity enhances the quality and credibility of the Board’s decision-making, particularly in the context of our goal under Strategy 2030 to accelerate progress in gender equality. In September 2020, the Board established the Working Group on Gender Diversity to help build a more diverse Board membership. The group will identify constraints to improving gender diversity on the ADB Board of Directors and possible ways to address these. It will encourage well-qualified women to seek positions, such as by raising awareness about ADB and the work of the Board, and by mentoring. Working through Constituency Offices, it will also encourage ADB member authorities to take gender diversity of the Board as a whole into account in making Board appointments.",
+        "data": "At the 54th Annual Meeting in 2021, the Board submitted its first report to the the ADB Board of Governors on Gender Diversity at the ADB Board of Directors. The report includes recommendations for raising awareness on gender diversity on the Board, developing the Board’s evolving gender diversity strategy, and promoting the strategy to ADB members. The Board Working Group on Gender Diversity focused in 2021 on strengthening analysis and understanding of gender diversity at the ADB Board of Directors and increasing engagement with relevant stakeholders, including peer institutions.",
+        "type": "paragraph"
+    },
+    {
+        "data": "PARTNERSHIPS AND DIALOGUE",
+        "type": "heading"
+    },
+    {
+        "data":"The Board held its first virtual Board Group Visit to Timor‑Leste. Board members met via a digital platform with the Prime Minister of Timor-Leste His Excellency Taur Matan Ruak, Finance Minister and ADB Governor Honorable Rui Augusto Gomes, Finance Vice-Minister and ADB Alternate Governor Sara Lobo Brites, other ministers and government officials, development partners, and private sector representatives. The discussions during the 3-day event strengthened the Board’s understanding of ADB’s partnership with Timor‑Leste and the country’s development needs, ahead of a new country partnership strategy to be developed in 2022. The visit also reinforced the bank’s long-term commitment to Timor‑Leste in addressing poverty, supporting institutional capacity building for public financial management, and ensuring fiscal sustainability.",
+        "type":"paragraph"
+    },
+    {
+        "data":"The annual Board and Management Retreat was held virtually for the second year. The retreat is a forum for strategic dialogue to set the direction of ADB’s operations. Discussions focused on initiatives to enhance the bank’s support to DMCs amid ongoing pandemic challenges. These included ways to ensure ADB continues to be agile in responding to specific country situations and that the bank’s current financial instruments remain fit for purpose. Discussions also focused on measures to improve ADB’s knowledge solutions to better service the complex and dynamic needs of DMCs",
+        "type":"paragraph"
+    },
+    {
+        "data":"COMMITTEE HIGHLIGHTS",
+        "type":"heading"
+    },
+    {
+        "data":"Directors serve on committees to oversee and guide ADB’s operations.",
+        "type":"paragraph"
+    },
+    {
+        "data":"The <b>Audit and Risk Committee</b> promoted best practices in good governance by updating its terms of reference, which were subsequently approved by the Board. To clarify areas of responsibility, the committee’s name was updated from “Audit” to “Audit and Risk.” The committee held discussions on ADB’s cybersecurity and digital agenda, business continuity and organizational resilience, risk management, and approval of the 2020 financial statements. The Chair and Secretariat implemented initiatives to increase efficiency and effectiveness for meetings, data sharing, and communications.",
+        "type":"paragraph"
+    },
+    {
+        "data":"The <b>Budget Review Committee</b> discussed ADB’s 2022 budget preparation, work program and budget framework for 2022–2024, budget utilization in 2021, and budget management in response to uncertainties under pandemic conditions. It also discussed the bank’s workforce analysis and 2022 salary and benefit proposals with the Human Resources, and Audit and Risk committees, and with the ADB Management committee on information technology and data.",
+        "type":"paragraph"
+    },
+    {
+        "data":"The <b>Compliance Review Committee</b> assessed actions to address complaints from stakeholders through ADB’s Accountability Mechanism. The committee assessed an eligibility report on a complaint in Georgia and recommended that the Board authorize a compliance review. It also evaluated the Office of the Compliance Review Panel’s findings on the pandemic’s effect on the Accountability Mechanism.",
+        "type":"paragraph"
+    },
+    {
+        "data":"The <b>Development Effectiveness Committee</b>assessed major evaluations of ADB’s climate change work as well as its response to the COVID-19 pandemic. It discussed program evaluations for Bangladesh and for the Greater Mekong Subregion Program, 2012–2020, and reviewed ADB’s performance reports and approved the Independent Evaluation Department’s rolling program for 2022–2024. The committee led the search and selection process for the Director General of the Independent Evaluation Department, a mandate carried out every 5 years.",
+        "type":"paragraph"
+    },
+    {
+        "data":"The <b>Human Resources Committee</b> discussed 2022 salary and benefits proposals and workforce analysis, and the role of the Budget, People, and Management Systems Department in response to the pandemic. The committee reviewed initiatives for talent acquisition, staff learning and development, the bank’s human resources framework, and diversity and inclusion. It also discussed the 2020 Ombudsperson Annual Report, the external review of the functions of the Office of the Ombudsperson, and Office of Professional Conduct activities.",
+        "type":"paragraph"
+    },
+    {
+        "data": "Good Governance: Harmonizing Board Committees’ Rules of Procedure and Updating Terms of Reference",
+        "para1": "To promote good governance, the Board approved and adopted the Rules of Procedure for the Board Committees (ROP) and Revised Terms of Reference for Certain Committees in June. The adoption of the ROP successfully concluded the Board committee reform process that began in 2018 and harmonized policies and procedures for all committees. Board committees that updated their Terms of Reference included the Audit and Risk Committee, Budget Review Committee, Development Effectiveness Committee, Human Resources Committee, and Ethics Committee.",
         "type": "insideheading"
     },
     {
-        "data": "COMMITTEE HIGHLIGHTS",
-        "type": "secondHeading"
-    },
-    {
-        "data": "Directors serve on committees to oversee and guide ADB’s operations.",
-        "type": "paragraph"
-    },
-    {
-        "data": "The Audit Committee A key focus of the Committee in 2020 was the sustainability of ADB’s financial position, as the bank delivered significant additional financing for COVID‑19 assistance. The Committee provided counsel on the management of private sector operations, business continuity and resilience, and cybersecurity, among other issues.",
-        "type": "paragraph"
-    },
-    {
-        "data": "The Budget Review Committee discussed the preparation of ADB’s 2021 budget, the work program for 2021–2023, 2020 budget utilization, and budget management during the pandemic. The Committee discussed the institution’s information technology reforms, including the governance of the digital agenda. In collaboration with the Human Resources Committee, it also focused on the bank’s 2020 Comprehensive Review of Compensation and Benefits, including 2021 salary proposals.",
-        "type": "paragraph"
-    },
-    {
-        "data": "The Compliance Review Committee assessed actions taken to address complaints from stakeholders, raised through ADB’s Accountability Mechanism. The committee also reviewed the Compliance Review Panel’s plans to adapt its work to account for the pandemic.",
-        "type": "paragraph"
-    },
-    {
-        "data": "The Development Effectiveness Committee assessed major evaluations of ADB’s work on transport, safeguards, knowledge, energy, and public–private partnerships. It discussed ADB’s performance reports and approved the rolling program of the Independent Evaluation Department for 2021–2023.",
-        "type": "paragraph"
-    },
-    {
-        "data": "The Human Resources Committee (HRC) focused on the completion of the process for the 2020 Comprehensive Review of Compensation and Benefits, including 2021 salary proposals, jointly with the Budget Review Committee. The HRC reviewed the following initiatives: talent acquisition, leadership development to support an enabling culture, human resources framework to support Strategy 2030, values-based culture transformation, training support for COVID‑19, workforce analysis, and diversity and inclusion. The HRC also discussed the 2019 Ombudsperson Annual Report, and the Office of Professional Conduct.",
-        "type": "paragraph"
-    },
-    {
-        "data": "Code of Conduct for Directors, Alternate Directors, and the President",
-        "para1": "The Ethics Committee (EC) completed its review of the Board Code of Conduct, Ethics Committee and Procedures, and Associated Guidelines applicable to ADB Directors, Alternate Directors, and the President. The review recommended amendments to bring these standards and procedures into line with the best practices of ADB’s peer institutions and the ADB Staff Code of Conduct. The changes included the requirement to complete a declaration of compliance relating to financial interests, and the duty to report any form of misconduct through appropriate channels. Amendments relating to the EC and the Office of Anticorruption and Integrity (OAI) included establishing a referral mechanism between the EC and OAI, updating guidelines, and defining the specific role and responsibilities of the EC in future misconduct investigations. The Board approved the revised Code of Conduct, Ethics Committee and Procedures, and Associated Guidelines in January 2020. They became effective on 13 February 2020.",
-        "type": "insideheading"
-    },{
         "title": "Next",
         "data":"FINANCIAL HIGHLIGHTS",
         "type":"button"
