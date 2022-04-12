@@ -38,13 +38,11 @@ export class AppendixesContentComponent implements OnInit {
 
     })
 
-    this.showImage(this.list[0]?.tableData);
   }
 
   showImage(img: any) {
     // this.sourceImages = img;
     this.tableData = img;
-    console.log('this.tableData', this.tableData);
     this.isShowImage ? this.isShowImage = false : this.isShowImage = true;
   }
 

@@ -1,7 +1,7 @@
 <div class="accordinTable" style="margin-bottom: 70px;">
     <ng-container>
-             <p class="financialHeading" >{{heading}}</p>
-             <p  class="financialSubHeading" [innerHTML]="subHeading"></p>
+             <p class="financialHeading" [innerHTML]="heading"></p>
+             <p class="financialSubHeading" [innerHTML]="subHeading"></p>
     </ng-container>
     
     <table class="ap-table accordianTable">
@@ -26,7 +26,7 @@
                         </tr>
                         <tr class="fold open" *ngFor="let rowData of item.subData">
                             <!-- <td> -->
-                                <ng-container >
+                                <ng-container>
                                     <ng-container *ngFor="let trData of rowData; let trIndex = index">
                                         <ng-container *ngTemplateOutlet="commonSubTable; context: {item: trData}">
                                         </ng-container>
@@ -46,7 +46,7 @@
                 <tbody> -->
                     <!-- <tr *ngFor="let tableContent of trData; let subTableIndex = index" class="{{tableContent.class}}"> -->
                         <!-- <ng-container *ngFor="let item of tableContent | keyvalue; let i = index"> -->
-                            <td [innerHTML]="item.value | customDecimal: item.value > 100" class="text-align-right {{ item?.class }}"></td>
+                                <td [innerHTML]="item.value | customDecimal: item.value > 100" class="text-align-right {{ item?.class }}"></td>
                         <!-- </ng-container> -->
                     <!-- </tr> -->
                 <!-- </tbody>

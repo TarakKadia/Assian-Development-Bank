@@ -182,4 +182,5 @@ p {
 .background-border {
     background-color: hsl(240deg 100% 50% / 20%);
     border-bottom: 1px solid blue;
+    font-weight: bold;
 }
