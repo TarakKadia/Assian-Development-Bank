@@ -15,6 +15,8 @@ export class AppendixesContentComponent implements OnInit {
   isShowImage = false;
   sourceImages = [];
 
+  tableData: any;
+
   data :Array<any> = [];
   list :Array<any>= [];
   id :Array<any>= [];
@@ -30,22 +32,18 @@ export class AppendixesContentComponent implements OnInit {
   }, 1000);
     this.data = appendixesContentJsonData;
     this.list = appendixesListJsonData;
-
     this.list.map(el => {
       this.id = el.id;
       // console.log("\n id : ",this.id);
 
     })
 
-    // console.log("appendixesListJsonData : ",this.data);
-
-
-
   }
 
   showImage(img: any) {
-    this.sourceImages = img;
-    this.isShowImage ? this.isShowImage = false : this.isShowImage = true;;
+    // this.sourceImages = img;
+    this.tableData = img;
+    this.isShowImage ? this.isShowImage = false : this.isShowImage = true;
   }
 
 

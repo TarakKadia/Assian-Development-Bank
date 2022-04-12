@@ -4,7 +4,2329 @@
         "list": "Appendix 1:",
         "content": "Commitments by Country, 2020",
         "type": "list",
-        "image": ["assets/images/app/appendix1.png"]
+        "image": ["assets/images/app/appendix1.png"],
+        "tableData": {
+            "type": "accordian-table",
+            "heading":"Appendix 1: Commitments by Country, 2021 ($ million)",
+            "note":["– = nil, 0 = less than $50,000, ADB = Asian Development Bank, ADF = Asian Development Fund, MFP = Microfinance Program, OCR = ordinary capital resources, SF = special funds, TA = technical assistance, TAS = Transaction Advisory Service, TSCFP = Trade and Supply Chain Finance Program.<br> Notes: <br>",
+                "<sup class='noteSup'>1.</sup> “Commitment” is the financing approved by the ADB Board of Directors or Management for which the investment agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADB for which the signed amount is not readily available, the approved amount is used.",
+                "<sup class='noteSup'>2.</sup> Numbers may not sum precisely because of rounding.",
+                "<sup class='noteSup'>a</sup> Refers to Technical Assistance Special Fund and other SF.",
+                "<sup class='noteSup'>b</sup> Including trust funds.",
+                "<sup class='noteSup'>c</sup> ADB placed its regular assistance to Afghanistan on hold effective 15 August 2021.",
+                "<sup class='noteSup'>d</sup> Effective 1 February 2021, ADB placed a temporary hold on sovereign project disbursements and new contracts in Myanmar.",
+                "<sup class='noteSup'>e</sup> “Regional” includes nonsovereign operations that involve two or more countries. Except for research and training benefiting all members, financing for regional technical assistance that are identifiable to individual countries are included in the country-specific technical assistance amounts."],
+            "data": [
+                {
+                    "type": "main-title",
+                    "data": [
+                        [
+                            {
+                                "title": "",
+                                "class": "border-top"
+                            },
+                            {
+                                "colspan": 7,
+                                "title": "Loans, Grants, and Others",
+                                "class": "border-bottom border-top"
+                            },
+                            {
+                                "title": "",
+                                "class": "border-top"
+                            },
+                            {
+                                "colspan": 5,
+                                "title": "Cofinancing",
+                                "class": "border-bottom border-top"
+                            },
+                            {
+                                "title": "",
+                                "class": "border-top background-color"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "type": "expansion-panel",
+                    "subTitle": [
+                        {
+                            "title": "Country",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Sovereign",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Nonsovereign",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Concessional OCR",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "ADF Grant",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Other SF",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "TSCFP and MFP",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Subtotal",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Technical Assistance",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Project",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "TA",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "TSCFP and MFP",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "TAS",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Subtotal",
+                            "class": "border-bottom-2px"
+                        },
+                        {
+                            "title": "Total",
+                            "class": "background-color border-bottom-2px"
+                        }
+                    ],
+                    "subData": [
+                        [
+                            {
+                                "value": "Afghanistan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "50.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "50.0"
+                            },
+                            {
+                                "value": "0.2",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0"
+                            },
+                            {
+                                "value": "50.3",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Armenia",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "20.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "16.6"
+                            },
+                            {
+                                "value": "36.6"
+                            },
+                            {
+                                "value": "2.5",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "85.0"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "1.9"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "88.6"
+                            },
+                            {
+                                "value": "127.6",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Azerbaijan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "250.0"
+                            },
+                            {
+                                "value": "5.9"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "255.9"
+                            },
+                            {
+                                "value": "1.9",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "114.7"
+                            },
+                            {
+                                "value": "1.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "115.8"
+                            },
+                            {
+                                "value": "373.6",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Bangladesh",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "1,370.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "633.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "761.6"
+                            },
+                            {
+                                "value": "2,765.1"
+                            },
+                            {
+                                "value": "11.0",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "800.2"
+                            },
+                            {
+                                "value": "3.4"
+                            },
+                            {
+                                "value": "1,155.3"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1,958.9"
+                            },
+                            {
+                                "value": "4,735.0",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Bhutan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "54.0"
+                            },
+                            {
+                                "value": "6.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "60.0"
+                            },
+                            {
+                                "value": "4.2",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.7"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.7"
+                            },
+                            {
+                                "value": "65.9",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Brunei Darussalam",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.1"
+                            },
+                            {
+                                "value": "0.1",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Cambodia",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "4.7"
+                            },
+                            {
+                                "value": "327.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "17.5"
+                            },
+                            {
+                                "value": "349.3"
+                            },
+                            {
+                                "value": "9.5",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "30.7"
+                            },
+                            {
+                                "value": "8.6"
+                            },
+                            {
+                                "value": "17.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "56.8"
+                            },
+                            {
+                                "value": "415.5",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "China, People’s Republic of",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "1,617.0"
+                            },
+                            {
+                                "value": "145.3"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "42.9"
+                            },
+                            {
+                                "value": "1,805.2"
+                            },
+                            {
+                                "value": "11.3",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "349.9"
+                            },
+                            {
+                                "value": "1.4"
+                            },
+                            {
+                                "value": "42.9"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "394.2"
+                            },
+                            {
+                                "value": "2,210.6",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Cook Islands",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "75.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "75.5"
+                            },
+                            {
+                                "value": "1.1",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "23.2"
+                            },
+                            {
+                                "value": "2.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "25.3"
+                            },
+                            {
+                                "value": "101.9",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Fiji",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "40.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "41.0"
+                            },
+                            {
+                                "value": "2.7",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "119.8"
+                            },
+                            {
+                                "value": "2.2"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "122.0"
+                            },
+                            {
+                                "value": "165.7",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Georgia",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "229.4"
+                            },
+                            {
+                                "value": "160.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "10.0"
+                            },
+                            {
+                                "value": "399.4"
+                            },
+                            {
+                                "value": "2.3",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "180.5"
+                            },
+                            {
+                                "value": "0.8"
+                            },
+                            {
+                                "value": "2.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "183.3"
+                            },
+                            {
+                                "value": "585.0",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "India",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "4,602.0"
+                            },
+                            {
+                                "value": "273.4"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "3.0"
+                            },
+                            {
+                                "value": "147.4"
+                            },
+                            {
+                                "value": "5,025.8"
+                            },
+                            {
+                                "value": "17.1",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "1,549.0"
+                            },
+                            {
+                                "value": "23.2"
+                            },
+                            {
+                                "value": "153.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1,725.8"
+                            },
+                            {
+                                "value": "6,768.7",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Indonesia",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "1,679.5"
+                            },
+                            {
+                                "value": "9.7"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.4"
+                            },
+                            {
+                                "value": "1,689.6"
+                            },
+                            {
+                                "value": "6.8",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "560.5"
+                            },
+                            {
+                                "value": "4.8"
+                            },
+                            {
+                                "value": "0.4"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "565.8"
+                            },
+                            {
+                                "value": "2,262.2",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Kazakhstan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "3.3",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.5"
+                            },
+                            {
+                                "value": "3.9",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Kiribati",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "2.3",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "3.9",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Kyrgyz Republic",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "118.3"
+                            },
+                            {
+                                "value": "71.7"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "190.0"
+                            },
+                            {
+                                "value": "4.7",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "0.7"
+                            },
+                            {
+                                "value": "1.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.7"
+                            },
+                            {
+                                "value": "196.3",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Lao People’s Democratic Republic",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "5.5",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "21.0"
+                            },
+                            {
+                                "value": "3.8"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "24.8"
+                            },
+                            {
+                                "value": "30.3",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Malaysia",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "24.8"
+                            },
+                            {
+                                "value": "24.8"
+                            },
+                            {
+                                "value": "0.4",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.2"
+                            },
+                            {
+                                "value": "24.8"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "25.1"
+                            },
+                            {
+                                "value": "50.3",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Maldives",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "2.6",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "20.0"
+                            },
+                            {
+                                "value": "3.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "23.0"
+                            },
+                            {
+                                "value": "25.5",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Marshall Islands",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "9.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "9.0"
+                            },
+                            {
+                                "value": "2.6",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "13.1",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Micronesia, Federated States of",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "9.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "9.0"
+                            },
+                            {
+                                "value": "2.5",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "13.1",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Mongolia",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "155.9"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "36.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "11.1"
+                            },
+                            {
+                                "value": "203.1"
+                            },
+                            {
+                                "value": "14.0",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "27.0"
+                            },
+                            {
+                                "value": "3.8"
+                            },
+                            {
+                                "value": "0.7"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "31.5"
+                            },
+                            {
+                                "value": "248.5",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Myanmar",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.0",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.0",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Nauru",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "5.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "5.0"
+                            },
+                            {
+                                "value": "2.0",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.8"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.8"
+                            },
+                            {
+                                "value": "8.8",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Nepal",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "225.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "11.4"
+                            },
+                            {
+                                "value": "236.4"
+                            },
+                            {
+                                "value": "8.5",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "5.0"
+                            },
+                            {
+                                "value": "0.9"
+                            },
+                            {
+                                "value": "5.9"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "11.8"
+                            },
+                            {
+                                "value": "256.7",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Niue",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.6",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.4"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.4"
+                            },
+                            {
+                                "value": "2.0",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Pakistan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "1,527.8"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "800.0"
+                            },
+                            {
+                                "value": "8.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "893.4"
+                            },
+                            {
+                                "value": "3,229.2"
+                            },
+                            {
+                                "value": "13.2",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "474.5"
+                            },
+                            {
+                                "value": "5.4"
+                            },
+                            {
+                                "value": "1,539.2"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "2,019.0"
+                            },
+                            {
+                                "value": "5,261.4",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Palau",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "5.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "20.0"
+                            },
+                            {
+                                "value": "0.8"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "25.8"
+                            },
+                            {
+                                "value": "1.2",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "3.0"
+                            },
+                            {
+                                "value": "1.4"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "4.4"
+                            },
+                            {
+                                "value": "31.3",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Papua New Guinea",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "435.0"
+                            },
+                            {
+                                "value": "25.0"
+                            },
+                            {
+                                "value": "40.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "500.0"
+                            },
+                            {
+                                "value": "4.8",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "338.8"
+                            },
+                            {
+                                "value": "2.2"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "341.0"
+                            },
+                            {
+                                "value": "845.7",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Philippines",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "2,225.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "2,225.1"
+                            },
+                            {
+                                "value": "6.2",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "550.0"
+                            },
+                            {
+                                "value": "10.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "560.1"
+                            },
+                            {
+                                "value": "2,791.5",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Samoa",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "13.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.1"
+                            },
+                            {
+                                "value": "13.1"
+                            },
+                            {
+                                "value": "1.6",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.5"
+                            },
+                            {
+                                "value": "16.1",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Solomon Islands",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "24.4"
+                            },
+                            {
+                                "value": "25.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "49.4"
+                            },
+                            {
+                                "value": "4.0",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "38.5"
+                            },
+                            {
+                                "value": "1.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "39.9"
+                            },
+                            {
+                                "value": "93.3",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Sri Lanka",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "460.0"
+                            },
+                            {
+                                "value": "25.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "198.0"
+                            },
+                            {
+                                "value": "683.0"
+                            },
+                            {
+                                "value": "5.1",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "28.0"
+                            },
+                            {
+                                "value": "4.6"
+                            },
+                            {
+                                "value": "1,064.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1,097.1"
+                            },
+                            {
+                                "value": "1,785.2",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Tajikistan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "55.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "56.6"
+                            },
+                            {
+                                "value": "6.5",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.2"
+                            },
+                            {
+                                "value": "0.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.8"
+                            },
+                            {
+                                "value": "64.9",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Thailand",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "11.2"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "110.7"
+                            },
+                            {
+                                "value": "121.8"
+                            },
+                            {
+                                "value": "1.8",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "22.5"
+                            },
+                            {
+                                "value": "3.9"
+                            },
+                            {
+                                "value": "110.7"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "137.1"
+                            },
+                            {
+                                "value": "260.7",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Timor-Leste",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "120.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "97.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "218.0"
+                            },
+                            {
+                                "value": "6.4",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "47.0"
+                            },
+                            {
+                                "value": "0.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "47.5"
+                            },
+                            {
+                                "value": "271.8",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Tonga",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "55.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "55.5"
+                            },
+                            {
+                                "value": "2.3",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "23.4"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "25.0"
+                            },
+                            {
+                                "value": "82.8",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Turkmenistan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "0.9",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.2"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.2"
+                            },
+                            {
+                                "value": "2.1",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Tuvalu",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "21.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "21.5"
+                            },
+                            {
+                                "value": "1.4",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "24.5",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Uzbekistan",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "463.7"
+                            },
+                            {
+                                "value": "30.8"
+                            },
+                            {
+                                "value": "273.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "161.8"
+                            },
+                            {
+                                "value": "929.3"
+                            },
+                            {
+                                "value": "10.4",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "108.0"
+                            },
+                            {
+                                "value": "4.2"
+                            },
+                            {
+                                "value": "166.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "278.2"
+                            },
+                            {
+                                "value": "1,218.0",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Vanuatu",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "14.9"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "14.9"
+                            },
+                            {
+                                "value": "4.1",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "1.6"
+                            },
+                            {
+                                "value": "20.6",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Viet Nam",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "58.0"
+                            },
+                            {
+                                "value": "184.5"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "662.9"
+                            },
+                            {
+                                "value": "905.4"
+                            },
+                            {
+                                "value": "7.2",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "500.8"
+                            },
+                            {
+                                "value": "7.1"
+                            },
+                            {
+                                "value": "1,503.7"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "2,011.6"
+                            },
+                            {
+                                "value": "2,924.1",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Regional",
+                                "class": "border-right"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "250.0"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "250.0"
+                            },
+                            {
+                                "value": "32.1",
+                                "class": "border-left-right"
+                            },
+                            {
+                                "value": "563.9"
+                            },
+                            {
+                                "value": "13.1"
+                            },
+                            {
+                                "value": "-"
+                            },
+                            {
+                                "value": "422.9"
+                            },
+                            {
+                                "value": "999.8"
+                            },
+                            {
+                                "value": "1,282.0",
+                                "class": "background-color"
+                            }
+                        ],
+                        [
+                            {
+                                "value": "Total ADB",
+                                "class": "border-right background-border"
+                            },
+                            {
+                                "value": "15,273.9",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "1,185.5",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "2,648.4",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "344.3",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "5.0",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "3,072.0",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "22,529.2",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "229.7",
+                                "class": "border-left-right background-border"
+                            },
+                            {
+                                "value": "6,585.4",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "134.7",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "5,789.8",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "422.9",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "12,932.7",
+                                "class": "background-border"
+                            },
+                            {
+                                "value": "35,691.6",
+                                "class": "background-color background-border" 
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
     }, {
         "id": 2,
         "list": "Appendix 2:",

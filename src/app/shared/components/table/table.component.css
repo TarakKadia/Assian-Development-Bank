@@ -1,0 +1,186 @@
+@import url('https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+ .pcs:after {
+	 content: " pcs";
+}
+ .cur:before {
+	 content: "$";
+}
+ .per:after {
+	 content: "%";
+}
+ * {
+	 box-sizing: border-box;
+}
+ body {
+	 padding: 0.2em 2em;
+}
+
+ table {
+	 width: 100%;
+}
+ table th {
+	 text-align: left;
+	 border-bottom: 1px solid #ccc;
+}
+ table th, table td {
+	 /* padding: 0.1em; */
+     
+	 /* width: 14%; */
+}
+ table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
+	 cursor: pointer;
+     background-color: #f9c8ae;
+}
+ table.fold-table > tbody > tr.view td:first-child, table.fold-table > tbody > tr.view th:first-child {
+	 position: relative;
+	 padding-left: 20px;
+     /* background-color: #999; */
+}
+ table.fold-table > tbody > tr.view td:first-child:before, table.fold-table > tbody > tr.view th:first-child:before {
+	 position: absolute;
+	 top: 50%;
+	 left: 5px;
+	 width: 9px;
+	 height: 16px;
+	 margin-top: -8px;
+	 font: 16px fontawesome;
+	 color: #999;
+	 content: "\f0d7";
+	 transition: all 0.3s ease;
+}
+ table.fold-table > tbody > tr.view:nth-child(4n-1) {
+	 background: #eee;
+}
+ table.fold-table > tbody > tr.view:hover {
+	 background: rgb(162, 221, 255);
+}
+ table.fold-table > tbody > tr.view.open {
+	 background: #f9c8ae;
+	 color: rgb(0, 0, 0);
+}
+ table.fold-table > tbody > tr.view.open td:first-child:before, table.fold-table > tbody > tr.view.open th:first-child:before {
+	 transform: rotate(-180deg);
+	 color: #333;
+}
+ table.fold-table > tbody > tr.fold {
+	 display: none;
+}
+ table.fold-table > tbody > tr.fold.open {
+	 display: table-row;
+}
+ .fold-content {
+	 padding: 0.5em;
+}
+ .fold-content h3 {
+	 margin-top: 0;
+}
+ .fold-content > table {
+	 /* border: 2px solid #ccc; */
+}
+ .fold-content > table > tbody tr:nth-child(even) {
+	 background: #eee;
+}
+
+
+
+.accordinTable{
+    width: 100%;
+    /* margin-left: -100px; */
+}
+ 
+.font-bold{
+    font-weight: bold;
+}
+
+.colorGrey{
+    background-color: #ccc !important;
+}
+
+.width-40 {
+    width: 40%;
+}
+.width-10 {
+    width: 10%;
+}
+.noteText{
+    font-size: small; 
+    font-weight: 5px;
+   position: relative;
+   padding-left: 15px;
+}
+
+.financialHeading{
+    font-size: 32px;
+    font-weight:1000;
+}
+
+.financialSubHeading{
+    font-size: 22px; 
+    font-weight:950;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.5rem !important;
+    color: #222 !important;
+    font-feature-settings: 'lnum', "lnum";
+    -webkit-font-feature-settings: 'lnum';
+    -moz-font-feature-settings: 'lnum';
+    font-variant-numeric: lining-nums;
+}
+@media only screen and (max-width: 1000px) {
+    .accordinTable {
+        width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -14px;
+    }
+    
+    
+  }
+
+
+.ap-table {
+    background-color: #F7F7F7;
+}
+
+.text-align-right {
+    text-align: right;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid blue !important;
+    text-align: center !important;
+}
+
+.border-top {
+    border-top: 2px solid blue !important;
+}
+
+.background-color {
+    background-color: hsl(240deg 100% 50% / 20%);
+}
+
+.border-bottom-2px {
+    border-bottom: 2px solid blue !important;
+}
+
+.border-right {
+    border-right: 1px solid blue !important;
+    text-align: left;
+}
+
+.border-left-right {
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;
+}
+
+.background-border {
+    background-color: hsl(240deg 100% 50% / 20%);
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+}

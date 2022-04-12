@@ -10,16 +10,21 @@
 
   </div>
   <div class="appendix-list">
-    <div class="appendix-item" *ngFor="let data of list" (click)="showImage(data.image)">
+    <div class="appendix-item" *ngFor="let data of list" (click)="showImage(data.tableData)">
       <span>{{data.list}}</span><br>
       {{data.content}}
     </div>
   </div>
 </div>
 
-<div id="appendix-overlay" [ngClass]="{'displayBlock': isShowImage}">
-
-  <div id="appendix1" class="appendix-content showing" [ngClass]="{'displayBlock': isShowImage}">
+<div id="appendix-overlay" style="background-color: #FFF; padding: 10px;" [ngClass]="{'displayBlock': isShowImage}">
+  <div class="appendix-close" (click)="showImage(null)">
+    <span class="close-label">Close</span> <span class="close-icon">×</span>
+  </div>
+  <div class="appendix-table">
+    <app-table *ngIf="tableData?.heading && tableData?.data" [heading]="tableData?.heading" [tableJson]="tableData?.data" [note]="tableData?.note"></app-table>
+  </div>
+  <!-- <div id="appendix1" class="appendix-content showing" [ngClass]="{'displayBlock': isShowImage}">
     <div *ngFor="let image of sourceImages">
       <img [src]="image" class="load-after" data-arimgsrc="images/app/appendix1.png">
       <br>
@@ -28,7 +33,7 @@
     </div>
     <div class="appendix-close" (click)="showImage(null)">
       <span class="close-label">Close</span> <span class="close-icon">×</span>
-      </div>
+      </div> -->
 </div>
 
 <br><br><br><br><br>
