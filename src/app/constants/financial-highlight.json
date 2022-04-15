@@ -1,2490 +1,3461 @@
-[  {
+[
+  {
     "title": "FINANCIAL HIGHLIGHTS",
     "subTitle": "BY THE NUMBERS",
     "type": "title"
   },
-    {
-        "type": "accordian-table",
-        "heading":"OPERATIONAL HIGHLIGHTS",
-        "subHeading":"ADB Commitments,<sup>a </sup>2016-2020 &nbsp($million)",
-        "note":["– = nil, 0 = less than $500,000, ADB = Asian Development Bank, COVID-19 = coronavirus disease.<br> Notes: <br> 1.Beginning in 2020, commitments from ADB’s internal resources include private sector programs (the Trade and Supply Chain Finance Program and Microfinance Program). Inclusion of ADB’s exposure (or committed redeployed capital) under private sector programs fully reflects the total financing committed, while at the same time, ADB reports on cofinancing mobilized by these programs. Commitments under private sector programs will distinguish long-term and short-term financing.","2. Numbers may not sum precisely because of rounding.","<sup class='noteSup' >a</sup> Commitment is the financing approved by the ADB Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADB for which the signed amount is not readily available, the approved amount is used.","<sup class='noteSup'>b</sup> In August 2020, ADB’s Trade Finance Program and Supply Chain Finance Program merged their operations.","<sup class='noteSup' >c</sup> The 2019 and 2020 adjusted figures exclude $150,000 and $13 million under nonsovereign ADB financing, respectively, to reduce the trade finance component of the Trade and Supply Chain Finance Program amounts as finalized by the Private Sector Operations Department.","<sup class='noteSup' >d</sup> The trade finance component of the Trade and Supply Chain Finance Program represents 86% of this figure and supported 6,790 transactions during the reporting period, with an average maturity of 162 days.","<sup class='noteSup'>e</sup> Comprises funds other than the Asian Development Fund, such as the Asia Pacific Disaster Response Fund and the Climate Change Fund.","<sup class='noteSup' >f</sup>   This figure includes $6 million under sovereign cofinancing commitments for one project.","<sup class='noteSup'>g</sup> “Others” includes concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, corporate social responsibility programs, and civil society organizations) other than official development assistance sources.","<sup class='noteSup'>h</sup> Nonsovereign cofinancing includes commercial cofinancing such as B loans and parallel loans, among others. B loans are cofinancing arrangements involving the coordinated process of pooling funds from various sources for a single borrower or grant recipient and/or distributing related risks among such other financiers. The 2019 adjusted figure includes $65 million under nonsovereign cofinancing for two projects.","<sup class='noteSup'>i</sup> This figure includes $150,000 under nonsovereign cofinancing commitments to increase the trade finance component of the Trade and Supply Chain Finance Program amount as finalized by the Private Sector Operations Department."],
-        "data": [
-            {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          {
-                            "title": "2017"
-                          },
-                          {
-                            "title": "2018"
-                          },
-                          {
-                            "title": "2019"
-                          },
-                          {
-                            "colspan":2,
-                            "title": "2020"
-                          },
-                          {
-                            "colspan":2,
-                            "title": "2021"
-                          }
-                    ],
-                    [
-                        {
-                            "title": "Item"
-                          },
-                          {
-                            "title": "Total"
-                          },
-                          {
-                            "title": "Total"
-                          },
-                          {
-                            "title": "Total"
-                          },
-                          {
-                            "title": "Total",
-                            "class": "lightOrange-bg"
-                          },
-                          {
-                            "title": "COVID-19 Response"
-                          },
-                          {
-                            "title": "Total",
-                            "class": "lightOrange-bg"
-                          },
-                          {
-                            "title": "COVID-19 Response"
-                          }
-                    ],
-                    [
-                        {
-                            "title": "A.Loan,Grants,and other"
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ]
-                    
-                ]
-                
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "By Source",
-                        "class": "colorGrey"
-                      },
-                      {
-                        "title": "",
-                        "class": "colorGrey"
-                      },
-                      {
-                        "title": "",
-                        "class": "colorGrey"
-                      },
-                      {
-                        "title": "",
-                        "class": "colorGrey"
-                      },
-                      {
-                        "title": "",
-                        "class": "colorGrey"
-                      },
-                      {
-                        "title": "",
-                        "class": "lightOrange-bg"
-                      },
-                      {
-                        "title": "",
-                        "class": "lightOrange-bg"
-                      },
-                      {
-                        "title": "",
-                        "class": "lightOrange-bg"
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Regular Ordinary Capital Resource",
-                            "value1": "17230",
-                            "value2": "16286",
-                            "value3": "17155",
-                            "value4": "22723",
-                            "value5": "11677",
-                            "value6": "16459",
-                            "value7": "8307",
-                            "class": "title-row-normal"
-                        },
-                        {
-                            "value0": "Loan",
-                            "value1": "16445",
-                            "value2": "16012",
-                            "value3": "16824",
-                            "value4": "22468",
-                            "value5": "11677",
-                            "value6": "16195",
-                            "value7":"8307"
-                        },
-                        {
-                            "value0": "Equity Investment",
-                            "value1": "287",
-                            "value2": "274",
-                            "value3": "155",
-                            "value4": "255",
-                           "value5": "-",
-                            "value6": "265",
-                            "value7": "-"
-
-                        },
-                        {
-                            
-                            "value0": "Guarantees",
-                            "value1": "498",
-                            "value2": "-",
-                            "value3": "175",
-                            "value4": "-",
-                            "value5": "-",
-                            "value6": "-",
-                            "value7":"-"
-                        },
-                        {
-                            
-                            "value0": "Consessional Resources",
-                            "value1": "2457",
-                            "value2": "5290",
-                            "value3": "4488",
-                            "value4": "5449",
-                            "value5": "1861",
-                            "value6": "2993",
-                            "value7":"2124",
-                            "class": "title-row-normal"
-                        },
-                        {
-                            
-                            "value0": "Consessional Ordinary Capital Resources Loans",
-                            "value1": "2267",
-                            "value2": "3872",
-                            "value3": "3644",
-                            "value4": "4432",
-                            "value5": "1466",
-                            "value6": "2648",
-                            "value7":"1998"
-                        },
-                        {
-                            
-                            "value0": "Assian Development Fund Grants",
-                            "value1": "191",
-                            "value2": "1418",
-                            "value3": "844",
-                            "value4": "1017",
-                            "value5": "395",
-                            "value6": "344",
-                            "value7":"126"
-                        },
-                        {
-                            
-                            "value0": "Regular Ordinary Capital and Concessional ResourcesS",
-                            "value1": "19687",
-                            "value2": "21576",
-                            "value3": "21643",
-                            "value4": "28172",
-                            "value5": "13538",
-                            "value6": "19452",
-                            "value7":"10430",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Trade and Supply Chain Finance Program and Microfinance Program<sup>b</sup>",
-                            "value1": "1897",
-                            "value2": "2696",
-                            "value3": "2136<sup>c<sup>",
-                            "value4": "3069",
-                            "value5": "2419",
-                            "value6": "3072",
-                            "value7": "3047",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Long Term(maturity of 365 days or more)",
-                            "value1": "98",
-                            "value2": "61",
-                            "value3": "102",
-                            "value4": "151",
-                            "value5": "125",
-                            "value6": "221",
-                            "value7":"221"
-                        },
-                        {
-                            
-                           "value0": "Short Term(maturity of less than 365 days)",
-                            "value1": "1800",
-                            "value2": "2634",
-                            "value3": "2034",
-                            "value4": "2918",
-                            "value5": "2294",
-                            "value6": "2851",
-                            "value7":"2826"
-                        },
-                        {
-                            
-                            "value0": "Regular Ordinary Capital and Concessional Resources with Trade Finance ,Supply Chain Finance and Microfinance Program",
-                            "value1": "21585",
-                            "value2": "24271",
-                            "value3": "23779",
-                            "value4": "31288",
-                            "value5": "15957",
-                            "value6": "22524",
-                            "value7":"13478",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Special  Funds<sup>c</sup>",
-                            "value1": "2",
-                            "value2": "6",
-                            "value3": "-",
-                            "value4": "60",
-                            "value5": "55",
-                            "value6": "5",
-                            "value7":"3",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Grants",
-                            "value1": "2",
-                            "value2": "6",
-                            "value3": "-",
-                            "value4": "60",
-                            "value5": "55",
-                            "value6": "5",
-                            "value7":"7"
-                        },
-                        {
-                            
-                            "value0": "Subtotal(A)",
-                            "value1": "21587",
-                            "value2": "24277",
-                            "value3": "23779",
-                            "value4": "31300",
-                            "value5": "16013",
-                            "value6": "22529",
-                            "value7":"13481",
-                            "class":"subTotal"
-                        }
-                        
-                    ]
-                   
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "By Operations"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Sovergian ",
-                            "value1": "17403",
-                            "value2": "18446",
-                            "value3": "18643",
-                            "value4": "26826",
-                            "value5": "13152",
-                            "value6": "18272",
-                            "value7":"10176",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            "value0": "Loans",
-                            "value1": "16712",
-                            "value2": "17022",
-                            "value3": "17799",
-                            "value4": "25749",
-                            "value5": "12701",
-                            "value6": "17922",
-                            "value7":"10047"
-                        },
-                        {
-                            "value0": "Gurantees",
-                            "value1": "498",
-                            "value2": "-",
-                            "value3": "-",
-                            "value4": "-",
-                            "value5": "-",
-                            "value6": "-",
-                            "value7":"-"
-                        },
-                        {
-                            
-                            "value0": "Grants",
-                            "value1": "193",
-                            "value2": "1423",
-                            "value3": "844",
-                            "value4": "1077",
-                            "value5": "450",
-                            "value6": "349",
-                            "value7":"129"
-                        },
-                        {
-                            
-                            "value0": "Nonsovereign",
-                            "value1": "2287",
-                            "value2": "3136",
-                            "value3": "3000",
-                            "value4": "1406",
-                            "value5": "442",
-                            "value6": "1186",
-                            "value7":"257",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            "value0": "Loans",
-                            "value1": "2000",
-                            "value2": "2862",
-                            "value3": "2670",
-                            "value4": "1151",
-                            "value5": "442",
-                            "value6": "921",
-                            "value7":"257"
-                        },
-                        {
-                            "value0": "Equity Investments",
-                            "value1": "287",
-                            "value2": "274",
-                            "value3": "155",
-                            "value4": "255",
-                            "value5": "-",
-                            "value6": "265",
-                            "value7":"-"
-                        },
-                        {
-                            
-                            "value0": "Guarantees",
-                            "value1": "-",
-                            "value2": "-",
-                            "value3": "175",
-                            "value4": "-",
-                            "value5": "-",
-                            "value6": "-",
-                            "value7":"-"
-                        },
-                        {
-                            
-                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
-                            "value1": "1897",
-                            "value2": "2696",
-                            "value3": "2136",
-                            "value4": "3056",
-                            "value5": "2419",
-                            "value6": "3072",
-                            "value7":"3047",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Long term (maturity of 365 days or more)",
-                            "value1": "98",
-                            "value2": "61",
-                            "value3": "102",
-                            "value4": "151",
-                            "value5": "125",
-                            "value6": "221",
-                            "value7":"221"
-                        }   ,
-                        {
-                            
-                           "value0": "Short term (maturity of less than 365 days)",
-                            "value1": "1800",
-                            "value2": "2634",
-                            "value3": "2034",
-                            "value4": "2904",
-                            "value5": "2294",
-                            "value6": "2851",
-                            "value7":"2826"
-                        },
-                        {
-                            
-                            "value0": "Subtotal(A)",
-                            "value1": "21587",
-                            "value3": "24277",
-                            "value4": "23779",
-                            "value2": "31287",
-                            "value5": "16146",
-                            "value6": "22759",
-                            "value7":"13511",
-                            "class": "title-row-bold"
-                        }
-                        
-                    ]
-                   
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "B.Technical Assistance"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Sovereigon",
-                            "value1": "192",
-                            "value2": "227",
-                            "value3": "221",
-                            "value4": "282",
-                            "value5": "128",
-                            "value6": "209",
-                            "value7":"23"
-                        },
-                        {
-                            "value0": "Nonsoveregion",
-                            "value1": "9",
-                            "value2": "14",
-                            "value3": "17",
-                            "value4": "12",
-                            "value5": "6",
-                            "value6": "21",
-                            "value7":"7"
-                        },
-                        {
-                            "value0": "Subtotal(B)",
-                            "value1": "201",
-                            "value2": "241",
-                            "value3": "237",
-                            "value4": "294",
-                            "value5": "134",
-                            "value6": "230",
-                            "value7":"30",
-                            "class": "title-row-bold"
-                        }
-                       
-                    ]
-                   
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "TOTAL ADB OPERATIONS(A + B)"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],  
-                "subData": [
-                    [
-                        {
-                            "value0": "ADB Operations without Trade and Supply Chain Finance Program <sup>b</sup> and Microfinance Program",
-                            "value1": "19890",
-                            "value2": "21823",
-                            "value3": "21880",
-                            "value4": "28525",
-                            "value5": "13727",
-                            "value6": "19687",
-                            "value7":"10463"
-                        }
-                       
-                    ]
-                   
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "C. Cofinancing Including Trust Funds"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],  
-                "subData": [
-                    [
-                        {
-                            "value0": "Sovergian",
-                            "value1": "5976",
-                            "value2": "6753",
-                            "value3": "5424",
-                            "value4": "11123",
-                            "value5": "8187",
-                            "value6": "4967",
-                            "value7":"2907",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            "value0": "Trust Funds Administered by ADB",
-                            "value1": "86",
-                            "value2": "216",
-                            "value3": "181",
-                            "value4": "288",
-                            "value5": "18",
-                            "value6": "116",
-                            "value7":"46"
-                        },
-                        {
-                            "value0": "Bilateral",
-                            "value1": "3460",
-                            "value2": "2113",
-                            "value3": "3714",
-                            "value4": "4554",
-                            "value5": "3319",
-                            "value6": "2051",
-                            "value7":"1360"
-                        },
-                        {
-                            
-                            "value0": "Multilateral",
-                            "value1": "2120",
-                            "value2": "3304",
-                            "value3": "1380",
-                            "value4": "6281",
-                            "value5": "4850",
-                            "value6": "2680",
-                            "value7":"1501"
-                        },
-                        {
-                            
-                            "value0": "Others<sup>g</sup>",
-                            "value1": "310",
-                            "value2": "1120",
-                            "value3": "149",
-                            "value4": "0",
-                            "value5": "0",
-                            "value6": "120",
-                            "value7":"-",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            "value0": "Nonsovereign<sup>h</sup>",
-                            "value1": "2882",
-                            "value2": "3161",
-                            "value3": "3283",
-                            "value4": "1937",
-                            "value5": "158",
-                            "value6": "1753",
-                            "value7":"209",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
-                            "value1": "3039",
-                            "value2": "3992",
-                            "value3": "3693",
-                            "value4": "3272",
-                            "value5": "2496",
-                            "value6": "5790",
-                            "value7":"5765",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Long Term(maturity of 365 days or more)",
-                            "value1": "136",
-                            "value2": "134",
-                            "value3": "128",
-                            "value4": "171",
-                            "value5": "157",
-                            "value6": "218",
-                            "value7":"218"
-                        }   ,
-                        {
-                            
-                           "value0": "Short Term (maturity of less than 365 days)",
-                            "value1": "2903",
-                            "value2": "3857",
-                            "value3": "3565",
-                            "value4": "3101",
-                            "value5": "2339",
-                            "value6": "5572",
-                            "value7":"5547"
-                        },
-                        {
-                            
-                            "value0": "Transation Advisory Service",
-                            "value1": "-",
-                            "value2": "405",
-                            "value3": "113",
-                            "value4": "76",
-                            "value5": "-",
-                            "value6": "423",
-                            "value7":"-",
-                            "class": "title-row-bold"
-                        }
-                        
-                    ]
-                   
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "TOTAL COFINANCING"
-                      },
-                      {
-                        "title": "11896"
-                      },
-                      {
-                        "title": "14310"
-                      },
-                      {
-                        "title": "12512"
-                      },
-                      {
-                        "title": "16409"
-                      },
-                      {
-                        "title": "10841"
-                      },
-                      {
-                        "title": "12933"
-                      },
-                      {
-                        "title": "8881"
-                      }
-                ]
-               
-            }
-            
-            
-        ]
-    },
-
-    {
-        "type": "accordian-table",
-        "heading":"ADB Commitment by 2017-2021($million)",
-        "note":["Note: Numbers may not sum precisely because of rounding."],
-        "data": [
-            {
-                "type": "main-title",
-                "data": [
-                    [
-                       {
-                            "title": ""
-                          },
-                          {
-                            "title": "2017"
-                          },
-                          {
-                            "title": "2018"
-                          },
-                          {
-                            "title": "2019"
-                          },
-                          {
-                            "colspan":2,
-                            "title": "2020"
-                          },
-                          {
-                            "colspan":2,
-                            "title": "2021"
-                          }
-                    ],
-                    [
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ]
-                    
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Region"
-                      },
-                      {
-                        "title": "Total"
-                      },
-                      {
-                        "title": "Total"
-                      },
-                      {
-                        "title": "Total"
-                      },
-                      {
-                        "title": "Total",
-                        "class": "lightOrange-bg"
-                      },
-                      {
-                        "title": "COVID-19 Response"
-                      },
-                      {
-                        "title": "Total",
-                        "class": "lightOrange-bg"
-                      },
-                      {
-                        "title": "COVID-19 Response"
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Central and West Asia",
-                            "value1": "6067",
-                            "value2": "5700",
-                            "value3": "6111",
-                            "value4": "6565",
-                            "value5": "3964",
-                            "value6": "5193",
-                            "value7":"3276"
-                        },
-                        {
-                            "value0": "East Asia",
-                            "value1": "2810",
-                            "value2": "3162",
-                            "value3": "2663",
-                            "value4": "2893",
-                            "value5": "385",
-                            "value6": "2034",
-                            "value7":"478"
-                        },
-                        {
-                            "value0": "Pacific",
-                            "value1": "740",
-                            "value2": "369",
-                            "value3": "461",
-                            "value4": "1150",
-                            "value5": "671",
-                            "value6": "853",
-                            "value7":"317"
-                        },
-                        {
-                            
-                            "value0": "South Asia",
-                            "value1": "7238",
-                            "value2": "7623",
-                            "value3": "7307",
-                            "value4": "9034",
-                            "value5": "3983",
-                            "value6": "8819",
-                            "value7":"5409"
-                        },
-                        {
-                            
-                            "value0": "Southeast Asia",
-                            "value1": "4668",
-                            "value2": "7143",
-                            "value3": "7181",
-                            "value4": "11628",
-                            "value5": "7039",
-                            "value6": "5579",
-                            "value7":"3944"
-                        },
-                        {
-                            
-                            "value0": "Regional",
-                            "value1": "265",
-                            "value2": "523",
-                            "value3": "294",
-                            "value4": "310",
-                            "value5": "105",
-                            "value6": "282",
-                            "value7":"85"
-                        },
-                        {
-                            
-                            "value0": "Total",
-                            "value1": "21788",
-                            "value2": "24518",
-                            "value3": "24017",
-                            "value4": "31581",
-                            "value5": "16146",
-                            "value6": "22759",
-                            "value7":"13511"
-                        }
-                    ]
-                ]
-
-            }
-           
-            
-        ]
-    },
-
-    {
-        "type":"pieChart",
-      "data": {
-          "labels": ["Pacific", "Regional", "East Asia", "South East Asia", "Central and West Asia", "South Asia"],
-          "datasets": [
-              {
-                  "data": [4, 1, 9, 24, 23, 39],
-                  "backgroundColor": ["#d7de4d", "#298fbd", "#f8ed58", "#45d1f3", "#00b9c6","#96c75f"]
-              }
-          ]
-      },
-      "id": 1
-    },
-    {
-        "type":"pieChart",
-      "data": {
-          "labels": ["Pacific", "Regional", "East Asia", "South East Asia", "Central and West Asia", "South Asia"],
-          "datasets": [
-              {
-                  "data": [2, 1, 4, 29, 24, 40],
-                  "backgroundColor": ["#e89b92", "#fc4634", "#ffb03d","#ff793a","#ec7269","#e89b92"]
-                 
-
-              }
-          ]
-      },
-      "id": 2
-    },
-    {
-        "type": "accordian-table",
-        "heading":"ADB Commitments by Sector, 2017–2021 ($ million)",
-        "note":["Note: Numbers may not sum precisely because of rounding."],
-        "subHeading":"",
-        "data": [
-            {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ],
-                    [
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ]
-                    
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Sector"
-                      },
-                      {
-                        "title": "2017"
-                      },
-                      {
-                        "title": "2018"
-                      },
-                      {
-                        "title": "2019"
-                      },
-                      {
-                        "title": "2020"
-                      },
-                      {
-                        "title": "2021"
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Agriculture, Natural Resource",
-                            "value1": "1546",
-                            "value2": "2375",
-                            "value3": "2309",
-                            "value4": "1281",
-                            "value5": "1490"
-                        },
-                        {
-                            "value0": "Education",
-                            "value1": "723",
-                            "value2": "1643",
-                            "value3": "1138",
-                            "value4": "1066",
-                            "value5": "975"
-                        },
-                        {
-                            "value0": "Energy",
-                            "value1": "6230",
-                            "value2": "5095",
-                            "value3": "2660",
-                            "value4": "4292",
-                            "value5": "1837"                            
-                        },
-                        {
-                            
-                            "value0": "Finance",
-                            "value1": "3787",
-                            "value2": "3430",
-                            "value3": "3325",
-                            "value4": "4601",
-                            "value5": "4116"                            
-                        },
-                        {
-                            
-                            "value0": "Health",
-                            "value1": "219",
-                            "value2": "524",
-                            "value3": "644",
-                            "value4": "3512",
-                            "value5": "5882"                            
-                        },
-                        {
-                            
-                            "value0": "Industry and Trade",
-                            "value1": "1261",
-                            "value2": "1899",
-                            "value3": "1592",
-                            "value4": "2215",
-                            "value5": "716"                            
-                        },
-                        {
-                            
-                            "value0": "Information and Communication Technology",
-                            "value1": "73",
-                            "value2": "62",
-                            "value3": "579",
-                            "value4": "32",
-                            "value5": "55"                            
-                        },
-                        {
-                            
-                            "value0": "Multiselctor",
-                            "value1": "4",
-                            "value2": "5",
-                            "value3": "3",
-                            "value4": "12",
-                            "value5": "10"                            
-                        },
-                        {
-                            
-                            "value0": "Public Sector Management",
-                            "value1": "1293",
-                            "value2": "2307",
-                            "value3": "2985",
-                            "value4": "9561",
-                            "value5": "2294"                            
-                        },
-                        {
-                            
-                            "value0": "Transport",
-                            "value1": "5085",
-                            "value2": "4957",
-                            "value3": "7536",
-                            "value4": "3147",
-                            "value5": "3396"                            
-                        },
-                        {
-                            
-                            "value0": "Water and Other Urban",
-                            "value1": "1594",
-                            "value2": "2220",
-                            "value3": "1245",
-                            "value4": "1862",
-                            "value5": "1989"                            
-                        },
-                        {
-                            
-                            "value0": "Total",
-                            "value1": "21788",
-                            "value2": "24518",
-                            "value3": "24017",
-                            "value4": "31581",
-                            "value5": "22759"                            
-                        }
-                    ]
-                ]
-
-            }
-           
-            
-        ]
-    },
-
-    {
-        "heading":"ADB COMMITMENTS BY SECTOR, 2021 AND 2020",
-          "type":"stackedHorizontalChart",
-          "data":{
-             "barChartLabels": ["2006", "2007", "2008", "2009", "2010", "2011", "2012"],
-             "barChartType" :"horizontlBar",
-             "barChartLegend" : true,
-             "barChartPlugins": [],
-             "barChartData": [
-                { "data": [65, 59, 80, 81, 56, 55, 40], "label": "Series A" },
-                { "data": [28, 48, 40, 19, 86, 27, 90], "label": "Series B " }
-            ]
-          }
-          
-      },
-
-    {
-        "type":"investmentChart"
-    },
-    
+  {
+    "type": "accordian-table",
+    "heading": "OPERATIONAL HIGHLIGHTS",
+    "subHeading": "ADB Commitments,<sup>a </sup>2016-2020 &nbsp($million)",
+    "note": [
+      "– = nil, 0 = less than $500,000, ADB = Asian Development Bank, COVID-19 = coronavirus disease.<br> Notes: <br> 1.Beginning in 2020, commitments from ADB’s internal resources include private sector programs (the Trade and Supply Chain Finance Program and Microfinance Program). Inclusion of ADB’s exposure (or committed redeployed capital) under private sector programs fully reflects the total financing committed, while at the same time, ADB reports on cofinancing mobilized by these programs. Commitments under private sector programs will distinguish long-term and short-term financing.",
+      "2. Numbers may not sum precisely because of rounding.",
+      "<sup class='noteSup' >a</sup> Commitment is the financing approved by the ADB Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADB for which the signed amount is not readily available, the approved amount is used.",
+      "<sup class='noteSup'>b</sup> In August 2020, ADB’s Trade Finance Program and Supply Chain Finance Program merged their operations.",
+      "<sup class='noteSup' >c</sup> The 2019 and 2020 adjusted figures exclude $150,000 and $13 million under nonsovereign ADB financing, respectively, to reduce the trade finance component of the Trade and Supply Chain Finance Program amounts as finalized by the Private Sector Operations Department.",
+      "<sup class='noteSup' >d</sup> The trade finance component of the Trade and Supply Chain Finance Program represents 86% of this figure and supported 6,790 transactions during the reporting period, with an average maturity of 162 days.",
+      "<sup class='noteSup'>e</sup> Comprises funds other than the Asian Development Fund, such as the Asia Pacific Disaster Response Fund and the Climate Change Fund.",
+      "<sup class='noteSup' >f</sup>   This figure includes $6 million under sovereign cofinancing commitments for one project.",
+      "<sup class='noteSup'>g</sup> “Others” includes concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, corporate social responsibility programs, and civil society organizations) other than official development assistance sources.",
+      "<sup class='noteSup'>h</sup> Nonsovereign cofinancing includes commercial cofinancing such as B loans and parallel loans, among others. B loans are cofinancing arrangements involving the coordinated process of pooling funds from various sources for a single borrower or grant recipient and/or distributing related risks among such other financiers. The 2019 adjusted figure includes $65 million under nonsovereign cofinancing for two projects.",
+      "<sup class='noteSup'>i</sup> This figure includes $150,000 under nonsovereign cofinancing commitments to increase the trade finance component of the Trade and Supply Chain Finance Program amount as finalized by the Private Sector Operations Department."
+    ],
+    "data": [
       {
-        "type": "accordian-table",
-        "heading":"Portfolio,2016-2020 ($ million)",
-     "note":["Note: Numbers may not sum precisely because of rounding.","<sup class='noteSup'>a</sup>The 2020 figures differ from those in the 2020 Annual Report due to adjustments after year-end.","<sup class='noteSup'>b</sup>Sovereign portfolio consists of loans, grants, equity investments, and guarantees committed and not financially closed. Nonsovereign portfolio consists of (i) committed loan, other debt security and equity (carrying or fair value) portfolio, which includes the outstanding balances plus undisbursed balances; and (ii) the committed guarantee portfolio, which includes the outstanding balances on executed guarantees plus non-executed commitments.","<sup class='noteSup'>c</sup>Includes the Asian Development Fund and Other Special Funds grants.","<sup class='noteSup'>d</sup>Net Resources Transfer includes loans, other debt securities, equity investments, the Asian Development Fund, and Other Special Funds grants. Net Resources Transfer to developing member countries refers to the net amount of disbursements in excess of payments of principal, interest, and other charges."],
+        "type": "main-title",
         "data": [
-            { 
-                "type": "main-title",
-                "data": [
-                    [ 
-                        {
-                            "title": "Item"
-                          },
-                          {
-                            "title": ""
-                        },
-                         
-                          {
-                            "title": "2017"
-                          },
-                          {
-                            "title": "2018"
-                          },
-                          {
-                            "title": "2019"
-                          },
-                          {
-                            "title": "2020"
-                          },
-                          {
-                            "title": "2021"
-                          }
-                    ],
-                    [
-                        {
-                            "title": "A.Ongoing projects<sup>b</sup>"
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ]
-                    
-                ]
+          [
+            {
+              "title": ""
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "By Source"
-                      },                    
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                    },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Regular Ordinary Capital Resource",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            "value0": "Loans",
-                            "value1": "61442",
-                            "value2": "67731",
-                            "value3": "68289",
-                            "value4": "80161",
-                            "value5": "82860"
-                        }, {
-                            "value0": "Other Debt Securities",
-                            "value1": "237",
-                            "value2": "620",
-                            "value3": "929",
-                            "value4": "1034",
-                            "value5": "915"
-                        },
-                        
-                        {
-                            
-                            "value0": "Guarantees",
-                            "value1": "2114",
-                            "value2": "2049",
-                            "value3": "2202",
-                            "value4": "2703",
-                            "value5": "2795"
-                        },{
-                            "value0": "Equity Investment",
-                            "value1": "1538",
-                            "value2": "1699",
-                            "value3": "1975",
-                            "value4": "1799",
-                            "value5": "1940"
-                        },
-                        {
-                            
-                            "value0": "Consessional Resources",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            
-                            "value0": "Loans",
-                            "value1": "14336",
-                            "value2": "15504",
-                            "value3": "17872",
-                            "value4": "19966",
-                            "value5": "20049"
-                        },
-                        {
-                            
-                            "value0": "Grants",
-                            "value1": "4249",
-                            "value2": "5233",
-                            "value3": "5321",
-                            "value4": "5234",
-                            "value5": "5298"
-                        },
-                        {
-                            
-                            "value0": "Other Special Funds",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            
-                            "value0": "Grants",
-                            "value1": "10",
-                            "value2": "7",
-                            "value3": "4",
-                            "value4": "56",
-                            "value5": "42"
-                        }
-                    ]
-                   
-                ]
+              "title": "2017"
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "By Operations"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Sovergian ",
-                            "value1": "73084",
-                            "value2": "80428",
-                            "value3": "82808",
-                            "value4": "96616",
-                            "value5": "99850"
-                        },
-                        
-                        {
-                            
-                            "value0": "Nonsovereign",
-                            "value1": "10842",
-                            "value2": "12414",
-                            "value3": "13785",
-                            "value4": "14337",
-                            "value5": "14050"
-                        },
-                        
-                        {
-                            
-                            "value0": "Total",
-                            "value1": "83926",
-                            "value2": "92843",
-                            "value3": "96592",
-                            "value4": "110953",
-                            "value5": "113900",
-                            "class": "title-row-bold"
-                        }
-                        
-                    ]
-                   
-                ]
+              "title": "2018"
             },
             {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ],
-                    [
-                        {
-                            "title": "B.Disbursements"
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ]
-                ]
+              "title": "2019"
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "By Source"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Regular Ordinary Capital Resource",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            "value0": "Loans",
-                            "value1": "8717",
-                            "value2": "11475",
-                            "value3": "13148",
-                            "value4": "18891",
-                            "value5": "14726"
-                        },
-                        {
-                            "value0": "Equity Investments",
-                            "value1": "242",
-                            "value2": "143",
-                            "value3": "135",
-                            "value4": "86",
-                            "value5": "41"
-                        },{
-                            "value0": "Debt Securities",
-                            "value1": "75",
-                            "value2": "446",
-                            "value3": "161",
-                            "value4": "349",
-                            "value5": "43"
-                        },
-                        
-                        {
-                            
-                            "value0": "Concessional Resources",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },{
-                          "value0": "Loans",
-                          "value1": "1926",
-                          "value2": "1645",
-                          "value3": "2513",
-                          "value4": "3382",
-                          "value5": "2918"
-                        },                        
-                        {
-                            
-                            "value0": "Grants",
-                            "value1": "481",
-                            "value2": "476",
-                            "value3": "511",
-                            "value4": "824",
-                            "value5": "380"
-                        },
-                        {
-                            
-                            "value0": "Other Special Funds",
-                            "value1": "2",
-                            "value2": "2",
-                            "value3": "3",
-                            "value4": "53",
-                            "value5": "12"
-                        }                       
-                    ]
-                   
-                ]
+              "colspan": 2,
+              "title": "2020"
             },
             {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ]
-                ]
-            },
-            {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "By Operation"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                
-                "subData": [
-                    [
-                        {
-                            "value0": "Sovergion<sup>c</sup>",
-                            "value1": "10072",
-                            "value2": "12234",
-                            "value3": "14210",
-                            "value4": "21306",
-                            "value5": "16559"
-                        },
-                        {
-                            "value0": "Non-Sovergion",
-                            "value1": "1371",
-                            "value2": "1953",
-                            "value3": "2260",
-                            "value4": "2279",
-                            "value5": "1661"
-                        },
-                        {
-                          "value0": "Total",
-                          "value1": "11443",
-                          "value2": "14186",
-                          "value3": "16470",
-                          "value4": "23585",
-                          "value5": "18220",
-                          "class": "title-row-bold"
-                      }
-                       
-                    ]
-                   
-                ]
-            },
-            {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": ""
-                          },
-                          
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                          }
-                    ],
-                    [
-                        {
-                            "title": "C. Net Resources Transfer to Developing Member Countries<sup>d</sup>",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "3608",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "4622",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "5670",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "12058",
-                            "class": "lightOrange-bg"
-                        },
-                        {
-                            "title": "7924",
-                            "class": "lightOrange-bg"
-                        }
-                    ]
-                ]
+              "colspan": 2,
+              "title": "2021"
             }
-            
-            
-        ]
-        
-    },
-
-    {
-        "heading":"INTERNAL ADMINISTRATIVE EXPENSES PER 1$ MILLION DISBURSEMENT",
-        "type":"lineChart",
-        "data":[
+          ],
+          [
             {
-              "name": "$'000, Three-year average",
-              "series": [
-                  
-                {
-                  "name": "2017",
-                  "value": 49
-                },
-                {
-                  "name": "2018",
-                  "value": 50
-                },
-                {
-                  "name": "2019",
-                  "value": 50
-                },
-                {
-                    "name": "2020",
-                    "value": 39
-                  },
-                  {
-                    "name": "2021",
-                    "value": 38
-                  }
-              ]
+              "title": "Item"
+            },
+            {
+              "title": "Total"
+            },
+            {
+              "title": "Total"
+            },
+            {
+              "title": "Total"
+            },
+            {
+              "title": "Total",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "COVID-19 Response"
+            },
+            {
+              "title": "Total",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "COVID-19 Response"
             }
-          
+          ],
+          [
+            {
+              "title": "A.Loan,Grants,and other"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
           ]
+        ]
       },
-
-    {
-        "type": "accordian-table",
-        "note":["a.Staff refers to all international staff, board staff (i.e., Director's Advisors), national staff, and administrative staff. The figures exclude Management, Board of Directors, and Secondees.","b. Includes staff in outposted positions and in ADB's Philippines Country Office."],
-        "heading":"Institutional Highlight",
-        "data": [
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Source",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "lightOrange-bg"
+          },
+          {
+            "title": "",
+            "class": "lightOrange-bg"
+          },
+          {
+            "title": "",
+            "class": "lightOrange-bg"
+          }
+        ],
+        "subData": [
+          [
             {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": "Item"
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ],
-                    [
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": "2017"
-                        },
-                        {
-                            "title": "2018"
-                        },
-                        {
-                            "title": "2019"
-                        },
-                        {
-                            "title": "2020"
-                        },
-                        {
-                            "title": "2021"
-                        }
-                    ]
-                    
-                ]
+              "value0": "Regular Ordinary Capital Resource",
+              "value1": "17230",
+              "value2": "16286",
+              "value3": "17155",
+              "value4": "22723",
+              "value5": "11677",
+              "value6": "16459",
+              "value7": "8307",
+              "class": "title-row-normal"
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "A.Staff"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Satff<sup>a</sup>(number)",
-                            "value1": "3085",
-                            "value2": "3127",
-                            "value3": "3374",
-                            "value4": "3646",
-                            "value5": "3687",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            "value0": "International Staff and Board staff",
-                            "value1": "1103",
-                            "value2": "1316",
-                            "value3": "1242",
-                            "value4": "1317",
-                            "value5": "1337"
-                        },
-                        {
-                            "value0": "National and Administrative Staff",
-                            "value1": "1982",
-                            "value2": "1991",
-                            "value3": "2132",
-                            "value4": "2329",
-                            "value5": "2350"
-                        },
-                        {
-                            
-                            "value0": "National Staff",
-                            "value1": "762",
-                            "value2": "790",
-                            "value3": "876",
-                            "value4": "990",
-                            "value5": "1030"
-                        },
-                        {
-                            
-                            "value0": "Administrative staff",
-                            "value1": "1220",
-                            "value2": "1201",
-                            "value3": "1256",
-                            "value4": "1339",
-                            "value5": "1320"
-                        },
-                        {
-                            
-                            "value0": "International Staff and Board Staff Location <sup>a</sup> (number)",
-                            "value1": "1103",
-                            "value2": "1136",
-                            "value3": "1242",
-                            "value4": "1317",
-                            "value5": "1337",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Resident Mission<sup>b</sup>",
-                            "value1": "160",
-                            "value2": "182",
-                            "value3": "194",
-                            "value4": "198",
-                            "value5": "186"
-                        },
-                        {
-                            
-                            "value0": "Headquaters",
-                            "value1": "943",
-                            "value2": "954",
-                            "value3": "1048",
-                            "value4": "1119",
-                            "value5": "1151"
-                        },
-                        {
-                            
-                            "value0": "International Staff and Board Staff Gender<sup>a</sup> (number) ",
-                            "value1": "1103",
-                            "value2": "1136",
-                            "value3": "1242",
-                            "value4": "1317",
-                            "value5": "1337",
-                            "class": "title-row-bold"
-                        },
-                        {
-                            
-                            "value0": "Male",
-                            "value1": "728",
-                            "value2": "736",
-                            "value3": "791",
-                            "value4": "820",
-                            "value5": "830"
-                        },
-                        {
-                            
-                            "value0": "Female",
-                            "value1": "375",
-                            "value2": "400",
-                            "value3": "451",
-                            "value4": "497",
-                            "value5": "507"
-                        }
-
-                    ]
-                ]
-
+              "value0": "Loan",
+              "value1": "16445",
+              "value2": "16012",
+              "value3": "16824",
+              "value4": "22468",
+              "value5": "11677",
+              "value6": "16195",
+              "value7": "8307"
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "B.International Adminsitrative Bugdet($'000)"
-                      }, {
-                        "title": ""
-                      },
-                      {
-                        "title": "646988"
-                      },
-                      {
-                        "title": "672264"
-                      },
-                      {
-                        "title": "690488"
-                      },
-                      {
-                        "title": "726718"
-                      },
-                      {
-                        "title": "771188"
-                      }
-                      
-                ]
-               
+              "value0": "Equity Investment",
+              "value1": "287",
+              "value2": "274",
+              "value3": "155",
+              "value4": "255",
+              "value5": "-",
+              "value6": "265",
+              "value7": "-"
+            },
+            {
+              "value0": "Guarantees",
+              "value1": "498",
+              "value2": "-",
+              "value3": "175",
+              "value4": "-",
+              "value5": "-",
+              "value6": "-",
+              "value7": "-"
+            },
+            {
+              "value0": "Consessional Resources",
+              "value1": "2457",
+              "value2": "5290",
+              "value3": "4488",
+              "value4": "5449",
+              "value5": "1861",
+              "value6": "2993",
+              "value7": "2124",
+              "class": "title-row-normal"
+            },
+            {
+              "value0": "Consessional Ordinary Capital Resources Loans",
+              "value1": "2267",
+              "value2": "3872",
+              "value3": "3644",
+              "value4": "4432",
+              "value5": "1466",
+              "value6": "2648",
+              "value7": "1998"
+            },
+            {
+              "value0": "Assian Development Fund Grants",
+              "value1": "191",
+              "value2": "1418",
+              "value3": "844",
+              "value4": "1017",
+              "value5": "395",
+              "value6": "344",
+              "value7": "126"
+            },
+            {
+              "value0": "Regular Ordinary Capital and Concessional ResourcesS",
+              "value1": "19687",
+              "value2": "21576",
+              "value3": "21643",
+              "value4": "28172",
+              "value5": "13538",
+              "value6": "19452",
+              "value7": "10430",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Trade and Supply Chain Finance Program and Microfinance Program<sup>b</sup>",
+              "value1": "1897",
+              "value2": "2696",
+              "value3": "2136<sup>c<sup>",
+              "value4": "3069",
+              "value5": "2419",
+              "value6": "3072",
+              "value7": "3047",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Long Term(maturity of 365 days or more)",
+              "value1": "98",
+              "value2": "61",
+              "value3": "102",
+              "value4": "151",
+              "value5": "125",
+              "value6": "221",
+              "value7": "221"
+            },
+            {
+              "value0": "Short Term(maturity of less than 365 days)",
+              "value1": "1800",
+              "value2": "2634",
+              "value3": "2034",
+              "value4": "2918",
+              "value5": "2294",
+              "value6": "2851",
+              "value7": "2826"
+            },
+            {
+              "value0": "Regular Ordinary Capital and Concessional Resources with Trade Finance ,Supply Chain Finance and Microfinance Program",
+              "value1": "21585",
+              "value2": "24271",
+              "value3": "23779",
+              "value4": "31288",
+              "value5": "15957",
+              "value6": "22524",
+              "value7": "13478",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Special  Funds<sup>c</sup>",
+              "value1": "2",
+              "value2": "6",
+              "value3": "-",
+              "value4": "60",
+              "value5": "55",
+              "value6": "5",
+              "value7": "3",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Grants",
+              "value1": "2",
+              "value2": "6",
+              "value3": "-",
+              "value4": "60",
+              "value5": "55",
+              "value6": "5",
+              "value7": "7"
+            },
+            {
+              "value0": "Subtotal(A)",
+              "value1": "21587",
+              "value2": "24277",
+              "value3": "23779",
+              "value4": "31300",
+              "value5": "16013",
+              "value6": "22529",
+              "value7": "13481",
+              "class": "subTotal"
             }
-           
-            
+          ]
         ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Operations"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Sovergian ",
+              "value1": "17403",
+              "value2": "18446",
+              "value3": "18643",
+              "value4": "26826",
+              "value5": "13152",
+              "value6": "18272",
+              "value7": "10176",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Loans",
+              "value1": "16712",
+              "value2": "17022",
+              "value3": "17799",
+              "value4": "25749",
+              "value5": "12701",
+              "value6": "17922",
+              "value7": "10047"
+            },
+            {
+              "value0": "Gurantees",
+              "value1": "498",
+              "value2": "-",
+              "value3": "-",
+              "value4": "-",
+              "value5": "-",
+              "value6": "-",
+              "value7": "-"
+            },
+            {
+              "value0": "Grants",
+              "value1": "193",
+              "value2": "1423",
+              "value3": "844",
+              "value4": "1077",
+              "value5": "450",
+              "value6": "349",
+              "value7": "129"
+            },
+            {
+              "value0": "Nonsovereign",
+              "value1": "2287",
+              "value2": "3136",
+              "value3": "3000",
+              "value4": "1406",
+              "value5": "442",
+              "value6": "1186",
+              "value7": "257",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Loans",
+              "value1": "2000",
+              "value2": "2862",
+              "value3": "2670",
+              "value4": "1151",
+              "value5": "442",
+              "value6": "921",
+              "value7": "257"
+            },
+            {
+              "value0": "Equity Investments",
+              "value1": "287",
+              "value2": "274",
+              "value3": "155",
+              "value4": "255",
+              "value5": "-",
+              "value6": "265",
+              "value7": "-"
+            },
+            {
+              "value0": "Guarantees",
+              "value1": "-",
+              "value2": "-",
+              "value3": "175",
+              "value4": "-",
+              "value5": "-",
+              "value6": "-",
+              "value7": "-"
+            },
+            {
+              "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
+              "value1": "1897",
+              "value2": "2696",
+              "value3": "2136",
+              "value4": "3056",
+              "value5": "2419",
+              "value6": "3072",
+              "value7": "3047",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Long term (maturity of 365 days or more)",
+              "value1": "98",
+              "value2": "61",
+              "value3": "102",
+              "value4": "151",
+              "value5": "125",
+              "value6": "221",
+              "value7": "221"
+            },
+            {
+              "value0": "Short term (maturity of less than 365 days)",
+              "value1": "1800",
+              "value2": "2634",
+              "value3": "2034",
+              "value4": "2904",
+              "value5": "2294",
+              "value6": "2851",
+              "value7": "2826"
+            },
+            {
+              "value0": "Subtotal(A)",
+              "value1": "21587",
+              "value3": "24277",
+              "value4": "23779",
+              "value2": "31287",
+              "value5": "16146",
+              "value6": "22759",
+              "value7": "13511",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "B.Technical Assistance"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Sovereigon",
+              "value1": "192",
+              "value2": "227",
+              "value3": "221",
+              "value4": "282",
+              "value5": "128",
+              "value6": "209",
+              "value7": "23"
+            },
+            {
+              "value0": "Nonsoveregion",
+              "value1": "9",
+              "value2": "14",
+              "value3": "17",
+              "value4": "12",
+              "value5": "6",
+              "value6": "21",
+              "value7": "7"
+            },
+            {
+              "value0": "Subtotal(B)",
+              "value1": "201",
+              "value2": "241",
+              "value3": "237",
+              "value4": "294",
+              "value5": "134",
+              "value6": "230",
+              "value7": "30",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "TOTAL ADB OPERATIONS(A + B)"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "ADB Operations without Trade and Supply Chain Finance Program <sup>b</sup> and Microfinance Program",
+              "value1": "19890",
+              "value2": "21823",
+              "value3": "21880",
+              "value4": "28525",
+              "value5": "13727",
+              "value6": "19687",
+              "value7": "10463"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "C. Cofinancing Including Trust Funds"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Sovergian",
+              "value1": "5976",
+              "value2": "6753",
+              "value3": "5424",
+              "value4": "11123",
+              "value5": "8187",
+              "value6": "4967",
+              "value7": "2907",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Trust Funds Administered by ADB",
+              "value1": "86",
+              "value2": "216",
+              "value3": "181",
+              "value4": "288",
+              "value5": "18",
+              "value6": "116",
+              "value7": "46"
+            },
+            {
+              "value0": "Bilateral",
+              "value1": "3460",
+              "value2": "2113",
+              "value3": "3714",
+              "value4": "4554",
+              "value5": "3319",
+              "value6": "2051",
+              "value7": "1360"
+            },
+            {
+              "value0": "Multilateral",
+              "value1": "2120",
+              "value2": "3304",
+              "value3": "1380",
+              "value4": "6281",
+              "value5": "4850",
+              "value6": "2680",
+              "value7": "1501"
+            },
+            {
+              "value0": "Others<sup>g</sup>",
+              "value1": "310",
+              "value2": "1120",
+              "value3": "149",
+              "value4": "0",
+              "value5": "0",
+              "value6": "120",
+              "value7": "-",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Nonsovereign<sup>h</sup>",
+              "value1": "2882",
+              "value2": "3161",
+              "value3": "3283",
+              "value4": "1937",
+              "value5": "158",
+              "value6": "1753",
+              "value7": "209",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>b</sup>",
+              "value1": "3039",
+              "value2": "3992",
+              "value3": "3693",
+              "value4": "3272",
+              "value5": "2496",
+              "value6": "5790",
+              "value7": "5765",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Long Term(maturity of 365 days or more)",
+              "value1": "136",
+              "value2": "134",
+              "value3": "128",
+              "value4": "171",
+              "value5": "157",
+              "value6": "218",
+              "value7": "218"
+            },
+            {
+              "value0": "Short Term (maturity of less than 365 days)",
+              "value1": "2903",
+              "value2": "3857",
+              "value3": "3565",
+              "value4": "3101",
+              "value5": "2339",
+              "value6": "5572",
+              "value7": "5547"
+            },
+            {
+              "value0": "Transation Advisory Service",
+              "value1": "-",
+              "value2": "405",
+              "value3": "113",
+              "value4": "76",
+              "value5": "-",
+              "value6": "423",
+              "value7": "-",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "TOTAL COFINANCING"
+          },
+          {
+            "title": "11896"
+          },
+          {
+            "title": "14310"
+          },
+          {
+            "title": "12512"
+          },
+          {
+            "title": "16409"
+          },
+          {
+            "title": "10841"
+          },
+          {
+            "title": "12933"
+          },
+          {
+            "title": "8881"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "accordian-table",
+    "heading": "ADB Commitment by 2017-2021($million)",
+    "note": [
+      "Note: Numbers may not sum precisely because of rounding."
+    ],
+    "data": [
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": "2017"
+            },
+            {
+              "title": "2018"
+            },
+            {
+              "title": "2019"
+            },
+            {
+              "colspan": 2,
+              "title": "2020"
+            },
+            {
+              "colspan": 2,
+              "title": "2021"
+            }
+          ],
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Region"
+          },
+          {
+            "title": "Total"
+          },
+          {
+            "title": "Total"
+          },
+          {
+            "title": "Total"
+          },
+          {
+            "title": "Total",
+            "class": "lightOrange-bg"
+          },
+          {
+            "title": "COVID-19 Response"
+          },
+          {
+            "title": "Total",
+            "class": "lightOrange-bg"
+          },
+          {
+            "title": "COVID-19 Response"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Central and West Asia",
+              "value1": "6067",
+              "value2": "5700",
+              "value3": "6111",
+              "value4": "6565",
+              "value5": "3964",
+              "value6": "5193",
+              "value7": "3276"
+            },
+            {
+              "value0": "East Asia",
+              "value1": "2810",
+              "value2": "3162",
+              "value3": "2663",
+              "value4": "2893",
+              "value5": "385",
+              "value6": "2034",
+              "value7": "478"
+            },
+            {
+              "value0": "Pacific",
+              "value1": "740",
+              "value2": "369",
+              "value3": "461",
+              "value4": "1150",
+              "value5": "671",
+              "value6": "853",
+              "value7": "317"
+            },
+            {
+              "value0": "South Asia",
+              "value1": "7238",
+              "value2": "7623",
+              "value3": "7307",
+              "value4": "9034",
+              "value5": "3983",
+              "value6": "8819",
+              "value7": "5409"
+            },
+            {
+              "value0": "Southeast Asia",
+              "value1": "4668",
+              "value2": "7143",
+              "value3": "7181",
+              "value4": "11628",
+              "value5": "7039",
+              "value6": "5579",
+              "value7": "3944"
+            },
+            {
+              "value0": "Regional",
+              "value1": "265",
+              "value2": "523",
+              "value3": "294",
+              "value4": "310",
+              "value5": "105",
+              "value6": "282",
+              "value7": "85"
+            },
+            {
+              "value0": "Total",
+              "value1": "21788",
+              "value2": "24518",
+              "value3": "24017",
+              "value4": "31581",
+              "value5": "16146",
+              "value6": "22759",
+              "value7": "13511"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "type": "pieChart",
+    "data": {
+      "labels": [
+        "Pacific",
+        "Regional",
+        "East Asia",
+        "South East Asia",
+        "Central and West Asia",
+        "South Asia"
+      ],
+      "datasets": [
+        {
+          "data": [
+            4,
+            1,
+            9,
+            24,
+            23,
+            39
+          ],
+          "backgroundColor": [
+            "#d7de4d",
+            "#298fbd",
+            "#f8ed58",
+            "#45d1f3",
+            "#00b9c6",
+            "#96c75f"
+          ]
+        }
+      ]
     },
-    {
-        "type": "accordian-table",
-        "heading":"ADB RESOURCES AND FINANCIAL DATA ($ million)",
-        "note":["( ) = negative value, ADF = Asian Development Fund.<br>","Note: Numbers may not sum precisely because of rounding.<br>","<sup class='noteSup' >a</sup> Includes accrued interest and commission, unamortized premium, and/or discounts.","<sup class='noteSup' >b</sup> As of 31 December 2021, authorized and subscribed capital amounted to $148,903 million.","<sup class='noteSup' >c</sup> Reserves include ordinary reserve, special reserve, loan loss reserve, surplus, net income after appropriation, nonnegotiable, noninterest- bearing demand obligations and receivables on account of subscribed capital, net notional amounts required to maintain the value of currency holdings, cumulative revaluation adjustment, and accumulated other comprehensive income or loss. Reserves include the one-time income from ADF asset transfer on 1 January 2017","<sup class='noteSup' >d</sup> The 2017 Net Income refers to net income after allocation of one-time income from ADF asset transfer to Ordinary Reserve.","<sup class='noteSup' >e</sup> Allocable net income is defined as net income after appropriation of guarantee fees to special reserve and certain adjustments set aside in the cumulative revaluation adjustments account. This is the amount that ADB may, subject to approval by the Board of Governors, annually allocate to reserves and surplus, and transfers to Special Funds.","<sup class='noteSup' >f</sup> The 2021 net income allocation is subject to the approval of the Board of Governors at the ADB Annual Meeting in 2022.","<sup class='noteSup' >g</sup> Excludes short-term borrowings.","<sup class='noteSup' >h</sup> Local Currency Funding includes bond, swaps, and repo.","<sup class='noteSup' >i</sup> The capital utilization ratio is the ratio of total economic capital used (numerator) to equity (denominator). The new capital adequacy framework was applied in the capital utilization ratios from 2019 to 2021.","<sup class='noteSup' >j</sup> Includes the total fund balance and nonnegotiable, noninterest-bearing demand obligations on account of contributions.","<sup class='noteSup' >k</sup> The Japan Special Fund (JSF) resources include the Asian Currency Crisis Support Facility (ACCSF). In 2021, the ACCSF’s account was closed after transferring ACCSF’s residual balance to JSF."],
+    "id": 1
+  },
+  {
+    "type": "pieChart",
+    "data": {
+      "labels": [
+        "Pacific",
+        "Regional",
+        "East Asia",
+        "South East Asia",
+        "Central and West Asia",
+        "South Asia"
+      ],
+      "datasets": [
+        {
+          "data": [
+            2,
+            1,
+            4,
+            29,
+            24,
+            40
+          ],
+          "backgroundColor": [
+            "#e89b92",
+            "#fc4634",
+            "#ffb03d",
+            "#ff793a",
+            "#ec7269",
+            "#e89b92"
+          ]
+        }
+      ]
+    },
+    "id": 2
+  },
+  {
+    "type": "accordian-table",
+    "heading": "ADB Commitments by Sector, 2017–2021 ($ million)",
+    "note": [
+      "Note: Numbers may not sum precisely because of rounding."
+    ],
+    "subHeading": "",
+    "data": [
+      {
+        "type": "main-title",
         "data": [
+          [
             {
-                "type": "main-title",
-                "data": [
-                    [
-                        {
-                            "title": "Item"
-                          },
-                          {
-                            "title": ""
-                          },
-                          {
-                            "title": "2017"
-                        },                        {
-                            "title": "2018"
-                        },
-                        {
-                            "title": "2019"
-                        },
-                        {
-                            "title": "2020"
-                        },
-                        {
-                            "title": "2021"
-                        }
-                    ],
-                    [
-                        {
-                            "title": "Ordinary Capital Resources"
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        },
-                        {
-                            "title": ""
-                        }
-                    ]
-                    
-                ]
+              "title": ""
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Selected Balance Sheet Data"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Total Assets",
-                            "value1": "182381",
-                            "value2": "191860",
-                            "value3": "221866",
-                            "value4": "271741",
-                            "value5": "282084"
-                        },
-                        {
-                            "value0": "of which",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            "value0": "Loans Outstanding - Operations",
-                            "value1": "101008",
-                            "value2": "106405",
-                            "value3": "114389",
-                            "value4": "129788",
-                            "value5": "137163"
-                        },
-                        {
-                            "value0": "Investments for Liquidity Purpose",
-                            "value1": "36478",
-                            "value2": "35215",
-                            "value3": "39312",
-                            "value4": "41963",
-                            "value5": "43287"
-                        },
-                        {
-                            
-                            "value0": "Equity Investments - Operations",
-                            "value1": "1185",
-                            "value2": "1280",
-                            "value3": "1619",
-                            "value4": "1289",
-                            "value5": "1322"
-                        },
-                        {
-                            
-                            "value0": "Derivative Assets",
-                            "value1": "40761",
-                            "value2": "45500",
-                            "value3": "62619",
-                            "value4": "87778",
-                            "value5": "92860"
-                        },
-                        {
-                            
-                            "value0": "Total Liabilties",
-                            "value1": "132112",
-                            "value2": "140876",
-                            "value3": "169948",
-                            "value4": "219104",
-                            "value5": "229229"
-                        },
-                        {
-                            
-                            "value0": "of which",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            
-                            "value0": "Total Equity<sup>b</sup>",
-                            "value1": "50269",
-                            "value2": "50984",
-                            "value3": "51918",
-                            "value4": "52637",
-                            "value5": "52855"
-                        },
-                        {
-                            
-                            "value0": "of which",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            
-                            "value0": "Paid-in capital",
-                            "value1": "7002",
-                            "value2": "7029",
-                            "value3": "7175",
-                            "value4": "7566",
-                            "value5": "7381"
-                        }, 
-                        {
-                            
-                            "value0": "Reserves<sup>c</sup>",
-                            "value1": "43267",
-                            "value2": "43955",
-                            "value3": "44743",
-                            "value4": "45071",
-                            "value5": "45474"
-                        }
-                        
-
-                    ]
-                ]
-
+              "title": ""
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Income Statement Data"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Total Revenue",
-                            "value1": "2625",
-                            "value2": "3741",
-                            "value3": "4265",
-                            "value4": "3072",
-                            "value5": "2399"
-                        },
-                        {
-                            "value0": "Total Expense",
-                            "value1": "(1869)",
-                            "value2": "(2883)",
-                            "value3": "(3173)",
-                            "value4": "(2158)",
-                            "value5": "(1227)"
-                        },
-                        {
-                            
-                            "value0": "of which",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            "value0": "Borrowing and Related Expenses",
-                            "value1": "(1247)",
-                            "value2": "(2159)",
-                            "value3": "(2530)",
-                            "value4": "(1351)",
-                            "value5": "(460)"
-                        },
-                        {
-                            
-                            "value0": "Administrative expense",
-                            "value1": "(587)",
-                            "value2": "(591)",
-                            "value3": "(598)",
-                            "value4": "(669)",
-                            "value5": "(819)"
-                        },
-                        {
-                            
-                            "value0": "Net Realized Gains (Losses)",
-                            "value1": "9",
-                            "value2": "22",
-                            "value3": "28",
-                            "value4": "230",
-                            "value5": "159"
-                        },
-                        {
-                            
-                            "value0": "Net Unrealized Gains (Losses)",
-                            "value1": "9",
-                            "value2": "(130)",
-                            "value3": "434",
-                            "value4": "228",
-                            "value5": "(601)"
-                        },
-                        {
-                            
-                            "value0": "Net Income",
-                            "value1": "744<sup>d</sup>",
-                            "value2": "750",
-                            "value3": "1554",
-                            "value4": "1372",
-                            "value5": "730"
-                        },
-                        {
-                            
-                            "value0": "Allocable Net Income<sup>e</sup>",
-                            "value1": "690",
-                            "value2": "841",
-                            "value3": "1069",
-                            "value4": "1312",
-                            "value5": "1161<sup>f</sup>"
-                        },
-                        {
-                            
-                            "value0": "Allocation to Ordinary Reserve",
-                            "value1": "351",
-                            "value2": "499",
-                            "value3": "616",
-                            "value4": "734",
-                            "value5": "778"
-                        },
-                        {
-                            
-                            "value0": "Allocation to ADF",
-                            "value1": "259",
-                            "value2": "259",
-                            "value3": "259",
-                            "value4": "292",
-                            "value5": "292"
-                        },
-                        {
-                            
-                            "value0": "Allocation To Other Special Funds",
-                            "value1": "80",
-                            "value2": "83",
-                            "value3": "194",
-                            "value4": "105",
-                            "value5": "90"
-                        }
-
-                    ]
-                ]
-               
+              "title": ""
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    
-                      
-                    {
-                        "title": "Annual Borrowings<sup>g</sup>"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": "28593"
-                      },
-                      {
-                        "title": "23538"
-                      },
-                      {
-                        "title": "24613"
-                      },
-                      {
-                        "title": "35765"
-                      },
-                      {
-                        "title": "35761"
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "of which",
-                            "value1": "",
-                            "value2": "",
-                            "value3": "",
-                            "value4": "",
-                            "value5": ""
-                        },
-                        {
-                            "value0": "Thematic Bonds",
-                            "value1": "1662",
-                            "value2": "1822",
-                            "value3": "2657",
-                            "value4": "1224",
-                            "value5": "5087"
-                        },
-                        {
-                            "value0": "Local Currency Funding<sup>h</sup>",
-                            "value1": "744",
-                            "value2": "535",
-                            "value3": "764",
-                            "value4": "930",
-                            "value5": "880"
-                        },
-                        {
-                            "value0": "Capital Utilization Ratio(%)<sup>i</sup>",
-                            "value1": "56.0",
-                            "value2": "54.6",
-                            "value3": "62.1",
-                            "value4": "69.1",
-                            "value5": "74.0",
-                            "class":"title-row-bold"
-                        }
-                        
-
-                    ]
-                ]
-               
+              "title": ""
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Available Resources of Asian Development Fund Resources<sup>j</sup>"
-                      },
-
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": "2067"
-                      },
-                      {
-                        "title": "1956"
-                      },
-                      {
-                        "title": "2498"
-                      },
-                      {
-                        "title": "2312"
-                      },
-                      {
-                        "title": "2322"
-                      }
-                ]
-               
+              "title": ""
             },
             {
-                "type": "expansion-panel",
-                "subTitle": [
-                    {
-                        "title": "Special Fund Resource(Other than ADF)-Uncommited Balances"
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      },
-                      {
-                        "title": ""
-                      }
-                ],
-                "subData": [
-                    [
-                        {
-                            "value0": "Technical Assistance Special Fund",
-                            "value1": "400",
-                            "value2": "304",
-                            "value3": "196",
-                            "value4": "87",
-                            "value5": "464"
-                        },
-                        {
-                            "value0": "Japan Special Fund<sup>k</sup>",
-                            "value1": "107",
-                            "value2": "109",
-                            "value3": "112",
-                            "value4": "112",
-                            "value5": "112"
-                        },
-                        {
-                            "value0": "ADB Institue",
-                            "value1": "12",
-                            "value2": "16",
-                            "value3": "19",
-                            "value4": "24",
-                            "value5": "26"
-                        },
-                        {
-                            "value0": "Regional Cooperation and Integrated Fund",
-                            "value1": "14",
-                            "value2": "10",
-                            "value3": "5",
-                            "value4": "25",
-                            "value5": "12"
-                        },
-                        {
-                            "value0": "Climate Change Fund",
-                            "value1": "20",
-                            "value2": "18",
-                            "value3": "10",
-                            "value4": "27",
-                            "value5": "20"
-                        },
-                        {
-                            "value0": "Asia Pacific Disaster Response Fund",
-                            "value1": "26",
-                            "value2": "21",
-                            "value3": "21",
-                            "value4": "47",
-                            "value5": "56"
-                        },
-                        {
-                            "value0": "Financial Sector Development Partnership",
-                            "value1": "5",
-                            "value2": "4",
-                            "value3": "5",
-                            "value4": "3",
-                            "value5": "3"
-                        },
-                        {
-                            "value0": "Total",
-                            "value1": "584",
-                            "value2": "482",
-                            "value3": "368",
-                            "value4": "325",
-                            "value5": "694",
-                            "class":"title-row-bold"
-                        }
-
-
-                    ]
-                ]
-               
+              "title": ""
             }
-           
-            
+          ],
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
         ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Sector"
+          },
+          {
+            "title": "2017"
+          },
+          {
+            "title": "2018"
+          },
+          {
+            "title": "2019"
+          },
+          {
+            "title": "2020"
+          },
+          {
+            "title": "2021"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Agriculture, Natural Resource",
+              "value1": "1546",
+              "value2": "2375",
+              "value3": "2309",
+              "value4": "1281",
+              "value5": "1490"
+            },
+            {
+              "value0": "Education",
+              "value1": "723",
+              "value2": "1643",
+              "value3": "1138",
+              "value4": "1066",
+              "value5": "975"
+            },
+            {
+              "value0": "Energy",
+              "value1": "6230",
+              "value2": "5095",
+              "value3": "2660",
+              "value4": "4292",
+              "value5": "1837"
+            },
+            {
+              "value0": "Finance",
+              "value1": "3787",
+              "value2": "3430",
+              "value3": "3325",
+              "value4": "4601",
+              "value5": "4116"
+            },
+            {
+              "value0": "Health",
+              "value1": "219",
+              "value2": "524",
+              "value3": "644",
+              "value4": "3512",
+              "value5": "5882"
+            },
+            {
+              "value0": "Industry and Trade",
+              "value1": "1261",
+              "value2": "1899",
+              "value3": "1592",
+              "value4": "2215",
+              "value5": "716"
+            },
+            {
+              "value0": "Information and Communication Technology",
+              "value1": "73",
+              "value2": "62",
+              "value3": "579",
+              "value4": "32",
+              "value5": "55"
+            },
+            {
+              "value0": "Multiselctor",
+              "value1": "4",
+              "value2": "5",
+              "value3": "3",
+              "value4": "12",
+              "value5": "10"
+            },
+            {
+              "value0": "Public Sector Management",
+              "value1": "1293",
+              "value2": "2307",
+              "value3": "2985",
+              "value4": "9561",
+              "value5": "2294"
+            },
+            {
+              "value0": "Transport",
+              "value1": "5085",
+              "value2": "4957",
+              "value3": "7536",
+              "value4": "3147",
+              "value5": "3396"
+            },
+            {
+              "value0": "Water and Other Urban",
+              "value1": "1594",
+              "value2": "2220",
+              "value3": "1245",
+              "value4": "1862",
+              "value5": "1989"
+            },
+            {
+              "value0": "Total",
+              "value1": "21788",
+              "value2": "24518",
+              "value3": "24017",
+              "value4": "31581",
+              "value5": "22759"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "ADB COMMITMENTS BY SECTOR, 2021 AND 2020",
+    "type": "stackedHorizontalChart",
+    "data": {
+      "barChartLabels": [
+        "2006",
+        "2007",
+        "2008",
+        "2009",
+        "2010",
+        "2011",
+        "2012"
+      ],
+      "barChartType": "horizontlBar",
+      "barChartLegend": true,
+      "barChartPlugins": [],
+      "barChartData": [
+        {
+          "data": [
+            65,
+            59,
+            80,
+            81,
+            56,
+            55,
+            40
+          ],
+          "label": "Series A"
+        },
+        {
+          "data": [
+            28,
+            48,
+            40,
+            19,
+            86,
+            27,
+            90
+          ],
+          "label": "Series B "
+        }
+      ]
     }
+  },
+  {
+    "type": "investmentChart"
+  },
+  {
+    "type": "accordian-table",
+    "heading": "Portfolio,2016-2020 ($ million)",
+    "note": [
+      "Note: Numbers may not sum precisely because of rounding.",
+      "<sup class='noteSup'>a</sup>The 2020 figures differ from those in the 2020 Annual Report due to adjustments after year-end.",
+      "<sup class='noteSup'>b</sup>Sovereign portfolio consists of loans, grants, equity investments, and guarantees committed and not financially closed. Nonsovereign portfolio consists of (i) committed loan, other debt security and equity (carrying or fair value) portfolio, which includes the outstanding balances plus undisbursed balances; and (ii) the committed guarantee portfolio, which includes the outstanding balances on executed guarantees plus non-executed commitments.",
+      "<sup class='noteSup'>c</sup>Includes the Asian Development Fund and Other Special Funds grants.",
+      "<sup class='noteSup'>d</sup>Net Resources Transfer includes loans, other debt securities, equity investments, the Asian Development Fund, and Other Special Funds grants. Net Resources Transfer to developing member countries refers to the net amount of disbursements in excess of payments of principal, interest, and other charges."
+    ],
+    "data": [
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": "Item"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": "2017"
+            },
+            {
+              "title": "2018"
+            },
+            {
+              "title": "2019"
+            },
+            {
+              "title": "2020"
+            },
+            {
+              "title": "2021"
+            }
+          ],
+          [
+            {
+              "title": "A.Ongoing projects<sup>b</sup>"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Source"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Regular Ordinary Capital Resource",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Loans",
+              "value1": "61442",
+              "value2": "67731",
+              "value3": "68289",
+              "value4": "80161",
+              "value5": "82860"
+            },
+            {
+              "value0": "Other Debt Securities",
+              "value1": "237",
+              "value2": "620",
+              "value3": "929",
+              "value4": "1034",
+              "value5": "915"
+            },
+            {
+              "value0": "Guarantees",
+              "value1": "2114",
+              "value2": "2049",
+              "value3": "2202",
+              "value4": "2703",
+              "value5": "2795"
+            },
+            {
+              "value0": "Equity Investment",
+              "value1": "1538",
+              "value2": "1699",
+              "value3": "1975",
+              "value4": "1799",
+              "value5": "1940"
+            },
+            {
+              "value0": "Consessional Resources",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Loans",
+              "value1": "14336",
+              "value2": "15504",
+              "value3": "17872",
+              "value4": "19966",
+              "value5": "20049"
+            },
+            {
+              "value0": "Grants",
+              "value1": "4249",
+              "value2": "5233",
+              "value3": "5321",
+              "value4": "5234",
+              "value5": "5298"
+            },
+            {
+              "value0": "Other Special Funds",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Grants",
+              "value1": "10",
+              "value2": "7",
+              "value3": "4",
+              "value4": "56",
+              "value5": "42"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Operations"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Sovergian ",
+              "value1": "73084",
+              "value2": "80428",
+              "value3": "82808",
+              "value4": "96616",
+              "value5": "99850"
+            },
+            {
+              "value0": "Nonsovereign",
+              "value1": "10842",
+              "value2": "12414",
+              "value3": "13785",
+              "value4": "14337",
+              "value5": "14050"
+            },
+            {
+              "value0": "Total",
+              "value1": "83926",
+              "value2": "92843",
+              "value3": "96592",
+              "value4": "110953",
+              "value5": "113900",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ],
+          [
+            {
+              "title": "B.Disbursements"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Source"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Regular Ordinary Capital Resource",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Loans",
+              "value1": "8717",
+              "value2": "11475",
+              "value3": "13148",
+              "value4": "18891",
+              "value5": "14726"
+            },
+            {
+              "value0": "Equity Investments",
+              "value1": "242",
+              "value2": "143",
+              "value3": "135",
+              "value4": "86",
+              "value5": "41"
+            },
+            {
+              "value0": "Debt Securities",
+              "value1": "75",
+              "value2": "446",
+              "value3": "161",
+              "value4": "349",
+              "value5": "43"
+            },
+            {
+              "value0": "Concessional Resources",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Loans",
+              "value1": "1926",
+              "value2": "1645",
+              "value3": "2513",
+              "value4": "3382",
+              "value5": "2918"
+            },
+            {
+              "value0": "Grants",
+              "value1": "481",
+              "value2": "476",
+              "value3": "511",
+              "value4": "824",
+              "value5": "380"
+            },
+            {
+              "value0": "Other Special Funds",
+              "value1": "2",
+              "value2": "2",
+              "value3": "3",
+              "value4": "53",
+              "value5": "12"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Operation"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Sovergion<sup>c</sup>",
+              "value1": "10072",
+              "value2": "12234",
+              "value3": "14210",
+              "value4": "21306",
+              "value5": "16559"
+            },
+            {
+              "value0": "Non-Sovergion",
+              "value1": "1371",
+              "value2": "1953",
+              "value3": "2260",
+              "value4": "2279",
+              "value5": "1661"
+            },
+            {
+              "value0": "Total",
+              "value1": "11443",
+              "value2": "14186",
+              "value3": "16470",
+              "value4": "23585",
+              "value5": "18220",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ],
+          [
+            {
+              "title": "C. Net Resources Transfer to Developing Member Countries<sup>d</sup>",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "3608",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "4622",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "5670",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "12058",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "7924",
+              "class": "lightOrange-bg"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "heading": "INTERNAL ADMINISTRATIVE EXPENSES PER 1$ MILLION DISBURSEMENT",
+    "type": "lineChart",
+    "data": [
+      {
+        "name": "$'000, Three-year average",
+        "series": [
+          {
+            "name": "2017",
+            "value": 49
+          },
+          {
+            "name": "2018",
+            "value": 50
+          },
+          {
+            "name": "2019",
+            "value": 50
+          },
+          {
+            "name": "2020",
+            "value": 39
+          },
+          {
+            "name": "2021",
+            "value": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "accordian-table",
+    "note": [
+      "a.Staff refers to all international staff, board staff (i.e., Director's Advisors), national staff, and administrative staff. The figures exclude Management, Board of Directors, and Secondees.",
+      "b. Includes staff in outposted positions and in ADB's Philippines Country Office."
+    ],
+    "heading": "Institutional Highlight",
+    "data": [
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": "Item"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ],
+          [
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": "2017"
+            },
+            {
+              "title": "2018"
+            },
+            {
+              "title": "2019"
+            },
+            {
+              "title": "2020"
+            },
+            {
+              "title": "2021"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "A.Staff"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Satff<sup>a</sup>(number)",
+              "value1": "3085",
+              "value2": "3127",
+              "value3": "3374",
+              "value4": "3646",
+              "value5": "3687",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "International Staff and Board staff",
+              "value1": "1103",
+              "value2": "1316",
+              "value3": "1242",
+              "value4": "1317",
+              "value5": "1337"
+            },
+            {
+              "value0": "National and Administrative Staff",
+              "value1": "1982",
+              "value2": "1991",
+              "value3": "2132",
+              "value4": "2329",
+              "value5": "2350"
+            },
+            {
+              "value0": "National Staff",
+              "value1": "762",
+              "value2": "790",
+              "value3": "876",
+              "value4": "990",
+              "value5": "1030"
+            },
+            {
+              "value0": "Administrative staff",
+              "value1": "1220",
+              "value2": "1201",
+              "value3": "1256",
+              "value4": "1339",
+              "value5": "1320"
+            },
+            {
+              "value0": "International Staff and Board Staff Location <sup>a</sup> (number)",
+              "value1": "1103",
+              "value2": "1136",
+              "value3": "1242",
+              "value4": "1317",
+              "value5": "1337",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Resident Mission<sup>b</sup>",
+              "value1": "160",
+              "value2": "182",
+              "value3": "194",
+              "value4": "198",
+              "value5": "186"
+            },
+            {
+              "value0": "Headquaters",
+              "value1": "943",
+              "value2": "954",
+              "value3": "1048",
+              "value4": "1119",
+              "value5": "1151"
+            },
+            {
+              "value0": "International Staff and Board Staff Gender<sup>a</sup> (number) ",
+              "value1": "1103",
+              "value2": "1136",
+              "value3": "1242",
+              "value4": "1317",
+              "value5": "1337",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Male",
+              "value1": "728",
+              "value2": "736",
+              "value3": "791",
+              "value4": "820",
+              "value5": "830"
+            },
+            {
+              "value0": "Female",
+              "value1": "375",
+              "value2": "400",
+              "value3": "451",
+              "value4": "497",
+              "value5": "507"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "B.International Adminsitrative Bugdet($'000)"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": "646988"
+          },
+          {
+            "title": "672264"
+          },
+          {
+            "title": "690488"
+          },
+          {
+            "title": "726718"
+          },
+          {
+            "title": "771188"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "accordian-table",
+    "heading": "ADB RESOURCES AND FINANCIAL DATA ($ million)",
+    "note": [
+      "( ) = negative value, ADF = Asian Development Fund.<br>",
+      "Note: Numbers may not sum precisely because of rounding.<br>",
+      "<sup class='noteSup' >a</sup> Includes accrued interest and commission, unamortized premium, and/or discounts.",
+      "<sup class='noteSup' >b</sup> As of 31 December 2021, authorized and subscribed capital amounted to $148,903 million.",
+      "<sup class='noteSup' >c</sup> Reserves include ordinary reserve, special reserve, loan loss reserve, surplus, net income after appropriation, nonnegotiable, noninterest- bearing demand obligations and receivables on account of subscribed capital, net notional amounts required to maintain the value of currency holdings, cumulative revaluation adjustment, and accumulated other comprehensive income or loss. Reserves include the one-time income from ADF asset transfer on 1 January 2017",
+      "<sup class='noteSup' >d</sup> The 2017 Net Income refers to net income after allocation of one-time income from ADF asset transfer to Ordinary Reserve.",
+      "<sup class='noteSup' >e</sup> Allocable net income is defined as net income after appropriation of guarantee fees to special reserve and certain adjustments set aside in the cumulative revaluation adjustments account. This is the amount that ADB may, subject to approval by the Board of Governors, annually allocate to reserves and surplus, and transfers to Special Funds.",
+      "<sup class='noteSup' >f</sup> The 2021 net income allocation is subject to the approval of the Board of Governors at the ADB Annual Meeting in 2022.",
+      "<sup class='noteSup' >g</sup> Excludes short-term borrowings.",
+      "<sup class='noteSup' >h</sup> Local Currency Funding includes bond, swaps, and repo.",
+      "<sup class='noteSup' >i</sup> The capital utilization ratio is the ratio of total economic capital used (numerator) to equity (denominator). The new capital adequacy framework was applied in the capital utilization ratios from 2019 to 2021.",
+      "<sup class='noteSup' >j</sup> Includes the total fund balance and nonnegotiable, noninterest-bearing demand obligations on account of contributions.",
+      "<sup class='noteSup' >k</sup> The Japan Special Fund (JSF) resources include the Asian Currency Crisis Support Facility (ACCSF). In 2021, the ACCSF’s account was closed after transferring ACCSF’s residual balance to JSF."
+    ],
+    "data": [
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": "Item"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": "2017"
+            },
+            {
+              "title": "2018"
+            },
+            {
+              "title": "2019"
+            },
+            {
+              "title": "2020"
+            },
+            {
+              "title": "2021"
+            }
+          ],
+          [
+            {
+              "title": "Ordinary Capital Resources"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Selected Balance Sheet Data"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Total Assets",
+              "value1": "182381",
+              "value2": "191860",
+              "value3": "221866",
+              "value4": "271741",
+              "value5": "282084"
+            },
+            {
+              "value0": "of which",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Loans Outstanding - Operations",
+              "value1": "101008",
+              "value2": "106405",
+              "value3": "114389",
+              "value4": "129788",
+              "value5": "137163"
+            },
+            {
+              "value0": "Investments for Liquidity Purpose",
+              "value1": "36478",
+              "value2": "35215",
+              "value3": "39312",
+              "value4": "41963",
+              "value5": "43287"
+            },
+            {
+              "value0": "Equity Investments - Operations",
+              "value1": "1185",
+              "value2": "1280",
+              "value3": "1619",
+              "value4": "1289",
+              "value5": "1322"
+            },
+            {
+              "value0": "Derivative Assets",
+              "value1": "40761",
+              "value2": "45500",
+              "value3": "62619",
+              "value4": "87778",
+              "value5": "92860"
+            },
+            {
+              "value0": "Total Liabilties",
+              "value1": "132112",
+              "value2": "140876",
+              "value3": "169948",
+              "value4": "219104",
+              "value5": "229229"
+            },
+            {
+              "value0": "of which",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Total Equity<sup>b</sup>",
+              "value1": "50269",
+              "value2": "50984",
+              "value3": "51918",
+              "value4": "52637",
+              "value5": "52855"
+            },
+            {
+              "value0": "of which",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Paid-in capital",
+              "value1": "7002",
+              "value2": "7029",
+              "value3": "7175",
+              "value4": "7566",
+              "value5": "7381"
+            },
+            {
+              "value0": "Reserves<sup>c</sup>",
+              "value1": "43267",
+              "value2": "43955",
+              "value3": "44743",
+              "value4": "45071",
+              "value5": "45474"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Income Statement Data"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Total Revenue",
+              "value1": "2625",
+              "value2": "3741",
+              "value3": "4265",
+              "value4": "3072",
+              "value5": "2399"
+            },
+            {
+              "value0": "Total Expense",
+              "value1": "(1869)",
+              "value2": "(2883)",
+              "value3": "(3173)",
+              "value4": "(2158)",
+              "value5": "(1227)"
+            },
+            {
+              "value0": "of which",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Borrowing and Related Expenses",
+              "value1": "(1247)",
+              "value2": "(2159)",
+              "value3": "(2530)",
+              "value4": "(1351)",
+              "value5": "(460)"
+            },
+            {
+              "value0": "Administrative expense",
+              "value1": "(587)",
+              "value2": "(591)",
+              "value3": "(598)",
+              "value4": "(669)",
+              "value5": "(819)"
+            },
+            {
+              "value0": "Net Realized Gains (Losses)",
+              "value1": "9",
+              "value2": "22",
+              "value3": "28",
+              "value4": "230",
+              "value5": "159"
+            },
+            {
+              "value0": "Net Unrealized Gains (Losses)",
+              "value1": "9",
+              "value2": "(130)",
+              "value3": "434",
+              "value4": "228",
+              "value5": "(601)"
+            },
+            {
+              "value0": "Net Income",
+              "value1": "744<sup>d</sup>",
+              "value2": "750",
+              "value3": "1554",
+              "value4": "1372",
+              "value5": "730"
+            },
+            {
+              "value0": "Allocable Net Income<sup>e</sup>",
+              "value1": "690",
+              "value2": "841",
+              "value3": "1069",
+              "value4": "1312",
+              "value5": "1161<sup>f</sup>"
+            },
+            {
+              "value0": "Allocation to Ordinary Reserve",
+              "value1": "351",
+              "value2": "499",
+              "value3": "616",
+              "value4": "734",
+              "value5": "778"
+            },
+            {
+              "value0": "Allocation to ADF",
+              "value1": "259",
+              "value2": "259",
+              "value3": "259",
+              "value4": "292",
+              "value5": "292"
+            },
+            {
+              "value0": "Allocation To Other Special Funds",
+              "value1": "80",
+              "value2": "83",
+              "value3": "194",
+              "value4": "105",
+              "value5": "90"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Annual Borrowings<sup>g</sup>"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": "28593"
+          },
+          {
+            "title": "23538"
+          },
+          {
+            "title": "24613"
+          },
+          {
+            "title": "35765"
+          },
+          {
+            "title": "35761"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "of which",
+              "value1": "",
+              "value2": "",
+              "value3": "",
+              "value4": "",
+              "value5": ""
+            },
+            {
+              "value0": "Thematic Bonds",
+              "value1": "1662",
+              "value2": "1822",
+              "value3": "2657",
+              "value4": "1224",
+              "value5": "5087"
+            },
+            {
+              "value0": "Local Currency Funding<sup>h</sup>",
+              "value1": "744",
+              "value2": "535",
+              "value3": "764",
+              "value4": "930",
+              "value5": "880"
+            },
+            {
+              "value0": "Capital Utilization Ratio(%)<sup>i</sup>",
+              "value1": "56.0",
+              "value2": "54.6",
+              "value3": "62.1",
+              "value4": "69.1",
+              "value5": "74.0",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Available Resources of Asian Development Fund Resources<sup>j</sup>"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": "2067"
+          },
+          {
+            "title": "1956"
+          },
+          {
+            "title": "2498"
+          },
+          {
+            "title": "2312"
+          },
+          {
+            "title": "2322"
+          }
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Special Fund Resource(Other than ADF)-Uncommited Balances"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Technical Assistance Special Fund",
+              "value1": "400",
+              "value2": "304",
+              "value3": "196",
+              "value4": "87",
+              "value5": "464"
+            },
+            {
+              "value0": "Japan Special Fund<sup>k</sup>",
+              "value1": "107",
+              "value2": "109",
+              "value3": "112",
+              "value4": "112",
+              "value5": "112"
+            },
+            {
+              "value0": "ADB Institue",
+              "value1": "12",
+              "value2": "16",
+              "value3": "19",
+              "value4": "24",
+              "value5": "26"
+            },
+            {
+              "value0": "Regional Cooperation and Integrated Fund",
+              "value1": "14",
+              "value2": "10",
+              "value3": "5",
+              "value4": "25",
+              "value5": "12"
+            },
+            {
+              "value0": "Climate Change Fund",
+              "value1": "20",
+              "value2": "18",
+              "value3": "10",
+              "value4": "27",
+              "value5": "20"
+            },
+            {
+              "value0": "Asia Pacific Disaster Response Fund",
+              "value1": "26",
+              "value2": "21",
+              "value3": "21",
+              "value4": "47",
+              "value5": "56"
+            },
+            {
+              "value0": "Financial Sector Development Partnership",
+              "value1": "5",
+              "value2": "4",
+              "value3": "5",
+              "value4": "3",
+              "value5": "3"
+            },
+            {
+              "value0": "Total",
+              "value1": "584",
+              "value2": "482",
+              "value3": "368",
+              "value4": "325",
+              "value5": "694",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "type": "accordian-table",
+    "heading": "Appendix 2: Loans and Grants Committed, 2021 Regular Ordinary Capital and Concessional Resources Commitments ($ million)",
+    "subHeading": "",
+    "note": [
+      "– = nil, 0 = less than $500,000, ADB = Asian Development Bank, COVID-19 = coronavirus disease.<br> Notes: <br> 1.Beginning in 2020, commitments from ADB’s internal resources include private sector programs (the Trade and Supply Chain Finance Program and Microfinance Program). Inclusion of ADB’s exposure (or committed redeployed capital) under private sector programs fully reflects the total financing committed, while at the same time, ADB reports on cofinancing mobilized by these programs. Commitments under private sector programs will distinguish long-term and short-term financing.",
+      "2. Numbers may not sum precisely because of rounding.",
+      "<sup class='noteSup' >a</sup> Commitment is the financing approved by the ADB Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADB for which the signed amount is not readily available, the approved amount is used.",
+      "<sup class='noteSup'>b</sup> In August 2020, ADB’s Trade Finance Program and Supply Chain Finance Program merged their operations.",
+      "<sup class='noteSup' >c</sup> The 2019 and 2020 adjusted figures exclude $150,000 and $13 million under nonsovereign ADB financing, respectively, to reduce the trade finance component of the Trade and Supply Chain Finance Program amounts as finalized by the Private Sector Operations Department.",
+      "<sup class='noteSup' >d</sup> The trade finance component of the Trade and Supply Chain Finance Program represents 86% of this figure and supported 6,790 transactions during the reporting period, with an average maturity of 162 days.",
+      "<sup class='noteSup'>e</sup> Comprises funds other than the Asian Development Fund, such as the Asia Pacific Disaster Response Fund and the Climate Change Fund.",
+      "<sup class='noteSup' >f</sup>   This figure includes $6 million under sovereign cofinancing commitments for one project.",
+      "<sup class='noteSup'>g</sup> “Others” includes concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, corporate social responsibility programs, and civil society organizations) other than official development assistance sources.",
+      "<sup class='noteSup'>h</sup> Nonsovereign cofinancing includes commercial cofinancing such as B loans and parallel loans, among others. B loans are cofinancing arrangements involving the coordinated process of pooling funds from various sources for a single borrower or grant recipient and/or distributing related risks among such other financiers. The 2019 adjusted figure includes $65 million under nonsovereign cofinancing for two projects.",
+      "<sup class='noteSup'>i</sup> This figure includes $150,000 under nonsovereign cofinancing commitments to increase the trade finance component of the Trade and Supply Chain Finance Program amount as finalized by the Private Sector Operations Department."
+    ],
+    "data": [
+      {
+        "type": "main-title",
+        "data": [
+          [
+            {
+              "title": "Region/Country/Loan or Grant Title"
+            },
+            {
+              "title": "Modality"
+            },
+            {
+              "title": "Regular OCR"
+            },
+            {
+              "title": "Concessional OCR"
+            },
+            {
+              "title": "ADF Grant"
+            },
+            {
+              "title": "Total"
+            },
+            {
+              "title": "COVID-19 Response"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "A. SOVEREIGN OPERATIONS",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "colorGrey"
+          },
+          {
+            "title": "15273.9",
+            "class": "colorGrey"
+          },
+          {
+            "title": "2648.4",
+            "class": "colorGrey"
+          },
+          {
+            "title": "344.3",
+            "class": "colorGrey"
+          },
+          {
+            "title": "18266.6",
+            "class": "lightOrange-bg"
+          },
+          {
+            "title": "10,173.2",
+            "class": "lightOrange-bg"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Central and West Asia",
+              "value1": "",
+              "value2": "2470.9",
+              "value3": "1191.3",
+              "value4": "184.7",
+              "value5": "3846.9",
+              "value6": "2071.3",
+              "class": "title-row-normal"
+            },
+            {
+              "value0": "Afghanistan<sup>a</sup>",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "50.0",
+              "value5": "50.0",
+              "value6": "50.0",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "-",
+              "value4": "50.0",
+              "value5": "50.0",
+              "value6": "50.0"
+            },
+            {
+              "value0": "Azerbaijan",
+              "value1": "",
+              "value2": "250.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "250.0",
+              "value6": "250.0"
+            },
+            {
+              "value0": "COVID-19 Active Response and Expenditure Support Program",
+              "value1": "CPRO",
+              "value2": "250.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "250.0",
+              "value6": "250.0",
+              "class": "title-row-normal"
+            },
+            {
+              "value0": "Georgia",
+              "value1": "",
+              "value2": "229.4",
+              "value3": "-",
+              "value4": "-",
+              "value5": "229.4",
+              "value6": "115.6"
+            },
+            {
+              "value0": "Electricity Transmission Sector Reforms Program",
+              "value1": "PBL",
+              "value2": "100.9",
+              "value3": "-",
+              "value4": "-",
+              "value5": "100.9",
+              "value6": "100.9"
+            },
+            {
+              "value0": "Livable Cities Investment for Balanced Development",
+              "value1": "Project",
+              "value2": "113.8",
+              "value3": "-",
+              "value4": "-",
+              "value5": "113.8",
+              "value6": "-",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "14.7",
+              "value3": "-",
+              "value4": "-",
+              "value5": "14.7",
+              "value6": "14.7",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Kyrgyz Republic",
+              "value1": "",
+              "value2": "-",
+              "value3": "118.3",
+              "value4": "71.7",
+              "value5": "190.0",
+              "value6": "105.0"
+            },
+            {
+              "value0": "Promoting Economic Diversification Program (Subprogram 2)",
+              "value1": "PBL",
+              "value2": "-",
+              "value3": "69.3",
+              "value4": "10.7",
+              "value5": "80.0",
+              "value6": "80.0"
+            },
+            {
+              "value0": "Landslide Risk Management Sector",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "11.5",
+              "value4": "23.5",
+              "value5": "35.0",
+              "value6": "-",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Urban Transport Electrification",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "25.0",
+              "value4": "25.0",
+              "value5": "50.0",
+              "value6": "-",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "12.5",
+              "value4": "12.5",
+              "value5": "25.0",
+              "value6": "25.0"
+            },
+            {
+              "value0": "Pakistan",
+              "value1": "",
+              "value2": "1527.8",
+              "value3": "800.0",
+              "value4": "8.0",
+              "value5": "2335.8",
+              "value6": "1326.0",
+              "class": "subTotal"
+            },
+            {
+              "value0": "Integrated Social Protection Development Program",
+              "value1": "RBL",
+              "value2": "600.0",
+              "value3": "-",
+              "value4": "3.0",
+              "value5": "603.0",
+              "value6": "526.0"
+            },
+            {
+              "value0": "Central Asia Regional Economic Cooperation Corridor Development Investment Program – Tranche 2",
+              "value1": "MFF",
+              "value2": "235.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "235.0",
+              "value6": "235.0"
+            },
+            {
+              "value0": "Balakot Hydropower Development",
+              "value1": "Project",
+              "value2": "300.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "300.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Khyber Pakhtunkhwa Cities Improvement",
+              "value1": "Project",
+              "value2": "372.8",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "377.8",
+              "value6": "-"
+            },
+            {
+              "value0": "Preparing Kurram Tangi Integrated Water Resources Development Project",
+              "value1": "PRF",
+              "value2": "5.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "5.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Energy Sector Reforms and Financial Sustainability Program (Subprogram 2)",
+              "value1": "PBL",
+              "value2": "-",
+              "value3": "300.0",
+              "value4": "-",
+              "value5": "300.0",
+              "value6": "300.0"
+            },
+            {
+              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "500.0",
+              "value4": "-",
+              "value5": "500.0",
+              "value6": "500.0"
+            },
+            {
+              "value0": "Khyber Pakhtunkhwa Cities Improvement – Second Project PRF 15.0 Readiness Financing",
+              "value1": "PRF",
+              "value2": "15.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "15.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Tajikistan",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "55.0",
+              "value5": "55.0",
+              "value6": "25.0"
+            },
+            {
+              "value0": "Climate- and Disaster-Resilient Irrigation and Drainage Modernization in the Vakhsh River Basin",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "30.0",
+              "value5": "30.0",
+              "value6": "-"
+            },
+            {
+              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "-",
+              "value4": "25.0",
+              "value5": "25.0",
+              "value6": "25.0"
+            },
+            {
+              "value0": "Uzbekistan",
+              "value1": "",
+              "value2": "463.7",
+              "value3": "273.0",
+              "value4": "-",
+              "value5": "736.7",
+              "value6": "199.7"
+            },
+            {
+              "value0": "Small and Medium-Sized Enterprises Development Program (Subprogram 1)",
+              "value1": "PBL",
+              "value2": "19.7",
+              "value3": "80.0",
+              "value4": "-",
+              "value5": "99.7",
+              "value6": "99.7"
+            },
+            {
+              "value0": "Central Asia Regional Economic Cooperation Corridor 2 (Pap–Namangan–Andijan) Railway Electrification – Additional Financing",
+              "value1": "Project",
+              "value2": "121.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "121.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Skills Development for a Modern Economy",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "93.0",
+              "value4": "-",
+              "value5": "93.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Tashkent Province Sewerage Improvement",
+              "value1": "Project",
+              "value2": "161.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "-",
+              "value6": "161.0"
+            },
+            {
+              "value0": "Financial Markets Development Program (Subprogram 1)",
+              "value1": "PBL",
+              "value2": "-",
+              "value3": "100.0",
+              "value4": "-",
+              "value5": "100.0",
+              "value6": "100.0"
+            },
+            {
+              "value0": "Central Asia Regional Economic Cooperation Corridor 2 (Bukhara–Miskin–Urgench–Khiva) Railway Electrification",
+              "value1": "Project",
+              "value2": "162.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "162.0",
+              "value6": "-"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "East Asia"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": "1772.9"
+          },
+          {
+            "title": "36.1"
+          },
+          {
+            "title": "-"
+          },
+          {
+            "title": "1809.0"
+          },
+          {
+            "title": "421.2"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "China, People’s Republic of Investment Program – Tranche 3",
+              "value1": "",
+              "value2": "1617.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "1,617.0",
+              "value6": "229.2",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Guangxi Regional Cooperation and Integration Promotion",
+              "value1": "MFF",
+              "value2": "140.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "140.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Air Quality Improvement in the Greater Beijing–Tianjin–Hebei Region—Green Financing Scale Up",
+              "value1": "Project",
+              "value2": "151.5",
+              "value3": "-",
+              "value4": "-",
+              "value5": "151.5",
+              "value6": "-"
+            },
+            {
+              "value0": "Guangxi Hezhou Environment Restoration and Sustainable Development",
+              "value1": "Project",
+              "value2": "95.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "95.0",
+              "value6": "78.7"
+            },
+            {
+              "value0": "Shaanxi Green Intelligent Transport and Logistics Management Demonstration",
+              "value1": "Project",
+              "value2": "200.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "200.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Public Service Sector Public–Private Partnership Promotion and Elderly Care Demonstration",
+              "value1": "Project",
+              "value2": "140.8",
+              "value3": "-",
+              "value4": "-",
+              "value5": "140.8",
+              "value6": "140.8"
+            },
+            {
+              "value0": "Jiangxi Ganzhou Rural Vitalization and Comprehensive Environment Improvement",
+              "value1": "Project",
+              "value2": "191.2",
+              "value3": "-",
+              "value4": "-",
+              "value5": "191.2",
+              "value6": "-"
+            },
+            {
+              "value0": "Hunan Xiangxi Rural Environmental Improvement and Green Development",
+              "value1": "Project",
+              "value2": "200.5",
+              "value3": "-",
+              "value4": "-",
+              "value5": "200.5",
+              "value6": "-"
+            },
+            {
+              "value0": "Hunan Miluo River Disaster Risk Management and Comprehensive Environment Improvement",
+              "value1": "Project",
+              "value2": "154.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "154.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Henan Xichuan Integrated Ecological Protection and Environmental Improvement",
+              "value1": "Project",
+              "value2": "197.9",
+              "value3": "-",
+              "value4": "-",
+              "value5": "197.9",
+              "value6": "-"
+            },
+            {
+              "value0": "Shaanxi Xi’an Preschool Education Development Program",
+              "value1": "RBL",
+              "value2": "146.1",
+              "value3": "-",
+              "value4": "-",
+              "value5": "146.1",
+              "value6": "-"
+            },
+            {
+              "value0": "Mongolia",
+              "value1": "",
+              "value2": "155.9",
+              "value3": "36.1",
+              "value4": "-",
+              "value5": "192.0",
+              "value6": "192.0"
+            },
+            {
+              "value0": "Second Shock-Responsive Social Protection",
+              "value1": "Project",
+              "value2": "46.4",
+              "value3": "26.6",
+              "value4": "-",
+              "value5": "73.0",
+              "value6": "73.0"
+            },
+            {
+              "value0": "Strengthening Health Security Program (Subprogram 1)",
+              "value1": "PBL",
+              "value2": "100.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "100.0",
+              "value6": "100.0"
+            },
+            {
+              "value0": "Support for COVID-19 Vaccine Delivery in Mongolia under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "9.5",
+              "value3": "9.5",
+              "value4": "-",
+              "value5": "19.0",
+              "value6": "19.0"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "Pacific"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": "515.5"
+          },
+          {
+            "title": "84.4"
+          },
+          {
+            "title": "153.6"
+          },
+          {
+            "title": "753.5"
+          },
+          {
+            "title": "275.1"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Cook Islands",
+              "value1": "",
+              "value2": "75.5",
+              "value3": "-",
+              "value4": "-",
+              "value5": "75.5",
+              "value6": "75.5",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Supporting Sustainable Economic Recovery Program",
+              "value1": "PBL",
+              "value2": "75.5",
+              "value3": "-",
+              "value4": "-",
+              "value5": "75.5",
+              "value6": "75.5"
+            },
+            {
+              "value0": "Marshall Islands",
+              "value1": "Project",
+              "value2": "",
+              "value3": "-",
+              "value4": "9.0",
+              "value5": "9.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Energy Security – Additional Financing",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "7.0",
+              "value5": "7.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Public Financial Management – Second Additional Financing",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "2.0",
+              "value5": "2.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Micronesia, Federated States of",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "9.0",
+              "value5": "9.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Renewable Energy Development – Additional Financing",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "4.0",
+              "value5": "4.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Preparing the Sustainable Road Infrastructure Investment Project",
+              "value1": "PRF",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "5.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Nauru",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "5.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Preparing the Nauru Sustainable Urban Development Project",
+              "value1": "PRF",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "5.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Palau",
+              "value1": "",
+              "value2": "5.0",
+              "value3": "20.0",
+              "value4": "0.8",
+              "value5": "25.8",
+              "value6": "25.8"
+            },
+            {
+              "value0": "COVID-19 Response for Affected Poor and Vulnerable Groups",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "0.8",
+              "value5": "0.8",
+              "value6": "0.8"
+            },
+            {
+              "value0": "Recovery through Improved Systems and Expenditure Support Program (Subprogram 1)",
+              "value1": "PBL",
+              "value2": "5.0",
+              "value3": "20.0",
+              "value4": "-",
+              "value5": "25.0",
+              "value6": "25.0"
+            },
+            {
+              "value0": "Papua New Guinea",
+              "value1": "",
+              "value2": "435.0",
+              "value3": "40.0",
+              "value4": "-",
+              "value5": "475.0",
+              "value6": "150.0"
+            },
+            {
+              "value0": "Sustainable Highlands Highway Investment Program – Tranche 2",
+              "value1": "MFF",
+              "value2": "285.0",
+              "value3": "40.0",
+              "value4": "-",
+              "value5": "325.0",
+              "value6": "-"
+            },
+            {
+              "value0": "State-Owned Enterprises Reform Program (Subprogram 2)",
+              "value1": "PBL",
+              "value2": "150.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "150.0",
+              "value6": "150.0"
+            },
+            {
+              "value0": "Samoa",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "13.0",
+              "value5": "13.0",
+              "value6": "8.0"
+            },
+            {
+              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "-",
+              "value4": "8.0",
+              "value5": "8.0",
+              "value6": "8.0"
+            },
+            {
+              "value0": "Land Transport Sector Development",
+              "value1": "PRF",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "5.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Solomon Islands",
+              "value1": "",
+              "value2": "-",
+              "value3": "24.4",
+              "value4": "25.0",
+              "value5": "49.4",
+              "value6": "-"
+            },
+            {
+              "value0": "Domestic Resource Mobilization",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.5",
+              "value5": "5.5",
+              "value6": "-"
+            },
+            {
+              "value0": "Land and Maritime Connectivity – Tranche 1",
+              "value1": "MFF",
+              "value2": "-",
+              "value3": "24.4",
+              "value4": "19.5",
+              "value5": "43.9",
+              "value6": "-"
+            },
+            {
+              "value0": "Tonga",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "55.5",
+              "value5": "55.5",
+              "value6": "10.5"
+            },
+            {
+              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "-",
+              "value4": "19.5",
+              "value5": "43.9",
+              "value6": "-"
+            },
+            {
+              "value0": "Nuku'alofa Port Upgrade",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "45.0",
+              "value5": "45.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Economic Recovery Support Program",
+              "value1": "PBL",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "5.0",
+              "value6": "5.0"
+            },
+            {
+              "value0": "Tuvalu",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "21.5",
+              "value5": "21.5",
+              "value6": "1.5"
+            },
+            {
+              "value0": "Outer Island Maritime Infrastructure – Second Additional Financing",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "20.0",
+              "value5": "20.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "-",
+              "value4": "1.5",
+              "value5": "1.5",
+              "value6": "1.5"
+            },
+            {
+              "value0": "Vanuatu",
+              "value1": "",
+              "value2": "-",
+              "value3": "-",
+              "value4": "14.9",
+              "value5": "14.9",
+              "value6": "3.9"
+            },
+            {
+              "value0": "Energy Access – Additional Financing",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "-",
+              "value4": "6.0",
+              "value5": "6.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
+              "value1": "APVAX",
+              "value2": "-",
+              "value3": "-",
+              "value4": "3.9",
+              "value5": "3.9",
+              "value6": "3.9"
+            },
+            {
+              "value0": "Transport Sector Projects Preparatory Financing",
+              "value1": "PRF",
+              "value2": "-",
+              "value3": "-",
+              "value4": "5.0",
+              "value5": "5.0",
+              "value6": "-"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "South Asia"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": "6,432.0"
+          },
+          {
+            "title": "912.5"
+          },
+          {
+            "title": "6.0"
+          },
+          {
+            "title": "7,350.5"
+          },
+          {
+            "title": "4,259.6"
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Bangladesh",
+              "value1": "",
+              "value2": "1370.0",
+              "value3": "633.5",
+              "value4": "-",
+              "value5": "2003.5",
+              "value6": "1590.0",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Irrigation Management Improvement – Additional Financing",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "13.5",
+              "value4": "-",
+              "value5": "13.5",
+              "value6": "-"
+            },
+            {
+              "value0": "South Asia Subregional Economic Cooperation Dhaka–Sylhet Corridor Road Investment – Tranche 1",
+              "value1": "MFF",
+              "value2": "400.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "400.0",
+              "value6": "-"
+            },
+            {
+              "value0": "Sustainable Economic Recovery Program (Subprogram 1)",
+              "value1": "PBL",
+              "value2": "250.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "250.0",
+              "value6": "250.0"
+            },
+            {
+              "value0": "Supporting Post-COVID-19 Small-Scale Employment Creation",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "150.0",
+              "value4": "-",
+              "value5": "150.0",
+              "value6": "150.0"
+            },
+            {
+              "value0": "Strengthening Social Resilience Program (Subprogram 1)",
+              "value1": "PBL",
+              "value2": "250.0",
+              "value3": "-",
+              "value4": "-",
+              "value5": "250.0",
+              "value6": "250.0"
+            },
+            {
+              "value0": "Responsive COVID-19 Vaccines for Recovery under the Asia Pacific Vaccine Access Facility",
+              "value1": "APVAX",
+              "value2": "470.0",
+              "value3": "470.0",
+              "value4": "-",
+              "value5": "940.0",
+              "value6": "940.0"
+            },
+            {
+              "value0": "Bhutan",
+              "value1": "",
+              "value2": "-",
+              "value3": "54.0",
+              "value4": "6.0",
+              "value5": "60.0",
+              "value6": "30.0"
+            },
+            {
+              "value0": "Financial Market Development Program (Subprogram 3)",
+              "value1": "PBL",
+              "value2": "-",
+              "value3": "30.0",
+              "value4": "-",
+              "value5": "30.0",
+              "value6": "30.0"
+            },
+            {
+              "value0": "Green and Resilient Affordable Housing Sector",
+              "value1": "Project",
+              "value2": "-",
+              "value3": "24.0",
+              "value4": "6.0",
+              "value5": "30.0",
+              "value6": "-"
+            }
+          ]
+        ]
+      }
+    ]
+  }
 ]
