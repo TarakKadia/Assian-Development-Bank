@@ -1,0 +1,18 @@
+<div class="container">
+    <ol type="A">
+        <li *ngFor="let list of data.data">{{list.title}}
+            <ul>
+                <li *ngFor="let subTitle of list.subTitle">{{subTitle.subTitle}}</li>
+            </ul>
+            <ol type="1">
+                <li *ngFor="let subList of list.subList">{{subList.title}}
+                    <ul>
+                        <li *ngFor="let subTitle of subList.subTitle">{{subTitle.subTitle}}</li>
+                    </ul>
+                </li>
+
+            </ol>
+        </li>
+
+    </ol>
+</div>

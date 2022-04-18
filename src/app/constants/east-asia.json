@@ -75,22 +75,6 @@
     "type": "paragraph"
   },
   {
-    "id": 2,
-    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
-    "digit1": 34,
-    "tag1": "PUBLIC SECTOR MANAGEMENT",
-    "digit2": 15,
-    "tag2": "INDUSTRY AND TRADE",
-    "digit3": 14,
-    "tag3": "FINANCE",
-    "digit4": 11,
-    "tag4": "TRANSPORT",
-    "digit5": 10,
-    "tag5": "HEALTH",
-    "sign": "%",
-    "type": "currencyCounter"
-  },
-  {
     "data": "STRATEGIC FOCUS",
     "type": "heading"
   },
@@ -381,7 +365,7 @@
     "type": "paragraph"
   },
   {
-    "data": "TAs part of a multiyear lending program for reducing air pollution in the greater Beijing–Tianjin–Hebei region, the bank committed $151.5 million to boost financing for investments in renewable energy, clean transport, industrial energy efficiency, and cooling system retrofits. The 2021 financing will be used to introduce a scheme to improve the creditworthiness of domestic developers to issue clean-air bonds. It will also introduce an online lending platform to enhance access to finance for micro, small, and medium-sized enterprises and energy service corporations. The ongoing project is expected to reduce carbon dioxide equivalent emissions, including hydrofluorocarbons, by at least 800,000 tons annually by 2027.",
+    "data": "As part of a multiyear lending program for reducing air pollution in the greater Beijing–Tianjin–Hebei region, the bank committed $151.5 million to boost financing for investments in renewable energy, clean transport, industrial energy efficiency, and cooling system retrofits. The 2021 financing will be used to introduce a scheme to improve the creditworthiness of domestic developers to issue clean-air bonds. It will also introduce an online lending platform to enhance access to finance for micro, small, and medium-sized enterprises and energy service corporations. The ongoing project is expected to reduce carbon dioxide equivalent emissions, including hydrofluorocarbons, by at least 800,000 tons annually by 2027.",
     "type": "paragraph"
   },
   {
@@ -445,7 +429,7 @@
     "title": "Maximizing Food Production in the PRC",
     "image": "chapter2-img2-2.png",
     "tag": "Rice transplanting technology is helping farmers boost agricultural productivity in ADB-supported project sites.",
-    "data": "Agriculture systems in the People’s Republic of China (PRC) must help feed the largest population in the world. It is a task fraught with significant challenges such as diminishing agricultural productivity and decreasing land and water resources. Against this backdrop, ADB approved a $200 million loan in 2012 that promoted holistic support to the PRC’s agricultural development in five provinces (Anhui, Heilongjiang, Henan, Jilin, and Yunnan) and one autonomous region (Ningxia Hui Autonomous Region). A 2021 report on the performance of the project identified some impressive achievements. ADB’s support had improved more than 100,000 hectares of land through irrigation and drainage infrastructure as well as water-saving technology and practices. The result has been increased agricultural productivity in the project area, with grain yields increasing by 53%, cash crop yields (excluding vegetables) by 353%, and vegetable yields by 35%. Income for farmers increased on average by more than 150%, contributing to reduced rural poverty. The project had a particularly positive impact on women by lifting their participation and representation in local water and farmer associations, increasing employment opportunities, and improving their knowledge of modern agricultural production and irrigation. The project created 24,263 jobs during implementation and 2,284 employment opportunities during operation of the facilities, with women taking up half of the new jobs created.",
+    "data": "Agriculture systems in the People’s Republic of China (PRC) must help feed the largest population in the world. It is a task fraught with significant challenges such as diminishing agricultural productivity and decreasing land and water resources.<br><br> Against this backdrop, ADB approved a $200 million loan in 2012 that promoted holistic support to the PRC’s agricultural development in five provinces (Anhui, Heilongjiang, Henan, Jilin, and Yunnan) and one autonomous region (Ningxia Hui Autonomous Region). A 2021 report on the performance of the project identified some impressive achievements. ADB’s support had improved more than 100,000 hectares of land through irrigation and drainage infrastructure as well as water-saving technology and practices.<br><br> The result has been increased agricultural productivity in the project area, with grain yields increasing by 53%, cash crop yields (excluding vegetables) by 353%, and vegetable yields by 35%. Income for farmers increased on average by more than 150%, contributing to reduced rural poverty. The project had a particularly positive impact on women by lifting their participation and representation in local water and farmer associations, increasing employment opportunities, and improving their knowledge of modern agricultural production and irrigation. The project created 24,263 jobs during implementation and 2,284 employment opportunities during operation of the facilities, with women taking up half of the new jobs created.",
     "type": "expand"
   },
   {
@@ -506,7 +490,7 @@
     "type": "paragraph"
   },
   {
-    "title": "RESHAPING ECONOMIES FOR QUALITY GROWTH",
+    "title": "GREEN GROWTH STRATEGIES FOR THE PRC AND MONGOLIA",
     "data": "ADB approved new country partnership strategies for both Mongolia and the PRC in 2021. In the PRC, the overarching goal of <a href='https://www.adb.org/documents/peoples-republic-china-country-partnership-strategy-2021-2025'>the strategy</a> is to support government efforts toward high‑quality, green development. ADB will prioritize investments and knowledge solutions to address the interrelated priorities of environmentally sustainable development, climate change adaptation and mitigation, and addressing an aging society and health security. For Mongolia, the <a href='https://www.adb.org/documents/mongolia-country-partnership-strategy-2021-2024'>partnership strategy</a> through to 2024 aims to aid economic recovery and help lay foundations for longer-term inclusive and sustainable growth. ADB will focus on equitable social development and economic opportunities, climate-resilient infrastructure, economic competitiveness and diversification, and green development.",
     "type": "expand"
   },

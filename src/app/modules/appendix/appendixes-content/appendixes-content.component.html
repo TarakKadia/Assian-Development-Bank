@@ -21,7 +21,15 @@
         <span class="close-label">Close</span> <span class="close-icon">×</span>
     </div>
 
+    <app-table *ngIf="tableData && tableData.type=='table'" [note]="tableData.note"
+        [heading]="tableData.heading" [subHeading]="tableData.subHeading" [tableJson]="tableData.data">
+    </app-table>
+
     <app-accordin-table *ngIf="tableData && tableData.type=='accordian-table'" [note]="tableData.note"
         [heading]="tableData.heading" [subHeading]="tableData.subHeading" [tableJson]="tableData.data">
     </app-accordin-table>
+
+    <app-list *ngIf="tableData && tableData.type=='list'" [data]="tableData">
+
+    </app-list>
 </div>
