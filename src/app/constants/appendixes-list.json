@@ -2360,7 +2360,7 @@
               "value4": "184.7",
               "value5": "3846.9",
               "value6": "2071.3",
-              "class": "title-row-normal"
+              "class": "title-row-bold"
             },
             {
               "value0": "Afghanistan<sup>a</sup>",
@@ -3719,6 +3719,708 @@
                     "value5": "58.0",
                     "value6": "-,"
                 }
+            ]
+        ]
+    },
+    {
+        "type": "expansion-panel",
+        "subTitle": [
+            {
+                "title": "B. NONSOVEREIGN OPERATIONS"
+            },
+            {
+                "title": ""
+            },
+            {
+                "title": "4257.6"
+            },
+            {
+                "title": "-"
+            },
+            {
+                "title": "-"
+            },
+            {
+                "title": "4,257.6"
+            },
+            {
+                "title": "3,304.4"
+            }
+        ],
+        "subData": [
+            [
+                {
+                    "value0": "Armenia",
+                    "value1": "",
+                    "value2": "36.6",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "36.6",
+                    "value6": "16.6",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "ENA Investment Program Phase 2",
+                    "value1": "Loan",
+                    "value2": "20.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "20.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "16.6",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "16.6",
+                    "value6": "16.6"
+                },
+                {
+                    "value0": "Azerbaijan",
+                    "value1": "",
+                    "value2": "5.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "5.9",
+                    "value6": "5.9",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Avrora COVID-19 Staple Food Supply Chain Support",
+                    "value1": "Loan",
+                    "value2": "5.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "5.9",
+                    "value6": "5.9"
+                },
+                {
+                    "value0": "Bangladesh",
+                    "value1": "",
+                    "value2": "761.6",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "761.6",
+                    "value6": "761.6",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "688.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "688.1",
+                    "value6": "688.1"
+                },
+                {
+                    "value0": "Microfinance Program",
+                    "value1": "MFP",
+                    "value2": "73.5",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "73.5",
+                    "value6": "73.5"
+                },
+                {
+                    "value0": "China, People’s Republic of",
+                    "value1": "",
+                    "value2": "188.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "188.1",
+                    "value6": "42.9"
+                },
+                {
+                    "value0": "Tianzow Advanced Pig Breeding Stock",
+                    "value1": "Loan",
+                    "value2": "15.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "15.1",
+                    "value6": "-"
+                },
+                {
+                    "value0": "CD Finance Management Expanding Access to Finance for Farmers and Microentrepreneurs",
+                    "value1": "Loan",
+                    "value2": "40.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "40.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Henan Tian Lun Resilient Energy Supply",
+                    "value1": "Loan",
+                    "value2": "50.2",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "50.2",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Zhujiang Financial Leasing Small and Medium-Sized Enterprises Finance",
+                    "value1": "Loan",
+                    "value2": "40.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "40.0",
+                    "value6": "-",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "42.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "42.9",
+                    "value6": "42.9"
+                },
+                {
+                    "value0": "Fiji",
+                    "value1": "-",
+                    "value2": "40.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "40.0",
+                    "value6": "40.0"
+                },
+                {
+                    "value0": "Fiji Airways COVID-19 Liquidity Support Facility",
+                    "value1": "Loan",
+                    "value2": "40.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "40.0",
+                    "value6": "40.0"
+                },
+                {
+                    "value0": "Georgia",
+                    "value1": "",
+                    "value2": "170.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "170.0",
+                    "value6": "170.0",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Georgian Railway Green Bond (Debt Financing)",
+                    "value1": "Debt Security",
+                    "value2": "50.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "50.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Bank of Georgia COVID-19 Response to Support Micro, Small, and Medium-Sized Enterprises",
+                    "value1": "Loan",
+                    "value2": "100.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "100.0",
+                    "value6": "100.0",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "M Square Affordable Housing",
+                    "value1": "Loan",
+                    "value2": "10.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "10.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "10.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "10.0",
+                    "value6": "10.0"
+                },
+                {
+                    "value0": "India",
+                    "value1": "",
+                    "value2": "420.8",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "420.8",
+                    "value6": "166.4",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "GRIL Phase II Highway Equipment Finance (Debt Financing)",
+                    "value1": "Debt Security",
+                    "value2": "19.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "19.9",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Bengaluru Smart Energy Efficient Power Distribution",
+                    "value1": "Loan",
+                    "value2": "90.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "90.4",
+                    "value6": "-"
+                },
+                {
+                    "value0": "DBL Highway",
+                    "value1": "Loan",
+                    "value2": "51.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "51.1",
+                    "value6": "-"
+                },
+                {
+                    "value0": "IIFLHF Supporting Access to Affordable Green Housing for Women (Debt Financing)",
+                    "value1": "Debt Security",
+                    "value2": "58.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "58.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "COVID-19 Hospital Service Delivery Project",
+                    "value1": "Debt Security",
+                    "value2": "13.7",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "13.7",
+                    "value6": "13.7"
+                },
+                {
+                    "value0": "Krsnaa COVID-19 Diagnostic Services",
+                    "value1": "Debt Security",
+                    "value2": "5.5",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "5.5",
+                    "value6": "5.5",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Shubham Supporting Housing Finance in Semi- and Peri-Urban Areas",
+                    "value1": "Equity",
+                    "value2": "24.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "24.4",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Zenex Improved Animal Health and Welfare",
+                    "value1": "Equity",
+                    "value2": "10.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "10.4",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "0.2",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "0.2",
+                    "value6": "0.2"
+                },
+                {
+                    "value0": "Microfinance Program",
+                    "value1": "MFP",
+                    "value2": "147.2",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "147.2",
+                    "value6": "147.0"
+                },
+                {
+                    "value0": "Indonesia",
+                    "value1": "",
+                    "value2": "10.2",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "10.2",
+                    "value6": "0.4",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Cimory Inclusive Dairy Value Chain",
+                    "value1": "Equity",
+                    "value2": "9.7",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "9.7",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "0.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "0.4",
+                    "value6": "0.4"
+                },
+                {
+                    "value0": "Malaysia",
+                    "value1": "",
+                    "value2": "24.8",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "24.8",
+                    "value6": "0.2",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "24.8",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "24.8",
+                    "value6": "0.2"
+                },
+                {
+                    "value0": "Mongolia",
+                    "value1": "",
+                    "value2": "11.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "11.1",
+                    "value6": "11.1",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "11.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "11.1",
+                    "value6": "11.1"
+                },
+                {
+                    "value0": "Nepal",
+                    "value1": "",
+                    "value2": "11.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "11.4",
+                    "value6": "11.4",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "11.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "11.4",
+                    "value6": "11.4"
+                },
+                {
+                    "value0": "Pakistan",
+                    "value1": "",
+                    "value2": "893.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "893.4",
+                    "value6": "893.4",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "893.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "893.4",
+                    "value6": "893.4"
+                },
+                {
+                    "value0": "Papua New Guinea",
+                    "value1": "",
+                    "value2": "25.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "25.0",
+                    "value6": "-",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Pacific Telecommunications Modernization",
+                    "value1": "Equity",
+                    "value2": "25.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "25.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Regional",
+                    "value1": "",
+                    "value2": "250.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "250.0",
+                    "value6": "80",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Investment in Lombard Asia V, L.P.",
+                    "value1": "Equity",
+                    "value2": "20.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "20.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "New Hope COVID-19 Working Capital Support",
+                    "value1": "Loan",
+                    "value2": "20.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "20.0",
+                    "value6": "20.0"
+                },
+                {
+                    "value0": "Investment in PAG Growth II L.P.",
+                    "value1": "Equity",
+                    "value2": "50.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "50.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "ECOM COVID-19 Smallholder Farmer Climate Resilience and Livelihood Support",
+                    "value1": "Loan",
+                    "value2": "60.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "60.0",
+                    "value6": "60.0"
+                },
+                {
+                    "value0": "Investment in Northstar Equity Partners V Limited",
+                    "value1": "Equity",
+                    "value2": "40.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "40.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Investment in Creador V L.P.",
+                    "value1": "Equity",
+                    "value2": "60",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "60",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Samoa",
+                    "value1": "",
+                    "value2": "0.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "0.1",
+                    "value6": "0.1",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "0.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "0.1",
+                    "value6": "0.1"
+                },
+                {
+                    "value0": "Sri Lanka",
+                    "value1": "",
+                    "value2": "223.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "223.0",
+                    "value6": "198.0",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "John Keells Modern Retail Infrastructure Expansion",
+                    "value1": "Equity",
+                    "value2": "25.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "25.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "198.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "198.0",
+                    "value6": "198.0",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Tajikistan",
+                    "value1": "",
+                    "value2": "1.6",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "1.6",
+                    "value6": "1.6"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "1.6",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "1.6",
+                    "value6": "1.6"
+                },
+                {
+                    "value0": "Thailand",
+                    "value1": "",
+                    "value2": "121.8",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "121.8",
+                    "value6": "110.7",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Green Yellow Rooftop Solar",
+                    "value1": "Loan",
+                    "value2": "11.2",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "11.2",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "110.7",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "110.7",
+                    "value6": "110.7"
+                },
+                {
+                    "value0": "Uzbekistan",
+                    "value1": "192.6",
+                    "value2": "",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "192.6",
+                    "value6": "173.7",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Hamkorbank Expanding Access to Credit for Micro, Small and Medium-Sized Enterprise and Agriculture Borrowers",
+                    "value1": "Loan",
+                    "value2": "18.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "18.9",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Korzinka COVID-19 Food Retail Supply Chain Support",
+                    "value1": "Loan",
+                    "value2": "11.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "11.9",
+                    "value6": "11.9"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "161.8",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "161.8",
+                    "value6": "161.8",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Viet Nam",
+                    "value1": "",
+                    "value2": "847.4",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "847.4",
+                    "value6": "662.9",
+                    "class":"title-row-bold"
+                },
+                {
+                    "value0": "Vietnam International Bank Supporting Small and Medium-Sized Enterprises and Improving Living Conditions",
+                    "value1": "Loan",
+                    "value2": "100.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "100.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "B.Grimm Viet Nam Solar Power (Dau Tieng)",
+                    "value1": "Loan",
+                    "value2": "24.5",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "24.5",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Lotus Wind Power",
+                    "value1": "Loan",
+                    "value2": "35.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "35.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Tien Phong Bank Expanding Access to Finance for Small and Medium-Sized Enterprises Owned and Led by Women",
+                    "value1": "Loan",
+                    "value2": "25.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "25.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Trade and Supply Chain Finance Program",
+                    "value1": "TSCFP",
+                    "value2": "662.9",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "662.9",
+                    "value6": "662.9"
+                }
+
+                
             ]
         ]
     },
