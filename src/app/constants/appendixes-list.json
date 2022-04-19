@@ -3482,6 +3482,248 @@
       },
       {
         "type": "expansion-panel",
+        "subTitle": [
+            {
+                "title": "Southeast Asia"
+            },
+            {
+                "title": ""
+            },
+            {
+                "title": "4,082.6"
+            },
+            {
+                "title": "424.1"
+            },
+            {
+                "title": "-"
+            },
+            {
+                "title": "4506.6"
+            },
+            {
+                "title": "3,146.0"
+            }
+        ],
+        "subData": [
+            [
+                {
+                    "value0": "Cambodia",
+                    "value1": "",
+                    "value2": "-",
+                    "value3": "327.1",
+                    "value4": "-",
+                    "value5": "327.1",
+                    "value6": "65.0",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Inclusive Financial Sector Development Program (Subprogram 3)",
+                    "value1": "PBL",
+                    "value2": "-",
+                    "value3": "40.0",
+                    "value4": "-",
+                    "value5": "40.0",
+                    "value6": "40.0"
+                },
+                {
+                    "value0": "Greater Mekong Subregion Health Security – Additional Financing",
+                    "value1": "Project",
+                    "value2": "-",
+                    "value3": "25.0",
+                    "value4": "-",
+                    "value5": "25.0",
+                    "value6": "25.0"
+                },
+                {
+                    "value0": "Livable Cities Investment",
+                    "value1": "Project",
+                    "value2": "-",
+                    "value3": "180.0",
+                    "value4": "-",
+                    "value5": "180.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Road Network Improvement (Phase 2)",
+                    "value1": "Project",
+                    "value2": "-",
+                    "value3": "82.1",
+                    "value4": "-",
+                    "value5": "82.1",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Indonesia",
+                    "value1": "",
+                    "value2": "1679.5",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "1679.5",
+                    "value6": "1031.0",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Higher Education for Technology and Innovation",
+                    "value1": "Project",
+                    "value2": "79.5",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "79.5",
+                    "value6": "31.0"
+                },
+                {
+                    "value0": "Competitiveness, Industrial Modernization, and Trade Acceleration Program (Subprogram 1)",
+                    "value1": "PBL",
+                    "value2": "500.0",
+                    "value3": "",
+                    "value4": "-",
+                    "value5": "500.0",
+                    "value6": "500.0"
+                },
+                {
+                    "value0": "Sustainable and Reliable Energy Access Program—Western and Central Java",
+                    "value1": "PBL",
+                    "value2": "600.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "600.0",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Boosting Productivity Through Human Capital Development Program (Subprogram 1)",
+                    "value1": "PBL",
+                    "value2": "500.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "500.0",
+                    "value6": "500.0,"
+                },
+                {
+                    "value0": "Philippines",
+                    "value1": "",
+                    "value2": "2225.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "2225.1",
+                    "value6": "2050.0",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Facilitating Youth School-to-Work Transition Program (Subprogram 3)",
+                    "value1": "PBL",
+                    "value2": "400.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "400.0",
+                    "value6": "400.0,"
+                },
+                {
+                    "value0": "Local Governance Reform Program (Subprogram 2)",
+                    "value1": "PBL",
+                    "value2": "400.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "400.0",
+                    "value6": "400.0,"
+                },
+                {
+                    "value0": "Metro Manila Bridges",
+                    "value1": "Project",
+                    "value2": "175.1",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "175.1",
+                    "value6": "-"
+                },
+                {
+                    "value0": "Second Health System Enhancement to Address and Limit COVID-19 under the Asia Pacific Vaccine Access Facility",
+                    "value1": "APVAX",
+                    "value2": "400.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "400.0",
+                    "value6": "400.0,"
+                },
+                {
+                    "value0": "Second Health System Enhancement to Address and Limit COVID-19 under the Asia Pacific Vaccine Access Facility – Additional Financing",
+                    "value1": "APVAX",
+                    "value2": "250.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "250.0",
+                    "value6": "250.0,"
+                },
+                {
+                    "value0": "Build Universal Health Care Program (Subprogram 1)",
+                    "value1": "PBL",
+                    "value2": "600.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "600.0",
+                    "value6": "600.0,"
+                },
+                {
+                    "value0": "Timor-Leste",
+                    "value1": "",
+                    "value2": "120.0",
+                    "value3": "97.0",
+                    "value4": "-",
+                    "value5": "217.0",
+                    "value6": "-",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Power Distribution Modernization",
+                    "value1": "Project",
+                    "value2": "35.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "35.0",
+                    "value6": "35.0,"
+                },
+                {
+                    "value0": "Presidente Nicolau Lobato International Airport Expansion",
+                    "value1": "Project",
+                    "value2": "85.0",
+                    "value3": "50.0",
+                    "value4": "-",
+                    "value5": "135.0",
+                    "value6": "-,"
+                },
+                {
+                    "value0": "Water Supply and Sanitation Investment",
+                    "value1": "Project",
+                    "value2": "-",
+                    "value3": "47.0",
+                    "value4": "-",
+                    "value5": "47.0",
+                    "value6": "-,"
+                },
+                {
+                    "value0": "Viet Nam",
+                    "value1": "",
+                    "value2": "58.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "58.1",
+                    "value6": "-",
+                    "class": "title-row-bold"
+                },
+                {
+                    "value0": "Climate Resilient Inclusive Infrastructure for Ethnic Minorities I",
+                    "value1": "Project",
+                    "value2": "58.0",
+                    "value3": "-",
+                    "value4": "-",
+                    "value5": "58.0",
+                    "value6": "-,"
+                }
+            ]
+        ]
+    },
+      {
+        "type": "expansion-panel",
         "subTitle": [{
             "title": "TOTAL"
           },

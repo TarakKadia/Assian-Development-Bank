@@ -108,11 +108,11 @@
                     "datasets": [
                         {
                             "label": "1",
-                            "centerText": "",
+                            "centerText": "67%",
                             "data": [
-                                40,
-                                45,
-                                15
+                                20,
+                                47,
+                                33
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -142,12 +142,11 @@
                     "datasets": [
                         {
                             "label": "2",
-                            "centerText": "90%",
+                            "centerText": "100%",
                             "data": [
-                                55,
-                                45,
-                                5
-                            ],
+                                40,
+                                60,
+                                0                          ],
                             "backgroundColor": [
                                 "#d94e2f",
                                 "#b4b5b4",
@@ -177,11 +176,11 @@
                     "datasets": [
                         {
                             "label": "3",
-                            "centerText": "",
+                            "centerText": "60%",
                             "data": [
-                                10,
-                                40,
-                                50
+                                13,
+                                47,
+                                40
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -212,11 +211,11 @@
                     "datasets": [
                         {
                             "label": "4",
-                            "centerText": "",
+                            "centerText": "13%",
                             "data": [
-                                5,
-                                15,
-                                80
+                                0,
+                                13,
+                                87
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -247,11 +246,11 @@
                     "datasets": [
                         {
                             "label": "5",
-                            "centerText": "",
+                            "centerText": "13%",
                             "data": [
-                                8,
-                                22,
-                                70
+                                7,
+                                7,
+                                86
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -281,11 +280,11 @@
                     "datasets": [
                         {
                             "label": "6",
-                            "centerText": "",
+                            "centerText": "87%",
                             "data": [
-                                30,
-                                45,
-                                25
+                                33,
+                                53,
+                                13
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -315,10 +314,10 @@
                     "datasets": [
                         {
                             "label": "7",
-                            "centerText": "",
+                            "centerText": "40%",
                             "data": [
-                                25,
-                                15,
+                                13,
+                                27,
                                 60
                             ],
                             "backgroundColor": [

@@ -96,11 +96,11 @@
                     "datasets": [
                         {
                             "label": "1",
-                            "centerText": "",
+                            "centerText": "100%",
                             "data": [
-                                40,
-                                45,
-                                15
+                                52,
+                                48,
+                                0
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -130,11 +130,11 @@
                     "datasets": [
                         {
                             "label": "2",
-                            "centerText": "90%",
+                            "centerText": "100%",
                             "data": [
-                                55,
-                                45,
-                                5
+                                52,
+                                48,
+                                0
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -165,11 +165,11 @@
                     "datasets": [
                         {
                             "label": "3",
-                            "centerText": "",
+                            "centerText": "81%",
                             "data": [
-                                10,
-                                40,
-                                50
+                                33,
+                                48,
+                                19
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -200,11 +200,11 @@
                     "datasets": [
                         {
                             "label": "4",
-                            "centerText": "",
+                            "centerText": "37%",
                             "data": [
-                                5,
-                                15,
-                                80
+                                7,
+                                30,
+                                63
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -235,11 +235,11 @@
                     "datasets": [
                         {
                             "label": "5",
-                            "centerText": "",
+                            "centerText": "22%",
                             "data": [
-                                8,
-                                22,
-                                70
+                                7,
+                                15,
+                                78
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -269,11 +269,11 @@
                     "datasets": [
                         {
                             "label": "6",
-                            "centerText": "",
+                            "centerText": "85%",
                             "data": [
-                                30,
-                                45,
-                                25
+                                41,
+                                44,
+                                15
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
@@ -303,11 +303,11 @@
                     "datasets": [
                         {
                             "label": "7",
-                            "centerText": "",
+                            "centerText": "44%",
                             "data": [
-                                25,
-                                15,
-                                60
+                                26,
+                                19,
+                                66
                             ],
                             "backgroundColor": [
                                 "#d94e2f",
