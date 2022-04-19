@@ -2455,20 +2455,26 @@
   },
   {
     "type": "accordian-table",
-    "heading": "Appendix 2: Loans and Grants Committed, 2021 Regular Ordinary Capital and Concessional Resources Commitments ($ million)",
+    "heading": "Appendix 3: Approvals, 2017–2021 ($ million)",
     "subHeading": "",
     "note": [
-      "– = nil, 0 = less than $500,000, ADB = Asian Development Bank, COVID-19 = coronavirus disease.<br> Notes: <br> 1.Beginning in 2020, commitments from ADB’s internal resources include private sector programs (the Trade and Supply Chain Finance Program and Microfinance Program). Inclusion of ADB’s exposure (or committed redeployed capital) under private sector programs fully reflects the total financing committed, while at the same time, ADB reports on cofinancing mobilized by these programs. Commitments under private sector programs will distinguish long-term and short-term financing.",
-      "2. Numbers may not sum precisely because of rounding.",
-      "<sup class='noteSup' >a</sup> Commitment is the financing approved by the ADB Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. It is the amount indicated in the investment agreement that may or may not be equal to the approved amount, depending on the exchange rate at the time of signing. In the case of official and commercial cofinancing not administered by ADB for which the signed amount is not readily available, the approved amount is used.",
-      "<sup class='noteSup'>b</sup> In August 2020, ADB’s Trade Finance Program and Supply Chain Finance Program merged their operations.",
-      "<sup class='noteSup' >c</sup> The 2019 and 2020 adjusted figures exclude $150,000 and $13 million under nonsovereign ADB financing, respectively, to reduce the trade finance component of the Trade and Supply Chain Finance Program amounts as finalized by the Private Sector Operations Department.",
-      "<sup class='noteSup' >d</sup> The trade finance component of the Trade and Supply Chain Finance Program represents 86% of this figure and supported 6,790 transactions during the reporting period, with an average maturity of 162 days.",
-      "<sup class='noteSup'>e</sup> Comprises funds other than the Asian Development Fund, such as the Asia Pacific Disaster Response Fund and the Climate Change Fund.",
-      "<sup class='noteSup' >f</sup>   This figure includes $6 million under sovereign cofinancing commitments for one project.",
-      "<sup class='noteSup'>g</sup> “Others” includes concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, corporate social responsibility programs, and civil society organizations) other than official development assistance sources.",
-      "<sup class='noteSup'>h</sup> Nonsovereign cofinancing includes commercial cofinancing such as B loans and parallel loans, among others. B loans are cofinancing arrangements involving the coordinated process of pooling funds from various sources for a single borrower or grant recipient and/or distributing related risks among such other financiers. The 2019 adjusted figure includes $65 million under nonsovereign cofinancing for two projects.",
-      "<sup class='noteSup'>i</sup> This figure includes $150,000 under nonsovereign cofinancing commitments to increase the trade finance component of the Trade and Supply Chain Finance Program amount as finalized by the Private Sector Operations Department."
+      "– = nil, 0 = less than $500,000, ADB = Asian Development Bank, COVID-19 = coronavirus disease.<br> Note: Numbers may not sum precisely because of rounding.<br>",
+      "<sup class='noteSup' >a</sup>Excludes terminated loans, grants, equities, guarantees, and technical assistance.",
+      "<sup class='noteSup' >b</sup>Includes $300 million classified as debt securities in financial statements in accordance with accounting standards. ",
+      "<sup class='noteSup' >c</sup> Includes $20 million classified as debt securities in financial statements in accordance with accounting standards.",
+      "<sup class='noteSup' >d</sup> Includes $357 million classified as debt securities in financial statements in accordance with accounting standards",
+      "<sup class='noteSup' >e</sup> The 2019 adjusted figures of $50 million each under nonsovereign loan and guarantee approvals are due to the reclassification of one project",
+      "<sup class='noteSup' >f</sup> Includes $210 million classified as debt securities in financial statements in accordance with accounting standards",
+      "<sup class='noteSup' >g</sup> Includes $182 million classified as debt securities in financial statements in accordance with accounting standards.",
+      "<sup class='noteSup' >h</sup> Includes $142 million classified as debt securities in financial statements in accordance with accounting standards.",
+      "<sup class='noteSup' >i</sup> In August 2020, ADB’s Trade Finance Program and Supply Chain Finance Program merged their operations.",
+      "<sup class='noteSup' >j</sup> Special funds other than the Asian Development Fund such as the Asia Pacific Disaster Response Fund and Climate Change Fund.",
+      "<sup class='noteSup' >k</sup> The 2018 adjusted figure is due to the cancellation of $600,000 for one nonsovereign technical assistance project.",
+      "<sup class='noteSup' >l</sup> The 2018 adjusted figure is due to additional $24 million sovereign cofinancing for one project.",
+      "<sup class='noteSup' >m</sup> The 2019 adjusted figure is due to the cancellation of $73 million under sovereign cofinancing approvals for two projects, and additional $168 millio",
+      "<sup class='noteSup' >n</sup> The 2020 adjusted figure is due to the cancellation of $500 million sovereign cofinancing under one project and an additional $32 million sovereign",
+      "<sup class='noteSup' >o</sup> “Others” includes concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, and corporate social responsibility programs, and civil society organizations) other than official development assistance sources.",
+      "<sup class='noteSup' >p</sup> Nonsovereign cofinancing includes commercial cofinancing such as B loans, risk transfers, and parallel loans, among others."
     ],
     "data": [
       {
@@ -2476,25 +2482,78 @@
         "data": [
           [
             {
-              "title": "Region/Country/Loan or Grant Title"
+              "title": ""
             },
             {
-              "title": "Modality"
+              "title": "2017"
             },
             {
-              "title": "Regular OCR"
+              "title": "2018"
             },
             {
-              "title": "Concessional OCR"
+              "title": "2019"
             },
             {
-              "title": "ADF Grant"
+              "colspan": 2,
+              "title": "2020"
+            },
+            {
+              "colspan": 2,
+              "title": "2021"
+            }
+          ],
+          [
+            {
+              "title": "Item"
             },
             {
               "title": "Total"
             },
             {
+              "title": "Total"
+            },
+            {
+              "title": "Total"
+            },
+            {
+              "title": "Total",
+              "class": "lightOrange-bg"
+            },
+            {
               "title": "COVID-19 Response"
+            },
+            {
+              "title": "Total",
+              "class": "lightOrange-bg"
+            },
+            {
+              "title": "COVID-19 Response"
+            }
+          ],
+          [
+            {
+              "title": "Loan,Grants,and other"
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
+            },
+            {
+              "title": ""
             }
           ]
         ]
@@ -2503,7 +2562,7 @@
         "type": "expansion-panel",
         "subTitle": [
           {
-            "title": "A. SOVEREIGN OPERATIONS",
+            "title": "By Source",
             "class": "colorGrey"
           },
           {
@@ -2511,332 +2570,300 @@
             "class": "colorGrey"
           },
           {
-            "title": "15273.9",
+            "title": "",
             "class": "colorGrey"
           },
           {
-            "title": "2648.4",
+            "title": "",
             "class": "colorGrey"
           },
           {
-            "title": "344.3",
+            "title": "",
             "class": "colorGrey"
           },
           {
-            "title": "18266.6",
-            "class": "lightOrange-bg"
+            "title": "",
+            "class": "colorGrey"
           },
           {
-            "title": "10,173.2",
-            "class": "lightOrange-bg"
+            "title": "",
+            "class": "colorGrey"
+          },
+          {
+            "title": "",
+            "class": "colorGrey"
           }
         ],
         "subData": [
           [
             {
-              "value0": "Central and West Asia",
-              "value1": "",
-              "value2": "2470.9",
-              "value3": "1191.3",
-              "value4": "184.7",
-              "value5": "3846.9",
-              "value6": "2071.3",
+              "value0": "Regular Ordinary Capital Resources",
+              "value1": "16584",
+              "value2": "14105",
+              "value3": "15661",
+              "value4": "23485",
+              "value5": "12867",
+              "value6": "16407",
+              "value7": "8695",
               "class": "title-row-normal"
             },
             {
-              "value0": "Afghanistan<sup>a</sup>",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "50.0",
-              "value5": "50.0",
-              "value6": "50.0",
-              "class": "title-row-bold"
+              "value0": "Loan",
+              "value1": "15764<sup>b</sup>",
+              "value2": "13342<sup>c</sup>",
+              "value3": "15371<sup>d,e</sup>",
+              "value4": "22219<sup>f</sup>",
+              "value5": "11807<sup>g</sup>",
+              "value6": "16152<sup>h</sup>",
+              "value7": "8695"
             },
             {
-              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "-",
-              "value4": "50.0",
-              "value5": "50.0",
-              "value6": "50.0"
+              "value0": "Equity Investment",
+              "value1": "390",
+              "value2": "235",
+              "value3": "290",
+              "value4": "200",
+              "value5": "-",
+              "value6": "246",
+              "value7": "-"
             },
             {
-              "value0": "Azerbaijan",
-              "value1": "",
-              "value2": "250.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "250.0",
-              "value6": "250.0"
+              "value0": "Guarantees",
+              "value1": "330",
+              "value2": "78",
+              "value3": "-<sup>e</sup>",
+              "value4": "5",
+              "value5": "-",
+              "value6": "10",
+              "value7": "-"
             },
             {
-              "value0": "COVID-19 Active Response and Expenditure Support Program",
-              "value1": "CPRO",
-              "value2": "250.0",
+              "value0": "Trade and Supply Chain Finance Program <sup>i</sup>",
+              "value1": "-",
+              "value2": "450",
               "value3": "-",
-              "value4": "-",
-              "value5": "250.0",
-              "value6": "250.0",
+              "value4": "800",
+              "value5": "800",
+              "value6": "-",
+              "value7": "-",
               "class": "title-row-normal"
             },
             {
-              "value0": "Georgia",
-              "value1": "",
-              "value2": "229.4",
+              "value0": "Microfinance Program",
+              "value1": "100",
+              "value2": "-",
               "value3": "-",
-              "value4": "-",
-              "value5": "229.4",
-              "value6": "115.6"
-            },
-            {
-              "value0": "Electricity Transmission Sector Reforms Program",
-              "value1": "PBL",
-              "value2": "100.9",
-              "value3": "-",
-              "value4": "-",
-              "value5": "100.9",
-              "value6": "100.9"
-            },
-            {
-              "value0": "Livable Cities Investment for Balanced Development",
-              "value1": "Project",
-              "value2": "113.8",
-              "value3": "-",
-              "value4": "-",
-              "value5": "113.8",
+              "value4": "260",
+              "value5": "260",
               "value6": "-",
+              "value7": "-"
+            },
+            {
+              "value0": "Concessional Resources",
+              "value1": "2267",
+              "value2": "5205",
+              "value3": "3522",
+              "value4": "5492",
+              "value5": "1861",
+              "value6": "3054",
+              "value7": "2124"
+            },
+            {
+              "value0": "Loans",
+              "value1": "1715",
+              "value2": "4165",
+              "value3": "2679",
+              "value4": "4440",
+              "value5": "1466",
+              "value6": "2769",
+              "value7": "1998"
+            },
+            {
+              "value0": "Grants",
+              "value1": "551",
+              "value2": "1040",
+              "value3": "843",
+              "value4": "1052",
+              "value5": "395",
+              "value6": "284",
+              "value7": "126"
+            },
+            {
+              "value0": "Special Funds <sup>j</sup>",
+              "value1": "2",
+              "value2": "6",
+              "value3": "-",
+              "value4": "64",
+              "value5": "58",
+              "value6": "1",
+              "value7": "-"
+            },
+            {
+              "value0": "Grants",
+              "value1": "2",
+              "value2": "6",
+              "value3": "-",
+              "value4": "64",
+              "value5": "58",
+              "value6": "1",
+              "value7": "-"
+            },
+            {
+              "value0": "Subtotal (A)",
+              "value1": "18853",
+              "value2": "19316",
+              "value3": "19183",
+              "value4": "29041",
+              "value5": "14787",
+              "value6": "19462",
+              "value7": "10819",
+              "class": "title-row-bold"
+            }
+          ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "By Operations"
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          },
+          {
+            "title": ""
+          }
+        ],
+        "subData": [
+          [
+            {
+              "value0": "Sovergian ",
+              "value1": "15799",
+              "value2": "15642",
+              "value3": "17642",
+              "value4": "26331",
+              "value5": "13109",
+              "value6": "18253",
+              "value7": "10601",
               "class": "title-row-bold"
             },
             {
-              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "14.7",
-              "value3": "-",
-              "value4": "-",
-              "value5": "14.7",
-              "value6": "14.7",
-              "class": "title-row-bold"
+              "value0": "Loans",
+              "value1": "15246",
+              "value2": "14596",
+              "value3": "16800",
+              "value4": "25215",
+              "value5": "12656",
+              "value6": "17958",
+              "value7": "10475"
             },
             {
-              "value0": "Kyrgyz Republic",
-              "value1": "",
+              "value0": "Gurantees",
+              "value1": "-",
               "value2": "-",
-              "value3": "118.3",
-              "value4": "71.7",
-              "value5": "190.0",
-              "value6": "105.0"
-            },
-            {
-              "value0": "Promoting Economic Diversification Program (Subprogram 2)",
-              "value1": "PBL",
-              "value2": "-",
-              "value3": "69.3",
-              "value4": "10.7",
-              "value5": "80.0",
-              "value6": "80.0"
-            },
-            {
-              "value0": "Landslide Risk Management Sector",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "11.5",
-              "value4": "23.5",
-              "value5": "35.0",
-              "value6": "-",
-              "class": "title-row-bold"
-            },
-            {
-              "value0": "Urban Transport Electrification",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "25.0",
-              "value4": "25.0",
-              "value5": "50.0",
-              "value6": "-",
-              "class": "title-row-bold"
-            },
-            {
-              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "12.5",
-              "value4": "12.5",
-              "value5": "25.0",
-              "value6": "25.0"
-            },
-            {
-              "value0": "Pakistan",
-              "value1": "",
-              "value2": "1527.8",
-              "value3": "800.0",
-              "value4": "8.0",
-              "value5": "2335.8",
-              "value6": "1326.0",
-              "class": "subTotal"
-            },
-            {
-              "value0": "Integrated Social Protection Development Program",
-              "value1": "RBL",
-              "value2": "600.0",
-              "value3": "-",
-              "value4": "3.0",
-              "value5": "603.0",
-              "value6": "526.0"
-            },
-            {
-              "value0": "Central Asia Regional Economic Cooperation Corridor Development Investment Program – Tranche 2",
-              "value1": "MFF",
-              "value2": "235.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "235.0",
-              "value6": "235.0"
-            },
-            {
-              "value0": "Balakot Hydropower Development",
-              "value1": "Project",
-              "value2": "300.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "300.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Khyber Pakhtunkhwa Cities Improvement",
-              "value1": "Project",
-              "value2": "372.8",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "377.8",
-              "value6": "-"
-            },
-            {
-              "value0": "Preparing Kurram Tangi Integrated Water Resources Development Project",
-              "value1": "PRF",
-              "value2": "5.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "5.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Energy Sector Reforms and Financial Sustainability Program (Subprogram 2)",
-              "value1": "PBL",
-              "value2": "-",
-              "value3": "300.0",
-              "value4": "-",
-              "value5": "300.0",
-              "value6": "300.0"
-            },
-            {
-              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "500.0",
-              "value4": "-",
-              "value5": "500.0",
-              "value6": "500.0"
-            },
-            {
-              "value0": "Khyber Pakhtunkhwa Cities Improvement – Second Project PRF 15.0 Readiness Financing",
-              "value1": "PRF",
-              "value2": "15.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "15.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Tajikistan",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "55.0",
-              "value5": "55.0",
-              "value6": "25.0"
-            },
-            {
-              "value0": "Climate- and Disaster-Resilient Irrigation and Drainage Modernization in the Vakhsh River Basin",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "30.0",
-              "value5": "30.0",
-              "value6": "-"
-            },
-            {
-              "value0": "COVID-19 Vaccine Support under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "-",
-              "value4": "25.0",
-              "value5": "25.0",
-              "value6": "25.0"
-            },
-            {
-              "value0": "Uzbekistan",
-              "value1": "",
-              "value2": "463.7",
-              "value3": "273.0",
-              "value4": "-",
-              "value5": "736.7",
-              "value6": "199.7"
-            },
-            {
-              "value0": "Small and Medium-Sized Enterprises Development Program (Subprogram 1)",
-              "value1": "PBL",
-              "value2": "19.7",
-              "value3": "80.0",
-              "value4": "-",
-              "value5": "99.7",
-              "value6": "99.7"
-            },
-            {
-              "value0": "Central Asia Regional Economic Cooperation Corridor 2 (Pap–Namangan–Andijan) Railway Electrification – Additional Financing",
-              "value1": "Project",
-              "value2": "121.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "121.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Skills Development for a Modern Economy",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "93.0",
-              "value4": "-",
-              "value5": "93.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Tashkent Province Sewerage Improvement",
-              "value1": "Project",
-              "value2": "161.0",
               "value3": "-",
               "value4": "-",
               "value5": "-",
-              "value6": "161.0"
+              "value6": "10",
+              "value7": "-"
             },
             {
-              "value0": "Financial Markets Development Program (Subprogram 1)",
-              "value1": "PBL",
-              "value2": "-",
-              "value3": "100.0",
-              "value4": "-",
-              "value5": "100.0",
-              "value6": "100.0"
+              "value0": "Grants",
+              "value1": "553",
+              "value2": "1046",
+              "value3": "843",
+              "value4": "1116",
+              "value5": "453",
+              "value6": "285",
+              "value7": "126"
             },
             {
-              "value0": "Central Asia Regional Economic Cooperation Corridor 2 (Bukhara–Miskin–Urgench–Khiva) Railway Electrification",
-              "value1": "Project",
-              "value2": "162.0",
+              "value0": "Nonsovereign",
+              "value1": "3054",
+              "value2": "3674",
+              "value3": "1541",
+              "value4": "2710",
+              "value5": "1677",
+              "value6": "1209",
+              "value7": "218"
+            },
+            {
+              "value0": "Loans",
+              "value1": "2234<sup>b</sup>",
+              "value2": "2911<sup>c</sup>",
+              "value3": "1251<sup>d,e</sup>",
+              "value4": "1444<sup>f</sup>",
+              "value5": "617<sup>g</sup>",
+              "value6": "963<sup>h</sup>",
+              "value7": "218"
+            },
+            {
+              "value0": "Equity Investments",
+              "value1": "390",
+              "value2": "235",
+              "value3": "290",
+              "value4": "200",
+              "value5": "-",
+              "value6": "246",
+              "value7": "-"
+            },
+            {
+              "value0": "Guarantees",
+              "value1": "330",
+              "value2": "78",
+              "value3": "-<sup>e</sup>",
+              "value4": "5",
+              "value5": "-",
+              "value6": "-",
+              "value7": "-"
+            },
+            {
+              "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>i</sup>",
+              "value1": "-",
+              "value2": "450",
               "value3": "-",
-              "value4": "-",
-              "value5": "162.0",
-              "value6": "-"
+              "value4": "800",
+              "value5": "800",
+              "value6": "-",
+              "value7": "-",
+              "class": "title-row-bold"
+            },
+            {
+              "value0": "Microfinance Program",
+              "value1": "100",
+              "value2": "-",
+              "value3": "-",
+              "value4": "260",
+              "value5": "260",
+              "value6": "-",
+              "value7": "-"
+            },
+            {
+              "value0": "Subtotal(A)",
+              "value1": "18853",
+              "value3": "19316",
+              "value4": "19183",
+              "value2": "29041",
+              "value5": "14787",
+              "value6": "19462",
+              "value7": "10819",
+              "class": "title-row-bold"
             }
           ]
         ]
@@ -2845,164 +2872,62 @@
         "type": "expansion-panel",
         "subTitle": [
           {
-            "title": "East Asia"
+            "title": "Technical Assistance"
           },
           {
             "title": ""
           },
           {
-            "title": "1772.9"
+            "title": ""
           },
           {
-            "title": "36.1"
+            "title": ""
           },
           {
-            "title": "-"
+            "title": ""
           },
           {
-            "title": "1809.0"
+            "title": ""
           },
           {
-            "title": "421.2"
+            "title": ""
+          },
+          {
+            "title": ""
           }
         ],
         "subData": [
           [
             {
-              "value0": "China, People’s Republic of Investment Program – Tranche 3",
-              "value1": "",
-              "value2": "1617.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "1,617.0",
-              "value6": "229.2",
+              "value0": "Sovereigon",
+              "value1": "196",
+              "value2": "200",
+              "value3": "220",
+              "value4": "282",
+              "value5": "128",
+              "value6": "211",
+              "value7": "25"
+            },
+            {
+              "value0": "Nonsoveregion",
+              "value1": "9",
+              "value2": "14<sup>k</sup>",
+              "value3": "17",
+              "value4": "12",
+              "value5": "6",
+              "value6": "21",
+              "value7": "7"
+            },
+            {
+              "value0": "Subtotal(B)",
+              "value1": "205",
+              "value2": "214",
+              "value3": "237",
+              "value4": "294",
+              "value5": "134",
+              "value6": "232",
+              "value7": "32",
               "class": "title-row-bold"
-            },
-            {
-              "value0": "Guangxi Regional Cooperation and Integration Promotion",
-              "value1": "MFF",
-              "value2": "140.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "140.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Air Quality Improvement in the Greater Beijing–Tianjin–Hebei Region—Green Financing Scale Up",
-              "value1": "Project",
-              "value2": "151.5",
-              "value3": "-",
-              "value4": "-",
-              "value5": "151.5",
-              "value6": "-"
-            },
-            {
-              "value0": "Guangxi Hezhou Environment Restoration and Sustainable Development",
-              "value1": "Project",
-              "value2": "95.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "95.0",
-              "value6": "78.7"
-            },
-            {
-              "value0": "Shaanxi Green Intelligent Transport and Logistics Management Demonstration",
-              "value1": "Project",
-              "value2": "200.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "200.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Public Service Sector Public–Private Partnership Promotion and Elderly Care Demonstration",
-              "value1": "Project",
-              "value2": "140.8",
-              "value3": "-",
-              "value4": "-",
-              "value5": "140.8",
-              "value6": "140.8"
-            },
-            {
-              "value0": "Jiangxi Ganzhou Rural Vitalization and Comprehensive Environment Improvement",
-              "value1": "Project",
-              "value2": "191.2",
-              "value3": "-",
-              "value4": "-",
-              "value5": "191.2",
-              "value6": "-"
-            },
-            {
-              "value0": "Hunan Xiangxi Rural Environmental Improvement and Green Development",
-              "value1": "Project",
-              "value2": "200.5",
-              "value3": "-",
-              "value4": "-",
-              "value5": "200.5",
-              "value6": "-"
-            },
-            {
-              "value0": "Hunan Miluo River Disaster Risk Management and Comprehensive Environment Improvement",
-              "value1": "Project",
-              "value2": "154.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "154.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Henan Xichuan Integrated Ecological Protection and Environmental Improvement",
-              "value1": "Project",
-              "value2": "197.9",
-              "value3": "-",
-              "value4": "-",
-              "value5": "197.9",
-              "value6": "-"
-            },
-            {
-              "value0": "Shaanxi Xi’an Preschool Education Development Program",
-              "value1": "RBL",
-              "value2": "146.1",
-              "value3": "-",
-              "value4": "-",
-              "value5": "146.1",
-              "value6": "-"
-            },
-            {
-              "value0": "Mongolia",
-              "value1": "",
-              "value2": "155.9",
-              "value3": "36.1",
-              "value4": "-",
-              "value5": "192.0",
-              "value6": "192.0"
-            },
-            {
-              "value0": "Second Shock-Responsive Social Protection",
-              "value1": "Project",
-              "value2": "46.4",
-              "value3": "26.6",
-              "value4": "-",
-              "value5": "73.0",
-              "value6": "73.0"
-            },
-            {
-              "value0": "Strengthening Health Security Program (Subprogram 1)",
-              "value1": "PBL",
-              "value2": "100.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "100.0",
-              "value6": "100.0"
-            },
-            {
-              "value0": "Support for COVID-19 Vaccine Delivery in Mongolia under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "9.5",
-              "value3": "9.5",
-              "value4": "-",
-              "value5": "19.0",
-              "value6": "19.0"
             }
           ]
         ]
@@ -3011,326 +2936,42 @@
         "type": "expansion-panel",
         "subTitle": [
           {
-            "title": "Pacific"
+            "title": "TOTAL ADB OPERATIONS(A + B)"
           },
           {
             "title": ""
           },
           {
-            "title": "515.5"
+            "title": ""
           },
           {
-            "title": "84.4"
+            "title": ""
           },
           {
-            "title": "153.6"
+            "title": ""
           },
           {
-            "title": "753.5"
+            "title": ""
           },
           {
-            "title": "275.1"
+            "title": ""
+          },
+          {
+            "title": ""
           }
         ],
         "subData": [
           [
             {
-              "value0": "Cook Islands",
-              "value1": "",
-              "value2": "75.5",
-              "value3": "-",
-              "value4": "-",
-              "value5": "75.5",
-              "value6": "75.5",
+              "value0": "ADB Operations without Trade and Supply Chain Finance Program <sup>b</sup> and Microfinance Program",
+              "value1": "19058",
+              "value2": "19531",
+              "value3": "19420",
+              "value4": "29335",
+              "value5": "14920",
+              "value6": "19694",
+              "value7": "10851",
               "class": "title-row-bold"
-            },
-            {
-              "value0": "Supporting Sustainable Economic Recovery Program",
-              "value1": "PBL",
-              "value2": "75.5",
-              "value3": "-",
-              "value4": "-",
-              "value5": "75.5",
-              "value6": "75.5"
-            },
-            {
-              "value0": "Marshall Islands",
-              "value1": "Project",
-              "value2": "",
-              "value3": "-",
-              "value4": "9.0",
-              "value5": "9.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Energy Security – Additional Financing",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "7.0",
-              "value5": "7.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Public Financial Management – Second Additional Financing",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "2.0",
-              "value5": "2.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Micronesia, Federated States of",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "9.0",
-              "value5": "9.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Renewable Energy Development – Additional Financing",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "4.0",
-              "value5": "4.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Preparing the Sustainable Road Infrastructure Investment Project",
-              "value1": "PRF",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "5.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Nauru",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "5.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Preparing the Nauru Sustainable Urban Development Project",
-              "value1": "PRF",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "5.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Palau",
-              "value1": "",
-              "value2": "5.0",
-              "value3": "20.0",
-              "value4": "0.8",
-              "value5": "25.8",
-              "value6": "25.8"
-            },
-            {
-              "value0": "COVID-19 Response for Affected Poor and Vulnerable Groups",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "0.8",
-              "value5": "0.8",
-              "value6": "0.8"
-            },
-            {
-              "value0": "Recovery through Improved Systems and Expenditure Support Program (Subprogram 1)",
-              "value1": "PBL",
-              "value2": "5.0",
-              "value3": "20.0",
-              "value4": "-",
-              "value5": "25.0",
-              "value6": "25.0"
-            },
-            {
-              "value0": "Papua New Guinea",
-              "value1": "",
-              "value2": "435.0",
-              "value3": "40.0",
-              "value4": "-",
-              "value5": "475.0",
-              "value6": "150.0"
-            },
-            {
-              "value0": "Sustainable Highlands Highway Investment Program – Tranche 2",
-              "value1": "MFF",
-              "value2": "285.0",
-              "value3": "40.0",
-              "value4": "-",
-              "value5": "325.0",
-              "value6": "-"
-            },
-            {
-              "value0": "State-Owned Enterprises Reform Program (Subprogram 2)",
-              "value1": "PBL",
-              "value2": "150.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "150.0",
-              "value6": "150.0"
-            },
-            {
-              "value0": "Samoa",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "13.0",
-              "value5": "13.0",
-              "value6": "8.0"
-            },
-            {
-              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "-",
-              "value4": "8.0",
-              "value5": "8.0",
-              "value6": "8.0"
-            },
-            {
-              "value0": "Land Transport Sector Development",
-              "value1": "PRF",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "5.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Solomon Islands",
-              "value1": "",
-              "value2": "-",
-              "value3": "24.4",
-              "value4": "25.0",
-              "value5": "49.4",
-              "value6": "-"
-            },
-            {
-              "value0": "Domestic Resource Mobilization",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.5",
-              "value5": "5.5",
-              "value6": "-"
-            },
-            {
-              "value0": "Land and Maritime Connectivity – Tranche 1",
-              "value1": "MFF",
-              "value2": "-",
-              "value3": "24.4",
-              "value4": "19.5",
-              "value5": "43.9",
-              "value6": "-"
-            },
-            {
-              "value0": "Tonga",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "55.5",
-              "value5": "55.5",
-              "value6": "10.5"
-            },
-            {
-              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "-",
-              "value4": "19.5",
-              "value5": "43.9",
-              "value6": "-"
-            },
-            {
-              "value0": "Nuku'alofa Port Upgrade",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "45.0",
-              "value5": "45.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Economic Recovery Support Program",
-              "value1": "PBL",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "5.0",
-              "value6": "5.0"
-            },
-            {
-              "value0": "Tuvalu",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "21.5",
-              "value5": "21.5",
-              "value6": "1.5"
-            },
-            {
-              "value0": "Outer Island Maritime Infrastructure – Second Additional Financing",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "20.0",
-              "value5": "20.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "-",
-              "value4": "1.5",
-              "value5": "1.5",
-              "value6": "1.5"
-            },
-            {
-              "value0": "Vanuatu",
-              "value1": "",
-              "value2": "-",
-              "value3": "-",
-              "value4": "14.9",
-              "value5": "14.9",
-              "value6": "3.9"
-            },
-            {
-              "value0": "Energy Access – Additional Financing",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "-",
-              "value4": "6.0",
-              "value5": "6.0",
-              "value6": "-"
-            },
-            {
-              "value0": "Systems Strengthening for Effective Coverage of New Vaccines in the Pacific under the Asia Pacific Vaccine Access Facility – Additional Financing",
-              "value1": "APVAX",
-              "value2": "-",
-              "value3": "-",
-              "value4": "3.9",
-              "value5": "3.9",
-              "value6": "3.9"
-            },
-            {
-              "value0": "Transport Sector Projects Preparatory Financing",
-              "value1": "PRF",
-              "value2": "-",
-              "value3": "-",
-              "value4": "5.0",
-              "value5": "5.0",
-              "value6": "-"
             }
           ]
         ]
@@ -3339,121 +2980,143 @@
         "type": "expansion-panel",
         "subTitle": [
           {
-            "title": "South Asia"
+            "title": "Cofinancing Including Trust Funds"
           },
           {
             "title": ""
           },
           {
-            "title": "6,432.0"
+            "title": ""
           },
           {
-            "title": "912.5"
+            "title": ""
           },
           {
-            "title": "6.0"
+            "title": ""
           },
           {
-            "title": "7,350.5"
+            "title": ""
           },
           {
-            "title": "4,259.6"
+            "title": ""
+          },
+          {
+            "title": ""
           }
         ],
         "subData": [
           [
             {
-              "value0": "Bangladesh",
-              "value1": "",
-              "value2": "1370.0",
-              "value3": "633.5",
-              "value4": "-",
-              "value5": "2003.5",
-              "value6": "1590.0",
+              "value0": "Sovergian",
+              "value1": "3585",
+              "value2": "6168<sup>f</sup>",
+              "value3": "5783<sup>m</sup>",
+              "value4": "10962<sup>n</sup>",
+              "value5": "8189",
+              "value6": "4824",
+              "value7": "3361",
               "class": "title-row-bold"
             },
             {
-              "value0": "Irrigation Management Improvement – Additional Financing",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "13.5",
-              "value4": "-",
-              "value5": "13.5",
-              "value6": "-"
+              "value0": "Trust Funds Administered by ADB",
+              "value1": "143",
+              "value2": "151",
+              "value3": "168",
+              "value4": "281",
+              "value5": "20",
+              "value6": "117",
+              "value7": "46"
             },
             {
-              "value0": "South Asia Subregional Economic Cooperation Dhaka–Sylhet Corridor Road Investment – Tranche 1",
-              "value1": "MFF",
-              "value2": "400.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "400.0",
-              "value6": "-"
+              "value0": "Bilateral",
+              "value1": "1899",
+              "value2": "1941",
+              "value3": "3688",
+              "value4": "4711",
+              "value5": "3319",
+              "value6": "2044",
+              "value7": "1815"
             },
             {
-              "value0": "Sustainable Economic Recovery Program (Subprogram 1)",
-              "value1": "PBL",
-              "value2": "250.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "250.0",
-              "value6": "250.0"
+              "value0": "Multilateral",
+              "value1": "994",
+              "value2": "3357",
+              "value3": "1777",
+              "value4": "5970",
+              "value5": "4850",
+              "value6": "2639",
+              "value7": "1501"
             },
             {
-              "value0": "Supporting Post-COVID-19 Small-Scale Employment Creation",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "150.0",
-              "value4": "-",
-              "value5": "150.0",
-              "value6": "150.0"
+              "value0": "Others<sup>o</sup>",
+              "value1": "548",
+              "value2": "720",
+              "value3": "149",
+              "value4": "0",
+              "value5": "0",
+              "value6": "25",
+              "value7": "-"
             },
             {
-              "value0": "Strengthening Social Resilience Program (Subprogram 1)",
-              "value1": "PBL",
-              "value2": "250.0",
-              "value3": "-",
-              "value4": "-",
-              "value5": "250.0",
-              "value6": "250.0"
+              "value0": "Nonsovereign<sup>p</sup>",
+              "value1": "2882",
+              "value2": "3351",
+              "value3": "3579",
+              "value4": "1809",
+              "value5": "158",
+              "value6": "1903",
+              "value7": "209"
             },
             {
-              "value0": "Responsive COVID-19 Vaccines for Recovery under the Asia Pacific Vaccine Access Facility",
-              "value1": "APVAX",
-              "value2": "470.0",
-              "value3": "470.0",
-              "value4": "-",
-              "value5": "940.0",
-              "value6": "940.0"
+              "value0": "Trade Finance,Supply Change Finance and Microfinance Programs<sup>i</sup>",
+              "value1": "3039",
+              "value2": "3992",
+              "value3": "3693",
+              "value4": "3272",
+              "value5": "2496",
+              "value6": "5790",
+              "value7": "5765"
             },
             {
-              "value0": "Bhutan",
-              "value1": "",
-              "value2": "-",
-              "value3": "54.0",
-              "value4": "6.0",
-              "value5": "60.0",
-              "value6": "30.0"
-            },
-            {
-              "value0": "Financial Market Development Program (Subprogram 3)",
-              "value1": "PBL",
-              "value2": "-",
-              "value3": "30.0",
-              "value4": "-",
-              "value5": "30.0",
-              "value6": "30.0"
-            },
-            {
-              "value0": "Green and Resilient Affordable Housing Sector",
-              "value1": "Project",
-              "value2": "-",
-              "value3": "24.0",
-              "value4": "6.0",
-              "value5": "30.0",
-              "value6": "-"
+              "value0": "Transaction Advisory Service",
+              "value1": "-",
+              "value2": "405",
+              "value3": "113",
+              "value4": "76",
+              "value5": "-",
+              "value6": "423",
+              "value7": "-"
             }
           ]
+        ]
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [
+          {
+            "title": "TOTAL COFINANCING"
+          },
+          {
+            "title": "9506"
+          },
+          {
+            "title": "13916"
+          },
+          {
+            "title": "13167"
+          },
+          {
+            "title": "16119"
+          },
+          {
+            "title": "10843"
+          },
+          {
+            "title": "12940"
+          },
+          {
+            "title": "9335"
+          }
         ]
       }
     ]

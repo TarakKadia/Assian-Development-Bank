@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import appendixesContentJsonData from 'src/app/constants/appendixes-content.json'
 import appendixesListJsonData from 'src/app/constants/appendixes-list.json'
-import appendixesImagesJsonData from 'src/app/constants/appendixes-images.json'
+import appendixesTable from 'src/app/constants/appendixes-table.json'
 
 @Component({
   selector: 'app-appendixes-content',
@@ -15,11 +15,18 @@ export class AppendixesContentComponent implements OnInit {
   isShowImage = false;
   sourceImages = [];
 
+  tableData: any;
+
   data :Array<any> = [];
   list :Array<any>= [];
   id :Array<any>= [];
   images :Array<any>= [];
   loading:any;
+  value : Array<any> = [];
+  title: any;
+  subTitle: any;
+
+
 
   constructor() { }
 
@@ -30,23 +37,35 @@ export class AppendixesContentComponent implements OnInit {
   }, 1000);
     this.data = appendixesContentJsonData;
     this.list = appendixesListJsonData;
-
     this.list.map(el => {
       this.id = el.id;
       // console.log("\n id : ",this.id);
 
     })
 
-    // console.log("appendixesListJsonData : ",this.data);
-
-
-
   }
 
   showImage(img: any) {
-    this.sourceImages = img;
-    this.isShowImage ? this.isShowImage = false : this.isShowImage = true;;
+    // this.sourceImages = img;
+    this.tableData = img;
+    this.isShowImage ? this.isShowImage = false : this.isShowImage = true;
+  }
+  getTitle(){
+    this.value.map(el => {
+      if(el.type === 'title'){
+        this.title = el.title ;
+        console.log("this.title >>>>> ",this.title);
+      }     
+    });
   }
 
+  getSubTitle(){
+    this.value.map(el => {
+      if(el.type === 'title'){
+        this.subTitle = el.subTitle ;
+        // console.log("this.title >>>>> ",this.subTitle);
+      }     
+    });
+  }
 
 }

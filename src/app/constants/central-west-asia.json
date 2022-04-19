@@ -71,22 +71,6 @@
     "type": "paragraph"
   },
   {
-    "id": 2,
-    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
-    "digit1": 34,
-    "tag1": "PUBLIC SECTOR MANAGEMENT",
-    "digit2": 15,
-    "tag2": "INDUSTRY AND TRADE",
-    "digit3": 14,
-    "tag3": "FINANCE",
-    "digit4": 11,
-    "tag4": "TRANSPORT",
-    "digit5": 10,
-    "tag5": "HEALTH",
-    "sign": "%",
-    "type": "currencyCounter"
-  },
-  {
     "data": "STRATEGIC FOCUS",
     "type": "heading"
   },
@@ -364,8 +348,24 @@
     "type": "paragraph"
   },
   {
-    "data": "ITo provide much-needed funding for micro, small, and medium‑sized enterprises (MSMEs), especially those owned and led by women, ADB provided a $100 million nonsovereign loan. Through this financing, the Bank of Georgia aims to increase its number of women business borrowers by at least 70% by 2025. The project includes support for a program to help women entrepreneurs cope with impacts of the COVID-19 pandemic.",
+    "data": "To provide much-needed funding for micro, small, and medium‑sized enterprises (MSMEs), especially those owned and led by women, ADB provided a $100 million nonsovereign loan. Through this financing, the Bank of Georgia aims to increase its number of women business borrowers by at least 70% by 2025. The project includes support for a program to help women entrepreneurs cope with impacts of the COVID-19 pandemic.",
     "type": "paragraph"
+  },
+  {
+    "id": 2,
+    "title": "IN 2021, ADB COMMITMENTS IN CENTRAL AND WEST ASIA WERE PRIMARILY IN THESE SECTORS",
+    "digit1": 22,
+    "tag1": "HEALTH",
+    "digit2": 19,
+    "tag2": "ENERGY",
+    "digit3": 17,
+    "tag3": "WATER AND OTHER URBAN INFRASTRUCTURE AND SERVICES",
+    "digit4": 15,
+    "tag4": "TRANSPORT",
+    "digit5": 11,
+    "tag5": "EDUCATION",
+    "sign": "%",
+    "type": "currencyCounter"
   },
   {
     "data": "ADB provided a loan to strengthen and expand social protection programs in Pakistan. The project includes measures to boost access to secondary education for children and adolescents of poor families, especially girls. It will also enhance access to health services and nutrition supplies for impoverished mothers and children in 22 districts.",

@@ -41,6 +41,8 @@ import { AnimateOnScrollModule } from 'ng2-animate-on-scroll';
 import { CustomDecimalPipe } from './pipes/custom-decimal.pipe';
 import { CustomPieChartComponent } from './components/custom-pie-chart/custom-pie-chart.component';
 import { CustomDonoughtChartComponent } from './components/custom-donought-chart/custom-donought-chart.component';
+import { TableComponent } from './components/table/table.component';
+import { ListComponent } from './components/list/list.component';
 
 
 
@@ -82,7 +84,9 @@ import { CustomDonoughtChartComponent } from './components/custom-donought-chart
     ProgressBarChartComponent,
     CustomDecimalPipe,
     CustomPieChartComponent,
-    CustomDonoughtChartComponent
+    CustomDonoughtChartComponent,
+    TableComponent,
+    ListComponent
   ],
   imports: [
     CommonModule,
@@ -129,7 +133,9 @@ import { CustomDonoughtChartComponent } from './components/custom-donought-chart
     ProgressBarChartComponent,
     CustomDecimalPipe,
     CustomPieChartComponent,
-    CustomDonoughtChartComponent
+    CustomDonoughtChartComponent,
+    TableComponent,
+    ListComponent
   ]
 })
 export class SharedModule { }

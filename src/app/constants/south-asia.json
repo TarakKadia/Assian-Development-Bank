@@ -79,22 +79,6 @@
         "type": "paragraph"
     },
     {
-        "id": 2,
-        "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
-        "digit1": 34,
-        "tag1": "PUBLIC SECTOR MANAGEMENT",
-        "digit2": 15,
-        "tag2": "INDUSTRY AND TRADE",
-        "digit3": 14,
-        "tag3": "FINANCE",
-        "digit4": 11,
-        "tag4": "TRANSPORT",
-        "digit5": 10,
-        "tag5": "HEALTH",
-        "sign": "%",
-        "type": "currencyCounter"
-    },
-    {
         "data": "STRATEGIC FOCUS",
         "type": "heading"
     },
@@ -371,6 +355,22 @@
         "data": "In Sri Lanka, ADB provided a $110 million loan to bolster primary health-care services for four underserved provinces. The loan will finance gender-responsive facilities in hospitals and enhance health services tailored for women, men, and children. It includes a pilot program to engage with over 1,000 men and boys on reproductive health and with more than 3,000 women and girls to promote maternal and child health and nutrition. It also aims to aid government efforts to integrate gender issues into health sector policies.",
         "type": "paragraph"
     },
+    {
+        "id": 2,
+        "title": "IN 2021, ADB COMMITMENTS IN SOUTH ASIA WERE PRIMARILY IN THESE SECTORS",
+        "digit1": 44,
+        "tag1": "HEALTH",
+        "digit2": 22,
+        "tag2": "TRANSPORT",
+        "digit3": 15,
+        "tag3": "WATER AND OTHER URBAN INFRASTRUCTURE AND SERVICES",
+        "digit4": 6,
+        "tag4": "AGRICULTURE, NATURAL RESOURCES, AND RURAL DEVELOPMENT",
+        "digit5": 5,
+        "tag5": "PUBLIC SECTOR MANAGEMENT",
+        "sign": "%",
+        "type": "currencyCounter"
+      },
     {
         "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
         "image": "op3_color.png",

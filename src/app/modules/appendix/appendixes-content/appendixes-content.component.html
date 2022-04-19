@@ -1,34 +1,35 @@
-
 <div *ngIf="loading" class="loader">
-  <div class="loader__element"></div>
+    <div class="loader__element"></div>
 </div>
 <div class="content">
-  <div *ngFor="let data of data">
-    <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
-    <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
+    <div *ngFor="let data of data">
+        <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
+        <app-image [image]="data.data" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
 
 
-  </div>
-  <div class="appendix-list">
-    <div class="appendix-item" *ngFor="let data of list" (click)="showImage(data.image)">
-      <span>{{data.list}}</span><br>
-      {{data.content}}
     </div>
-  </div>
+    <div class="appendix-list">
+        <div class="appendix-item" *ngFor="let data of list" (click)="showImage(data.tableData)">
+            <span>{{data.list}}</span><br>
+            {{data.content}}
+        </div>
+    </div>
 </div>
 
-<div id="appendix-overlay" [ngClass]="{'displayBlock': isShowImage}">
-
-  <div id="appendix1" class="appendix-content showing" [ngClass]="{'displayBlock': isShowImage}">
-    <div *ngFor="let image of sourceImages">
-      <img [src]="image" class="load-after" data-arimgsrc="images/app/appendix1.png">
-      <br>
-      <br>
-    </div>
-    </div>
+<div id="appendix-overlay" style="background-color: #FFF; padding: 10px;" [ngClass]="{'displayBlock': isShowImage}">
     <div class="appendix-close" (click)="showImage(null)">
-      <span class="close-label">Close</span> <span class="close-icon">×</span>
-      </div>
-</div>
+        <span class="close-label">Close</span> <span class="close-icon">×</span>
+    </div>
 
-<br><br><br><br><br>
+    <app-table *ngIf="tableData && tableData.type=='table'" [note]="tableData.note"
+        [heading]="tableData.heading" [subHeading]="tableData.subHeading" [tableJson]="tableData.data">
+    </app-table>
+
+    <app-accordin-table *ngIf="tableData && tableData.type=='accordian-table'" [note]="tableData.note"
+        [heading]="tableData.heading" [subHeading]="tableData.subHeading" [tableJson]="tableData.data">
+    </app-accordin-table>
+
+    <app-list *ngIf="tableData && tableData.type=='list'" [data]="tableData">
+
+    </app-list>
+</div>
