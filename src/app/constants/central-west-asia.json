@@ -1,542 +1,542 @@
 [
-  {
-    "data": "chapter2-img1.png",
-    "heading": "CHAPTER 2: OPERATIONS",
-    "text": "CENTRAL AND WEST ASIA",
-    "titleTag": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
-    "tag": "A man in Pakistan helps his mother put on a mask during a COVID-19 lockdown.",
-    "type": "image"
-  },
-  {
-    "title": "BY THE NUMBERS",
-    "symbol": "$",
-    "digit1": 5.2,
-    "tag1": "COMMITTED",
-    "digit2": 3.3,
-    "tag2": "COVID‑19 RESPONSE",
-    "digit3": 3.3,
-    "tag3": "DISBURSED",
-    "digit4": 2.7,
-    "tag4": "COFINANCED",
-    "sign": "B",
-    "type": "regionCounter"
-  },
-  {
-    "data": "Growth momentum returned across Central and West Asia in 2021. The regional economy was buoyed by fiscal stimulus and some easing of lockdowns and other COVID-19 containment measures. The reopening of the Russian Federation to migrant workers also improved remittances to economies in Central Asia.",
-    "type": "paragraph"
-  },
-  {
-    "data": "However, immediate growth prospects for Central and West Asia remain at risk due to further waves of COVID-19 spread and generally slow rollout of vaccination programs (vaccination rates varied from 15% to 52.4% by the end of 2021). Inflation rose across the region due to higher food and energy prices, currency depreciation, stronger-than-expected recovery in aggregate demand, and continued disruptions in global supply chains.",
-    "type": "paragraph"
-  },
-  {
-    "data": "The socioeconomic impacts of the pandemic continued to be felt strongly across Central and West Asia, particularly by low-income households and vulnerable groups. Business closures and restricted trade fueled unemployment, particularly among women, who are mostly employed in hard-hit sectors such as agriculture, tourism, and small-scale manufacturing. Despite some economic recovery in 2021, the number of people living in extreme poverty in the region remains higher than its pre- pandemic level.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In response, ADB’s developing member countries (DMCs) in Central and West Asia continued to allocate public resources during the year to strengthen health care, support liquidity in the banking sector, provide assistance to socially disadvantaged groups, and sustain economic activity.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Throughout the year, ADB actively supported its DMCs in responding to and recovering from the COVID-19 pandemic. Nearly two-thirds of the bank’s $5.2 billion commitments for Central and West Asia in 2021 were to support COVID-19 response. ADB’s commitments to the region also included $1.3 billion for nonsovereign operations, with significant support for small businesses impacted by the pandemic.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Through the Asia Pacific Vaccine Access Facility (APVAX), ADB provided $564.7 million to procure more than 45 million doses of COVID-19 vaccines, covering some 23 million people in priority groups in Georgia, the Kyrgyz Republic, Pakistan, and Tajikistan. APVAX also assisted DMCs with international and national logistics to transport vaccines from their place of purchase to national, regional, and district health facilities",
-    "type": "paragraph"
-  },
-  {
-    "data": "In addition to supporting COVID-19 response, ADB commitments in 2021 are helping rebuild competitive economies, modernize transportation networks, rehabilitate energy and water infrastructure, and boost education and skills development.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB placed its regular assistance to Afghanistan on hold effective 15 August 2021 but remains committed to supporting the economic and social development of the Afghan people, including addressing their humanitarian needs to secure the basis for future development.",
-    "type": "paragraph"
-  },
-  {
-    "data": "STRATEGIC FOCUS",
-    "type": "heading"
-  },
-  {
-    "data": "Addressing Remaining Poverty and Reducing Inequalities",
-    "image": "op1_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "In 2021, ADB’s support for disadvantaged communities and other vulnerable groups across Central and West Asia focused on reducing the socioeconomic impacts of the COVID-19 pandemic.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Under its COVID-19 Pandemic Response Option, ADB signed a loan of $250 million for budget support to Azerbaijan. The loan is strengthening COVID-19 response mechanisms and health services, expanding social protection for poor people and vulnerable households, and preventing job losses caused by economic downturn.",
-    "type": "paragraph"
-  },
-  {
-    "id": 2,
-    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
-    "digit1": 34,
-    "tag1": "PUBLIC SECTOR MANAGEMENT",
-    "digit2": 15,
-    "tag2": "INDUSTRY AND TRADE",
-    "digit3": 14,
-    "tag3": "FINANCE",
-    "digit4": 11,
-    "tag4": "TRANSPORT",
-    "digit5": 10,
-    "tag5": "HEALTH",
-    "sign": "%",
-    "type": "currencyCounter"
-  },
-  {
-    "data": "STRATEGIC FOCUS",
-    "type": "heading"
-  },
-  {
-    "data": {
-      "data": [
-        {
-          "id": 1,
-          "image": "op1_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#111111",
-          "datasets": [
-            {
-              "label": "1",
-              "centerText": "",
-              "data": [
-                40,
-                45,
-                15
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "image": "op2_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#222222",
-          "datasets": [
-            {
-              "label": "2",
-              "centerText": "90%",
-              "data": [
-                55,
-                45,
-                5
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "image": "op3_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#333333",
-          "isSmall": true,
-          "datasets": [
-            {
-              "label": "3",
-              "centerText": "",
-              "data": [
-                10,
-                40,
-                50
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        },
-        {
-          "id": 4,
-          "image": "op4_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#444444",
-          "isSmall": true,
-          "datasets": [
-            {
-              "label": "4",
-              "centerText": "",
-              "data": [
-                5,
-                15,
-                80
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        },
-        {
-          "id": 5,
-          "image": "op5_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#555555",
-          "isSmall": true,
-          "datasets": [
-            {
-              "label": "5",
-              "centerText": "",
-              "data": [
-                8,
-                22,
-                70
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "image": "op6_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#111111",
-          "datasets": [
-            {
-              "label": "6",
-              "centerText": "",
-              "data": [
-                30,
-                45,
-                25
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "image": "op1_color.png",
-          "labels": [
-            "",
-            "Regional"
-          ],
-          "centerColor": "#f2ae29",
-          "datasets": [
-            {
-              "label": "7",
-              "centerText": "",
-              "data": [
-                25,
-                15,
-                60
-              ],
-              "backgroundColor": [
-                "#d94e2f",
-                "#b4b5b4",
-                "#FFFFFF"
-              ],
-              "hoverBackgroundColor": [
-                "#d94e2f",
-                "#FFFFFF"
-              ],
-              "hoverBorderColor": [
-                "rgba(255, 0, 0, 0.1)",
-                "#FFFFFF"
-              ],
-              "fill": true
-            }
-          ]
-        }
-      ]
+    {
+        "data": "chapter2-img1.png",
+        "heading": "CHAPTER 2: OPERATIONS",
+        "text": "CENTRAL AND WEST ASIA",
+        "titleTag": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
+        "tag": "A man in Pakistan helps his mother put on a mask during a COVID-19 lockdown.",
+        "type": "image"
     },
-    "type": "strategicFocusPieChart"
-  },
-  {
-    "data": "In Georgia, ADB provided $14.7 million in APVAX financing to procure and deliver 700,000 COVID-19 vaccine doses for about 300,000 people. The support includes training programs for health officials to ensure vaccine coverage for women and marginalized groups. Other APVAX grant support to the region included $25 million to the Kyrgyz Republic for 1.7 million doses, $500 million to Pakistan for nearly 40 million doses, and $25 million to Tajikistan for over 3 million doses.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Meanwhile, ADB’s work to break the longer-term poverty cycle continued in 2021, with skills development and job creation an important focus.",
-    "type": "paragraph"
-  },
-  {
-    "data": "To support better job opportunities for young people and the unemployed, the bank committed a $93 million loan in Uzbekistan. The financing will help develop a skilled workforce in five priority trades: construction, textiles and garments, information and communication technology, agribusiness and food processing, and machinery repair and maintenance. Under the project, ADB will help improve employment options for at least 60,000 people, including 48,000 job seekers and 500 persons with disabilities.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Pakistan, ADB committed $300 million to support the construction of a 300-megawatt, run-of-river hydropower plant in Balakot, Khyber Pakhtunkhwa Province. In addition to reducing dependence on fossil fuels and increasing energy security, the project will boost economic activity and create jobs for local communities. During construction, more than 1,200 workers will be hired and at least 500 community members, including many women, will benefit from skills development programs",
-    "type": "paragraph"
-  },
-  {
-    "data": "Accelerating Progress in Gender Equality",
-    "image": "op2_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "ADB’s operations in Central and West Asia continued to prioritize gender mainstreaming in 2021. The bank’s investments during the year will benefit women in areas such as business finance, social protection, health, skills training, and career advancement.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ITo provide much-needed funding for micro, small, and medium‑sized enterprises (MSMEs), especially those owned and led by women, ADB provided a $100 million nonsovereign loan. Through this financing, the Bank of Georgia aims to increase its number of women business borrowers by at least 70% by 2025. The project includes support for a program to help women entrepreneurs cope with impacts of the COVID-19 pandemic.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB provided a loan to strengthen and expand social protection programs in Pakistan. The project includes measures to boost access to secondary education for children and adolescents of poor families, especially girls. It will also enhance access to health services and nutrition supplies for impoverished mothers and children in 22 districts.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Tajikistan, where more than 75% of the agricultural labor force is female, ADB committed a $30 million grant to modernize irrigation and drainage systems in the lower Vakhsh River basin. The grant will also help about 800 women gain broader access to irrigation knowledge and services, increased representation in water users’ associations, and greater participation in decision‑making on land and water management. The project will also benefit around 4,200 kitchen gardens managed mostly by women.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB provided $121 million in additional financing for a project in Uzbekistan to complete the modernization of the railway network in the Fergana Valley. The project will build gender- responsive facilities such as mother-and-child rooms at major railway stations to provide safer travel for women and children.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
-    "image": "op3_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "ADB continued to have a strong focus on climate change adaptation and mitigation and disaster resilience in its Central and West Asia operations in 2021.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In the Kyrgyz Republic, ADB committed $35 million to safeguard rural communities in areas prone to landslides. The project will help protect around 4,700 people, as well as vital infrastructure, with landslide mitigation measures and monitoring systems. To support sustainability, local community members, particularly women, will be engaged in the planning, implementation, and operation of these systems.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB provided technical assistance to help Armenia improve land resources management covering water resources and forests, special protected natural areas, and land with historical or cultural significance. By standardizing data on landownership and other geographic information, the assistance will help create an electronic national system for better land-use planning and management.",
-    "type": "paragraph"
-  },
-  {
-    "data": "The bank also committed a $20 million nonsovereign loan to rehabilitate and expand the distribution network of Armenia’s sole electricity distributor, Electric Networks of Armenia CJSC. The project will install automated metering systems and modernize substations to reduce technical and commercial losses and help avoid over 4,000 tons of carbon dioxide emissions annually.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Making Cities More Livable",
-    "image": "op4_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "People living in the urban centers of Central and West Asia are set to benefit from ADB investments designed to provide improved municipal services, greener transport options, more efficient heating, and better parks and other public amenities.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Pakistan, ADB provided $377.8 million (with an additional $200 million in cofinancing) to assist the provincial government of Khyber Pakhtunkhwa in improving living conditions across five cities. The total financing will enhance water supply, sewerage, and solid waste infrastructure; expand public parks and green spaces; and streamline service delivery and the performance of municipal companies. Through the project, ADB will improve urban life for up to 3.5 million people in the five target cities.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB committed $50 million to support the long-term transition of the Bishkek public transport system in the Kyrgyz Republic. The initial investment will see highly polluting, fossil-fueled minibuses replaced by a fleet of 120 low-emission and fast- charging battery electric buses, with two bus depots upgraded and a 3.5-kilometer (km) dedicated bus lane constructed in the city center. The project will improve inner-city public transport, address traffic congestion, and reduce air pollution and greenhouse gas emissions.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Uzbekistan, ADB provided transaction advisory services to Tashkent City Municipality for a public–private partnership to refurbish, operate, and maintain the district heating network. The project will serve around 1.2 million people and targets a 50% improvement in overall system efficiency.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Georgia, ADB signed a $113.8 million loan to improve urban livability and foster inclusive economic growth. The project will enhance the quality of life of at least 1.5 million people across the country by financing climate-resilient urban infrastructure and services. This includes upgrading urban centers, public spaces, and parks; restoring cultural heritage buildings and natural heritage sites; upgrading roads; and constructing community infrastructure such as preschools, libraries, e-learning centers, and sports and tourism facilities.",
-    "type": "paragraph"
-  },
-  {
-    "title": "COVID-19 Vaccines Arrive in Tajikistan",
-    "tag": "ADB-funded COVID-19 vaccines arrive in Tajikistan (photo courtesy of UNICEF).",
-    "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year. “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population. The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility. The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues. The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
-    "type": "expand"
-  },
-  {
-    "data": "Promoting Rural Development and Food Security",
-    "image": "op5_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "The rural economies of Central and West Asia continue to have a need for support in providing microfinance and developing other commercial infrastructure.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Uzbekistan, almost 75% of employed people work in small businesses and more than 60% of those jobs are in rural areas. Access to finance for MSMEs and agricultural borrowers is very limited. In response, ADB provided a loan of $18.9 million in Uzbek som equivalent to JSCB Hamkorbank, the largest private sector bank in Uzbekistan, for onlending to MSMEs. With this support, Hamkorbank aims to achieve a 66% increase in loans to MSMEs owned and led by women through to 2024.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB collaborated with civil society organizations in Uzbekistan to train over 800 farmers and rural entrepreneurs in livestock development; encourage women in remote areas to use improved roads to travel for livelihood and social reasons; and educate seven communities on water supply, sanitation, and hygiene practices.",
-    "type": "paragraph"
-  },
-  {
-    "data": "To help increase the competitiveness of Kazakhstan’s agro- industrial products, ADB provided technical assistance for a feasibility study on establishing an international commodity exchange. The study is exploring the prospects for creating an end-to-end service for the warehousing, quality control, trading, clearing, and market data dissemination of various commodities.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Strengthening Governance and Institutional Capacity",
-    "image": "op6_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "During 2021, ADB made a series of targeted investments to strengthen governance and institutional capacity across Central and West Asia. This included support for reforms to financial markets, strategies to shape economic diversification, and capacity development in the transport sector.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Uzbekistan, ADB provided a $100 million loan to help develop the government’s bond market, diversify the investor base, and improve the supply of alternative financial instruments. The program will not only support private sector expansion but also contribute to strengthening financial market governance. The program includes specific reforms to enhance institutional capacity and increase participation by women in finance sector governance.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB committed $80 million for a program in the Kyrgyz Republic to support the implementation of reforms in the country’s current national development strategy. The investment will help diversify the economy away from an overreliance on gold exports and remittance-led consumption. It will do so by developing nonmineral exporting opportunities and promoting an enabling environment for food and agriculture investments.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Tajikistan, ADB provided technical assistance to update the country’s transport sector development program and formulate a capacity development plan that enables the government to manage sector planning self-sustainably. Meanwhile, ADB technical assistance in Turkmenistan is helping the government strengthen its institutional capacity for evidence-based policy formulation and implementation.",
-    "type": "paragraph"
-  },
-  {
-    "title": "Supporting Cleaner, Safer Travel in Pakistan",
-    "image": "chapter2-img2.png",
-    "tag": "The new bus rapid transit system in Peshawar, Pakistan provides safer travel for women and girls.",
-    "data": "A bus rapid transit (BRT) system in Peshawar, Pakistan—made possible by financing from ADB—is breaking records for passenger use and attracting more women to public transport. The Zu Peshawar BRT system features hybrid electric buses and 30 stations along a 27-kilometer (km) corridor that links east to west across the city. Despite restrictions on movement imposed due to the COVID-19 pandemic, ridership of the system reached more than 50 million passengers in 2021, with over 25% of commuters being women and children. The only gold-standard BRT system operating in Pakistan, the Zu Peshawar service prioritizes accessibility and security for women, persons with disabilities, and other vulnerable users. Women are provided priority queuing areas on the platform and a dedicated space inside the vehicles.  The ADB-supported project also ensured complete urban regeneration along the route, including new energy-efficient streetlights, quality footpaths, drainage systems, and dedicated cycle lanes. It is already improving air quality for Peshawar’s residents due to reduced traffic congestion. Around 150 bus stops are planned across a network of 83 km of direct service routes that connect densely populated communities directly to the system. In 2021, the Zu Peshawar BRT system earned an honorable mention in the prestigious 2022 Sustainable Transport Award.",
-    "type": "expand"
-  },
-  {
-    "data": "Fostering Regional Cooperation and Integration",
-    "image": "op7_color.png",
-    "type": "logoHeading"
-  },
-  {
-    "data": "With land transport playing a vital role in overcoming the formidable terrain of Central and West Asia, ADB made a series of strategic investments in 2021 to help link the region’s economies and bolster trade.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Georgian Railway JSC provides an essential link connecting Central Asia and the South Caucasus to the Black Sea and Europe. In 2021, ADB committed $50 million in $500 million of green bonds issued by the state-owned enterprise to refinance its existing debt and continue supporting the modernization of the rail network. Once completed, the network’s annual freight capacity is expected to rise from 27 million tons in 2020 to 48 million tons by 2024. It will also reduce the average time it takes for freight trains to reach Batumi Port from the Azerbaijan border by 4 hours.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Uzbekistan, ADB committed $162 million for upgrades to 465 km of railway line that links to the Central Asia Regional Economic Cooperation (CAREC) Corridor 2, serving the vital East–West trade route from the People’s Republic of China, through Central Asia, to Europe. The 2021 investment will add electrification, signaling and telecommunications, and traction power management systems to the recently built railway line. The project aims to improve Uzbekistan’s connectivity with neighboring countries and global markets and support the recovery of its international tourism industry.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB provided a $235 million loan to expand 222 km of National Highway 55 in Pakistan. This will improve transport times along CAREC corridors—which have become congested due to growing traffic volumes between Karachi, Islamabad, and Lahore—recovering substantial economic losses and reducing air and noise pollution.",
-    "type": "paragraph"
-  },
-  {
-    "data": "Through a new technical assistance project, ADB is helping develop an economic corridor framework for the South Caucasus to leverage investment, promote trade facilitation, and assess new tourism opportunities through transport gateways between Armenia, Azerbaijan, Georgia, and beyond.",
-    "type": "paragraph"
-  },
-  {
-    "data": "To support regional economic growth and recovery in the wake of the COVID-19 pandemic, the CAREC Program approved new health and digital strategies. It also launched initiatives for cross-border cooperation on water resources and a facility to enable regional infrastructure projects.",
-    "type": "paragraph"
-  },
-  {
-    "data": "KNOWLEDGE HIGHLIGHTS",
-    "type": "heading"
-  },
-  {
-    "data": "With support from ADB, the CAREC Institute produced a study on public attitudes toward COVID-19 vaccination in seven countries. The survey identified key barriers including a lack of confidence in vaccine efficacy, inadequate information, and fear of side effects. CAREC Institute representatives then engaged with experts from select countries to discuss policy options for effective vaccination campaigns.",
-    "type": "paragraph"
-  },
-  {
-    "data": "ADB also provided support for a special report on the impacts of the coronavirus on MSMEs in select CAREC countries. It provided 15 recommendations for policymakers to mitigate the effects of business disruptions, with a workshop held to disseminate findings and engage in dialogue to influence policy change.",
-    "type": "paragraph"
-  },
-  {
-    "data": "For Turkmenistan, ADB conducted a webinar to inform government representatives about best practices and the experiences of Central Asian DMCs on climate risk assessment, integrated water resources management, and innovation in water supply technology. Discussions with the government continued through regional consultation meetings in April and September 2021.",
-    "type": "paragraph"
-  },
-  {
-    "data": "In Georgia, ADB finalized a program with civil society organizations to develop inclusive teaching methods for three kindergartens supporting children with disabilities.",
-    "type": "paragraph"
-  },
-  {
-    "title": "RESHAPING ECONOMIES FOR QUALITY GROWTH",
-    "data": "In 2021, ADB endorsed new country partnership strategies for Pakistan and Tajikistan, each covering 2021–2025. <a href='https://www.adb.org/documents/pakistan-country-partnership-strategy-2021-2025'>Pakistan’s strategy</a> responds to the economic and social challenges caused by the COVID-19 pandemic and supports the country in improving economic management to restore stability and growth, expanding social protection to enhance productivity and personal well-being, and boosting private sector participation to create jobs and other economic opportunities. For Tajikistan, <a href='https://www.adb.org/documents/tajikistan-country-partnership-strategy-2021-2025'>the strategy</a> focuses on improving the quality of the country’s economic growth by supporting structural reforms, increasing productivity, and creating better livelihoods. It includes support for attracting more business investment, strengthening health and education, and improving food security.",
-    "type": "expand"
-  },
-  {
-    "title": "NEXT",
-    "data": "EAST ASIA",
-    "type": "button"
-  }
+    {
+        "title": "BY THE NUMBERS",
+        "symbol": "$",
+        "digit1": 5.2,
+        "tag1": "COMMITTED",
+        "digit2": 3.3,
+        "tag2": "COVID‑19 RESPONSE",
+        "digit3": 3.3,
+        "tag3": "DISBURSED",
+        "digit4": 2.7,
+        "tag4": "COFINANCED",
+        "sign": "B",
+        "type": "regionCounter"
+    },
+    {
+        "data": "Growth momentum returned across Central and West Asia in 2021. The regional economy was buoyed by fiscal stimulus and some easing of lockdowns and other COVID-19 containment measures. The reopening of the Russian Federation to migrant workers also improved remittances to economies in Central Asia.",
+        "type": "paragraph"
+    },
+    {
+        "data": "However, immediate growth prospects for Central and West Asia remain at risk due to further waves of COVID-19 spread and generally slow rollout of vaccination programs (vaccination rates varied from 15% to 52.4% by the end of 2021). Inflation rose across the region due to higher food and energy prices, currency depreciation, stronger-than-expected recovery in aggregate demand, and continued disruptions in global supply chains.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The socioeconomic impacts of the pandemic continued to be felt strongly across Central and West Asia, particularly by low-income households and vulnerable groups. Business closures and restricted trade fueled unemployment, particularly among women, who are mostly employed in hard-hit sectors such as agriculture, tourism, and small-scale manufacturing. Despite some economic recovery in 2021, the number of people living in extreme poverty in the region remains higher than its pre- pandemic level.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In response, ADB’s developing member countries (DMCs) in Central and West Asia continued to allocate public resources during the year to strengthen health care, support liquidity in the banking sector, provide assistance to socially disadvantaged groups, and sustain economic activity.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Throughout the year, ADB actively supported its DMCs in responding to and recovering from the COVID-19 pandemic. Nearly two-thirds of the bank’s $5.2 billion commitments for Central and West Asia in 2021 were to support COVID-19 response. ADB’s commitments to the region also included $1.3 billion for nonsovereign operations, with significant support for small businesses impacted by the pandemic.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Through the Asia Pacific Vaccine Access Facility (APVAX), ADB provided $564.7 million to procure more than 45 million doses of COVID-19 vaccines, covering some 23 million people in priority groups in Georgia, the Kyrgyz Republic, Pakistan, and Tajikistan. APVAX also assisted DMCs with international and national logistics to transport vaccines from their place of purchase to national, regional, and district health facilities",
+        "type": "paragraph"
+    },
+    {
+        "data": "In addition to supporting COVID-19 response, ADB commitments in 2021 are helping rebuild competitive economies, modernize transportation networks, rehabilitate energy and water infrastructure, and boost education and skills development.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB placed its regular assistance to Afghanistan on hold effective 15 August 2021 but remains committed to supporting the economic and social development of the Afghan people, including addressing their humanitarian needs to secure the basis for future development.",
+        "type": "paragraph"
+    },
+    {
+        "data": "STRATEGIC FOCUS",
+        "type": "heading"
+    },
+    {
+        "data": "Addressing Remaining Poverty and Reducing Inequalities",
+        "image": "op1_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "In 2021, ADB’s support for disadvantaged communities and other vulnerable groups across Central and West Asia focused on reducing the socioeconomic impacts of the COVID-19 pandemic.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Under its COVID-19 Pandemic Response Option, ADB signed a loan of $250 million for budget support to Azerbaijan. The loan is strengthening COVID-19 response mechanisms and health services, expanding social protection for poor people and vulnerable households, and preventing job losses caused by economic downturn.",
+        "type": "paragraph"
+    },
+    {
+        "id": 2,
+        "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
+        "digit1": 34,
+        "tag1": "PUBLIC SECTOR MANAGEMENT",
+        "digit2": 15,
+        "tag2": "INDUSTRY AND TRADE",
+        "digit3": 14,
+        "tag3": "FINANCE",
+        "digit4": 11,
+        "tag4": "TRANSPORT",
+        "digit5": 10,
+        "tag5": "HEALTH",
+        "sign": "%",
+        "type": "currencyCounter"
+    },
+    {
+        "data": "STRATEGIC FOCUS",
+        "type": "heading"
+    },
+    {
+        "data": {
+            "data": [
+                {
+                    "id": 1,
+                    "image": "op1_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#111111",
+                    "datasets": [
+                        {
+                            "label": "1",
+                            "centerText": "78%",
+                            "data": [
+                                43,
+                                35,
+                                22
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "image": "op2_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#222222",
+                    "datasets": [
+                        {
+                            "label": "2",
+                            "centerText": "100%",
+                            "data": [
+                                52,
+                                48,
+                                0
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "image": "op3_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#333333",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "3",
+                            "centerText": "57%",
+                            "data": [
+                                9,
+                                48,
+                                43
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "image": "op4_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#444444",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "4",
+                            "centerText": "17%",
+                            "data": [
+                                0,
+                                17,
+                                83
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "image": "op5_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#555555",
+                    "isSmall": true,
+                    "datasets": [
+                        {
+                            "label": "5",
+                            "centerText": "22%",
+                            "data": [
+                                4,
+                                17,
+                                79
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "image": "op6_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#111111",
+                    "datasets": [
+                        {
+                            "label": "6",
+                            "centerText": "78%",
+                            "data": [
+                                35,
+                                43,
+                                22
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "image": "op1_color.png",
+                    "labels": [
+                        "",
+                        "Regional"
+                    ],
+                    "centerColor": "#f2ae29",
+                    "datasets": [
+                        {
+                            "label": "7",
+                            "centerText": "48%",
+                            "data": [
+                                30,
+                                17,
+                                52
+                            ],
+                            "backgroundColor": [
+                                "#d94e2f",
+                                "#b4b5b4",
+                                "#FFFFFF"
+                            ],
+                            "hoverBackgroundColor": [
+                                "#d94e2f",
+                                "#FFFFFF"
+                            ],
+                            "hoverBorderColor": [
+                                "rgba(255, 0, 0, 0.1)",
+                                "#FFFFFF"
+                            ],
+                            "fill": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "strategicFocusPieChart"
+    },
+    {
+        "data": "In Georgia, ADB provided $14.7 million in APVAX financing to procure and deliver 700,000 COVID-19 vaccine doses for about 300,000 people. The support includes training programs for health officials to ensure vaccine coverage for women and marginalized groups. Other APVAX grant support to the region included $25 million to the Kyrgyz Republic for 1.7 million doses, $500 million to Pakistan for nearly 40 million doses, and $25 million to Tajikistan for over 3 million doses.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Meanwhile, ADB’s work to break the longer-term poverty cycle continued in 2021, with skills development and job creation an important focus.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To support better job opportunities for young people and the unemployed, the bank committed a $93 million loan in Uzbekistan. The financing will help develop a skilled workforce in five priority trades: construction, textiles and garments, information and communication technology, agribusiness and food processing, and machinery repair and maintenance. Under the project, ADB will help improve employment options for at least 60,000 people, including 48,000 job seekers and 500 persons with disabilities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Pakistan, ADB committed $300 million to support the construction of a 300-megawatt, run-of-river hydropower plant in Balakot, Khyber Pakhtunkhwa Province. In addition to reducing dependence on fossil fuels and increasing energy security, the project will boost economic activity and create jobs for local communities. During construction, more than 1,200 workers will be hired and at least 500 community members, including many women, will benefit from skills development programs",
+        "type": "paragraph"
+    },
+    {
+        "data": "Accelerating Progress in Gender Equality",
+        "image": "op2_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "ADB’s operations in Central and West Asia continued to prioritize gender mainstreaming in 2021. The bank’s investments during the year will benefit women in areas such as business finance, social protection, health, skills training, and career advancement.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ITo provide much-needed funding for micro, small, and medium‑sized enterprises (MSMEs), especially those owned and led by women, ADB provided a $100 million nonsovereign loan. Through this financing, the Bank of Georgia aims to increase its number of women business borrowers by at least 70% by 2025. The project includes support for a program to help women entrepreneurs cope with impacts of the COVID-19 pandemic.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB provided a loan to strengthen and expand social protection programs in Pakistan. The project includes measures to boost access to secondary education for children and adolescents of poor families, especially girls. It will also enhance access to health services and nutrition supplies for impoverished mothers and children in 22 districts.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Tajikistan, where more than 75% of the agricultural labor force is female, ADB committed a $30 million grant to modernize irrigation and drainage systems in the lower Vakhsh River basin. The grant will also help about 800 women gain broader access to irrigation knowledge and services, increased representation in water users’ associations, and greater participation in decision‑making on land and water management. The project will also benefit around 4,200 kitchen gardens managed mostly by women.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB provided $121 million in additional financing for a project in Uzbekistan to complete the modernization of the railway network in the Fergana Valley. The project will build gender- responsive facilities such as mother-and-child rooms at major railway stations to provide safer travel for women and children.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+        "image": "op3_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "ADB continued to have a strong focus on climate change adaptation and mitigation and disaster resilience in its Central and West Asia operations in 2021.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In the Kyrgyz Republic, ADB committed $35 million to safeguard rural communities in areas prone to landslides. The project will help protect around 4,700 people, as well as vital infrastructure, with landslide mitigation measures and monitoring systems. To support sustainability, local community members, particularly women, will be engaged in the planning, implementation, and operation of these systems.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB provided technical assistance to help Armenia improve land resources management covering water resources and forests, special protected natural areas, and land with historical or cultural significance. By standardizing data on landownership and other geographic information, the assistance will help create an electronic national system for better land-use planning and management.",
+        "type": "paragraph"
+    },
+    {
+        "data": "The bank also committed a $20 million nonsovereign loan to rehabilitate and expand the distribution network of Armenia’s sole electricity distributor, Electric Networks of Armenia CJSC. The project will install automated metering systems and modernize substations to reduce technical and commercial losses and help avoid over 4,000 tons of carbon dioxide emissions annually.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Making Cities More Livable",
+        "image": "op4_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "People living in the urban centers of Central and West Asia are set to benefit from ADB investments designed to provide improved municipal services, greener transport options, more efficient heating, and better parks and other public amenities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Pakistan, ADB provided $377.8 million (with an additional $200 million in cofinancing) to assist the provincial government of Khyber Pakhtunkhwa in improving living conditions across five cities. The total financing will enhance water supply, sewerage, and solid waste infrastructure; expand public parks and green spaces; and streamline service delivery and the performance of municipal companies. Through the project, ADB will improve urban life for up to 3.5 million people in the five target cities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB committed $50 million to support the long-term transition of the Bishkek public transport system in the Kyrgyz Republic. The initial investment will see highly polluting, fossil-fueled minibuses replaced by a fleet of 120 low-emission and fast- charging battery electric buses, with two bus depots upgraded and a 3.5-kilometer (km) dedicated bus lane constructed in the city center. The project will improve inner-city public transport, address traffic congestion, and reduce air pollution and greenhouse gas emissions.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Uzbekistan, ADB provided transaction advisory services to Tashkent City Municipality for a public–private partnership to refurbish, operate, and maintain the district heating network. The project will serve around 1.2 million people and targets a 50% improvement in overall system efficiency.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Georgia, ADB signed a $113.8 million loan to improve urban livability and foster inclusive economic growth. The project will enhance the quality of life of at least 1.5 million people across the country by financing climate-resilient urban infrastructure and services. This includes upgrading urban centers, public spaces, and parks; restoring cultural heritage buildings and natural heritage sites; upgrading roads; and constructing community infrastructure such as preschools, libraries, e-learning centers, and sports and tourism facilities.",
+        "type": "paragraph"
+    },
+    {
+        "title": "COVID-19 Vaccines Arrive in Tajikistan",
+        "tag": "ADB-funded COVID-19 vaccines arrive in Tajikistan (photo courtesy of UNICEF).",
+        "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year. “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population. The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility. The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues. The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
+        "type": "expand"
+    },
+    {
+        "data": "Promoting Rural Development and Food Security",
+        "image": "op5_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "The rural economies of Central and West Asia continue to have a need for support in providing microfinance and developing other commercial infrastructure.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Uzbekistan, almost 75% of employed people work in small businesses and more than 60% of those jobs are in rural areas. Access to finance for MSMEs and agricultural borrowers is very limited. In response, ADB provided a loan of $18.9 million in Uzbek som equivalent to JSCB Hamkorbank, the largest private sector bank in Uzbekistan, for onlending to MSMEs. With this support, Hamkorbank aims to achieve a 66% increase in loans to MSMEs owned and led by women through to 2024.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB collaborated with civil society organizations in Uzbekistan to train over 800 farmers and rural entrepreneurs in livestock development; encourage women in remote areas to use improved roads to travel for livelihood and social reasons; and educate seven communities on water supply, sanitation, and hygiene practices.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To help increase the competitiveness of Kazakhstan’s agro- industrial products, ADB provided technical assistance for a feasibility study on establishing an international commodity exchange. The study is exploring the prospects for creating an end-to-end service for the warehousing, quality control, trading, clearing, and market data dissemination of various commodities.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Strengthening Governance and Institutional Capacity",
+        "image": "op6_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "During 2021, ADB made a series of targeted investments to strengthen governance and institutional capacity across Central and West Asia. This included support for reforms to financial markets, strategies to shape economic diversification, and capacity development in the transport sector.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Uzbekistan, ADB provided a $100 million loan to help develop the government’s bond market, diversify the investor base, and improve the supply of alternative financial instruments. The program will not only support private sector expansion but also contribute to strengthening financial market governance. The program includes specific reforms to enhance institutional capacity and increase participation by women in finance sector governance.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB committed $80 million for a program in the Kyrgyz Republic to support the implementation of reforms in the country’s current national development strategy. The investment will help diversify the economy away from an overreliance on gold exports and remittance-led consumption. It will do so by developing nonmineral exporting opportunities and promoting an enabling environment for food and agriculture investments.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Tajikistan, ADB provided technical assistance to update the country’s transport sector development program and formulate a capacity development plan that enables the government to manage sector planning self-sustainably. Meanwhile, ADB technical assistance in Turkmenistan is helping the government strengthen its institutional capacity for evidence-based policy formulation and implementation.",
+        "type": "paragraph"
+    },
+    {
+        "title": "Supporting Cleaner, Safer Travel in Pakistan",
+        "image": "chapter2-img2.png",
+        "tag": "The new bus rapid transit system in Peshawar, Pakistan provides safer travel for women and girls.",
+        "data": "A bus rapid transit (BRT) system in Peshawar, Pakistan—made possible by financing from ADB—is breaking records for passenger use and attracting more women to public transport. The Zu Peshawar BRT system features hybrid electric buses and 30 stations along a 27-kilometer (km) corridor that links east to west across the city. Despite restrictions on movement imposed due to the COVID-19 pandemic, ridership of the system reached more than 50 million passengers in 2021, with over 25% of commuters being women and children. The only gold-standard BRT system operating in Pakistan, the Zu Peshawar service prioritizes accessibility and security for women, persons with disabilities, and other vulnerable users. Women are provided priority queuing areas on the platform and a dedicated space inside the vehicles.  The ADB-supported project also ensured complete urban regeneration along the route, including new energy-efficient streetlights, quality footpaths, drainage systems, and dedicated cycle lanes. It is already improving air quality for Peshawar’s residents due to reduced traffic congestion. Around 150 bus stops are planned across a network of 83 km of direct service routes that connect densely populated communities directly to the system. In 2021, the Zu Peshawar BRT system earned an honorable mention in the prestigious 2022 Sustainable Transport Award.",
+        "type": "expand"
+    },
+    {
+        "data": "Fostering Regional Cooperation and Integration",
+        "image": "op7_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "With land transport playing a vital role in overcoming the formidable terrain of Central and West Asia, ADB made a series of strategic investments in 2021 to help link the region’s economies and bolster trade.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Georgian Railway JSC provides an essential link connecting Central Asia and the South Caucasus to the Black Sea and Europe. In 2021, ADB committed $50 million in $500 million of green bonds issued by the state-owned enterprise to refinance its existing debt and continue supporting the modernization of the rail network. Once completed, the network’s annual freight capacity is expected to rise from 27 million tons in 2020 to 48 million tons by 2024. It will also reduce the average time it takes for freight trains to reach Batumi Port from the Azerbaijan border by 4 hours.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Uzbekistan, ADB committed $162 million for upgrades to 465 km of railway line that links to the Central Asia Regional Economic Cooperation (CAREC) Corridor 2, serving the vital East–West trade route from the People’s Republic of China, through Central Asia, to Europe. The 2021 investment will add electrification, signaling and telecommunications, and traction power management systems to the recently built railway line. The project aims to improve Uzbekistan’s connectivity with neighboring countries and global markets and support the recovery of its international tourism industry.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB provided a $235 million loan to expand 222 km of National Highway 55 in Pakistan. This will improve transport times along CAREC corridors—which have become congested due to growing traffic volumes between Karachi, Islamabad, and Lahore—recovering substantial economic losses and reducing air and noise pollution.",
+        "type": "paragraph"
+    },
+    {
+        "data": "Through a new technical assistance project, ADB is helping develop an economic corridor framework for the South Caucasus to leverage investment, promote trade facilitation, and assess new tourism opportunities through transport gateways between Armenia, Azerbaijan, Georgia, and beyond.",
+        "type": "paragraph"
+    },
+    {
+        "data": "To support regional economic growth and recovery in the wake of the COVID-19 pandemic, the CAREC Program approved new health and digital strategies. It also launched initiatives for cross-border cooperation on water resources and a facility to enable regional infrastructure projects.",
+        "type": "paragraph"
+    },
+    {
+        "data": "KNOWLEDGE HIGHLIGHTS",
+        "type": "heading"
+    },
+    {
+        "data": "With support from ADB, the CAREC Institute produced a study on public attitudes toward COVID-19 vaccination in seven countries. The survey identified key barriers including a lack of confidence in vaccine efficacy, inadequate information, and fear of side effects. CAREC Institute representatives then engaged with experts from select countries to discuss policy options for effective vaccination campaigns.",
+        "type": "paragraph"
+    },
+    {
+        "data": "ADB also provided support for a special report on the impacts of the coronavirus on MSMEs in select CAREC countries. It provided 15 recommendations for policymakers to mitigate the effects of business disruptions, with a workshop held to disseminate findings and engage in dialogue to influence policy change.",
+        "type": "paragraph"
+    },
+    {
+        "data": "For Turkmenistan, ADB conducted a webinar to inform government representatives about best practices and the experiences of Central Asian DMCs on climate risk assessment, integrated water resources management, and innovation in water supply technology. Discussions with the government continued through regional consultation meetings in April and September 2021.",
+        "type": "paragraph"
+    },
+    {
+        "data": "In Georgia, ADB finalized a program with civil society organizations to develop inclusive teaching methods for three kindergartens supporting children with disabilities.",
+        "type": "paragraph"
+    },
+    {
+        "title": "RESHAPING ECONOMIES FOR QUALITY GROWTH",
+        "data": "In 2021, ADB endorsed new country partnership strategies for Pakistan and Tajikistan, each covering 2021–2025. <a href='https://www.adb.org/documents/pakistan-country-partnership-strategy-2021-2025'>Pakistan’s strategy</a> responds to the economic and social challenges caused by the COVID-19 pandemic and supports the country in improving economic management to restore stability and growth, expanding social protection to enhance productivity and personal well-being, and boosting private sector participation to create jobs and other economic opportunities. For Tajikistan, <a href='https://www.adb.org/documents/tajikistan-country-partnership-strategy-2021-2025'>the strategy</a> focuses on improving the quality of the country’s economic growth by supporting structural reforms, increasing productivity, and creating better livelihoods. It includes support for attracting more business investment, strengthening health and education, and improving food security.",
+        "type": "expand"
+    },
+    {
+        "title": "NEXT",
+        "data": "EAST ASIA",
+        "type": "button"
+    }
 ]

@@ -1,4 +1,4 @@
-import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ElementRef, HostListener, Input, OnDestroy, OnInit } from '@angular/core';
+import { AfterContentChecked, AfterContentInit, AfterViewChecked, AfterViewInit, Component, ElementRef, HostListener, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
 import { Chart, ChartType, } from 'chart.js';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import * as $ from 'jquery';
@@ -27,7 +27,7 @@ declare var jQuery: any;
     //     ])
     //   ]
 })
-export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
+export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit, OnChanges {
 
     @Input() data: any;
     @Input() image: any;
@@ -35,6 +35,8 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
     @Input() strategicTag: any;
     @Input() strategicHeading: any;
     
+    textX: any;
+    textY: any;
     state: any;
     inView = false;
 
@@ -43,6 +45,11 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
 
     ngOnInit(): void {
         this.chart = new Chart('canvas' + this.id, {});
+        
+    }
+
+    ngOnChanges(changes: SimpleChanges): void {
+        this.chart.chart.update();        
     }
 
     ngAfterViewInit() {
@@ -119,27 +126,28 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit {
                     var width = chart.canvas.width,
                         height = chart.canvas.height,
                         ctx: any = chart.ctx
-
                     ctx.restore();
                     var fontSize = (height / 114).toFixed(2);
                     ctx.font = fontSize + "em sans-serif";
                     ctx.textBaseline = "middle";
-                    var text = '90%',
-                        textX = Math.round((width - ctx.measureText(text).width) / 2),
-                        textY = height / 2;
-
-                    ctx.beginPath();
-                    ctx.arc(51, 51, 27, 0 * Math.PI, 2 * Math.PI);
-                    ctx.fillStyle = '#f2ae29';
-                    ctx.lineWidth = 0;
-                    ctx.fill();
-                    ctx.strokeStyle = '#FFFFFF';
-                    ctx.measureFontColor = "#FFFFFF";
-                    ctx.fillStyle = 'black';
-                    ctx.stroke();
-
-                    ctx.fillText(text, textX, textY);
-                    ctx.save();
+                    this.data.datasets.map(centerTxt => {
+                        var text = centerTxt.centerText,
+                            textX = Math.round((width - ctx.measureText(text).width) / 2),
+                            textY = height / 2;
+                            
+                            ctx.beginPath();
+                            ctx.arc(51, 51, 27, 0 * Math.PI, 2 * Math.PI);
+                            ctx.fillStyle = '#f2ae29';
+                            ctx.lineWidth = 0;
+                            ctx.fill();
+                            ctx.strokeStyle = '#FFFFFF';
+                            ctx.measureFontColor = "#FFFFFF";
+                            ctx.fillStyle = 'black';
+                            ctx.stroke();
+                            
+                            ctx.fillText(text, textX, textY);
+                            ctx.save();
+                        })
                 }
             }]
 
