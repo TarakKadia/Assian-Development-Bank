@@ -87,22 +87,6 @@
     "type": "paragraph"
   },
   {
-    "id": 2,
-    "title": "In 2020, ADB’s commitments in this region were primarily in the following sectors:",
-    "digit1": 34,
-    "tag1": "PUBLIC SECTOR MANAGEMENT",
-    "digit2": 15,
-    "tag2": "INDUSTRY AND TRADE",
-    "digit3": 14,
-    "tag3": "FINANCE",
-    "digit4": 11,
-    "tag4": "TRANSPORT",
-    "digit5": 10,
-    "tag5": "HEALTH",
-    "sign": "%",
-    "type": "currencyCounter"
-  },
-  {
     "data": "STRATEGIC FOCUS",
     "type": "heading"
   },
@@ -370,6 +354,22 @@
   {
     "data": "In 2021, ADB made two significant nonsovereign loans to expand access to finance for Viet Nam’s women entrepreneurs and business operators. The bank extended a $100 million loan to the Vietnam International Commercial Joint Stock Bank (VIB) and $25 million in financing to Tien Phong Commercial Joint Stock Bank (TPBank). Both institutions will, in turn, provide critically needed financing to SMEs owned and led by women. The investment in VIB includes technical assistance to develop information systems appropriate to women and train bank loan officers on better serving female customers, while the financing for TPBank is expected to increase the bank’s number of women borrowers by over 23% by 2025.",
     "type": "paragraph"
+  },
+  {
+    "id": 2,
+    "title": "IN 2021, ADB COMMITMENTS IN SOUTH ASIA WERE PRIMARILY IN THESE SECTORS",
+    "digit1": 30,
+    "tag1": "HEALTH",
+    "digit2": 28,
+    "tag2": "PUBLIC SECTOR MANAGEMENT",
+    "digit3": 14,
+    "tag3": "ENERGY",
+    "digit4": 10,
+    "tag4": "TRANSPORT",
+    "digit5": 6,
+    "tag5": "EDUCATION",
+    "sign": "%",
+    "type": "currencyCounter"
   },
   {
     "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",

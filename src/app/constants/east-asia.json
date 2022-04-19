@@ -348,6 +348,22 @@
     "type": "paragraph"
   },
   {
+    "id": 2,
+    "title": "IN 2021, ADB COMMITMENTS IN EAST ASIA WERE PRIMARILY IN THESE SECTORS",
+    "digit1": 43,
+    "tag1": "AGRICULTURE, NATURAL RESOURCES, AND RURAL DEVELOPMENT",
+    "digit2": 18,
+    "tag2": "HEALTH",
+    "digit3": 9,
+    "tag3": "TRANSPORT",
+    "digit4": 8,
+    "tag4": "EDUCATION",
+    "digit5": 7,
+    "tag5": "ENERGY",
+    "sign": "%",
+    "type": "currencyCounter"
+  },
+  {
     "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
     "image": "op3_color.png",
     "type": "logoHeading"
