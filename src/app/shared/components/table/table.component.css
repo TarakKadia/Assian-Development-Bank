@@ -107,6 +107,7 @@
     font-weight: 5px;
    position: relative;
    padding-left: 15px;
+   font-size: 18px;
 }
 
 .financialHeading{
@@ -153,34 +154,50 @@ p {
 }
 
 .border-bottom {
-    border-bottom: 1px solid blue !important;
+    border-bottom: 1px solid #0088c7 !important;
     text-align: center !important;
 }
 
 .border-top {
-    border-top: 2px solid blue !important;
+    border-top: 2px solid #0088c7 !important;
 }
 
 .background-color {
-    background-color: hsl(240deg 100% 50% / 20%);
+    background-color: #dfedf7;
 }
 
 .border-bottom-2px {
-    border-bottom: 2px solid blue !important;
+    border-bottom: 2px solid #0088c7 !important;
 }
 
 .border-right {
-    border-right: 1px solid blue !important;
+    border-right: 1px solid #0088c7 !important;
     text-align: left;
 }
 
 .border-left-right {
-    border-left: 1px solid blue;
-    border-right: 1px solid blue;
+    border-left: 1px solid #0088c7;
+    border-right: 1px solid #0088c7;
 }
 
 .background-border {
-    background-color: hsl(240deg 100% 50% / 20%);
-    border-bottom: 1px solid blue;
+    background-color: #dfedf7;
+    border-bottom: 1px solid #0088c7;
     font-weight: bold;
+}
+table tbody:last-child tr:last-child td{
+    background-color: #c3def1;
+     font-weight: 900;
+}
+
+table tbody:last-child tr.view td {
+    background: #c3def1 !important;
+    font-weight: 900;
+}
+
+.appendix-table{
+    overflow-x: auto;
+}
+.appendix-table table{
+    width: 1900px;
 }

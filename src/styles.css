@@ -198,7 +198,7 @@ div.content {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
-  padding:0 15px;
+  padding:0 15px 80px;
 }
 
 ol,ul {
@@ -859,14 +859,9 @@ p.byline {
 
 .box {
   border: 0.1rem solid #ddf5fb;
-
   padding: 0rem 1rem 0rem 1rem;
-  width: 96%;
-
-
+  width: 100%;
 }
-
-
 
 .box.board {
   background-color:#e6f7fe;
@@ -1071,10 +1066,12 @@ div.complexheader.regions h2 {
 .image-hover{
     position: relative;
 }
-.titleText{
-    position: absolute;
-    top: 68%;
-    color: white;
+.titleText {
+  position: absolute;
+  color: white;
+  bottom: 170px;
+  left: 0;
+  padding: 0 15px;
 }
 
 .collapser {
@@ -1092,11 +1089,14 @@ div.complexheader.regions h2 {
 .shade {
   background-color: #e6f7fe;
   padding: 2%;
-  width: 96%;
+  width: 100%;
   transition: width 0.3s ease-in;
   margin: 0 auto 0 auto;
-  /* cursor:pointer; */
-  /* border: 1px solid #e6f7fe; */
+}
+
+.shade.story.covid{
+  width: 100%;
+  margin-bottom:30px;
 }
 
 .shade h3 {
@@ -1105,7 +1105,6 @@ div.complexheader.regions h2 {
   margin-top: 0;
   text-transform: none;
   font-weight: 500;
-  /* border-bottom: 1px solid #ea522c; */
   padding-bottom: 25px;
   padding-top: 15px;
 }
@@ -1116,12 +1115,13 @@ div.complexheader.regions h2 {
 }
 
 .shade.covid h3 {
-
   background-image: url("./assets/images/ui/covid_icon.png");
   background-repeat: no-repeat;
   background-position: left top;
   padding-left: 70px;
-  background-size: 57px;
+  background-size: 57px;  
+  padding-bottom: 30px;
+  padding-top: 11px;
 }
 
 .shade p.clickhere {
@@ -1162,42 +1162,54 @@ div.complexheader.regions h2 {
 /************* OP story boxes ***********/
 
 .box.story {
-
   transition: width 0.2s ease-in;
   margin: 4rem auto 5rem auto;
   cursor: pointer;
-  padding: 0.5rem;
-  background-color: #ddf5fb;
+  padding: 0 15px;
+  background-color: #0778a9;
+  position: relative;
 }
 
 .box.story p.clickhere {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   display: none;
   width: 100%;
-
 }
 
 .box.story h3 {
-
-  display: inline-block;
-  margin: -0.6rem;
-  padding: 1.5rem 1rem 2rem 1rem;
-  background-color: #ea522c;
+  padding: 0 15px;
   color: #ffffff;
   font-weight: 500;
-
   display: block;
-  text-transform: uppercase;
-  background-position: 5px center;
-  background-repeat: no-repeat;
-  background-size: auto 60px;
+  text-transform: uppercase;  
+  position: relative;
+  z-index: 1;
+}
+.box.story .expandTwoImage {
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+  height: 570px;
 }
 
 .box.story .boxtop {
   margin: -0.55rem;
-  ;
+}
+
+.box.story .caption{
+  color: #fff;  
+  position: relative;
+}
+
+.box.story .caption svg {
+  fill: #fff;
+}
+
+.box.story p{
+  color: #fff;  
+  position: relative;
 }
 
 .box.story .boxtopvid {
@@ -1396,27 +1408,26 @@ div.complexheader.regions h2 {
 /******* margin items ***********/
 
 .margin {
-  border: 0.1rem solid #035f96;
-color: white;
+  border: 0.1rem solid #c3def1;
+  color: white;
   padding: 1rem;
   text-align: center;
-  width: 50%;
+  max-width: 600px;
   margin: 0 auto 0 auto;
-  background-color: #035f96;
+  background-color: #c3def1;
   margin-bottom: 20px;
 }
 
 .margin img {
-    width: 100%;
-    /* margin-bottom: 1rem; */
+    width: auto;
     position: relative;
-    /* left: 50px; */
+    margin-top: 30px;
 }
 
 .margin h3 {
   font-size: 1.2rem;
-  font-weight: normal;
-  margin-top: 0;
+  font-weight: normal;  
+  color: #000;
   text-transform: none;
   text-align: left;
 }
@@ -1429,9 +1440,16 @@ color: white;
   font-variant-numeric: lining-nums;
   font-weight: 300;
   margin-bottom: 0;
-  font-size: 1rem;
-  line-height: 1.2rem;
+  font-size: 18px;
+  line-height: 28px;
   text-align: left;
+  color: #000 !important;
+}
+.margin svg{
+  fill: #000;
+}
+.margin .caption{
+  color: #000;
 }
 
 /******** by the numbers ************/
@@ -1487,14 +1505,16 @@ color: white;
 
 div.numbers {
   max-width: 700px;
-  margin: 0 auto 0 auto;
+  margin: 0 0 20px;
 }
 
 div.numbers .numbergroup {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-top: 17px;
+    padding-top: 17px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.numbers .numbergroup div{
+  margin-right: 30px;
 }
 
 div.numbers h3 {
@@ -1504,18 +1524,6 @@ div.numbers h3 {
   background-repeat: no-repeat;
   background-position: left bottom;
   padding-bottom: 27px;
-}
-
-div.numbers .numbergroup div {
-  flex: 1 1 0%;
-  /* border-top: 0.1rem solid #f57f29; */
-  /* border-left: 0.1rem solid #f57f29; */
-  /* border-radius: 1.5rem 0 0 0; */
-  padding: 0 1% 0 1%;
-  margin-bottom: 1rem;
-  /* margin: 0.5rem; */
-
-  min-width: 8rem;
 }
 
 div.numbers p {
@@ -1531,30 +1539,16 @@ div.numbers p {
   margin-top: 0;
 }
 
-div.numbers p.num {
-  font-weight: 200;
-  font-size: 2.6rem;
-  line-height: 2.6rem;
-  margin-bottom: 0.5rem;
-  margin-top: 0;
-  color: #ea522c;
+.numbers .numbergroup .num{
+  font-size: 30px !important;
+  line-height: 40px !important;
+  margin-bottom: 10px;
+  color: #0088c7;
+}
+.numbers .numbergroup p{
+  color: #0088c7;
 }
 
-div.numbers .numbergroup div.sub {
-
-  padding: 0 2% 0 0;
-
-}
-
-div.numbers .numbergroup div.sub p {
-  line-height: 1rem;
-  font-size: 1rem;
-}
-
-div.numbers .numbergroup div.sub p.num {
-  font-size: 1.8rem;
-  line-height: 1.8rem;
-}
 
 /******** commitments ************/
 /******** commitments ************/
@@ -2123,7 +2117,8 @@ object-position:inherit;
 
 .smallgrid .greybutton p {
   margin: 1rem 0 1rem 0;
-  color: #fff;
+  color: #fff;  
+  padding: 0 22px 0 10px;
 }
 
 .smallgrid .greybutton a {
@@ -2613,13 +2608,9 @@ object-position:inherit;
 /********** minimize maximize toggle *********/
 
 .minimized {
-
-
   margin: 4rem auto 5rem auto;
-
   padding-bottom: 0;
-
-  width: 20rem;
+  width: 100%;
 
 }
 
@@ -3732,9 +3723,36 @@ img{
 .tableSix table.accordianTable thead tr th{background-color: #c3def1;}
 .tableSix table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
 
-h3 {margin: 25px 0;}
+h3 {margin: 25px 0 !important;}
 .number h1,
 .conf-number h1{font-weight: 900;}
+.progress1.diversification{width: 100%; margin-top: 30px;display: inline-block;}
+.icon.op1 {position: relative;padding-left: 100px;margin-bottom: 40px;}
+.icon.op1 img.logoImage {position: absolute;left: 0;top: -4px;width: 100%;max-width: 100px;}
+.shade.story.covid img.cover{width: auto;}
+.climate{background-color: #8bc63e;margin-bottom: 0;}
+.climate *{color: #fff !important;}
+.climate.progress1.diversification h3 {
+  background-color: transparent;
+  margin: 20px 0 15px !important;
+  padding: 0;
+}
+.climate.progress1.diversification p.num {
+  margin: 30px 0 20px 0 !important;
+}
+
+app-strategic-focus-pie-chart{
+  display: inline-block;
+  vertical-align: top;
+  width: 14%;
+}
+.chartP{width: 100% !important;}
+app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 100px;max-height: 100px;margin: 0 auto;}
+
+@media screen and (max-width:1199px){
+  .financialgroup p.num,
+  .financialgroup p.num span {font-size: 42px;}
+}
 
 @media screen and (max-width:1024px){
   .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
@@ -3742,29 +3760,53 @@ h3 {margin: 25px 0;}
 }
 
 @media screen and (max-width:991px){
-  .box.management .managementImageGrid img {
+    .box.management .managementImageGrid img {
+        width: 25%;
+        padding: 0 2px 4px;
+    }
+    app-strategic-focus-pie-chart {
       width: 25%;
-      padding: 0 2px 4px;
+      margin-bottom: 30px;
   }
+}
+
+@media screen and (max-width:767px){  
+  .shade.covid h3{padding-top: 0px;}
+  .extralinks {flex-direction: column;}
+  .extralinks .downloads {min-width: 100%;justify-content: center;}
 }
 
 @media screen and (max-width:639px){  
-  img.topimg{
-    margin-bottom: 30px;
-  }
+  img.topimg{margin-bottom: 30px;}
   .box.management .managementImageGrid img,
-  .boardpics img {
-      width: 33.33%;
-  }
+  .boardpics img {width: 33.33%;}
   .lineChartGrey{width: 100% !important;}  
+  .main{flex-direction: column;}
+  .titleText {bottom: 80px;}
+  app-strategic-focus-pie-chart {width: 50%;}  
+  #open-menu {padding-left: 25px;}
+  .bookmark{font-size: 0;}
+  .share{font-size: 0;padding-right: 28px;background-size: 25px;}
+  app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 70px;max-height: 70px;}
 }
 
-@media screen and (max-width:479px){  
-  div.simpleheader h2{margin-bottom:30px;}
+@media screen and (max-width:479px){ 
+  .financialgroup p.num, .financialgroup p.num span {font-size: 32px;} 
+  .financialgroup p {line-height: 22px;}
+  .smallgrid{flex-direction: column;}
+  .smallgrid .greybutton {width: 100%;}
+  .extralinks .downloads{flex-wrap: wrap;}
+  .extralinks .downloads p{width: 100%;}  
+  .simpleheader h2{margin-bottom:30px;}
   .box.management .managementImageGrid img,
-  .boardpics img {
-      width: 50%;
-  }  
+  .boardpics img {width: 50%;}  
+  .complexheader p.chapter{top: 70px;}
+  div.complexheader.regions h2 {font-size: 21px;line-height: 24px;}
+  .pie .pieClass canvas,
+  .pie .pieClassOne canvas{max-width: 200px;max-height: 200px;}
+  .headingText{font-size: 40px;}
+  .icon.op1 {padding-left: 70px;}
+  .icon.op1 img.logoImage {top: 4px;max-width: 70px;}
 }
 
 /* 19-4-2022 Maulik End css */

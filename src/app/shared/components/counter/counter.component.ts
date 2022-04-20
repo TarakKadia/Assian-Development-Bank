@@ -18,6 +18,8 @@ export class CounterComponent implements OnInit, AfterViewInit {
     @Input() data: any;
     @Input() sign: any;
     @Input() id: any;
+    @Input() class: any;
+
     constructor(
         public generalApiService: GeneralApiService
     ) { }

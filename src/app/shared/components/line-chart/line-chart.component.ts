@@ -16,7 +16,7 @@ export class LineChartComponent implements OnInit {
     }
 
     multis: any = of([]);
-    view: [number, number] = [400 ,300];
+    view: [number, number] = [300 ,300];
 
 
     legend: boolean = false;

@@ -7,7 +7,7 @@ p {
   font-family: Lato;
 }
 .container{
-  width: 97%;
+  width: 100%;
   padding-left: 30px;
 }
 .upperLine{
@@ -17,41 +17,44 @@ p {
 }
 
 .heading {
-  color: #609ab7;
+  color: #0181bd;
   font-size: 25px;
   border-bottom: 1px solid;
   padding-top: 30px;
 }
 .class {
   padding-top: 50px;
+  text-align:left;
 }
 
 .headingDollar {
   padding-top: 8px;
-  color: #609ab7;
+  color: #007db7;
   font-size: 20px;
 }
 
 .headingText {
-  color: #609ab7;
+  color: #007db7;
   font-weight: bolder;
   font-size: 50px;
 }
 
 .headingTextOne {
-  color: #609ab7;
+  color: #007db7;
   font-size: 25px;
 }
 .para {
   border-top: 1px solid;
   padding-top: 5px;
-  color: #609ab7;
+  color: #007db7;
   font-size: 21px;
   font-weight: bolder;
 }
 .pie {
   display: flex;
   flex-direction: inherit;
+  flex-wrap: wrap;  
+  width: 100%;
 }
 
 .pieClass {
@@ -94,6 +97,13 @@ padding-bottom: 5px;
 
   padding-left: 63px;
   margin: -50px 0px 0px 65px;
+}
 
 
+
+@media screen and (max-width:767px){
+  .pie{justify-content: center;align-items: center;flex-direction: column;}
+  .pie .class{text-align: center; margin: 0;}
+  .pie .pieClass,
+  .pie .pieClassOne{margin: 0;padding: 0px;}
 }

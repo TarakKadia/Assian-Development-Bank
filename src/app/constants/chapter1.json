@@ -210,6 +210,7 @@
         "gender": "CLIMATE CHANGE",
         "digit": 14.4,
         "sign": "$",
+        "class":"climate",
         "content": "During 2018-2020, 89% of ADB committed operations promoted gender equality, up from 80% in 2017-2019, and still well on track to achieve the target of 75% in 2030.",
         "type": "counter"
     },
