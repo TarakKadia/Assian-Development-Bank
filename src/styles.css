@@ -195,12 +195,10 @@ div#viewport {
 }
 
 div.content {
-  max-width: 800px;
-  margin: 0 auto 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
   background-color: #fff;
-  /* padding-bottom: 5rem; */
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding:0 15px;
 }
 
 ol,ul {
@@ -376,20 +374,7 @@ footer {
 
 }
 
-img {
-  width: 100%;
 
-}
-
-@media only screen and (min-width: 1000px) {
-
-  div.content>img {
-    width: 125%;
-    margin-left: -100px;
-
-  }
-
-}
 
 /************** sidenav ***************/
 /************** sidenav ***************/
@@ -786,8 +771,8 @@ h2 span {
 div.simpleheader h2 {
   color: #fff;
   background-color: #cbd851;
-  padding: 0.8rem 4rem 0.8rem 4rem;
-  margin: 2rem 0 3rem -4rem;
+  padding: 15px 50px;
+  margin: 30px 0 50px -50px;
   display: table;
   font-size: 1.6rem;
   line-height: 1.6rem;
@@ -833,8 +818,7 @@ h5+p {
 
 img.topimg {
   width: 100%;
-  /* margin-left: -100px; */
-
+  margin-bottom: 50px;
 }
 
 
@@ -871,12 +855,6 @@ p.byline {
   font-family: IdealSans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 300;
   line-height: 1.6rem;
-}
-
-p.byline strong {}
-
-.byline img {
-  width: auto;
 }
 
 .box {
@@ -2898,14 +2876,12 @@ strong.lessstrong {
 .boardpics {
   display: flex;
   flex-wrap: wrap;
-
-
+  width: 100%;
 }
 
 .boardpics img {
-  flex: 0 0 content; 
-   width: 12px; 
-   padding: 0.2rem;
+  padding: 0.2rem;
+  width: 25%;
 }
 
 /********* appendixes ***********/
@@ -3575,13 +3551,13 @@ div#hover::after {
     margin: 0px auto;
 }
 table.accordianTable thead tr th { border-bottom: none !important; padding: 0 10px; }
-table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !important; }
-	table.accordianTable thead tr th.lastThClass { background-color: #fdebe1; }
-	table.accordianTable thead tr.title-row th { background-color: #fbd9c6; }
+table.accordianTable thead tr th.lightOrange-bg { background-color: #dfedf7 !important; }
+	table.accordianTable thead tr th.lastThClass { background-color: #dfedf7; }
+	table.accordianTable thead tr.title-row th { background-color: #c3def1; border-top: 2px solid #0088c7;}
 	table.accordianTable tbody tr.fold > td { padding: 0; }
 	table.accordianTable tbody tr td { padding: 0 10px; }
 	table.accordianTable tbody tr td.colorGrey { background-color: #dcddde !important; }
-	table.accordianTable tbody tr td.lightOrange-bg { background-color: #fce1d2 !important; }
+	table.accordianTable tbody tr td.lightOrange-bg { background-color: #dcddde !important; }
 	table.accordianTable tbody tr td .fold-content { padding: 0 0 0 30px; }
 	table.accordianTable tbody tr td .fold-content table tbody tr td { text-align: left; }
 	table.accordianTable tbody tr td .fold-content table tbody tr td:first-child { padding-left: 25px; text-align: left; }
@@ -3590,9 +3566,9 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !imp
 	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-normal td:first-child, 
 	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold td:first-child { padding-left: 10px; }
 	table.accordianTable tbody tr td .fold-content table tbody tr.title-row-normal td:first-child { font-weight: normal; }
-	table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls { background-color: #fef5f0; }
-	table.accordianTable tbody tr td .fold-content table tbody tr td:last-child { border-left: 1px solid #f9cbbe; }
-	table.accordianTable tbody tr td .fold-content table tbody tr.subTotal td { background-color: #fce1d2; font-weight: bold; }
+	table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls { background-color: #dfedf7;}
+	table.accordianTable tbody tr td .fold-content table tbody tr td:last-child { border-left: 1px solid #0088c7; }
+	table.accordianTable tbody tr td .fold-content table tbody tr.subTotal td { background-color: #dfedf7; font-weight: bold; }
 	table.accordianTable tbody tr td .fold-content table tbody tr.subTotal td:first-child { padding-left: 10px; }
 	
 	.investment-chart { max-width: 290px; margin: 0 auto; padding: 20px 12px; background: #e7e7e8; box-sizing: border-box; }
@@ -3651,3 +3627,144 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #fdebe1 !imp
     width: 12%;
     gap: 5px;
 }
+
+
+/* 19-4-2022 Maulik Start css */
+
+img{
+  max-width: 100%;
+}
+
+.president{
+  width: 100;
+  justify-content: center;
+}
+
+.president img{
+  max-width: 380px;
+}
+.president .caption {
+  padding: 0 0 10px 24px;
+  position: relative;
+  display: block;
+}
+.president .caption svg{
+  position: absolute;
+  position: absolute;
+  left: 0;
+}
+.presidentAsakawa.topimg{
+  max-width: 100%;
+  margin-bottom: 15px;  
+}
+.signature img {
+  max-width: 500px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.box.management{
+  width: 100%;
+}
+.box.management .managementImageGrid {
+  width: auto;
+  flex-wrap: wrap;
+  gap:0;
+  margin: 0 -2px;
+}
+.box.management .managementImageGrid img{
+  width: 12.5%;
+  padding: 0 2px;
+}
+.management.box .caption {
+  font-style: italic;
+}
+
+.financialSubHeading{
+  margin-bottom: 20px;
+}
+
+.accordianTable thead:first-child th:nth-last-child(-n+2){
+  border-bottom: 1px solid #0088c7 !important;
+}
+.caption {
+  margin-bottom: 20px;
+}
+
+.tableTwo table tbody:last-child tr.view  td {
+  background-color: #fff !important;
+  border-bottom: 1px solid #0088c7 !important;
+}
+.tableTwo table tbody:last-child tr.view  td:nth-last-child(-n+2){  
+  background-color: #dfedf7 !important;
+}
+
+.tableTwo table tbody:last-child tr.fold td table tr td.totalCls{background-color: transparent !important;}
+.tableTwo table tbody:last-child tr.fold td table tr td:nth-last-child(-n+2){background-color: #dfedf7 !important;}
+
+.tableTwo table tbody:last-child tr.fold td table tr:last-child td,
+.tableThree table tbody:last-child tr.fold td table tr:last-child td{background: #0088c7 !important;  font-weight: 700;}
+
+.tableThree {margin: -17px 0 0;}
+.tableThree table.fold-table tbody tr.view td {background-color: #fff !important;border-bottom: 2px solid #0088c7;text-align: center;}
+.tableThree table.fold-table tbody tr.view td:last-child{background-color: #dfedf7 !important;}
+.tableThree table.fold-table tbody tr.view td:first-child,
+.tableThree table.fold-table tbody tr.fold td:first-child {text-align: left;}
+.tableThree table.fold-table tbody tr.fold td{text-align: center;}
+.tableThree table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
+
+.tableFour {margin: -17px 0 0;}
+.tableFour table.fold-table thead,
+.tableFour table.accordianTable thead tr th.lastThClass,
+.tableFour table.accordianTable thead tr th.lightOrange-bg{background-color:#c3def1 !important;}
+.tableFour table.fold-table thead:first-child{background-color: #fff !important;border-bottom: 2px solid #0088c7;}
+.tableFour table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
+
+.tableFive {margin: -16px 0 0;}
+.tableFive table.accordianTable thead tr th.lightOrange-bg{background-color:#c3def1 !important;}
+.tableFive table.fold-table thead:first-child{background-color: #fff !important;border-bottom: 2px solid #0088c7;}
+.tableFive table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
+.tableFive table.accordianTable thead tr th.lastThClass {background-color: #fff;}
+.tableFive table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold td{background-color: #c3def1 !important;}
+
+.tableSix {margin: -16px 0 0;}
+.tableSix table.fold-table thead:first-child{border-bottom: 2px solid #0088c7; background-color: #fff;}
+.tableSix table.fold-table thead:first-child tr th{background-color: #fff;}
+.tableSix table.accordianTable thead tr th{background-color: #c3def1;}
+.tableSix table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
+
+h3 {margin: 25px 0;}
+.number h1,
+.conf-number h1{font-weight: 900;}
+
+@media screen and (max-width:1024px){
+  .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
+  .tableOne table,.tableTwo table,.tableThree table,.tableFour table,.tableFive table,.tableSix table,.tableseven table{width: 1050px !important;}
+}
+
+@media screen and (max-width:991px){
+  .box.management .managementImageGrid img {
+      width: 25%;
+      padding: 0 2px 4px;
+  }
+}
+
+@media screen and (max-width:639px){  
+  img.topimg{
+    margin-bottom: 30px;
+  }
+  .box.management .managementImageGrid img,
+  .boardpics img {
+      width: 33.33%;
+  }
+  .lineChartGrey{width: 100% !important;}  
+}
+
+@media screen and (max-width:479px){  
+  div.simpleheader h2{margin-bottom:30px;}
+  .box.management .managementImageGrid img,
+  .boardpics img {
+      width: 50%;
+  }  
+}
+
+/* 19-4-2022 Maulik End css */

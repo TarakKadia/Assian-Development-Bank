@@ -29,7 +29,7 @@
 }
  table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
 	 cursor: pointer;
-     background-color: #f9c8ae;
+     background-color: #dcddde ;
 }
  table.fold-table > tbody > tr.view td:first-child, table.fold-table > tbody > tr.view th:first-child {
 	 position: relative;
@@ -74,9 +74,6 @@
  .fold-content h3 {
 	 margin-top: 0;
 }
- .fold-content > table {
-	 /* border: 2px solid #ccc; */
-}
  .fold-content > table > tbody tr:nth-child(even) {
 	 background: #eee;
 }
@@ -85,7 +82,6 @@
 
 .accordinTable{
     width: 100%;
-    /* margin-left: -100px; */
 }
  
 .font-bold{
@@ -123,20 +119,16 @@ p {
     font-family: Arial, Helvetica, sans-serif ;
     font-weight: normal;
     font-size: 1.2rem;
-    line-height: 1.5rem !important;
+    line-height: 1.5rem;
     color: #222 !important;
     font-feature-settings: 'lnum', "lnum";
     -webkit-font-feature-settings: 'lnum';
     -moz-font-feature-settings: 'lnum';
     font-variant-numeric: lining-nums;
 }
-@media only screen and (max-width: 1000px) {
-    .accordinTable {
-        width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: -14px;
-    }
-    
-    
-  }
+
+p.financialHeading {text-transform: uppercase; line-height: 40px;}
+
+/* 19-4-2022 Maulik Start css */
+	.accordinTable .noteText{font-size: 16px;}
+/* 19-4-2022 Maulik End css */
