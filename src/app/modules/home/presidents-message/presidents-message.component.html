@@ -6,11 +6,11 @@
       <div *ngFor="let data of data">
         <app-single-heading [title]="data.heading" *ngIf="data.type=='singleHeading'"></app-single-heading>
         <div class="president" style="display: flex;">
-          <app-image [image]="data.image" [tag]="data.tag" *ngIf="data.type=='image'"></app-image>
+          <app-image [image]="data.image" [tag]="data.tag" [class]="data.class" *ngIf="data.type=='image'"></app-image>
         </div>
         <app-paragraph [data]="data" [url]="url" *ngIf="data.type=='paragraph'"></app-paragraph>
         <app-quote [data]="data.data" *ngIf="data.type=='quote'"></app-quote>
-        <app-signature [signature]="data.signature" [name]="data.name" [para1]="data.para1" [para2]="data.para2"
+        <app-signature [signature]="data.signature" [name]="data.name" [para1]="data.para1" [para2]="data.para2" [class]="data.class"
           *ngIf="data.type=='signature'"></app-signature>
           <app-management-image-grid  [data]="data.data" [title]="data.title"  [tagLine]="data.tagLine" [imageGrid]="data.imageGrid" [imageGrid1]="data.imageGrid1" [imageGrid2]="data.imageGrid2" [imageGrid3]="data.imageGrid3" [imageGrid4]="data.imageGrid4" [imageGrid5]="data.imageGrid5" [imageGrid6]="data.imageGrid6" [imageGrid7]="data.imageGrid7" *ngIf="data.type=='managementImageGrid'" ></app-management-image-grid>
       </div>

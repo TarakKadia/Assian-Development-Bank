@@ -11,6 +11,8 @@ export class SignatureComponent implements OnInit {
   @Input() name:any;
   @Input() para1:any;
   @Input() para2:any;
+  @Input() class:any;
+
 
   constructor() { }
 

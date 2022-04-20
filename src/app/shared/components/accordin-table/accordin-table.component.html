@@ -2,44 +2,47 @@
 <ng-container>
          <p class="financialHeading" >{{heading}}</p>
          <p  class="financialSubHeading" [innerHTML]="subHeading"></p>
-         <hr style="color: #aed4ee; height: 2px; margin-top: -15px;">
+         <hr style="color: #0088c7; height: 2px; opacity: 1;">
 </ng-container>
 
-<table class="fold-table accordianTable">
-    <ng-container *ngFor="let item of tableJsonData">
-        <ng-container *ngIf="item.type === 'main-title'">
-            <thead *ngFor="let titles of item.data; let i = index">
-                <tr [ngClass]="{'title-row': i  === 2}">
-                    <ng-container *ngFor="let titleItem of titles; let i = index">
-                        <th  class="w-14 font-bold" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
-                        [class.lastThClass]="(titles.length - 1) ==  i"
-                        [class.width-40]="i === 0"
-                        [class.width-10]="i > 0"
-                        [class.lightOrange-bg]="titleItem.class && titleItem.class !== ''" [ngStyle]="{'text-align': titleItem.colspan > 0 ? 'center' : 'left'}"
-                        [innerHTML]="titleItem.title"  >
-                           
-                        </th>
-                    </ng-container>
-                </tr>
-            </thead>
-        </ng-container>
-        <tbody>
-            <ng-container *ngIf="item.type === 'expansion-panel'">
-                    <tr class="view open" (click)="openAccordin($event)">
-                        <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold'}}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title"  >
-
-                        </td>
+<div class="{{class}}">
+    <table class="fold-table accordianTable">
+        <ng-container *ngFor="let item of tableJsonData">
+            <ng-container *ngIf="item.type === 'main-title'">
+                <thead *ngFor="let titles of item.data; let i = index">
+                    <tr [ngClass]="{'title-row': i  === 2}">
+                        <ng-container *ngFor="let titleItem of titles; let i = index">
+                            <th  class="w-14 font-bold" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
+                            [class.lastThClass]="(titles.length - 1) ==  i"
+                            [class.width-40]="i === 0"
+                            [class.width-10]="i > 0"
+                            [class.lightOrange-bg]="titleItem.class && titleItem.class !== ''" [ngStyle]="{'text-align': titleItem.colspan > 0 ? 'center' : 'left'}"
+                            [innerHTML]="titleItem.title"  >
+                               
+                            </th>
+                        </ng-container>
                     </tr>
-                    <tr class="fold open">
-                        <td colspan="8">
-                            <ng-container *ngTemplateOutlet="commonSubTable; context: {item: item}">
-                            </ng-container>
-                        </td>
-                    </tr>
+                </thead>
             </ng-container>
-        </tbody>
-    </ng-container>
-</table>
+            <tbody>
+                <ng-container *ngIf="item.type === 'expansion-panel'">
+                        <tr class="view open" (click)="openAccordin($event)">
+                            <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold'}}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title"  >
+    
+                            </td>
+                        </tr>
+                        <tr class="fold open">
+                            <td colspan="8">
+                                <ng-container *ngTemplateOutlet="commonSubTable; context: {item: item}">
+                                </ng-container>
+                            </td>
+                        </tr>
+                </ng-container>
+            </tbody>
+        </ng-container>
+    </table>
+</div>
+
 
 
 <ng-template #commonSubTable let-item=item>

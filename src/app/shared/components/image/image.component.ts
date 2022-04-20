@@ -15,12 +15,16 @@ export class ImageComponent implements OnInit, AfterViewInit {
     @Input() heading:any;
     @Input() text:any;
     @Input() titleTag:any;
+    @Input() class:any;
+
 
     constructor(
         public generalApiService: GeneralApiService
     ) { }
 
     ngOnInit(): void {
+        console.log("class",this.class);
+        
 
     }
 

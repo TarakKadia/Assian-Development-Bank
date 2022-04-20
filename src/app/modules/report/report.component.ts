@@ -43,6 +43,8 @@ export class ReportComponent implements OnInit, AfterViewInit {
 
 
     ngOnInit(): void {
+        console.log("dataaaaaaaaaaaaaaaaaaaaaaa",this.data);
+        
         this.url = this.router.url;
         this.generalApiService.url = this.url;
         this.loading = true;

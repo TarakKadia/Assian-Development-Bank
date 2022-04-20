@@ -12,6 +12,8 @@ export class AccordinTableComponent implements OnInit {
     @Input() heading:any;
     @Input() subHeading:any;
     @Input() note:any;
+    @Input() class:any;
+
 
     tableJsonData: Array<any> = [];
     titles: Array<any> = [];
@@ -21,6 +23,7 @@ export class AccordinTableComponent implements OnInit {
     ngOnInit(): void {
       this.tableJsonData = this.tableJson;
       console.log('this.tableJsonData', this.tableJsonData);
+      console.log("Accordian Class",this.class)
     }
     openAccordin(event: any){
       $(event.currentTarget).toggleClass("open").next(".fold").toggleClass("open");

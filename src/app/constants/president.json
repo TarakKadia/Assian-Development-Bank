@@ -53,7 +53,8 @@
     {
         "image": "pres/pres_photo1.jpg",
         "tag": "President Asakawa in his office at ADB headquarters in 2021. The vast majority of ADB staff worked remotely for a second consecutive year due to the coronavirus pandemic.",
-        "type": "image"
+        "type": "image",
+        "class":"presidentAsakawa"
     },
     {
         "data": "Internally, an organizational review—launched in June 2021— will complement other ongoing internal reforms to ensure that ADB has the right skills, culture, structure, and tools to support our mission in Asia and the Pacific amid a rapidly changing development landscape",
@@ -76,7 +77,8 @@
         "name": "MASATSUGU ASAKAWA",
         "para1": "President and Chairperson",
         "para2": "of the Board of Directors",
-        "type": "signature"
+        "type": "signature",
+        "class":"signature"
     },
     {
         "title": "MANAGEMENT TEAM",
