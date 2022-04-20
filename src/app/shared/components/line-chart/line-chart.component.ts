@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { of } from 'rxjs';
+import { Color, ScaleType } from '@swimlane/ngx-charts';
 
 @Component({
   selector: 'app-line-chart',
@@ -19,7 +20,7 @@ export class LineChartComponent implements OnInit {
 
 
     legend: boolean = false;
-    showLabels: boolean = true;
+    showLabels: boolean = false;
     animations: boolean = true;
     xAxis: boolean = true;
     yAxis: boolean = true;
@@ -28,17 +29,15 @@ export class LineChartComponent implements OnInit {
     xAxisLabel: string = '';
     yAxisLabel: string = '';
     timeline: boolean = true;
-
-    public color:Array<any> = [
-        { 
-        backgroundColor: '#0887ca',
-        borderColor: '#0887ca',
-        HoverBackgroundColor: '#0887ca',
-        HoverBorderColor: '#0887ca'
-        }];
+   
     constructor() {
         this.multis = this.data;
     }
-
+    colorScheme: Color = {
+        name: 'myScheme',
+        selectable: true,
+        group: ScaleType.Ordinal,
+        domain: ['#008ac5'],
+      };
 
 }

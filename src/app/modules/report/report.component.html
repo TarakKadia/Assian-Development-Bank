@@ -34,7 +34,7 @@
             [digit3]="data.digit3" [digit4]="data.digit4" [digit5]="data.digit5" [title]="data.title"
             *ngIf="data.type== 'currencyCounter' || data.id == 2"> </app-currency-counter>
 
-            <app-region-counter [sign]="data.sign" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
+            <app-region-counter [sign1]="data.sign1" [sign2]="data.sign2" [sign3]="data.sign3" [sign4]="data.sign4" [tag1]="data.tag1" [tag2]="data.tag2" [tag3]="data.tag3"
             [tag4]="data.tag4"  [symbol]="data.symbol" [digit1]="data.digit1" [digit2]="data.digit2"
             [digit3]="data.digit3" [digit4]="data.digit4" [title]="data.title" [id]="data.id"
             *ngIf="data.type== 'regionCounter'"></app-region-counter>
@@ -70,7 +70,7 @@
                     <app-strategic-focus-pie-chart *ngFor="let chart of data.data.data; let chartIndex = index;" [image]="chart.image" [data]="chart" [id]="chartIndex" [strategicTag]="chart.strategicTag" [strategicHeading]="chart.strategicHeading"></app-strategic-focus-pie-chart>
 
                     <div class="chart-bottom-text">
-                        <p>Note: Excludes technical assistance grants and revolving progrtams. Shares sum to more than 100%. Reflacting the more integrated approach to development challenges outlined in Strategy 2030, most new ADB operations address multiple operational priorities.</p>
+                        <p>Notes: Most new ADB operations address multiple operational priorities. The sum of COVID-19 Response and Non-COVID-19 Operations percentages may not equal the total percentage figure for some operational priorities due to rounding.</p>
                     </div>
                 </div>
             </ng-container>

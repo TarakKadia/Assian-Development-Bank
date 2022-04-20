@@ -18,8 +18,15 @@
     "tag3": "DISBURSED",
     "digit4": 426,
     "tag4": "COFINANCED",
-    "sign": "B",
+    "sign1": "B",
+    "sign2": "B",
+    "sign3": "B",
+    "sign4": "B",
     "type": "regionCounter"
+  },
+  {
+    "data": "Southeast Asia posted positive economic growth for 2021, although consecutive waves of COVID-19 infections and varying rates of vaccination hindered a stronger rebound. By the end of the year, less than 40% of the total population in the region had been fully vaccinated. ",
+    "type": "paragraph"
   },
   {
     "data": "The pandemic continued to have severe impacts on employment and poverty across Southeast Asia and, in response, governments prioritized expenditure on health, social assistance to the poor, and financial measures to support businesses and save jobs. ",
@@ -385,14 +392,16 @@
     "type": "paragraph"
   },
   {
-    "data": "In Thailand, ADB extended an $11.2 million-equivalent nonsovereign loan to GreenYellow Solar 1 Co. Ltd, which helped mobilize commercial financing from responsAbility Investments AG. The project will build 92 solar systems, most of them rooftop-mounted, on the premises of Thailand’s large commercial and industrial power users, avoiding around 30,800 tons of carbon dioxide equivalent emissions each year. The project also models a new financing structure for rooftop solar projects, which can be scaled up and replicated within Thailand and for other DMCs. "
+    "data": "In Thailand, ADB extended an $11.2 million-equivalent nonsovereign loan to GreenYellow Solar 1 Co. Ltd, which helped mobilize commercial financing from responsAbility Investments AG. The project will build 92 solar systems, most of them rooftop-mounted, on the premises of Thailand’s large commercial and industrial power users, avoiding around 30,800 tons of carbon dioxide equivalent emissions each year. The project also models a new financing structure for rooftop solar projects, which can be scaled up and replicated within Thailand and for other DMCs. ",
+    "type":"paragraph"
   },
   {
     "data": "Among further renewable energy investments in 2021, ADB committed a $35 million nonsovereign loan—as part of abroader $173 million project—supporting three companies to construct and operate wind farms in Viet Nam’s Quang Tri Province. The wind farms will boost the country’s wind power capacity by nearly 30% and will reduce carbon dioxide emissions by over 162,000 tons annually.",
     "type": "paragraph"
   },
   {
-    "data": "ADB also provided a $24.5 million nonsovereign loan to a subsidiary of B.Grimm Power Public Company Limited to construct and operate a 240-megawatt solar power plant in Viet Nam’s Tay Ninh Province. One of the largest solar power projects in Southeast Asia, the plant will deliver around 337 gigawatt- hours of electricity and avoid nearly 130,000 tons of carbon dioxide equivalent emissions each year. "
+    "data": "ADB also provided a $24.5 million nonsovereign loan to a subsidiary of B.Grimm Power Public Company Limited to construct and operate a 240-megawatt solar power plant in Viet Nam’s Tay Ninh Province. One of the largest solar power projects in Southeast Asia, the plant will deliver around 337 gigawatt- hours of electricity and avoid nearly 130,000 tons of carbon dioxide equivalent emissions each year. ",
+    "type":"paragraph"
   },
   {
     "data": "To support immediate relief efforts in the aftermath of Tropical Cyclone Seroja in Timor-Leste, ADB provided a $1 million grant from the Asia Pacific Disaster Response Fund. The grant bolstered government efforts to restore essential services, conduct damage assessments, coordinate crisis response and disaster recovery, provide conditional cash transfers to Dili residents, and rehabilitate basic community infrastructure.",
@@ -423,7 +432,7 @@
     "title": "Sustainable Recovery through Green Financing",
     "image": "chapter2-img3-2.png",
     "tag": "ADB is creating partnerships to prepare and finance green infrastructure projects in Asia and the Pacific.",
-    "data": "During 2021, ADB took an important step forward in the pursuit of green and inclusive recovery from the pandemic for Southeast Asia. The bank secured four partners who have pledged a total of $665 million to the new Green Recovery Platform of the ASEAN Catalytic Green Finance Facility (ACGF), co-owned by members of the Association of Southeast Asian Nations (ASEAN) and ADB. This support includes $300 million from the Green Climate Fund and equivalents of $155 million from Italy’s state lender Cassa Depositi e Prestiti, $151 million from the Government of the United Kingdom, and $59 million from the European Union. These contributions will help ASEAN developing member countries catalyze public and private resources to prepare and finance green infrastructure projects. The new partnerships will help provide technical assistance for financial structuring, project development, and sustainability bond development, and extend loans to reduce risk in investments from public and private financiers. ADB cofinancing will be mandatory for all projects supported through the platform. These new partnerships complement about $1.4 billion in cofinancing already pledged to the ACGF by ADB, Agence Française de Développement, the European Investment Bank, German state-owned development bank KfW, and the Government of the Republic of Korea, bringing indicative support to over $2 billion. In its first 3 years, the ACGF has approved five projects that are expected to reduce carbon dioxide emissions by 291,000 tons every year.",
+    "data": "During 2021, ADB took an important step forward in the pursuit of green and inclusive recovery from the pandemic for Southeast Asia.<br><br> The bank secured four partners who have pledged a total of $665 million to the new Green Recovery Platform of the ASEAN Catalytic Green Finance Facility (ACGF), co-owned by members of the Association of Southeast Asian Nations (ASEAN) and ADB. This support includes $300 million from the Green Climate Fund and equivalents of $155 million from Italy’s state lender Cassa Depositi e Prestiti, $151 million from the Government of the United Kingdom, and $59 million from the European Union.<br><br> These contributions will help ASEAN developing member countries catalyze public and private resources to prepare and finance green infrastructure projects.<br><br> The new partnerships will help provide technical assistance for financial structuring, project development, and sustainability bond development, and extend loans to reduce risk in investments from public and private financiers. ADB cofinancing will be mandatory for all projects supported through the platform.<br><br> These new partnerships complement about $1.4 billion in cofinancing already pledged to the ACGF by ADB, Agence Française de Développement, the European Investment Bank, German state-owned development bank KfW, and the Government of the Republic of Korea, bringing indicative support to over $2 billion.<br><br> In its first 3 years, the ACGF has approved five projects that are expected to reduce carbon dioxide emissions by 291,000 tons every year.",
     "type": "expand"
   },
   {
@@ -472,7 +481,7 @@
     "title": "Supporting Youth in the Philippines",
     "image": "chapter2-img5-2.png",
     "tag": "The ADB-supported JobStart Philippines program is boosting job prospects for the country’s youth.",
-    "data": "For many young Filipinos, unemployed rates have remained stubbornly high for years. The number of youths not undertaking education or training was a long-held concern for authorities. In 2017, ADB began an investment program to help the Government of the Philippines enhance the employability of youth and shorten the time young Filipinos spend finding work after leaving school. Through the program, approximately 20,000 at-risk youth have been trained by JobStart Philippines, with a 67% placement rate. The ADB financing has helped expand public employment services, create youth training programs in digital format, roll out training scholarships for the newly unemployed, and reduce financial burdens on first-time jobseekers. “I can say that I can now find a job with the help of this training,” says Mea Pagayon, a JobStart participant in 2021. “I hope they will be able to help more young people like me, those who have less opportunity.” The ADB loans, made in 2017 and 2019, have also provided support to the government’s program for the employment of students, which has delivered first jobs for more than 393,500 young Filipinos (over half of them women). With school closures associated with the COVID-19 pandemic threatening to jeopardize the gains made in recent years, ADB committed an additional $400 million to the investment program in 2021. This third loan specifies measures to counter the effects of the pandemic on the broader labor market both now and for longer-term recovery.",
+    "data": "For many young Filipinos, unemployed rates have remained stubbornly high for years. The number of youths not undertaking education or training was a long-held concern for authorities.<br><br> In 2017, ADB began an investment program to help the Government of the Philippines enhance the employability of youth and shorten the time young Filipinos spend finding work after leaving school.<br><br> Through the program, approximately 20,000 at-risk youth have been trained by JobStart Philippines, with a 67% placement rate. The ADB financing has helped expand public employment services, create youth training programs in digital format, roll out training scholarships for the newly unemployed, and reduce financial burdens on first-time jobseekers.<br><br> “I can say that I can now find a job with the help of this training,” says Mea Pagayon, a JobStart participant in 2021. “I hope they will be able to help more young people like me, those who have less opportunity.<br><br>” The ADB loans, made in 2017 and 2019, have also provided support to the government’s program for the employment of students, which has delivered first jobs for more than 393,500 young Filipinos (over half of them women).<br><br> With school closures associated with the COVID-19 pandemic threatening to jeopardize the gains made in recent years, ADB committed an additional $400 million to the investment program in 2021. This third loan specifies measures to counter the effects of the pandemic on the broader labor market both now and for longer-term recovery.",
     "type": "expand"
   },
   {

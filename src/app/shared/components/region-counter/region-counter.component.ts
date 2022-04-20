@@ -22,7 +22,11 @@ export class RegionCounterComponent implements OnInit {
   @Input() digit4:any;
 
   @Input() symbol:any;
-  @Input() sign:any;
+  @Input() sign1:any;
+  @Input() sign2:any;
+  @Input() sign3:any;
+  @Input() sign4:any;
+
 
   constructor() { }
 

@@ -12,13 +12,16 @@
     "symbol": "$",
     "digit1": 5.2,
     "tag1": "COMMITTED",
+    "sign1": "B",
     "digit2": 3.3,
     "tag2": "COVID‑19 RESPONSE",
+    "sign2": "B",
     "digit3": 3.3,
     "tag3": "DISBURSED",
+    "sign3": "B",
     "digit4": 2.7,
     "tag4": "COFINANCED",
-    "sign": "B",
+    "sign4": "B",
     "type": "regionCounter"
   },
   {
@@ -428,7 +431,7 @@
   {
     "title": "COVID-19 Vaccines Arrive in Tajikistan",
     "tag": "ADB-funded COVID-19 vaccines arrive in Tajikistan (photo courtesy of UNICEF).",
-    "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year. “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population. The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility. The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues. The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
+    "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year.<br><br> “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population.<br><br> The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility.<br><br> The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues.<br><br> The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
     "type": "expand"
   },
   {
@@ -477,7 +480,7 @@
     "title": "Supporting Cleaner, Safer Travel in Pakistan",
     "image": "chapter2-img2.png",
     "tag": "The new bus rapid transit system in Peshawar, Pakistan provides safer travel for women and girls.",
-    "data": "A bus rapid transit (BRT) system in Peshawar, Pakistan—made possible by financing from ADB—is breaking records for passenger use and attracting more women to public transport. The Zu Peshawar BRT system features hybrid electric buses and 30 stations along a 27-kilometer (km) corridor that links east to west across the city. Despite restrictions on movement imposed due to the COVID-19 pandemic, ridership of the system reached more than 50 million passengers in 2021, with over 25% of commuters being women and children. The only gold-standard BRT system operating in Pakistan, the Zu Peshawar service prioritizes accessibility and security for women, persons with disabilities, and other vulnerable users. Women are provided priority queuing areas on the platform and a dedicated space inside the vehicles.  The ADB-supported project also ensured complete urban regeneration along the route, including new energy-efficient streetlights, quality footpaths, drainage systems, and dedicated cycle lanes. It is already improving air quality for Peshawar’s residents due to reduced traffic congestion. Around 150 bus stops are planned across a network of 83 km of direct service routes that connect densely populated communities directly to the system. In 2021, the Zu Peshawar BRT system earned an honorable mention in the prestigious 2022 Sustainable Transport Award.",
+    "data": "A bus rapid transit (BRT) system in Peshawar, Pakistan—made possible by financing from ADB—is breaking records for passenger use and attracting more women to public transport.<br><br> The Zu Peshawar BRT system features hybrid electric buses and 30 stations along a 27-kilometer (km) corridor that links east to west across the city. Despite restrictions on movement imposed due to the COVID-19 pandemic, ridership of the system reached more than 50 million passengers in 2021, with over 25% of commuters being women and children.<br><br> The only gold-standard BRT system operating in Pakistan, the Zu Peshawar service prioritizes accessibility and security for women, persons with disabilities, and other vulnerable users. Women are provided priority queuing areas on the platform and a dedicated space inside the vehicles.<br><br> The ADB-supported project also ensured complete urban regeneration along the route, including new energy-efficient streetlights, quality footpaths, drainage systems, and dedicated cycle lanes. It is already improving air quality for Peshawar’s residents due to reduced traffic congestion. Around 150 bus stops are planned across a network of 83 km of direct service routes that connect densely populated communities directly to the system.<br><br> In 2021, the Zu Peshawar BRT system earned an honorable mention in the prestigious 2022 Sustainable Transport Award.",
     "type": "expand"
   },
   {

@@ -12,13 +12,16 @@
     "symbol": "$",
     "digit1": 2.0,
     "tag1": "COMMITTED",
+    "sign1": "B",
     "digit2": 478,
     "tag2": "COVID‑19 RESPONSE",
+    "sign2": "M",
     "digit3": 1.7,
     "tag3": "DISBURSED",
+    "sign3": "B",
     "digit4": 426,
     "tag4": "COFINANCED",
-    "sign": "B",
+    "sign4": "M",
     "type": "regionCounter"
   },
   {
@@ -373,7 +376,7 @@
     "type": "paragraph"
   },
   {
-    "data": "IThe bank committed $154 million for a project in the PRC’s Yangtze River Economic Belt that will improve the natural environment and living conditions for more than 523,000 people in the rural Pingjiang county of Hunan Province. Through the investment, ADB is helping restore wetland areas and establish a county-wide early warning system to reduce flood vulnerability for local communities. The project will also build climate adaptation considerations into rural–urban planning.",
+    "data": "The bank committed $154 million for a project in the PRC’s Yangtze River Economic Belt that will improve the natural environment and living conditions for more than 523,000 people in the rural Pingjiang county of Hunan Province. Through the investment, ADB is helping restore wetland areas and establish a county-wide early warning system to reduce flood vulnerability for local communities. The project will also build climate adaptation considerations into rural–urban planning.",
     "type": "paragraph"
   },
   {
@@ -400,7 +403,7 @@
   {
     "title": "Priority Vaccine Delivery in Mongolia",
     "tag": "ADB is playing an important role in Mongolia’s successful COVID-19 vaccination rollout.",
-    "data": "In the early months of 2021, COVID-19 was beginning to take a mounting toll in Mongolia. With a sharp increase in cases, the government enacted a fourth strict lockdown and turned its attention to intensifying its vaccination efforts. ADB played a significant role, disbursing a $40 million loan (including $21 million in cofinancing) to the country under the Asia Pacific Vaccine Access Facility (APVAX). During 2021, the financing helped secure more than 1.2 million COVID-19 vaccine doses, boosting government efforts to immunize priority groups representing at least 30% of the total population. These included individuals at high risk of death and about 200,000 frontline health-care workers (80% of whom are women). In addition, persons with disabilities, those who suffer from chronic diseases, emergency service workers, and vulnerable groups requiring social assistance benefited from wider vaccine availability. By the end of the year, 90.9% of this target population had been fully vaccinated and Mongolia’s COVID-19 case–fatality ratio remained among the lowest in Asia. To complement the APVAX support, a $5 million grant from the Japan Fund for Prosperous and Resilient Asia and the Pacific will help Mongolia respond to further outbreaks of COVID-19. It will provide resources and training for frontline health-care workers on COVID-19 testing and the administration of vaccines to target populations. Successful implementation of its COVID-19 vaccination rollout, including through ADB support, has assisted Mongolia in kick-starting its economy toward post‑pandemic recovery.",
+    "data": "In the early months of 2021, COVID-19 was beginning to take a mounting toll in Mongolia. With a sharp increase in cases, the government enacted a fourth strict lockdown and turned its attention to intensifying its vaccination efforts.<br><br> ADB played a significant role, disbursing a $40 million loan (including $21 million in cofinancing) to the country under the Asia Pacific Vaccine Access Facility (APVAX). During 2021, the financing helped secure more than 1.2 million COVID-19 vaccine doses, boosting government efforts to immunize priority groups representing at least 30% of the total population. These included individuals at high risk of death and about 200,000 frontline health-care workers (80% of whom are women). In addition, persons with disabilities, those who suffer from chronic diseases, emergency service workers, and vulnerable groups requiring social assistance benefited from wider vaccine availability.<br><br> By the end of the year, 90.9% of this target population had been fully vaccinated and Mongolia’s COVID-19 case–fatality ratio remained among the lowest in Asia.<br><br> To complement the APVAX support, a $5 million grant from the Japan Fund for Prosperous and Resilient Asia and the Pacific will help Mongolia respond to further outbreaks of COVID-19. It will provide resources and training for frontline health-care workers on COVID-19 testing and the administration of vaccines to target populations.<br><br> Successful implementation of its COVID-19 vaccination rollout, including through ADB support, has assisted Mongolia in kick-starting its economy toward post‑pandemic recovery.",
     "type": "expand"
   },
   {
