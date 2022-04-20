@@ -153,6 +153,7 @@ export class MenuBarComponent implements OnInit {
 
 
     removeBookmark(data:any){
+        debugger
         let bookmarkStorageArr: any = localStorage.getItem('highlitedBookmark');
         if (bookmarkStorageArr) {
             bookmarkStorageArr = JSON.parse(bookmarkStorageArr)
@@ -171,6 +172,10 @@ export class MenuBarComponent implements OnInit {
                     
                 
                     bookmarkStorageArr.splice(index, 1);
+
+                    if (bookmarkStorageArr.length === 0) {
+                        this.bookmarks.length = 0;
+                    }
                     return;
 
                 } else {

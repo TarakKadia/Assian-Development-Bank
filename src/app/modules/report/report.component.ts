@@ -43,8 +43,8 @@ export class ReportComponent implements OnInit, AfterViewInit {
 
 
     ngOnInit(): void {
-        console.log("dataaaaaaaaaaaaaaaaaaaaaaa",this.data);
-        
+        window.scroll(0, 0);
+
         this.url = this.router.url;
         this.generalApiService.url = this.url;
         this.loading = true;
@@ -153,7 +153,7 @@ export class ReportComponent implements OnInit, AfterViewInit {
                     this.loading = false;
                 }, 1000);
 
-                this.generalApiService.chapterDetails.title = this.data[0].data;
+                this.generalApiService.chapterDetails.title = this.data[0].text;
             }
             );
     }

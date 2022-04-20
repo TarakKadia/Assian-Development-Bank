@@ -181,6 +181,8 @@ export class ParagraphComponent implements OnInit {
                         var position = jQuery(class_names).offset();
                         var width = jQuery(class_names).width() / 2;
 
+                        console.log('widthwidthwidthwidthwidthwidthwidth', width);
+
                         jQuery('#hover').css('top', (position.top - 60) + 'px');
                         jQuery('#hover').css('left', (position.left + width - 60) + 'px');
                     } else {
@@ -206,6 +208,7 @@ export class ParagraphComponent implements OnInit {
                 type: 'paragraph'
             };
             this.saveBookmark(tempBookmark);
+            console.log("tempBookmarktempBookmarktempBookmark",tempBookmark)
         }
     }
 
