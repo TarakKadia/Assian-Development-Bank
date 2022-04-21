@@ -12,8 +12,8 @@
 
             <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
 
-            <!-- <app-chapter-title [data]="data.data" [tag]="data.tag" [heading]="data.heading" [chapterTitle]="data.data"
-            *ngIf="data.type=='chaptertitle'"></app-chapter-title> -->
+            <app-chapter-title [data]="data.data"  [heading]="data.heading" [chapterTitle]="data.data"
+            *ngIf="data.type=='chaptertitle'"></app-chapter-title>
 
             <app-expandable-content [data]="data.data" [title]="data.title" [image]="data.image" [id]="data.id" [tag]="data.tag" *ngIf="data.type=='expand'">
             </app-expandable-content>

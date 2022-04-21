@@ -1,24 +1,24 @@
     <div *ngIf="loading" class="loader">
         <div class="loader__element"></div>
       </div>
-    <div class="complexheader regions">
-      <p class="chapter">Chapter 2</p>
-      <h2>
-        Regions
-      </h2>
-    </div>
+    
     <div class="regionsgroup">
-      <div class="regionsbox" *ngFor="let data of chapter2Data" (click)="goToRegions(data.id)">
+        <div >
+            <app-chapter-title [data]="'Chapter 2'"  [heading]="'Operations'"></app-chapter-title>
+        </div>
+      <div class="regionsbox" *ngFor="let data of chapter2Data" (click)="goToRegions(data.id)" >
+       
         <div class="regionsimage">
           <img [src]="data.imageUrl">
+          <div class="regionstext" >
+            <p class="regionsfull" >
+              {{data.title}}
+            </p>
+            <p class="regionsblurb"  *ngIf="data.content">
+              {{data.content}}
+            </p>
+          </div>
         </div>
-        <div class="regionstext">
-          <p class="regionsfull">
-            {{data.title}}
-          </p>
-          <p class="regionsblurb">
-            {{data.content}}
-          </p>
-        </div>
+       
       </div>
     </div>

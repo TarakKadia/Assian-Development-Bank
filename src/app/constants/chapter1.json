@@ -2,7 +2,7 @@
     {
         "data": "home_chapter1.png",
         "heading": "Chapter 1",
-        "text": "Toward a Green and Inclusive Recovery",
+        "text": "Toward a Green and <br>Inclusive Recovery",
         "tag": " Staff doing maintenance work at a solar farm in Lombok, Indonesia.",
         "type": "image"
     },
@@ -84,7 +84,7 @@
     {
         "title": "Accelerating Vaccine Rollouts",
         "data": "The $9 billion APVAX facility is the centerpiece of ADB’s support to ensure adequate coverage of safe and effective COVID-19 vaccines to protect the people of Asia and the Pacific.<br><br>To accelerate vaccine rollouts in 2021, ADB updated the APVAX regulatory framework as well as the bank’s financing approach to unlock additional vaccine supplies and to ensure adequate financing for procurement.<br><br>By the end of year, the bank had committed $4.1 billion in loan and grant financing under APVAX, mobilized an additional $1.4 billion in cofinancing, and delivered an initial 227 million doses of vaccines in 15 countries.<br><br>ADB complemented APVAX financing with $14.6 million in COVID-19-related technical assistance. This includes, among other activities, research on supply chains and logistics, capacity building for policymakers, vaccine training for health workers, and private sector engagement. In 2021, the bank also implemented initiatives to resolve regulatory and trade-related barriers to vaccine supply.<br><br>In response to DMC demand, ADB generated knowledge solutions addressing the impacts of COVID-19 on tourism, helped develop vaccine prioritization and deployment plans, and gave recommendations on countering vaccine hesitancy and improving medical waste management. In addition, the bank hosted seven knowledge events throughout 2021 to help DMCs share critical guidance on COVID-19 responses on topics such as vaccine safety and digital transformation for health systems.<br><br>ADB also worked closely with DMCs to strengthen gender considerations in APVAX rollouts. In the Pacific, for example, the bank contributed to the development of a database to track immunization side effects by sex. This will help improve safety surveillance and inform campaigns with gender-specific messaging.",
-        "image": "accelarating.png",
+        "image": "green_accelerate.png",
         "tag": "COVID-19 vaccinations being recorded at a vaccination center in the Philippines.",
         "type": "expandTwo"
     },

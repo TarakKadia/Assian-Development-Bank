@@ -30,7 +30,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
+              "src/assets/css/main.css",
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "./node_modules/share-this/dist/share-this.css"
             ],
@@ -103,7 +103,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+                "src/assets/css/main.css"
             ],
             "scripts": []
           }

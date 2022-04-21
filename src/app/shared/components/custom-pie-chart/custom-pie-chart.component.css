@@ -1,3 +1,4 @@
+ 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
 * {
@@ -23,21 +24,21 @@ h6 {
 }
 
 .upperLine {
-  width: 100%;
-  border-top: 2px solid #017cb2;
+  width: 100% !important;
+  border-top: 2px solid #017cb2 !important;
 }
 
 .heading {
-  color: #609ab7;
-  font-size: 25px;
-  border-bottom: 1px solid;
-  padding-top: 30px;
+  color: #609ab7 !important;
+  font-size: 25px !important;
+  border-bottom: 1px solid !important;
+  padding-top: 30px !important;
 }
 
 .headingDollar {
-  padding-top: 8px;
-  color: #609ab7;
-  font-size: 20px;
+  padding-top: 8px !important;
+  color: #609ab7 !important;
+  font-size: 20px !important;
 }
 
 /* basic positioning */
@@ -72,8 +73,8 @@ h6 {
 }
 
 .main {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
 }
 /* Charts */
 

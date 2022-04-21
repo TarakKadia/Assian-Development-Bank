@@ -2,8 +2,8 @@
     <div *ngIf="heading" class="complexheader regions">
         <p class="chapter">{{heading}}</p>
         <div class="titleText" >
-            <h2>
-                {{text}}
+            
+            <h2 [innerHTML]="text">
                 </h2>
                 <p class="titleTag">
                     {{titleTag}}
