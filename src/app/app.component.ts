@@ -60,51 +60,81 @@ export class AppComponent {
 
     selectedText(): void {
         let cookieData: any = localStorage.getItem('highLightedText');
-        let isRemove = false;
         if (cookieData) {
             cookieData = JSON.parse(cookieData);
             if (cookieData) {
-                // let cookieData2 = cookieData[0].highLightedData;
-
                 if (cookieData.length > 0) {
-                    cookieData.forEach((cookie: any, index1: any) => {
-                        if (cookie.highLightedData.length > 0) {
-                            cookie.highLightedData.forEach((element: any, index2: any) => {
-                                if (element.text === this.generalApiService.selectedText) {
-                                    if (cookie.highLightedData.length === 1) {
-                                        isRemove = true;
-                                    } else {
-                                        cookie.highLightedData.splice(index2, 1);
+                    let isChapExist = false;
+                    cookieData.forEach((element: any) => {
+                        if (element.url == this.generalApiService.url) {
+                            isChapExist = true;
+                            if (element.highLightedData.length > 0) {
+                                let isNew = true;
+                                element.highLightedData.forEach((ele: any, index1: any) => {
+                                    if (ele.paraId == this.generalApiService.selectedId) {
+                                        if (ele.text === this.generalApiService.selectedText) {
+                                            isNew = false
+                                            element.highLightedData.splice(index1, 1);
+                                        }
                                     }
+                                });
+                                if (isNew) {
+                                    element.highLightedData.push({
+                                        paraId: this.generalApiService.selectedId ? this.generalApiService.selectedId : '',
+                                        text: this.generalApiService.selectedText
+                                    })
                                 }
-                            });
-                            if (isRemove) {
-                                cookieData.splice(index1, 1);
-                                isRemove = false;
+                            } else {
+                                element.highLightedData.push({
+                                    paraId: this.generalApiService.selectedId ? this.generalApiService.selectedId : '',
+                                    text: this.generalApiService.selectedText
+                                })
                             }
                         }
                     });
-                }
+                    if (!isChapExist) {
+                        let chapData = {
+                            url: this.generalApiService.url,
+                            highLightedData: []
+                        }
 
-                // if (cookieData2.length > 0) {
-                //     cookieData2.forEach((element: any, index: any) => {
-                //         if (element.text === this.generalApiService.selectedText) {
-                //             if (cookieData2.length === 1) {
-                //                 isRemove = true;
-                //             } else {
-                //                 cookieData2.splice(index, 1);
-                //             }
-                //         }
-                //     });
-                // }
+                        chapData.highLightedData.push({
+                            paraId: this.generalApiService.selectedId ? this.generalApiService.selectedId : '',
+                            text: this.generalApiService.selectedText
+                        })
+
+                        cookieData.push(chapData);
+                    }
+                } else {
+                    let chapData = {
+                        url: this.generalApiService.url,
+                        highLightedData: []
+                    }
+                    chapData.highLightedData.push({
+                        paraId: this.generalApiService.selectedId ? this.generalApiService.selectedId : '',
+                        text: this.generalApiService.selectedText
+                    })
+
+                    cookieData.push(chapData);
+                }
             }
-            // if (isRemove) {
-            //     localStorage.removeItem('highLightedText');
-            // } else {
-                localStorage.setItem('highLightedText', JSON.stringify(cookieData));
-            // }
-            this.generalApiService.updateHighlight.next(true);
+
+        } else {
+            cookieData = [];
+            let chapData = {
+                url: this.generalApiService.url,
+                highLightedData: []
+            }
+            chapData.highLightedData.push({
+                paraId: this.generalApiService.selectedId ? this.generalApiService.selectedId : '',
+                text: this.generalApiService.selectedText
+            })
+
+            cookieData.push(chapData);
         }
+
+        localStorage.setItem('highLightedText', JSON.stringify(cookieData));
+        this.generalApiService.updateHighlight.next(true);
     }
 
 
@@ -181,7 +211,7 @@ export class AppComponent {
             } else {
                 getBoxHighlightData.push(boxHighlightData);
             }
-            localStorage.setItem('highLightedBox', JSON.stringify(getBoxHighlightData));    
+            localStorage.setItem('highLightedBox', JSON.stringify(getBoxHighlightData));
         } else {
             localStorage.setItem('highLightedBox', JSON.stringify([boxHighlightData]));
         }
@@ -236,7 +266,7 @@ export class AppComponent {
     }
 
     sendEmail() {
-        let url =  window.location.origin + this.generalApiService.url;
+        let url = window.location.origin + this.generalApiService.url;
         url += this.generalApiService.url.split('?').length > 0 ? `&fm=true&t=para&pid=${this.generalApiService.selectedId}&d=${encodeURIComponent(this.generalApiService.selectedText)}` : `?fm=true&t=para&pid=${this.generalApiService.selectedId}&d=${encodeURIComponent(this.generalApiService.selectedText)}`;
         let subject = this.generalApiService.chapterDetails.title;
         let body = this.generalApiService.selectedText;
@@ -251,7 +281,7 @@ export class AppComponent {
     }
 
     sendEmailBox() {
-        let url =  window.location.origin + this.generalApiService.url;
+        let url = window.location.origin + this.generalApiService.url;
         url += this.generalApiService.url.split('?').length > 0 ? `&fm=true&t=box&pid=${this.generalApiService.selectedBox.id}&d=${encodeURIComponent(this.generalApiService.selectedBox.text)}` : `?fm=true&t=box&pid=${this.generalApiService.selectedBox.id}&d=${encodeURIComponent(this.generalApiService.selectedBox.text)}`;
         let subject = this.generalApiService.chapterDetails.title;
         let body2 = this.generalApiService.selectedBox.data;
@@ -311,6 +341,6 @@ export class AppComponent {
         this.generalApiService.isBookmarkAdded.next(true);
     }
 
-   
+
 
 }

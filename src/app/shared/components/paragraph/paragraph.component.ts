@@ -70,6 +70,20 @@ export class ParagraphComponent implements OnInit {
             storageArr = [];
         }
 
+        let storageSelectedArr: any = localStorage.getItem('selectedText');
+        if (storageSelectedArr) {
+            storageSelectedArr = JSON.parse(storageSelectedArr)
+        } else {
+            storageSelectedArr = [];
+        }
+
+        storageSelectedArr.push({
+            paraId: this.data.id,
+            text: selectedText
+        });
+
+        localStorage.setItem('selectedText', JSON.stringify(storageSelectedArr));
+
         if (storageArr.length > 0) {
             let isChapExist = false;
             storageArr.forEach((element: any) => {
@@ -84,18 +98,10 @@ export class ParagraphComponent implements OnInit {
                                     if (this.data.data == selectedText) {
                                         element.highLightedData = [];
                                     }
-                                    element.highLightedData.push({
-                                        paraId: this.data.id,
-                                        text: selectedText
-                                    })
                                 }
                             }
                         });
                         if (isNew) {
-                            element.highLightedData.push({
-                                paraId: this.data.id,
-                                text: selectedText
-                            })
                         }
                     }
                 }
@@ -106,11 +112,6 @@ export class ParagraphComponent implements OnInit {
                     highLightedData: []
                 }
 
-                chapData.highLightedData.push({
-                    paraId: this.data.id,
-                    text: selectedText
-                })
-
                 storageArr.push(chapData);
             }
         } else {
@@ -118,10 +119,6 @@ export class ParagraphComponent implements OnInit {
                 url: this.url,
                 highLightedData: []
             }
-            chapData.highLightedData.push({
-                paraId: this.data.id,
-                text: selectedText
-            })
 
             storageArr.push(chapData);
         }
@@ -139,7 +136,15 @@ export class ParagraphComponent implements OnInit {
         } else {
             storageArr = [];
         }
-        if(typeof(this.data) == "object"){
+
+        let storageSelectedArr: any = localStorage.getItem('selectedText');
+        if (storageSelectedArr) {
+            storageSelectedArr = JSON.parse(storageSelectedArr)
+        } else {
+            storageSelectedArr = [];
+        }
+
+        if (typeof (this.data) == "object") {
 
             this.data['newData'] = this.data.data;
             storageArr.forEach(element => {
@@ -158,6 +163,20 @@ export class ParagraphComponent implements OnInit {
                     });
                 }
             });
+
+            storageSelectedArr.forEach((ele: any, key: any) => {
+                if (ele.paraId == this.data.id) {
+                    if (this.data.data == ele.text) {
+                        let markedData = `<span class="mark2 ${ele.paraId} ${key}">${ele.text}</span>`;
+                        this.data.newData = markedData;
+                    } else if (this.data.data.indexOf(ele.text) > -1) {
+                        let markedData = `<span class="mark2 ${ele.paraId} ${key}">${ele.text}</span>`;
+                        this.data.newData = this.data.newData.replace(ele.text, markedData);
+                    }
+                }
+            });
+
+            localStorage.removeItem('selectedText');
         }
 
 
@@ -167,24 +186,26 @@ export class ParagraphComponent implements OnInit {
             setTimeout(() => {
                 jQuery(".content").on("mouseover", (event) => {
                     var target = jQuery(event.target);
-                    if (target.is('#hover') || target.is('.mark')) {
+                    if (target.is('#hover') || target.is('.mark') || target.is('.mark2')) {
                         jQuery('#hover').css('display', 'block');
 
                         const className = target.attr('class').split(' ');
                         var class_names = '.' + className[0] + '.' + className[1] + '.' + className[2];
 
-                        // console.log('vlaue', jQuery(class_names).text());
                         this.generalApiService.selectedText = jQuery(class_names).text();
                         const id = jQuery(class_names).parent().attr('id');
                         this.generalApiService.selectedId = id;
 
                         var position = jQuery(class_names).offset();
                         var width = jQuery(class_names).width() / 2;
+                        let minusHeight = event.pageY - position.top
 
-                        console.log('widthwidthwidthwidthwidthwidthwidth', width);
+                        // jQuery('#hover').css('top', (position.top - 60) + 'px');
+                        // jQuery('#hover').css('left', (position.left + width - 60) + 'px');
 
-                        jQuery('#hover').css('top', (position.top - 60) + 'px');
-                        jQuery('#hover').css('left', (position.left + width - 60) + 'px');
+                        // jQuery('#hover').css('top', minusHeight > 35 ? event.pageY - 80 : position.top - 60 + 'px');
+                        jQuery('#hover').css('top', minusHeight > 20 ? position.top - 30 : position.top - 60 + 'px');
+                        jQuery('#hover').css('left', (event.pageX - 120) + 'px');
                     } else {
                         jQuery('#hover').css('display', 'none');
                     }
@@ -208,7 +229,7 @@ export class ParagraphComponent implements OnInit {
                 type: 'paragraph'
             };
             this.saveBookmark(tempBookmark);
-            console.log("tempBookmarktempBookmarktempBookmark",tempBookmark)
+            console.log("tempBookmarktempBookmarktempBookmark", tempBookmark)
         }
     }
 
