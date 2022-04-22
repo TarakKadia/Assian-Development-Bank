@@ -10,13 +10,13 @@
     {
         "title": "BY THE NUMBERS",
         "symbol": "$",
-        "digit1": 2.0,
+        "digit1": 853,
         "tag1": "COMMITTED",
-        "digit2": 478,
+        "digit2": 317,
         "tag2": "COVID‑19 RESPONSE",
-        "digit3": 1.7,
+        "digit3": 512,
         "tag3": "DISBURSED",
-        "digit4": 426,
+        "digit4": 570,
         "tag4": "COFINANCED",
         "sign1": "M",
         "sign2": "M",
@@ -44,6 +44,22 @@
         "data": "Responding to the pandemic during 2021, governments of Pacific DMCs focused mostly on measures to deliver direct income and lending support to vulnerable groups along with upgrades to health systems.",
         "type": "paragraph"
     },
+    {
+        "id": 2,
+        "title": "IN 2021, ADB COMMITMENTS IN EAST ASIA WERE PRIMARILY IN THESE SECTORS",
+        "digit1": 58,
+        "tag1": "TRANSPORT",
+        "digit2": 35,
+        "tag2": "PUBLIC SECTOR MANAGEMENT",
+        "digit3": 3,
+        "tag3": "ENERGY",
+        "digit4": 3,
+        "tag4": "HEALTH",
+        "digit5": 1,
+        "tag5": "WATER AND OTHER URBAN INFRASTRUCTURE AND SERVICES",
+        "sign": "%",
+        "type": "currencyCounter"
+      },
     {
         "data": "During the year, ADB committed a total of $852.7 million in financing for the region in 2021. Of these commitments, $317.2 million supported COVID-19 response.",
         "type": "paragraph"
@@ -370,22 +386,6 @@
         "data": "When committing $43.9 million for land and maritime transport infrastructure in Solomon Islands, ADB included measures that support safe travel for women and other vulnerable groups. These measures include the posting of information on gender-based violence and associated services in bus shelters and community areas. In addition, the project will deliver training on gender-based violence—including prevention of sexual exploitation, abuse, and harassment— among project contractors and in the nine target communities, while also encouraging the employment of women in technical and leadership positions.",
         "type": "paragraph"
     },
-    {
-        "id": 2,
-        "title": "IN 2021, ADB COMMITMENTS IN EAST ASIA WERE PRIMARILY IN THESE SECTORS",
-        "digit1": 58,
-        "tag1": "TRANSPORT",
-        "digit2": 35,
-        "tag2": "PUBLIC SECTOR MANAGEMENT",
-        "digit3": 3,
-        "tag3": "ENERGY",
-        "digit4": 3,
-        "tag4": "HEALTH",
-        "digit5": 1,
-        "tag5": "WATER AND OTHER URBAN INFRASTRUCTURE AND SERVICES",
-        "sign": "%",
-        "type": "currencyCounter"
-      },
     {
         "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
         "image": "op3_color.png",

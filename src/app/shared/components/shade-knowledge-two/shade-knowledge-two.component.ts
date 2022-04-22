@@ -12,6 +12,8 @@ export class ShadeKnowledgeTwoComponent implements OnInit {
   @Input() data:any;
   @Input() image:any;
   @Input() tag: any;
+  @Input() video: any;
+
   ngOnInit(): void {
   }
 

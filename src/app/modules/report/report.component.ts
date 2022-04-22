@@ -189,14 +189,21 @@ export class ReportComponent implements OnInit, AfterViewInit {
         } else if (this.param == 5) {
             this.router.navigate(['/appendixes-content']);
         } else if (this.param == 10) {
-            this.data = eastAsia;
+            this.router.navigate(['/report'], { queryParams: { id: 11 } });
+            // this.data = eastAsia;
         } else if (this.param == 11) {
-            this.data = pacific;
+            this.router.navigate(['/report'], { queryParams: { id: 12 } });
+
+            // this.data = pacific;
         } else if (this.param == 12) {
-            this.data = southasia;
+            this.router.navigate(['/report'], { queryParams: { id: 13 } });
+            // this.data = southasia;
         } else if (this.param == 13) {
+            this.router.navigate(['/report'], { queryParams: { id: 14 } });
             this.data = southeastasia;
         } else if (this.param == 14) {
+            this.router.navigate(['/report'], { queryParams: { id: 15 } });
+
             this.data = chapter3CardJsonData;
         } else if (this.param == 16) {
             this.router.navigate(['/appendixes-content']);

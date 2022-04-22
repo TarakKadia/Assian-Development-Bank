@@ -43,6 +43,7 @@ import { CustomPieChartComponent } from './components/custom-pie-chart/custom-pi
 import { CustomDonoughtChartComponent } from './components/custom-donought-chart/custom-donought-chart.component';
 import { TableComponent } from './components/table/table.component';
 import { ListComponent } from './components/list/list.component';
+import { SafePipe } from './pipes/safe.pipe';
 
 
 
@@ -86,7 +87,8 @@ import { ListComponent } from './components/list/list.component';
     CustomPieChartComponent,
     CustomDonoughtChartComponent,
     TableComponent,
-    ListComponent
+    ListComponent,
+    SafePipe
   ],
   imports: [
     CommonModule,
@@ -135,7 +137,8 @@ import { ListComponent } from './components/list/list.component';
     CustomPieChartComponent,
     CustomDonoughtChartComponent,
     TableComponent,
-    ListComponent
+    ListComponent,
+    SafePipe
   ]
 })
 export class SharedModule { }

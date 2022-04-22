@@ -1,3 +1,12 @@
 
-<iframe  class="video"  
-src="http://players.brightcove.net/791607097001/9fa20be7-aba0-42f9-92b4-438ab9db690a_default/index.html?videoId=6250789994001" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe  class="video" 
+        [src]="data | safe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <div class="caption" *ngIf="tag">
+            <svg  xmlns="http://www.w3.org/2000/svg" style="color: #0779b6;" width="40" height="30" fill="currentColor" class=" bi bi-arrow-right arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg> 
+              <span class="caption" [innerHTML]="tag"></span> 
+         </div>
+          
+

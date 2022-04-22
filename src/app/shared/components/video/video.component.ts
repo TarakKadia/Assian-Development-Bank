@@ -10,6 +10,8 @@ export class VideoComponent implements OnInit {
 
   constructor() { }
 @Input() data:any;
+@Input() tag:any;
+
   ngOnInit(): void {
   }
 

@@ -53,13 +53,13 @@
             [title]="data.title" *ngIf="data.type=='shadeKnowledge'"></app-shade-knowledge>
 
 
-            <app-shade-knowledge-two [title]="data.title" [data]="data.data" [image]="data.image" [tag]="data.tag"
+            <app-shade-knowledge-two [title]="data.title" [data]="data.data" [image]="data.image" [video]="data.video" [tag]="data.tag"
             *ngIf="data.type=='shadeKnowledgeTwo'"></app-shade-knowledge-two>
 
             <app-region-heading [country]="data.country" [data]="data.data" *ngIf="data.type=='regionHeading'">
             </app-region-heading>
 
-            <app-video [data]="data.data" *ngIf="data.type=='video'" ></app-video>
+            <app-video [data]="data.data" [tag]="data.tag" *ngIf="data.type=='video'" ></app-video>
 
             <app-button *ngIf="data.type=='button'"  [data]="data.data"  [title]="data.title" (click)="goToNextChapter()"></app-button>
             <ng-container *ngIf="data.type=='strategicFocusPieChart'">

@@ -31,6 +31,10 @@
         "type": "heading"
     },
     {
+        "data":"http://players.brightcove.net/791607097001/9fa20be7-aba0-42f9-92b4-438ab9db690a_default/index.html?videoId=6250789994001",
+        "type":"video"
+    },
+    {
         "data": "ADB continued to provide agile and tailored support to its DMCs in 2021, balancing the need to address short-term COVID-19 response with ensuring longer-term pandemic recovery.",
         "type": "paragraph"
     },
@@ -159,6 +163,7 @@
         "gender": "GENDER",
         "digit": 96,
         "sign": "%",
+        "class":"progress op2",
         "content": "During 2018-2020, 89% of ADB committed operations promoted gender equality, up from 80% in 2017-2019, and still well on track to achieve the target of 75% in 2030.",
         "type": "counter"
     },
