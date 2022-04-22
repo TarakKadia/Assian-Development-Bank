@@ -49,16 +49,28 @@
     "type": "paragraph"
   },
   {
+    "id": 2,
+    "title": "IN 2021, ADB COMMITMENTS IN CENTRAL AND WEST ASIA WERE PRIMARILY IN THESE SECTORS",
+    "digit1": 22,
+    "tag1": "HEALTH",
+    "digit2": 19,
+    "tag2": "ENERGY",
+    "digit3": 17,
+    "tag3": "WATER AND OTHER URBAN INFRASTRUCTURE AND SERVICES",
+    "digit4": 15,
+    "tag4": "TRANSPORT",
+    "digit5": 11,
+    "tag5": "EDUCATION",
+    "sign": "%",
+    "type": "currencyCounter"
+  },
+  {
     "data": "In addition to supporting COVID-19 response, ADB commitments in 2021 are helping rebuild competitive economies, modernize transportation networks, rehabilitate energy and water infrastructure, and boost education and skills development.",
     "type": "paragraph"
   },
   {
     "data": "ADB placed its regular assistance to Afghanistan on hold effective 15 August 2021 but remains committed to supporting the economic and social development of the Afghan people, including addressing their humanitarian needs to secure the basis for future development.",
     "type": "paragraph"
-  },
-  {
-    "data": "STRATEGIC FOCUS",
-    "type": "heading"
   },
   {
     "data": "Addressing Remaining Poverty and Reducing Inequalities",
@@ -330,6 +342,12 @@
     "type": "paragraph"
   },
   {
+    "title": "COVID-19 Vaccines Arrive in Tajikistan",
+    "tag": "ADB-funded COVID-19 vaccines arrive in Tajikistan (photo courtesy of UNICEF).",
+    "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year.<br><br> “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population.<br><br> The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility.<br><br> The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues.<br><br> The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
+    "type": "expand"
+  },
+  {
     "data": "Meanwhile, ADB’s work to break the longer-term poverty cycle continued in 2021, with skills development and job creation an important focus.",
     "type": "paragraph"
   },
@@ -366,22 +384,7 @@
     "data": "ADB provided $121 million in additional financing for a project in Uzbekistan to complete the modernization of the railway network in the Fergana Valley. The project will build gender- responsive facilities such as mother-and-child rooms at major railway stations to provide safer travel for women and children.",
     "type": "paragraph"
   },
-  {
-    "id": 2,
-    "title": "IN 2021, ADB COMMITMENTS IN CENTRAL AND WEST ASIA WERE PRIMARILY IN THESE SECTORS",
-    "digit1": 22,
-    "tag1": "HEALTH",
-    "digit2": 19,
-    "tag2": "ENERGY",
-    "digit3": 17,
-    "tag3": "WATER AND OTHER URBAN INFRASTRUCTURE AND SERVICES",
-    "digit4": 15,
-    "tag4": "TRANSPORT",
-    "digit5": 11,
-    "tag5": "EDUCATION",
-    "sign": "%",
-    "type": "currencyCounter"
-  },
+  
   {
     "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
     "image": "op3_color.png",
@@ -427,12 +430,6 @@
   {
     "data": "In Georgia, ADB signed a $113.8 million loan to improve urban livability and foster inclusive economic growth. The project will enhance the quality of life of at least 1.5 million people across the country by financing climate-resilient urban infrastructure and services. This includes upgrading urban centers, public spaces, and parks; restoring cultural heritage buildings and natural heritage sites; upgrading roads; and constructing community infrastructure such as preschools, libraries, e-learning centers, and sports and tourism facilities.",
     "type": "paragraph"
-  },
-  {
-    "title": "COVID-19 Vaccines Arrive in Tajikistan",
-    "tag": "ADB-funded COVID-19 vaccines arrive in Tajikistan (photo courtesy of UNICEF).",
-    "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year.<br><br> “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population.<br><br> The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility.<br><br> The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues.<br><br> The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
-    "type": "expand"
   },
   {
     "data": "Promoting Rural Development and Food Security",
@@ -481,7 +478,7 @@
     "image": "chapter2-img2.png",
     "tag": "The new bus rapid transit system in Peshawar, Pakistan provides safer travel for women and girls.",
     "data": "A bus rapid transit (BRT) system in Peshawar, Pakistan—made possible by financing from ADB—is breaking records for passenger use and attracting more women to public transport.<br><br> The Zu Peshawar BRT system features hybrid electric buses and 30 stations along a 27-kilometer (km) corridor that links east to west across the city. Despite restrictions on movement imposed due to the COVID-19 pandemic, ridership of the system reached more than 50 million passengers in 2021, with over 25% of commuters being women and children.<br><br> The only gold-standard BRT system operating in Pakistan, the Zu Peshawar service prioritizes accessibility and security for women, persons with disabilities, and other vulnerable users. Women are provided priority queuing areas on the platform and a dedicated space inside the vehicles.<br><br> The ADB-supported project also ensured complete urban regeneration along the route, including new energy-efficient streetlights, quality footpaths, drainage systems, and dedicated cycle lanes. It is already improving air quality for Peshawar’s residents due to reduced traffic congestion. Around 150 bus stops are planned across a network of 83 km of direct service routes that connect densely populated communities directly to the system.<br><br> In 2021, the Zu Peshawar BRT system earned an honorable mention in the prestigious 2022 Sustainable Transport Award.",
-    "type": "expand"
+    "type": "expandTwo"
   },
   {
     "data": "Fostering Regional Cooperation and Integration",

@@ -78,7 +78,7 @@
     },
     {
         "title": "Expanding Microfinance in Challenging Times",
-        "image":"chapter2-img6-2.png",
+        "image":"private_expanding.jpg",
         "tag": "A woman works at her tailoring shop at a women-led market in Bangladesh. Many small businesses in Asia and the Pacific continue to face severe challenges caused by the COVID-19 pandemic.",
         "data": "The COVID-19 pandemic has created a severe challenge for the microfinance industry in developing member countries. Coinciding with the deep economic distress faced by many sole traders and microenterprises, microfinance institutions (MFIs) have been forced to substantially reduce their operations to comply with public health and safety requirements.<br><br> As a result, the risk appetite of commercial lenders to fund MFIs has diminished significantly.<br><br> In 2021, ADB’s Microfinance Program sought to reinvigorate funding of MFIs by allowing commercial lenders to partially transfer credit risk to ADB. This helped the lenders boost their financial support to MFIs, resulting in much-needed assistance to micro borrowers.<br><br> Throughout the year, the ADB program supported the extension of loans totaling $482.5 million to MFIs, up 64% from 2020, and including $244.4 million in cofinancing. This financing reached 1.5 million borrowers and was mainly used for emergency support and to restore rural livelihoods.<br><br> Despite the uncertainties of the pandemic, the ADB Microfinance Program expanded its coverage in 2021, adding eight new partner MFIs and nonbank financial institutions in five countries.<br><br> By expanding access to loans for microenterprises, which are a vital part of the region’s economic engine, ADB is driving job creation and business growth, stimulating recovery from the COVID-19 crisis.",
         "type": "expand"
@@ -113,7 +113,7 @@
         "image":"chapter2-img6-3.png",
         "tag": "Reclaimed water from the wastewater treatment plant—built by Beijing Enterprises Water Group Ltd with ADB support—flows into a constructed wetland in Shandong Province, People’s Republic of China.",
         "data": "In 2014 and 2015, ADB disbursed loans totaling $408 million to Beijing Enterprises Water Group Ltd and its environmental subsidiary to address critical water quality and scarcity issues in the People’s Republic of China. The loan was used to acquire and upgrade 67 wastewater treatment plants and construct one new plant.<br><br> The project introduced new treatment technologies designed to improve the standard of wastewater and increase the amount of water available for reuse in urban environments and by industries.<br><br> In 2021, an ADB evaluation report found that by the time the loan was repaid in 2017, the project had already treated 760 million tons of wastewater to Grade 1A standard annually, well above the target of 600 million tons annually by 2019. Meanwhile, 40 million tons of wastewater were reused annually, also significantly higher than the target amount of 11 million tons.<br><br> Beijing Enterprises Water Group Ltd used its increased expertise gained through the project to introduce a suite of energy efficiency measures for wastewater treatment and reuse, which saved over 12 million kilowatt-hours of electricity and reduced the use of chemicals for treatment by about 6% in 2015.",
-        "type": "expand"
+        "type": "expandTwo"
     },
     {
         "data": "MAXIMIZING DEVELOPMENT IMPACT ",
@@ -179,13 +179,20 @@
         "data": "ADB also encourages digitalization for greater efficiency, transparency, and productivity in the trade process. In 2021, the bank’s Trade and Supply Chain Finance Program and resident missions worked with ADB-supported Digital Standards Initiative to promote adoption of the Model Law on Electronic Transferable Records, developed by the United Nations. This law will allow digital trade transactions to be considered as valid as paper ones. Currently, many countries still accept only paper records as valid documentation. ",
         "type": "paragraph"
     },
-    {
-        "data": "TRACKING PROGRESS WITH PUBLIC–PRIVATE PARTNERSHIPS",
-        "type": "heading"
-    },
+   
     {
         "data": "To facilitate informed private sector investment and public policy decisions related to PPPs, ADB launched an online version of its Public–Private Partnership Monitor, allowing users to compare and contrast key PPP parameters and features across DMCs. By the end of 2021, the online monitor featured more than 500 PPP indicators covering Indonesia, Pakistan, Papua New Guinea, and the Philippines, with at least 11 other DMCs to be added.",
         "type": "paragraph"
-    }
+    },
+    {
+        "title": "TRACKING PROGRESS WITH PUBLIC–PRIVATE PARTNERSHIPS",
+        "data": "To facilitate informed private sector investment and public policy decisions related to PPPs, ADB launched an online version of its Public–Private Partnership Monitor, allowing users to compare and contrast key PPP parameters and features across DMCs. By the end of 2021, the online monitor featured more than 500 PPP indicators covering Indonesia, Pakistan, Papua New Guinea, and the Philippines, with at least 11 other DMCs to be added.",
+        "type": "shadeKnowledgeTwo"
+    },
+    {
+        "title": "Next",
+        "data": "Chapter 3",
+        "type": "button"
+      }
 
 ]

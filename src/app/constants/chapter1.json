@@ -32,6 +32,7 @@
     },
     {
         "data":"http://players.brightcove.net/791607097001/9fa20be7-aba0-42f9-92b4-438ab9db690a_default/index.html?videoId=6250789994001",
+        "tag":"Since the outbreak of COVID-19, ADB has been helping its developing member countries address the impacts of the pandemic and move toward a green and inclusive recovery.",
         "type":"video"
     },
     {
@@ -55,6 +56,13 @@
         "type": "paragraph"
     },
     {
+        "title": "Accelerating Vaccine Rollouts",
+        "data": "The $9 billion APVAX facility is the centerpiece of ADB’s support to ensure adequate coverage of safe and effective COVID-19 vaccines to protect the people of Asia and the Pacific.<br><br>To accelerate vaccine rollouts in 2021, ADB updated the APVAX regulatory framework as well as the bank’s financing approach to unlock additional vaccine supplies and to ensure adequate financing for procurement.<br><br>By the end of year, the bank had committed $4.1 billion in loan and grant financing under APVAX, mobilized an additional $1.4 billion in cofinancing, and delivered an initial 227 million doses of vaccines in 15 countries.<br><br>ADB complemented APVAX financing with $14.6 million in COVID-19-related technical assistance. This includes, among other activities, research on supply chains and logistics, capacity building for policymakers, vaccine training for health workers, and private sector engagement. In 2021, the bank also implemented initiatives to resolve regulatory and trade-related barriers to vaccine supply.<br><br>In response to DMC demand, ADB generated knowledge solutions addressing the impacts of COVID-19 on tourism, helped develop vaccine prioritization and deployment plans, and gave recommendations on countering vaccine hesitancy and improving medical waste management. In addition, the bank hosted seven knowledge events throughout 2021 to help DMCs share critical guidance on COVID-19 responses on topics such as vaccine safety and digital transformation for health systems.<br><br>ADB also worked closely with DMCs to strengthen gender considerations in APVAX rollouts. In the Pacific, for example, the bank contributed to the development of a database to track immunization side effects by sex. This will help improve safety surveillance and inform campaigns with gender-specific messaging.",
+        "image": "green_accelerate.png",
+        "tag": "COVID-19 vaccinations being recorded at a vaccination center in the Philippines.",
+        "type": "expand"
+    },
+    {
         "data": "<b>Providing rapid-disbursing financing.</b> ADB committed a total of $4.9 billion through rapid-disbursing, policy-based lending operations in 2021. This addressed critical development financing gaps, supported government-led structural reforms to overcome ongoing challenges from the pandemic, and helped address challenges in debt sustainability.",
         "type": "paragraph"
     },
@@ -75,6 +83,10 @@
         "type": "paragraph"
     },
     {
+        "type": "customPieChart"
+    },
+    
+    {
         "data": "LEVERAGING PARTNERSHIPS FOR FINANCING AND KNOWLEDGE",
         "type": "heading"
     },
@@ -82,16 +94,7 @@
         "data": "ADB’s strong and reliable long-term partnerships have played a major role in mobilizing financial resources and specialist knowledge during the pandemic.",
         "type": "paragraph"
     },
-    {
-        "type": "customPieChart"
-    },
-    {
-        "title": "Accelerating Vaccine Rollouts",
-        "data": "The $9 billion APVAX facility is the centerpiece of ADB’s support to ensure adequate coverage of safe and effective COVID-19 vaccines to protect the people of Asia and the Pacific.<br><br>To accelerate vaccine rollouts in 2021, ADB updated the APVAX regulatory framework as well as the bank’s financing approach to unlock additional vaccine supplies and to ensure adequate financing for procurement.<br><br>By the end of year, the bank had committed $4.1 billion in loan and grant financing under APVAX, mobilized an additional $1.4 billion in cofinancing, and delivered an initial 227 million doses of vaccines in 15 countries.<br><br>ADB complemented APVAX financing with $14.6 million in COVID-19-related technical assistance. This includes, among other activities, research on supply chains and logistics, capacity building for policymakers, vaccine training for health workers, and private sector engagement. In 2021, the bank also implemented initiatives to resolve regulatory and trade-related barriers to vaccine supply.<br><br>In response to DMC demand, ADB generated knowledge solutions addressing the impacts of COVID-19 on tourism, helped develop vaccine prioritization and deployment plans, and gave recommendations on countering vaccine hesitancy and improving medical waste management. In addition, the bank hosted seven knowledge events throughout 2021 to help DMCs share critical guidance on COVID-19 responses on topics such as vaccine safety and digital transformation for health systems.<br><br>ADB also worked closely with DMCs to strengthen gender considerations in APVAX rollouts. In the Pacific, for example, the bank contributed to the development of a database to track immunization side effects by sex. This will help improve safety surveillance and inform campaigns with gender-specific messaging.",
-        "image": "green_accelerate.png",
-        "tag": "COVID-19 vaccinations being recorded at a vaccination center in the Philippines.",
-        "type": "expandTwo"
-    },
+    
     {
         "data": "In 2021, the bank mobilized $5 billion in external resources for its sovereign operations from 14 bilateral partners, 11 multilateral partners, 3 private sector partners, and 7 multipartner trust funds. More than half of this financing was for COVID-19 response. The bank also attracted $7.5 billion in cofinancing for its nonsovereign operations.",
         "type": "paragraph"
@@ -105,7 +108,7 @@
         "type": "paragraph"
     },
     {
-        "data": "At the 54th Annual Meeting of its Board of Governors in May—held in a virtual format—ADB brought together 4,600 government officials, private sector and civil society representatives, and other development partners to discuss topics under the theme “Collaboration for a Resilient and Green Recovery.” Knowledge partnerships took center stage in multiple sessions and influenced high-level discussions around reducing pandemic impacts on women and girls, addressing the climate challenge, and ensuring a recovery that leaves no one behind.",
+        "data": "<a href='https://www.adb.org/annual-meeting/2021/main' target='blank'>54th Annual Meeting of its Board of Governors</a> in May—held in a virtual format—ADB brought together 4,600 government officials, private sector and civil society representatives, and other development partners to discuss topics under the theme “Collaboration for a Resilient and Green Recovery.” Knowledge partnerships took center stage in multiple sessions and influenced high-level discussions around reducing pandemic impacts on women and girls, addressing the climate challenge, and ensuring a recovery that leaves no one behind.",
         "type": "paragraph"
     },
     {
@@ -116,8 +119,13 @@
         "type": "heading"
     },
     {
-        "data": "ADB recognizes that its support for COVID-19 response needs to gradually shift toward a broader range of integrated solutions that not only mitigate the direct impacts of the pandemic but also accelerate the transition toward a green, resilient, and inclusive recovery. The bank pursued these objectives in taking action under the seven operational priorities of its Strategy 2030.",
+        "data": "ADB recognizes that its support for COVID-19 response needs to gradually shift toward a broader range of integrated solutions that not only mitigate the direct impacts of the pandemic but also accelerate the transition toward a green, resilient, and inclusive recovery. The bank pursued these objectives in taking action under the seven operational priorities of its <a href='https://www.adb.org/documents/strategy-2030-prosperous-inclusive-resilient-sustainable-asia-pacific' target='_blank'>Strategy 2030</a>.",
         "type": "paragraph"
+    },
+    {
+        "data": "momo.png",
+        "tag": "ADB is supporting small businesses in Asia and the Pacific to overcome challenges brought about by the pandemic.",
+        "type": "image"
     },
     {
         "data": "Addressing Remaining Poverty and<br>Reducing Inequalities",
@@ -137,7 +145,7 @@
         "type": "paragraph"
     },
     {
-        "data": "To expand social protection, ADB provided financing for COVID-19-related assistance, cash, and other welfare transfers as well as social insurance and labor market programs that will help reduce inequality across Asia and the Pacific. The bank also approved a new disability inclusion road map for 2021–2025. The road map contributes to inclusive growth by strengthening ADB’s ability to incorporate disability considerations into its operations.",
+        "data": "To expand social protection, ADB provided financing for COVID-19-related assistance, cash, and other welfare transfers as well as social insurance and labor market programs that will help reduce inequality across Asia and the Pacific. The bank also approved a new <a href='https://www.adb.org/publications/disability-inclusive-development-2021-2025' target='_blank'>. The road map contributes to inclusive growth by strengthening ADB’s ability to incorporate disability considerations into its operations.",
         "type": "paragraph"
     },
     {
@@ -152,6 +160,11 @@
     {
         "data": "In response, ADB invested in a range of projects and programs in 2021 to reinvigorate employment in critically affected sectors. It continued to address persistent gender inequalities, including unequal access to quality jobs and finance. The bank also boosted women’s access to essential services and supported various initiatives to tackle gender-based violence.",
         "type": "paragraph"
+    },
+    {
+        "data":"http://players.brightcove.net/791607097001/9fa20be7-aba0-42f9-92b4-438ab9db690a_default/index.html?videoId=6282376509001",
+        "tag":"Find out how ADB’s work accelerating gender equality in Asia and the Pacific is creating a better future for women and girls.",
+        "type":"video"
     },
     {
         "data": "These operations included nonsovereign loans to two banks in Viet Nam to provide critical financing for small and medium-sized enterprises owned or led by women, while in Pakistan a $600 million loan will enhance health services for vulnerable mothers and children in 22 districts.",
@@ -176,11 +189,6 @@
         "type": "paragraph"
     },
     {
-        "data": "momo.png",
-        "tag": "ADB is supporting small businesses in Asia and the Pacific to overcome challenges brought about by the pandemic.",
-        "type": "image"
-    },
-    {
         "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
         "image": "op4_color.png",
         "type": "logoHeading"
@@ -192,6 +200,16 @@
     {
         "data": "In 2021, the bank declared its ambition to reach $100 billion in cumulative climate financing to DMCs by 2030, up from the $80 billion stated in its Strategy 2030. In addition, ADB pledged to enhance its investments in climate adaptation and resilience to a cumulative total of $35 billion by 2024 and $100 billion by 2030. The bank announced that it will fully align all new sovereign operations with the goals of the Paris Agreement by July 2023. It will similarly align at least 85% of its nonsovereign operations with the Paris Agreement by July 2023 and 100% by July 2025.",
         "type": "paragraph"
+    },
+    {
+        "title": "PROGRESS AGAINST STRATEGY 2030 TARGETS",
+        "data": "In 2021, ADB provided $3.5 billion for climate change mitigation and adaptation reaching $14.3 billion cumulative financing for 2020–2021. The bank is committed to providing a total of $35 billion by 2024 and $100 biliion by 2030.",
+        "gender": "CLIMATE CHANGE",
+        "digit": 14.4,
+        "sign": "$",
+        "class":"progress op3",
+        "content": "During 2018-2020, 89% of ADB committed operations promoted gender equality, up from 80% in 2017-2019, and still well on track to achieve the target of 75% in 2030.",
+        "type": "counter"
     },
     {
         "data": "Decarbonizing the region’s energy networks is critical to achieve the objectives of the Paris Agreement. To support universal access to clean, reliable, and affordable energy services while promoting the transition to low-carbon economies, ADB adopted a new Energy Policy in 2021. The policy formally commits ADB to abstain from financing new coal-fired power generation.",
@@ -210,20 +228,13 @@
         "type": "paragraph"
     },
     {
-        "title": "PROGRESS AGAINST STRATEGY 2030 TARGETS",
-        "data": "In 2021, ADB provided $3.5 billion for climate change mitigation and adaptation reaching $14.3 billion cumulative financing for 2020–2021. The bank is committed to providing a total of $35 billion by 2024 and $100 biliion by 2030.",
-        "gender": "CLIMATE CHANGE",
-        "digit": 14.4,
-        "sign": "$",
-        "class":"climate",
-        "content": "During 2018-2020, 89% of ADB committed operations promoted gender equality, up from 80% in 2017-2019, and still well on track to achieve the target of 75% in 2030.",
-        "type": "counter"
-    },
-    {
         "title": "ADB SHOWCASES ITS CLIMATE COMMITMENT AT COP26",
         "data": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.<br><br>The bank backed this pledge to protect ecosystems and biodiversity with a series of announcements on transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.<br><br>ADB launched the $665 million ASEAN Green Recovery Platform, which aims to accelerate pandemic recovery and mobilize an additional $7 billion for lowcarbon and climate-resilient infrastructure projects in Southeast Asia.<br><br>A first for Asia and the Pacific, ADB outlined its Energy Transition Mechanism for Indonesia and the Philippines. Established to hasten Southeast Asia’s transition to clean energy, the mechanism will leverage private and public investments to finance the early retirement of coal-power assets. The Government of Japan has committed a grant of $25 million as the first seed financing.<br><br>To help its DMCs scale up climate adaptation, ADB announced the Community Resilience Partnership Program to support community-level investments that plan for the impacts of climate change, especially by engaging women and poor households. The Government of the United Kingdom is providing £45 million (around $61 million) and the Nordic Development Fund is contributing €6 million (around $7 million) for the facility.<br><br> ADB rounded out its COP26 engagement by launching the Climate Action Catalyst Fund to advance carbon mitigation in Asia and the Pacific, along with the Urban Resilience Trust Fund, financed with £70 million (around $100 million) from the Government of the United Kingdom, to combat climate change through resilience planning and innovative urban projects.",
-        "type": "expand"
+        "type": "expandTwo"
     },
+
+    
+    
     {
         "data": "To help all DMCs ensure socially inclusive development over the longer term, ADB developed guidelines for gender-inclusive policies, programs, and projects in transport, water supply, and energy.",
         "type": "paragraph"
@@ -247,19 +258,6 @@
     },
     {
         "data": "Complementing these investments, ADB developed significant knowledge solutions in 2021 to support the livable cities agenda across Asia and the Pacific. For example, in the report Creating Livable Asian Cities, the bank highlighted key priorities for realizing a sustainable urban future in the region. These include ensuring smart and inclusive planning, creating sustainable urban transport and energy systems, mobilizing finance, and focusing on resilience and rejuvenation.",
-        "type": "paragraph"
-    },
-    {
-        "data": "Promoting Rural Development<br>and Food Security",
-        "image": "op5_color.png",
-        "type": "logoHeading"
-    },
-    {
-        "data": "Asia and the Pacific is home to more than 700 million extremely poor people and around 80% reside in rural communities. About three quarters of these are smallholder farmers with limited access to basic services and infrastructure, leaving them extremely vulnerable to the impacts of climate change and shocks such as natural disasters or global health crises. During the COVID-19 pandemic, farmers and agricultural enterprises have seen international markets shrink at the same time as the rural poor have found it more difficult to purchase nutritious food.",
-        "type": "paragraph"
-    },
-    {
-        "data": "To support vulnerable rural communities and a green and inclusive recovery for the rural economies of Asia and the Pacific, ADB supported a range of agriculture, natural resources, and rural development initiatives in 2021. These included loans to agribusinesses in the region to cover shortfalls in operational finance caused by the pandemic. In Azerbaijan, ADB bolstered the government’s COVID-19 response by providing budget support to lessen the impact of high fuel prices on agricultural producers. In Papua New Guinea, the bank provided additional financing to extend upgrades to a major highway that is vital lifeline for many remote communities",
         "type": "paragraph"
     },
     {
@@ -538,14 +536,34 @@
         "type": "strategicFocusPieChart"
     },
     {
-        "data": "ADB’s 2021 knowledge work on agriculture and rural development included events on mapping rice plots and crop yields amid lockdowns in Cambodia, on policy responses to ensure food security in the wake of the COVID-19 pandemic, and on promoting better nutrition post-pandemic. The bank also launched a regional technical assistance program to assess the impacts of the pandemic on food and nutrition security and rural livelihoods across Asia and the Pacific, and help DMCs mobilize investments for a greener and resilient recovery of agri-food value chains and rural economies.",
+        "data": "Promoting Rural Development<br>and Food Security",
+        "image": "op5_color.png",
+        "type": "logoHeading"
+    },
+    {
+        "data": "Asia and the Pacific is home to more than 700 million extremely poor people and around 80% reside in rural communities. About three quarters of these are smallholder farmers with limited access to basic services and infrastructure, leaving them extremely vulnerable to the impacts of climate change and shocks such as natural disasters or global health crises. During the COVID-19 pandemic, farmers and agricultural enterprises have seen international markets shrink at the same time as the rural poor have found it more difficult to purchase nutritious food.",
         "type": "paragraph"
     },
     {
-        "data": "electricity.png",
-        "tag": "ADB is supporting its developing member countries in the Pacific to improve the governance of public utilities such as electricity",
-        "type": "image"
+        "data": "To support vulnerable rural communities and a green and inclusive recovery for the rural economies of Asia and the Pacific, ADB supported a range of agriculture, natural resources, and rural development initiatives in 2021. These included loans to agribusinesses in the region to cover shortfalls in operational finance caused by the pandemic. In Azerbaijan, ADB bolstered the government’s COVID-19 response by providing budget support to lessen the impact of high fuel prices on agricultural producers. In Papua New Guinea, the bank provided additional financing to extend upgrades to a major highway that is vital lifeline for many remote communities",
+        "type": "paragraph"
     },
+    {
+        "data":"http://players.brightcove.net/791607097001/9fa20be7-aba0-42f9-92b4-438ab9db690a_default/index.html?videoId=6249590493001",
+        "tag":"Learn how ADB’s Asia Pacific Tax Hub will facilitate cooperation among finance ministries and tax authorities, international organizations, and regional tax associations.",
+        "type":"video"
+    },
+    {
+        "data":"Through the Asia Pacific Tax Hub, ADB will ramp up its operational support to our DMCs’ efforts to address debt sustainability and to achieve the Sustainable Development Goals.",
+        "tag":"ADB PRESIDENT MASATSUGU ASAKAWA",
+        "type":"quote"
+    },
+  
+    {
+        "data": "ADB’s 2021 knowledge work on agriculture and rural development included events on mapping rice plots and crop yields amid lockdowns in Cambodia, on policy responses to ensure food security in the wake of the COVID-19 pandemic, and on promoting better nutrition post-pandemic. The bank also launched a regional technical assistance program to assess the impacts of the pandemic on food and nutrition security and rural livelihoods across Asia and the Pacific, and help DMCs mobilize investments for a greener and resilient recovery of agri-food value chains and rural economies.",
+        "type": "paragraph"
+    },
+   
     
    
     {
@@ -572,6 +590,11 @@
     {
         "data": "Expanding on this work, an ADB project in Solomon Islands will build the debt management capacity of the country’s internal revenue institution, moving into a more efficient and transparent tax framework.",
         "type": "paragraph"
+    },
+    {
+        "data": "electricity.png",
+        "tag": "ADB is supporting its developing member countries in the Pacific to improve the governance of public utilities such as electricity",
+        "type": "image"
     },
     {
         "data": "Fostering Regional Cooperation<br>and Integration",
@@ -606,7 +629,7 @@
         "title": "Pursuing Better Outcomes for ADB’s Most Vulnerable Members",
         "data": "ADB classifies 11 of its DMCs as being in fragile and conflict-affected situations (FCAS), while 16 are small island developing states (SIDS). These DMCs require specialized attention to ensure development financing and knowledge services are appropriately designed and distributed.<br><br>Differentiated approaches—based on understanding the causes and drivers of fragility and conflict in each specific FCAS and/or SIDS context—are crucial to more productive ADB engagement and, ultimately, better outcomes for such DMCs.<br><br>In 2021, ADB adopted the Fragile and Conflict-Affected Situations and Small Island Developing States Approach (FSA). The approach provides ADB staff and consultants with guidance and tools to address the transient challenges of FCAS and the more permanent vulnerabilities of SIDS. For instance, under the FSA, the bank has introduced fragility and resilience assessments and knowledge analytics to help country teams better tailor responses to the particular needs of FCAS and/or SIDS.<br><br>In 2021, ADB drafted a fragility and resilience assessment for Timor-Leste. Among the report’s many findings was that extreme weather brought by climate change posed an increasing threat to roads, bridges, ports, and airports. Therefore, the assessment recommended ADB focus more on disaster risk reduction in Timor-Leste and shift the emphasis of its country portfolio away from the construction of infrastructure and towards operation and maintenance.",
         "image":"Pursuing-Better.png",
-        "type": "expand"
+        "type": "expandTwo"
     },
     {
         "data": "chapter-1-subimage.png",

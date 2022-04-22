@@ -1,64 +1,64 @@
 <div class="accordinTable">
-<ng-container>
-         <p class="financialHeading" >{{heading}}</p>
-         <p  class="financialSubHeading" [innerHTML]="subHeading"></p>
-         <hr style="color: #0088c7; height: 2px; opacity: 1;">
-</ng-container>
-
-<div class="{{class}}">
-    <table class="fold-table accordianTable">
-        <ng-container *ngFor="let item of tableJsonData">
-            <ng-container *ngIf="item.type === 'main-title'">
-                <thead *ngFor="let titles of item.data; let i = index">
-                    <tr [ngClass]="{'title-row': i  === 2}">
-                        <ng-container *ngFor="let titleItem of titles; let i = index">
-                            <th  class="w-14 font-bold" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
-                            [class.lastThClass]="(titles.length - 1) ==  i"
-                            [class.width-40]="i === 0"
-                            [class.width-10]="i > 0"
-                            [class.lightOrange-bg]="titleItem.class && titleItem.class !== ''" [ngStyle]="{'text-align': titleItem.colspan > 0 ? 'center' : 'left'}"
-                            [innerHTML]="titleItem.title"  >
-                               
-                            </th>
-                        </ng-container>
-                    </tr>
-                </thead>
-            </ng-container>
-            <tbody>
-                <ng-container *ngIf="item.type === 'expansion-panel'">
-                        <tr class="view open" (click)="openAccordin($event)">
-                            <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold'}}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title"  >
+    <ng-container>
+             <p class="financialHeading" >{{heading}}</p>
+             <p  class="financialSubHeading" [innerHTML]="subHeading"></p>
+             <hr style="color: #0088c7; height: 2px; opacity: 1;">
+    </ng-container>
     
-                            </td>
+    <div class="{{class}}">
+        <table class="fold-table accordianTable">
+            <ng-container *ngFor="let item of tableJsonData">
+                <ng-container *ngIf="item.type === 'main-title'">
+                    <thead *ngFor="let titles of item.data; let i = index">
+                        <tr [ngClass]="{'title-row': i  === 2}">
+                            <ng-container *ngFor="let titleItem of titles; let i = index">
+                                <th  class="w-14 font-bold  {{titleItem.trClass}}" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
+                                [class.lastThClass]="(titles.length - 1) ==  i"
+                                [class.width-40]="i === 0"
+                                [class.width-10]="i > 0"
+                                [class.lightOrange-bg]="titleItem.class && titleItem.class !== ''" [ngStyle]="{'text-align': titleItem.colspan > 0 ? 'center' : 'left'}"
+                                [innerHTML]="titleItem.title"  >
+                                   
+                                </th>
+                            </ng-container>
                         </tr>
-                        <tr class="fold open">
-                            <td colspan="8">
-                                <ng-container *ngTemplateOutlet="commonSubTable; context: {item: item}">
-                                </ng-container>
-                            </td>
-                        </tr>
+                    </thead>
                 </ng-container>
-            </tbody>
-        </ng-container>
-    </table>
-</div>
-
-
-
-<ng-template #commonSubTable let-item=item>
-    <div class="fold-content" *ngFor="let trData of item.subData; let trIndex = index">
-        <table class="fold-table">
-            <tbody>
-                <tr *ngFor="let tableContent of trData; let subTableIndex = index" class="{{tableContent.class}}">
-                    <ng-container *ngFor="let item of tableContent | keyvalue; let i = index">
-                        <td 
-                        [ngClass]="{'totalCls': (i > 4), 'width-40': i === 0, 'width-10': i > 0}" *ngIf="item.key != 'class'" [innerHTML]="item.value | customDecimal: item.value > 100"></td>
+                <tbody>
+                    <ng-container *ngIf="item.type === 'expansion-panel'">
+                            <tr class="view open" (click)="openAccordin($event)">
+                                <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold ' + subT.trClass }}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title" >
+        
+                                </td>
+                            </tr>
+                            <tr class="fold open">
+                                <td colspan="8">
+                                    <ng-container *ngTemplateOutlet="commonSubTable; context: {item: item}">
+                                    </ng-container>
+                                </td>
+                            </tr>
                     </ng-container>
-                    
-                </tr>
-            </tbody>
+                </tbody>
+            </ng-container>
         </table>
     </div>
-</ng-template>
-<div class="noteText" *ngFor="let note of note" [innerHTML]="note"></div>
-</div>
+    
+    
+    
+    <ng-template #commonSubTable let-item=item>
+        <div class="fold-content" *ngFor="let trData of item.subData; let trIndex = index">
+            <table class="fold-table">
+                <tbody>
+                    <tr *ngFor="let tableContent of trData; let subTableIndex = index" class="{{tableContent.class}}">
+                        <ng-container *ngFor="let item of tableContent | keyvalue; let i = index; let l = last">
+                            <td 
+                            [ngClass]="{'totalCls': l, 'width-40': i === 0, 'width-10': i > 0}" *ngIf="item.key != 'class'" [innerHTML]="item.value | customDecimal: item.value > 100"></td>
+                        </ng-container>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </ng-template>
+    <div class="noteText" *ngFor="let note of note" [innerHTML]="note"></div>
+    </div>

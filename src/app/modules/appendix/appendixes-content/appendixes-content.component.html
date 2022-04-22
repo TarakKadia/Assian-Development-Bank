@@ -9,7 +9,7 @@
 
     </div>
     <div class="appendix-list">
-        <div class="appendix-item" *ngFor="let data of list" (click)="showImage(data.tableData)">
+        <div class="appendix-item" *ngFor="let data of list" (click)="showImage(data || data)">
             <span>{{data.list}}</span><br>
             {{data.content}}
         </div>
@@ -21,15 +21,16 @@
         <span class="close-label">Close</span> <span class="close-icon">×</span>
     </div>
 
-    <app-table *ngIf="tableData && tableData.type=='table'" [note]="tableData.note"
-        [heading]="tableData.heading" [subHeading]="tableData.subHeading" [tableJson]="tableData.data">
+    <app-table *ngIf="tableData?.tableData && tableData?.tableData?.type=='table'" [note]="tableData?.tableData?.note"
+        [heading]="tableData?.tableData?.heading" [subHeading]="tableData?.tableData?.subHeading" [tableJson]="tableData?.tableData?.data">
     </app-table>
 
-    <app-accordin-table *ngIf="tableData && tableData.type=='accordian-table'" [note]="tableData.note"
-        [heading]="tableData.heading" [subHeading]="tableData.subHeading" [tableJson]="tableData.data">
+    <app-accordin-table *ngIf="tableData?.tableData && tableData?.tableData?.type=='accordian-table'" [class]="tableData?.tableData?.class" [trClass]="tableData?.tableData?.trClass" [note]="tableData?.tableData?.note"
+        [heading]="tableData?.tableData?.heading" [subHeading]="tableData?.tableData?.subHeading" [tableJson]="tableData?.tableData?.data">
     </app-accordin-table>
 
-    <app-list *ngIf="tableData && tableData.type=='list'" [data]="tableData">
+    <app-list *ngIf="tableData?.tableData && tableData?.tableData?.type=='list'" [data]="tableData?.tableData">
 
     </app-list>
+    <app-image *ngIf="tableData?.appendixImage" [image]="tableData?.appendixImage"></app-image>
 </div>

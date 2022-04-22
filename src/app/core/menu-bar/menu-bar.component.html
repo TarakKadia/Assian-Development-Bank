@@ -108,12 +108,14 @@
     <div class="copyright">
       <a [routerLink]="['/']">ADB&nbsp;Annual&nbsp;Report&nbsp;<span>2021</span></a>
     </div>
-    <div id="social-bookmark" class="bookmark" (click)="openBookmarkMenu()">
-        <span>Bookmark
-        </span>
-      </div>
-    <div id="social-share" class="share" (click)="openSocialMenu()">
-      <span>Share</span>
+    <div>
+        <div id="social-bookmark" class="bookmark" (click)="openBookmarkMenu()">
+            <span>Bookmark
+            </span>
+          </div>
+        <div id="social-share" class="share" (click)="openSocialMenu()">
+          <span>Share</span>
+        </div>
     </div>
   </div>
   <div id="social-overlay" [ngClass]="{'display-block': isSocialMenu}" (click)="openSocialMenu()"></div>

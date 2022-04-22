@@ -136,7 +136,7 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit, O
                             textY = height / 2;
                             
                             ctx.beginPath();
-                            ctx.arc(51, 51, 27, 0 * Math.PI, 2 * Math.PI);
+                            ctx.arc(46, 46, 27, 0 * Math.PI, 2 * Math.PI);
                             ctx.fillStyle = '#f2ae29';
                             ctx.lineWidth = 0;
                             ctx.fill();

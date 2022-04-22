@@ -10,13 +10,13 @@
   {
     "title": "BY THE NUMBERS",
     "symbol": "$",
-    "digit1": 2.0,
+    "digit1": 5.6,
     "tag1": "COMMITTED",
-    "digit2": 478,
+    "digit2": 3.9,
     "tag2": "COVID‑19 RESPONSE",
-    "digit3": 1.7,
+    "digit3": 5.7,
     "tag3": "DISBURSED",
-    "digit4": 426,
+    "digit4": 3.4,
     "tag4": "COFINANCED",
     "sign1": "B",
     "sign2": "B",
@@ -37,6 +37,22 @@
     "type": "paragraph"
   },
   {
+    "id": 2,
+    "title": "IN 2021, ADB COMMITMENTS IN SOUTH ASIA WERE PRIMARILY IN THESE SECTORS",
+    "digit1": 30,
+    "tag1": "HEALTH",
+    "digit2": 28,
+    "tag2": "PUBLIC SECTOR MANAGEMENT",
+    "digit3": 14,
+    "tag3": "ENERGY",
+    "digit4": 10,
+    "tag4": "TRANSPORT",
+    "digit5": 6,
+    "tag5": "EDUCATION",
+    "sign": "%",
+    "type": "currencyCounter"
+  },
+  {
     "data": "ADB committed a total of $5.6 billion for its operations in Southeast Asia in 2021, of which $3.9 billion was for pandemic response. This included $650 million in loans through the Asia Pacific Vaccine Access Facility (APVAX) to procure and distribute over 85 million doses of COVID-19 vaccines in the Philippines. ",
     "type": "paragraph"
   },
@@ -51,6 +67,11 @@
   {
     "data": "In addition, ADB is partnering with Temasek, HSBC, and Clifford Capital Holdings in establishing the Asset Regeneration (REGEN) Platform to bolster green infrastructure in Southeast Asia. REGEN will initially focus on Indonesia and Viet Nam and mobilize private sector capital for renewable energy, water and waste, and sustainable transport projects—sectors that struggle to­ attract commercial financing. ",
     "type": "paragraph"
+  },
+  {
+      "data":"http://players.brightcove.net/791607097001/9fa20be7-aba0-42f9-92b4-438ab9db690a_default/index.html?videoId=6286876599001",
+      "tag":"See how the Blue SEA Finance Hub will support innovative financing approaches to developing a sustainable blue economy.",
+      "type":"video"
   },
   {
     "data": "Effective 1 February 2021, ADB placed a temporary hold on sovereign project disbursements and new contracts in Myanmar. The bank continues to monitor the situation in the country.",
@@ -362,22 +383,7 @@
     "data": "In 2021, ADB made two significant nonsovereign loans to expand access to finance for Viet Nam’s women entrepreneurs and business operators. The bank extended a $100 million loan to the Vietnam International Commercial Joint Stock Bank (VIB) and $25 million in financing to Tien Phong Commercial Joint Stock Bank (TPBank). Both institutions will, in turn, provide critically needed financing to SMEs owned and led by women. The investment in VIB includes technical assistance to develop information systems appropriate to women and train bank loan officers on better serving female customers, while the financing for TPBank is expected to increase the bank’s number of women borrowers by over 23% by 2025.",
     "type": "paragraph"
   },
-  {
-    "id": 2,
-    "title": "IN 2021, ADB COMMITMENTS IN SOUTH ASIA WERE PRIMARILY IN THESE SECTORS",
-    "digit1": 30,
-    "tag1": "HEALTH",
-    "digit2": 28,
-    "tag2": "PUBLIC SECTOR MANAGEMENT",
-    "digit3": 14,
-    "tag3": "ENERGY",
-    "digit4": 10,
-    "tag4": "TRANSPORT",
-    "digit5": 6,
-    "tag5": "EDUCATION",
-    "sign": "%",
-    "type": "currencyCounter"
-  },
+  
   {
     "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
     "image": "op3_color.png",
@@ -430,7 +436,7 @@
   },
   {
     "title": "Sustainable Recovery through Green Financing",
-    "image": "chapter2-img3-2.png",
+    "image": "serd_sustainable.jpg",
     "tag": "ADB is creating partnerships to prepare and finance green infrastructure projects in Asia and the Pacific.",
     "data": "During 2021, ADB took an important step forward in the pursuit of green and inclusive recovery from the pandemic for Southeast Asia.<br><br> The bank secured four partners who have pledged a total of $665 million to the new Green Recovery Platform of the ASEAN Catalytic Green Finance Facility (ACGF), co-owned by members of the Association of Southeast Asian Nations (ASEAN) and ADB. This support includes $300 million from the Green Climate Fund and equivalents of $155 million from Italy’s state lender Cassa Depositi e Prestiti, $151 million from the Government of the United Kingdom, and $59 million from the European Union.<br><br> These contributions will help ASEAN developing member countries catalyze public and private resources to prepare and finance green infrastructure projects.<br><br> The new partnerships will help provide technical assistance for financial structuring, project development, and sustainability bond development, and extend loans to reduce risk in investments from public and private financiers. ADB cofinancing will be mandatory for all projects supported through the platform.<br><br> These new partnerships complement about $1.4 billion in cofinancing already pledged to the ACGF by ADB, Agence Française de Développement, the European Investment Bank, German state-owned development bank KfW, and the Government of the Republic of Korea, bringing indicative support to over $2 billion.<br><br> In its first 3 years, the ACGF has approved five projects that are expected to reduce carbon dioxide emissions by 291,000 tons every year.",
     "type": "expand"
@@ -479,10 +485,9 @@
   },
   {
     "title": "Supporting Youth in the Philippines",
-    "image": "chapter2-img5-2.png",
     "tag": "The ADB-supported JobStart Philippines program is boosting job prospects for the country’s youth.",
     "data": "For many young Filipinos, unemployed rates have remained stubbornly high for years. The number of youths not undertaking education or training was a long-held concern for authorities.<br><br> In 2017, ADB began an investment program to help the Government of the Philippines enhance the employability of youth and shorten the time young Filipinos spend finding work after leaving school.<br><br> Through the program, approximately 20,000 at-risk youth have been trained by JobStart Philippines, with a 67% placement rate. The ADB financing has helped expand public employment services, create youth training programs in digital format, roll out training scholarships for the newly unemployed, and reduce financial burdens on first-time jobseekers.<br><br> “I can say that I can now find a job with the help of this training,” says Mea Pagayon, a JobStart participant in 2021. “I hope they will be able to help more young people like me, those who have less opportunity.<br><br>” The ADB loans, made in 2017 and 2019, have also provided support to the government’s program for the employment of students, which has delivered first jobs for more than 393,500 young Filipinos (over half of them women).<br><br> With school closures associated with the COVID-19 pandemic threatening to jeopardize the gains made in recent years, ADB committed an additional $400 million to the investment program in 2021. This third loan specifies measures to counter the effects of the pandemic on the broader labor market both now and for longer-term recovery.",
-    "type": "expand"
+    "type": "expandTwo"
   },
   {
     "data": "Fostering Regional Cooperation and Integration",
@@ -527,8 +532,8 @@
   },
   {
     "title": "SECURITY, PROSPERITY, AND SUSTAINABILITY FOR THAILAND",
-    "data": "In 2021, ADB endorsed a new <a href='https://www.adb.org/documents/thailand-country-partnership-strategy-2021-2025'>country partnership strategy</a> for Thailand covering 2021–2025. The strategy recognizes Thailand’s growing resources and capacity to identify and resolve its own development challenges and will ensure ADB’s assistance is complementary. Under the strategy, ADB will deliver a joint sovereign and nonsovereign program of knowledge and financing solutions to support the country’s development objectives of security, prosperity, and sustainability. The areas of focus include addressing remaining pockets of inequality, expanding Thailand’s engagement in regional cooperation and growth, and overcoming constraints to private sector growth.",
-    "type": "expand"
+    "data": "In 2021, ADB endorsed a new <a href='https://www.adb.org/documents/thailand-country-partnership-strategy-2021-2025'>country partnership strategy</a> for Thailand covering 2021–2025. The strategy recognizes Thailand’s growing resources and capacity to identify and resolve its own development challenges and will ensure ADB’s assistance is complementary.<br><br> Under the strategy, ADB will deliver a joint sovereign and nonsovereign program of knowledge and financing solutions to support the country’s development objectives of security, prosperity, and sustainability.<br><br> The areas of focus include addressing remaining pockets of inequality, expanding Thailand’s engagement in regional cooperation and growth, and overcoming constraints to private sector growth.",
+    "type": "shadeKnowledgeTwo"
   },
   {
     "title": "NEXT",

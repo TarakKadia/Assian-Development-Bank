@@ -23,7 +23,7 @@
     <div *ngFor="let item of value; let i =index" class="fix" >
      
         <br><br>
-        <app-accordin-table *ngIf="item.type=='accordian-table'" [note]="item.note" [class]="item.class" [heading]="item.heading" [subHeading]="item.subHeading" [tableJson]="item.data" ></app-accordin-table>
+        <app-accordin-table *ngIf="item.type=='accordian-table'" [note]="item.note" [class]="item.class" [heading]="item.heading" [trClass]="item.trClass" [subHeading]="item.subHeading" [tableJson]="item.data" ></app-accordin-table>
         <app-investment-chart  [data]="item.data" *ngIf="item.type=='investmentChart'" ></app-investment-chart>
         <app-stacked-horizontal-chart [data]="item.data" *ngIf="item.type=='stackedHorizontalChart'" [heading]="item.heading"></app-stacked-horizontal-chart>
         <app-pie-chart [data]="item.data" [id]="item.id" *ngIf="item.type=='pieChart'"></app-pie-chart>

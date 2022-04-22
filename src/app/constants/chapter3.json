@@ -88,6 +88,10 @@
     "type":"paragraph"
  },
  {
+     "data":"In 2021, the bank implemented its second-largest borrowing program ever, raising $35.8 billion through 160 transactions in 21 currencies.",
+     "type":"quote"
+ },
+ {
     "data":"The other system is a new integrated platform to improve efficiency and quality in how nonsovereign operations are managed right from concept to closure. Among its many benefits, ENSURING A ROBUST RESOURCE BASE the platform provides more timely and reliable data for decision- making, improves risk management, and enhances client ADB reduces the cost and maximizes the type of funding it can provide to DMCs by strategically engaging in capital markets. interactions.",
     "type":"paragraph"
  },
@@ -172,9 +176,9 @@
   {
     "title":"Asian Development Bank Institute",
         "data": "Throughout 2021, the Asian Development Bank Institute (ADBI)—ADB’s think tank based in Tokyo—addressed policy challenges posed by the ongoing COVID-19 pandemic and its rising socioeconomic impacts. To support sustainable and inclusive recovery, the institute explored issues such as the “new normal” for small firms, the effects of social programs on poor households, effective public debt management, and fiscal instruments and energy transition after the pandemic.<br><br>To help advance policy innovation in the region, ADBI conducted a survey on the needs of developing member countries, increased projects with primary data collection and use, and expanded project partnerships, including with other think tanks via Think20.ADBI published 11 open access books, 87 working papers, 8 policy briefs, 6 case studies, 31 journal articles, and 3 journal special issues during 2021. It hosted 95 online research, capacity building and training, and outreach events for over 16,000 policymakers and stakeholders, with a 43.5% female participation rate. The institute also expanded the ADBI E-Learning platform and online programs.<br><br>ADBI’s other research topics included improving the quality of basic education, women’s participation in e-commerce, climate change mitigation and green finance, rural transformation, and urban resilience. Topics for capacity building and training included social safety nets, women’s economic empowerment, the circular and creative economies, and sanitation.",
-        "image":"assian-institute.jpg",
+        "image":"assian-institute.png",
         "tag":"ADBI book on COVID-19 impacts in Asia and policy options for recovery.",
-        "type": "expand"
+        "type": "expandTwo"
 },
 
 {
@@ -232,6 +236,10 @@
 {
     "data":"ADB also improved the implementation of its Governance and Anticorruption Action Plan by enhancing how governance risk assessments are conducted.",
     "type":"paragraph"
+},
+{
+    "data":"ADB is developing policies to enhance the prevention of sexual exploitation, abuse, and harassment in bank-financed projects.",
+    "type":"quote"
 },
 {
     "data":"<b>Enhancing Safeguards</b>",
@@ -380,7 +388,7 @@
     "data": "ADB’s Independent Evaluation Department (IED) completed several major evaluations in 2021, including assessments on ADB’s performance and results in its Bangladesh country program and Greater Mekong Subregion program, support for the Sustainable Development Goals, and action on climate change.<br>IED also continued its real-time evaluation of ADB’s support to developing member countries (DMCs) for COVID-19 response and recovery. The department delivered specialized briefs and other knowledge products on COVID-19 as well as other subjects such as safeguards, water and other urban infrastructure, and technical assistance.<br>IED completed a range of country program validations, sovereign and nonsovereign project evaluations and validations, and technical assistance validations (under its new validation system for technical assistance completion reports).<br>The department’s capacity development and knowledge-sharing program on evaluation evolved and expanded in 2021 through online platforms. This included the delivery of virtual training on project self-evaluation of sovereign operations to ADB staff and government officials from DMCs as well as knowledge sharing through the virtual Asian Evaluation Week, which drew over 800 participants from more than 100 countries.<br>In 2021, IED and ADB Management jointly developed and adopted ADB Evaluation Principles to reaffirm evaluation as an institution-wide function and reinforce the respective roles of self-evaluation and independent evaluation.<br>The department also maintained strong partnerships and cooperation with national, regional, and global partner organizations, including the Evaluation Cooperation Group, which consists of independent evaluation departments of multilateral development banks.",
     "image": "IED.png",
     "tag":"An evaluation report on ADB’s support for climate change action.",
-    "type": "shadeKnowledgeTwo"
+    "type": "expandTwo"
   },
   {
     "title": "Next",

@@ -148,7 +148,7 @@ p {
 }
 
 .text-align-right {
-    text-align: right;
+    text-align: center;
     padding-left: 10px !important;
     padding-right: 10px !important;
 }
@@ -191,7 +191,7 @@ table tbody:last-child tr:last-child td{
 }
 
 table tbody:last-child tr.view td {
-    background: #c3def1 !important;
+    /* background: #c3def1 !important; */
     font-weight: 900;
 }
 
@@ -201,3 +201,6 @@ table tbody:last-child tr.view td {
 .appendix-table table{
     width: 1900px;
 }
+
+.appendixOne tbody tr.fold:nth-child(even) td{background-color: #fff;}
+.appendixOne tbody tr.fold:nth-child(even) td:last-child{background-color:#dfedf7;}

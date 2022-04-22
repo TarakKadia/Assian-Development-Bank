@@ -202,7 +202,7 @@ export class ReportComponent implements OnInit, AfterViewInit {
             this.router.navigate(['/report'], { queryParams: { id: 14 } });
             this.data = southeastasia;
         } else if (this.param == 14) {
-            this.router.navigate(['/report'], { queryParams: { id: 15 } });
+            this.router.navigate(['/report'], { queryParams: { id: 16 } });
 
             this.data = chapter3CardJsonData;
         } else if (this.param == 16) {

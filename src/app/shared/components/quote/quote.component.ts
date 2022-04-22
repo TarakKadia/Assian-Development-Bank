@@ -8,8 +8,10 @@ import { Component, Input, OnInit } from '@angular/core';
 export class QuoteComponent implements OnInit {
 
   constructor() { }
-@Input() data:any
+@Input() data:any;
+@Input() tag:any;
   ngOnInit(): void {
+      
   }
 
 }

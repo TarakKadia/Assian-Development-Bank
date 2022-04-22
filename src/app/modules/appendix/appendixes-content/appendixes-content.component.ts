@@ -48,6 +48,7 @@ export class AppendixesContentComponent implements OnInit {
   showImage(img: any) {
     // this.sourceImages = img;
     this.tableData = img;
+    console.log("tabledatatatata",this.tableData)
     this.isShowImage ? this.isShowImage = false : this.isShowImage = true;
   }
   getTitle(){
