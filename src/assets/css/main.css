@@ -364,7 +364,6 @@ img {
 }
 
 @media only screen and (min-width: 1000px) {
-
     div.content > img {
         width: 125%;
         margin-left: -100px;
@@ -823,8 +822,9 @@ a.next span {
     line-height: 1.2rem;
 }
 
-p {
+.paragraph-hover {
     margin: 2rem 0 2rem 0 !important;
+
 }
 
 h2 {
@@ -1614,13 +1614,13 @@ background: linear-gradient(180deg, rgba(109,180,205,1) 0%, rgba(232,242,243,1) 
 /******** by the numbers ************/
 
 
-#financial div.numbers h3 {
+ div.numbers h3 {
 background:none;
 padding-bottom: 0;
 color: #3d8dbd;
 }
 
-#financial div.numbers .numbergroup div {
+div.numbers .numbergroup div {
     border-left: 1px solid #3d8dbd;
     border-bottom: 1px solid #3d8dbd;
     padding: 1rem;
@@ -1628,11 +1628,11 @@ color: #3d8dbd;
     min-width: 40%;
 }
 
-#financial div.numbers .numbergroup {
+ div.numbers .numbergroup {
     justify-content: space-between;
 }
 
-#financial div.numbers p.num {
+ div.numbers p.num {
     font-weight: 400;
     font-size: 2.6rem;
     line-height: 2.6rem;
@@ -1641,7 +1641,7 @@ color: #3d8dbd;
     color: #3d8dbd;
 }
 
-#financial div.numbers p {
+ div.numbers p {
 color: #3d8dbd;
 }
 
@@ -2299,7 +2299,7 @@ padding: 0 1rem 0 1rem;
 
 
 .smallgrid .greybutton p {
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0 !important;
     color: #000;
 }
 
@@ -2458,8 +2458,8 @@ transform: rotate(20deg);
 
 
 .extralinks .greybutton p {
-    margin: 1rem 0 1rem 0;
-    color:#000
+    margin: 1rem 0 1rem 0 !important;
+    color:#000 !important
 }
 
 
@@ -3570,3 +3570,4 @@ div#hover, div#hover-box, div#hover-expanded, div#hover-twitter, div#hover-count
     max-width: 100%;
     margin-bottom: 15px;  
   }
+  

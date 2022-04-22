@@ -18,6 +18,7 @@ export class CounterCardComponent implements OnInit {
   @Input() digit:any;
   @Input() id:any;
   @Input() steps:any;
+  
 
   @ViewChild("animatedDigit") animatedDigit!: ElementRef;
 

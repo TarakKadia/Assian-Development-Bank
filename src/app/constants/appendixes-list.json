@@ -5138,7 +5138,7 @@
   "list": "Appendix 4:",
   "content": "ADB Regional and Nonregional Members",
   "type": "list",
-  "image": ["assets/images/app/appendix4.png"]
+  "image": ["assets/images/appendix4.png"]
 }, {
   "id": 5,
   "list": "Appendix 5:",
@@ -6783,13 +6783,13 @@
   "list": "Appendix 8A:",
   "content": "ADB Organizational Structure",
   "type": "list",
-  "image": ["assets/images/app/appendix8A.png"]
+  "image": ["assets/images/appendix8A.png"]
 }, {
   "id": 10,
   "list": "Appendix 8B:",
   "content": "ADB Sector and Thematic Groups",
   "type": "list",
-  "image": ["assets/images/app/appendix8B.png"]
+  "image": ["assets/images/appendix8B.png"]
 }, {
   "id": 11,
   "list": "Appendix 9:",
