@@ -46,8 +46,7 @@
               "title": "Total"
             },
             {
-              "title": "Total",
-              "class": "lightOrange-bg"
+              "title": "Total"
             },
             {
               "title": "COVID-19 Response"
@@ -293,7 +292,7 @@
               "value5": "16013",
               "value6": "22529",
               "value7": "13481",
-              "class": "subTotal"
+              "class": "subTotal light-skyBlue-bgcolor"
             }
 
           ]
@@ -457,7 +456,7 @@
               "value5": "16146",
               "value6": "22759",
               "value7": "13511",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
             }
 
           ]
@@ -467,28 +466,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "B.Technical Assistance"
+            "title": "B.Technical Assistance",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           }
         ],
         "subData": [
@@ -521,7 +528,7 @@
               "value5": "134",
               "value6": "230",
               "value7": "30",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
             }
 
           ]
@@ -531,28 +538,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "TOTAL ADB OPERATIONS(A + B)"
+            "title": "TOTAL ADB OPERATIONS(A + B)",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           }
         ],
         "subData": [
@@ -574,28 +589,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "C. Cofinancing Including Trust Funds"
+            "title": "C. Cofinancing Including Trust Funds",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor"
           }
         ],
         "subData": [
@@ -717,30 +740,44 @@
       },
       {
         "type": "expansion-panel",
+
         "subTitle": [{
-            "title": "TOTAL COFINANCING"
+            "title": "TOTAL COFINANCING",
+        "trClass":"dark-blue-bgcolor"
+
+
           },
           {
-            "title": "11896"
+            "title": "11896",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "14310"
+            "title": "14310",
+        "trClass":"dark-blue-bgcolor"
+
           },
           {
-            "title": "12512"
+            "title": "12512",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "16409"
+            "title": "16409",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "10841"
+            "title": "10841",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "12933"
+            "title": "12933",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "8881"
+            "title": "8881",
+            "trClass":"dark-blue-bgcolor"
           }
+          
+
         ]
 
       }
@@ -826,10 +863,11 @@
           },
           {
             "title": "Total",
-            "class": "lightOrange-bg"
+            "class": "lightOrange-bg totalWidth"
           },
           {
-            "title": "COVID-19 Response"
+            "title": "COVID-19 Response",
+            "class":"totalWidth"
           }
         ],
         "subData": [
@@ -841,7 +879,8 @@
               "value4": "6565",
               "value5": "3964",
               "value6": "5193",
-              "value7": "3276"
+              "value7": "3276",
+              "class" : "regionTd"
             },
             {
               "value0": "East Asia",
@@ -905,7 +944,8 @@
               "value4": "31581",
               "value5": "16146",
               "value6": "22759",
-              "value7": "13511"
+              "value7": "13511",
+              "class": "dark-blue-bgcolor"
             }
           ]
         ]
@@ -1115,7 +1155,9 @@
               "value2": "24518",
               "value3": "24017",
               "value4": "31581",
-              "value5": "22759"
+              "value5": "22759",
+              "class": "dark-blue-bgcolor"
+
             }
           ]
         ]
@@ -1373,7 +1415,7 @@
               "value3": "96592",
               "value4": "110953",
               "value5": "113900",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
             }
 
           ]
@@ -1600,7 +1642,7 @@
               "value3": "16470",
               "value4": "23585",
               "value5": "18220",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
             }
 
           ]
@@ -1834,7 +1876,7 @@
               "value3": "1242",
               "value4": "1317",
               "value5": "1337",
-              "class": "title-row-bold"
+              "class": "title-row-bold colorGrey"
             },
             {
 
@@ -1862,7 +1904,7 @@
               "value3": "1242",
               "value4": "1317",
               "value5": "1337",
-              "class": "title-row-bold"
+              "class": "title-row-bold colorGrey"
             },
             {
 
@@ -1890,24 +1932,32 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "B.International Adminsitrative Bugdet($'000)"
+            "title": "B.International Adminsitrative Bugdet($'000)",
+            "trClass":"dark-blue-bgcolor"
           }, {
-            "title": ""
+            "title": "",
+            "trClass":"dark-blue-bgcolor"
+
           },
           {
-            "title": "646988"
+            "title": "646988",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "672264"
+            "title": "672264",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "690488"
+            "title": "690488",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "726718"
+            "title": "726718",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": "771188"
+            "title": "771188",
+            "trClass":"dark-blue-bgcolor"
           }
 
         ]
@@ -2311,26 +2361,33 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "Available Resources of Asian Development Fund Resources<sup>j</sup>"
+            "title": "Available Resources of Asian Development Fund Resources<sup>j</sup>",
+            "trClass":"light-blue-bgcolor-two"
           },
 
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": "2067"
+            "title": "2067",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": "1956"
+            "title": "1956",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": "2498"
+            "title": "2498",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": "2312"
+            "title": "2312",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": "2322"
+            "title": "2322",
+            "trClass":"light-blue-bgcolor-two"
           }
         ]
 
@@ -2338,25 +2395,32 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "Special Fund Resource(Other than ADF)-Uncommited Balances"
+            "title": "Special Fund Resource(Other than ADF)-Uncommited Balances",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           }
         ],
         "subData": [

@@ -12,7 +12,7 @@
                 <thead *ngFor="let titles of item.data; let i = index">
                     <tr [ngClass]="{'title-row': i  === 2}">
                         <ng-container *ngFor="let titleItem of titles; let i = index">
-                            <th  class="w-14 font-bold" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
+                            <th  class="w-14 font-bold  {{titleItem.trClass}}" [attr.colspan]="titleItem.colspan" [attr.rowspan]="titleItem.rowspan"
                             [class.lastThClass]="(titles.length - 1) ==  i"
                             [class.width-40]="i === 0"
                             [class.width-10]="i > 0"
@@ -27,7 +27,7 @@
             <tbody>
                 <ng-container *ngIf="item.type === 'expansion-panel'">
                         <tr class="view open" (click)="openAccordin($event)">
-                            <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold'}}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title"  >
+                            <td *ngFor="let subT of item.subTitle; let subIndex = index" class="{{subT.class + ' w-14 font-bold ' + subT.trClass }}" [ngClass]="{'width-40': subIndex === 0, 'width-10': subIndex > 0}"  [innerHTML]="subT.title" >
     
                             </td>
                         </tr>
@@ -50,9 +50,9 @@
         <table class="fold-table">
             <tbody>
                 <tr *ngFor="let tableContent of trData; let subTableIndex = index" class="{{tableContent.class}}">
-                    <ng-container *ngFor="let item of tableContent | keyvalue; let i = index">
+                    <ng-container *ngFor="let item of tableContent | keyvalue; let i = index; let l = last">
                         <td 
-                        [ngClass]="{'totalCls': (i > 4), 'width-40': i === 0, 'width-10': i > 0}" *ngIf="item.key != 'class'" [innerHTML]="item.value | customDecimal: item.value > 100"></td>
+                        [ngClass]="{'totalCls': l, 'width-40': i === 0, 'width-10': i > 0}" *ngIf="item.key != 'class'" [innerHTML]="item.value | customDecimal: item.value > 100"></td>
                     </ng-container>
                     
                 </tr>

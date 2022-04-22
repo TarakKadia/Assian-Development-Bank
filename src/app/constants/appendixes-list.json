@@ -48,59 +48,59 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "Country",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Sovereign",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Nonsovereign",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Concessional OCR",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "ADF Grant",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Other SF",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "TSCFP and MFP",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Subtotal",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Technical Assistance",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Project",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "TA",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "TSCFP and MFP",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "TAS",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Subtotal",
-            "class": "border-bottom-2px"
+            "class": "border-bottom-2px heading-text-right"
           },
           {
             "title": "Total",
@@ -2293,6 +2293,7 @@
     "note": [
       "– = nil, ADF = Asian Development Fund, APVAX = Asia Pacific Vaccine Access Facility, COVID-19 = coronavirus disease, CPRO = COVID-19 Pandemic Response Option,<br>MFF = multitranche financing facility, MFP = Microfinance Program, OCR = ordinary capital resources, PBL = policy-based lending, PRF = project readiness facility, RBL = results-based lending, TSCFP = Trade and Supply Chain Finance Program.", "Note:<br> 1. “Commitment” is the financing approved by the Asian Development Bank’s (ADB) Board of Directors or Management for which the legal agreement has been signed by the borrower, recipient, or the investee company and ADB. Figures are based on United States dollar equivalent at the time of signing.<br> 2. Numbers may not sum precisely because of rounding", "<sup class='noteSup'>a</sup> ADB placed its regular assistance to Afghanistan on hold effective 15 August 2021."
     ],
+    "class":"appendixThree appendix-two",
     "data": [{
         "type": "main-title",
         "data": [
@@ -2324,31 +2325,31 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "A. SOVEREIGN OPERATIONS",
-            "class": "colorGrey"
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
             "title": "",
-            "class": "colorGrey"
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
             "title": "15273.9",
-            "class": "colorGrey"
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
             "title": "2648.4",
-            "class": "colorGrey"
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
             "title": "344.3",
-            "class": "colorGrey"
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
             "title": "18266.6",
-            "class": "lightOrange-bg"
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
             "title": "10,173.2",
-            "class": "lightOrange-bg"
+            "trClass":"dark-blue-bgcolor blueBorder"
           }
         ],
         "subData": [
@@ -2360,7 +2361,7 @@
               "value4": "184.7",
               "value5": "3846.9",
               "value6": "2071.3",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-blue-bgcolor-two"
             },
             {
               "value0": "Afghanistan<sup>a</sup>",
@@ -2663,25 +2664,32 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "East Asia"
+            "title": "East Asia",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "1772.9"
+            "title": "1772.9",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "36.1"
+            "title": "36.1",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "-"
+            "title": "-",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "1809.0"
+            "title": "1809.0",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "421.2"
+            "title": "421.2",
+            "trClass":"light-skyBlue-bgcolor"
           }
         ],
         "subData": [
@@ -2827,25 +2835,32 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "Pacific"
+            "title": "Pacific",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "515.5"
+            "title": "515.5",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "84.4"
+            "title": "84.4",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "153.6"
+            "title": "153.6",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "753.5"
+            "title": "753.5",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "275.1"
+            "title": "275.1",
+            "trClass":"light-skyBlue-bgcolor"
           }
         ],
         "subData": [
@@ -3153,25 +3168,32 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "South Asia"
+            "title": "South Asia",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "6,432.0"
+            "title": "6,432.0",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "912.5"
+            "title": "912.5",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "6.0"
+            "title": "6.0",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "7,350.5"
+            "title": "7,350.5",
+            "trClass":"light-skyBlue-bgcolor"
           },
           {
-            "title": "4,259.6"
+            "title": "4,259.6",
+            "trClass":"light-skyBlue-bgcolor"
           }
         ],
         "subData": [
@@ -3484,25 +3506,32 @@
         "type": "expansion-panel",
         "subTitle": [
             {
-                "title": "Southeast Asia"
+                "title": "Southeast Asia",
+                "trClass":"light-skyBlue-bgcolor"
             },
             {
-                "title": ""
+                "title": "",
+                "trClass":"light-skyBlue-bgcolor"
             },
             {
-                "title": "4,082.6"
+                "title": "4,082.6",
+                "trClass":"light-skyBlue-bgcolor"
             },
             {
-                "title": "424.1"
+                "title": "424.1",
+                "trClass":"light-skyBlue-bgcolor"
             },
             {
-                "title": "-"
+                "title": "-",
+                "trClass":"light-skyBlue-bgcolor"
             },
             {
-                "title": "4506.6"
+                "title": "4506.6",
+                "trClass":"light-skyBlue-bgcolor"
             },
             {
-                "title": "3,146.0"
+                "title": "3,146.0",
+                "trClass":"light-skyBlue-bgcolor"
             }
         ],
         "subData": [
@@ -3726,25 +3755,32 @@
         "type": "expansion-panel",
         "subTitle": [
             {
-                "title": "B. NONSOVEREIGN OPERATIONS"
+                "title": "B. NONSOVEREIGN OPERATIONS",
+                "trClass":"dark-blue-bgcolor"
             },
             {
-                "title": ""
+                "title": "",
+                "trClass":"dark-blue-bgcolor"
             },
             {
-                "title": "4257.6"
+                "title": "4257.6",
+                "trClass":"dark-blue-bgcolor"
             },
             {
-                "title": "-"
+                "title": "-",
+                "trClass":"dark-blue-bgcolor"
             },
             {
-                "title": "-"
+                "title": "-",
+                "trClass":"dark-blue-bgcolor"
             },
             {
-                "title": "4,257.6"
+                "title": "4,257.6",
+                "trClass":"dark-blue-bgcolor"
             },
             {
-                "title": "3,304.4"
+                "title": "3,304.4",
+                "trClass":"dark-blue-bgcolor"
             }
         ],
         "subData": [
@@ -4427,25 +4463,32 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "TOTAL"
+            "title": "TOTAL",
+                "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "19,531.5"
+            "title": "19,531.5",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "2,648.4"
+            "title": "2,648.4",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "344.3"
+            "title": "344.3",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "22,524.2"
+            "title": "22,524.2",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "13,477.6"
+            "title": "13,477.6",
+            "trClass":"dark-blue-bgcolor blueBorder"
           }
         ],
         "subData": [
@@ -4468,6 +4511,7 @@
     "heading": "Appendix 3: Approvals, 2017–2021 ($ million)",
     "subHeading": "",
     "note": ["– = nil, 0 = less than $500,000, ADB = Asian Development Bank, COVID-19 = coronavirus disease.<br> Note: Numbers may not sum precisely because of rounding.<br>", "<sup class='noteSup' >a</sup>Excludes terminated loans, grants, equities, guarantees, and technical assistance.", "<sup class='noteSup' >b</sup>Includes $300 million classified as debt securities in financial statements in accordance with accounting standards. ", "<sup class='noteSup' >c</sup> Includes $20 million classified as debt securities in financial statements in accordance with accounting standards.", "<sup class='noteSup' >d</sup> Includes $357 million classified as debt securities in financial statements in accordance with accounting standards", "<sup class='noteSup' >e</sup> The 2019 adjusted figures of $50 million each under nonsovereign loan and guarantee approvals are due to the reclassification of one project", "<sup class='noteSup' >f</sup> Includes $210 million classified as debt securities in financial statements in accordance with accounting standards", "<sup class='noteSup' >g</sup> Includes $182 million classified as debt securities in financial statements in accordance with accounting standards.", "<sup class='noteSup' >h</sup> Includes $142 million classified as debt securities in financial statements in accordance with accounting standards.", "<sup class='noteSup' >i</sup> In August 2020, ADB’s Trade Finance Program and Supply Chain Finance Program merged their operations.", "<sup class='noteSup' >j</sup> Special funds other than the Asian Development Fund such as the Asia Pacific Disaster Response Fund and Climate Change Fund.", "<sup class='noteSup' >k</sup> The 2018 adjusted figure is due to the cancellation of $600,000 for one nonsovereign technical assistance project.", "<sup class='noteSup' >l</sup> The 2018 adjusted figure is due to additional $24 million sovereign cofinancing for one project.", "<sup class='noteSup' >m</sup> The 2019 adjusted figure is due to the cancellation of $73 million under sovereign cofinancing approvals for two projects, and additional $168 millio", "<sup class='noteSup' >n</sup> The 2020 adjusted figure is due to the cancellation of $500 million sovereign cofinancing under one project and an additional $32 million sovereign", "<sup class='noteSup' >o</sup> “Others” includes concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, and corporate social responsibility programs, and civil society organizations) other than official development assistance sources.", "<sup class='noteSup' >p</sup> Nonsovereign cofinancing includes commercial cofinancing such as B loans, risk transfers, and parallel loans, among others."],
+  "class":"appendixThree appendix-three",
     "data": [{
         "type": "main-title",
         "data": [
@@ -4505,8 +4549,7 @@
               "title": "Total"
             },
             {
-              "title": "Total",
-              "class": "lightOrange-bg"
+              "title": "Total"
             },
             {
               "title": "COVID-19 Response"
@@ -4715,7 +4758,8 @@
               "value5": "14787",
               "value6": "19462",
               "value7": "10819",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
+
             }
           ]
 
@@ -4866,7 +4910,8 @@
               "value5": "14787",
               "value6": "19462",
               "value7": "10819",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
+              
             }
 
           ]
@@ -4876,28 +4921,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "Technical Assistance"
+            "title": "Technical Assistance",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           }
         ],
         "subData": [
@@ -4930,7 +4983,7 @@
               "value5": "134",
               "value6": "232",
               "value7": "32",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-skyBlue-bgcolor"
             }
 
           ]
@@ -4940,28 +4993,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "TOTAL ADB OPERATIONS(A + B)"
+            "title": "TOTAL ADB OPERATIONS(A + B)",
+            "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           },
           {
-            "title": ""
+            "title": "",
+        "trClass":"dark-blue-bgcolor"
           }
         ],
         "subData": [
@@ -4974,7 +5035,7 @@
               "value5": "14920",
               "value6": "19694",
               "value7": "10851",
-              "class": "title-row-bold"
+              "class": "title-row-bold financeProgram"
             }
 
           ]
@@ -4984,28 +5045,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "Cofinancing Including Trust Funds"
+            "title": "Cofinancing Including Trust Funds",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           }
         ],
         "subData": [
@@ -5102,28 +5171,36 @@
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "TOTAL COFINANCING"
+            "title": "TOTAL COFINANCING",
+        "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "9506"
+            "title": "9506",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "13916"
+            "title": "13916",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "13167"
+            "title": "13167",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "16119"
+            "title": "16119",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "10843"
+            "title": "10843",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "12940"
+            "title": "12940",
+            "trClass":"dark-blue-bgcolor blueBorder"
           },
           {
-            "title": "9335"
+            "title": "9335",
+            "trClass":"dark-blue-bgcolor blueBorder"
           }
         ]
 
@@ -5149,53 +5226,60 @@
     "type": "accordian-table",
     "heading": "Appendix 5: Members, Capital Stock, and Voting Power (as of 31 December 2021)",
     "note": ["Notes:<br>", "1.Numbers may not sum precisely because of rounding.", "2.For other details, see table on Statement of Subscriptions to Capital Stock and Voting Power (OCR-8) in the Financial Statements of Annual Report 2021. a Subscribed capital refers to a member’s subscription to shares of the capital stock", "<sup class='noteSup' >a</sup>Subscribed capital refers to a member’s subscription to shares of the capital stock of the Asian Development Bank (ADB).", "<sup class='noteSup' >b</sup> The total voting power of each member consists of the sum of its basic votes and proportional votes. The basic votes of each member consist of such number of votes as results from the equal distribution among all members of 20% of the aggregate sum of the basic votes and proportional votes of all members. The number of proportional votes of each member is equal to the number of shares of the capital stock of ADB held by that member."],
+  "class":"appendixThree appendixFive",
+
     "subHeading": "",
     "data": [{
         "type": "main-title",
         "data": [
-          [{
-              "title": ""
-            },
-
+          [
             {
-              "title": ""
-            },
-
-            {
-              "title": ""
+              "title": "",
+              "colspan":3
             },
             {
               "title": "Year of Membership"
+              
             },
             {
-              "title": "Subscribed Capital <sup>a</sup> (% of total)"
+              "title": "Subscribed Capital <sup>a</sup> (% of total)",
+              "trClass":"appendixTr"
             },
             {
-              "title": "Voting Power <sup>b</sup> (% of total)"
+              "title": "Voting Power <sup>b</sup> (% of total)",
+              "trClass":"appendixTr"
             }
           ]
 
         ]
       },
+      
+      
       {
         "type": "expansion-panel",
         "subTitle": [{
-            "title": "REGIONAL"
+            "title": "REGIONAL",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           },
           {
-            "title": ""
+            "title": "",
+            "trClass":"light-blue-bgcolor-two"
           }
         ],
         "subData": [
@@ -5644,14 +5728,14 @@
               "value1": "",
               "value2": "36.610",
               "value3": "34.876",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-blue-bgcolor"
             },
             {
               "value0": "TOTAL",
               "value1": "",
               "value2": "100.000",
               "value3": "100.000",
-              "class": "title-row-bold"
+              "class": "title-row-bold light-blue-bgcolor-two blueBorder"
             }
 
 
@@ -5674,6 +5758,7 @@
     "type": "accordian-table",
     "heading": "Appendix 6: Contributions to the Asian Development Fund ($ million)",
     "note": ["– = nil, 0 = less than $0.5 million, ADF = Asian Development Fund.", "Note: Numbers may not sum precisely because of rounding.<br>", "<sup class='noteSup' >a</sup> Valued at ADB Board of Governors’ Resolutions exchange rates. Based on submitted and acknowledged instruments of contribution of ADF I to ADF 13 as of 31 December 2021. Includes the proportionate share of ADF donors in the transferred assets as of 1 January 2017 of $29,309 million and excludes cumulative contributions allocated to the Technical Assistance Special Fund of $2,089 million."],
+  "class":"appendixThree appendixSix",
     "subHeading": "",
     "data": [{
         "type": "main-title",
@@ -5707,16 +5792,7 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "Contributor"
-          },
-          {
-            "title": ""
-          },
-          {
-            "title": ""
-          },
-          {
-            "title": ""
-          },
+          },                    
           {
             "title": "Cumulative Effective Amounts Committed <sup>a</sup>"
           },
@@ -5945,7 +6021,7 @@
               "value0": "Total",
               "value1": "35498",
               "value2": "1705",
-              "class": "title-row-bold"
+              "class": "title-row-bold blueBorder"
 
             }
           ]
@@ -5964,19 +6040,15 @@
     "type": "accordian-table",
     "heading": "Appendix 7A: 2021 Project-Specific Sovereign Cofinancing Commitments a ($ million)",
     "note": ["– = nil, 0 = less than $1 million, OPEC = Organization of the Petroleum Exporting Countries.", "Note: Numbers may not sum precisely because of rounding.<br>", "<sup class='noteSup' >a</sup> Excludes cofinancing commitments from Asian Development Bank-administered trust funds.", "<sup class='noteSup' >b</sup> “Others” include concessional cofinancing for sovereign operations from public and private entities (including state-owned commercial banks, foundations, corporate social responsibility programs, and civil society organizations) other than official development assistance sources."],
+  "class":"appendixThree appendixSevenA",
+
     "subHeading": "",
     "data": [{
         "type": "main-title",
         "data": [
           [{
               "title": "Financing Partner"
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
+            },            
             {
               "title": "Loan"
             },
@@ -5986,11 +6058,6 @@
             {
               "title": "Technical Assistance"
             }
-
-
-
-
-
           ]
 
         ]
@@ -5999,12 +6066,6 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "Bilateral"
-          },
-          {
-            "title": ""
-          },
-          {
-            "title": ""
           },
           {
             "title": ""
@@ -6076,8 +6137,9 @@
             },
             {
               "value0": "Finland",
-              "value1": "208",
-              "value2": "7"
+              "value1": "",
+              "value2": "208",
+              "value3": "7"
 
             },
 
@@ -6112,12 +6174,6 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "Multilateral"
-          },
-          {
-            "title": ""
-          },
-          {
-            "title": ""
           },
           {
             "title": ""
@@ -6228,12 +6284,6 @@
           },
           {
             "title": ""
-          },
-          {
-            "title": ""
-          },
-          {
-            "title": ""
           }
         ],
         "subData": [
@@ -6263,8 +6313,6 @@
               "value1": "-",
               "value2": "-",
               "value3": "0"
-
-
             },
 
             {
@@ -6274,16 +6322,33 @@
               "value3": "0",
               "class": "title-row-bold"
 
-            },
-            {
-              "value0": "TOTAL",
-              "value1": "4661",
-              "value2": "156",
-              "value3": "34",
-              "class": "title-row-bold"
-
             }
 
+          ]
+        ]
+
+      },
+      {
+        "type": "expansion-panel",
+        "subTitle": [{
+            "title": "TOTAL",
+            "trClass":"dark-blue-bgcolor blueBorder"
+          },
+          {
+            "title": "4661",
+            "trClass":"dark-blue-bgcolor blueBorder"
+          },
+          {
+            "title": "156",
+            "trClass":"dark-blue-bgcolor blueBorder"
+          },
+          {
+            "title": "34",
+            "trClass":"dark-blue-bgcolor blueBorder"
+          }
+        ],
+        "subData": [
+          [
           ]
         ]
 
@@ -6300,6 +6365,8 @@
     "type": "accordian-table",
     "heading": "Appendix 7B: Active Trust Funds and Special Funds ($ million)",
     "note": ["– = nil, ADB = Asian Development Bank, NA = not applicable.<br>", "Note: Numbers may not sum precisely because of rounding.", "<sup class='noteSup'>a</sup> Contributions for 2021 include only additional and new commitments made during the year revalued at reporting date, as applicable.", "<sup class='noteSup' >b</sup> Cumulative Contribution as of 31 December 2021 is net of cancellation of the commitments, if any, and revalued at reporting date, as applicable", "<sup class='noteSup' >c</sup> Excludes the following active trust funds with no commitments in 2021 and is waiting for financial completion of active projects in preparation for fund closing: Canadian Cooperation Fund on Climate Change, Denmark Cooperation Fund for Renewable Energy and Energy Efficiency in Rural Areas, Future Carbon Fund, Japan Fund for Information and Communication Technology, Integrated Disaster Risk Management Fund, Cooperation Fund for Regional Trade and Financial Security Initiative, Financial Sector Development Partnership Fund, Gender and Development Cooperation Fund, Governance Cooperation Fund, and Urban Environmental Infrastructure Fund under the Urban Financing Partnership Facility.", "<sup class='noteSup' >d</sup> On 1 September 2021, the ADB Board of Directors approved the enhanced and renamed Japan Fund for Prosperous and Resilient Asia and the Pacific to be operationalized on 1 January 2022.", "<sup class='noteSup' >e</sup> Trust fund awaits instruction from partner on the disposition of unutilized balance.", "<sup class='noteSup' >f</sup> Multi-partner trust funds are established to have more than one financing partner.", "<sup class='noteSup' >g</sup> ADB placed on hold its assistance in Afghanistan including assistance through the Afghanistan Infrastructure Trust Fund effective 15 August 2021.", "<sup class='noteSup' >h</sup>", "<sup class='noteSup' >h</sup> Special funds (except the Japan Special Fund) get contributions from ADB through transfers from ordinary capital resources. The list of special funds excludes Asian Development Fund (ADF), Technical Assistance Special Fund (TASF), and Climate Change Fund. Contributions to the ADF are presented in Appendix 6. Contributions to the TASF are made through direct and voluntary contributions from members and through allocations from the ADF replenishments. Finally, no external partners contribute to the Climate Change Fund."],
+  "class":"appendixThree appendixSevenB",
+
     "data": [{
         "type": "main-title",
         "data": [
@@ -6329,9 +6396,6 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "Single-Partner Trust Funds <sup>c</sup>"
-          },
-          {
-            "title": ""
           },
           {
             "title": ""
@@ -6549,9 +6613,6 @@
           },
           {
             "title": ""
-          },
-          {
-            "title": ""
           }
         ],
         "subData": [
@@ -6701,9 +6762,6 @@
         "type": "expansion-panel",
         "subTitle": [{
             "title": "Special Funds <sup>h</sup>"
-          },
-          {
-            "title": ""
           },
           {
             "title": ""
@@ -7031,6 +7089,8 @@
     "type": "accordian-table",
     "heading": "Appendix 10: Operational Data and Organizational Information (as of 31 December 2021)",
     "note": [],
+  "class":"appendixTen appendixThree",
+
     "subHeading": "The tables and other information listed below are available for download in PDF and XLS format from https://www.adb.org/documents/adb-annual-report-2021",
     "data": [{
         "type": "main-title",

@@ -13,6 +13,9 @@ export class AccordinTableComponent implements OnInit {
     @Input() subHeading:any;
     @Input() note:any;
     @Input() class:any;
+    @Input() trClass:any;
+
+    
 
 
     tableJsonData: Array<any> = [];
@@ -24,6 +27,8 @@ export class AccordinTableComponent implements OnInit {
       this.tableJsonData = this.tableJson;
       console.log('this.tableJsonData', this.tableJsonData);
       console.log("Accordian Class",this.class)
+      console.log("Accordian Class trClass",this.trClass)
+
     }
     openAccordin(event: any){
       $(event.currentTarget).toggleClass("open").next(".fold").toggleClass("open");

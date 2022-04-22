@@ -451,6 +451,20 @@ nav ul li a:hover {
   background-color: #333;
 }
 
+.light-skyBlue-bgcolor { background-color: #dfedf7 !important; }
+
+.light-blue-bgcolor { background-color: #c3def1 !important; }
+.light-blue-bgcolor-two { background-color: #a5cfea !important; }
+.dark-blue-bgcolor { background-color: #6fb6df !important; }
+.fold-table.accordianTable tbody tr td.totalWidth  { width: 99px; }
+table.accordianTable tbody tr.fold > td .fold-table tbody tr.regionTd td:nth-child(7),
+table.accordianTable tbody tr.fold > td .fold-table tbody tr.regionTd td:nth-child(8) { width: 101px;}
+.container.lineChartGrey { width: 450px !important; }
+table.accordianTable tbody tr.fold > td table.fold-table tbody tr.financeProgram td:first-child { width: 400px; }
+
+
+
+
 
 @media only screen and (max-height: 850px) {
 
@@ -2989,6 +3003,7 @@ strong.lessstrong {
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
   overflow: auto;
+  padding-bottom: 60px !important;
 }
 
 .show-overlay #appendix-overlay {
@@ -3018,6 +3033,7 @@ strong.lessstrong {
   background-color: #111;
   color: #ccc;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  z-index: 9;
 }
 
 .appendix-close:hover {
@@ -3681,6 +3697,12 @@ img{
   margin-bottom: 20px;
 }
 
+
+.appendixOne table.accordianTable tbody tr.view th{
+  background-color: transparent;
+}
+
+
 .tableTwo table tbody:last-child tr.view  td {
   background-color: #fff !important;
   border-bottom: 1px solid #0088c7 !important;
@@ -3693,7 +3715,12 @@ img{
 .tableTwo table tbody:last-child tr.fold td table tr td:nth-last-child(-n+2){background-color: #dfedf7 !important;}
 
 .tableTwo table tbody:last-child tr.fold td table tr:last-child td,
-.tableThree table tbody:last-child tr.fold td table tr:last-child td{background: #0088c7 !important;  font-weight: 700;}
+.tableThree table tbody:last-child tr.fold td table tr:last-child td{ font-weight: 700;}
+.tableTwo table tbody:last-child tr.fold td table tr:last-child td:nth-child(7),
+.tableTwo table tbody:last-child tr.fold td table tr:last-child td:nth-child(8) { background-color: #6fb6df !important; }
+
+.tableThree table tbody:last-child tr.fold td table tr:last-child td:nth-child(6),
+.tableThree table tbody:last-child tr.fold td table tr:last-child td:nth-child(7) { background-color: #6fb6df !important; }
 
 .tableThree {margin: -17px 0 0;}
 .tableThree table.fold-table tbody tr.view td {background-color: #fff !important;border-bottom: 2px solid #0088c7;text-align: center;}
@@ -3716,6 +3743,7 @@ img{
 .tableFive table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
 .tableFive table.accordianTable thead tr th.lastThClass {background-color: #fff;}
 .tableFive table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold td{background-color: #c3def1 !important;}
+.tableFive table.accordianTable tbody tr td .fold-content table tbody tr.title-row-bold.colorGrey td {background-color: #ccc !important;}
 
 .tableSix {margin: -16px 0 0;}
 .tableSix table.fold-table thead:first-child{border-bottom: 2px solid #0088c7; background-color: #fff;}
@@ -3749,6 +3777,93 @@ app-strategic-focus-pie-chart{
 .chartP{width: 100% !important;}
 app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 100px;max-height: 100px;margin: 0 auto;}
 
+.appendixThree { overflow: auto;margin-bottom: 20px; }
+.accordinTable hr { margin-bottom: 0; }
+.accordianTable thead:first-child th.appendixTr:nth-last-child(-n+2) { border-bottom: none !important; }
+.appendix-two table.accordianTable thead tr th.width-40 {width: 460px !important; border-bottom: 1px solid #0088c7 !important;}
+.appendix-two table.accordianTable thead tr th.width-10{width: 120px !important; border-bottom: 1px solid #0088c7 !important;text-align: center !important;}
+.appendix-two table.accordianTable thead tr th.lastThClass {background-color: #fff;}
+.appendix-two td.width-40 {width: 440px !important;}
+.appendix-two td.width-10{width: 120px !important; text-align: center !important;}
+.appendix-two .fold table.fold-table tr td:first-child {text-align: left !important;}
+.appendix-two table.accordianTable tbody tr td.colorGrey,
+.appendix-two table.accordianTable tbody tr td.lightOrange-bg {background-color: #c3def1 !important;}
+.appendix-two .light-blue-bgcolor-two td:last-child{background-color: #a5cfea !important;}
+.appendix-two table.accordianTable tbody tr.view td:last-child{border-left: 1px solid #0088c7;}
+
+.appendix-three table.accordianTable thead + thead tr th{width: 100px;}
+.appendix-three table.accordianTable tbody tr td.width-10{width: 100px; padding: 0px;}
+
+.appendixFive table.accordianTable thead tr th.width-40{width: 460px;}
+.appendixFive table.accordianTable tbody tr td .fold-content table tbody tr td:first-child {width: 545px;text-align: left !important;}
+.appendixFive table.accordianTable thead tr th.width-10, .appendixFive table.accordianTable tbody tr td .fold-content table tbody tr td {
+  width: 160px;text-align: center !important;}
+.appendixFive table.accordianTable thead tr th.lastThClass,
+.appendixFive table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls {background-color: transparent;}  
+.appendixFive table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls{border-left: none;}
+.appendixFive table.accordianTable tr.view .light-blue-bgcolor-two {border-top: 2px solid #0088c7;}
+
+.appendixSix table.accordianTable{width: 100% !important;}
+.appendixSix .accordianTable thead:first-child th:nth-last-child(-n+2) {border-bottom: none !important;}
+.appendixSix table.accordianTable thead{display: none;}
+.appendixSix table.accordianTable tr.view td.width-40{border-bottom: 2px solid #0088c7; width: 250px;}
+.appendixSix table.accordianTable tr.fold td.width-40{width: 250px;}
+.appendixSix table.accordianTable tr.view td.width-10{width: 100px;border-bottom: 2px solid #0088c7; text-align: center;}
+.appendixSix table.accordianTable tr.fold td.width-10{width: 100px;text-align: center;background-color: transparent;border: none;}
+.appendixSix table.accordianTable tr.title-row-bold td:first-child{text-align: left;}
+.appendixSix table.accordianTable tr.title-row-bold td{background-color:#c3def1 !important;}
+
+.appendixSevenA .accordianTable thead:first-child th:first-child,
+.appendixSevenA table.accordianTable tbody tr.title-row-bold td.width-10:first-child{text-align: left !important;}
+.appendixSevenA .accordianTable thead:first-child th{border-bottom: 2px solid #0088c7 !important;text-align: center !important;}
+.appendixSevenA table.accordianTable tbody tr td .fold-content table tbody tr td.width-10{text-align: center;}
+.appendixSevenA table.accordianTable tbody tr.title-row-bold td.width-10{text-align: center !important;}
+.appendixSevenA table.accordianTable thead tr th.lastThClass, 
+.appendixSevenA table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls {background-color: transparent;border: none;}
+
+.appendixSevenA .accordianTable thead:first-child th.width-10{width: 100px;}
+.appendixSevenA .accordianTable tbody td.width-10{width: 100px;}
+
+.appendixSevenA table.accordianTable tbody tr.view  td,
+.appendixSevenB table.accordianTable tbody tr.view  td{background-color: #c3def1 !important;}
+
+.appendixSevenB table.accordianTable thead tr th:first-child{text-align: left !important;}
+.appendixSevenB table.accordianTable thead tr th{text-align: center !important;}
+
+.appendixSevenB table.accordianTable thead tr th.width-10{width: 150px;}
+.appendixSevenB table.accordianTable thead tr th,
+.appendixSevenB .accordianTable thead:first-child th:nth-last-child(-n+2) {border-bottom: 2px solid #0088c7 !important;}
+.appendixSevenB table.accordianTable tbody .fold .fold-table tr td.width-10{text-align: center;width: 195px;}
+.appendixSevenB table.accordianTable thead tr th.lastThClass,
+.appendixSevenB table.accordianTable tbody tr td .fold-content table tbody tr td.totalCls {background-color: transparent; border-left: 0px;}
+
+.appendixNine{padding: 0 15px 50px;}
+.appendixNine ol li{font-weight: 700;font-size: 18px;}
+.appendixNine ol li ul{margin-bottom: 20px;margin-left: 20px;}
+.appendixNine ol li ol {margin-left: 20px;}
+.appendixNine ol li ul li{font-weight: 400;}
+
+.appendixTen table.accordianTable tbody tr.view td {
+  background-color: #c3def1 !important;  
+}
+
+.appendixTen table.accordianTable tbody tr td .fold-content table tbody tr td:last-child {border-left:none;}
+.appendixTen table.accordianTable tbody tr.fold td .fold-content{padding:0px;}
+.appendixTen table.accordianTable tbody .fold-table tr:nth-child(odd) td{background-color: #F7F7F7;}
+.appendixTen table.accordianTable tbody .fold-table tr:nth-child(even) td{background-color: #fff;}
+
+.blueBorder {border-bottom: 2px solid #0088c7;} 
+
+@media only screen and (max-width: 1750px) {
+  .appendixFive table.accordianTable thead tr th.width-10, .appendixFive table.accordianTable tbody tr td .fold-content table tbody tr td {width: 260px;}
+  .appendixFive table.accordianTable tbody tr td .fold-content table tbody tr td:first-child {width: 535px;}
+}
+
+@media only screen and (max-width: 1500px) {
+  .appendix-two.appendixThree table.accordianTable,
+  .appendixSevenB table.accordianTable{width: 1500px;}
+}
+
 @media screen and (max-width:1199px){
   .financialgroup p.num,
   .financialgroup p.num span {font-size: 42px;}
@@ -3768,15 +3883,21 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 100px;max-heig
       width: 25%;
       margin-bottom: 30px;
   }
+  .appendixSix table.accordianTable,
+  .appendixSevenA table.accordianTable{width: 990px !important;}
+}
+
+@media screen and (max-width:850px){
+  .appendixFive.appendixThree table {width: 830px !important;}
 }
 
 @media screen and (max-width:767px){  
   .shade.covid h3{padding-top: 0px;}
   .extralinks {flex-direction: column;}
-  .extralinks .downloads {min-width: 100%;justify-content: center;}
+  .extralinks .downloads {min-width: 100%;justify-content: center;}  
 }
 
-@media screen and (max-width:639px){  
+@media screen and (max-width:639px){
   img.topimg{margin-bottom: 30px;}
   .box.management .managementImageGrid img,
   .boardpics img {width: 33.33%;}
@@ -3788,6 +3909,7 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 100px;max-heig
   .bookmark{font-size: 0;}
   .share{font-size: 0;padding-right: 28px;background-size: 25px;}
   app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 70px;max-height: 70px;}
+  .container.lineChartGrey { width: 100% !important; }
 }
 
 @media screen and (max-width:479px){ 

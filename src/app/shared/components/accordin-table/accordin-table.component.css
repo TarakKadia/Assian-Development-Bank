@@ -29,7 +29,7 @@
 }
  table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
 	 cursor: pointer;
-     background-color: #dcddde ;
+     background-color: #dcddde;
 }
  table.fold-table > tbody > tr.view td:first-child, table.fold-table > tbody > tr.view th:first-child {
 	 position: relative;
@@ -93,10 +93,10 @@
 }
 
 .width-40 {
-    width: 40%;
+    width: 400px;
 }
 .width-10 {
-    width: 10%;
+    width: 80px;
 }
 .noteText{
     font-size: small; 
