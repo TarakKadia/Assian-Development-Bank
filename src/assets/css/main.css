@@ -3872,6 +3872,7 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #dfedf7 !imp
 	.investment-chart .year-section .total { background: #0887ca; box-sizing: border-box; color: #fff; margin-top: 25px; }
 
     .report{
+        max-width: 100%;
         width: 100%;
         float: left;
     }
