@@ -1039,6 +1039,7 @@ div.complexheader.regions{
     max-width: 650px;
     margin: 2rem auto 2rem auto;
     padding-left:0rem;
+    position: relative;
 }
 
 div.complexheader.regions h2 {
@@ -1167,8 +1168,9 @@ div.complexheader.regions h2 {
 .titleText {
     position: absolute;
     color: white;
-    top: 455px;
     padding: 0 15px;
+    top: 430px; 
+    width: 100%;
   }
   .titleTag {
     color: #fff;
@@ -3391,6 +3393,13 @@ color: #666;
         top: 225px;
     }
 }
+@media screen and (max-width: 767px)
+{
+    .titleText {
+        top: 225px;
+    }
+}
+
 
 div#hover {
     position: absolute;
@@ -3789,7 +3798,9 @@ table.accordianTable tbody tr.fold > td table.fold-table tbody tr.financeProgram
   .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
   .tableOne table,.tableTwo table,.tableThree table,.tableFour table,.tableFive table,.tableSix table,.tableseven table{width: 1050px !important;}
 }
-
+@media screen and (max-width: 767px) {
+    .homegroup {overflow: auto;}
+    }
 
 
 @media screen and (max-width:991px){
@@ -3859,3 +3870,8 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #dfedf7 !imp
 	.investment-chart .year-section .year-row .year { font-weight: normal; }
 	.investment-chart .year-section .year-row .amount { font-weight: bold; }
 	.investment-chart .year-section .total { background: #0887ca; box-sizing: border-box; color: #fff; margin-top: 25px; }
+
+    .report{
+        width: 100%;
+        float: left;
+    }
