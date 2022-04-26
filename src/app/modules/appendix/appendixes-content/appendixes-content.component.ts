@@ -39,7 +39,6 @@ export class AppendixesContentComponent implements OnInit {
     this.list = appendixesListJsonData;
     this.list.map(el => {
       this.id = el.id;
-      // console.log("\n id : ",this.id);
 
     })
 
@@ -48,14 +47,12 @@ export class AppendixesContentComponent implements OnInit {
   showImage(img: any) {
     // this.sourceImages = img;
     this.tableData = img;
-    console.log("tabledatatatata",this.tableData)
     this.isShowImage ? this.isShowImage = false : this.isShowImage = true;
   }
   getTitle(){
     this.value.map(el => {
       if(el.type === 'title'){
         this.title = el.title ;
-        console.log("this.title >>>>> ",this.title);
       }     
     });
   }
@@ -64,7 +61,6 @@ export class AppendixesContentComponent implements OnInit {
     this.value.map(el => {
       if(el.type === 'title'){
         this.subTitle = el.subTitle ;
-        // console.log("this.title >>>>> ",this.subTitle);
       }     
     });
   }

@@ -56,9 +56,7 @@ export class PieChartComponent implements OnInit, AfterViewInit {
 
     
     ngAfterViewInit() {
-        console.log("pieChartttsss",this.id+1);
         let canvasId = 'canvas'+ this.id;
-        console.log('canvasId', canvasId);
         this.chart = new Chart(canvasId, {
             type: 'doughnut',
             data: this.data

@@ -1,11 +1,11 @@
 <div class="image-hover" [id]="id">
-    <div *ngIf="heading" class="complexheader regions">
-        <p class="chapter">{{heading}}</p>
-        <div class="titleText" >
+    <div class="complexheader regions">
+        <p  *ngIf="heading"  class="chapter">{{heading}}</p>
+        <div class="titleText"  >
             
-            <h2 [innerHTML]="text">
+            <h2 class="text-h2 {{titleTagClass}}" *ngIf="text" [innerHTML]="text">
                 </h2>
-                <p class="titleTag">
+                <p *ngIf="titleTag" class="titleTag">
                     {{titleTag}}
                 </p>
                 

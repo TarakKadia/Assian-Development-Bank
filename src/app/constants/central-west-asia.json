@@ -5,6 +5,7 @@
     "text": "CENTRAL AND WEST ASIA",
     "titleTag": "Afghanistan, Armenia, Azerbaijan, Georgia, Kazakhstan, the Kyrgyz Republic, Pakistan, Tajikistan, Turkmenistan, Uzbekistan",
     "tag": "A man in Pakistan helps his mother put on a mask during a COVID-19 lockdown.",
+    "titleTagClass":"centralWestAsia",
     "type": "image"
   },
   {
@@ -73,7 +74,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Addressing Remaining Poverty and Reducing Inequalities",
+    "data": "Addressing Remaining Poverty and <br>Reducing Inequalities",
     "image": "op1_color.png",
     "type": "logoHeading"
   },
@@ -343,6 +344,7 @@
   },
   {
     "title": "COVID-19 Vaccines Arrive in Tajikistan",
+    "image":"tajakistan.jpg",
     "tag": "ADB-funded COVID-19 vaccines arrive in Tajikistan (photo courtesy of UNICEF).",
     "data": "In December 2021, over 3.3 million doses of COVID-19 vaccines, funded by an ADB grant, arrived in Tajikistan. This supply, enough for about 1.3 million people (15% of the population), was greatly appreciated in a country with a vaccination rate of less than 32% at the end of the year.<br><br> “Thanks to the timely support of our development partners, including ADB, requests for immunization of the targeted population against COVID-19 are being met in full,” says Gafur Muhsinzoda, Tajikistan’s First Deputy Minister of Health and Social Protection of Population.<br><br> The vaccines were delivered by the United Nations Children’s Fund through the COVID-19 Vaccine Global Access Advance Market Commitment facility.<br><br> The ADB grant of $25 million is financing the procurement of the vaccines (with safety boxes and syringes) as well as logistics to transport them to national, regional, and district health facilities around Tajikistan. It is also funding government capacity building to strengthen the country’s vaccination program and conduct training that covers gender-specific and age-sensitive vaccination issues.<br><br> The ADB vaccine commitment builds on the bank’s support for Tajikistan’s COVID-19 response in 2020. This included a $50 million grant to help fund the government’s comprehensive response plan and countercyclical measures; a $2.5 million grant from the Asia Pacific Disaster Response Fund to further support emergency response; and more than $1 million in grants for urgent medical supplies and personal protective equipment for health-care staff.",
     "type": "expand"
@@ -360,7 +362,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Accelerating Progress in Gender Equality",
+    "data": "Accelerating Progress<br>in Gender Equality",
     "image": "op2_color.png",
     "type": "logoHeading"
   },
@@ -386,7 +388,7 @@
   },
   
   {
-    "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+    "data": "Tackling Climate Change, Building <br>Climate and Disaster Resilience, and<br> Enhancing Environmental Sustainability",
     "image": "op3_color.png",
     "type": "logoHeading"
   },
@@ -407,7 +409,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Making Cities More Livable",
+    "data": "Making Cities<br> More Livable",
     "image": "op4_color.png",
     "type": "logoHeading"
   },
@@ -432,7 +434,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Promoting Rural Development and Food Security",
+    "data": "Promoting Rural Development <br>and Food Security",
     "image": "op5_color.png",
     "type": "logoHeading"
   },
@@ -453,7 +455,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Strengthening Governance and Institutional Capacity",
+    "data": "Strengthening Governance and<br> Institutional Capacity",
     "image": "op6_color.png",
     "type": "logoHeading"
   },
@@ -481,7 +483,7 @@
     "type": "expandTwo"
   },
   {
-    "data": "Fostering Regional Cooperation and Integration",
+    "data": "Fostering Regional Cooperation<br> and Integration",
     "image": "op7_color.png",
     "type": "logoHeading"
   },

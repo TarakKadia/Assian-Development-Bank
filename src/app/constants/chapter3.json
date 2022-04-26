@@ -5,6 +5,7 @@
     "text":"Organizational Effectiveness",
     "titleTag":"Delivering through a Stronger, Better, and Faster ADB",
     "tag": "ADB staff monitoring building facilities at headquarters in Manila, Philippines.",
+    "titleTagClass":"imageTextChapterThree",
     "type": "image"
 
   },
@@ -56,7 +57,7 @@
  },
  {
     "title": "Building an Even More Responsive ADB Culture",
-    "data":"Client centric. Trustworthy. Transformational. These are the values that will guide ADB in fostering a thriving and supportive workplace where staff can grow, learn, and excel while delivering tangible results for the bank’s developing member countries.<br>ADB President Asakawa led the process to identify these core ADB values in 2021. This included staff input through a survey on values, focus group discussions, and consultations with employee resource groups.<br><br>The values were announced in 2021 as a key milestone in the Culture Transformation Initiative, which was launched in November 2020. The initiative has since sparked conversations among staff about the bank’s culture and how the values show up in the way the ADB community works together and creates results.<br><br>Through a series of workshops on workplace culture, considering attributes from both within and beyond the organization, staff committed to one to three actions to enable cultural change within their team. Each team also suggested one action outside their control that would make the greatest impact if implemented. These suggestions were shared with ADB Management, and departments are currently working on implementing them.<br>The rollout of changes will be accelerated in 2022, as the bank continues to align key processes and procedures with the ADB values.",
+    "data":"Client centric. Trustworthy. Transformational. These are the values that will guide ADB in fostering a thriving and supportive workplace where staff can grow, learn, and excel while delivering tangible results for the bank’s developing member countries.<br><br>ADB President Asakawa led the process to identify these core ADB values in 2021. This included staff input through a survey on values, focus group discussions, and consultations with employee resource groups.<br><br>The values were announced in 2021 as a key milestone in the Culture Transformation Initiative, which was launched in November 2020. The initiative has since sparked conversations among staff about the bank’s culture and how the values show up in the way the ADB community works together and creates results.<br><br>Through a series of workshops on workplace culture, considering attributes from both within and beyond the organization, staff committed to one to three actions to enable cultural change within their team. Each team also suggested one action outside their control that would make the greatest impact if implemented. These suggestions were shared with ADB Management, and departments are currently working on implementing them.<br><br>The rollout of changes will be accelerated in 2022, as the bank continues to align key processes and procedures with the ADB values.",
     "image":"chapter3-expand.jpg",
     "tag":"ADB staff largely collaborated online throughout 2021.",
     "type": "expandTwo"
@@ -157,7 +158,7 @@
     "type":"heading"
 },
 {
-    "data":"<br>Risk Management</br>",
+    "data":"<b>Risk Management</b>",
     "type":"paragraph"
 },
 {
@@ -183,7 +184,7 @@
 
 {
     "data":"ADB is developing policies to enhance the prevention of sexual exploitation, abuse, and harassment in bank-financed projects.",
-    "type":"heading"
+    "type":"quote"
 },
 {
     "data":"This included reviewing policies, processes, and scoring tools to assess the impact of climate change risk on the bank’s sovereign, nonsovereign, and treasury portfolios. ADB also announced its support for the Task Force on Climate-Related Financial Disclosures, an international initiative led by the Financial Stability Board.",
@@ -385,7 +386,7 @@
 },
   {
     "title": "Independent Evaluation Department",
-    "data": "ADB’s Independent Evaluation Department (IED) completed several major evaluations in 2021, including assessments on ADB’s performance and results in its Bangladesh country program and Greater Mekong Subregion program, support for the Sustainable Development Goals, and action on climate change.<br>IED also continued its real-time evaluation of ADB’s support to developing member countries (DMCs) for COVID-19 response and recovery. The department delivered specialized briefs and other knowledge products on COVID-19 as well as other subjects such as safeguards, water and other urban infrastructure, and technical assistance.<br>IED completed a range of country program validations, sovereign and nonsovereign project evaluations and validations, and technical assistance validations (under its new validation system for technical assistance completion reports).<br>The department’s capacity development and knowledge-sharing program on evaluation evolved and expanded in 2021 through online platforms. This included the delivery of virtual training on project self-evaluation of sovereign operations to ADB staff and government officials from DMCs as well as knowledge sharing through the virtual Asian Evaluation Week, which drew over 800 participants from more than 100 countries.<br>In 2021, IED and ADB Management jointly developed and adopted ADB Evaluation Principles to reaffirm evaluation as an institution-wide function and reinforce the respective roles of self-evaluation and independent evaluation.<br>The department also maintained strong partnerships and cooperation with national, regional, and global partner organizations, including the Evaluation Cooperation Group, which consists of independent evaluation departments of multilateral development banks.",
+    "data": "ADB’s Independent Evaluation Department (IED) completed several major evaluations in 2021, including assessments on ADB’s performance and results in its Bangladesh country program and Greater Mekong Subregion program, support for the Sustainable Development Goals, and action on climate change.<br><br>IED also continued its real-time evaluation of ADB’s support to developing member countries (DMCs) for COVID-19 response and recovery. The department delivered specialized briefs and other knowledge products on COVID-19 as well as other subjects such as safeguards, water and other urban infrastructure, and technical assistance.<br><br>IED completed a range of country program validations, sovereign and nonsovereign project evaluations and validations, and technical assistance validations (under its new validation system for technical assistance completion reports).<br><br>The department’s capacity development and knowledge-sharing program on evaluation evolved and expanded in 2021 through online platforms. This included the delivery of virtual training on project self-evaluation of sovereign operations to ADB staff and government officials from DMCs as well as knowledge sharing through the virtual Asian Evaluation Week, which drew over 800 participants from more than 100 countries.<br><br>In 2021, IED and ADB Management jointly developed and adopted ADB Evaluation Principles to reaffirm evaluation as an institution-wide function and reinforce the respective roles of self-evaluation and independent evaluation.<br><br>The department also maintained strong partnerships and cooperation with national, regional, and global partner organizations, including the Evaluation Cooperation Group, which consists of independent evaluation departments of multilateral development banks.",
     "image": "IED.png",
     "tag":"An evaluation report on ADB’s support for climate change action.",
     "type": "expandTwo"

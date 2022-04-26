@@ -305,7 +305,8 @@ a {
 }
 
 p {
-    font-family: Mercury, Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Mercury, Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-weight: normal;
     font-size: 1.2rem;
     line-height: 1.8rem;
@@ -845,7 +846,7 @@ div.simpleheader h2{
     margin: 2rem 0 3rem -4rem;
     display: table;
     font-size: 3rem;
-    line-height: 1.6rem;
+    /* line-height: 1.6rem; */
     font-weight: 400;
 }
 
@@ -1177,6 +1178,8 @@ div.complexheader.regions h2 {
     border-top: solid 1px;
     border-bottom: solid 1px;
     font-weight: 400;
+    position: relative;
+    top: 225px;
 }
 
 .collapser {
@@ -2764,6 +2767,11 @@ padding: 0 1rem 0 1rem;
          margin: 0rem auto 0rem auto;
      }
 
+     .simpleheader {
+        line-height: 2rem;
+        }
+        
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -3564,10 +3572,7 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
   }
 
   .commitmentgroup{display: flex;}
-  .commitmentgroup div {
-    width: 20%;
-    flex: initial !important;
-}
+ 
 
   @media screen and (max-width:991px){
     .box.management .managementImageGrid img {
@@ -3876,3 +3881,85 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #dfedf7 !imp
         width: 100%;
         float: left;
     }
+
+    .president {
+        width: 100;
+        justify-content: center;
+    }
+
+    h2.text-h2 {
+        position: absolute;
+        bottom: 5px;
+    }
+
+    mark,.mark{
+        padding: 0px !important;
+        color: rgb(252, 18, 18);
+    }
+
+    .progress1.diversification.div.highlightBox,.box.story.highlightBox{
+        box-shadow: 5px 10px red;
+      }
+    
+      .shade.story.covid.box-hover.highlightBox  {
+        box-shadow: 5px 10px red;
+      }
+      .centralWestAsia{
+          top: 124px;
+      }
+      .eastAsia{
+          top: 168px;
+      }
+      .pacific{
+        top: 168px;
+      }
+      .southAsia{
+          top: 166px;
+      }
+      .privateSector{
+          top: 55px;
+      }
+      .southEastAsia{
+          top: 166px;
+      }
+      .imageTextChapterThree{
+          top: 125px;
+      }
+      .titleTextChapterOne{
+          top: 10px;
+      }
+
+
+@media only screen and (max-width: 770px) {
+
+    
+    .titleTag{
+    top: 85px !important;
+    }
+
+    .centralWestAsia{
+        top: 40px;
+    }
+    .eastAsia{
+        top: 50px;
+    }
+    .pacific{
+      top: 45px;
+    }
+    .southAsia{
+        top: 40px;
+    }
+    .privateSector{
+        top: 25px;
+    }
+    .southEastAsia{
+        top: 40px;
+    }
+    .imageTextChapterThree{
+        top: 45px;
+    }
+    .titleTextChapterOne{
+        top: 0px;
+    }
+
+}

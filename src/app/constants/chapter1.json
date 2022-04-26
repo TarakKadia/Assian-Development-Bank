@@ -4,6 +4,7 @@
         "heading": "Chapter 1",
         "text": "Toward a Green and <br>Inclusive Recovery",
         "tag": " Staff doing maintenance work at a solar farm in Lombok, Indonesia.",
+        "titleTagClass":"titleTextChapterOne",
         "type": "image"
     },
     {
@@ -145,7 +146,7 @@
         "type": "paragraph"
     },
     {
-        "data": "To expand social protection, ADB provided financing for COVID-19-related assistance, cash, and other welfare transfers as well as social insurance and labor market programs that will help reduce inequality across Asia and the Pacific. The bank also approved a new <a href='https://www.adb.org/publications/disability-inclusive-development-2021-2025' target='_blank'>. The road map contributes to inclusive growth by strengthening ADB’s ability to incorporate disability considerations into its operations.",
+        "data": "To expand social protection, ADB provided financing for COVID-19-related assistance, cash, and other welfare transfers as well as social insurance and labor market programs that will help reduce inequality across Asia and the Pacific. The bank also approved a new <a href='https://www.adb.org/publications/disability-inclusive-development-2021-2025' target='_blank'>disability inclusion road map for 2021–2025.</a> The road map contributes to inclusive growth by strengthening ADB’s ability to integrate disability inclusion into its operations and business processes.",
         "type": "paragraph"
     },
     {
@@ -167,7 +168,7 @@
         "type":"video"
     },
     {
-        "data": "These operations included nonsovereign loans to two banks in Viet Nam to provide critical financing for small and medium-sized enterprises owned or led by women, while in Pakistan a $600 million loan will enhance health services for vulnerable mothers and children in 22 districts.",
+        "data": "These operations included nonsovereign loans to two banks in Viet Nam to provide critical financing for small and medium‑sized enterprises owned or led by women. Meanwhile, in Pakistan, a loan will enhance education opportunities for girls from poor families and improve health services for vulnerable mothers and children.",
         "type": "paragraph"
     },
     {
@@ -185,11 +186,7 @@
         "type": "paragraph"
     },
     {
-        "data": "To help all DMCs ensure socially inclusive development over the longer term, ADB developed guidelines for genderinclusive policies, programs, and projects in the transport, water supply, and energy sectors.",
-        "type": "paragraph"
-    },
-    {
-        "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+        "data": "Tackling Climate Change, Building <br>Climate and Disaster Resilience, and<br> Enhancing Environmental Sustainability",
         "image": "op4_color.png",
         "type": "logoHeading"
     },
@@ -229,15 +226,8 @@
     },
     {
         "title": "ADB SHOWCASES ITS CLIMATE COMMITMENT AT COP26",
-        "data": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.<br><br>The bank backed this pledge to protect ecosystems and biodiversity with a series of announcements on transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.<br><br>ADB launched the $665 million ASEAN Green Recovery Platform, which aims to accelerate pandemic recovery and mobilize an additional $7 billion for lowcarbon and climate-resilient infrastructure projects in Southeast Asia.<br><br>A first for Asia and the Pacific, ADB outlined its Energy Transition Mechanism for Indonesia and the Philippines. Established to hasten Southeast Asia’s transition to clean energy, the mechanism will leverage private and public investments to finance the early retirement of coal-power assets. The Government of Japan has committed a grant of $25 million as the first seed financing.<br><br>To help its DMCs scale up climate adaptation, ADB announced the Community Resilience Partnership Program to support community-level investments that plan for the impacts of climate change, especially by engaging women and poor households. The Government of the United Kingdom is providing £45 million (around $61 million) and the Nordic Development Fund is contributing €6 million (around $7 million) for the facility.<br><br> ADB rounded out its COP26 engagement by launching the Climate Action Catalyst Fund to advance carbon mitigation in Asia and the Pacific, along with the Urban Resilience Trust Fund, financed with £70 million (around $100 million) from the Government of the United Kingdom, to combat climate change through resilience planning and innovative urban projects.",
+        "data": "At the United Nations Framework Convention on Climate Change—26th Session of the Conference of the Parties (COP26) in Glasgow, ADB joined with other multilateral development banks to sign a statement of intent on nature, people, and planet.<br><br>The bank backed this pledge to protect ecosystems and biodiversity with a series of announcements on transformative initiatives to ramp up support for low-carbon infrastructure, energy transition, climate adaptation, and carbon mitigation.<br><br>ADB launched the $665 million ASEAN Green Recovery Platform, which aims to accelerate pandemic recovery and mobilize an additional $7 billion for lowcarbon and climate-resilient infrastructure projects in Southeast Asia.<br><br>Jointly with Indonesia and the Philippines, ADB announced the Energy Transition Mechanism. Established to accelerate Asia and the Pacific’s transition to clean energy, the mechanism will leverage private and public investments to finance the early retirement of coal-power assets. The Government of Japan has committed a grant of $25 million as the first seed financing.<br><br>To help its DMCs scale up climate adaptation, ADB announced the Community Resilience Partnership Program to support community-level investments that plan for the impacts of climate change, especially by engaging women and poor households. The Government of the United Kingdom is providing £45 million (around $61 million) and the Nordic Development Fund is contributing €6 million (around $7 million) for the facility.<br><br> ADB rounded out its COP26 engagement by launching the Climate Action Catalyst Fund to advance carbon mitigation in Asia and the Pacific, along with the Urban Resilience Trust Fund, financed with £70 million (around $100 million) from the Government of the United Kingdom, to combat climate change through resilience planning and innovative urban projects.",
         "type": "expandTwo"
-    },
-
-    
-    
-    {
-        "data": "To help all DMCs ensure socially inclusive development over the longer term, ADB developed guidelines for gender-inclusive policies, programs, and projects in transport, water supply, and energy.",
-        "type": "paragraph"
     },
     {
         "data": "Making Cities<br>More Livable",
@@ -257,7 +247,7 @@
         "type": "paragraph"
     },
     {
-        "data": "Complementing these investments, ADB developed significant knowledge solutions in 2021 to support the livable cities agenda across Asia and the Pacific. For example, in the report Creating Livable Asian Cities, the bank highlighted key priorities for realizing a sustainable urban future in the region. These include ensuring smart and inclusive planning, creating sustainable urban transport and energy systems, mobilizing finance, and focusing on resilience and rejuvenation.",
+        "data": "Complementing these investments, ADB developed significant knowledge solutions in 2021 to support the livable cities agenda across Asia and the Pacific. For example, in the report  <a href='https://www.adb.org/publications/creating-livable-asian-cities' target='blank'>Creating Livable Asian Cities </a>, the bank highlighted key priorities for realizing a sustainable urban future in the region. These include ensuring smart and inclusive planning, creating sustainable urban transport and energy systems, mobilizing finance, and focusing on resilience and rejuvenation.",
         "type": "paragraph"
     },
     {
@@ -576,20 +566,24 @@
         "type": "paragraph"
     },
     {
-        "data": "ADB supported DMCs on these issues through several knowledge products, including a special report on Supporting Quality Infrastructure in Developing Member Countries, and the publication The Bankable SOE: Commercial Financing for State- Owned Enterprises.",
+        "data":"Several new ADB knowledge products, including a special report on <a href='https://www.adb.org/publications/supporting-quality-infrastructure-asia' target='blank'>Supporting Quality Infrastructure in Developing Member Countries</a> and the publication <a href='https://www.adb.org/publications/commercial-financing-state-owned-enterprises' target='_blank'>The Bankable SOE: Commercial Financing for State-Owned Enterprises</a>, were released during 2021 to inform DMC efforts to address some of these issues.",
+        "type":"paragraph"
+    },
+    {
+        "data":"To bolster DMC efforts to raise tax revenue more effectively and equitably, ADB launched the Asia Pacific Tax Hub at its 2021 ADB Annual Meeting. The hub will help strengthen domestic resource mobilization and international tax cooperation.",
+        "type":"paragraph"
+    },
+    {
+        "data": "By the end of 2021, hub representatives had undertaken bilateral consultations with 41 DMCs, ADB nonborrowing members, and development partners, and conducted a survey covering 39 DMCs. This information is helping create tailored improvements to resource mobilization, which will support DMCs in achieving the Sustainable Development Goals and other priorities for a green and inclusive recovery.",
         "type": "paragraph"
     },
     {
-        "data": "In the Pacific, a regional technical assistance package is working to strengthen the governance and institutional capacity of public utilities, supporting a stronger and more sustainable recovery from the COVID-19 pandemic. It will also assess the potential to apply similar approaches to address capacity gaps in other public entities.",
+        "data": "ADB is providing ongoing assistance to Solomon Islands’ Ministry of Finance and Treasury to update the country’s tax legislation framework, including preparing a new tax administration bill and a value-added tax bill. Complementing this work, a new ADB project will fund the restructuring of the country’s Inland Revenue Division, install a new tax administration information system, provide training to staff, and deliver a national campaign to increase taxpayer understanding and compliance.",
         "type": "paragraph"
     },
     {
-        "data": "To help DMCs raise tax revenue more effectively and equitably, ADB launched the Asia Pacific Tax Hub at its 2021 ADB Annual Meeting. The hub will help strengthen domestic resource mobilization and international tax cooperation. By the end of 2021, hub representatives had undertaken bilateral consultations with 41 DMCs, ADB nonborrowing members, and development partners, as well as conducting a survey covering 39 DMCs. This information is helping create tailored improvements to resource mobilization, which will support DMCs in achieving the Sustainable Development Goals and other priorities for green and inclusive recovery.",
-        "type": "paragraph"
-    },
-    {
-        "data": "Expanding on this work, an ADB project in Solomon Islands will build the debt management capacity of the country’s internal revenue institution, moving into a more efficient and transparent tax framework.",
-        "type": "paragraph"
+        "data":"Also in the Pacific, ADB regional technical assistance is strengthening the governance and institutional capacity of public utilities, supporting a stronger and more sustainable recovery from the COVID-19 pandemic.",
+        "type":"paragraph"
     },
     {
         "data": "electricity.png",
@@ -614,7 +608,7 @@
         "type": "paragraph"
     },
     {
-        "data": "ADB also expanded the scope of regional cooperation to cover relatively new areas such as regional health security, gender and social protection, sustainable tourism, ocean health, environmentally appropriate maritime transport, and international law reforms. The latter included ADB support for international arbitration reforms in Palau, Timor-Leste, Tonga, and Uzbekistan, fostering more effective resolution of crossborder commercial and investment disputes.",
+        "data": "ADB is expanding the scope of its regional cooperation initiatives to cover relatively new areas such as regional health security, gender and social protection, sustainable tourism, ocean health, environmentally appropriate maritime transport, and international law reforms. The latter included ADB support for international arbitration reforms in Palau, Timor-Leste, Tonga, and Uzbekistan, fostering more effective resolution of cross‑border commercial and investment disputes.",
         "type": "paragraph"
     },
     {
@@ -622,13 +616,14 @@
         "type": "paragraph"
     },
     {
-        "data": "To underpin its future RCI efforts, ADB strengthened knowledge partnerships with United Nations agencies, the World Customs Organization, the World Trade Organization, and other international organizations.",
+        "data": "ADB also supported the development of new health and digital strategies for the Central Asia Regional Economic Cooperation (CAREC) Program and published a report about the pandemic’s impacts on micro, small, and medium-sized enterprises in CAREC countries.",
         "type": "paragraph"
     },
     {
         "title": "Pursuing Better Outcomes for ADB’s Most Vulnerable Members",
         "data": "ADB classifies 11 of its DMCs as being in fragile and conflict-affected situations (FCAS), while 16 are small island developing states (SIDS). These DMCs require specialized attention to ensure development financing and knowledge services are appropriately designed and distributed.<br><br>Differentiated approaches—based on understanding the causes and drivers of fragility and conflict in each specific FCAS and/or SIDS context—are crucial to more productive ADB engagement and, ultimately, better outcomes for such DMCs.<br><br>In 2021, ADB adopted the Fragile and Conflict-Affected Situations and Small Island Developing States Approach (FSA). The approach provides ADB staff and consultants with guidance and tools to address the transient challenges of FCAS and the more permanent vulnerabilities of SIDS. For instance, under the FSA, the bank has introduced fragility and resilience assessments and knowledge analytics to help country teams better tailor responses to the particular needs of FCAS and/or SIDS.<br><br>In 2021, ADB drafted a fragility and resilience assessment for Timor-Leste. Among the report’s many findings was that extreme weather brought by climate change posed an increasing threat to roads, bridges, ports, and airports. Therefore, the assessment recommended ADB focus more on disaster risk reduction in Timor-Leste and shift the emphasis of its country portfolio away from the construction of infrastructure and towards operation and maintenance.",
         "image":"Pursuing-Better.png",
+        "tag":"Timor-Leste’s coastal infrastructure needs to be resilient to meet the challenges of a changing climate.",
         "type": "expandTwo"
     },
     {
@@ -643,10 +638,6 @@
     },
     {
         "data": "The COVID-19 pandemic has underlined the importance of ADB’s knowledge work in Asia and the Pacific, with governments needing to make well-informed decisions—both immediate and long-range—to limit the impact of the crisis and plan for recovery.",
-        "type": "paragraph"
-    },
-    {
-        "data": "Providing research and policy advice on crucial pandemic issues, and delivering effective knowledge solutions longer term, has required ADB to hone its understanding of what its DMCs need. The bank recognizes that it must firmly align its knowledge work with national and regional development priorities.",
         "type": "paragraph"
     },
     {

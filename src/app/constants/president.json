@@ -7,8 +7,11 @@
     },
     {
         "image": "pres/pres_asakawa1.jpg",
-        "data": "I am pleased to share with you the 2021 Asian Development Bank (ADB) Annual Report, a detailed account of our operations and financial results for the year. The report summarizes how ADB’s finance, knowledge, and partnerships continued to play a vital role in helping our developing member countries (DMCs) navigate the coronavirus disease (COVID-19) pandemic in 2021 and rebuild for a green and inclusive recovery.",
         "type": "image"
+    },
+    {
+        "data":"I am pleased to share with you the 2021 Asian Development Bank (ADB) Annual Report, a detailed account of our operations and financial results for the year. The report summarizes how ADB’s finance, knowledge, and partnerships continued to play a vital role in helping our developing member countries (DMCs) navigate the coronavirus disease (COVID-19) pandemic in 2021 and rebuild for a green and inclusive recovery.",
+        "type":"paragraph"
     },
     {
         "data": "It was another challenging year for the Asia and Pacific region. New waves of COVID-19—with many more lives lost— forestalled hopes of a full economic recovery and a rapid return to a more normal way of life. Pandemic-induced setbacks to poverty reduction, gender equality, and education continue to be of grave concern. However, there was also cause for optimism as most economies in the region bounced back in varying degrees from the downturns of 2020 and our DMCs increasingly demonstrated both resilience and adaptability.",

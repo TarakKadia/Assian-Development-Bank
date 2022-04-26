@@ -13,7 +13,6 @@ export class CaptionComponent implements OnInit {
   }
   
   ngOnInit(): void {
-    // console.log("caption : ",this.data);
     
     
   }

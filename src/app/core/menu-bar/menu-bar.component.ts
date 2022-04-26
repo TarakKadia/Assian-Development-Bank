@@ -70,7 +70,6 @@ export class MenuBarComponent implements OnInit {
                 });
             }
 
-            // console.log('this.bookmarks', this.bookmarks);
         }
      }
 
@@ -110,7 +109,6 @@ export class MenuBarComponent implements OnInit {
         if (id == 1) {
             // this.data=chapter1JsonData;
             this.router.navigate(['/report'], { queryParams: { id: 1 } });
-            // console.log("this.data",this.data);
 
         } else if (id == 4) {
             this.router.navigate(['/report'], { queryParams: { id: 4 } });
@@ -128,6 +126,8 @@ export class MenuBarComponent implements OnInit {
             this.router.navigate(['/report'], { queryParams: { id: 13 } });
         } else if (id == 14) {
             this.router.navigate(['/report'], { queryParams: { id: 14 } });
+        }else if (id == 16) {
+            this.router.navigate(['/report'], { queryParams: { id: 16 } });
         }
 
         this.showMenu();
@@ -162,11 +162,9 @@ export class MenuBarComponent implements OnInit {
         if (bookmarkStorageArr.length > 0) {
             let isAdded = true;
             bookmarkStorageArr.forEach((element: any, index: any) => {
-                console.log("this.generalApiService.selectedId",this.generalApiService.selectedId);
                 let tmpUrl = this.generalApiService.url.split('?').length > 1 ? this.generalApiService.url.split('?')[0] : this.generalApiService.url;
                 
                 
-                console.log("paraIDparaIDparaID",data.paraID);
                 if (element.url == tmpUrl && element.paraID === data.paraID) {
                     
                 

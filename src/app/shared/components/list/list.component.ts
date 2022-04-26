@@ -11,7 +11,6 @@ export class ListComponent implements OnInit {
   @Input() data:any
 
   ngOnInit(): void {
-      console.log("this.datathis.datathis.data",this.data);
       
   }
 

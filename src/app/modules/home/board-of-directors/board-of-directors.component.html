@@ -22,9 +22,10 @@
         <img [src]="data.img11">
         <img [src]="data.img12">
         </div>
-        <p class="caption">{{data.tag}}</p>
+        <p class="caption" [innerHTML] = "data.tag"></p>
 
         <app-paragraph [data]="data" [url]="url" *ngIf="data.type=='paragraph'"></app-paragraph>
+        <app-simple-heading [simpleHeading]="data.data" *ngIf="data.type=='heading'"></app-simple-heading>
         <div class="box board" *ngIf="data.type=='insideheading'">
           <h4 style="margin-top:2rem ;">{{data.data}}</h4>
           <p>{{data.para1}}</p>

@@ -9,47 +9,11 @@
         "title": "Directors"
     },
     {
-        "img1": "assets/images/board/dir1_1.jpg",
-        "img2": "assets/images/board/dir2_1.jpg",
-        "img3": "assets/images/board/dir3_1.jpg",
-        "img4": "assets/images/board/dir4_1.jpg",
-        "img5": "assets/images/board/dir5_1.jpg",
-        "img6": "assets/images/board/dir6_1.jpg",
-        "img7": "assets/images/board/dir7_1.jpg",
-        "img8": "assets/images/board/dir8_1.jpg",
-        "img9": "assets/images/board/dir9_1.jpg",
-        "img10": "assets/images/board/dir10_1.jpg",
-        "img11": "assets/images/board/dir11_1.jpg",
-        "type": "image"
-    },
-    {
-        "tag": "Left to right, top to bottom: Zhijun Cheng, Syurkani Ishak Kasim, In-chang Song, Kris Panday, Anthony McDonald, Paul Dominguez, Warotai Kosolpisitkul, Roger Fischer, Takahiro Yasui, Jason Chung, Sergio Lugaresi, Sameer Kumar Khare.",
-        "type": "tag"
-    },
-    {
         "subTitle": "Alternate Directors"
     },
+    
     {
-        "img1": "assets/images/board/aed1_1.jpg",
-        "img2": "assets/images/board/aed2_1.jpg",
-        "img3": "assets/images/board/aed3_1.jpg",
-        "img4": "assets/images/board/aed4_1.jpg",
-        "img5": "assets/images/board/aed5_1.jpg",
-        "img6": "assets/images/board/aed6_1.jpg",
-        "img7": "assets/images/board/aed7_1.jpg",
-        "img8": "assets/images/board/aed8_1.jpg",
-        "img9": "assets/images/board/aed9_1.jpg",
-        "img10": "assets/images/board/aed10_1.jpg",
-        "img11": "assets/images/board/aed11_1.jpg",
-        "img12":"assets/images/board/aed12_1.jpg",
-        "type": "image"
-    },
-    {
-        "tag": "Left to right, top to bottom: Jin Lu, Karen Murray, Yu-Peng (James) Tseng, Leena Viljanen, Scott Dawson, Shahid Mahmood, Yuemin Li-Misra, Philip Rose, Kenzo Ohe, Enrique Galan, Bayrammuhammet Garayev.",
-        "type": "tag"
-    },
-    {
-        "data": "The Board of Directors is responsible for the direction of the general operations of ADB. The bank’s 68 members are represented on the Board through 12",
+        "data": "The Board of Directors is responsible for the direction of the general operations of ADB. The bank’s 68 members are represented on the Board through 12 constituencies, each with a director and an alternate director.",
         "type": "paragraph"
     },
     {
@@ -65,7 +29,7 @@
         "type": "paragraph"
     },
     {
-        "heading": "The Board approved the Review of ADB’s Comprehensive Response to the COVID-19 Pandemic Policy, which recommended actions that will enhance the bank’s ability to quickly and effectively provide its developing member countries (DMCs) with tailored solutions during health emergencies. These included extending most special policy variations until the end of 2021 to enable key features of ADB’s response package to be incorporated into the bank’s regular sovereign and nonsovereign instruments in 2022.",
+        "data": "The Board approved the Review of ADB’s Comprehensive Response to the COVID-19 Pandemic Policy, which recommended actions that will enhance the bank’s ability to quickly and effectively provide its developing member countries (DMCs) with tailored solutions during health emergencies. These included extending most special policy variations until the end of 2021 to enable key features of ADB’s response package to be incorporated into the bank’s regular sovereign and nonsovereign instruments in 2022.",
         "type": "paragraph"
     },
     {
@@ -97,6 +61,24 @@
         "type":"paragraph"
     },
     {
+        "img1": "assets/images/board/dir1_1.jpg",
+        "img2": "assets/images/board/dir2_1.jpg",
+        "img3": "assets/images/board/dir3_1.jpg",
+        "img4": "assets/images/board/dir4_1.jpg",
+        "img5": "assets/images/board/dir5_1.jpg",
+        "img6": "assets/images/board/dir6_1.jpg",
+        "img7": "assets/images/board/dir7_1.jpg",
+        "img8": "assets/images/board/dir8_1.jpg",
+        "img9": "assets/images/board/dir9_1.jpg",
+        "img10": "assets/images/board/dir10_1.jpg",
+        "img11": "assets/images/board/dir11_1.jpg",
+        "type": "image"
+    },
+    {
+        "tag": "<b>ADB Board of Directors as of 31 December 2021</b> (Left to right, from top to bottom): Kris Panday, Anthony McDonald, Roger Fischer, Takahiro Yasui, Sergio Lugaresi, Sameer Kumar Khare, Weihua Liu, Kisun Bang, Arif Baharudin, Noor Ahmed, Wan Farisan bin Wan Sulaiman.",
+        "type": "tag"
+    },
+    {
         "data":"COMMITTEE HIGHLIGHTS",
         "type":"heading"
     },
@@ -112,17 +94,37 @@
         "data":"The <b>Budget Review Committee</b> discussed ADB’s 2022 budget preparation, work program and budget framework for 2022–2024, budget utilization in 2021, and budget management in response to uncertainties under pandemic conditions. It also discussed the bank’s workforce analysis and 2022 salary and benefit proposals with the Human Resources, and Audit and Risk committees, and with the ADB Management committee on information technology and data.",
         "type":"paragraph"
     },
+
     {
         "data":"The <b>Compliance Review Committee</b> assessed actions to address complaints from stakeholders through ADB’s Accountability Mechanism. The committee assessed an eligibility report on a complaint in Georgia and recommended that the Board authorize a compliance review. It also evaluated the Office of the Compliance Review Panel’s findings on the pandemic’s effect on the Accountability Mechanism.",
         "type":"paragraph"
     },
     {
-        "data":"The <b>Development Effectiveness Committee</b>assessed major evaluations of ADB’s climate change work as well as its response to the COVID-19 pandemic. It discussed program evaluations for Bangladesh and for the Greater Mekong Subregion Program, 2012–2020, and reviewed ADB’s performance reports and approved the Independent Evaluation Department’s rolling program for 2022–2024. The committee led the search and selection process for the Director General of the Independent Evaluation Department, a mandate carried out every 5 years.",
+        "data":"The <b>Development Effectiveness Committee</b> assessed major evaluations of ADB’s climate change work as well as its response to the COVID-19 pandemic. It discussed program evaluations for Bangladesh and for the Greater Mekong Subregion Program, 2012–2020, and reviewed ADB’s performance reports and approved the Independent Evaluation Department’s rolling program for 2022–2024. The committee led the search and selection process for the Director General of the Independent Evaluation Department, a mandate carried out every 5 years.",
         "type":"paragraph"
     },
     {
         "data":"The <b>Human Resources Committee</b> discussed 2022 salary and benefits proposals and workforce analysis, and the role of the Budget, People, and Management Systems Department in response to the pandemic. The committee reviewed initiatives for talent acquisition, staff learning and development, the bank’s human resources framework, and diversity and inclusion. It also discussed the 2020 Ombudsperson Annual Report, the external review of the functions of the Office of the Ombudsperson, and Office of Professional Conduct activities.",
         "type":"paragraph"
+    },
+    {
+        "img1": "assets/images/board/aed1_1.jpg",
+        "img2": "assets/images/board/aed2_1.jpg",
+        "img3": "assets/images/board/aed3_1.jpg",
+        "img4": "assets/images/board/aed4_1.jpg",
+        "img5": "assets/images/board/aed5_1.jpg",
+        "img6": "assets/images/board/aed6_1.jpg",
+        "img7": "assets/images/board/aed7_1.jpg",
+        "img8": "assets/images/board/aed8_1.jpg",
+        "img9": "assets/images/board/aed10_1.jpg",
+        "img10": "assets/images/board/aed11_1.jpg",
+        "img11": "assets/images/board/aed9_1.jpg",
+        "img12":"assets/images/board/aed12_1.jpg",
+        "type": "image"
+    },
+    {
+        "tag": "<b>Alternate Directors</b> (Left to right, from top to bottom): Ernesto Braam, David Cavanough, Philip Rose, Kenzo Ohe, Alberto Cerdán, Md. Azizul Alam, Xia Lyu, Yu-Peng (James) Tseng, Karen Murray, Paul Dominguez, San Thida, John Hurley.",
+        "type": "tag"
     },
     {
         "data": "Good Governance: Harmonizing Board Committees’ Rules of Procedure and Updating Terms of Reference",

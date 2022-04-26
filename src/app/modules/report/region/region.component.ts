@@ -26,7 +26,6 @@ export class RegionComponent implements OnInit {
         this.loading = false;
     }, 1000);
       this.chapter2Data = chapter2CardJsonData;
-      console.log("chapter2CardJsonData : ",chapter2CardJsonData);
       setTimeout(() => {
         this.spinner.hide();
       }, 1000);
@@ -40,7 +39,6 @@ export class RegionComponent implements OnInit {
   
     //   this.route.queryParams
     //     .subscribe(params => {
-    //       console.log(params.id);
   
     //       if (id == 1) {
     //         this.router.navigate(['/central-west-asia'], { queryParams: { id: id } });

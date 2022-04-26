@@ -186,7 +186,10 @@ export class ReportComponent implements OnInit, AfterViewInit {
             this.router.navigate(['/appendixes-content']);
         }   else if (this.param == 2) {
             this.router.navigate(['/region']);
-        } else if (this.param == 5) {
+        } else if (this.param == 3) {
+            this.router.navigate(['/appendixes-content']);
+        }  
+        else if (this.param == 5) {
             this.router.navigate(['/appendixes-content']);
         } else if (this.param == 10) {
             this.router.navigate(['/report'], { queryParams: { id: 11 } });

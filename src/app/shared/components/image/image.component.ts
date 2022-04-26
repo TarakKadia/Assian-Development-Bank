@@ -16,6 +16,7 @@ export class ImageComponent implements OnInit, AfterViewInit {
     @Input() text:any;
     @Input() titleTag:any;
     @Input() class:any;
+    @Input() titleTagClass:any;
 
 
     constructor(
@@ -23,9 +24,6 @@ export class ImageComponent implements OnInit, AfterViewInit {
     ) { }
 
     ngOnInit(): void {
-        console.log("class",this.class);
-        
-
     }
 
     ngAfterViewInit(): void {

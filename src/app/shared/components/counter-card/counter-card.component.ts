@@ -25,10 +25,6 @@ export class CounterCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // console.log("this.data.counter-card : ", counterCardsJsonData);
-    // console.log("currency : ", this.currency);
-    // console.log("money : ", this.money);
-    // console.log("letter : ", this.letter);
     this.numberCounter();
   }
 

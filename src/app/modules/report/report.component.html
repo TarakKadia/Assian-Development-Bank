@@ -6,7 +6,7 @@
 <div class="report">
     <div class="content" triggers=""  [isOpen]="isOpen" [popover]="pop" [popoverContext]="context">
         <div *ngFor="let data of data">
-            <app-image [image]="data.data" [tag]="data.tag" [id]="data.id"  [heading]="data.heading"  [text]="data.text" [titleTag]="data.titleTag" [class]="data.class" *ngIf="data.type=='image'"></app-image>
+            <app-image [image]="data.data" [tag]="data.tag" [id]="data.id"  [heading]="data.heading"  [text]="data.text" [titleTag]="data.titleTag" [class]="data.class" [titleTagClass]="data.titleTagClass" *ngIf="data.type=='image'"></app-image>
 
             <app-paragraph [data]="data" *ngIf="data.type=='paragraph'" [url]="url" ></app-paragraph>
 

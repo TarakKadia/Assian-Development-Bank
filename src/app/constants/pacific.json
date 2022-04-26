@@ -5,6 +5,7 @@
         "text": "PACIFIC",
         "titleTag": "Cook Islands, Fiji, Kiribati, the Marshall Islands, the Federated States of Micronesia, Nauru, Niue, Palau, Papua New Guinea, Samoa, Solomon Islands, Tonga, Tuvalu, Vanuatu.",
         "tag": "A woman holding her child sells fresh fruit at the Port Vila Market on Efate island in Vanuatu.",
+        "titleTagClass":"pacific",
         "type": "image"
     },
     {
@@ -85,7 +86,7 @@
         "type": "heading"
     },
     {
-        "data": "Addressing Remaining Poverty and Reducing Inequalities",
+        "data": "Addressing Remaining Poverty and <br>Reducing Inequalities",
         "image": "op1_color.png",
         "type": "logoHeading"
     },
@@ -361,7 +362,7 @@
         "type": "strategicFocusPieChart"
     },
     {
-        "data": "Accelerating Progress in Gender Equality",
+        "data": "Accelerating Progress<br>in Gender Equality",
         "image": "op2_color.png",
         "type": "logoHeading"
     },
@@ -387,7 +388,7 @@
         "type": "paragraph"
     },
     {
-        "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+        "data": "Tackling Climate Change, Building <br>Climate and Disaster Resilience, and<br> Enhancing Environmental Sustainability",
         "image": "op3_color.png",
         "type": "logoHeading"
     },
@@ -412,7 +413,7 @@
         "type": "paragraph"
     },
     {
-        "data": "Making Cities More Livable",
+        "data": "Making Cities<br> More Livable",
         "image": "op4_color.png",
         "type": "logoHeading"
     },
@@ -435,7 +436,7 @@
         "type": "expand"
     },
     {
-        "data": "Promoting Rural Development and Food Security",
+        "data": "Promoting Rural Development <br>and Food Security",
         "image": "op5_color.png",
         "type": "logoHeading"
     },
@@ -452,7 +453,7 @@
         "type": "paragraph"
     },
     {
-        "data": "Strengthening Governance and Institutional Capacity",
+        "data": "Strengthening Governance and <br> Institutional Capacity",
         "image": "op6_color.png",
         "type": "logoHeading"
     },
@@ -484,7 +485,7 @@
         "type": "expandTwo"
     },
     {
-        "data": "Fostering Regional Cooperation and Integration",
+        "data": "Fostering Regional Cooperation<br> and Integration",
         "image": "op7_color.png",
         "type": "logoHeading"
     },

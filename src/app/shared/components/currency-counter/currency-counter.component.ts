@@ -30,7 +30,6 @@ export class CurrencyCounterComponent implements OnInit {
     this.numberCounter3();
     this.numberCounter4();
     this.numberCounter5();
-    // console.log("currency Counter>>>>>>>>>>>",this.tag);
 
   }
 

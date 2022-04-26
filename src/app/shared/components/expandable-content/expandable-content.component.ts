@@ -18,6 +18,11 @@ export class ExpandableContentComponent implements OnInit {
     isExpand: boolean = false;
 
     ngOnInit(): void {
+        this.generalApiService.updateHighlight.subscribe((isHighlight) => {
+            if (isHighlight) {
+                this.setBookmarkedHighLight() 
+            }
+        });
 
     }
 

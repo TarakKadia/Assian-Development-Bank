@@ -8,41 +8,12 @@ import { AccumulationChartComponent, AccumulationChart, AccumulationDataLabel, I
 })
 export class ChartsComponent implements OnInit {
   @Input() data:any;
-  // single: any[];
-  // second:any[];
-  // view: any[] = [400, 400];
-
-  // // options
-  // gradient: boolean = true;
-  // showLegend: boolean = true;
-  // showLabels: boolean = true;
-  // isDoughnut: boolean = false;
-  // legendPosition: string = 'below';
-
-  // colorScheme = {
-  //   domain: ['#F67B50', '#ff4c00', ]
-  // };
-
-  constructor() {
-    
-    // Object.assign(this, { single });
-    // Object.assign(this, { second });
-  }
+  constructor() {}
 
   ngOnInit(): void {
-    // console.log("New Data", this.data);
-
-    // let that=this.data
-    // Object.assign(this, { that });
-    // Object.assign(this, { second });
   }
 
-  // public data: Object[] = [
-  //   { x: 'Labour', y: 40, text: '18%' }, 
-  //   { x: 'License', y: 20, text:'11%' },
-    // { x: 'Legal', y: 8, text: '8%' },
-    // { x: 'Production', y: 15, text: '15%' }, 
-    
+ 
 
     
     //Initializing Legend

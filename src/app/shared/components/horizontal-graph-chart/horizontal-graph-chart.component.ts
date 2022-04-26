@@ -32,13 +32,11 @@ export class HorizontalGraphChartComponent implements OnInit {
     }
 
     onSelect(event: any) {
-        // console.log(event);
     }
 
     ngOnInit(): void {
         let that = this.data
         Object.assign(this, { that });
-        // console.log("sdataaaaa",this.data);
 
     }
 

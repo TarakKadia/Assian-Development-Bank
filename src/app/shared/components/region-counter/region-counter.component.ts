@@ -36,7 +36,6 @@ export class RegionCounterComponent implements OnInit {
     this.numberCounter3();
     this.numberCounter4();
 
-    // console.log("digit1 : ",this.digit1);
     
   }
 
@@ -44,7 +43,6 @@ export class RegionCounterComponent implements OnInit {
     setTimeout(() => {
       let id = '#counter1';
       var currentNumber = $(id).text();
-      // console.log("currentNumber : ",currentNumber);
       
 
       let number = Number(currentNumber)

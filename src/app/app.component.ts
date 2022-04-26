@@ -274,7 +274,6 @@ export class AppComponent {
         body += `<button><a href=${url}>OPEN</a></button>`
         this.mailStringPara = `?subject=${subject}&body=${encodeURIComponent(body)}`;
         setTimeout(() => {
-            console.log('this.mailButton.nativeElement', this.mailButtonPara.nativeElement);
             this.mailButtonPara.nativeElement.click();
         }, 100);
 
@@ -289,7 +288,6 @@ export class AppComponent {
         body2 += `<button><a href=${url}>OPEN</a></button>`
         this.mailStringBox = `?subject=${subject}&body=${encodeURIComponent(body2)}`;
         setTimeout(() => {
-            console.log('this.mailButton.nativeElement', this.mailButtonBox.nativeElement);
             this.mailButtonBox.nativeElement.click();
         }, 100);
     }
@@ -337,7 +335,6 @@ export class AppComponent {
             // this.selectedID = '';
         }
         localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
-        console.log('bookmarkStorageArr', bookmarkStorageArr);
         this.generalApiService.isBookmarkAdded.next(true);
     }
 

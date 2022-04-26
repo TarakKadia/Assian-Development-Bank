@@ -5,6 +5,7 @@
     "text": "EAST ASIA",
     "titleTag": "The People’s Republic of China, Mongolia",
     "tag": "A couple enjoy a walk in Beijing’s Yuyuantan Park in the People’s Republic of China.",
+    "titleTagClass":"eastAsia",
     "type": "image"
   },
   {
@@ -58,7 +59,7 @@
     "type": "heading"
   },
   {
-    "data": "Addressing Remaining Poverty and Reducing Inequalities",
+    "data": "Addressing Remaining Poverty and <br>Reducing Inequalities",
     "image": "op1_color.png",
     "type": "logoHeading"
   },
@@ -335,7 +336,7 @@
     "type": "strategicFocusPieChart"
 },
   {
-    "data": "Accelerating Progress in Gender Equality",
+    "data": "Accelerating Progress<br>in Gender Equality",
     "image": "op2_color.png",
     "type": "logoHeading"
   },
@@ -372,7 +373,7 @@
     "type": "currencyCounter"
   },
   {
-    "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+    "data": "Tackling Climate Change, Building <br>Climate and Disaster Resilience, and<br> Enhancing Environmental Sustainability",
     "image": "op3_color.png",
     "type": "logoHeading"
   },
@@ -393,7 +394,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Making Cities More Livable",
+    "data": "Making Cities <br>More Livable",
     "image": "op4_color.png",
     "type": "logoHeading"
   },
@@ -406,7 +407,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Promoting Rural Development and Food Security",
+    "data": "Promoting Rural Development <br> and Food Security",
     "image": "op5_color.png",
     "type": "logoHeading"
   },
@@ -434,7 +435,7 @@
     "type": "paragraph"
   },
   {
-    "data": "Strengthening Governance and Institutional Capacity",
+    "data": "Strengthening Governance and<br> Institutional Capacity",
     "image": "op6_color.png",
     "type": "logoHeading"
   },
@@ -459,7 +460,7 @@
   },
 
   {
-    "data": "Fostering Regional Cooperation and Integration",
+    "data": "Fostering Regional Cooperation<br> and Integration",
     "image": "op7_color.png",
     "type": "logoHeading"
   },

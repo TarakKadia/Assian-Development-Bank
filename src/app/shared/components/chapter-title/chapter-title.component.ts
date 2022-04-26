@@ -13,7 +13,6 @@ export class ChapterTitleComponent implements OnInit {
 @Input() data:any;
 @Input() tag:any;
   ngOnInit(): void {
-    // console.log(this.chapterTitle)
   }
 
 }

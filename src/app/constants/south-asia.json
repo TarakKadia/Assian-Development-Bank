@@ -5,6 +5,7 @@
         "text": "SOUTH ASIA",
         "titleTag": "Bangladesh, Bhutan, India, Maldives, Nepal, Sri Lanka",
         "tag": "Women lining up to be vaccinated against COVID-19 in Dhaka, Bangladesh.",
+        "titleTagClass":"southAsia",
         "type": "image"
     },
     {
@@ -70,7 +71,7 @@
         "type": "paragraph"
     },
     {
-        "data": "Addressing Remaining Poverty and Reducing Inequalities",
+        "data": "Addressing Remaining Poverty and <br>Reducing Inequalities",
         "image": "op1_color.png",
         "type": "logoHeading"
     },
@@ -347,7 +348,7 @@
         "type": "strategicFocusPieChart"
     },
     {
-        "data": "Accelerating Progress in Gender Equality",
+        "data": "Accelerating Progress<br>in Gender Equality",
         "image": "op2_color.png",
         "type": "logoHeading"
     },
@@ -373,7 +374,7 @@
     },
     
     {
-        "data": "Tackling Climate Change, Building Climate and Disaster Resilience, and Enhancing Environmental Sustainability",
+        "data": "Tackling Climate Change, Building <br>Climate and Disaster Resilience, and<br> Enhancing Environmental Sustainability",
         "image": "op3_color.png",
         "type": "logoHeading"
     },
@@ -394,7 +395,7 @@
         "type": "paragraph"
     },
     {
-        "data": "Making Cities More Livable",
+        "data": "Making Cities <br>More Livable",
         "image": "op4_color.png",
         "type": "logoHeading"
     },
@@ -425,7 +426,7 @@
         "type": "expand"
     },
     {
-        "data": "Promoting Rural Development and Food Security",
+        "data": "Promoting Rural Development <br>and Food Security",
         "image": "op5_color.png",
         "type": "logoHeading"
     },
@@ -478,7 +479,7 @@
         "type": "expandTwo"
     },
     {
-        "data": "Fostering Regional Cooperation and Integration",
+        "data": "Fostering Regional Cooperation<br>and Integration",
         "image": "op7_color.png",
         "type": "logoHeading"
     },

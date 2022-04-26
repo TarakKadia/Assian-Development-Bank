@@ -49,12 +49,11 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit, O
     }
 
     ngOnChanges(changes: SimpleChanges): void {
-        this.chart.chart.update();        
+        this.chart?.chart?.update();        
     }
 
     ngAfterViewInit() {
         this.renderChart();
-        console.log(jQuery('#canvas' + this.id).offset());
     }
 
     // Scroll Animation Code Below

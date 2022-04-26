@@ -157,7 +157,6 @@ export class ParagraphComponent implements OnInit {
                             } else if (this.data.data.indexOf(ele.text) > -1) {
                                 let markedData = `<mark class="mark ${ele.paraId} ${key}">${ele.text}</mark>`;
                                 this.data.newData = this.data.newData.replace(ele.text, markedData);
-                                // console.log(this.data.newData)
                             }
                         }
                     });
@@ -229,7 +228,6 @@ export class ParagraphComponent implements OnInit {
                 type: 'paragraph'
             };
             this.saveBookmark(tempBookmark);
-            console.log("tempBookmarktempBookmarktempBookmark", tempBookmark)
         }
     }
 
@@ -259,7 +257,6 @@ export class ParagraphComponent implements OnInit {
             this.selectedID = '';
         }
         localStorage.setItem('highlitedBookmark', JSON.stringify(bookmarkStorageArr));
-        console.log('bookmarkStorageArr', bookmarkStorageArr);
         this.generalApiService.isBookmarkAdded.next(true);
     }
 

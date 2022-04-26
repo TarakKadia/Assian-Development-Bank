@@ -36,7 +36,6 @@ export class PresidentsMessageComponent implements OnInit {
     this.imageGrid = presidentsMessage[16].imageGrid;
     this.generateIDs();
 
-    // console.log("tagline : ",presidentsMessage[16].tagLine);
 
   }
 
