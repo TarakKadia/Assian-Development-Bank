@@ -12,7 +12,8 @@
         "type": "main-title",
         "data": [
           [{
-              "title": ""
+              "title": "",
+              "trClass":"mainTitleClass"
             },
             {
               "title": "2017"

@@ -209,7 +209,7 @@ export class ReportComponent implements OnInit, AfterViewInit {
 
             this.data = chapter3CardJsonData;
         } else if (this.param == 16) {
-            this.router.navigate(['/appendixes-content']);
+            this.router.navigate(['/report'],{ queryParams: { id: 3 }});
         }
 
         this.param++;
