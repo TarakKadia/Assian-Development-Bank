@@ -440,7 +440,7 @@ nav ul li a:hover {
     border: none;
     width: 220px;
     padding:2px 0px 2px 10px;
-
+    height: 20px;
     font-weight: 300;
 }
 
