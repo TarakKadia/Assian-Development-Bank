@@ -58,7 +58,6 @@ export class TwitterComponent implements OnInit {
                     jQuery('#hover-twitter').css('display', 'none');
                 }
             });
-            // this.setBookmarkedHighLight();
         }, 2000);
 
     }

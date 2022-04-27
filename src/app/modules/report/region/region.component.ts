@@ -37,22 +37,5 @@ export class RegionComponent implements OnInit {
       this.router.navigate(['/report'], { queryParams: { id: id } });
     }
   
-    //   this.route.queryParams
-    //     .subscribe(params => {
-  
-    //       if (id == 1) {
-    //         this.router.navigate(['/central-west-asia'], { queryParams: { id: id } });
-    //       } else if (id == 2) {
-    //         this.router.navigate(['/east-asia'], { queryParams: { id: id } });
-    //       } else if(id == 3){
-    //         this.router.navigate(['/pacific'], { queryParams: { id: id } });
-    //       }else if(id == 4){
-    //         this.router.navigate(['/south-asia'], { queryParams: { id: id } });
-    //       }else {
-    //         this.router.navigate(['/south-east-asia'], { queryParams: { id: id } });
-    //       }
-    //     }
-    //   ); 
-    // }
 
 }

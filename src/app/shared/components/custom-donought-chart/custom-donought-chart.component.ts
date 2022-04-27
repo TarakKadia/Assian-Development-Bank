@@ -54,20 +54,6 @@ export class CustomDonoughtChartComponent implements OnInit {
               }
           },
           
-  
-        //   pieceLabel: {
-        //     mode: 'value',
-        //     position: 'outside',
-        //     fontColor: '#000',  
-        //     segment: true
-        // },
-        // title: {
-        //     display: true,
-        //     text: '$2,905',
-        //     fontSize: 20,
-        //     fontColor:'#8cd8f7',
-        //     fontStyle: 'bold'
-        // },
         legend: {
             display: false,
             position: 'left'
