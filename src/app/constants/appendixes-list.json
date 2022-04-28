@@ -5162,51 +5162,24 @@
                 "value5": "-",
                 "value6": "423",
                 "value7": "-"
+              },
+              {
+  
+                "value0": "TOTAL COFINANCING",
+                "value1": "9506",
+                "value2": "13916",
+                "value3": "13167",
+                "value4": "16119",
+                "value5": "10843",
+                "value6": "12940",
+                "value7": "9335",
+                "class":"title-row-bold dark-blue-bgcolor blueBorder appendixThree"
               }
   
             ]
   
           ]
-        },
-        {
-          "type": "expansion-panel",
-          "subTitle": [{
-              "title": "TOTAL COFINANCING",
-          "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "9506",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "13916",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "13167",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "16119",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "10843",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "12940",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "9335",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            }
-          ]
-  
         }
-  
-  
       ]
     }
   
@@ -6322,33 +6295,16 @@
                 "value3": "0",
                 "class": "title-row-bold"
   
+              },
+              {
+                "value0": "TOTAL",
+                "value1": "4661",
+                "value2": "156",
+                "value3": "34",
+                "class": "title-row-bold dark-blue-bgcolor blueBorder"
+  
               }
   
-            ]
-          ]
-  
-        },
-        {
-          "type": "expansion-panel",
-          "subTitle": [{
-              "title": "TOTAL",
-              "trClass":"dark-blue-bgcolor blueBorder"
-            },
-            {
-              "title": "4661",
-              "trClass":"dark-blue-bgcolor blueBorder textAlignRight"
-            },
-            {
-              "title": "156",
-              "trClass":"dark-blue-bgcolor blueBorder textAlignRight"
-            },
-            {
-              "title": "34",
-              "trClass":"dark-blue-bgcolor blueBorder textAlignRight"
-            }
-          ],
-          "subData": [
-            [
             ]
           ]
   

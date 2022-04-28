@@ -465,130 +465,71 @@
               "value6": "22759",
               "value7": "13511",
               "class": "title-row-bold light-skyBlue-bgcolor"
-            }
-
-          ]
-
-        ]
-      },
-      {
-        "type": "expansion-panel",
-        "subTitle": [{
-            "title": "B.Technical Assistance",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor"
-          }
-        ],
-        "subData": [
-          [{
-              "value0": "Sovereigon",
-              "value1": "192",
-              "value2": "227",
-              "value3": "221",
-              "value4": "282",
-              "value5": "128",
-              "value6": "209",
-              "value7": "23"
             },
             {
-              "value0": "Nonsoveregion",
-              "value1": "9",
-              "value2": "14",
-              "value3": "17",
-              "value4": "12",
-              "value5": "6",
-              "value6": "21",
-              "value7": "7"
-            },
-            {
-              "value0": "Subtotal(B)",
-              "value1": "201",
-              "value2": "241",
-              "value3": "237",
-              "value4": "294",
-              "value5": "134",
-              "value6": "230",
-              "value7": "30",
-              "class": "title-row-bold light-skyBlue-bgcolor"
-            }
 
-          ]
-
-        ]
-      },
-      {
-        "type": "expansion-panel",
-        "subTitle": [{
-            "title": "TOTAL ADB OPERATIONS(A + B)",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          }
-        ],
-        "subData": [
-          [{
-              "value0": "ADB Operations without Trade and Supply Chain Finance Program <sup>b</sup> and Microfinance Program",
-              "value1": "19890",
-              "value2": "21823",
-              "value3": "21880",
-              "value4": "28525",
-              "value5": "13727",
-              "value6": "19687",
-              "value7": "10463"
-            }
+                "value0": "B.Technical Assistance",
+                "value1": "",
+                "value3": "",
+                "value4": "",
+                "value2": "",
+                "value5": "",
+                "value6": "",
+                "value7": "",
+                "class": "title-row-bold light-blue-bgcolor"
+              },
+              {
+                "value0": "Sovereigon",
+                "value1": "192",
+                "value2": "227",
+                "value3": "221",
+                "value4": "282",
+                "value5": "128",
+                "value6": "209",
+                "value7": "23"
+              },
+              {
+                "value0": "Nonsoveregion",
+                "value1": "9",
+                "value2": "14",
+                "value3": "17",
+                "value4": "12",
+                "value5": "6",
+                "value6": "21",
+                "value7": "7"
+              },
+              {
+                "value0": "Subtotal(B)",
+                "value1": "201",
+                "value2": "241",
+                "value3": "237",
+                "value4": "294",
+                "value5": "134",
+                "value6": "230",
+                "value7": "30",
+                "class": "title-row-bold light-skyBlue-bgcolor"
+              },
+              {
+                "value0": "TOTAL ADB OPERATIONS(A + B)",
+                "value1": "201",
+                "value2": "241",
+                "value3": "237",
+                "value4": "294",
+                "value5": "134",
+                "value6": "230",
+                "value7": "30",
+                "class": "title-row-bold light-blue-bgcolor-two"
+              },
+              {
+                "value0": "ADB Operations without Trade and Supply Chain Finance Program <sup>b</sup> and Microfinance Program",
+                "value1": "19890",
+                "value2": "21823",
+                "value3": "21880",
+                "value4": "28525",
+                "value5": "13727",
+                "value6": "19687",
+                "value7": "10463"
+              }
 
           ]
 
@@ -740,7 +681,19 @@
               "value6": "423",
               "value7": "-",
               "class": "title-row-bold"
+            },
+            {
+            "value0": "TOTAL COFINANCING",
+            "value1": "11896",
+            "value2": "14310",
+            "value3": "12512",
+            "value4": "16409",
+            "value5": "10841",
+            "value6": "12933",
+            "value7": "8881",
+            "class": "title-row-bold dark-blue-bgcolor"
             }
+          
 
           ]
 
@@ -749,41 +702,7 @@
       {
         "type": "expansion-panel",
 
-        "subTitle": [{
-            "title": "TOTAL COFINANCING",
-        "trClass":"dark-blue-bgcolor"
-
-
-          },
-          {
-            "title": "11896",
-        "trClass":"dark-blue-bgcolor"
-          },
-          {
-            "title": "14310",
-        "trClass":"dark-blue-bgcolor"
-
-          },
-          {
-            "title": "12512",
-            "trClass":"dark-blue-bgcolor"
-          },
-          {
-            "title": "16409",
-            "trClass":"dark-blue-bgcolor"
-          },
-          {
-            "title": "10841",
-            "trClass":"dark-blue-bgcolor"
-          },
-          {
-            "title": "12933",
-            "trClass":"dark-blue-bgcolor"
-          },
-          {
-            "title": "8881",
-            "trClass":"dark-blue-bgcolor"
-          }
+        "subTitle": [
           
 
         ]
@@ -822,30 +741,7 @@
               "colspan": 2,
               "title": "2021"
             }
-          ],
-          [{
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
           ]
-
         ]
       },
       {
@@ -1651,71 +1547,21 @@
               "value4": "23585",
               "value5": "18220",
               "class": "title-row-bold light-skyBlue-bgcolor"
-            }
+            },
+            {
+                "value0": "C. Net Resources Transfer to Developing Member Countries<sup>d</sup>",
+                "value1": "3608",
+                "value2": "4622",
+                "value3": "5670",
+                "value4": "12058",
+                "value5": "7924",
+                "class": "title-row-bold light-skyBlue-bgcolor"
+              }
 
           ]
 
-        ]
-      },
-      {
-        "type": "main-title",
-        "data": [
-          [{
-              "title": ""
-            },
-
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            },
-            {
-              "title": ""
-            }
-          ],
-          [{
-              "title": "C. Net Resources Transfer to Developing Member Countries<sup>d</sup>",
-              "class": "lightOrange-bg"
-            },
-            {
-              "title": "",
-              "class": "lightOrange-bg"
-            },
-            {
-              "title": "3608",
-              "class": "lightOrange-bg"
-            },
-            {
-              "title": "4622",
-              "class": "lightOrange-bg"
-            },
-            {
-              "title": "5670",
-              "class": "lightOrange-bg"
-            },
-            {
-              "title": "12058",
-              "class": "lightOrange-bg"
-            },
-            {
-              "title": "7924",
-              "class": "lightOrange-bg"
-            }
-          ]
         ]
       }
-
-
     ]
 
   },
@@ -1757,6 +1603,7 @@
     "type": "accordian-table",
     "note": ["a.Staff refers to all international staff, board staff (i.e., Director's Advisors), national staff, and administrative staff. The figures exclude Management, Board of Directors, and Secondees.", "b. Includes staff in outposted positions and in ADB's Philippines Country Office."],
     "heading": "Institutional Highlight",
+    "headingClass":"tableFiveHeading",
     "class":"tableFive",
     "data": [{
         "type": "main-title",
@@ -2293,110 +2140,61 @@
               "value3": "194",
               "value4": "105",
               "value5": "90"
-            }
+            },
+            {
+
+                "value0": "Annual Borrowings<sup>g</sup>",
+                "value1": "28593",
+                "value2": "23538",
+                "value3": "24613",
+                "value4": "35765",
+                "value5": "35761",
+                "class" :"title-row-bold dark-blue-bgcolor"
+              },
+              {
+                "value0": "of which",
+                "value1": "",
+                "value2": "",
+                "value3": "",
+                "value4": "",
+                "value5": ""
+              },
+              {
+                "value0": "Thematic Bonds",
+                "value1": "1662",
+                "value2": "1822",
+                "value3": "2657",
+                "value4": "1224",
+                "value5": "5087"
+              },
+              {
+                "value0": "Local Currency Funding<sup>h</sup>",
+                "value1": "744",
+                "value2": "535",
+                "value3": "764",
+                "value4": "930",
+                "value5": "880"
+              },
+              {
+                "value0": "Capital Utilization Ratio(%)<sup>i</sup>",
+                "value1": "56.0",
+                "value2": "54.6",
+                "value3": "62.1",
+                "value4": "69.1",
+                "value5": "74.0",
+                "class": "title-row-bold"
+              },
+              {
+                "value0": "Available Resources of Asian Development Fund Resources<sup>j</sup>",
+                "value1": "2067",
+                "value2": "1956",
+                "value3": "2498",
+                "value4": "2312",
+                "value5": "2322",
+                "class": "title-row-bold light-blue-bgcolor"
+              }
 
           ]
-        ]
-
-      },
-      {
-        "type": "expansion-panel",
-        "subTitle": [
-
-
-          {
-            "title": "Annual Borrowings<sup>g</sup>"
-          },
-          {
-            "title": ""
-          },
-          {
-            "title": "28593"
-          },
-          {
-            "title": "23538"
-          },
-          {
-            "title": "24613"
-          },
-          {
-            "title": "35765"
-          },
-          {
-            "title": "35761"
-          }
-        ],
-        "subData": [
-          [{
-              "value0": "of which",
-              "value1": "",
-              "value2": "",
-              "value3": "",
-              "value4": "",
-              "value5": ""
-            },
-            {
-              "value0": "Thematic Bonds",
-              "value1": "1662",
-              "value2": "1822",
-              "value3": "2657",
-              "value4": "1224",
-              "value5": "5087"
-            },
-            {
-              "value0": "Local Currency Funding<sup>h</sup>",
-              "value1": "744",
-              "value2": "535",
-              "value3": "764",
-              "value4": "930",
-              "value5": "880"
-            },
-            {
-              "value0": "Capital Utilization Ratio(%)<sup>i</sup>",
-              "value1": "56.0",
-              "value2": "54.6",
-              "value3": "62.1",
-              "value4": "69.1",
-              "value5": "74.0",
-              "class": "title-row-bold"
-            }
-
-
-          ]
-        ]
-
-      },
-      {
-        "type": "expansion-panel",
-        "subTitle": [{
-            "title": "Available Resources of Asian Development Fund Resources<sup>j</sup>",
-            "trClass":"light-blue-bgcolor-two"
-          },
-
-          {
-            "title": "",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "2067",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "1956",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "2498",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "2312",
-            "trClass":"light-blue-bgcolor-two"
-          },
-          {
-            "title": "2322",
-            "trClass":"light-blue-bgcolor-two"
-          }
         ]
 
       },

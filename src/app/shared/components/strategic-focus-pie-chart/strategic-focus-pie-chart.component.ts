@@ -105,9 +105,9 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit, O
 
             },
             plugins: [{
-                beforeDraw: () => {
-                    var width = chart.canvas.width,
-                        height = chart.canvas.height,
+                beforeDraw: (chart) => {
+                    var width = chart.chart.width,
+                        height = chart.chart.height,
                         ctx: any = chart.ctx
                     ctx.restore();
                     var fontSize = (height / 114).toFixed(2);
@@ -117,20 +117,20 @@ export class StrategicFocusPieChartComponent implements OnInit, AfterViewInit, O
                         var text = centerTxt.centerText,
                             textX = Math.round((width - ctx.measureText(text).width) / 2),
                             textY = height / 2;
-                            
-                            ctx.beginPath();
-                            ctx.arc(46, 46, 27, 0 * Math.PI, 2 * Math.PI);
-                            ctx.fillStyle = '#f2ae29';
-                            ctx.lineWidth = 0;
-                            ctx.fill();
-                            ctx.strokeStyle = '#FFFFFF';
-                            ctx.measureFontColor = "#FFFFFF";
-                            ctx.fillStyle = 'black';
-                            ctx.stroke();
-                            
-                            ctx.fillText(text, textX, textY);
-                            ctx.save();
-                        })
+
+                        ctx.beginPath();
+                        ctx.arc(40, 40, 27, 0 * Math.PI, 2 * Math.PI);
+                        ctx.fillStyle = '#f2ae29';
+                        ctx.lineWidth = 0;
+                        ctx.fill();
+                        ctx.strokeStyle = '#FFFFFF';
+                        ctx.measureFontColor = "#FFFFFF";
+                        ctx.fillStyle = 'black';
+                        ctx.stroke();
+
+                        ctx.fillText(text, textX, textY);
+                        ctx.save();
+                    })
                 }
             }]
 

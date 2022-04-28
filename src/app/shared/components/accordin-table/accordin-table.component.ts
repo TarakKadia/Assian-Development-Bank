@@ -14,6 +14,9 @@ export class AccordinTableComponent implements OnInit {
     @Input() note:any;
     @Input() class:any;
     @Input() trClass:any;
+    @Input() headingClass:any;
+
+    
 
 
     tableJsonData: Array<any> = [];
