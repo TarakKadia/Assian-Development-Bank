@@ -3586,8 +3586,6 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
 }
 
 @media screen and (max-width:639px){  
-    @supports (-webkit-appearance:none){
-
     .box.management .managementImageGrid img,
     .boardpics img {width: 33.33%;}
     .lineChartGrey{width: 100% !important;}  
@@ -3598,13 +3596,10 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
     .bookmark{font-size: 0;}
     .share{font-size: 0;padding-right: 28px;background-size: 25px;}
     app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 70px;max-height: 70px;}
-    }
   }
 
 
 @media screen and (max-width:479px){ 
-    @supports (-webkit-appearance:none){
-
     .financialgroup p.num, .financialgroup p.num span {font-size: 32px;} 
     .financialgroup p {line-height: 22px;}
     .smallgrid{flex-direction: column;}
@@ -3624,8 +3619,6 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
     .progress.op2 {
         width: 90% !important;
     }
-}
-
   }
 
   p.byline {
@@ -3805,10 +3798,8 @@ table.accordianTable tbody tr.fold > td table.fold-table tbody tr.financeProgram
 }
 
 @media screen and (max-width:1024px){
-    @supports (-webkit-appearance:none){
-        .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
-        .tableOne table,.tableTwo table,.tableThree table,.tableFour table,.tableFive table,.tableSix table,.tableseven table{width: 1050px !important;}
-    }
+  .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
+  .tableOne table,.tableTwo table,.tableThree table,.tableFour table,.tableFive table,.tableSix table,.tableseven table{width: 1050px !important;}
 }
 @media screen and (max-width: 767px) {
     .homegroup {overflow: auto;}
@@ -3816,26 +3807,20 @@ table.accordianTable tbody tr.fold > td table.fold-table tbody tr.financeProgram
 
 
 @media screen and (max-width:991px){
-    @supports (-webkit-appearance:none){
-
-        .box.management .managementImageGrid img {
-            width: 25%;
-            padding: 0 2px 4px;
-        }
-        app-strategic-focus-pie-chart {
-          width: 25%;
-          margin-bottom: 30px;
-      }
-      .appendixSix table.accordianTable,
-      .appendixSevenA table.accordianTable{width: 990px !important;}
+    .box.management .managementImageGrid img {
+        width: 25%;
+        padding: 0 2px 4px;
     }
+    app-strategic-focus-pie-chart {
+      width: 25%;
+      margin-bottom: 30px;
+  }
+  .appendixSix table.accordianTable,
+  .appendixSevenA table.accordianTable{width: 990px !important;}
 }
 
 @media screen and (max-width:850px){
-    @supports (-webkit-appearance:none){
-
-        .appendixFive.appendixThree table {width: 830px !important;}
-    }
+  .appendixFive.appendixThree table {width: 830px !important;}
 }
 
 
@@ -3991,4 +3976,65 @@ table.accordianTable thead tr th.lightOrange-bg { background-color: #dfedf7 !imp
         top: 0px;
     }
 
+    .tableOne table.accordianTable thead tr th.width-40 {
+        min-width: 199px;
+    }
+    
+    .tableFour table.accordianTable thead tr th.width-40 {
+        width: 290px !important;
+    }
+    
+    .tableFour table.accordianTable thead tr th.width-10 {
+        width: 214px;
+    }
+    .tableFive table.accordianTable thead tr th.width-40 {
+        width: 1442px !important;
+    }
+    .tableFive table.accordianTable thead tr th.width-10 {
+        width: 214px !important;
+    }
+    .tableSix table.accordianTable thead tr th.width-40 {
+        width: 1442px !important;
+    }
+    .tableSix table.accordianTable thead tr th.width-10 {
+        width: 255px !important;
+    }
+    .tableTwo table.accordianTable tbody tr td table.fold-table tbody tr td.width-10 {
+        width: 105px !important;
+    }
+}
+
+
+.tableOne table.accordianTable thead tr th.width-40 {
+    min-width: 199px;
+}
+
+.tableFour table.accordianTable thead tr th.width-40 {
+    width: 290px !important;
+}
+
+.tableFour table.accordianTable thead tr th.width-10 {
+    width: 90px;
+}
+.tableFive table.accordianTable thead tr th.width-40 {
+    width: 1442px !important;
+}
+.tableFive table.accordianTable thead tr th.width-10 {
+    width: 90px;
+}
+.tableSix table.accordianTable thead tr th.width-40 {
+    width: 1442px !important;
+}
+.tableSix table.accordianTable thead tr th.width-10 {
+    width: 222px;
+}
+
+.tableTwo table.accordianTable thead tr th.width-40 {
+    width: 1442px !important;
+}
+.tableTwo table.accordianTable thead tr th.width-10 {
+    width: 222px;
+}
+.tableTwo table.accordianTable tbody tr td table.fold-table tbody tr td.width-10{
+    width: 95px;
 }
