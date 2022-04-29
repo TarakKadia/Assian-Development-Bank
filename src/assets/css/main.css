@@ -3586,6 +3586,8 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
 }
 
 @media screen and (max-width:639px){  
+    @supports (-webkit-appearance:none){
+
     .box.management .managementImageGrid img,
     .boardpics img {width: 33.33%;}
     .lineChartGrey{width: 100% !important;}  
@@ -3596,10 +3598,13 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
     .bookmark{font-size: 0;}
     .share{font-size: 0;padding-right: 28px;background-size: 25px;}
     app-strategic-focus-pie-chart .chartjs-render-monitor {max-width: 70px;max-height: 70px;}
+    }
   }
 
 
 @media screen and (max-width:479px){ 
+    @supports (-webkit-appearance:none){
+
     .financialgroup p.num, .financialgroup p.num span {font-size: 32px;} 
     .financialgroup p {line-height: 22px;}
     .smallgrid{flex-direction: column;}
@@ -3619,6 +3624,8 @@ app-strategic-focus-pie-chart .chartjs-render-monitor {
     .progress.op2 {
         width: 90% !important;
     }
+}
+
   }
 
   p.byline {
@@ -3798,8 +3805,10 @@ table.accordianTable tbody tr.fold > td table.fold-table tbody tr.financeProgram
 }
 
 @media screen and (max-width:1024px){
-  .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
-  .tableOne table,.tableTwo table,.tableThree table,.tableFour table,.tableFive table,.tableSix table,.tableseven table{width: 1050px !important;}
+    @supports (-webkit-appearance:none){
+        .tableOne,.tableTwo,.tableThree,.tableFour,.tableFive,.tableSix,.tableseven{overflow-x: auto;padding-bottom: 10px;}
+        .tableOne table,.tableTwo table,.tableThree table,.tableFour table,.tableFive table,.tableSix table,.tableseven table{width: 1050px !important;}
+    }
 }
 @media screen and (max-width: 767px) {
     .homegroup {overflow: auto;}
@@ -3807,20 +3816,26 @@ table.accordianTable tbody tr.fold > td table.fold-table tbody tr.financeProgram
 
 
 @media screen and (max-width:991px){
-    .box.management .managementImageGrid img {
-        width: 25%;
-        padding: 0 2px 4px;
+    @supports (-webkit-appearance:none){
+
+        .box.management .managementImageGrid img {
+            width: 25%;
+            padding: 0 2px 4px;
+        }
+        app-strategic-focus-pie-chart {
+          width: 25%;
+          margin-bottom: 30px;
+      }
+      .appendixSix table.accordianTable,
+      .appendixSevenA table.accordianTable{width: 990px !important;}
     }
-    app-strategic-focus-pie-chart {
-      width: 25%;
-      margin-bottom: 30px;
-  }
-  .appendixSix table.accordianTable,
-  .appendixSevenA table.accordianTable{width: 990px !important;}
 }
 
 @media screen and (max-width:850px){
-  .appendixFive.appendixThree table {width: 830px !important;}
+    @supports (-webkit-appearance:none){
+
+        .appendixFive.appendixThree table {width: 830px !important;}
+    }
 }
 
 
